@@ -1,0 +1,246 @@
+[
+  {
+    "id": "srd:subclass:horizon-walker",
+    "kind": "subclass",
+    "name": "Horizon Walker",
+    "source": "srd",
+    "page": "XGE 42",
+    "class": "srd:class:ranger",
+    "tags": [
+      "ranger-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> You can't walk to the horizon, because it keeps on getting farther away. Boom! Did I just blow your mind? I did, didn't I?\n>\n> — Xanathar",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:horizon-walker:horizon-walker",
+          {
+            "id": "srd:spell:protection-from-evil-and-good",
+            "mode": "learned"
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          {
+            "id": "srd:spell:misty-step",
+            "mode": "learned"
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:horizon-walker:ethereal-step"
+        ]
+      },
+      "9": {
+        "grants": [
+          {
+            "id": "srd:spell:haste",
+            "mode": "learned"
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:horizon-walker:distant-strike"
+        ]
+      },
+      "13": {
+        "grants": [
+          {
+            "id": "srd:spell:banishment",
+            "mode": "learned"
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:horizon-walker:spectral-defense"
+        ]
+      },
+      "17": {
+        "grants": [
+          {
+            "id": "srd:spell:teleportation-circle",
+            "mode": "learned"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:horizon-walker:horizon-walker-magic",
+    "kind": "subclass-feature",
+    "name": "Horizon Walker Magic",
+    "source": "srd",
+    "page": "XGE 42",
+    "tags": [
+      "horizon-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Horizon Walker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.\n\n**Horizon Walker Spells**\n| Ranger Level | Spells |\n| --- | --- |\n| 3rd | protection from evil and good |\n| 5th | misty step |\n| 9th | haste |\n| 13th | banishment |\n| 17th | teleportation circle |"
+  },
+  {
+    "id": "srd:horizon-walker:detect-portal",
+    "kind": "subclass-feature",
+    "name": "Detect Portal",
+    "source": "srd",
+    "page": "XGE 42",
+    "tags": [
+      "horizon-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "At 3rd level, you gain the ability to magically sense the presence of a planar portal. As an action, you detect the distance and direction to the closest planar portal within 1 mile of you.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.\n\nSee the \"Planar Travel\" section in chapter 2 of the Dungeon Master's Guide for examples of planar portals.",
+    "resources": [
+      {
+        "id": "srd:horizon-walker:detect-portal",
+        "name": "Detect Portal",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "detect-portal",
+        "name": "Detect Portal",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:horizon-walker:detect-portal": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:horizon-walker:planar-warrior",
+    "kind": "subclass-feature",
+    "name": "Planar Warrior",
+    "source": "srd",
+    "page": "XGE 42",
+    "tags": [
+      "horizon-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "At 3rd level, you learn to draw on the energy of the multiverse to augment your attacks.\n\nAs a bonus action, choose one creature you can see within 30 feet of you. The next time you hit that creature on this turn with a weapon attack, all damage dealt by the attack becomes force damage, and the creature takes an extra 1d8 force damage from the attack. When you reach 11th level in this class, the extra damage increases to 2d8.",
+    "actions": [
+      {
+        "id": "planar-warrior",
+        "name": "Planar Warrior",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:horizon-walker:horizon-walker",
+    "kind": "subclass-feature",
+    "name": "Horizon Walker",
+    "source": "srd",
+    "page": "XGE 42",
+    "tags": [
+      "horizon-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse—especially benevolent dragons, fey, and elementals—that work to preserve life and the order of the planes.",
+    "grants": [
+      "srd:horizon-walker:horizon-walker-magic",
+      "srd:horizon-walker:detect-portal",
+      "srd:horizon-walker:planar-warrior"
+    ]
+  },
+  {
+    "id": "srd:horizon-walker:ethereal-step",
+    "kind": "subclass-feature",
+    "name": "Ethereal Step",
+    "source": "srd",
+    "page": "XGE 42",
+    "tags": [
+      "horizon-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "At 7th level, you learn to step through the Ethereal Plane. As a bonus action, you can cast the etherealness spell with this feature, without expending a spell slot, but the spell ends at the end of the current turn.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:horizon-walker:ethereal-step",
+        "name": "Ethereal Step",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "ethereal-step",
+        "name": "Ethereal Step",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:horizon-walker:ethereal-step": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:horizon-walker:distant-strike",
+    "kind": "subclass-feature",
+    "name": "Distant Strike",
+    "source": "srd",
+    "page": "XGE 42",
+    "tags": [
+      "horizon-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "At 11th level, you gain the ability to pass between the planes in the blink of an eye. When you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.\n\nIf you attack at least two different creatures with the action, you can make one additional attack with it against a third creature."
+  },
+  {
+    "id": "srd:horizon-walker:spectral-defense",
+    "kind": "subclass-feature",
+    "name": "Spectral Defense",
+    "source": "srd",
+    "page": "XGE 42",
+    "tags": [
+      "horizon-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "At 15th level, your ability to move between planes enables you to slip through the planar boundaries to lessen the harm done to you during battle. When you take damage from an attack, you can use your reaction to give yourself resistance to all of that attack's damage on this turn.",
+    "actions": [
+      {
+        "id": "spectral-defense",
+        "name": "Spectral Defense",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

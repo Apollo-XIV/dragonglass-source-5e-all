@@ -1,0 +1,168 @@
+[
+  {
+    "id": "srd24:subclass:trickery-domain",
+    "kind": "subclass",
+    "name": "Trickery Domain",
+    "source": "srd24",
+    "page": "XPHB 75",
+    "class": "srd24:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:trickery:trickery-domain",
+          "srd24:spell:charm-person",
+          "srd24:spell:disguise-self",
+          "srd24:spell:invisibility",
+          "srd24:spell:pass-without-trace"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:hypnotic-pattern",
+          "srd24:spell:nondetection"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:trickery:tricksters-transposition"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:spell:confusion",
+          "srd24:spell:dimension-door"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:dominate-person",
+          "srd24:spell:modify-memory"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:trickery:improved-duplicity"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:trickery:trickery-domain-spells",
+    "kind": "subclass-feature",
+    "name": "Trickery Domain Spells",
+    "source": "srd24",
+    "page": "XPHB 76",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Trickery Domain Spells table, you thereafter always have the listed spells prepared.\n\n**Trickery Domain Spells**\n| Cleric Level | Prepared Spells |\n| --- | --- |\n| 3 | Charm Person, Disguise Self, Invisibility, Pass without Trace |\n| 5 | Hypnotic Pattern, Nondetection |\n| 7 | Confusion, Dimension Door |\n| 9 | Dominate Person, Modify Memory |"
+  },
+  {
+    "id": "srd24:trickery:blessing-of-the-trickster",
+    "kind": "subclass-feature",
+    "name": "Blessing of the Trickster",
+    "source": "srd24",
+    "page": "XPHB 75",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "As a Magic action, you can choose yourself or a willing creature within 30 feet of yourself to have Advantage on Dexterity (Stealth) checks. This blessing lasts until you finish a Long Rest or you use this feature again.",
+    "actions": [
+      {
+        "id": "blessing-of-the-trickster",
+        "name": "Blessing of the Trickster",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:trickery:invoke-duplicity",
+    "kind": "subclass-feature",
+    "name": "Invoke Duplicity",
+    "source": "srd24",
+    "page": "XPHB 75",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "As a Bonus Action, you can expend one use of your Channel Divinity to create a perfect visual illusion of yourself in an unoccupied space you can see within 30 feet of yourself. The illusion is intangible and doesn't occupy its space. It lasts for 1 minute, but it ends early if you dismiss it (no action required) or have the Incapacitated condition. The illusion is animated and mimics your expressions and gestures. While it persists, you gain the following benefits.\n\n**Cast Spells.** You can cast spells as though you were in the illusion's space, but you must use your own senses.\n\n**Distract.** When both you and your illusion are within 5 feet of a creature that can see the illusion, you have Advantage on attack rolls against that creature, given how distracting the illusion is to the target.\n\n**Move.** As a Bonus Action, you can move the illusion up to 30 feet to an unoccupied space you can see that is within 120 feet of yourself.",
+    "actions": [
+      {
+        "id": "invoke-duplicity",
+        "name": "Invoke Duplicity",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "modifiers": [
+      {
+        "target": "attacks.all",
+        "op": "advantage",
+        "when": {
+          "text": "when both you and your illusion are within 5 feet of a creature that can see the illusion, against that creature"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:trickery:trickery-domain",
+    "kind": "subclass-feature",
+    "name": "Trickery Domain",
+    "source": "srd24",
+    "page": "XPHB 75",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "*Make Mischief and Challenge Authority*\n\nThe Trickery Domain offers magic of deception, illusion, and stealth. Clerics who wield this magic are a disruptive force in the world, puncturing pride, mocking tyrants, freeing captives, and flouting hollow traditions. They prefer subterfuge and pranks to direct confrontation.\n\nGods of trickery are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They embody the forces of change and social upheaval, and they're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Religious orders that operate in secret, especially those that seek to undermine oppressive governments or hierarchies, also draw on the power of the Trickery Domain.",
+    "grants": [
+      "srd24:trickery:trickery-domain-spells",
+      "srd24:trickery:blessing-of-the-trickster",
+      "srd24:trickery:invoke-duplicity"
+    ]
+  },
+  {
+    "id": "srd24:trickery:tricksters-transposition",
+    "kind": "subclass-feature",
+    "name": "Trickster's Transposition",
+    "source": "srd24",
+    "page": "XPHB 76",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "Whenever you take the Bonus Action to create or move the illusion of your Invoke Duplicity, you can teleport, swapping places with the illusion."
+  },
+  {
+    "id": "srd24:trickery:improved-duplicity",
+    "kind": "subclass-feature",
+    "name": "Improved Duplicity",
+    "source": "srd24",
+    "page": "XPHB 76",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "The illusion of your Invoke Duplicity has grown more powerful in the following ways.\n\n**Shared Distraction.** When you and your allies make attack rolls against a creature within 5 feet of the illusion, the attack rolls have Advantage.\n\n**Healing Illusion.** When the illusion ends, you or a creature of your choice within 5 feet of it regains a number of Hit Points equal to your Cleric level."
+  }
+]

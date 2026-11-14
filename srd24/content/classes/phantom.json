@@ -1,0 +1,195 @@
+[
+  {
+    "id": "srd24:subclass:phantom",
+    "kind": "subclass",
+    "name": "Phantom",
+    "source": "srd24",
+    "page": "RHW 21",
+    "class": "srd24:class:rogue",
+    "tags": [
+      "rogue-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:phantom:phantom"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:phantom:tokens-of-the-departed",
+          "srd24:phantom:voice-of-death"
+        ],
+        "innateSpells": [
+          {
+            "spell": "srd24:spell:speak-with-dead",
+            "ability": "dex",
+            "uses": 1,
+            "recharge": [
+              {
+                "on": "short-rest",
+                "amount": "all"
+              },
+              {
+                "on": "long-rest",
+                "amount": "all"
+              }
+            ]
+          }
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:phantom:ghost-walk"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:phantom:deaths-friend"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:phantom:wails-from-the-grave",
+    "kind": "subclass-feature",
+    "name": "Wails from the Grave",
+    "source": "srd24",
+    "page": "RHW 21",
+    "tags": [
+      "phantom-feature",
+      "rogue-feature"
+    ],
+    "text": "Immediately after you deal Sneak Attack damage to a creature on your turn, you can target a second creature that you can see within 30 feet of the first creature. Roll half the number of Sneak Attack damage dice for your level (round up), and the second creature takes Necrotic damage equal to the roll's total as wails of the dead sound around it.\n\nYou can use this feature a number of times equal to your Dexterity modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:phantom:wails-from-the-grave",
+        "name": "Wails from the Grave",
+        "max": "max(1, @abilities.dex.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "wails-from-the-grave",
+        "name": "Wails from the Grave",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:phantom:wails-from-the-grave": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:phantom:whispers-of-the-dead",
+    "kind": "subclass-feature",
+    "name": "Whispers of the Dead",
+    "source": "srd24",
+    "page": "RHW 21",
+    "tags": [
+      "phantom-feature",
+      "rogue-feature"
+    ],
+    "text": "Whenever you finish a Short or Long Rest, you can choose one skill or tool proficiency that you lack and gain it, as a ghostly presence shares its knowledge with you. You lose this proficiency when you use this benefit again to choose a different proficiency."
+  },
+  {
+    "id": "srd24:phantom:phantom",
+    "kind": "subclass-feature",
+    "name": "Phantom",
+    "source": "srd24",
+    "page": "RHW 21",
+    "tags": [
+      "phantom-feature",
+      "rogue-feature"
+    ],
+    "text": "*Embrace Death and Wield Ghostly Power*\n\nSome Rogues traverse the veil between life and death, shepherding opponents to the grave and slipping through the world as undetectable as a spirit. In these pursuits, a Rogue might discover a mystical connection to death itself. Such an individual becomes immersed in negative energy, infusing their strikes with deathly energy and stealing knowledge from souls who have passed on. Thieves' guilds value Rogues of this persuasion as highly effective information gatherers and spies.",
+    "grants": [
+      "srd24:phantom:wails-from-the-grave",
+      "srd24:phantom:whispers-of-the-dead"
+    ]
+  },
+  {
+    "id": "srd24:phantom:tokens-of-the-departed",
+    "kind": "subclass-feature",
+    "name": "Tokens of the Departed",
+    "source": "srd24",
+    "page": "RHW 22",
+    "tags": [
+      "phantom-feature",
+      "rogue-feature"
+    ],
+    "text": "The spirits of the dead are drawn to you, and echoes of their past lives magically manifest as strange curios with resonant power.\n\nYou gain two soul trinkets. A soul trinket is a Tiny object (the DM determines the trinket's form or has you roll on the Trinkets table in the Player's Handbook to generate it). If you move more than 30 feet from a trinket, the trinket immediately teleports to you, appearing somewhere on your person.\n\n**Using Soul Trinkets.** You can use soul trinkets in the following ways:\n\n- **Death's Knell.** When you deal Sneak Attack damage on your turn, you can destroy one soul trinket and immediately use Wails from the Grave without expending a use of that feature.\n- **Life Essence.** While you have at least one soul trinket, you have Advantage on Death Saving Throws and Constitution saving throws.\n- **Spirit Query.** You can take a Magic action to destroy one soul trinket and immediately cast the Augury spell, requiring no spell components and using Constitution as the spellcasting modifier. If you know the creature with which the trinket is associated, you can ask the creature's spirit one question instead of casting the spell. In this case, the spirit appears to you and answers as concisely as possible in a language it knew in life.\n\n**Gaining Additional Soul Trinkets.** When a creature you can see within 30 feet of you dies, you can take a Reaction to gain another soul trinket, claiming a sliver of that creature's departing spirit. The new trinket appears somewhere on your person.\n\nYou can have a maximum of two soul trinkets at a time. If you try to gain a soul trinket while at your maximum, one of your existing trinkets is immediately destroyed and replaced by the new trinket. The maximum number of soul trinkets you can have increases when you reach Rogue levels 13 (three trinkets) and 17 (four trinkets).\n\nWhenever you finish a Long Rest with fewer than two soul trinkets, you gain soul trinkets until you have two.",
+    "actions": [
+      {
+        "id": "tokens-of-the-departed",
+        "name": "Tokens of the Departed",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:phantom:voice-of-death",
+    "kind": "subclass-feature",
+    "name": "Voice of Death",
+    "source": "srd24",
+    "page": "RHW 22",
+    "tags": [
+      "phantom-feature",
+      "rogue-feature"
+    ],
+    "text": "You can cast Speak with Dead once without a spell slot, requiring no spell components and using Dexterity as the spellcasting modifier. You regain the ability to cast it this way when you finish a Short or Long Rest.\n\nWhen you cast the spell, you can target one of your soul trinkets from Tokens of the Departed instead of a corpse, allowing the spirit of the creature associated with the trinket to answer."
+  },
+  {
+    "id": "srd24:phantom:ghost-walk",
+    "kind": "subclass-feature",
+    "name": "Ghost Walk",
+    "source": "srd24",
+    "page": "RHW 23",
+    "tags": [
+      "phantom-feature",
+      "rogue-feature"
+    ],
+    "text": "As a Bonus Action, you assume a spectral form, gaining the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest unless you destroy one of your soul trinkets from Tokens of the Departed (no action required) to restore your use of it.\n\n**Flight.** You gain a Fly Speed of 10 feet and can hover.\n\n**Hazy Form.** Attack rolls have Disadvantage against you.\n\n**Incorporeal Movement.** You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object.",
+    "actions": [
+      {
+        "id": "ghost-walk",
+        "name": "Ghost Walk",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:phantom:deaths-friend",
+    "kind": "subclass-feature",
+    "name": "Death's Friend",
+    "source": "srd24",
+    "page": "RHW 23",
+    "tags": [
+      "phantom-feature",
+      "rogue-feature"
+    ],
+    "text": "Your association with death has become so close that you gain the following benefits.\n\n**Death's Lament.** When you use Wails from the Grave, you can deal the feature's Necrotic damage to both the first and the second creature.\n\n**Draw of Death.** When you roll Initiative, you gain one soul trinket for your Tokens of the Departed if you have none remaining."
+  }
+]

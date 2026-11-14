@@ -1,0 +1,159 @@
+[
+  {
+    "id": "srd:subclass:school-of-illusion",
+    "kind": "subclass",
+    "name": "School of Illusion",
+    "source": "srd",
+    "page": "PHB 118",
+    "class": "srd:class:wizard",
+    "tags": [
+      "wizard-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:spell:minor-illusion"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:illusion:school-of-illusion"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:illusion:malleable-illusions"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:illusion:illusory-self"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:illusion:illusory-reality"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:illusion:illusion-savant",
+    "kind": "subclass-feature",
+    "name": "Illusion Savant",
+    "source": "srd",
+    "page": "PHB 118",
+    "tags": [
+      "illusion-feature",
+      "wizard-feature"
+    ],
+    "text": "Beginning when you select this school at 2nd level, the gold and time you must spend to copy an illusion spell into your spellbook is halved."
+  },
+  {
+    "id": "srd:illusion:improved-minor-illusion",
+    "kind": "subclass-feature",
+    "name": "Improved Minor Illusion",
+    "source": "srd",
+    "page": "PHB 118",
+    "tags": [
+      "illusion-feature",
+      "wizard-feature"
+    ],
+    "text": "When you choose this school at 2nd level, you learn the minor illusion cantrip. If you already know this cantrip, you learn a different wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known.\n\nWhen you cast minor illusion, you can create both a sound and an image with a single casting of the spell."
+  },
+  {
+    "id": "srd:illusion:school-of-illusion",
+    "kind": "subclass-feature",
+    "name": "School of Illusion",
+    "source": "srd",
+    "page": "PHB 118",
+    "tags": [
+      "illusion-feature",
+      "wizard-feature"
+    ],
+    "text": "You focus your studies on magic that dazzles the senses, befuddles the mind, and tricks even the wisest folk. Your magic is subtle, but the illusions crafted by your keen mind make the impossible seem real. Some illusionists—including many gnome wizards—are benign tricksters who use their spells to entertain. Others are more sinister masters of deception, using their illusions to frighten and fool others for their personal gain.",
+    "grants": [
+      "srd:illusion:illusion-savant",
+      "srd:illusion:improved-minor-illusion"
+    ]
+  },
+  {
+    "id": "srd:illusion:malleable-illusions",
+    "kind": "subclass-feature",
+    "name": "Malleable Illusions",
+    "source": "srd",
+    "page": "PHB 118",
+    "tags": [
+      "illusion-feature",
+      "wizard-feature"
+    ],
+    "text": "Starting at 6th level, when you cast an illusion spell that has a duration of 1 minute or longer, you can use your action to change the nature of that illusion (using the spell's normal parameters for the illusion), provided that you can see the illusion.",
+    "actions": [
+      {
+        "id": "malleable-illusions",
+        "name": "Malleable Illusions",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:illusion:illusory-self",
+    "kind": "subclass-feature",
+    "name": "Illusory Self",
+    "source": "srd",
+    "page": "PHB 118",
+    "tags": [
+      "illusion-feature",
+      "wizard-feature"
+    ],
+    "text": "Beginning at 10th level, you can create an illusory duplicate of yourself as an instant, almost instinctual reaction to danger. When a creature makes an attack roll against you, you can use your reaction to interpose the illusory duplicate between the attacker and yourself. The attack automatically misses you, then the illusion dissipates.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:illusion:illusory-self",
+        "name": "Illusory Self",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "illusory-self",
+        "name": "Illusory Self",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:illusion:illusory-self": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:illusion:illusory-reality",
+    "kind": "subclass-feature",
+    "name": "Illusory Reality",
+    "source": "srd",
+    "page": "PHB 118",
+    "tags": [
+      "illusion-feature",
+      "wizard-feature"
+    ],
+    "text": "By 14th level, you have learned the secret of weaving shadow magic into your illusions to give them a semi-reality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.\n\nThe object can't deal damage or otherwise directly harm anyone."
+  }
+]

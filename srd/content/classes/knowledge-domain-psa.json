@@ -1,0 +1,89 @@
+[
+  {
+    "id": "srd:subclass:knowledge-domain-psa",
+    "kind": "subclass",
+    "name": "Knowledge Domain (PSA)",
+    "source": "srd",
+    "page": "PSA 25",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:knowledge-psa:knowledge-domain-psa",
+          "srd:spell:command",
+          "srd:spell:identify"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:augury",
+          "srd:spell:suggestion"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:nondetection",
+          "srd:spell:speak-with-dead"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:arcane-eye",
+          "srd:spell:confusion"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:legend-lore",
+          "srd:spell:scrying"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:knowledge-psa:blessings-of-knowledge",
+    "kind": "subclass-feature",
+    "name": "Blessings of Knowledge",
+    "source": "srd",
+    "page": "PHB 59",
+    "tags": [
+      "knowledge-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.\n\nYour proficiency bonus is doubled for any ability check you make that uses either of those skills."
+  },
+  {
+    "id": "srd:knowledge-psa:knowledge-domain",
+    "kind": "subclass-feature",
+    "name": "Knowledge Domain",
+    "source": "srd",
+    "page": "PHB 59",
+    "tags": [
+      "knowledge-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Knowledge Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | command, identify |\n| 3rd | augury, suggestion |\n| 5th | nondetection, speak with dead |\n| 7th | arcane eye, confusion |\n| 9th | legend lore, scrying |",
+    "grants": [
+      "srd:knowledge-psa:blessings-of-knowledge"
+    ]
+  },
+  {
+    "id": "srd:knowledge-psa:knowledge-domain-psa",
+    "kind": "subclass-feature",
+    "name": "Knowledge Domain (PSA)",
+    "source": "srd",
+    "page": "PSA 25",
+    "tags": [
+      "knowledge-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "> The worthy shall cultivate a nimble mind that can perceive the wonders beyond imagination that wait in the afterlife.\n\nKefnet's task is to pass on this teaching of the God-Pharaoh and elucidate its meaning. He teaches that the afterlife will be inhabited only by those who have proved by their wits that they are worthy of dwelling in the glorious presence of the God-Pharaoh. He trains acolytes and initiates to push their limits and challenge their mental capacity with spells of ever-greater power.\n\nKefnet's domain is identical to the Knowledge domain in the Player's Handbook.",
+    "grants": [
+      "srd:knowledge-psa:knowledge-domain"
+    ]
+  }
+]

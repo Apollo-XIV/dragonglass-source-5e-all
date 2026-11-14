@@ -1,0 +1,257 @@
+[
+  {
+    "id": "srd:subclass:forge-domain",
+    "kind": "subclass",
+    "name": "Forge Domain",
+    "source": "srd",
+    "page": "XGE 18",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> I've got a minion that forges things. An ink-stained little twerp with excellent penmanship. So how do the hammers and fire help the process? Wouldn't the paper get burned? Oh, the fire must be for the wax seals!\n>\n> — Xanathar",
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:forge:forge-domain",
+          "srd:spell:identify",
+          "srd:spell:searing-smite"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:forge:channel-divinity-artisans-blessing"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:heat-metal",
+          "srd:spell:magic-weapon"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:elemental-weapon",
+          "srd:spell:protection-from-energy"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:forge:soul-of-the-forge"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:fabricate",
+          "srd:spell:wall-of-fire"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:forge:divine-strike",
+          "srd:forge:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:animate-objects",
+          "srd:spell:creation"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:forge:saint-of-forge-and-fire"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:forge:bonus-proficiency",
+    "kind": "subclass-feature",
+    "name": "Bonus Proficiency",
+    "source": "srd",
+    "page": "XGE 18",
+    "tags": [
+      "forge-feature",
+      "cleric-feature"
+    ],
+    "text": "When you choose this domain at 1st level, you gain proficiency with heavy armor and smith's tools.",
+    "modifiers": [
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "heavy armor"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "smith's tools"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:forge:blessing-of-the-forge",
+    "kind": "subclass-feature",
+    "name": "Blessing of the Forge",
+    "source": "srd",
+    "page": "XGE 18",
+    "tags": [
+      "forge-feature",
+      "cleric-feature"
+    ],
+    "text": "At 1st level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if it's armor or a +1 bonus to attack and damage rolls if it's a weapon.\n\nOnce you use this feature, you can't use it again until you finish a long rest."
+  },
+  {
+    "id": "srd:forge:forge-domain",
+    "kind": "subclass-feature",
+    "name": "Forge Domain",
+    "source": "srd",
+    "page": "XGE 18",
+    "tags": [
+      "forge-feature",
+      "cleric-feature"
+    ],
+    "text": "The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object. Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Forge Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | identify, searing smite |\n| 3rd | heat metal, magic weapon |\n| 5th | elemental weapon, protection from energy |\n| 7th | fabricate, wall of fire |\n| 9th | animate objects, creation |",
+    "grants": [
+      "srd:forge:bonus-proficiency",
+      "srd:forge:blessing-of-the-forge"
+    ]
+  },
+  {
+    "id": "srd:forge:channel-divinity-artisans-blessing",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Artisan's Blessing",
+    "source": "srd",
+    "page": "XGE 18",
+    "tags": [
+      "forge-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to create simple items.\n\nYou conduct an hour-long ritual that crafts a nonmagical item that must include some metal: a simple or martial weapon, a suit of armor, ten pieces of ammunition, a set of tools, or another metal object (see chapter 5, \"Equipment,\" in the Player's Handbook for examples of these items). The creation is completed at the end of the hour, coalescing in an unoccupied space of your choice on a surface within 5 feet of you.\n\nThe thing you create can be something that is worth no more than 100 gp. As part of this ritual, you must lay out metal, which can include coins, with a value equal to the creation. The metal irretrievably coalesces and transforms into the creation at the ritual's end, magically forming even nonmetal parts of the creation. The ritual can create a duplicate of a nonmagical item that contains metal, such as a key, if you possess the original during the ritual.",
+    "actions": [
+      {
+        "id": "channel-divinity-artisans-blessing",
+        "name": "Channel Divinity: Artisan's Blessing",
+        "activation": "special",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:forge:soul-of-the-forge",
+    "kind": "subclass-feature",
+    "name": "Soul of the Forge",
+    "source": "srd",
+    "page": "XGE 18",
+    "tags": [
+      "forge-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 6th level, your mastery of the forge grants you special abilities:\n\n- You gain resistance to fire damage.\n- While wearing heavy armor, you gain a +1 bonus to AC.",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "fire"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "ac",
+        "op": "add",
+        "value": 1,
+        "when": {
+          "text": "While wearing heavy armor"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:forge:divine-strike",
+    "kind": "subclass-feature",
+    "name": "Divine Strike",
+    "source": "srd",
+    "page": "XGE 18",
+    "tags": [
+      "forge-feature",
+      "cleric-feature"
+    ],
+    "text": "At 8th level, you gain the ability to infuse your weapon strikes with the fiery power of the forge. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 fire damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+  },
+  {
+    "id": "srd:forge:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "forge-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Divine Strike feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:forge:saint-of-forge-and-fire",
+    "kind": "subclass-feature",
+    "name": "Saint of Forge and Fire",
+    "source": "srd",
+    "page": "XGE 18",
+    "tags": [
+      "forge-feature",
+      "cleric-feature"
+    ],
+    "text": "At 17th level, your blessed affinity with fire and metal becomes more powerful:\n\n- You gain immunity to fire damage,\n- While wearing heavy armor, you have resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks.",
+    "modifiers": [
+      {
+        "target": "immunities",
+        "op": "include",
+        "value": [
+          "fire"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "bludgeoning",
+          "piercing",
+          "slashing"
+        ],
+        "when": {
+          "text": "While wearing heavy armor, from nonmagical attacks"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

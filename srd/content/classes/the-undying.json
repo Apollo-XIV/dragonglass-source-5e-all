@@ -1,0 +1,179 @@
+[
+  {
+    "id": "srd:subclass:the-undying",
+    "kind": "subclass",
+    "name": "The Undying",
+    "source": "srd",
+    "page": "SCAG 139",
+    "class": "srd:class:warlock",
+    "tags": [
+      "warlock-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:undying:the-undying",
+          "srd:spell:spare-the-dying"
+        ],
+        "spellListAdditions": [
+          {
+            "class": "srd:class:warlock",
+            "spells": [
+              "srd:spell:false-life",
+              "srd:spell:ray-of-sickness",
+              "srd:spell:blindness-deafness",
+              "srd:spell:silence",
+              "srd:spell:feign-death",
+              "srd:spell:speak-with-dead",
+              "srd:spell:aura-of-life",
+              "srd:spell:death-ward",
+              "srd:spell:contagion",
+              "srd:spell:legend-lore"
+            ]
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:undying:defy-death"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:undying:undying-nature"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:undying:indestructible-life"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:undying:among-the-dead",
+    "kind": "subclass-feature",
+    "name": "Among the Dead",
+    "source": "srd",
+    "page": "SCAG 139",
+    "tags": [
+      "undying-feature",
+      "warlock-feature"
+    ],
+    "text": "Starting at 1st level, you learn the spare the dying cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.\n\nAdditionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a successful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell."
+  },
+  {
+    "id": "srd:undying:the-undying",
+    "kind": "subclass-feature",
+    "name": "The Undying",
+    "source": "srd",
+    "page": "SCAG 139",
+    "tags": [
+      "undying-feature",
+      "warlock-feature"
+    ],
+    "text": "Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize—like all power—comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantilus.\n\nIn the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.\n\n**Expanded Spell List.** The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Undying Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | false life, ray of sickness |\n| 2nd | blindness/deafness, silence |\n| 3rd | feign death, speak with dead |\n| 4th | aura of life, death ward |\n| 5th | contagion, legend lore |",
+    "grants": [
+      "srd:undying:among-the-dead"
+    ]
+  },
+  {
+    "id": "srd:undying:defy-death",
+    "kind": "subclass-feature",
+    "name": "Defy Death",
+    "source": "srd",
+    "page": "SCAG 139",
+    "tags": [
+      "undying-feature",
+      "warlock-feature"
+    ],
+    "text": "Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you stabilize a creature with spare the dying.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:undying:defy-death",
+        "name": "Defy Death",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "defy-death",
+        "name": "Defy Death",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:undying:defy-death": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:undying:undying-nature",
+    "kind": "subclass-feature",
+    "name": "Undying Nature",
+    "source": "srd",
+    "page": "SCAG 139",
+    "tags": [
+      "undying-feature",
+      "warlock-feature"
+    ],
+    "text": "Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests.\n\nIn addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged."
+  },
+  {
+    "id": "srd:undying:indestructible-life",
+    "kind": "subclass-feature",
+    "name": "Indestructible Life",
+    "source": "srd",
+    "page": "SCAG 139",
+    "tags": [
+      "undying-feature",
+      "warlock-feature"
+    ],
+    "text": "When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:undying:indestructible-life",
+        "name": "Indestructible Life",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "indestructible-life",
+        "name": "Indestructible Life",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:undying:indestructible-life": 1
+        }
+      }
+    ]
+  }
+]

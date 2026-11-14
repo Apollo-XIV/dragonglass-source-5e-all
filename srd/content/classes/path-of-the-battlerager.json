@@ -1,0 +1,123 @@
+[
+  {
+    "id": "srd:subclass:path-of-the-battlerager",
+    "kind": "subclass",
+    "name": "Path of the Battlerager",
+    "source": "srd",
+    "page": "SCAG 121",
+    "class": "srd:class:barbarian",
+    "tags": [
+      "barbarian-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:battlerager:path-of-the-battlerager"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:battlerager:reckless-abandon"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:battlerager:battlerager-charge"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:battlerager:spiked-retribution"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:battlerager:restriction-dwarves-only",
+    "kind": "subclass-feature",
+    "name": "Restriction—Dwarves Only",
+    "source": "srd",
+    "page": "SCAG 121",
+    "tags": [
+      "battlerager-feature",
+      "barbarian-feature"
+    ],
+    "text": "Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.\n\nYour DM can lift this restriction to better suit the campaign. The restriction exists for the Forgotten Realms. It might not apply to your DM's setting or your DM's version of the Realms."
+  },
+  {
+    "id": "srd:battlerager:battlerager-armor",
+    "kind": "subclass-feature",
+    "name": "Battlerager Armor",
+    "source": "srd",
+    "page": "SCAG 121",
+    "tags": [
+      "battlerager-feature",
+      "barbarian-feature"
+    ],
+    "text": "When you choose this path at 3rd level, you gain the ability to use spiked armor as a weapon.\n\nWhile you are wearing spiked armor and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier for the attack and damage rolls.\n\nAdditionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds.",
+    "actions": [
+      {
+        "id": "battlerager-armor",
+        "name": "Battlerager Armor",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:battlerager:path-of-the-battlerager",
+    "kind": "subclass-feature",
+    "name": "Path of the Battlerager",
+    "source": "srd",
+    "page": "SCAG 121",
+    "tags": [
+      "battlerager-feature",
+      "barbarian-feature"
+    ],
+    "text": "Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
+    "grants": [
+      "srd:battlerager:restriction-dwarves-only",
+      "srd:battlerager:battlerager-armor"
+    ]
+  },
+  {
+    "id": "srd:battlerager:reckless-abandon",
+    "kind": "subclass-feature",
+    "name": "Reckless Abandon",
+    "source": "srd",
+    "page": "SCAG 121",
+    "tags": [
+      "battlerager-feature",
+      "barbarian-feature"
+    ],
+    "text": "Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). They vanish if any of them are left when your rage ends."
+  },
+  {
+    "id": "srd:battlerager:battlerager-charge",
+    "kind": "subclass-feature",
+    "name": "Battlerager Charge",
+    "source": "srd",
+    "page": "SCAG 121",
+    "tags": [
+      "battlerager-feature",
+      "barbarian-feature"
+    ],
+    "text": "Beginning at 10th level, you can take the Dash action as a bonus action while you are raging."
+  },
+  {
+    "id": "srd:battlerager:spiked-retribution",
+    "kind": "subclass-feature",
+    "name": "Spiked Retribution",
+    "source": "srd",
+    "page": "SCAG 121",
+    "tags": [
+      "battlerager-feature",
+      "barbarian-feature"
+    ],
+    "text": "Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor."
+  }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "srd:subclass:rune-knight",
+    "kind": "subclass",
+    "name": "Rune Knight",
+    "source": "srd",
+    "page": "TCE 44",
+    "class": "srd:class:fighter",
+    "tags": [
+      "fighter-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:rune-knight:rune-knight"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:rune-knight:runes-3",
+            "name": "Runes",
+            "count": 2,
+            "from": {
+              "kind": "rune",
+              "tags": [
+                "rune-knight-rune"
+              ]
+            }
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:rune-knight:runic-shield",
+          "srd:rune-knight:additional-rune-known"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:rune-knight:runes-7",
+            "name": "Runes",
+            "count": 1,
+            "from": {
+              "kind": "rune",
+              "tags": [
+                "rune-knight-rune"
+              ]
+            }
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:rune-knight:great-stature",
+          "srd:rune-knight:additional-rune-known-10"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:rune-knight:runes-10",
+            "name": "Runes",
+            "count": 1,
+            "from": {
+              "kind": "rune",
+              "tags": [
+                "rune-knight-rune"
+              ]
+            }
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:rune-knight:master-of-runes",
+          "srd:rune-knight:additional-rune-known-15"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:rune-knight:runes-15",
+            "name": "Runes",
+            "count": 1,
+            "from": {
+              "kind": "rune",
+              "tags": [
+                "rune-knight-rune"
+              ]
+            }
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd:rune-knight:runic-juggernaut"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:rune-knight:bonus-proficiencies",
+    "kind": "subclass-feature",
+    "name": "Bonus Proficiencies",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*3rd-level Rune Knight feature*\n\nYou gain proficiency with smith's tools, and you learn to speak, read, and write Giant.",
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "smith's tools"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "giant"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:rune-knight:rune-carver",
+    "kind": "subclass-feature",
+    "name": "Rune Carver",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*3rd-level Rune Knight feature*\n\nYou can use magic runes to enhance your gear. You learn two runes of your choice, from among the runes described below, and each time you gain a level in this class, you can replace one rune you know with a different one from this feature. When you reach certain levels in this class, you learn additional runes, as shown in the Runes Known table.\n\nWhenever you finish a long rest, you can touch a number of objects equal to the number of runes you know, and you inscribe a different rune onto each of the objects. To be eligible, an object must be a weapon, a suit of armor, a shield, a piece of jewelry, or something else you can wear or hold in a hand. Your rune remains on an object until you finish a long rest, and an object can bear only one of your runes at a time.\n\n**Runes Known**\n| Fighter Level | Number of Runes |\n| --- | --- |\n| 3rd | 2 |\n| 7th | 3 |\n| 10th | 4 |\n| 15th | 5 |\n\nThe following runes are available to you when you learn a rune. If a rune has a level requirement, you must be at least that level in this class to learn the rune. If a rune requires a saving throw, your Rune Magic save DC equals 8 + your proficiency bonus + your Constitution modifier."
+  },
+  {
+    "id": "srd:rune-knight:giants-might",
+    "kind": "subclass-feature",
+    "name": "Giant's Might",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*3rd-level Rune Knight feature*\n\nYou have learned how to imbue yourself with the might of giants. As a bonus action, you magically gain the following benefits, which last for 1 minute:\n\n- If you are smaller than Large, you become Large, along with anything you are wearing. If you lack the room to become Large, your size doesn't change.\n- You have advantage on Strength checks and Strength saving throws.\n- Once on each of your turns, one of your attacks with a weapon or an unarmed strike can deal an extra 1d6 damage to a target on a hit.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses of it when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:rune-knight:giants-might",
+        "name": "Giant's Might",
+        "max": "@prof",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "giants-might",
+        "name": "Giant's Might",
+        "activation": "bonus-action",
+        "cost": {
+          "srd:rune-knight:giants-might": 1
+        },
+        "applies": "giants-might",
+        "duration": "1 minute",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "id": "giants-might",
+        "name": "Giant's Might",
+        "duration": "1 minute",
+        "modifiers": [
+          {
+            "target": "checks.str",
+            "op": "advantage"
+          },
+          {
+            "target": "saves.str",
+            "op": "advantage"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:rune-knight:rune-knight",
+    "kind": "subclass-feature",
+    "name": "Rune Knight",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant's craft and learned how to apply magic runes to empower your equipment.",
+    "grants": [
+      "srd:rune-knight:bonus-proficiencies",
+      "srd:rune-knight:rune-carver",
+      "srd:rune-knight:giants-might"
+    ]
+  },
+  {
+    "id": "srd:rune-knight:runic-shield",
+    "kind": "subclass-feature",
+    "name": "Runic Shield",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*7th-level Rune Knight feature*\n\nYou learn to invoke your rune magic to protect your allies. When another creature you can see within 60 feet of you is hit by an attack roll, you can use your reaction to force the attacker to reroll the d20 and use the new roll.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:rune-knight:runic-shield",
+        "name": "Runic Shield",
+        "max": "@prof",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "runic-shield",
+        "name": "Runic Shield",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:rune-knight:runic-shield": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:rune-knight:additional-rune-known",
+    "kind": "subclass-feature",
+    "name": "Additional Rune Known",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*7th-level Rune Knight feature*\n\nYou learn an additional Rune."
+  },
+  {
+    "id": "srd:rune-knight:great-stature",
+    "kind": "subclass-feature",
+    "name": "Great Stature",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*10th-level Rune Knight feature*\n\nThe magic of your runes permanently alters you. When you gain this feature, roll 3d4. You grow a number of inches in height equal to the roll.\n\nMoreover, the extra damage you deal with your Giant's Might feature increases to 1d8."
+  },
+  {
+    "id": "srd:rune-knight:additional-rune-known-10",
+    "kind": "subclass-feature",
+    "name": "Additional Rune Known",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*10th-level Rune Knight feature*\n\nYou learn an additional Rune."
+  },
+  {
+    "id": "srd:rune-knight:master-of-runes",
+    "kind": "subclass-feature",
+    "name": "Master of Runes",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*15th-level Rune Knight feature*\n\nYou can invoke each rune you know from your Rune Carver feature twice, rather than once, and you regain all expended uses when you finish a short or long rest."
+  },
+  {
+    "id": "srd:rune-knight:additional-rune-known-15",
+    "kind": "subclass-feature",
+    "name": "Additional Rune Known",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*15th-level Rune Knight feature*\n\nYou learn an additional Rune."
+  },
+  {
+    "id": "srd:rune-knight:runic-juggernaut",
+    "kind": "subclass-feature",
+    "name": "Runic Juggernaut",
+    "source": "srd",
+    "page": "TCE 44",
+    "tags": [
+      "rune-knight-feature",
+      "fighter-feature"
+    ],
+    "text": "*18th-level Rune Knight feature*\n\nYou learn how to amplify your rune-powered transformation. As a result, the extra damage you deal with the Giant's Might feature increases to 1d10. Moreover, when you use that feature, your size can increase to Huge, and while you are that size, your reach increases by 5 feet."
+  }
+]

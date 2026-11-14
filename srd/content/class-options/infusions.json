@@ -1,0 +1,272 @@
+[
+  {
+    "id": "srd:infusion:arcane-propulsion-armor",
+    "kind": "infusion",
+    "name": "Arcane Propulsion Armor",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "The wearer of this armor gains these benefits:\n\n- The wearer's walking speed increases by 5 feet.\n- The armor includes gauntlets, each of which is a magic melee weapon that can be wielded only when the hand is holding nothing. The wearer is proficient with the gauntlets, and each one deals 1d8 force damage on a hit and has the thrown property, with a normal range of 20 feet and a long range of 60 feet. When thrown, the gauntlet detaches and flies at the attack's target, then immediately returns to the wearer and reattaches.\n- The armor can't be removed against the wearer's will.\n- If the wearer is missing any limbs, the armor replaces those limbs—hands, arms, feet, legs, or similar appendages. The replacements function identically to the body parts they replace.",
+    "page": "TCE 20",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "artificer",
+          "min": 14
+        }
+      ],
+      "text": "A suit of armor (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:armor-of-magical-strength",
+    "kind": "infusion",
+    "name": "Armor of Magical Strength",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "This armor has 6 charges. The wearer can expend the armor's charges in the following ways:\n\n- When the wearer makes a Strength check or a Strength saving throw, it can expend 1 charge to add a bonus to the roll equal to its Intelligence modifier.\n- If the creature would be knocked prone, it can use its reaction to expend 1 charge to avoid being knocked prone.\n\nThe armor regains 1d6 expended charges daily at dawn.",
+    "page": "TCE 20",
+    "requires": {
+      "text": "A suit of armor (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:boots-of-the-winding-path",
+    "kind": "infusion",
+    "name": "Boots of the Winding Path",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "While wearing these boots, a creature can teleport up to 15 feet as a bonus action to an unoccupied space the creature can see. The creature must have occupied that space at some point during the current turn.",
+    "page": "TCE 21",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "artificer",
+          "min": 6
+        }
+      ],
+      "text": "A pair of boots (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:enhanced-arcane-focus",
+    "kind": "infusion",
+    "name": "Enhanced Arcane Focus",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "While holding this item, a creature gains a +1 bonus to spell attack rolls. In addition, the creature ignores half cover when making a spell attack.\n\nThe bonus increases to +2 when you reach 10th level in this class.",
+    "page": "TCE 21",
+    "requires": {
+      "text": "A rod, staff, or wand (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:enhanced-defense",
+    "kind": "infusion",
+    "name": "Enhanced Defense",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "A creature gains a +1 bonus to Armor Class while wearing (armor) or wielding (shield) the infused item.\n\nThe bonus increases to +2 when you reach 10th level in this class.",
+    "page": "TCE 21",
+    "requires": {
+      "text": "A suit of armor or a shield"
+    }
+  },
+  {
+    "id": "srd:infusion:enhanced-weapon",
+    "kind": "infusion",
+    "name": "Enhanced Weapon",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "This magic weapon grants a +1 bonus to attack and damage rolls made with it.\n\nThe bonus increases to +2 when you reach 10th level in this class.",
+    "page": "TCE 21",
+    "requires": {
+      "text": "A simple or martial weapon"
+    }
+  },
+  {
+    "id": "srd:infusion:helm-of-awareness",
+    "kind": "infusion",
+    "name": "Helm of Awareness",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "While wearing this helmet, a creature has advantage on initiative rolls. In addition, the wearer can't be surprised, provided it isn't incapacitated.",
+    "page": "TCE 21",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "artificer",
+          "min": 10
+        }
+      ],
+      "text": "A helmet (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:homunculus-servant",
+    "kind": "infusion",
+    "name": "Homunculus Servant",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "You learn intricate methods for magically creating a special homunculus that serves you. The item you infuse serves as the creature's heart, around which the creature's body instantly forms.\n\nYou determine the homunculus's appearance. Some artificers prefer mechanical-looking birds, whereas some like winged vials or miniature, animate cauldrons.\n\nThe homunculus is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the Homunculus Servant stat block, which uses your proficiency bonus (PB) in several places.\n\nIn combat, the homunculus shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the homunculus can take any action of its choice, not just Dodge.\n\nThe homunculus regains 2d6 hit points if the mending spell is cast on it. If you or the homunculus dies, it vanishes, leaving its heart in its space.",
+    "page": "TCE 21",
+    "requires": {
+      "text": "A gem or crystal worth at least 100 gp"
+    }
+  },
+  {
+    "id": "srd:infusion:mind-sharpener",
+    "kind": "infusion",
+    "name": "Mind Sharpener",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "The infused item can send a jolt to the wearer to refocus their mind. The item has 4 charges. When the wearer fails a Constitution saving throw to maintain concentration on a spell, the wearer can use its reaction to expend 1 of the item's charges to succeed instead. The item regains 1d4 expended charges daily at dawn.",
+    "page": "TCE 22",
+    "requires": {
+      "text": "A suit of armor or robes"
+    }
+  },
+  {
+    "id": "srd:infusion:radiant-weapon",
+    "kind": "infusion",
+    "name": "Radiant Weapon",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "This magic weapon grants a +1 bonus to attack and damage rolls made with it. While holding it, the wielder can take a bonus action to cause it to shed bright light in a 30-foot radius and dim light for an additional 30 feet. The wielder can extinguish the light as a bonus action.\n\nThe weapon has 4 charges. As a reaction immediately after being hit by an attack, the wielder can expend 1 charge and cause the attacker to be blinded until the end of the attacker's next turn, unless the attacker succeeds on a Constitution saving throw against your spell save DC. The weapon regains 1d4 expended charges daily at dawn.",
+    "page": "TCE 22",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "artificer",
+          "min": 6
+        }
+      ],
+      "text": "A simple or martial weapon (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:repeating-shot",
+    "kind": "infusion",
+    "name": "Repeating Shot",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "This magic weapon grants a +1 bonus to attack and damage rolls made with it when it's used to make a ranged attack, and it ignores the loading property if it has it.\n\nIf the weapon lacks ammunition, it produces its own, automatically creating one piece of magic ammunition when the wielder makes a ranged attack with it. The ammunition created by the weapon vanishes the instant after it hits or misses a target.",
+    "page": "TCE 22",
+    "requires": {
+      "text": "A simple or martial weapon with the ammunition property (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:replicate-magic-item",
+    "kind": "infusion",
+    "name": "Replicate Magic Item",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "Using this infusion, you replicate a particular magic item. You can learn this infusion multiple times; each time you do so, choose a magic item that you can make with it, picking from the Replicable Items tables below. A table's title tells you the level you must be in the class to choose an item from the table. Alternatively, you can choose the magic item from among the common magic items in the game, not including potions or scrolls.\n\nIn the tables, an item's entry tells you whether the item requires attunement. See the item's description in the Dungeon Master's Guide for more information about it, including the type of object required for its making.\n\n**Replicable Items (2nd-Level Artificer)**\n| Magic Item | Attunement |\n| --- | --- |\n| Alchemy jug | No |\n| Bag of holding | No |\n| Cap of water breathing | No |\n| Goggles of night | No |\n| Rope of climbing | No |\n| Sending stones | No |\n| Wand of magic detection | No |\n| Wand of secrets | No |\n\n**Replicable Items (6th-Level Artificer)**\n| Magic Item | Attunement |\n| --- | --- |\n| Boots of elvenkind | No |\n| Cloak of elvenkind | Yes |\n| Cloak of the manta ray | No |\n| Eyes of charming | Yes |\n| Gloves of thievery | No |\n| Lantern of revealing | No |\n| Pipes of haunting | No |\n| Ring of water walking | No |\n\n**Replicable Items (10th-Level Artificer)**\n| Magic Item | Attunement |\n| --- | --- |\n| Boots of striding and springing | Yes |\n| Boots of the Winterlands | Yes |\n| Bracers of archery | Yes |\n| Brooch of shielding | Yes |\n| Cloak of protection | Yes |\n| Eyes of the eagle | Yes |\n| Gauntlets of ogre power | Yes |\n| Gloves of missile snaring | Yes |\n| Gloves of swimming and climbing | Yes |\n| Hat of disguise | Yes |\n| Headband of intellect | Yes |\n| Helm of telepathy | Yes |\n| Medallion of thoughts | Yes |\n| Necklace of adaptation | Yes |\n| Periapt of wound closure | Yes |\n| Pipes of the sewers | Yes |\n| Quiver of Ehlonna | No |\n| Ring of jumping | Yes |\n| Ring of mind shielding | Yes |\n| Slippers of spider climbing | Yes |\n| Ventilating lungs (detailed in chapter 5) | Yes |\n| Winged boots | Yes |\n\n**Replicable Items (14th-Level Artificer)**\n| Magic Item | Attunement |\n| --- | --- |\n| Amulet of health | Yes |\n| Arcane propulsion arm (detailed in chapter 5) | Yes |\n| Belt of hill giant strength | Yes |\n| Boots of levitation | Yes |\n| Boots of speed | Yes |\n| Bracers of defense | Yes |\n| Cloak of the bat | Yes |\n| Dimensional shackles | No |\n| Gem of seeing | Yes |\n| Horn of blasting | No |\n| Ring of free action | Yes |\n| Ring of protection | Yes |\n| Ring of the ram | Yes |",
+    "page": "TCE 22"
+  },
+  {
+    "id": "srd:infusion:repulsion-shield",
+    "kind": "infusion",
+    "name": "Repulsion Shield",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "A creature gains a +1 bonus to Armor Class while wielding this shield.\n\nThe shield has 4 charges. While holding it, the wielder can use a reaction immediately after being hit by a melee attack to expend 1 of the shield's charges and push the attacker up to 15 feet away. The shield regains 1d4 expended charges daily at dawn.",
+    "page": "TCE 23",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "artificer",
+          "min": 6
+        }
+      ],
+      "text": "A shield (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:resistant-armor",
+    "kind": "infusion",
+    "name": "Resistant Armor",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "While wearing this armor, a creature has resistance to one of the following damage types, which you choose when you infuse the item: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant, or thunder.",
+    "page": "TCE 23",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "artificer",
+          "min": 6
+        }
+      ],
+      "text": "A suit of armor (requires attunement)"
+    }
+  },
+  {
+    "id": "srd:infusion:returning-weapon",
+    "kind": "infusion",
+    "name": "Returning Weapon",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "This magic weapon grants a +1 bonus to attack and damage rolls made with it, and it returns to the wielder's hand immediately after it is used to make a ranged attack.",
+    "page": "TCE 23",
+    "requires": {
+      "text": "A simple or martial weapon with the thrown property"
+    }
+  },
+  {
+    "id": "srd:infusion:spell-refueling-ring",
+    "kind": "infusion",
+    "name": "Spell-Refueling Ring",
+    "source": "srd",
+    "tags": [
+      "artificer-infusion"
+    ],
+    "text": "While wearing this ring, the creature can recover one expended spell slot as an action. The recovered slot can be of 3rd level or lower. Once used, the ring can't be used again until the next dawn.",
+    "page": "TCE 23",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "artificer",
+          "min": 6
+        }
+      ],
+      "text": "A ring (requires attunement)"
+    }
+  }
+]

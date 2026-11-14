@@ -1,0 +1,27 @@
+[
+  {
+    "id": "srd24:cult-of-the-dragon-initiate:language:any",
+    "kind": "proficiency-option",
+    "name": "Any",
+    "source": "srd24",
+    "choices": [
+      {
+        "id": "srd24:cult-of-the-dragon-initiate:language:any:language",
+        "name": "Language",
+        "count": 1,
+        "from": {
+          "kind": "language"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:cult-of-the-dragon-initiate:language:draconic",
+    "kind": "proficiency-option",
+    "name": "Draconic",
+    "source": "srd24",
+    "grants": [
+      "srd24:language:draconic"
+    ]
+  }
+]

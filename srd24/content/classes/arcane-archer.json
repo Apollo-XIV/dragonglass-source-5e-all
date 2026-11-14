@@ -1,0 +1,276 @@
+[
+  {
+    "id": "srd24:subclass:arcane-archer",
+    "kind": "subclass",
+    "name": "Arcane Archer",
+    "source": "srd24",
+    "page": "AU 9",
+    "class": "srd24:class:fighter",
+    "tags": [
+      "fighter-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> When Mystra guides your arrows, they seldom miss.\n>\n> — Alustriel",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:arcane-archer:arcane-archer",
+          "srd24:spell:druidcraft",
+          "srd24:spell:prestidigitation"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:arcane-archer:arcane-shots-3",
+            "name": "Arcane Shots",
+            "count": 2,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:arcane-archer:curving-shot",
+          "srd24:arcane-archer:magical-ammunition"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:arcane-archer:arcane-shots-7",
+            "name": "Arcane Shots",
+            "count": 1,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:arcane-archer:ever-ready-shot"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:arcane-archer:arcane-shots-10",
+            "name": "Arcane Shots",
+            "count": 1,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:arcane-archer:indomitable-teleport"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:arcane-archer:arcane-shots-15",
+            "name": "Arcane Shots",
+            "count": 1,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:arcane-archer:masterful-shots"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:arcane-archer:arcane-shots-18",
+            "name": "Arcane Shots",
+            "count": 1,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:arcane-archer:arcane-archer-lore",
+    "kind": "subclass-feature",
+    "name": "Arcane Archer Lore",
+    "source": "srd24",
+    "page": "AU 9",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You learn magical theory and secrets of nature, granting you the following benefits.\n\n**Cantrip.** You know either the Druidcraft or the Prestidigitation cantrip. Intelligence is your spellcasting ability for it.\n\n**Skills.** You gain proficiency in the Arcana and Nature skills. If you already have one of these proficiencies, you instead gain proficiency in a different skill of your choice from the skills available to Fighters at level 1 (or in two skills available to Fighters at level 1 if you have both)."
+  },
+  {
+    "id": "srd24:arcane-archer:arcane-shot",
+    "kind": "subclass-feature",
+    "name": "Arcane Shot",
+    "source": "srd24",
+    "page": "AU 9",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You learn to unleash special magical effects with your shots.\n\nYou learn two Arcane Shot options of your choice. You learn an additional Arcane Shot option of your choice when you reach Fighter levels 7, 10, 15, and 18. Each time you learn a new Arcane Shot option, you can also replace one option you know with a different one.\n\n**Using Arcane Shot.** Once per turn when you make a ranged attack using a weapon with the Ammunition property, you can apply one of your Arcane Shot options to that attack. You decide to use the option when you hit a creature and deal damage to it unless the option doesn't involve an attack roll.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Short or Long Rest.\n\n**Arcane Shot Die.** Arcane Shot options refer to your Arcane Shot Die. Your Arcane Shot Die is a d6.\n\n**Saving Throws.** If an Arcane Shot option requires a saving throw, the DC equals 8 plus your Intelligence modifier and Proficiency Bonus.\n\n**At Higher Levels.** Your Arcane Shot Die changes when you reach certain Fighter levels. The die becomes a d8 at level 10, a d10 at level 15, and a d12 at level 18.",
+    "resources": [
+      {
+        "id": "srd24:arcane-archer:arcane-shot",
+        "name": "Arcane Shot",
+        "max": "max(1, @abilities.int.mod)",
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "arcane-shot",
+        "name": "Arcane Shot",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:arcane-archer:arcane-shot": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:arcane-archer:arcane-shot-options",
+    "kind": "subclass-feature",
+    "name": "Arcane Shot Options",
+    "source": "srd24",
+    "page": "AU 9",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order."
+  },
+  {
+    "id": "srd24:arcane-archer:arcane-archer",
+    "kind": "subclass-feature",
+    "name": "Arcane Archer",
+    "source": "srd24",
+    "page": "AU 9",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "*Deploy Magical Effects Through Enchanted Ammunition*\n\nAn Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Over the centuries, other folk have learned this technique and broadened it so it applies to ranged weapons of many kinds and to aspects of adventuring life outside of combat.",
+    "grants": [
+      "srd24:arcane-archer:arcane-archer-lore",
+      "srd24:arcane-archer:arcane-shot",
+      "srd24:arcane-archer:arcane-shot-options"
+    ]
+  },
+  {
+    "id": "srd24:arcane-archer:curving-shot",
+    "kind": "subclass-feature",
+    "name": "Curving Shot",
+    "source": "srd24",
+    "page": "AU 9",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You learn how to direct an errant shot toward a new target. If you make a ranged attack roll with a weapon with the Ammunition property and miss, you can cause the shot to ricochet toward a new target as a Bonus Action immediately after the attack misses. The new target must be a creature you can see within the weapon's range and within 60 feet of the attack's original target. Make an attack roll against the new target."
+  },
+  {
+    "id": "srd24:arcane-archer:magical-ammunition",
+    "kind": "subclass-feature",
+    "name": "Magical Ammunition",
+    "source": "srd24",
+    "page": "AU 9",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You learn to imbue your ammunition with magical properties. As a Magic action, you can imbue a piece of nonmagical ammunition with one of the following magical properties and fire it at a solid surface you can see within the weapon's range. When the ammunition hits the surface, the ammunition's effect activates, and the ammunition attaches to the surface it hit for the duration of the effect; you can remove an attached piece of ammunition as a Magic action, ending the effect early. When the effect ends, the ammunition is destroyed.\n\nOnce you use this feature, you can't do so again until you finish a Short or Long Rest. You can also restore your use of this feature by expending a use of your Second Wind (no action required).\n\n**Darkening Ammunition.** Magical shadows fill a 15-foot Emanation originating from the ammunition for 1 minute. Nonmagical flames in the Emanation are extinguished, and creatures in the Emanation have a −5 penalty to Wisdom (Perception) checks and Passive Perception.\n\n**Unlocking Ammunition.** A burst of magic fills a 15-foot Emanation originating from the ammunition. The ammunition also emits a loud knocking sound, audible up to 300 feet away. Any object in the Emanation that is held shut by a nonmagical lock or that is stuck or barred becomes unlocked, unstuck, or unbarred. If such an object has multiple locks, only one of them is unlocked.\n\n**Vine Ammunition.** A 120-foot-long vine grows from the ammunition. You and other creatures can then climb it. The vine withers away after 10 minutes.",
+    "actions": [
+      {
+        "id": "magical-ammunition",
+        "name": "Magical Ammunition",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:arcane-archer:ever-ready-shot",
+    "kind": "subclass-feature",
+    "name": "Ever-Ready Shot",
+    "source": "srd24",
+    "page": "AU 10",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "When you roll Initiative, you can regain one expended use of Arcane Shot."
+  },
+  {
+    "id": "srd24:arcane-archer:indomitable-teleport",
+    "kind": "subclass-feature",
+    "name": "Indomitable Teleport",
+    "source": "srd24",
+    "page": "AU 10",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "Your magical mastery lets you escape dire situations. When you use your Indomitable feature and succeed on the saving throw, you can teleport up to 60 feet to an unoccupied space you can see."
+  },
+  {
+    "id": "srd24:arcane-archer:masterful-shots",
+    "kind": "subclass-feature",
+    "name": "Masterful Shots",
+    "source": "srd24",
+    "page": "AU 10",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You employ agility in your sharpshooting. When a creature you can see misses you with an attack roll, you can take a Reaction to move up to half your Speed away from the attacker without provoking opportunity attack. You can then make a ranged attack roll against the attacker as part of this Reaction if the attacker is within the weapon's range.",
+    "actions": [
+      {
+        "id": "masterful-shots",
+        "name": "Masterful Shots",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

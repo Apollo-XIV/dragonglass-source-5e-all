@@ -1,0 +1,164 @@
+[
+  {
+    "id": "srd:subclass:way-of-the-four-elements",
+    "kind": "subclass",
+    "name": "Way of the Four Elements",
+    "source": "srd",
+    "page": "PHB 80",
+    "class": "srd:class:monk",
+    "tags": [
+      "monk-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:four-elements:way-of-the-four-elements"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:way-of-the-four-elements:elemental-disciplines-3",
+            "name": "Elemental Disciplines",
+            "count": 2,
+            "from": {
+              "kind": "elemental-discipline",
+              "tags": [
+                "four-elements-discipline"
+              ]
+            }
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:four-elements:extra-elemental-discipline"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:way-of-the-four-elements:elemental-disciplines-6",
+            "name": "Elemental Disciplines",
+            "count": 1,
+            "from": {
+              "kind": "elemental-discipline",
+              "tags": [
+                "four-elements-discipline"
+              ]
+            }
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:four-elements:extra-elemental-discipline-11"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:way-of-the-four-elements:elemental-disciplines-11",
+            "name": "Elemental Disciplines",
+            "count": 1,
+            "from": {
+              "kind": "elemental-discipline",
+              "tags": [
+                "four-elements-discipline"
+              ]
+            }
+          }
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:four-elements:extra-elemental-discipline-17"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:way-of-the-four-elements:elemental-disciplines-17",
+            "name": "Elemental Disciplines",
+            "count": 1,
+            "from": {
+              "kind": "elemental-discipline",
+              "tags": [
+                "four-elements-discipline"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:four-elements:disciple-of-the-elements",
+    "kind": "subclass-feature",
+    "name": "Disciple of the Elements",
+    "source": "srd",
+    "page": "PHB 80",
+    "tags": [
+      "four-elements-feature",
+      "monk-feature"
+    ],
+    "text": "You learn magical disciplines that harness the power of the four elements. A discipline requires you to spend ki points each time you use it.\n\nYou know the Elemental Attunement discipline and one other elemental discipline of your choice. You learn one additional elemental discipline of your choice at 6th, 11th, and 17th level.\n\nWhenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline.\n\n**Casting Elemental Spells.** Some elemental disciplines allow you to cast spells. See chapter 10 of the Player's Handbook for the general rules of spellcasting. To cast one of these spells, you use its casting time and other rules, but you don't need to provide material components for it.\n\nOnce you reach 5th level in this class, you can spend additional ki points to increase the level of an elemental discipline spell that you cast, provided that the spell has an enhanced effect at a higher level, as burning hands does. The spell's level increases by 1 for each additional ki point you spend. For example, if you are a 5th-level monk and use Sweeping Cinder Strike to cast burning hands, you can spend 3 ki points to cast it as a 2nd-level spell (the discipline's base cost of 2 ki points plus 1).\n\nThe maximum number of ki points you can spend to cast a spell in this way (including its base ki point cost and any additional ki points you spend to increase its level) is determined by your monk level, as shown in the Spells and Ki Points table. At 5th level, you may spend up to 3 ki points; this increases to 4 ki points at 9th level, 5 at 13th level, and 6 at 17th level.\n\n**Spells and Ki Points**\n| Monk Levels | Maximum Ki Points for a Spell |\n| --- | --- |\n| 5th-8th | 3 |\n| 9th-12th | 4 |\n| 13th-16th | 5 |\n| 17th-20th | 6 |"
+  },
+  {
+    "id": "srd:four-elements:elemental-disciplines",
+    "kind": "subclass-feature",
+    "name": "Elemental Disciplines",
+    "source": "srd",
+    "page": "PHB 80",
+    "tags": [
+      "four-elements-feature",
+      "monk-feature"
+    ],
+    "text": "The elemental disciplines are presented in alphabetical order. If a discipline requires a level, you must be the level in this class to learn the discipline."
+  },
+  {
+    "id": "srd:four-elements:way-of-the-four-elements",
+    "kind": "subclass-feature",
+    "name": "Way of the Four Elements",
+    "source": "srd",
+    "page": "PHB 80",
+    "tags": [
+      "four-elements-feature",
+      "monk-feature"
+    ],
+    "text": "You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.\n\nMany monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
+    "grants": [
+      "srd:four-elements:disciple-of-the-elements",
+      "srd:four-elements:elemental-disciplines"
+    ]
+  },
+  {
+    "id": "srd:four-elements:extra-elemental-discipline",
+    "kind": "subclass-feature",
+    "name": "Extra Elemental Discipline",
+    "source": "srd",
+    "page": "PHB 80",
+    "tags": [
+      "four-elements-feature",
+      "monk-feature"
+    ],
+    "text": "You learn one additional elemental discipline of your choice. You should know 2 elemental disciplines, as well as Elemental Attunement.\n\nWhenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+  },
+  {
+    "id": "srd:four-elements:extra-elemental-discipline-11",
+    "kind": "subclass-feature",
+    "name": "Extra Elemental Discipline",
+    "source": "srd",
+    "page": "PHB 80",
+    "tags": [
+      "four-elements-feature",
+      "monk-feature"
+    ],
+    "text": "You learn one additional elemental discipline of your choice. You should know 3 elemental disciplines, as well as Elemental Attunement.\n\nWhenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+  },
+  {
+    "id": "srd:four-elements:extra-elemental-discipline-17",
+    "kind": "subclass-feature",
+    "name": "Extra Elemental Discipline",
+    "source": "srd",
+    "page": "PHB 80",
+    "tags": [
+      "four-elements-feature",
+      "monk-feature"
+    ],
+    "text": "You learn one additional elemental discipline of your choice. You should know 4 elemental disciplines, as well as Elemental Attunement.\n\nWhenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+  }
+]

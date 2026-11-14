@@ -1,0 +1,176 @@
+[
+  {
+    "id": "srd24:subclass:grave-domain",
+    "kind": "subclass",
+    "name": "Grave Domain",
+    "source": "srd24",
+    "page": "RHW 19",
+    "class": "srd24:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:grave:grave-domain",
+          "srd24:spell:detect-evil-and-good",
+          "srd24:spell:false-life",
+          "srd24:spell:gentle-repose",
+          "srd24:spell:ray-of-enfeeblement",
+          "srd24:spell:spare-the-dying"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:revivify",
+          "srd24:spell:vampiric-touch"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:grave:sentinel-at-deaths-door"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:spell:blight",
+          "srd24:spell:death-ward"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:dispel-evil-and-good",
+          "srd24:spell:raise-dead"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:grave:divine-reaper"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:grave:grave-domain-spells",
+    "kind": "subclass-feature",
+    "name": "Grave Domain Spells",
+    "source": "srd24",
+    "page": "RHW 19",
+    "tags": [
+      "grave-feature",
+      "cleric-feature"
+    ],
+    "text": "Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Grave Domain Spells table, you thereafter always have the listed spells prepared.\n\n**Grave Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 3 | Detect Evil and Good, False Life, Gentle Repose, Ray of Enfeeblement, Spare the Dying |\n| 5 | Revivify, Vampiric Touch |\n| 7 | Blight, Death Ward |\n| 9 | Dispel Evil and Good, Raise Dead |"
+  },
+  {
+    "id": "srd24:grave:circle-of-mortality",
+    "kind": "subclass-feature",
+    "name": "Circle of Mortality",
+    "source": "srd24",
+    "page": "RHW 19",
+    "tags": [
+      "grave-feature",
+      "cleric-feature"
+    ],
+    "text": "You can manipulate the balance between life and death, granting you the following benefits.\n\n**Pull of Death.** Once per turn, when you deal damage to a creature that's missing any Hit Points by casting a spell or by hitting with an attack roll, that creature takes an extra 1d4 Necrotic damage. This extra damage increases to 1d6 when you reach Cleric level 11.\n\n**Return to Life.** You can cast Spare the Dying as a Bonus Action.\n\nAdditionally, when you would normally roll one or more dice to restore Hit Points to a creature at 0 Hit Points with a spell or Channel Divinity, don't roll those dice for the healing; instead, use the highest number possible for each die. For example, instead of restoring 2d4 Hit Points to a creature at 0 Hit Points with a spell, you restore 8."
+  },
+  {
+    "id": "srd24:grave:path-to-the-grave",
+    "kind": "subclass-feature",
+    "name": "Path to the Grave",
+    "source": "srd24",
+    "page": "RHW 19",
+    "tags": [
+      "grave-feature",
+      "cleric-feature"
+    ],
+    "text": "As a Bonus Action, you present your Holy Symbol and expend a use of Channel Divinity to curse one creature you can see within 30 feet of yourself until the start of your next turn. While cursed, the creature has Disadvantage on attack rolls and saving throws.\n\nWhen you or an ally you can see hits the cursed target with an attack roll, you can end the curse early (no action required) to make the attack deal extra Necrotic or Radiant damage (your choice) equal to your Cleric level.",
+    "actions": [
+      {
+        "id": "path-to-the-grave",
+        "name": "Path to the Grave",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:grave:grave-domain",
+    "kind": "subclass-feature",
+    "name": "Grave Domain",
+    "source": "srd24",
+    "page": "RHW 19",
+    "tags": [
+      "grave-feature",
+      "cleric-feature"
+    ],
+    "text": "*Embody Deific Forces of Death*\n\nThe Grave Domain concerns itself with the boundary between life and death. To those who tap into this domain's power, death is a natural and inevitable part of the multiverse. Such Clerics seek to destroy undead and shepherd spirits.\n\nThe magic of this domain also allows these Clerics to stave off death for a time. But this is merely a delay of death, not a denial of it, for the grave will always claim its due.",
+    "grants": [
+      "srd24:grave:grave-domain-spells",
+      "srd24:grave:circle-of-mortality",
+      "srd24:grave:path-to-the-grave"
+    ]
+  },
+  {
+    "id": "srd24:grave:sentinel-at-deaths-door",
+    "kind": "subclass-feature",
+    "name": "Sentinel at Death's Door",
+    "source": "srd24",
+    "page": "RHW 20",
+    "tags": [
+      "grave-feature",
+      "cleric-feature"
+    ],
+    "text": "When you or a Bloodied creature you can see within 60 feet of yourself is hit with an attack roll, you can take a Reaction to halve that attack's damage (round down). If the triggering attack roll was a Critical Hit, any effects triggered by a Critical Hit are canceled.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:grave:sentinel-at-deaths-door",
+        "name": "Sentinel at Death's Door",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "sentinel-at-deaths-door",
+        "name": "Sentinel at Death's Door",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:grave:sentinel-at-deaths-door": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:grave:divine-reaper",
+    "kind": "subclass-feature",
+    "name": "Divine Reaper",
+    "source": "srd24",
+    "page": "RHW 20",
+    "tags": [
+      "grave-feature",
+      "cleric-feature"
+    ],
+    "text": "Your deep connection to this domain renders you a hallowed harbinger of death, granting you the following benefits.\n\n**Enhanced Necromancy.** When you cast a spell of level 5 or lower from the Necromancy school that targets one creature, or when you cast a spell from the Grave Domain Spells table, you can expend a use of Channel Divinity to target a second creature within the spell's range. If the spell requires costly or consumed Material components, you must provide Material components for each target.\n\n**Keeper of Souls.** When an enemy dies within 60 feet of you, you or one creature you can see within 60 feet of yourself regains Hit Points equal to twice your Cleric level. You can't use this feature if you have the Incapacitated condition. Once you use this feature, you can't use it again until you finish a Short or Long Rest, unless you expend a level 6+ spell slot (no action required) to restore your use of it."
+  }
+]

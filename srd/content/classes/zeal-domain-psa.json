@@ -1,0 +1,264 @@
+[
+  {
+    "id": "srd:subclass:zeal-domain-psa",
+    "kind": "subclass",
+    "name": "Zeal Domain (PSA)",
+    "source": "srd",
+    "page": "PSA 28",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:zeal-psa:zeal-domain-psa",
+          "srd:spell:searing-smite",
+          "srd:spell:thunderous-smite"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:zeal-psa:channel-divinity-consuming-fervor"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:magic-weapon",
+          "srd:spell:shatter"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:haste",
+          "srd:spell:fireball"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:zeal-psa:resounding-strike"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:fire-shield",
+          "srd:spell:freedom-of-movement"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:zeal-psa:divine-strike",
+          "srd:zeal-psa:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:destructive-wave",
+          "srd:spell:flame-strike"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:zeal-psa:blaze-of-glory"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:zeal-psa:bonus-proficiencies",
+    "kind": "subclass-feature",
+    "name": "Bonus Proficiencies",
+    "source": "srd",
+    "page": "PSA 28",
+    "tags": [
+      "zeal-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 1st level, you gain proficiency with martial weapons and heavy armor.",
+    "modifiers": [
+      {
+        "target": "proficiencies.weapon",
+        "op": "include",
+        "value": [
+          "martial weapons"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "heavy armor"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:zeal-psa:priest-of-zeal",
+    "kind": "subclass-feature",
+    "name": "Priest of Zeal",
+    "source": "srd",
+    "page": "PSA 28",
+    "tags": [
+      "zeal-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "From 1st level, Hazoret delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:zeal-psa:priest-of-zeal",
+        "name": "Priest of Zeal",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "priest-of-zeal",
+        "name": "Priest of Zeal",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:zeal-psa:priest-of-zeal": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:zeal-psa:zeal-domain-psa",
+    "kind": "subclass-feature",
+    "name": "Zeal Domain (PSA)",
+    "source": "srd",
+    "page": "PSA 28",
+    "tags": [
+      "zeal-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "> The worthy shall rush to the God-Pharaoh's side with relentless zeal, rising to overcome every obstacle in their way.\n\nThe God-Pharaoh expects those he welcomes into the afterlife to desire it above all other pleasures and achievements, and for them to show their dedication, passion, and fervor through their actions. Hazoret is charged with cultivating this zeal in the initiates who come under her care, and she has undertaken the task with appropriate enthusiasm. She recognizes, however, that the best way to teach zeal is by demonstrating it.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Zeal Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | searing smite, thunderous smite |\n| 3rd | magic weapon, shatter |\n| 5th | haste, fireball |\n| 7th | fire shield (warm shield only), freedom of movement |\n| 9th | destructive wave, flame strike |",
+    "grants": [
+      "srd:zeal-psa:bonus-proficiencies",
+      "srd:zeal-psa:priest-of-zeal"
+    ]
+  },
+  {
+    "id": "srd:zeal-psa:channel-divinity-consuming-fervor",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Consuming Fervor",
+    "source": "srd",
+    "page": "PSA 28",
+    "tags": [
+      "zeal-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to channel your zeal into unchecked ferocity.\n\nWhen you roll fire or thunder damage, you can use your Channel Divinity to deal maximum damage instead of rolling.",
+    "actions": [
+      {
+        "id": "channel-divinity-consuming-fervor",
+        "name": "Channel Divinity: Consuming Fervor",
+        "activation": "special",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:zeal-psa:resounding-strike",
+    "kind": "subclass-feature",
+    "name": "Resounding Strike",
+    "source": "srd",
+    "page": "PSA 28",
+    "tags": [
+      "zeal-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 6th level, when you deal thunder damage to a Large or smaller creature, you can also push it up to 10 feet away from you."
+  },
+  {
+    "id": "srd:zeal-psa:divine-strike",
+    "kind": "subclass-feature",
+    "name": "Divine Strike",
+    "source": "srd",
+    "page": "PSA 28",
+    "tags": [
+      "zeal-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
+  },
+  {
+    "id": "srd:zeal-psa:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "zeal-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Divine Strike feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:zeal-psa:blaze-of-glory",
+    "kind": "subclass-feature",
+    "name": "Blaze of Glory",
+    "source": "srd",
+    "page": "PSA 28",
+    "tags": [
+      "zeal-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 17th level, you can delay death for an instant to perform a final heroic act.\n\nWhen you are reduced to 0 hit points by an attacker you can see, even if you would be killed outright, you can use your reaction to move up to your speed toward the attacker and make one melee weapon attack against it, as long as the movement brings it within your reach. You make this attack with advantage. If the attack hits, the creature takes an extra 5d10 fire damage and an extra 5d10 damage of the weapon's type. You then fall unconscious and begin making death saving throws as normal, or you die if the damage you took would have killed you outright.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:zeal-psa:blaze-of-glory",
+        "name": "Blaze of Glory",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "blaze-of-glory",
+        "name": "Blaze of Glory",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:zeal-psa:blaze-of-glory": 1
+        }
+      }
+    ]
+  }
+]

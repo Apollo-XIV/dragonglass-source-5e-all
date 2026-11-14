@@ -1,0 +1,315 @@
+[
+  {
+    "id": "srd:class:barbarian",
+    "kind": "class",
+    "name": "Barbarian",
+    "source": "srd",
+    "page": "PHB 46",
+    "key": "barbarian",
+    "hitDie": "d12",
+    "tags": [
+      "srd-class"
+    ],
+    "fluff": "A tall human tribesman strides through a blizzard, draped in fur and hefting his axe. He laughs as he charges toward the frost giant who dared poach his people's elk herd.\n\nA half-orc snarls at the latest challenger to her authority over their savage tribe, ready to break his neck with her bare hands as she did to the last six rivals.\n\nFrothing at the mouth, a dwarf slams his helmet into the face of his drow foe, then turns to drive his armored elbow into the gut of another.\n\nThese barbarians, different as they might be, are defined by their rage: unbridled, unquenchable, and unthinking fury. More than a mere emotion, their anger is the ferocity of a cornered predator, the unrelenting assault of a storm, the churning turmoil of the sea.\n\nFor some, their rage springs from a communion with fierce animal spirits. Others draw from a roiling reservoir of anger at a world full of pain. For every barbarian, rage is a power that fuels not just a battle frenzy but also uncanny reflexes, resilience, and feats of strength.\n\n**Primal Instinct.** People of towns and cities take pride in how their civilized ways set them apart from animals, as if denying one's own nature was a mark of superiority. To a barbarian, though, civilization is no virtue, but a sign of weakness. The strong embrace their animal nature—keen instincts, primal physicality, and ferocious rage. Barbarians are uncomfortable when hedged in by walls and crowds. They thrive in the wilds of their homelands: the tundra, jungle, or grasslands where their tribes live and hunt.\n\nBarbarians come alive in the chaos of combat. They can enter a berserk state where rage takes over, giving them superhuman strength and resilience. A barbarian can draw on this reservoir of fury only a few times without resting, but those few rages are usually sufficient to defeat whatever threats arise.\n\n**A Life of Danger.** Not every member of the tribes deemed \"barbarians\" by scions of civilized society has the barbarian class. A true barbarian among these people is as uncommon as a skilled fighter in a town, and he or she plays a similar role as a protector of the people and a leader in times of war. Life in the wild places of the world is fraught with peril: rival tribes, deadly weather, and terrifying monsters. Barbarians charge headlong into that danger so that their people don't have to.\n\nTheir courage in the face of danger makes barbarians perfectly suited for adventuring. Wandering is often a way of life for their native tribes, and the rootless life of the adventurer is little hardship for a barbarian. Some barbarians miss the close-knit family structures of the tribe, but eventually find them replaced by the bonds formed among the members of their adventuring parties.\n\n**Creating a Barbarian.** When creating a barbarian character, think about where your character comes from and his or her place in the world. Talk with your DM about an appropriate origin for your barbarian. Did you come from a distant land, making you a stranger in the area of the campaign? Or is the campaign set in a rough-and-tumble frontier where barbarians are common?\n\nWhat led you to take up the adventuring life? Were you lured to settled lands by the promise of riches? Did you join forces with soldiers of those lands to face a shared threat? Did monsters or an invading horde drive you out of your homeland, making you a rootless refugee? Perhaps you were a prisoner of war, brought in chains to \"civilized\" lands and only now able to win your freedom. Or you might have been cast out from your people because of a crime you committed, a taboo you violated, or a coup that removed you from a position of authority.\n\n**Quick Build.** You can make a barbarian quickly by following these suggestions. First, put your highest ability score in Strength, followed by Constitution. Second, choose the outlander background.\n\n> I have witnessed the indomitable performance of barbarians on the field of battle, and it makes me wonder what force lies at the heart of their rage.\n>\n> — Seret, archwizard\n\nThe anger felt by a normal person resembles the rage of a barbarian in the same way that a gentle breeze is akin to a furious thunderstorm. The barbarian's driving force comes from a place that transcends mere emotion, making its manifestation all the more terrible. Whether the impetus for the fury comes entirely from within or from forging a link with a spirit animal, a raging barbarian becomes able to perform supernatural feats of strength and endurance. The outburst is temporary, but while it lasts, it takes over body and mind, driving the barbarian on despite peril and injury, until the last enemy falls.\n\nIt can be tempting to play a barbarian character that is a straightforward application of the classic archetype—a brute, and usually a dimwitted one at that, who rushes in where others fear to tread. But not all the barbarians in the world are cut from that cloth, so you can certainly put your own spin on things. Either way, consider adding some flourishes to make your barbarian stand out from all others; see the following sections for some ideas.\n\n> Rawr! I'm really angry! Funny, I don't feel any stronger. Maybe because I'm always angry, I'm always in top condition. Stands to reason.\n>\n> — Xanathar\n\n**Personal Totems.** Barbarians tend to travel light, carrying little in the way of personal effects or other unnecessary gear. The few possessions they do carry often include small items that have special significance. A personal totem is significant because it has a mystical origin or is tied to an important moment in the character's life—perhaps a remembrance from the barbarian's past or a harbinger of what lies ahead.\n\nA personal totem of this sort might be associated with a barbarian's spirit animal, or might actually be the totem object for the animal, but such a connection is not essential. One who has a bear totem spirit, for instance, could still carry an eagle's feather as a personal totem.\n\nConsider creating one or more personal totems for your character—objects that hold a special link to your character's past or future. Think about how a totem might affect your character's actions.\n\n**Personal Totems**\n| d6 | Totem |\n| --- | --- |\n| 1 | A tuft of fur from a solitary wolf that you befriended during a hunt |\n| 2 | Three eagle feathers given to you by a wise shaman, who told you they would play a role in determining your fate |\n| 3 | A necklace made from the claws of a young cave bear that you slew singlehandedly as a child |\n| 4 | A small leather pouch holding three stones that represent your ancestors |\n| 5 | A few small bones from the first beast you killed, tied together with colored wool |\n| 6 | An egg-sized stone in the shape of your spirit animal that appeared one day in your belt pouch |\n\n**Tattoos.** The members of many barbarian clans decorate their bodies with tattoos, each of which represents a significant moment in the life of the bearer or the bearer's ancestors, or which symbolizes a feeling or an attitude. As with personal totems, a barbarian's tattoos might or might not be related to an animal spirit.\n\nEach tattoo a barbarian displays contributes to that individual's identity. If your character wears tattoos, what do they look like, and what do they represent?\n\n**Tattoos**\n| d6 | Tattoo |\n| --- | --- |\n| 1 | The wings of an eagle are spread wide across your upper back. |\n| 2 | Etched on the backs of your hands are the paws of a cave bear. |\n| 3 | The symbols of your clan are displayed in viny patterns along your arms. |\n| 4 | The antlers of an elk are inked across your back. |\n| 5 | Images of your spirit animal are tattooed along your weapon arm and hand. |\n| 6 | The eyes of a wolf are marked on your back to help you see and ward off evil spirits. |\n\n**Superstitions.** Barbarians vary widely in how they understand life. Some follow gods and look for guidance from those deities in the cycles of nature and the animals they encounter. These barbarians believe that spirits inhabit the plants and animals of the world, and the barbarians look to them for omens and power.\n\nOther barbarians trust only in the blood that runs in their veins and the steel they hold in their hands. They have no use for the invisible world, instead relying on their senses to hunt and survive like the wild beasts they emulate.\n\nBoth of these attitudes can give rise to superstitions. These beliefs are often passed down within a family or shared among the members of a clan or a hunting group.\n\nIf your barbarian character has any superstitions, were they ingrained in you by your family, or are they the result of personal experience?\n\n**Superstition**\n| d6 | Superstition |\n| --- | --- |\n| 1 | If you disturb the bones of the dead, you inherit all the troubles that plagued them in life. |\n| 2 | Never trust a wizard. They're all devils in disguise, especially the friendly ones. |\n| 3 | Dwarves have lost their spirits, and are almost like the undead. That's why they live underground. |\n| 4 | Magical things bring trouble. Never sleep with a magic object within ten feet of you. |\n| 5 | When you walk through a graveyard, be sure to wear silver, or a ghost might jump into your body. |\n| 6 | If an elf looks you in the eyes, she's trying to read your thoughts. |",
+    "text": "**Hit Dice:** 1d12 per barbarian level.\n\n**Hit Points at 1st Level:** 12 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d12 (or 7) + your Constitution modifier per barbarian level after 1st.\n\n**Armor:** Light, medium, shield\n**Weapons:** Simple, martial\n**Tools:** None\n**Saving Throws:** Strength, Constitution\n**Skills:** Choose 2 from animal handling, athletics, intimidation, nature, perception, survival\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n- (a) a greataxe or (b) any martial melee weapon\n- (a) two handaxes or (b) any simple weapon\n- An explorer's pack, and four javelins\n\nAlternatively, you may start with 2d4 × 10 gp to buy your own equipment.",
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "str",
+          "min": 13
+        }
+      ],
+      "text": "Strength 13"
+    },
+    "primaryAbility": [
+      "str"
+    ],
+    "x-multiclass-proficiencies": {
+      "weapons": [
+        "simple",
+        "martial"
+      ],
+      "armor": [
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "shield": true
+        }
+      ]
+    },
+    "tables": {
+      "rages": [
+        2,
+        2,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        "unlimited"
+      ],
+      "rage-damage": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd:class:barbarian:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd:skill:animal-handling",
+                "srd:skill:athletics",
+                "srd:skill:intimidation",
+                "srd:skill:nature",
+                "srd:skill:perception",
+                "srd:skill:survival"
+              ]
+            }
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.str",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.con",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light",
+              "medium",
+              "shield"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "martial"
+            ]
+          }
+        ],
+        "grants": [
+          "srd:barbarian:rage",
+          "srd:barbarian:unarmored-defense"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:barbarian:danger-sense",
+          "srd:barbarian:reckless-attack"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:barbarian:primal-path",
+          "srd:barbarian:primal-knowledge"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:barbarian:subclass",
+            "name": "Primal Path",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "barbarian-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd:class:barbarian:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:barbarian:extra-attack",
+          "srd:barbarian:fast-movement"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:barbarian:feral-instinct",
+          "srd:barbarian:instinctive-pounce"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd:class:barbarian:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:barbarian:brutal-critical-1-die"
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:barbarian:relentless-rage"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd:class:barbarian:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd:barbarian:brutal-critical-2-dice"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:barbarian:persistent-rage"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd:class:barbarian:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:barbarian:brutal-critical-3-dice"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd:barbarian:indomitable-might"
+        ]
+      },
+      "19": {
+        "choices": [
+          {
+            "id": "srd:class:barbarian:asi-19",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd:barbarian:primal-champion"
+        ]
+      }
+    }
+  }
+]

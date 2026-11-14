@@ -1,0 +1,237 @@
+[
+  {
+    "id": "srd:subclass:oathbreaker",
+    "kind": "subclass",
+    "name": "Oathbreaker",
+    "source": "srd",
+    "page": "DMG 97",
+    "class": "srd:class:paladin",
+    "tags": [
+      "paladin-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:oathbreaker:oathbreaker",
+          "srd:spell:hellish-rebuke",
+          "srd:spell:inflict-wounds"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:crown-of-madness",
+          "srd:spell:darkness"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:oathbreaker:aura-of-hate"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:animate-dead",
+          "srd:spell:bestow-curse"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd:spell:blight",
+          "srd:spell:confusion"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:oathbreaker:supernatural-resistance"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:spell:contagion",
+          "srd:spell:dominate-person"
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd:oathbreaker:dread-lord"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:oathbreaker:oathbreaker-spells",
+    "kind": "subclass-feature",
+    "name": "Oathbreaker Spells",
+    "source": "srd",
+    "page": "DMG 97",
+    "tags": [
+      "oathbreaker-feature",
+      "paladin-feature"
+    ],
+    "text": "You gain oathbreaker spells at the paladin levels listed.\n\n**Oathbreaker Spells**\n| Paladin Level | Spells |\n| --- | --- |\n| 3rd | hellish rebuke, inflict wounds |\n| 5th | crown of madness, darkness |\n| 9th | animate dead, bestow curse |\n| 13th | blight, confusion |\n| 17th | contagion, dominate person |"
+  },
+  {
+    "id": "srd:oathbreaker:control-undead",
+    "kind": "subclass-feature",
+    "name": "Control Undead",
+    "source": "srd",
+    "page": "DMG 97",
+    "tags": [
+      "oathbreaker-feature",
+      "paladin-feature"
+    ],
+    "text": "As an action, the paladin targets one undead creature he or she can see within 30 feet of him or her. The target must make a Wisdom saving throw. On a failed save, the target must obey the paladin's commands for the next 24 hours, or until the paladin uses this Channel Divinity option again. An undead whose challenge rating is equal to or greater than the paladin's level is immune to this effect.",
+    "actions": [
+      {
+        "id": "control-undead",
+        "name": "Control Undead",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:oathbreaker:dreadful-aspect",
+    "kind": "subclass-feature",
+    "name": "Dreadful Aspect",
+    "source": "srd",
+    "page": "DMG 97",
+    "tags": [
+      "oathbreaker-feature",
+      "paladin-feature"
+    ],
+    "text": "As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it.",
+    "actions": [
+      {
+        "id": "dreadful-aspect",
+        "name": "Dreadful Aspect",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:oathbreaker:channel-divinity",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity",
+    "source": "srd",
+    "page": "DMG 97",
+    "tags": [
+      "oathbreaker-feature",
+      "paladin-feature"
+    ],
+    "text": "An Oathbreaker paladin of 3rd level or higher gains the following two Channel Divinity options.",
+    "grants": [
+      "srd:oathbreaker:control-undead",
+      "srd:oathbreaker:dreadful-aspect"
+    ]
+  },
+  {
+    "id": "srd:oathbreaker:oathbreaker",
+    "kind": "subclass-feature",
+    "name": "Oathbreaker",
+    "source": "srd",
+    "page": "DMG 97",
+    "tags": [
+      "oathbreaker-feature",
+      "paladin-feature"
+    ],
+    "text": "An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.\n\nA paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.",
+    "grants": [
+      "srd:oathbreaker:oathbreaker-spells",
+      "srd:oathbreaker:channel-divinity"
+    ]
+  },
+  {
+    "id": "srd:oathbreaker:aura-of-hate",
+    "kind": "subclass-feature",
+    "name": "Aura of Hate",
+    "source": "srd",
+    "page": "DMG 97",
+    "tags": [
+      "oathbreaker-feature",
+      "paladin-feature"
+    ],
+    "text": "Starting at 7th level, the paladin, as well any fiends and undead within 10 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.\n\nAt 18th level, the range of this aura increases to 30 feet."
+  },
+  {
+    "id": "srd:oathbreaker:supernatural-resistance",
+    "kind": "subclass-feature",
+    "name": "Supernatural Resistance",
+    "source": "srd",
+    "page": "DMG 97",
+    "tags": [
+      "oathbreaker-feature",
+      "paladin-feature"
+    ],
+    "text": "At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
+  },
+  {
+    "id": "srd:oathbreaker:dread-lord",
+    "kind": "subclass-feature",
+    "name": "Dread Lord",
+    "source": "srd",
+    "page": "DMG 97",
+    "tags": [
+      "oathbreaker-feature",
+      "paladin-feature"
+    ],
+    "text": "At 20th level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is frightened by the paladin starts its turn in the aura, it takes 4d10 psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.\n\nWhile the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to 3d10 + the paladin's Charisma modifier.\n\nAfter activating the aura, the paladin can't do so again until he or she finishes a long rest.",
+    "resources": [
+      {
+        "id": "srd:oathbreaker:dread-lord",
+        "name": "Dread Lord",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "dread-lord",
+        "name": "Dread Lord",
+        "activation": "action",
+        "cost": {
+          "srd:oathbreaker:dread-lord": 1
+        },
+        "duration": "1 minute",
+        "text": "Aura of gloom, 30-foot radius; reduces bright light to dim light.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "id": "dread-lord-shadow-attack",
+        "name": "Dread Lord: Shadow Attack",
+        "activation": "bonus-action",
+        "attack": {
+          "type": "melee-spell"
+        },
+        "damage": "3d10 + @abilities.cha.mod",
+        "damageType": "necrotic",
+        "target": "one creature in the aura",
+        "text": "Only while the aura lasts.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

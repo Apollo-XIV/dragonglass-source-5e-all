@@ -1,0 +1,86 @@
+[
+  {
+    "id": "srd:ability-point:str",
+    "kind": "ability-point",
+    "name": "Strength +1",
+    "source": "srd",
+    "ability": "str",
+    "modifiers": [
+      {
+        "target": "abilities.str.score",
+        "op": "add",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "srd:ability-point:dex",
+    "kind": "ability-point",
+    "name": "Dexterity +1",
+    "source": "srd",
+    "ability": "dex",
+    "modifiers": [
+      {
+        "target": "abilities.dex.score",
+        "op": "add",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "srd:ability-point:con",
+    "kind": "ability-point",
+    "name": "Constitution +1",
+    "source": "srd",
+    "ability": "con",
+    "modifiers": [
+      {
+        "target": "abilities.con.score",
+        "op": "add",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "srd:ability-point:int",
+    "kind": "ability-point",
+    "name": "Intelligence +1",
+    "source": "srd",
+    "ability": "int",
+    "modifiers": [
+      {
+        "target": "abilities.int.score",
+        "op": "add",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "srd:ability-point:wis",
+    "kind": "ability-point",
+    "name": "Wisdom +1",
+    "source": "srd",
+    "ability": "wis",
+    "modifiers": [
+      {
+        "target": "abilities.wis.score",
+        "op": "add",
+        "value": 1
+      }
+    ]
+  },
+  {
+    "id": "srd:ability-point:cha",
+    "kind": "ability-point",
+    "name": "Charisma +1",
+    "source": "srd",
+    "ability": "cha",
+    "modifiers": [
+      {
+        "target": "abilities.cha.score",
+        "op": "add",
+        "value": 1
+      }
+    ]
+  }
+]

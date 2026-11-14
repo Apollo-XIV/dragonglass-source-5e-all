@@ -1,0 +1,211 @@
+[
+  {
+    "id": "srd:subclass:way-of-mercy",
+    "kind": "subclass",
+    "name": "Way of Mercy",
+    "source": "srd",
+    "page": "TCE 49",
+    "class": "srd:class:monk",
+    "tags": [
+      "monk-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:mercy:way-of-mercy"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:mercy:physicians-touch"
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:mercy:flurry-of-healing-and-harm"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:mercy:hand-of-ultimate-mercy"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:mercy:implements-of-mercy",
+    "kind": "subclass-feature",
+    "name": "Implements of Mercy",
+    "source": "srd",
+    "page": "TCE 49",
+    "tags": [
+      "mercy-feature",
+      "monk-feature"
+    ],
+    "text": "*3rd-level Way of Mercy feature*\n\nYou gain proficiency in the Insight and Medicine skills, and you gain proficiency with the herbalism kit.\n\nYou also gain a special mask, which you often wear when using the features of this subclass. You determine its appearance, or generate it randomly by rolling on the Merciful Mask table.\n\n**Merciful Mask**\n| d6 | Mask Appearance |\n| --- | --- |\n| 1 | Raven |\n| 2 | Blank and white |\n| 3 | Crying visage |\n| 4 | Laughing visage |\n| 5 | Skull |\n| 6 | Butterfly |",
+    "modifiers": [
+      {
+        "target": "skills.insight",
+        "op": "proficiency",
+        "value": "proficient",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "skills.medicine",
+        "op": "proficiency",
+        "value": "proficient",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "herbalism kit"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:mercy:hand-of-healing",
+    "kind": "subclass-feature",
+    "name": "Hand of Healing",
+    "source": "srd",
+    "page": "TCE 49",
+    "tags": [
+      "mercy-feature",
+      "monk-feature"
+    ],
+    "text": "*3rd-level Way of Mercy feature*\n\nYour mystical touch can mend wounds. As an action, you can spend 1 ki point to touch a creature and restore a number of hit points equal to a roll of your Martial Arts die + your Wisdom modifier.\n\nWhen you use your Flurry of Blows, you can replace one of the unarmed strikes with a use of this feature without spending a ki point for the healing.",
+    "actions": [
+      {
+        "id": "hand-of-healing",
+        "name": "Hand of Healing",
+        "activation": "action",
+        "cost": {
+          "srd:monk:ki-points": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:mercy:hand-of-harm",
+    "kind": "subclass-feature",
+    "name": "Hand of Harm",
+    "source": "srd",
+    "page": "TCE 49",
+    "tags": [
+      "mercy-feature",
+      "monk-feature"
+    ],
+    "text": "*3rd-level Way of Mercy feature*\n\nYou use your ki to inflict wounds. When you hit a creature with an unarmed strike, you can spend 1 ki point to deal extra necrotic damage equal to one roll of your Martial Arts die + your Wisdom modifier. You can use this feature only once per turn.",
+    "actions": [
+      {
+        "id": "hand-of-harm",
+        "name": "Hand of Harm",
+        "activation": "special",
+        "cost": {
+          "srd:monk:ki-points": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:mercy:way-of-mercy",
+    "kind": "subclass-feature",
+    "name": "Way of Mercy",
+    "source": "srd",
+    "page": "TCE 49",
+    "tags": [
+      "mercy-feature",
+      "monk-feature"
+    ],
+    "text": "Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help, they bring a swift end as an act of mercy.\n\nThose who follow the Way of Mercy might be members of a religious order, administering to the needy and making grim choices rooted in reality rather than idealism. Some might be gentle-voiced healers, beloved by their communities, while others might be masked bringers of macabre mercies.\n\nThe walkers of this way usually don robes with deep cowls, and they often conceal their faces with masks, presenting themselves as the faceless bringers of life and death.",
+    "grants": [
+      "srd:mercy:implements-of-mercy",
+      "srd:mercy:hand-of-healing",
+      "srd:mercy:hand-of-harm"
+    ]
+  },
+  {
+    "id": "srd:mercy:physicians-touch",
+    "kind": "subclass-feature",
+    "name": "Physician's Touch",
+    "source": "srd",
+    "page": "TCE 49",
+    "tags": [
+      "mercy-feature",
+      "monk-feature"
+    ],
+    "text": "*6th-level Way of Mercy feature*\n\nYou can administer even greater cures with a touch, and if you feel it's necessary, you can use your knowledge to cause harm.\n\nWhen you use Hand of Healing on a creature, you can also end one disease or one of the following conditions affecting the creature: blinded, deafened, paralyzed, poisoned, or stunned.\n\nWhen you use Hand of Harm on a creature, you can subject that creature to the poisoned condition until the end of your next turn."
+  },
+  {
+    "id": "srd:mercy:flurry-of-healing-and-harm",
+    "kind": "subclass-feature",
+    "name": "Flurry of Healing and Harm",
+    "source": "srd",
+    "page": "TCE 49",
+    "tags": [
+      "mercy-feature",
+      "monk-feature"
+    ],
+    "text": "*11th-level Way of Mercy feature*\n\nYou can now mete out a flurry of comfort and hurt. When you use Flurry of Blows, you can now replace each of the unarmed strikes with a use of your Hand of Healing, without spending ki points for the healing.\n\nIn addition, when you make an unarmed strike with Flurry of Blows, you can use Hand of Harm with that strike without spending the ki point for Hand of Harm. You can still use Hand of Harm only once per turn."
+  },
+  {
+    "id": "srd:mercy:hand-of-ultimate-mercy",
+    "kind": "subclass-feature",
+    "name": "Hand of Ultimate Mercy",
+    "source": "srd",
+    "page": "TCE 49",
+    "tags": [
+      "mercy-feature",
+      "monk-feature"
+    ],
+    "text": "*17th-level Way of Mercy feature*\n\nYour mastery of life energy opens the door to the ultimate mercy. As an action, you can touch the corpse of a creature that died within the past 24 hours and expend 5 ki points. The creature then returns to life, regaining a number of hit points equal to 4d10 + your Wisdom modifier. If the creature died while subject to any of the following conditions, it revives with them removed: blinded, deafened, paralyzed, poisoned, and stunned.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+    "actions": [
+      {
+        "id": "hand-of-ultimate-mercy",
+        "name": "Hand of Ultimate Mercy",
+        "activation": "action",
+        "cost": {
+          "srd:monk:ki-points": 5
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "resources": [
+      {
+        "id": "srd:mercy:hand-of-ultimate-mercy",
+        "name": "Hand of Ultimate Mercy",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

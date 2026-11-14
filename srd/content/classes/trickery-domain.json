@@ -1,0 +1,214 @@
+[
+  {
+    "id": "srd:subclass:trickery-domain",
+    "kind": "subclass",
+    "name": "Trickery Domain",
+    "source": "srd",
+    "page": "PHB 62",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:trickery:trickery-domain",
+          "srd:spell:charm-person",
+          "srd:spell:disguise-self"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:trickery:channel-divinity-invoke-duplicity"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:mirror-image",
+          "srd:spell:pass-without-trace"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:blink",
+          "srd:spell:dispel-magic"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:trickery:channel-divinity-cloak-of-shadows"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:dimension-door",
+          "srd:spell:polymorph"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:trickery:divine-strike",
+          "srd:trickery:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:dominate-person",
+          "srd:spell:modify-memory"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:trickery:improved-duplicity"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:trickery:blessing-of-the-trickster",
+    "kind": "subclass-feature",
+    "name": "Blessing of the Trickster",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting when you choose this domain at 1st level, you can use your action to touch a willing creature other than yourself to give it advantage on Dexterity (Stealth) checks. This blessing lasts for 1 hour or until you use this feature again.",
+    "actions": [
+      {
+        "id": "blessing-of-the-trickster",
+        "name": "Blessing of the Trickster",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:trickery:trickery-domain",
+    "kind": "subclass-feature",
+    "name": "Trickery Domain",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "Gods of trickery—such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Trickery Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | charm person, disguise self |\n| 3rd | mirror image, pass without trace |\n| 5th | blink, dispel magic |\n| 7th | dimension door, polymorph |\n| 9th | dominate person, modify memory |",
+    "grants": [
+      "srd:trickery:blessing-of-the-trickster"
+    ]
+  },
+  {
+    "id": "srd:trickery:channel-divinity-invoke-duplicity",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Invoke Duplicity",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.\n\nAs an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.\n\nFor the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.",
+    "actions": [
+      {
+        "id": "channel-divinity-invoke-duplicity",
+        "name": "Channel Divinity: Invoke Duplicity",
+        "activation": "special",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        }
+      }
+    ],
+    "modifiers": [
+      {
+        "target": "attacks.all",
+        "op": "advantage",
+        "when": {
+          "text": "when both you and your illusion are within 5 feet of a creature that can see the illusion (attack rolls against that creature)"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:trickery:channel-divinity-cloak-of-shadows",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Cloak of Shadows",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 6th level, you can use your Channel Divinity to vanish.\n\nAs an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.",
+    "actions": [
+      {
+        "id": "channel-divinity-cloak-of-shadows",
+        "name": "Channel Divinity: Cloak of Shadows",
+        "activation": "action",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:trickery:divine-strike",
+    "kind": "subclass-feature",
+    "name": "Divine Strike",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "At 8th level, you gain the ability to infuse your weapon strikes with poison—a gift from your deity. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 poison damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+  },
+  {
+    "id": "srd:trickery:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Divine Strike feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:trickery:improved-duplicity",
+    "kind": "subclass-feature",
+    "name": "Improved Duplicity",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "trickery-feature",
+      "cleric-feature"
+    ],
+    "text": "At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.",
+    "actions": [
+      {
+        "id": "improved-duplicity",
+        "name": "Improved Duplicity",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

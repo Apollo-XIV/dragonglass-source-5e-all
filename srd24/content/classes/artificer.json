@@ -1,0 +1,368 @@
+[
+  {
+    "id": "srd24:class:artificer",
+    "kind": "class",
+    "name": "Artificer",
+    "source": "srd24",
+    "page": "EFA 7",
+    "key": "artificer",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "fluff": "Masters of invention, Artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in this chapter.",
+    "text": "**Hit Dice:** 1d8 per artificer level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per artificer level after 1st.\n\n**Armor:** Light, medium, shield\n**Weapons:** Simple\n**Tools:** Thieves' Tools, Tinker's Tools, one type of Artisan's Tools of your choice\n**Saving Throws:** Constitution, Intelligence\n**Skills:** Choose 2 from arcana, history, investigation, medicine, nature, perception, sleight of hand\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n*Choose A or B:* (A) Studded Leather Armor, Dagger, Thieves' Tools, Tinker's Tools, Dungeoneer's Pack, and 16 GP; or (B) 150 GP",
+    "primaryAbility": [
+      "int"
+    ],
+    "x-multiclass-proficiencies": {
+      "skills": [
+        {
+          "choose": {
+            "from": [
+              "arcana",
+              "history",
+              "investigation",
+              "medicine",
+              "nature",
+              "perception",
+              "sleight of hand"
+            ],
+            "count": 1
+          }
+        }
+      ],
+      "tools": [
+        "{@item Tinker's Tools|XPHB}"
+      ],
+      "toolProficiencies": [
+        {
+          "tinker's tools": true
+        }
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
+        }
+      ]
+    },
+    "spellcasting": {
+      "ability": "int",
+      "progression": "half",
+      "type": "prepared",
+      "list": "artificer-spell",
+      "cantrips": "@table(artificer, cantrips-known)",
+      "prepared": "@table(artificer, prepared-spells)"
+    },
+    "tables": {
+      "plans-known": [
+        "—",
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        7,
+        7,
+        7,
+        7,
+        8,
+        8,
+        8
+      ],
+      "magic-items": [
+        "—",
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6
+      ],
+      "prepared-spells": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        6,
+        7,
+        7,
+        9,
+        9,
+        10,
+        10,
+        11,
+        11,
+        12,
+        12,
+        14,
+        14,
+        15,
+        15
+      ],
+      "cantrips-known": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "levels": {
+      "1": {
+        "innateSpells": [
+          {
+            "spell": "srd24:spell:mending"
+          }
+        ],
+        "grants": [
+          "srd24:tool:thieves-tools",
+          "srd24:tool:tinkers-tools",
+          "srd24:artificer:spellcasting",
+          "srd24:artificer:tinkers-magic"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:artificer:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd24:skill:arcana",
+                "srd24:skill:history",
+                "srd24:skill:investigation",
+                "srd24:skill:medicine",
+                "srd24:skill:nature",
+                "srd24:skill:perception",
+                "srd24:skill:sleight-of-hand"
+              ]
+            }
+          },
+          {
+            "id": "srd24:class:artificer:tool",
+            "name": "Tool Proficiency",
+            "count": 1,
+            "from": {
+              "kind": "tool",
+              "tags": [
+                "artisans-tools"
+              ]
+            },
+            "text": "one type of Artisan's Tools of your choice"
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.con",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.int",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light",
+              "medium",
+              "shield"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple"
+            ]
+          }
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd24:artificer:replicate-magic-item"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd24:artificer:artificer-subclass"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:artificer:subclass",
+            "name": "Artificer Subclass",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "artificer-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd24:class:artificer:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:artificer:magic-item-tinker"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:artificer:flash-of-genius"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd24:class:artificer:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:artificer:magic-item-adept"
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:artificer:spell-storing-item"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd24:class:artificer:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:artificer:advanced-artifice"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd24:class:artificer:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "general-feat"
+              ]
+            },
+            "text": "Take the Ability Score Improvement feat, or another feat you qualify for."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:artificer:magic-item-master"
+        ]
+      },
+      "19": {
+        "grants": [
+          "srd24:artificer:epic-boon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:class:artificer:epic-boon-19",
+            "name": "Epic Boon",
+            "count": 1,
+            "from": {
+              "kind": "feat",
+              "tags": [
+                "epic-boon"
+              ]
+            }
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:artificer:soul-of-artifice"
+        ]
+      }
+    }
+  }
+]

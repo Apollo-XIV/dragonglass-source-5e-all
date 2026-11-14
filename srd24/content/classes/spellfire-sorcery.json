@@ -1,0 +1,173 @@
+[
+  {
+    "id": "srd24:subclass:spellfire-sorcery",
+    "kind": "subclass",
+    "name": "Spellfire Sorcery",
+    "source": "srd24",
+    "page": "FRHoF 24",
+    "class": "srd24:class:sorcerer",
+    "tags": [
+      "sorcerer-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:spellfire:spellfire-sorcery",
+          "srd24:spell:cure-wounds",
+          "srd24:spell:guiding-bolt",
+          "srd24:spell:lesser-restoration",
+          "srd24:spell:scorching-ray"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:aura-of-vitality",
+          "srd24:spell:dispel-magic"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:spellfire:absorb-spells",
+          "srd24:spell:counterspell"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:spell:fire-shield",
+          "srd24:spell:wall-of-fire"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:greater-restoration",
+          "srd24:spell:flame-strike"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:spellfire:honed-spellfire"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:spellfire:crown-of-spellfire"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:spellfire:bolstering-flames",
+    "kind": "subclass-feature",
+    "name": "Bolstering Flames",
+    "source": "srd24",
+    "page": "FRHoF 24",
+    "tags": [
+      "spellfire-feature",
+      "sorcerer-feature"
+    ],
+    "text": "You or one creature you can see within 30 feet of yourself gains Temporary Hit Points equal to 1d4 plus your Charisma modifier."
+  },
+  {
+    "id": "srd24:spellfire:radiant-fire",
+    "kind": "subclass-feature",
+    "name": "Radiant Fire",
+    "source": "srd24",
+    "page": "FRHoF 24",
+    "tags": [
+      "spellfire-feature",
+      "sorcerer-feature"
+    ],
+    "text": "One creature you can see within 30 feet of yourself takes 1d4 Fire or Radiant damage (your choice)."
+  },
+  {
+    "id": "srd24:spellfire:spellfire-burst",
+    "kind": "subclass-feature",
+    "name": "Spellfire Burst",
+    "source": "srd24",
+    "page": "FRHoF 24",
+    "tags": [
+      "spellfire-feature",
+      "sorcerer-feature"
+    ],
+    "text": "When you spend at least 1 Sorcery Point as part of the Magic action or a Bonus Action on your turn, you can unleash one of the following magical effects of your choice. You can do so only once per turn.",
+    "grants": [
+      "srd24:spellfire:bolstering-flames",
+      "srd24:spellfire:radiant-fire"
+    ]
+  },
+  {
+    "id": "srd24:spellfire:spellfire-spells",
+    "kind": "subclass-feature",
+    "name": "Spellfire Spells",
+    "source": "srd24",
+    "page": "FRHoF 24",
+    "tags": [
+      "spellfire-feature",
+      "sorcerer-feature"
+    ],
+    "text": "When you reach a Sorcerer level specified in the Spellfire Spells table, you thereafter always have the listed spells prepared.\n\n| Sorcerer Level | Spells |\n| --- | --- |\n| 3 | Cure Wounds, Guiding Bolt, Lesser Restoration, Scorching Ray |\n| 5 | Aura of Vitality, Dispel Magic |\n| 7 | Fire Shield, Wall of Fire |\n| 9 | Greater Restoration, Flame Strike |"
+  },
+  {
+    "id": "srd24:spellfire:spellfire-sorcery",
+    "kind": "subclass-feature",
+    "name": "Spellfire Sorcery",
+    "source": "srd24",
+    "page": "FRHoF 24",
+    "tags": [
+      "spellfire-feature",
+      "sorcerer-feature"
+    ],
+    "text": "*Wield Raw Magic*\n\nYour innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.\n\nWielders of spellfire tend to have a penchant for wandering. Many travel between cosmopolitan settlements, such as those along the Sword Coast, and wield their magic in service of the common good. Others realize their own strange powers by roaming equally strange lands, from the magic-blasted wastes of the desert of Anauroch to the god-touched wilds of the Old Empires. Wherever they go in the Realms, spellfire Sorcerers are courted by factions with interests in the arcane arts, such as the Harpers, Cult of the Dragon, and Red Wizards.",
+    "grants": [
+      "srd24:spellfire:spellfire-burst",
+      "srd24:spellfire:spellfire-spells"
+    ]
+  },
+  {
+    "id": "srd24:spellfire:absorb-spells",
+    "kind": "subclass-feature",
+    "name": "Absorb Spells",
+    "source": "srd24",
+    "page": "FRHoF 25",
+    "tags": [
+      "spellfire-feature",
+      "sorcerer-feature"
+    ],
+    "text": "You always have Counterspell prepared.\n\nAdditionally, whenever a target fails the saving throw against a Counterspell you cast, you regain 1d4 Sorcery Points."
+  },
+  {
+    "id": "srd24:spellfire:honed-spellfire",
+    "kind": "subclass-feature",
+    "name": "Honed Spellfire",
+    "source": "srd24",
+    "page": "FRHoF 25",
+    "tags": [
+      "spellfire-feature",
+      "sorcerer-feature"
+    ],
+    "text": "Your Spellfire Burst improves. You add your Sorcerer level to the Temporary Hit Points gained from Bolstering Flames, and the damage of Radiant Fire increases to 1d8."
+  },
+  {
+    "id": "srd24:spellfire:crown-of-spellfire",
+    "kind": "subclass-feature",
+    "name": "Crown of Spellfire",
+    "source": "srd24",
+    "page": "FRHoF 25",
+    "tags": [
+      "spellfire-feature",
+      "sorcerer-feature"
+    ],
+    "text": "When you use Innate Sorcery, you can alter it and infuse yourself with the essence of spellfire, gaining the following benefits while this use of Innate Sorcery is active. Once you use this feature to alter Innate Sorcery, you can't use it again until you finish a Long Rest unless you spend 5 Sorcery Points (no action required) to restore your use of it.\n\n**Burning Life Force.** Once per turn when you are hit by an attack roll, you can expend a number of Hit Point Dice, up to a maximum equal to your Charisma modifier (minimum of one). Roll the expended dice, and reduce the amount of damage from that attack equal to the total rolled.\n\n**Flight.** You gain a Fly Speed of 60 feet and can hover.\n\n**Spell Avoidance.** When you're subjected to a spell or magical effect that allows you to make a saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. You can't use this benefit if you have the Incapacitated condition.",
+    "actions": [
+      {
+        "id": "crown-of-spellfire",
+        "name": "Crown of Spellfire",
+        "activation": "special",
+        "cost": {
+          "srd24:sorcerer:sorcery-points": 7
+        }
+      }
+    ]
+  }
+]

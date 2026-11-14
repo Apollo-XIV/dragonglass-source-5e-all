@@ -1,0 +1,184 @@
+[
+  {
+    "id": "srd:subclass:gloom-stalker",
+    "kind": "subclass",
+    "name": "Gloom Stalker",
+    "source": "srd",
+    "page": "XGE 41",
+    "class": "srd:class:ranger",
+    "tags": [
+      "ranger-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> So you sneak around in the dark? You know most everything but humans can see in the dark, right? We all see you. Tiptoeing doesn't turn you invisible.\n>\n> — Xanathar",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:gloom-stalker:gloom-stalker",
+          {
+            "id": "srd:spell:disguise-self",
+            "mode": "learned"
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          {
+            "id": "srd:spell:rope-trick",
+            "mode": "learned"
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:gloom-stalker:iron-mind"
+        ]
+      },
+      "9": {
+        "grants": [
+          {
+            "id": "srd:spell:fear",
+            "mode": "learned"
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:gloom-stalker:stalkers-flurry"
+        ]
+      },
+      "13": {
+        "grants": [
+          {
+            "id": "srd:spell:greater-invisibility",
+            "mode": "learned"
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:gloom-stalker:shadowy-dodge"
+        ]
+      },
+      "17": {
+        "grants": [
+          {
+            "id": "srd:spell:seeming",
+            "mode": "learned"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:gloom-stalker:gloom-stalker-magic",
+    "kind": "subclass-feature",
+    "name": "Gloom Stalker Magic",
+    "source": "srd",
+    "page": "XGE 41",
+    "tags": [
+      "gloom-stalker-feature",
+      "ranger-feature"
+    ],
+    "text": "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Gloom Stalker Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.\n\n**Gloom Stalker Spells**\n| Ranger Level | Spells |\n| --- | --- |\n| 3rd | disguise self |\n| 5th | rope trick |\n| 9th | fear |\n| 13th | greater invisibility |\n| 17th | seeming |"
+  },
+  {
+    "id": "srd:gloom-stalker:dread-ambusher",
+    "kind": "subclass-feature",
+    "name": "Dread Ambusher",
+    "source": "srd",
+    "page": "XGE 41",
+    "tags": [
+      "gloom-stalker-feature",
+      "ranger-feature"
+    ],
+    "text": "At 3rd level, you master the art of the ambush. You can give yourself a bonus to your initiative rolls equal to your Wisdom modifier.\n\nAt the start of your first turn of each combat, your walking speed increases by 10 feet, which lasts until the end of that turn. If you take the Attack action on that turn, you can make one additional weapon attack as part of that action. If that attack hits, the target takes an extra 1d8 damage of the weapon's damage type.",
+    "modifiers": [
+      {
+        "target": "initiative",
+        "op": "add",
+        "value": "@abilities.wis.mod",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:gloom-stalker:umbral-sight",
+    "kind": "subclass-feature",
+    "name": "Umbral Sight",
+    "source": "srd",
+    "page": "XGE 41",
+    "tags": [
+      "gloom-stalker-feature",
+      "ranger-feature"
+    ],
+    "text": "At 3rd level, you gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet.\n\nYou are also adept at evading creatures that rely on darkvision. While in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness."
+  },
+  {
+    "id": "srd:gloom-stalker:gloom-stalker",
+    "kind": "subclass-feature",
+    "name": "Gloom Stalker",
+    "source": "srd",
+    "page": "XGE 41",
+    "tags": [
+      "gloom-stalker-feature",
+      "ranger-feature"
+    ],
+    "text": "Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
+    "grants": [
+      "srd:gloom-stalker:gloom-stalker-magic",
+      "srd:gloom-stalker:dread-ambusher",
+      "srd:gloom-stalker:umbral-sight"
+    ]
+  },
+  {
+    "id": "srd:gloom-stalker:iron-mind",
+    "kind": "subclass-feature",
+    "name": "Iron Mind",
+    "source": "srd",
+    "page": "XGE 41",
+    "tags": [
+      "gloom-stalker-feature",
+      "ranger-feature"
+    ],
+    "text": "By 7th level, you have honed your ability to resist the mind-altering powers of your prey. You gain proficiency in Wisdom saving throws. If you already have this proficiency, you instead gain proficiency in Intelligence or Charisma saving throws (your choice)."
+  },
+  {
+    "id": "srd:gloom-stalker:stalkers-flurry",
+    "kind": "subclass-feature",
+    "name": "Stalker's Flurry",
+    "source": "srd",
+    "page": "XGE 41",
+    "tags": [
+      "gloom-stalker-feature",
+      "ranger-feature"
+    ],
+    "text": "At 11th level, you learn to attack with such unexpected speed that you can turn a miss into another strike. Once on each of your turns when you miss with a weapon attack, you can make another weapon attack as part of the same action."
+  },
+  {
+    "id": "srd:gloom-stalker:shadowy-dodge",
+    "kind": "subclass-feature",
+    "name": "Shadowy Dodge",
+    "source": "srd",
+    "page": "XGE 41",
+    "tags": [
+      "gloom-stalker-feature",
+      "ranger-feature"
+    ],
+    "text": "Starting at 15th level, you can dodge in unforeseen ways, with wisps of supernatural shadow around you. Whenever a creature makes an attack roll against you and doesn't have advantage on the roll, you can use your reaction to impose disadvantage on it. You must use this feature before you know the outcome of the attack roll.",
+    "actions": [
+      {
+        "id": "shadowy-dodge",
+        "name": "Shadowy Dodge",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

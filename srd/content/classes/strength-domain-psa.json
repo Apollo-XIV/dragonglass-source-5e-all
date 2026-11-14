@@ -1,0 +1,216 @@
+[
+  {
+    "id": "srd:subclass:strength-domain-psa",
+    "kind": "subclass",
+    "name": "Strength Domain (PSA)",
+    "source": "srd",
+    "page": "PSA 26",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:strength-psa:strength-domain-psa",
+          "srd:spell:divine-favor",
+          "srd:spell:shield-of-faith"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:strength-domain-psa:known-spells-1",
+            "name": "Cantrip",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level:0",
+                "druid-spell"
+              ]
+            }
+          }
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:strength-psa:channel-divinity-feat-of-strength"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:enhance-ability",
+          "srd:spell:protection-from-poison"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:haste",
+          "srd:spell:protection-from-energy"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:strength-psa:rhonass-blessing"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:dominate-beast",
+          "srd:spell:stoneskin"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:strength-psa:divine-strike",
+          "srd:strength-psa:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:destructive-wave",
+          "srd:spell:insect-plague"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:strength-psa:avatar-of-battle"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:strength-psa:acolyte-of-strength",
+    "kind": "subclass-feature",
+    "name": "Acolyte of Strength",
+    "source": "srd",
+    "page": "PSA 26",
+    "tags": [
+      "strength-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 1st level, you learn one druid cantrip of your choice. You also gain proficiency in one of the following skills of your choice: Animal Handling, Athletics, Nature, or Survival."
+  },
+  {
+    "id": "srd:strength-psa:bonus-proficiency",
+    "kind": "subclass-feature",
+    "name": "Bonus Proficiency",
+    "source": "srd",
+    "page": "PSA 26",
+    "tags": [
+      "strength-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "Also at 1st level, you gain proficiency with heavy armor.",
+    "modifiers": [
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "heavy armor"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:strength-psa:strength-domain-psa",
+    "kind": "subclass-feature",
+    "name": "Strength Domain (PSA)",
+    "source": "srd",
+    "page": "PSA 26",
+    "tags": [
+      "strength-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "> The worthy shall hone a strong body that can withstand the boundless energies of the afterlife.\n\nIt falls to Rhonas to instill this teaching in those who would enter the afterlife—but to his mind, the words themselves don't matter. Strength can't be taught. It must be built through practice and training. Rhonas demonstrates his teachings by his example, rather than by giving his students any kind of academic instruction. He welcomes the people of Naktamun to stand by the Hekma and watch him as he storms into the desert to battle the greatest horrors. He encourages them to observe his indomitable strength, for though they will never equal it, they can aspire to mimicry. He invites them to scrutinize every move and practice what they see.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Strength Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | divine favor, shield of faith |\n| 3rd | enhance ability, protection from poison |\n| 5th | haste, protection from energy |\n| 7th | dominate beast, stoneskin |\n| 9th | destructive wave, insect plague |",
+    "grants": [
+      "srd:strength-psa:acolyte-of-strength",
+      "srd:strength-psa:bonus-proficiency"
+    ]
+  },
+  {
+    "id": "srd:strength-psa:channel-divinity-feat-of-strength",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Feat of Strength",
+    "source": "srd",
+    "page": "PSA 26",
+    "tags": [
+      "strength-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 2nd level, you can use your Channel Divinity to enhance your physical might. When you make an attack roll, ability check, or saving throw using Strength, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fails.",
+    "actions": [
+      {
+        "id": "channel-divinity-feat-of-strength",
+        "name": "Channel Divinity: Feat of Strength",
+        "activation": "special",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:strength-psa:rhonass-blessing",
+    "kind": "subclass-feature",
+    "name": "Rhonas's Blessing",
+    "source": "srd",
+    "page": "PSA 26",
+    "tags": [
+      "strength-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 6th level, when a creature within 30 feet of you makes an attack roll, ability check, or saving throw using Strength, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the roll succeeds or fail.",
+    "actions": [
+      {
+        "id": "rhonass-blessing",
+        "name": "Rhonas's Blessing",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:strength-psa:divine-strike",
+    "kind": "subclass-feature",
+    "name": "Divine Strike",
+    "source": "srd",
+    "page": "PSA 26",
+    "tags": [
+      "strength-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
+  },
+  {
+    "id": "srd:strength-psa:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "strength-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Divine Strike feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:strength-psa:avatar-of-battle",
+    "kind": "subclass-feature",
+    "name": "Avatar of Battle",
+    "source": "srd",
+    "page": "PSA 26",
+    "tags": [
+      "strength-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+  }
+]

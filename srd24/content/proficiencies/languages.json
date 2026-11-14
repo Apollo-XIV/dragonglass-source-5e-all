@@ -1,0 +1,987 @@
+[
+  {
+    "id": "srd24:language:aarakocra",
+    "kind": "language",
+    "name": "Aarakocra",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Aarakocra"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Aarakocra Aeromancer, Aarakocra Skirmisher.",
+    "page": "XMM 10"
+  },
+  {
+    "id": "srd24:language:abyssal",
+    "kind": "language",
+    "name": "Abyssal",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Abyssal"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:aglarondan",
+    "kind": "language",
+    "name": "Aglarondan",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Aglarondan"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:alzhedo",
+    "kind": "language",
+    "name": "Alzhedo",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Alzhedo"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:blink-dog",
+    "kind": "language",
+    "name": "Blink Dog",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Blink Dog"
+        ]
+      }
+    ],
+    "text": "Typically spoken by blink dogs.",
+    "page": "XMM 46"
+  },
+  {
+    "id": "srd24:language:bothii",
+    "kind": "language",
+    "name": "Bothii",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Bothii"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:bullywug",
+    "kind": "language",
+    "name": "Bullywug",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Bullywug"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Bullywug Bog Sage, Bullywug Warrior.",
+    "page": "XMM 64"
+  },
+  {
+    "id": "srd24:language:celestial",
+    "kind": "language",
+    "name": "Celestial",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Celestial"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:chessentan",
+    "kind": "language",
+    "name": "Chessentan",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Chessentan"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:chondathan",
+    "kind": "language",
+    "name": "Chondathan",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Chondathan"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:common",
+    "kind": "language",
+    "name": "Common",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Common"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:common-sign-language",
+    "kind": "language",
+    "name": "Common Sign Language",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Common Sign Language"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:damaran",
+    "kind": "language",
+    "name": "Damaran",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Damaran"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:deep-speech",
+    "kind": "language",
+    "name": "Deep Speech",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Deep Speech"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:draconic",
+    "kind": "language",
+    "name": "Draconic",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Draconic"
+        ]
+      }
+    ],
+    "text": "Script: Draconic.",
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:druidic",
+    "kind": "language",
+    "name": "Druidic",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Druidic"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:dwarvish",
+    "kind": "language",
+    "name": "Dwarvish",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Dwarvish"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:elvish",
+    "kind": "language",
+    "name": "Elvish",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Elvish"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:giant",
+    "kind": "language",
+    "name": "Giant",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Giant"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:gith",
+    "kind": "language",
+    "name": "Gith",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Gith"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Githyanki Dracomancer, Githyanki Knight, Githyanki Warrior, Githzerai Monk, Githzerai Psion, Githzerai Zerth.",
+    "page": "XMM 135"
+  },
+  {
+    "id": "srd24:language:gnoll",
+    "kind": "language",
+    "name": "Gnoll",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Gnoll"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Gnoll Demoniac, Gnoll Fang of Yeenoghu, Gnoll Pack Lord, Gnoll Warrior.",
+    "page": "XMM 141"
+  },
+  {
+    "id": "srd24:language:gnomish",
+    "kind": "language",
+    "name": "Gnomish",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Gnomish"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:goblin",
+    "kind": "language",
+    "name": "Goblin",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Goblin"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:halfling",
+    "kind": "language",
+    "name": "Halfling",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Halfling"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:hook-horror",
+    "kind": "language",
+    "name": "Hook Horror",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Hook Horror"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Hook Horror.",
+    "page": "XMM 173"
+  },
+  {
+    "id": "srd24:language:illuskan",
+    "kind": "language",
+    "name": "Illuskan",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Illuskan"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:infernal",
+    "kind": "language",
+    "name": "Infernal",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Infernal"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:lantanese",
+    "kind": "language",
+    "name": "Lantanese",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Lantanese"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:midani",
+    "kind": "language",
+    "name": "Midani",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Midani"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:modron",
+    "kind": "language",
+    "name": "Modron",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Modron"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Modron Duodrone, Modron Monodrone, Modron Pentadrone, Modron Quadrone, Modron Tridrone.",
+    "page": "XMM 217"
+  },
+  {
+    "id": "srd24:language:mulhorandi",
+    "kind": "language",
+    "name": "Mulhorandi",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Mulhorandi"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:netherese",
+    "kind": "language",
+    "name": "Netherese",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Netherese"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:orc",
+    "kind": "language",
+    "name": "Orc",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Orc"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:otyugh",
+    "kind": "language",
+    "name": "Otyugh",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Otyugh"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Otyugh.",
+    "page": "XMM 233"
+  },
+  {
+    "id": "srd24:language:primordial",
+    "kind": "language",
+    "name": "Primordial",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Primordial"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:rashemi",
+    "kind": "language",
+    "name": "Rashemi",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Rashemi"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:reghedjic",
+    "kind": "language",
+    "name": "Reghedjic",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Reghedjic"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:sahuagin",
+    "kind": "language",
+    "name": "Sahuagin",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Sahuagin"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Sahuagin Baron, Sahuagin Priest, Sahuagin Warrior.",
+    "page": "XMM 265"
+  },
+  {
+    "id": "srd24:language:sespech",
+    "kind": "language",
+    "name": "Sespech",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Sespech"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:slaad",
+    "kind": "language",
+    "name": "Slaad",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Slaad"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Blue Slaad, Death Slaad, Gray Slaad, Green Slaad, Red Slaad.",
+    "page": "XMM 285"
+  },
+  {
+    "id": "srd24:language:sylvan",
+    "kind": "language",
+    "name": "Sylvan",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Sylvan"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:thayan",
+    "kind": "language",
+    "name": "Thayan",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Thayan"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:thieves-cant",
+    "kind": "language",
+    "name": "Thieves' Cant",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Thieves' Cant"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:thri-kreen",
+    "kind": "language",
+    "name": "Thri-kreen",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Thri-kreen"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Thri-kreen Marauder, Thri-kreen Psion.",
+    "page": "XMM 306"
+  },
+  {
+    "id": "srd24:language:troglodyte",
+    "kind": "language",
+    "name": "Troglodyte",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Troglodyte"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Troglodyte.",
+    "page": "XMM 309"
+  },
+  {
+    "id": "srd24:language:turmic",
+    "kind": "language",
+    "name": "Turmic",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Turmic"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:umber-hulk",
+    "kind": "language",
+    "name": "Umber Hulk",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Umber Hulk"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Umber Hulk.",
+    "page": "XMM 312"
+  },
+  {
+    "id": "srd24:language:undercommon",
+    "kind": "language",
+    "name": "Undercommon",
+    "source": "srd24",
+    "tags": [
+      "rare-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Undercommon"
+        ]
+      }
+    ],
+    "page": "XPHB 37"
+  },
+  {
+    "id": "srd24:language:untheric",
+    "kind": "language",
+    "name": "Untheric",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Untheric"
+        ]
+      }
+    ],
+    "page": "FRHoF 49"
+  },
+  {
+    "id": "srd24:language:worg",
+    "kind": "language",
+    "name": "Worg",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Worg"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Dire Worg, Worg.",
+    "page": "XMM 335"
+  },
+  {
+    "id": "srd24:language:yeti",
+    "kind": "language",
+    "name": "Yeti",
+    "source": "srd24",
+    "tags": [
+      "standard-language"
+    ],
+    "modifiers": [
+      {
+        "target": "languages",
+        "op": "include",
+        "value": [
+          "Yeti"
+        ]
+      }
+    ],
+    "text": "Typically spoken by Abominable Yeti, Yeti.",
+    "page": "XMM 339"
+  }
+]

@@ -1,0 +1,175 @@
+[
+  {
+    "id": "srd24:boon-of-magic-school-mastery:abjuration",
+    "kind": "spell-list-option",
+    "name": "Abjuration",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:light-bringer:cleric-cantrip",
+    "kind": "spell-list-option",
+    "name": "Cleric Cantrip",
+    "source": "srd24",
+    "choices": [
+      {
+        "id": "srd24:light-bringer:cleric-cantrip:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "cleric-spell"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:magic-connoisseur:cleric-spells",
+    "kind": "spell-list-option",
+    "name": "Cleric Spells",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-magic-school-mastery:conjuration",
+    "kind": "spell-list-option",
+    "name": "Conjuration",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-magic-school-mastery:divination",
+    "kind": "spell-list-option",
+    "name": "Divination",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:magic-connoisseur:druid-spells",
+    "kind": "spell-list-option",
+    "name": "Druid Spells",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-magic-school-mastery:enchantment",
+    "kind": "spell-list-option",
+    "name": "Enchantment",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-magic-school-mastery:evocation",
+    "kind": "spell-list-option",
+    "name": "Evocation",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-magic-school-mastery:illusion",
+    "kind": "spell-list-option",
+    "name": "Illusion",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:light-bringer:light",
+    "kind": "spell-list-option",
+    "name": "Light",
+    "source": "srd24",
+    "grants": [
+      "srd24:spell:light"
+    ]
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-detection",
+    "kind": "spell-list-option",
+    "name": "Mark of Detection",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-finding",
+    "kind": "spell-list-option",
+    "name": "Mark of Finding",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-handling",
+    "kind": "spell-list-option",
+    "name": "Mark of Handling",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-healing",
+    "kind": "spell-list-option",
+    "name": "Mark of Healing",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-hospitality",
+    "kind": "spell-list-option",
+    "name": "Mark of Hospitality",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-making",
+    "kind": "spell-list-option",
+    "name": "Mark of Making",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-passage",
+    "kind": "spell-list-option",
+    "name": "Mark of Passage",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-scribing",
+    "kind": "spell-list-option",
+    "name": "Mark of Scribing",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-sentinel",
+    "kind": "spell-list-option",
+    "name": "Mark of Sentinel",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-shadow",
+    "kind": "spell-list-option",
+    "name": "Mark of Shadow",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-storm",
+    "kind": "spell-list-option",
+    "name": "Mark of Storm",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:mark-of-warding",
+    "kind": "spell-list-option",
+    "name": "Mark of Warding",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-magic-school-mastery:necromancy",
+    "kind": "spell-list-option",
+    "name": "Necromancy",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-siberys:sorcerer-spell",
+    "kind": "spell-list-option",
+    "name": "Sorcerer Spell",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:boon-of-magic-school-mastery:transmutation",
+    "kind": "spell-list-option",
+    "name": "Transmutation",
+    "source": "srd24"
+  },
+  {
+    "id": "srd24:magic-connoisseur:wizard-spells",
+    "kind": "spell-list-option",
+    "name": "Wizard Spells",
+    "source": "srd24"
+  }
+]

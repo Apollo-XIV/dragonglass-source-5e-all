@@ -1,0 +1,282 @@
+[
+  {
+    "id": "srd24:subclass:psi-warrior",
+    "kind": "subclass",
+    "name": "Psi Warrior",
+    "source": "srd24",
+    "page": "XPHB 98",
+    "class": "srd24:class:fighter",
+    "tags": [
+      "fighter-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:psi-warrior:psi-warrior"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:psi-warrior:telekinetic-adept"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:psi-warrior:guarded-mind"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:psi-warrior:bulwark-of-force"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:psi-warrior:telekinetic-master"
+        ],
+        "innateSpells": [
+          {
+            "spell": "srd24:spell:telekinesis",
+            "uses": 1,
+            "recharge": [
+              {
+                "on": "long-rest",
+                "amount": "all"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:psi-warrior:protective-field",
+    "kind": "subclass-feature",
+    "name": "Protective Field",
+    "source": "srd24",
+    "page": "XPHB 98",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "When you or another creature you can see within 30 feet of you takes damage, you can take a Reaction to expend one Psionic Energy Die, roll the die, and reduce the damage taken by the number rolled plus your Intelligence modifier (minimum reduction of 1), as you create a momentary shield of telekinetic force.",
+    "x-consumes": {
+      "name": "Psionic Energy Die",
+      "amount": 1
+    },
+    "actions": [
+      {
+        "id": "protective-field",
+        "name": "Protective Field",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:psi-warrior:psionic-strike",
+    "kind": "subclass-feature",
+    "name": "Psionic Strike",
+    "source": "srd24",
+    "page": "XPHB 98",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "You can propel your weapons with psionic force. Once on each of your turns, immediately after you hit a target within 30 feet of yourself with an attack and deal damage to it with a weapon, you can expend one Psionic Energy Die, rolling it and dealing Force damage to the target equal to the number rolled plus your Intelligence modifier.",
+    "x-consumes": {
+      "name": "Psionic Energy Die",
+      "amount": 1
+    }
+  },
+  {
+    "id": "srd24:psi-warrior:telekinetic-movement",
+    "kind": "subclass-feature",
+    "name": "Telekinetic Movement",
+    "source": "srd24",
+    "page": "XPHB 98",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "You can move an object or a creature with your mind. As a Magic action, choose one target you can see within 30 feet of yourself; the target must be a loose object that is Large or smaller or one willing creature other than you. You transport the target up to 30 feet to an unoccupied space you can see. Alternatively, if the target is a Tiny object, you can transport it to or from your hand.\n\nOnce you take this action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.",
+    "x-consumes": {
+      "name": "Psionic Energy Die",
+      "amount": 1
+    },
+    "actions": [
+      {
+        "id": "telekinetic-movement",
+        "name": "Telekinetic Movement",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:psi-warrior:psionic-power",
+    "kind": "subclass-feature",
+    "name": "Psionic Power",
+    "source": "srd24",
+    "page": "XPHB 98",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "You harbor a wellspring of psionic energy within yourself. It is represented by your Psionic Energy Dice, which fuel powers you have from this subclass. The Psi Warrior Energy Dice table shows the die size and number of these dice you have when you reach certain Fighter levels.\n\n**Psi Warrior Energy Dice**\n| Fighter Level | Die Size | Number |\n| --- | --- | --- |\n| 3 | D6 | 4 |\n| 5 | D8 | 6 |\n| 9 | D8 | 8 |\n| 11 | D10 | 8 |\n| 13 | D10 | 10 |\n| 17 | D12 | 12 |\n\nAny features in this subclass that use a Psionic Energy Die use only the dice from this subclass. Some of your powers expend the Psionic Energy Die, as specified in a power's description, and you can't use a power if it requires you to use a die when all your Psionic Energy Dice are expended.\n\nYou regain one of your expended Psionic Energy Dice when you finish a Short Rest, and you regain all of them when you finish a Long Rest.",
+    "grants": [
+      "srd24:psi-warrior:protective-field",
+      "srd24:psi-warrior:psionic-strike",
+      "srd24:psi-warrior:telekinetic-movement"
+    ]
+  },
+  {
+    "id": "srd24:psi-warrior:psi-warrior",
+    "kind": "subclass-feature",
+    "name": "Psi Warrior",
+    "source": "srd24",
+    "page": "XPHB 98",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "*Augment Physical Might with Psionic Power*\n\nPsi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.",
+    "grants": [
+      "srd24:psi-warrior:psionic-power"
+    ]
+  },
+  {
+    "id": "srd24:psi-warrior:psi-powered-leap",
+    "kind": "subclass-feature",
+    "name": "Psi-Powered Leap",
+    "source": "srd24",
+    "page": "XPHB 99",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "As a Bonus Action, you gain a Fly Speed equal to twice your Speed until the end of the current turn. Once you take this Bonus Action, you can't do so again until you finish a Short or Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.",
+    "x-consumes": {
+      "name": "Psionic Energy Die",
+      "amount": 1
+    },
+    "actions": [
+      {
+        "id": "psi-powered-leap",
+        "name": "Psi-Powered Leap",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:psi-warrior:telekinetic-thrust",
+    "kind": "subclass-feature",
+    "name": "Telekinetic Thrust",
+    "source": "srd24",
+    "page": "XPHB 99",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "When you deal damage to a target with your Psionic Strike, you can force the target to make a Strength saving throw (DC 8 plus your Intelligence modifier and Proficiency Bonus). On a failed save, you can give the target the Prone condition or transport it up to 10 feet horizontally."
+  },
+  {
+    "id": "srd24:psi-warrior:telekinetic-adept",
+    "kind": "subclass-feature",
+    "name": "Telekinetic Adept",
+    "source": "srd24",
+    "page": "XPHB 99",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "You have mastered new ways to use your telekinetic abilities, detailed below.",
+    "grants": [
+      "srd24:psi-warrior:psi-powered-leap",
+      "srd24:psi-warrior:telekinetic-thrust"
+    ]
+  },
+  {
+    "id": "srd24:psi-warrior:guarded-mind",
+    "kind": "subclass-feature",
+    "name": "Guarded Mind",
+    "source": "srd24",
+    "page": "XPHB 99",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "You have Resistance to Psychic damage. Moreover, if you start your turn with the Charmed or Frightened condition, you can expend a Psionic Energy Die (no action required) and end every effect on yourself giving you those conditions.",
+    "x-consumes": {
+      "name": "Psionic Energy Die",
+      "amount": 1
+    },
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "psychic"
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:psi-warrior:bulwark-of-force",
+    "kind": "subclass-feature",
+    "name": "Bulwark of Force",
+    "source": "srd24",
+    "page": "XPHB 99",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "You can shield yourself and others with telekinetic force. As a Bonus Action, you can choose creatures, including yourself, within 30 feet of yourself, up to a number of creatures equal to your Intelligence modifier (minimum of one creature). Each of the chosen creatures has Half Cover for 1 minute or until you have the Incapacitated condition.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.",
+    "x-consumes": {
+      "name": "Psionic Energy Die",
+      "amount": 1
+    },
+    "actions": [
+      {
+        "id": "bulwark-of-force",
+        "name": "Bulwark of Force",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:psi-warrior:telekinetic-master",
+    "kind": "subclass-feature",
+    "name": "Telekinetic Master",
+    "source": "srd24",
+    "page": "XPHB 99",
+    "tags": [
+      "psi-warrior-feature",
+      "fighter-feature"
+    ],
+    "text": "You always have the Telekinesis spell prepared. With this feature, you can cast it without a spell slot or components, and your spellcasting ability for it is Intelligence. On each of your turns while you maintain Concentration on it, including the turn when you cast it, you can make one attack with a weapon as a Bonus Action.\n\nOnce you cast the spell with this feature, you can't do so in this way again until you finish a Long Rest unless you expend a Psionic Energy Die (no action required) to restore your use of it.",
+    "x-consumes": {
+      "name": "Psionic Energy Die",
+      "amount": 1
+    }
+  }
+]

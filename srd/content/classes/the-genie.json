@@ -1,0 +1,340 @@
+[
+  {
+    "id": "srd:subclass:the-genie",
+    "kind": "subclass",
+    "name": "The Genie",
+    "source": "srd",
+    "page": "TCE 73",
+    "class": "srd:class:warlock",
+    "tags": [
+      "warlock-subclass",
+      "srd-subclass"
+    ],
+    "choices": [
+      {
+        "id": "srd:subclass:the-genie:terrain",
+        "name": "The Genie terrain",
+        "count": 1,
+        "from": {
+          "kind": "terrain",
+          "tags": [
+            "the-genie-terrain-option"
+          ]
+        }
+      }
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:genie:the-genie"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:genie:elemental-gift"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:genie:sanctuary-vessel"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:genie:limited-wish"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:terrain:dao",
+    "kind": "terrain",
+    "name": "Dao",
+    "source": "srd",
+    "tags": [
+      "the-genie-terrain-option"
+    ],
+    "spellListAdditions": [
+      {
+        "class": "srd:class:warlock",
+        "spells": [
+          "srd:spell:wish",
+          "srd:spell:detect-evil-and-good",
+          "srd:spell:sanctuary",
+          "srd:spell:phantasmal-force",
+          "srd:spell:spike-growth",
+          "srd:spell:create-food-and-water",
+          "srd:spell:meld-into-stone",
+          "srd:spell:phantasmal-killer",
+          "srd:spell:stone-shape",
+          "srd:spell:creation",
+          "srd:spell:wall-of-stone"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:terrain:djinni",
+    "kind": "terrain",
+    "name": "Djinni",
+    "source": "srd",
+    "tags": [
+      "the-genie-terrain-option"
+    ],
+    "spellListAdditions": [
+      {
+        "class": "srd:class:warlock",
+        "spells": [
+          "srd:spell:wish",
+          "srd:spell:detect-evil-and-good",
+          "srd:spell:thunderwave",
+          "srd:spell:phantasmal-force",
+          "srd:spell:gust-of-wind",
+          "srd:spell:create-food-and-water",
+          "srd:spell:wind-wall",
+          "srd:spell:phantasmal-killer",
+          "srd:spell:greater-invisibility",
+          "srd:spell:creation",
+          "srd:spell:seeming"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:terrain:efreeti",
+    "kind": "terrain",
+    "name": "Efreeti",
+    "source": "srd",
+    "tags": [
+      "the-genie-terrain-option"
+    ],
+    "spellListAdditions": [
+      {
+        "class": "srd:class:warlock",
+        "spells": [
+          "srd:spell:wish",
+          "srd:spell:detect-evil-and-good",
+          "srd:spell:burning-hands",
+          "srd:spell:phantasmal-force",
+          "srd:spell:scorching-ray",
+          "srd:spell:create-food-and-water",
+          "srd:spell:fireball",
+          "srd:spell:phantasmal-killer",
+          "srd:spell:fire-shield",
+          "srd:spell:creation",
+          "srd:spell:flame-strike"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:terrain:marid",
+    "kind": "terrain",
+    "name": "Marid",
+    "source": "srd",
+    "tags": [
+      "the-genie-terrain-option"
+    ],
+    "spellListAdditions": [
+      {
+        "class": "srd:class:warlock",
+        "spells": [
+          "srd:spell:wish",
+          "srd:spell:detect-evil-and-good",
+          "srd:spell:fog-cloud",
+          "srd:spell:phantasmal-force",
+          "srd:spell:blur",
+          "srd:spell:create-food-and-water",
+          "srd:spell:sleet-storm",
+          "srd:spell:phantasmal-killer",
+          "srd:spell:control-water",
+          "srd:spell:creation",
+          "srd:spell:cone-of-cold"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:genie:bottled-respite",
+    "kind": "subclass-feature",
+    "name": "Bottled Respite",
+    "source": "srd",
+    "page": "TCE 73",
+    "tags": [
+      "genie-feature",
+      "warlock-feature",
+      "genie-genies-vessel-option"
+    ],
+    "text": "As an action, you can magically vanish and enter your vessel, which remains in the space you left. The interior of the vessel is an extradimensional space in the shape of a 20-foot-radius cylinder, 20 feet high, and resembles your vessel. The interior is appointed with cushions and low tables and is a comfortable temperature. While inside, you can hear the area around your vessel as if you were in its space. You can remain inside the vessel up to a number of hours equal to twice your proficiency bonus. You exit the vessel early if you use a bonus action to leave, if you die, or if the vessel is destroyed. When you exit the vessel, you appear in the unoccupied space closest to it. Any objects left in the vessel remain there until carried out, and if the vessel is destroyed, every object stored there harmlessly appears in the unoccupied spaces closest to the vessel's former space. Once you enter the vessel, you can't enter again until you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:genie:bottled-respite",
+        "name": "Bottled Respite",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "bottled-respite",
+        "name": "Bottled Respite",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:genie:genies-wrath",
+    "kind": "subclass-feature",
+    "name": "Genie's Wrath",
+    "source": "srd",
+    "page": "TCE 73",
+    "tags": [
+      "genie-feature",
+      "warlock-feature",
+      "genie-genies-vessel-option"
+    ],
+    "text": "Once during each of your turns when you hit with an attack roll, you can deal extra damage to the target equal to your proficiency bonus. The type of this damage is determined by your patron: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid)."
+  },
+  {
+    "id": "srd:genie:genies-vessel",
+    "kind": "subclass-feature",
+    "name": "Genie's Vessel",
+    "source": "srd",
+    "page": "TCE 73",
+    "tags": [
+      "genie-feature",
+      "warlock-feature"
+    ],
+    "text": "*1st-level Genie feature*\n\nYour patron gifts you a magical vessel that grants you a measure of the genie's power. The vessel is a Tiny object, and you can use it as a spellcasting focus for your warlock spells. You decide what the object is, or you can determine what it is randomly by rolling on the Genie's Vessel table.\n\n**Genie's Vessel**\n| d6 | Vessel |\n| --- | --- |\n| 1 | Oil lamp |\n| 2 | Urn |\n| 3 | Ring with a compartment |\n| 4 | Stoppered bottle |\n| 5 | Hollow statuette |\n| 6 | Ornate lantern |\n\nWhile you are touching the vessel, you can use it in the following ways:\n\nThe vessel's AC equals your spell save DC. Its hit points equal your warlock level plus your proficiency bonus, and it is immune to poison and psychic damage.\n\nIf the vessel is destroyed or you lose it, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and the previous vessel is destroyed if it still exists. The vessel vanishes in a flare of elemental power when you die.",
+    "choices": [
+      {
+        "id": "srd:genie:genies-vessel:options",
+        "name": "Genie's Vessel",
+        "count": 1,
+        "from": {
+          "kind": "subclass-feature",
+          "tags": [
+            "genie-genies-vessel-option"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:genie:the-genie",
+    "kind": "subclass-feature",
+    "name": "The Genie",
+    "source": "srd",
+    "page": "TCE 73",
+    "tags": [
+      "genie-feature",
+      "warlock-feature"
+    ],
+    "text": "You have made a pact with one of the rarest kinds of genie, a noble genie. Such entities rule vast fiefs on the Elemental Planes and have great influence over lesser genies and elemental creatures. Noble genies are varied in their motivations, but most are arrogant and wield power that rivals that of lesser deities. They delight in turning the table on mortals, who often bind genies into servitude, and readily enter into pacts that expand their reach.\n\nYou choose your patron's kind or determine it randomly, using the Genie Kind table.\n\n**Genie Kind**\n| d4 | Kind | Element |\n| --- | --- | --- |\n| 1 | Dao | Earth |\n| 2 | Djinni | Air |\n| 3 | Efreeti | Fire |\n| 4 | Marid | Water |\n\n**Expanded Spell List.** *1st-level Genie feature*\n\nThe Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.\n\n**Genie Expanded Spells**\n| Spell Level | Genie Spells | Dao Spells | Djinni Spells | Efreeti Spells | Marid Spells |\n| --- | --- | --- | --- | --- | --- |\n| 1st | detect evil and good | sanctuary | thunderwave | burning hands | fog cloud |\n| 2nd | phantasmal force | spike growth | gust of wind | scorching ray | blur |\n| 3rd | create food and water | meld into stone | wind wall | fireball | sleet storm |\n| 4th | phantasmal killer | stone shape | greater invisibility | fire shield | control water |\n| 5th | creation | wall of stone | seeming | flame strike | cone of cold |\n| 9th | wish | — | — | — | — |",
+    "grants": [
+      "srd:genie:genies-vessel"
+    ]
+  },
+  {
+    "id": "srd:genie:elemental-gift",
+    "kind": "subclass-feature",
+    "name": "Elemental Gift",
+    "source": "srd",
+    "page": "TCE 73",
+    "tags": [
+      "genie-feature",
+      "warlock-feature"
+    ],
+    "text": "*6th-level Genie feature*\n\nYou begin to take on characteristics of your patron's kind. You now have resistance to a damage type determined by your patron's kind: bludgeoning (dao), thunder (djinni), fire (efreeti), or cold (marid).\n\nIn addition, as a bonus action, you can give yourself a flying speed of 30 feet that lasts for 10 minutes, during which you can hover. You can use this bonus action a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:genie:elemental-gift",
+        "name": "Elemental Gift",
+        "max": "@prof",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "elemental-gift",
+        "name": "Elemental Gift",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:genie:elemental-gift": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:genie:sanctuary-vessel",
+    "kind": "subclass-feature",
+    "name": "Sanctuary Vessel",
+    "source": "srd",
+    "page": "TCE 73",
+    "tags": [
+      "genie-feature",
+      "warlock-feature"
+    ],
+    "text": "*10th-level Genie feature*\n\nWhen you enter your Genie's Vessel via the Bottled Respite feature, you can now choose up to five willing creatures that you can see within 30 feet of you, and the chosen creatures are drawn into the vessel with you.\n\nAs a bonus action, you can eject any number of creatures from the vessel, and everyone is ejected if you leave or die or if the vessel is destroyed.\n\nIn addition, anyone (including you) who remains within the vessel for at least 10 minutes gains the benefit of finishing a short rest, and anyone can add your proficiency bonus to the number of hit points they regain if they spend any Hit Dice as part of a short rest there.",
+    "actions": [
+      {
+        "id": "sanctuary-vessel",
+        "name": "Sanctuary Vessel",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:genie:limited-wish",
+    "kind": "subclass-feature",
+    "name": "Limited Wish",
+    "source": "srd",
+    "page": "TCE 73",
+    "tags": [
+      "genie-feature",
+      "warlock-feature"
+    ],
+    "text": "*14th-level Genie feature*\n\nYou entreat your patron to grant you a small wish. As an action, you can speak your desire to your Genie's Vessel, requesting the effect of one spell that is 6th level or lower and has a casting time of 1 action. The spell can be from any class's spell list, and you don't need to meet the requirements in that spell, including costly components; the spell simply takes effect as part of this action.\n\nOnce you use this feature, you can't use it again until you finish 1d4 long rests.",
+    "actions": [
+      {
+        "id": "limited-wish",
+        "name": "Limited Wish",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,160 @@
+[
+  {
+    "id": "srd24:subclass:college-of-dance",
+    "kind": "subclass",
+    "name": "College of Dance",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "class": "srd24:class:bard",
+    "tags": [
+      "bard-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:dance:college-of-dance"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:dance:inspiring-movement",
+          "srd24:dance:tandem-footwork"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:dance:leading-evasion"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:dance:dance-virtuoso",
+    "kind": "subclass-feature",
+    "name": "Dance Virtuoso",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "You have Advantage on any Charisma (Performance) check you make that involves you dancing."
+  },
+  {
+    "id": "srd24:dance:unarmored-defense",
+    "kind": "subclass-feature",
+    "name": "Unarmored Defense",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "Your base Armor Class equals 10 plus your Dexterity and Charisma modifiers."
+  },
+  {
+    "id": "srd24:dance:agile-strikes",
+    "kind": "subclass-feature",
+    "name": "Agile Strikes",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "When you expend a use of your Bardic Inspiration as part of an action, a Bonus Action, or a Reaction, you can make one Unarmed Strike as part of that action, Bonus Action, or Reaction."
+  },
+  {
+    "id": "srd24:dance:bardic-damage",
+    "kind": "subclass-feature",
+    "name": "Bardic Damage",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "You can use Dexterity instead of Strength for the attack rolls of your Unarmed Strikes. When you deal damage with an Unarmed Strike, you can deal Bludgeoning damage equal to a roll of your Bardic Inspiration die plus your Dexterity modifier, instead of the strike's normal damage. This roll doesn't expend the die."
+  },
+  {
+    "id": "srd24:dance:dazzling-footwork",
+    "kind": "subclass-feature",
+    "name": "Dazzling Footwork",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "While you aren't wearing armor or wielding a Shield, you gain the following benefits.",
+    "grants": [
+      "srd24:dance:dance-virtuoso",
+      "srd24:dance:unarmored-defense",
+      "srd24:dance:agile-strikes",
+      "srd24:dance:bardic-damage"
+    ]
+  },
+  {
+    "id": "srd24:dance:college-of-dance",
+    "kind": "subclass-feature",
+    "name": "College of Dance",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "*Move in Harmony with the Cosmos*\n\nBards of the College of Dance know that the Words of Creation can't be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace.",
+    "grants": [
+      "srd24:dance:dazzling-footwork"
+    ]
+  },
+  {
+    "id": "srd24:dance:inspiring-movement",
+    "kind": "subclass-feature",
+    "name": "Inspiring Movement",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "When an enemy you can see ends its turn within 5 feet of you, you can take a Reaction and expend one use of your Bardic Inspiration to move up to half your Speed. Then one ally of your choice within 30 feet of you can also move up to half their Speed using their Reaction.\n\nNone of this feature's movement provokes Opportunity Attack.",
+    "actions": [
+      {
+        "id": "inspiring-movement",
+        "name": "Inspiring Movement",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:dance:tandem-footwork",
+    "kind": "subclass-feature",
+    "name": "Tandem Footwork",
+    "source": "srd24",
+    "page": "XPHB 64",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "When you roll Initiative, you can expend one use of your Bardic Inspiration if you don't have the Incapacitated condition. When you do so, roll your Bardic Inspiration die; you and each ally within 30 feet of you who can see or hear you gains a bonus to Initiative equal to the number rolled."
+  },
+  {
+    "id": "srd24:dance:leading-evasion",
+    "kind": "subclass-feature",
+    "name": "Leading Evasion",
+    "source": "srd24",
+    "page": "XPHB 65",
+    "tags": [
+      "dance-feature",
+      "bard-feature"
+    ],
+    "text": "When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw and only half damage if you fail. If any creatures within 5 feet of you are making the same Dexterity saving throw, you can share this benefit with them for that save.\n\nYou can't use this feature if you have the Incapacitated condition."
+  }
+]

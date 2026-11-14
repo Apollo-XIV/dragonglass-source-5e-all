@@ -1,0 +1,186 @@
+[
+  {
+    "id": "srd:subclass:the-celestial",
+    "kind": "subclass",
+    "name": "The Celestial",
+    "source": "srd",
+    "page": "XGE 54",
+    "class": "srd:class:warlock",
+    "tags": [
+      "warlock-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:celestial:the-celestial",
+          "srd:spell:sacred-flame",
+          "srd:spell:light"
+        ],
+        "spellListAdditions": [
+          {
+            "class": "srd:class:warlock",
+            "spells": [
+              "srd:spell:cure-wounds",
+              "srd:spell:guiding-bolt",
+              "srd:spell:flaming-sphere",
+              "srd:spell:lesser-restoration",
+              "srd:spell:daylight",
+              "srd:spell:revivify",
+              "srd:spell:guardian-of-faith",
+              "srd:spell:wall-of-fire",
+              "srd:spell:flame-strike",
+              "srd:spell:greater-restoration"
+            ]
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:celestial:radiant-soul"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:celestial:celestial-resilience"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:celestial:searing-vengeance"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:celestial:bonus-cantrips",
+    "kind": "subclass-feature",
+    "name": "Bonus Cantrips",
+    "source": "srd",
+    "page": "XGE 54",
+    "tags": [
+      "celestial-feature",
+      "warlock-feature"
+    ],
+    "text": "At 1st level, you learn the sacred flame and light cantrips. They count as warlock cantrips for you, but they don't count against your number of cantrips known."
+  },
+  {
+    "id": "srd:celestial:healing-light",
+    "kind": "subclass-feature",
+    "name": "Healing Light",
+    "source": "srd",
+    "page": "XGE 54",
+    "tags": [
+      "celestial-feature",
+      "warlock-feature"
+    ],
+    "text": "At 1st level, you gain the ability to channel celestial energy to heal wounds. You have a pool of d6s that you spend to fuel this healing. The number of dice in the pool equals 1 + your warlock level.\n\nAs a bonus action, you can heal one creature you can see within 60 feet of you, spending dice from the pool. The maximum number of dice you can spend at once equals your Charisma modifier (minimum of one die). Roll the dice you spend, add them together, and restore a number of hit points equal to the total.\n\nYour pool regains all expended dice when you finish a long rest.",
+    "actions": [
+      {
+        "id": "healing-light",
+        "name": "Healing Light",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:celestial:the-celestial",
+    "kind": "subclass-feature",
+    "name": "The Celestial",
+    "source": "srd",
+    "page": "XGE 54",
+    "tags": [
+      "celestial-feature",
+      "warlock-feature"
+    ],
+    "text": "Your patron is a powerful being of the Upper Planes. You have bound yourself to an ancient empyrean, solar, ki-rin, unicorn, or other entity that resides in the planes of everlasting bliss. Your pact with that being allows you to experience the barest touch of the holy light that illuminates the multiverse.\n\nBeing connected to such power can cause changes in your behavior and beliefs. You might find yourself driven to annihilate the undead, to defeat fiends, and to protect the innocent. At times, your heart might also be filled with a longing for the celestial realm of your patron, and a desire to wander that paradise for the rest of your days. But you know that your mission is among mortals for now, and that your pact binds you to bring light to the dark places of the world.\n\n**Expanded Spell List.** The Celestial lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Celestial Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | cure wounds, guiding bolt |\n| 2nd | flaming sphere, lesser restoration |\n| 3rd | daylight, revivify |\n| 4th | guardian of faith, wall of fire |\n| 5th | flame strike, greater restoration |",
+    "grants": [
+      "srd:celestial:bonus-cantrips",
+      "srd:celestial:healing-light"
+    ]
+  },
+  {
+    "id": "srd:celestial:radiant-soul",
+    "kind": "subclass-feature",
+    "name": "Radiant Soul",
+    "source": "srd",
+    "page": "XGE 54",
+    "tags": [
+      "celestial-feature",
+      "warlock-feature"
+    ],
+    "text": "Starting at 6th level, your link to the Celestial allows you to serve as a conduit for radiant energy. You have resistance to radiant damage, and when you cast a spell that deals radiant or fire damage, you can add your Charisma modifier to one radiant or fire damage roll of that spell against one of its targets.",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "radiant"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:celestial:celestial-resilience",
+    "kind": "subclass-feature",
+    "name": "Celestial Resilience",
+    "source": "srd",
+    "page": "XGE 54",
+    "tags": [
+      "celestial-feature",
+      "warlock-feature"
+    ],
+    "text": "Starting at 10th level, you gain temporary hit points whenever you finish a short or long rest. These temporary hit points equal your warlock level + your Charisma modifier. Additionally, choose up to five creatures you can see at the end of the rest. Those creatures each gain temporary hit points equal to half your warlock level + your Charisma modifier."
+  },
+  {
+    "id": "srd:celestial:searing-vengeance",
+    "kind": "subclass-feature",
+    "name": "Searing Vengeance",
+    "source": "srd",
+    "page": "XGE 54",
+    "tags": [
+      "celestial-feature",
+      "warlock-feature"
+    ],
+    "text": "Starting at 14th level, the radiant energy you channel allows you to resist death. When you have to make a death saving throw at the start of your turn, you can instead spring back to your feet with a burst of radiant energy. You regain hit points equal to half your hit point maximum, and then you stand up if you so choose. Each creature of your choice that is within 30 feet of you takes radiant damage equal to 2d8 + your Charisma modifier, and it is blinded until the end of the current turn.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:celestial:searing-vengeance",
+        "name": "Searing Vengeance",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "searing-vengeance",
+        "name": "Searing Vengeance",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:celestial:searing-vengeance": 1
+        }
+      }
+    ]
+  }
+]

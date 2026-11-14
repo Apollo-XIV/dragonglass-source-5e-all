@@ -1,0 +1,1754 @@
+[
+  {
+    "id": "srd:item:antimatter-rifle",
+    "kind": "item",
+    "name": "Antimatter Rifle",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 10,
+    "weapon": {
+      "damage": "6d8",
+      "damageType": "necrotic",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 120/360)",
+        "reload",
+        "two-handed"
+      ],
+      "range": "120/360 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:antimatter-rifle",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:arrow",
+    "kind": "item",
+    "name": "Arrow",
+    "source": "srd",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "PHB 150",
+    "itemType": "ammunition",
+    "weight": 0.05,
+    "value": 5
+  },
+  {
+    "id": "srd:item:arrows-20",
+    "kind": "item",
+    "name": "Arrows (20)",
+    "source": "srd",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "PHB 150",
+    "itemType": "ammunition",
+    "weight": 1,
+    "value": 100
+  },
+  {
+    "id": "srd:item:automatic-pistol",
+    "kind": "item",
+    "name": "Automatic Pistol",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 3,
+    "weapon": {
+      "damage": "2d6",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 50/150)",
+        "reload"
+      ],
+      "range": "50/150 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:automatic-pistol",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:automatic-rifle",
+    "kind": "item",
+    "name": "Automatic Rifle",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 8,
+    "weapon": {
+      "damage": "2d8",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 80/240)",
+        "burst fire",
+        "reload",
+        "two-handed"
+      ],
+      "range": "80/240 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:automatic-rifle",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:battleaxe",
+    "kind": "item",
+    "name": "Battleaxe",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 1000,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "versatile (1d10)"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:blowgun",
+    "kind": "item",
+    "name": "Blowgun",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 1,
+    "value": 1000,
+    "weapon": {
+      "damage": "1",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 25/100)",
+        "loading"
+      ],
+      "range": "25/100 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:blowgun",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:blowgun-needle",
+    "kind": "item",
+    "name": "Blowgun Needle",
+    "source": "srd",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "PHB 150",
+    "itemType": "ammunition",
+    "weight": 0.02,
+    "value": 2
+  },
+  {
+    "id": "srd:item:blowgun-needles-50",
+    "kind": "item",
+    "name": "Blowgun Needles (50)",
+    "source": "srd",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "PHB 150",
+    "itemType": "ammunition",
+    "weight": 1,
+    "value": 100
+  },
+  {
+    "id": "srd:item:club",
+    "kind": "item",
+    "name": "Club",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "light"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 10,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:crossbow-bolt",
+    "kind": "item",
+    "name": "Crossbow Bolt",
+    "source": "srd",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "PHB 150",
+    "itemType": "ammunition",
+    "weight": 0.075,
+    "value": 5
+  },
+  {
+    "id": "srd:item:crossbow-bolts-20",
+    "kind": "item",
+    "name": "Crossbow Bolts (20)",
+    "source": "srd",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "PHB 150",
+    "itemType": "ammunition",
+    "weight": 1.5,
+    "value": 100
+  },
+  {
+    "id": "srd:item:dagger",
+    "kind": "item",
+    "name": "Dagger",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "finesse",
+      "light"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 1,
+    "value": 200,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "piercing",
+      "category": "simple-melee",
+      "properties": [
+        "finesse",
+        "light",
+        "thrown (range 20/60)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd:item:dart",
+    "kind": "item",
+    "name": "Dart",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon",
+      "finesse"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 0.25,
+    "value": 5,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "piercing",
+      "category": "simple-ranged",
+      "properties": [
+        "finesse",
+        "thrown (range 20/60)"
+      ],
+      "range": "20/60 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:dart",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:double-bladed-scimitar",
+    "kind": "item",
+    "name": "Double-Bladed Scimitar",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "ERLW 21",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 10000,
+    "weapon": {
+      "damage": "2d4",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "special",
+        "two-handed"
+      ]
+    },
+    "text": "**Special.** If you attack with a double-bladed scimitar as part of the Attack action on your turn, you can use a bonus action immediately after to make a melee attack with it. This attack deals 1d4 slashing damage on a hit, instead of 2d4."
+  },
+  {
+    "id": "srd:item:energy-cell",
+    "kind": "item",
+    "name": "Energy Cell",
+    "source": "srd",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "DMG 268",
+    "itemType": "ammunition",
+    "weight": 0.3125
+  },
+  {
+    "id": "srd:item:flail",
+    "kind": "item",
+    "name": "Flail",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 1000,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "category": "martial-melee"
+    }
+  },
+  {
+    "id": "srd:item:glaive",
+    "kind": "item",
+    "name": "Glaive",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 2000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:greataxe",
+    "kind": "item",
+    "name": "Greataxe",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 7,
+    "value": 3000,
+    "weapon": {
+      "damage": "1d12",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:greatclub",
+    "kind": "item",
+    "name": "Greatclub",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 10,
+    "value": 20,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:greatsword",
+    "kind": "item",
+    "name": "Greatsword",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 5000,
+    "weapon": {
+      "damage": "2d6",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:halberd",
+    "kind": "item",
+    "name": "Halberd",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 2000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:hand-crossbow",
+    "kind": "item",
+    "name": "Hand Crossbow",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon",
+      "light"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 7500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 30/120)",
+        "light",
+        "loading"
+      ],
+      "range": "30/120 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:hand-crossbow",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:handaxe",
+    "kind": "item",
+    "name": "Handaxe",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "light"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "slashing",
+      "category": "simple-melee",
+      "properties": [
+        "light",
+        "thrown (range 20/60)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd:item:heavy-crossbow",
+    "kind": "item",
+    "name": "Heavy Crossbow",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 18,
+    "value": 5000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 100/400)",
+        "heavy",
+        "loading",
+        "two-handed"
+      ],
+      "range": "100/400 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:heavy-crossbow",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:hooked-shortspear",
+    "kind": "item",
+    "name": "Hooked Shortspear",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "light"
+    ],
+    "page": "OotA 224",
+    "itemType": "weapon",
+    "weight": 2,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "light"
+      ]
+    },
+    "text": "On a hit with this weapon, the wielder can forgo dealing damage and attempt to trip the target, in which case the target must succeed on a Strength saving throw or fall prone. The DC is 8 + the wielder's Strength modifier + the wielder's proficiency bonus."
+  },
+  {
+    "id": "srd:item:hoopak",
+    "kind": "item",
+    "name": "Hoopak",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse"
+    ],
+    "page": "DSotDQ 188",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 10,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "ammunition (range 40/160)",
+        "finesse",
+        "special",
+        "two-handed"
+      ],
+      "range": "40/160 ft."
+    },
+    "text": "A hoopak is a sturdy stick with a sling at one end and a pointed tip at the other.\n\n**Special.** When you make a melee attack with this weapon, you ignore its ammunition property. You can use the hoopak as a martial ranged weapon. If you do, it uses the ammunition property, uses sling bullets, and deals 1d4 bludgeoning damage on a hit."
+  },
+  {
+    "id": "srd:item:hunting-rifle",
+    "kind": "item",
+    "name": "Hunting Rifle",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 8,
+    "weapon": {
+      "damage": "2d10",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 80/240)",
+        "reload",
+        "two-handed"
+      ],
+      "range": "80/240 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:hunting-rifle",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:iron-ball",
+    "kind": "item",
+    "name": "Iron Ball",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon",
+      "finesse"
+    ],
+    "page": "IDRotF 238",
+    "itemType": "weapon",
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "category": "simple-ranged",
+      "properties": [
+        "finesse",
+        "thrown (range 120)"
+      ],
+      "range": "120 ft."
+    },
+    "text": "This ball is used to play a game of Chain Lightning."
+  },
+  {
+    "id": "srd:item:javelin",
+    "kind": "item",
+    "name": "Javelin",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 50,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "simple-melee",
+      "properties": [
+        "thrown (range 30/120)"
+      ],
+      "range": "30/120 ft."
+    }
+  },
+  {
+    "id": "srd:item:lance",
+    "kind": "item",
+    "name": "Lance",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 6,
+    "value": 1000,
+    "weapon": {
+      "damage": "1d12",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "reach",
+        "special"
+      ]
+    },
+    "text": "**Special.** You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted."
+  },
+  {
+    "id": "srd:item:laser-pistol",
+    "kind": "item",
+    "name": "Laser Pistol",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 2,
+    "weapon": {
+      "damage": "3d6",
+      "damageType": "radiant",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 40/120)",
+        "reload"
+      ],
+      "range": "40/120 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:laser-pistol",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:laser-rifle",
+    "kind": "item",
+    "name": "Laser Rifle",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 7,
+    "weapon": {
+      "damage": "3d8",
+      "damageType": "radiant",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 100/300)",
+        "reload",
+        "two-handed"
+      ],
+      "range": "100/300 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:laser-rifle",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:light-crossbow",
+    "kind": "item",
+    "name": "Light Crossbow",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 5,
+    "value": 2500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "simple-ranged",
+      "properties": [
+        "ammunition (range 80/320)",
+        "loading",
+        "two-handed"
+      ],
+      "range": "80/320 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:light-crossbow",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:light-hammer",
+    "kind": "item",
+    "name": "Light Hammer",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "light"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 200,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "light",
+        "thrown (range 20/60)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd:item:light-repeating-crossbow",
+    "kind": "item",
+    "name": "Light Repeating Crossbow",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon"
+    ],
+    "page": "OotA 224",
+    "itemType": "weapon",
+    "weight": 5,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "simple-ranged",
+      "properties": [
+        "ammunition (range 40/160)",
+        "two-handed"
+      ],
+      "range": "40/160 ft."
+    },
+    "text": "This crossbow is fitted with a cartridge that can hold up to six crossbow bolts. It automatically reloads after firing until the cartridge runs out of ammunition. Reloading the cartridge takes an action."
+  },
+  {
+    "id": "srd:item:longbow",
+    "kind": "item",
+    "name": "Longbow",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 5000,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 150/600)",
+        "heavy",
+        "two-handed"
+      ],
+      "range": "150/600 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:longbow",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:longsword",
+    "kind": "item",
+    "name": "Longsword",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 1500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "versatile (1d10)"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:mace",
+    "kind": "item",
+    "name": "Mace",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "category": "simple-melee"
+    }
+  },
+  {
+    "id": "srd:item:maul",
+    "kind": "item",
+    "name": "Maul",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 10,
+    "value": 1000,
+    "weapon": {
+      "damage": "2d6",
+      "damageType": "bludgeoning",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:modern-bullet",
+    "kind": "item",
+    "name": "Modern Bullet",
+    "source": "srd",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "DMG 268",
+    "itemType": "ammunition",
+    "weight": 0.1
+  },
+  {
+    "id": "srd:item:modern-bullets-10",
+    "kind": "item",
+    "name": "Modern Bullets (10)",
+    "source": "srd",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "DMG 268",
+    "itemType": "ammunition",
+    "weight": 1
+  },
+  {
+    "id": "srd:item:morningstar",
+    "kind": "item",
+    "name": "Morningstar",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 1500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-melee"
+    }
+  },
+  {
+    "id": "srd:item:musket",
+    "kind": "item",
+    "name": "Musket",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 10,
+    "value": 50000,
+    "weapon": {
+      "damage": "1d12",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 40/120)",
+        "loading",
+        "two-handed"
+      ],
+      "range": "40/120 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:musket",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:net",
+    "kind": "item",
+    "name": "Net",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 100,
+    "weapon": {
+      "damage": "",
+      "category": "martial-ranged",
+      "properties": [
+        "special",
+        "thrown (range 5/15)"
+      ],
+      "range": "5/15 ft."
+    },
+    "text": "**Special.** A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make."
+  },
+  {
+    "id": "srd:item:oversized-longbow",
+    "kind": "item",
+    "name": "Oversized Longbow",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "WDH 201",
+    "itemType": "weapon",
+    "weight": 2,
+    "weapon": {
+      "damage": "2d6",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 150/600)",
+        "heavy",
+        "two-handed"
+      ],
+      "range": "150/600 ft."
+    },
+    "text": "This unique weapon can be used only by a Medium or larger creature that has a Strength of 18 or higher. The bow shoots oversized arrows that deal piercing damage equal to 2d6 + the wielder's Strength modifier."
+  },
+  {
+    "id": "srd:item:pike",
+    "kind": "item",
+    "name": "Pike",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 18,
+    "value": 500,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "heavy",
+        "reach",
+        "two-handed"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:pistol",
+    "kind": "item",
+    "name": "Pistol",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 25000,
+    "weapon": {
+      "damage": "1d10",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 30/90)",
+        "loading"
+      ],
+      "range": "30/90 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:pistol",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:quarterstaff",
+    "kind": "item",
+    "name": "Quarterstaff",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 20,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "bludgeoning",
+      "category": "simple-melee",
+      "properties": [
+        "versatile (1d8)"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:rapier",
+    "kind": "item",
+    "name": "Rapier",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 2500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "finesse"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:renaissance-bullet",
+    "kind": "item",
+    "name": "Renaissance Bullet",
+    "source": "srd",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "DMG 268",
+    "itemType": "ammunition",
+    "weight": 0.2,
+    "value": 30
+  },
+  {
+    "id": "srd:item:renaissance-bullets-10",
+    "kind": "item",
+    "name": "Renaissance Bullets (10)",
+    "source": "srd",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "DMG 268",
+    "itemType": "ammunition",
+    "weight": 2,
+    "value": 300
+  },
+  {
+    "id": "srd:item:revolver",
+    "kind": "item",
+    "name": "Revolver",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 3,
+    "weapon": {
+      "damage": "2d8",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 40/120)",
+        "reload"
+      ],
+      "range": "40/120 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:revolver",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:scimitar",
+    "kind": "item",
+    "name": "Scimitar",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse",
+      "light"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 2500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "finesse",
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:shortbow",
+    "kind": "item",
+    "name": "Shortbow",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 2500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "simple-ranged",
+      "properties": [
+        "ammunition (range 80/320)",
+        "two-handed"
+      ],
+      "range": "80/320 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:shortbow",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:shortsword",
+    "kind": "item",
+    "name": "Shortsword",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse",
+      "light"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 1000,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "finesse",
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:shotgun",
+    "kind": "item",
+    "name": "Shotgun",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "martial-weapon"
+    ],
+    "page": "DMG 268",
+    "itemType": "weapon",
+    "weight": 7,
+    "weapon": {
+      "damage": "2d8",
+      "damageType": "piercing",
+      "category": "martial-ranged",
+      "properties": [
+        "ammunition (range 30/90)",
+        "reload",
+        "two-handed"
+      ],
+      "range": "30/90 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:shotgun",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:sickle",
+    "kind": "item",
+    "name": "Sickle",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon",
+      "light"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 100,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "slashing",
+      "category": "simple-melee",
+      "properties": [
+        "light"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:sling",
+    "kind": "item",
+    "name": "Sling",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "ranged-weapon",
+      "simple-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "value": 10,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "bludgeoning",
+      "category": "simple-ranged",
+      "properties": [
+        "ammunition (range 30/120)"
+      ],
+      "range": "30/120 ft."
+    },
+    "text": "**Range.** A weapon that can be used to make a ranged attack has a range shown in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's maximum range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.",
+    "modifiers": [
+      {
+        "target": "attacks.srd:item:sling",
+        "op": "disadvantage",
+        "when": {
+          "text": "when attacking a target beyond normal range"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:item:sling-bullet",
+    "kind": "item",
+    "name": "Sling Bullet",
+    "source": "srd",
+    "tags": [
+      "ammunition"
+    ],
+    "page": "PHB 150",
+    "itemType": "ammunition",
+    "weight": 0.075,
+    "value": 0.2
+  },
+  {
+    "id": "srd:item:sling-bullets-20",
+    "kind": "item",
+    "name": "Sling Bullets (20)",
+    "source": "srd",
+    "tags": [
+      "ammunition",
+      "bundle"
+    ],
+    "page": "PHB 150",
+    "itemType": "ammunition",
+    "weight": 1.5,
+    "value": 4
+  },
+  {
+    "id": "srd:item:spear",
+    "kind": "item",
+    "name": "Spear",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 100,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "simple-melee",
+      "properties": [
+        "thrown (range 20/60)",
+        "versatile (1d8)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd:item:trident",
+    "kind": "item",
+    "name": "Trident",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 4,
+    "value": 500,
+    "weapon": {
+      "damage": "1d6",
+      "damageType": "piercing",
+      "category": "martial-melee",
+      "properties": [
+        "thrown (range 20/60)",
+        "versatile (1d8)"
+      ],
+      "range": "20/60 ft."
+    }
+  },
+  {
+    "id": "srd:item:war-pick",
+    "kind": "item",
+    "name": "War Pick",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "martial-melee"
+    }
+  },
+  {
+    "id": "srd:item:warhammer",
+    "kind": "item",
+    "name": "Warhammer",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 2,
+    "value": 1500,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "bludgeoning",
+      "category": "martial-melee",
+      "properties": [
+        "versatile (1d10)"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:whip",
+    "kind": "item",
+    "name": "Whip",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "martial-weapon",
+      "finesse"
+    ],
+    "page": "PHB 149",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 200,
+    "weapon": {
+      "damage": "1d4",
+      "damageType": "slashing",
+      "category": "martial-melee",
+      "properties": [
+        "finesse",
+        "reach"
+      ]
+    }
+  },
+  {
+    "id": "srd:item:yklwa",
+    "kind": "item",
+    "name": "Yklwa",
+    "source": "srd",
+    "tags": [
+      "weapon",
+      "melee-weapon",
+      "simple-weapon"
+    ],
+    "page": "ToA 32",
+    "itemType": "weapon",
+    "weight": 3,
+    "value": 100,
+    "weapon": {
+      "damage": "1d8",
+      "damageType": "piercing",
+      "category": "simple-melee",
+      "properties": [
+        "thrown (range 10/30)"
+      ],
+      "range": "10/30 ft."
+    },
+    "text": "A yklwa (pronounced YICK-ul-wah) is a simple melee weapon that is the traditional weapon of Chultan warriors. A yklwa consists of a 3-foot wooden shaft with a steel or stone blade up to 18 inches long. Although it has the thrown weapon property, the yklwa is not well balanced for throwing."
+  }
+]

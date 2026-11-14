@@ -1,0 +1,747 @@
+[
+  {
+    "id": "srd24:spell:animal-shapes",
+    "kind": "spell",
+    "name": "Animal Shapes",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 240",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "30 feet",
+    "components": "V, S",
+    "duration": "24 hours",
+    "text": "Choose any number of willing creatures that you can see within range. Each target shape-shifts into a Large or smaller Beast of your choice that has a Challenge Rating of 4 or lower. You can choose a different form for each target. On later turns, you can take a Magic action to transform the targets again.\n\nA target's game statistics are replaced by the chosen Beast's statistics, but the target retains its creature type; Hit Points; Hit Point Dice; alignment; ability to communicate; and Intelligence, Wisdom, and Charisma scores. The target's actions are limited by the Beast form's anatomy, and it can't cast spells. The target's equipment melds into the new form, and the target can't use any of that equipment while in that form.\n\nThe target gains a number of Temporary Hit Points equal to the Hit Points of the first form into which it shape-shifts. These Temporary Hit Points vanish if any remain when the spell ends. The transformation lasts for the duration or until the target ends it as a Bonus Action."
+  },
+  {
+    "id": "srd24:spell:antimagic-field",
+    "kind": "spell",
+    "name": "Antimagic Field",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 241",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self (10-foot emanation)",
+    "components": "V, S, M (iron filings)",
+    "duration": "Concentration, up to 1 hour",
+    "concentration": true,
+    "text": "An aura of antimagic surrounds you in a 10-foot Emanation. No one can cast spells, take Magic actions, or create other magical effects inside the aura, and those things can't target or otherwise affect anything inside it. Magical properties of magic items don't work inside the aura or on anything inside it.\n\nAreas of effect created by spells or other magic can't extend into the aura, and no one can teleport into or out of it or use planar travel there. Portals close temporarily while in the aura.\n\nOngoing spells, except those cast by an Artifact or a deity, are suppressed in the area. While an effect is suppressed, it doesn't function, but the time it spends suppressed counts against its duration.\n\nDispel Magic has no effect on the aura, and the auras created by different Antimagic Field spells don't nullify each other."
+  },
+  {
+    "id": "srd24:spell:antipathy-sympathy",
+    "kind": "spell",
+    "name": "Antipathy/Sympathy",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "druid-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 242",
+    "school": "enchantment",
+    "castingTime": "1 hour",
+    "range": "60 feet",
+    "components": "V, S, M (a mix of vinegar and honey)",
+    "duration": "10 days",
+    "text": "As you cast the spell, choose whether it creates antipathy or sympathy, and target one creature or object that is Huge or smaller. Then specify a kind of creature, such as red dragons, goblins, or vampires. A creature of the chosen kind makes a Wisdom saving throw when it comes within 120 feet of the target. Your choice of antipathy or sympathy determines what happens to a creature when it fails that save:\n\n- **Antipathy.** The creature has the Frightened condition. The Frightened creature must use its movement on its turns to get as far away as possible from the target, moving by the safest route.\n- **Sympathy.** The creature has the Charmed condition. The Charmed creature must use its movement on its turns to get as close as possible to the target, moving by the safest route. If the creature is within 5 feet of the target, the creature can't willingly move away. If the target damages the Charmed creature, that creature can make a Wisdom saving throw to end the effect, as described below.\n\n**Ending the Effect.** If the Frightened or Charmed creature ends its turn more than 120 feet away from the target, the creature makes a Wisdom saving throw. On a successful save, the creature is no longer affected by the target. A creature that successfully saves against this effect is immune to it for 1 minute, after which it can be affected again.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Antipathy/Sympathy",
+        "activation": "hour",
+        "range": "60 feet",
+        "save": {
+          "ability": "wis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:befuddlement",
+    "kind": "spell",
+    "name": "Befuddlement",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "druid-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 245",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "150 feet",
+    "components": "V, S, M (a key ring with no keys)",
+    "duration": "Instantaneous",
+    "text": "You blast the mind of a creature that you can see within range. The target makes an Intelligence saving throw.\n\nOn a failed save, the target takes 10d12 Psychic damage and can't cast spells or take the Magic action. At the end of every 30 days, the target repeats the save, ending the effect on a success. The effect can also be ended by the Greater Restoration, Heal, or Wish spell.\n\nOn a successful save, the target takes half as much damage only.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Befuddlement",
+        "activation": "action",
+        "range": "150 feet",
+        "save": {
+          "ability": "int"
+        },
+        "damage": "10d12",
+        "damageType": "psychic"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:clone",
+    "kind": "spell",
+    "name": "Clone",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:necromancy"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 251",
+    "school": "necromancy",
+    "castingTime": "1 hour",
+    "range": "Touch",
+    "components": "V, S, M (a diamond worth 1,000+ GP, which the spell consumes, and a sealable vessel worth 2,000+ GP that is large enough to hold the creature being cloned)",
+    "duration": "Instantaneous",
+    "text": "You touch a creature or at least 1 cubic inch of its flesh. An inert duplicate of that creature forms inside the vessel used in the spell's casting and finishes growing after 120 days; you choose whether the finished clone is the same age as the creature or younger. The clone remains inert and endures indefinitely while its vessel remains undisturbed.\n\nIf the original creature dies after the clone finishes forming, the creature's soul transfers to the clone if the soul is free and willing to return. The clone is physically identical to the original and has the same personality, memories, and abilities, but none of the original's equipment. The creature's original remains, if any, become inert and can't be revived, since the creature's soul is elsewhere."
+  },
+  {
+    "id": "srd24:spell:control-weather",
+    "kind": "spell",
+    "name": "Control Weather",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "druid-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 257",
+    "school": "transmutation",
+    "castingTime": "10 minutes",
+    "range": "Self (5-mile-radius sphere)",
+    "components": "V, S, M (burning incense)",
+    "duration": "Concentration, up to 8 hours",
+    "concentration": true,
+    "text": "You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell, and it ends early if you go indoors.\n\nWhen you cast the spell, you change the current weather conditions, which are determined by the DM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.\n\nWhen you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.\n\n**Precipitation**\n| Stage | Condition |\n| --- | --- |\n| 1 | Clear |\n| 2 | Light clouds |\n| 3 | Overcast or ground fog |\n| 4 | Rain, hail, or snow |\n| 5 | Torrential rain, driving hail, or blizzard |\n\n**Temperature**\n| Stage | Condition |\n| --- | --- |\n| 1 | Heat wave |\n| 2 | Hot |\n| 3 | Warm |\n| 4 | Cool |\n| 5 | Cold |\n| 6 | Freezing |\n\n**Wind**\n| Stage | Condition |\n| --- | --- |\n| 1 | Calm |\n| 2 | Moderate wind |\n| 3 | Strong wind |\n| 4 | Gale |\n| 5 | Storm |"
+  },
+  {
+    "id": "srd24:spell:demiplane",
+    "kind": "spell",
+    "name": "Demiplane",
+    "source": "srd24",
+    "tags": [
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 261",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet",
+    "components": "S",
+    "duration": "1 hour",
+    "text": "You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).\n\nWhen the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the Prone condition in the unoccupied spaces closest to the door's former space.\n\nEach time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead."
+  },
+  {
+    "id": "srd24:spell:dominate-monster",
+    "kind": "spell",
+    "name": "Dominate Monster",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 265",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Concentration, up to 1 hour",
+    "concentration": true,
+    "text": "One creature you can see within range must succeed on a Wisdom saving throw or have the Charmed condition for the duration. The target has Advantage on the save if you or your allies are fighting it. Whenever the target takes damage, it repeats the save, ending the spell on itself on a success.\n\nYou have a telepathic link with the Charmed target while the two of you are on the same plane of existence. On your turn, you can use this link to issue commands to the target (no action required), such as \"Attack that creature,\" \"Move over there,\" or \"Fetch that object.\" The target does its best to obey on its turn. If it completes an order and doesn't receive further direction from you, it acts and moves as it likes, focusing on protecting itself.\n\nYou can command the target to take a Reaction but must take your own Reaction to do so.",
+    "higherLevels": "Your Concentration can last longer with a level 9 spell slot (up to 8 hours).",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Dominate Monster",
+        "activation": "action",
+        "range": "60 feet",
+        "save": {
+          "ability": "wis"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:earthquake",
+    "kind": "spell",
+    "name": "Earthquake",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "druid-spell",
+      "sorcerer-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 267",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "500 feet",
+    "components": "V, S, M (a fractured rock)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "Choose a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point. The ground there is Difficult Terrain.\n\nWhen you cast this spell and at the end of each of your turns for the duration, each creature on the ground in the area makes a Dexterity saving throw. On a failed save, a creature has the Prone condition, and its Concentration is broken.\n\nYou can also cause the effects below.\n\n**Fissures.** A total of 1d6 fissures open in the spell's area at the end of the turn you cast it. You choose the fissures' locations, which can't be under structures. Each fissure is 1d10 × 10 feet deep and 10 feet wide, and it extends from one edge of the spell's area to another edge. A creature in the same space as a fissure must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure's edge as it opens.\n\n**Structures.** The tremor deals 50 Bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the end of each of your turns until the spell ends. If a structure drops to 0 Hit Points, it collapses.\n\nA creature within a distance from a collapsing structure equal to half the structure's height makes a Dexterity saving throw. On a failed save, the creature takes 12d6 Bludgeoning damage, has the Prone condition, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. On a successful save, the creature takes half as much damage only.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Earthquake",
+        "activation": "action",
+        "range": "500 feet",
+        "save": {
+          "ability": "con"
+        },
+        "damage": "12d6",
+        "damageType": "bludgeoning",
+        "notes": "The spell also calls for a Dexterity saving throw."
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:entrancing-mirrors",
+    "kind": "spell",
+    "name": "Entrancing Mirrors",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:illusion"
+    ],
+    "spellLevel": 8,
+    "page": "AU 39",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "90 feet",
+    "components": "V, S, M (a mirror shard)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "You create dozens of illusory mirrors to confuse up to three creatures of your choice that you can see within range.\n\nEach target makes an Intelligence saving throw. On a failed save, a target takes 7d6 Psychic damage and has the Stunned condition. While the target is Stunned, its Speed is halved. On a successful save, a target takes half as much damage only.\n\nA Stunned target repeats the Intelligence saving throw at the end of each of its turns, ending the spell on itself on a success.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Entrancing Mirrors",
+        "activation": "action",
+        "range": "90 feet",
+        "save": {
+          "ability": "int"
+        },
+        "damage": "7d6",
+        "damageType": "psychic"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:glibness",
+    "kind": "spell",
+    "name": "Glibness",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "warlock-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 279",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "Self",
+    "components": "V",
+    "duration": "1 hour",
+    "text": "Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful."
+  },
+  {
+    "id": "srd24:spell:holy-aura",
+    "kind": "spell",
+    "name": "Holy Aura",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 286",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Self (30-foot emanation)",
+    "components": "V, S, M (a reliquary worth 1,000+ GP)",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "For the duration, you emit an aura in a 30-foot Emanation. While in the aura, creatures of your choice have Advantage on all saving throws, and other creatures have Disadvantage on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the Blinded condition until the end of its next turn.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Holy Aura",
+        "activation": "action",
+        "range": "Self (30-foot emanation)",
+        "save": {
+          "ability": "con"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:holy-star-of-mystra",
+    "kind": "spell",
+    "name": "Holy Star of Mystra",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:evocation"
+    ],
+    "spellLevel": 8,
+    "page": "FRHoF 145",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self",
+    "components": "V, S",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "You create a glowing mote of energy that hovers above you for the duration. The mote sheds Bright Light in a 5-foot radius and Dim Light for an additional 5 feet.\n\nWhen you cast this spell and as a Bonus Action on later turns, you can unleash a shining bolt from the mote, targeting one creature within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes Force or Radiant damage (your choice) equal to 4d10 plus your spellcasting ability modifier.\n\nIn addition, while the mote is present, you have Three-Quarters Cover, and if you succeed on a saving throw against a spell of level 7 or lower that targeted only you and didn't create an area of effect, you can take a Reaction to deflect that spell back at the spell's caster; the caster makes a saving throw against that spell using that caster's own spell save DC.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Holy Star of Mystra",
+        "activation": "bonus-action",
+        "range": "Self",
+        "notes": "Ranged spell attack."
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:illusory-dragon",
+    "kind": "spell",
+    "name": "Illusory Dragon",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:illusion"
+    ],
+    "spellLevel": 8,
+    "page": "AU 40",
+    "school": "illusion",
+    "castingTime": "1 action",
+    "range": "120 feet",
+    "components": "S",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "By gathering threads of shadow material from the Shadowfell, you create a Huge shadowy dragon in an unoccupied space that you can see within range. The illusion lasts for the spell's duration and occupies its space as if it were a creature. The illusion is tangible because of the shadow material used to create it but has Immunity to all damage and conditions.\n\nWhen the illusion appears, any enemy that can see it makes a Wisdom saving throw. On a failed save, the creature drops whatever it's holding and has the Frightened condition for the duration. If a creature Frightened in this way ends its turn in a space where it doesn't have line of sight to the illusion, the creature repeats the saving throw, ending the condition on itself on a success.\n\nAs a Bonus Action, you can move the illusion up to 60 feet. At any point during its movement, you can cause the shadowy dragon to exhale a blast of energy in a 60-foot Cone. Each creature in the Cone makes an Intelligence saving throw, taking 6d6 Acid, Cold, Fire, Lightning, Necrotic, or Poison damage (your choice when you create the dragon) on a failed save or half as much damage on a successful one.\n\nA creature that takes a Study action to examine the dragon can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image and has Advantage on saving throws to end the Frightened condition it caused and to resist its exhalation.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Illusory Dragon",
+        "activation": "action",
+        "range": "120 feet",
+        "save": {
+          "ability": "int"
+        },
+        "notes": "The spell also calls for a Wisdom saving throw."
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:incendiary-cloud",
+    "kind": "spell",
+    "name": "Incendiary Cloud",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 288",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "150 feet",
+    "components": "V, S",
+    "duration": "Concentration, up to 1 minute",
+    "concentration": true,
+    "text": "A swirling cloud of embers and smoke fills a 20-foot-radius Sphere centered on a point within range. The cloud's area is Heavily Obscured. It lasts for the duration or until a strong wind (like that created by Gust of Wind) disperses it.\n\nWhen the cloud appears, each creature in it makes a Dexterity saving throw, taking 10d8 Fire damage on a failed save or half as much damage on a successful one. A creature must also make this save when the Sphere moves into its space and when it enters the Sphere or ends its turn there. A creature makes this save only once per turn.\n\nThe cloud moves 10 feet away from you in a direction you choose at the start of each of your turns.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Incendiary Cloud",
+        "activation": "action",
+        "range": "150 feet",
+        "save": {
+          "ability": "dex"
+        },
+        "damage": "10d8",
+        "damageType": "fire"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:iron-body",
+    "kind": "spell",
+    "name": "Iron Body",
+    "source": "srd24",
+    "tags": [
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:transmutation"
+    ],
+    "spellLevel": 8,
+    "page": "AU 41",
+    "school": "transmutation",
+    "castingTime": "1 action",
+    "range": "Touch",
+    "components": "V, S, M (diamond dust worth 250+ GP, which the spell consumes)",
+    "duration": "Concentration, up to 1 hour",
+    "concentration": true,
+    "text": "One willing creature you touch transforms into living metal. Until the spell ends, the target's Exhaustion level can't increase; the target has Resistance to Bludgeoning, Fire, Piercing, and Slashing damage; and it has Immunity to Poison damage and the Paralyzed, Petrified, and Poisoned conditions. If the target is Paralyzed, Petrified, or Poisoned when you cast the spell, those conditions immediately end for the target."
+  },
+  {
+    "id": "srd24:spell:lightning-ring",
+    "kind": "spell",
+    "name": "Lightning Ring",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:evocation"
+    ],
+    "spellLevel": 8,
+    "page": "AU 41",
+    "school": "evocation",
+    "castingTime": "1 bonus action",
+    "range": "Self (10-foot emanation)",
+    "components": "V, S, M (a bit of fur and a glass ring)",
+    "duration": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "text": "A ring of crackling electricity fills a 10-foot Emanation originating from you. Whenever the Emanation enters a creature's space and whenever a creature enters the Emanation or ends its turn there, you can force that creature to make a Constitution saving throw. On a failed save, the creature takes 3d6 Lightning damage plus 3d6 Thunder damage, and it has the Deafened condition for 1 minute. On a successful save, the creature takes half as much damage only.\n\nAs a Magic action while the spell is active, you can emit a 60-foot-long, 5-foot-wide Line out from you in a direction you choose. Each creature in the Line makes a Dexterity saving throw, taking 6d6 Lightning damage on a failed save or half as much damage on a successful one.",
+    "actions": [
+      {
+        "id": "cast-lightning",
+        "name": "Lightning Ring (lightning, 3d6)",
+        "activation": "bonus-action",
+        "range": "Self (10-foot emanation)",
+        "save": {
+          "ability": "con"
+        },
+        "damage": "3d6",
+        "damageType": "lightning",
+        "notes": "The spell also calls for a Dexterity saving throw."
+      },
+      {
+        "id": "cast-thunder",
+        "name": "Lightning Ring (thunder)",
+        "activation": "bonus-action",
+        "range": "Self (10-foot emanation)",
+        "save": {
+          "ability": "con"
+        },
+        "damage": "3d6",
+        "damageType": "thunder",
+        "notes": "The spell also calls for a Dexterity saving throw."
+      },
+      {
+        "id": "cast-lightning-6d6",
+        "name": "Lightning Ring (lightning, 6d6)",
+        "activation": "bonus-action",
+        "range": "Self (10-foot emanation)",
+        "save": {
+          "ability": "con"
+        },
+        "damage": "6d6",
+        "damageType": "lightning",
+        "notes": "The spell also calls for a Dexterity saving throw."
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:maze",
+    "kind": "spell",
+    "name": "Maze",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 296",
+    "school": "conjuration",
+    "castingTime": "1 action",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Concentration, up to 10 minutes",
+    "concentration": true,
+    "text": "You banish a creature that you can see within range into a labyrinthine demiplane. The target remains there for the duration or until it escapes the maze.\n\nThe target can take a Study action to try to escape. When it does so, it makes a DC 20 Intelligence (Investigation) check. If it succeeds, it escapes, and the spell ends.\n\nWhen the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space."
+  },
+  {
+    "id": "srd24:spell:mind-blank",
+    "kind": "spell",
+    "name": "Mind Blank",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:abjuration"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 298",
+    "school": "abjuration",
+    "castingTime": "1 action",
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "24 hours",
+    "text": "Until the spell ends, one willing creature you touch has Immunity to Psychic damage and the Charmed condition. The target is also unaffected by anything that would sense its emotions or alignment, read its thoughts, or magically detect its location, and no spell—not even Wish—can gather information about the target, observe it remotely, or control its mind."
+  },
+  {
+    "id": "srd24:spell:moment-of-prescience",
+    "kind": "spell",
+    "name": "Moment of Prescience",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:divination"
+    ],
+    "spellLevel": 8,
+    "page": "AU 42",
+    "school": "divination",
+    "castingTime": "1 reaction, which you take when you fail a D20 Test or when a creature hits you with an attack roll",
+    "range": "Self",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "text": "You have a powerful sixth sense that guides you at just the right time. Turn the roll of your failed D20 Test into a 20, or turn the roll of the triggering attack roll into a 1."
+  },
+  {
+    "id": "srd24:spell:power-word-stun",
+    "kind": "spell",
+    "name": "Power Word Stun",
+    "source": "srd24",
+    "tags": [
+      "bard-spell",
+      "sorcerer-spell",
+      "warlock-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:enchantment"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 306",
+    "school": "enchantment",
+    "castingTime": "1 action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "text": "You overwhelm the mind of one creature you can see within range. If the target has 150 Hit Points or fewer, it has the Stunned condition. Otherwise, its Speed is 0 until the start of your next turn.\n\nThe Stunned target makes a Constitution saving throw at the end of each of its turns, ending the condition on itself on a success.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Power Word Stun",
+        "activation": "action",
+        "range": "60 feet",
+        "save": {
+          "ability": "con"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:sunburst",
+    "kind": "spell",
+    "name": "Sunburst",
+    "source": "srd24",
+    "tags": [
+      "cleric-spell",
+      "druid-spell",
+      "sorcerer-spell",
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:evocation"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 329",
+    "school": "evocation",
+    "castingTime": "1 action",
+    "range": "150 feet",
+    "components": "V, S, M (a piece of sunstone)",
+    "duration": "Instantaneous",
+    "text": "Brilliant sunlight flashes in a 60-foot-radius Sphere centered on a point you choose within range. Each creature in the Sphere makes a Constitution saving throw. On a failed save, a creature takes 12d6 Radiant damage and has the Blinded condition for 1 minute. On a successful save, it takes half as much damage only.\n\nA creature Blinded by this spell makes another Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.\n\nThis spell dispels Darkness in its area that was created by any spell.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Sunburst",
+        "activation": "action",
+        "range": "150 feet",
+        "save": {
+          "ability": "con"
+        },
+        "damage": "12d6",
+        "damageType": "radiant"
+      }
+    ]
+  },
+  {
+    "id": "srd24:spell:telepathy",
+    "kind": "spell",
+    "name": "Telepathy",
+    "source": "srd24",
+    "tags": [
+      "wizard-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:divination"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 331",
+    "school": "divination",
+    "castingTime": "1 action",
+    "range": "Unlimited",
+    "components": "V, S, M (a pair of linked silver rings)",
+    "duration": "24 hours",
+    "text": "You create a telepathic link between yourself and a willing creature with which you are familiar. The creature can be anywhere on the same plane of existence as you. The spell ends if you or the target are no longer on the same plane.\n\nUntil the spell ends, you and the target can instantly share words, images, sounds, and other sensory messages with each other through the link, and the target recognizes you as the creature it is communicating with. The spell enables a creature to understand the meaning of your words and any sensory messages you send to it."
+  },
+  {
+    "id": "srd24:spell:tsunami",
+    "kind": "spell",
+    "name": "Tsunami",
+    "source": "srd24",
+    "tags": [
+      "druid-spell",
+      "spell-level:8",
+      "spell-level-max:8",
+      "spell-level-max:9",
+      "school:conjuration"
+    ],
+    "spellLevel": 8,
+    "page": "XPHB 336",
+    "school": "conjuration",
+    "castingTime": "1 minute",
+    "range": "1 mile",
+    "components": "V, S",
+    "duration": "Concentration, up to 6 rounds",
+    "concentration": true,
+    "text": "A wall of water springs into existence at a point you choose within range. You can make the wall up to 300 feet long, 300 feet high, and 50 feet thick. The wall lasts for the duration.\n\nWhen the wall appears, each creature in its area makes a Strength saving throw, taking 6d10 Bludgeoning damage on a failed save or half as much damage on a successful one.\n\nAt the start of each of your turns after the wall appears, the wall, along with any creatures in it, moves 50 feet away from you. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a Strength saving throw or take 5d10 Bludgeoning damage. A creature can take this damage only once per round. At the end of the turn, the wall's height is reduced by 50 feet, and the damage the wall deals on later rounds is reduced by 1d10. When the wall reaches 0 feet in height, the spell ends.\n\nA creature caught in the wall can move by swimming. Because of the wave's force, though, the creature must succeed on a Strength (Athletics) check against your spell save DC to move at all. If it fails the check, it can't move. A creature that moves out of the wall falls to the ground.",
+    "actions": [
+      {
+        "id": "cast-bludgeoning",
+        "name": "Tsunami (bludgeoning, 6d10)",
+        "activation": "minute",
+        "range": "1 mile",
+        "save": {
+          "ability": "str"
+        },
+        "damage": "6d10",
+        "damageType": "bludgeoning"
+      },
+      {
+        "id": "cast-bludgeoning-5d10",
+        "name": "Tsunami (bludgeoning, 5d10)",
+        "activation": "minute",
+        "range": "1 mile",
+        "save": {
+          "ability": "str"
+        },
+        "damage": "5d10",
+        "damageType": "bludgeoning"
+      }
+    ]
+  }
+]

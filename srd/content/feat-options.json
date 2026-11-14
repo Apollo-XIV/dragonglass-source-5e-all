@@ -1,0 +1,2034 @@
+[
+  {
+    "id": "srd:magic-initiate:bard-spells",
+    "kind": "spell-list-option",
+    "name": "Bard Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:magic-initiate:bard-spells:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "bard-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:magic-initiate:bard-spells:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "bard-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:magic-initiate:bard-spells:innate-spells"
+        },
+        "ability": "cha",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:ritual-caster:bard-spells",
+    "kind": "spell-list-option",
+    "name": "Bard Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:ritual-caster:bard-spells:innate-spells",
+        "name": "Spell",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "bard-spell",
+            "ritual"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:ritual-caster:bard-spells:innate-spells"
+        },
+        "ability": "cha",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:spell-sniper:bard-spells",
+    "kind": "spell-list-option",
+    "name": "Bard Spells",
+    "source": "srd"
+  },
+  {
+    "id": "srd:scion-of-the-outer-planes:chaotic-outer-plane",
+    "kind": "spell-list-option",
+    "name": "Chaotic Outer Plane",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:scion-of-the-outer-planes:chaotic-outer-plane:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:minor-illusion",
+        "ability": {
+          "choice": "srd:scion-of-the-outer-planes:chaotic-outer-plane:ability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:magic-initiate:cleric-spells",
+    "kind": "spell-list-option",
+    "name": "Cleric Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:magic-initiate:cleric-spells:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "cleric-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:magic-initiate:cleric-spells:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "cleric-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:magic-initiate:cleric-spells:innate-spells"
+        },
+        "ability": "wis",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:ritual-caster:cleric-spells",
+    "kind": "spell-list-option",
+    "name": "Cleric Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:ritual-caster:cleric-spells:innate-spells",
+        "name": "Spell",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "cleric-spell",
+            "ritual"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:ritual-caster:cleric-spells:innate-spells"
+        },
+        "ability": "wis",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:spell-sniper:cleric-spells",
+    "kind": "spell-list-option",
+    "name": "Cleric Spells",
+    "source": "srd"
+  },
+  {
+    "id": "srd:magic-initiate:druid-spells",
+    "kind": "spell-list-option",
+    "name": "Druid Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:magic-initiate:druid-spells:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "druid-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:magic-initiate:druid-spells:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "druid-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:magic-initiate:druid-spells:innate-spells"
+        },
+        "ability": "wis",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:ritual-caster:druid-spells",
+    "kind": "spell-list-option",
+    "name": "Druid Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:ritual-caster:druid-spells:innate-spells",
+        "name": "Spell",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "druid-spell",
+            "ritual"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:ritual-caster:druid-spells:innate-spells"
+        },
+        "ability": "wis",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:spell-sniper:druid-spells",
+    "kind": "spell-list-option",
+    "name": "Druid Spells",
+    "source": "srd"
+  },
+  {
+    "id": "srd:divinely-favored:evil",
+    "kind": "spell-list-option",
+    "name": "Evil",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:divinely-favored:evil:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "cleric-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:divinely-favored:evil:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:divinely-favored:evil:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "warlock-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:divinely-favored:evil:known-spells"
+        },
+        "ability": {
+          "choice": "srd:divinely-favored:evil:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:augury",
+        "ability": {
+          "choice": "srd:divinely-favored:evil:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      },
+      {
+        "spell": {
+          "choice": "srd:divinely-favored:evil:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:divinely-favored:evil:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:scion-of-the-outer-planes:evil-outer-plane",
+    "kind": "spell-list-option",
+    "name": "Evil Outer Plane",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:scion-of-the-outer-planes:evil-outer-plane:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:chill-touch",
+        "ability": {
+          "choice": "srd:scion-of-the-outer-planes:evil-outer-plane:ability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:divinely-favored:good",
+    "kind": "spell-list-option",
+    "name": "Good",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:divinely-favored:good:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "cleric-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:divinely-favored:good:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:divinely-favored:good:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "cleric-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:divinely-favored:good:known-spells"
+        },
+        "ability": {
+          "choice": "srd:divinely-favored:good:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:augury",
+        "ability": {
+          "choice": "srd:divinely-favored:good:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      },
+      {
+        "spell": {
+          "choice": "srd:divinely-favored:good:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:divinely-favored:good:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:scion-of-the-outer-planes:good-outer-plane",
+    "kind": "spell-list-option",
+    "name": "Good Outer Plane",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:scion-of-the-outer-planes:good-outer-plane:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:sacred-flame",
+        "ability": {
+          "choice": "srd:scion-of-the-outer-planes:good-outer-plane:ability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:scion-of-the-outer-planes:lawful-outer-plane",
+    "kind": "spell-list-option",
+    "name": "Lawful Outer Plane",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:scion-of-the-outer-planes:lawful-outer-plane:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:guidance",
+        "ability": {
+          "choice": "srd:scion-of-the-outer-planes:lawful-outer-plane:ability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:lorehold-1",
+    "kind": "spell-list-option",
+    "name": "Lorehold 1",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:lorehold-1:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:lorehold-1:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "cleric-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:light",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-1:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:sacred-flame",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-1:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:lorehold-1:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-1:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:lorehold-2",
+    "kind": "spell-list-option",
+    "name": "Lorehold 2",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:lorehold-2:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:lorehold-2:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "cleric-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:light",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-2:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:thaumaturgy",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-2:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:lorehold-2:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-2:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:lorehold-3",
+    "kind": "spell-list-option",
+    "name": "Lorehold 3",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:lorehold-3:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:lorehold-3:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "cleric-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:sacred-flame",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-3:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:thaumaturgy",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-3:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:lorehold-3:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:lorehold-3:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:initiate-of-high-sorcery:lunitari",
+    "kind": "spell-list-option",
+    "name": "Lunitari",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:initiate-of-high-sorcery:lunitari:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "wizard-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:initiate-of-high-sorcery:lunitari:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:initiate-of-high-sorcery:lunitari:known-spells"
+        },
+        "ability": {
+          "choice": "srd:initiate-of-high-sorcery:lunitari:ability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:divinely-favored:neutral",
+    "kind": "spell-list-option",
+    "name": "Neutral",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:divinely-favored:neutral:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "cleric-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:divinely-favored:neutral:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:divinely-favored:neutral:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "druid-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:divinely-favored:neutral:known-spells"
+        },
+        "ability": {
+          "choice": "srd:divinely-favored:neutral:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:augury",
+        "ability": {
+          "choice": "srd:divinely-favored:neutral:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      },
+      {
+        "spell": {
+          "choice": "srd:divinely-favored:neutral:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:divinely-favored:neutral:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:initiate-of-high-sorcery:nuitari",
+    "kind": "spell-list-option",
+    "name": "Nuitari",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:initiate-of-high-sorcery:nuitari:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "wizard-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:initiate-of-high-sorcery:nuitari:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:initiate-of-high-sorcery:nuitari:known-spells"
+        },
+        "ability": {
+          "choice": "srd:initiate-of-high-sorcery:nuitari:ability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:prismari-1",
+    "kind": "spell-list-option",
+    "name": "Prismari 1",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:prismari-1:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:prismari-1:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "bard-spell",
+            "sorcerer-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:fire-bolt",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-1:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:prestidigitation",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-1:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:prismari-1:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-1:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:prismari-2",
+    "kind": "spell-list-option",
+    "name": "Prismari 2",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:prismari-2:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:prismari-2:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "bard-spell",
+            "sorcerer-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:fire-bolt",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-2:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:ray-of-frost",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-2:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:prismari-2:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-2:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:prismari-3",
+    "kind": "spell-list-option",
+    "name": "Prismari 3",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:prismari-3:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:prismari-3:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "bard-spell",
+            "sorcerer-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:prestidigitation",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-3:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:ray-of-frost",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-3:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:prismari-3:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:prismari-3:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:quandrix-1",
+    "kind": "spell-list-option",
+    "name": "Quandrix 1",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:quandrix-1:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:quandrix-1:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "druid-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:druidcraft",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-1:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:guidance",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-1:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:quandrix-1:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-1:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:quandrix-2",
+    "kind": "spell-list-option",
+    "name": "Quandrix 2",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:quandrix-2:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:quandrix-2:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "druid-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:druidcraft",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-2:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:mage-hand",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-2:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:quandrix-2:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-2:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:quandrix-3",
+    "kind": "spell-list-option",
+    "name": "Quandrix 3",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:quandrix-3:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:quandrix-3:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "druid-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:guidance",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-3:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:mage-hand",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-3:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:quandrix-3:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:quandrix-3:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:silverquill-1",
+    "kind": "spell-list-option",
+    "name": "Silverquill 1",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:silverquill-1:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:silverquill-1:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "bard-spell",
+            "cleric-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:sacred-flame",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-1:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:thaumaturgy",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-1:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:silverquill-1:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-1:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:silverquill-2",
+    "kind": "spell-list-option",
+    "name": "Silverquill 2",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:silverquill-2:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:silverquill-2:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "bard-spell",
+            "cleric-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:sacred-flame",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-2:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:vicious-mockery",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-2:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:silverquill-2:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-2:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:silverquill-3",
+    "kind": "spell-list-option",
+    "name": "Silverquill 3",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:silverquill-3:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:silverquill-3:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "bard-spell",
+            "cleric-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:thaumaturgy",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-3:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:vicious-mockery",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-3:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:silverquill-3:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:silverquill-3:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:initiate-of-high-sorcery:solinari",
+    "kind": "spell-list-option",
+    "name": "Solinari",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:initiate-of-high-sorcery:solinari:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "wizard-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:initiate-of-high-sorcery:solinari:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:initiate-of-high-sorcery:solinari:known-spells"
+        },
+        "ability": {
+          "choice": "srd:initiate-of-high-sorcery:solinari:ability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:magic-initiate:sorcerer-spells",
+    "kind": "spell-list-option",
+    "name": "Sorcerer Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:magic-initiate:sorcerer-spells:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "sorcerer-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:magic-initiate:sorcerer-spells:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "sorcerer-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:magic-initiate:sorcerer-spells:innate-spells"
+        },
+        "ability": "cha",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:ritual-caster:sorcerer-spells",
+    "kind": "spell-list-option",
+    "name": "Sorcerer Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:ritual-caster:sorcerer-spells:innate-spells",
+        "name": "Spell",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "sorcerer-spell",
+            "ritual"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:ritual-caster:sorcerer-spells:innate-spells"
+        },
+        "ability": "cha",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:spell-sniper:sorcerer-spells",
+    "kind": "spell-list-option",
+    "name": "Sorcerer Spells",
+    "source": "srd"
+  },
+  {
+    "id": "srd:scion-of-the-outer-planes:the-outlands",
+    "kind": "spell-list-option",
+    "name": "The Outlands",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:scion-of-the-outer-planes:the-outlands:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:mage-hand",
+        "ability": {
+          "choice": "srd:scion-of-the-outer-planes:the-outlands:ability"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:magic-initiate:warlock-spells",
+    "kind": "spell-list-option",
+    "name": "Warlock Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:magic-initiate:warlock-spells:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "warlock-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:magic-initiate:warlock-spells:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "warlock-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:magic-initiate:warlock-spells:innate-spells"
+        },
+        "ability": "cha",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:ritual-caster:warlock-spells",
+    "kind": "spell-list-option",
+    "name": "Warlock Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:ritual-caster:warlock-spells:innate-spells",
+        "name": "Spell",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "warlock-spell",
+            "ritual"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:ritual-caster:warlock-spells:innate-spells"
+        },
+        "ability": "cha",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:spell-sniper:warlock-spells",
+    "kind": "spell-list-option",
+    "name": "Warlock Spells",
+    "source": "srd"
+  },
+  {
+    "id": "srd:strixhaven-initiate:witherbloom-1",
+    "kind": "spell-list-option",
+    "name": "Witherbloom 1",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:witherbloom-1:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:witherbloom-1:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "druid-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:chill-touch",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-1:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:druidcraft",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-1:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:witherbloom-1:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-1:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:witherbloom-2",
+    "kind": "spell-list-option",
+    "name": "Witherbloom 2",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:witherbloom-2:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:witherbloom-2:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "druid-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:chill-touch",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-2:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:spare-the-dying",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-2:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:witherbloom-2:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-2:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:strixhaven-initiate:witherbloom-3",
+    "kind": "spell-list-option",
+    "name": "Witherbloom 3",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:strixhaven-initiate:witherbloom-3:ability",
+        "name": "Spellcasting ability",
+        "count": 1,
+        "from": {
+          "kind": "casting-ability",
+          "ids": [
+            "srd:casting-ability:int",
+            "srd:casting-ability:wis",
+            "srd:casting-ability:cha"
+          ]
+        }
+      },
+      {
+        "id": "srd:strixhaven-initiate:witherbloom-3:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "tags": [
+            "druid-spell",
+            "wizard-spell"
+          ],
+          "allTags": [
+            "spell-level:1"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": "srd:spell:druidcraft",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-3:ability"
+        }
+      },
+      {
+        "spell": "srd:spell:spare-the-dying",
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-3:ability"
+        }
+      },
+      {
+        "spell": {
+          "choice": "srd:strixhaven-initiate:witherbloom-3:innate-spells"
+        },
+        "ability": {
+          "choice": "srd:strixhaven-initiate:witherbloom-3:ability"
+        },
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:magic-initiate:wizard-spells",
+    "kind": "spell-list-option",
+    "name": "Wizard Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:magic-initiate:wizard-spells:known-spells",
+        "name": "Cantrip",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "wizard-spell"
+          ]
+        }
+      },
+      {
+        "id": "srd:magic-initiate:wizard-spells:innate-spells",
+        "name": "Spell",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "wizard-spell"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:magic-initiate:wizard-spells:innate-spells"
+        },
+        "ability": "int",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:ritual-caster:wizard-spells",
+    "kind": "spell-list-option",
+    "name": "Wizard Spells",
+    "source": "srd",
+    "choices": [
+      {
+        "id": "srd:ritual-caster:wizard-spells:innate-spells",
+        "name": "Spell",
+        "count": 2,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:1",
+            "wizard-spell",
+            "ritual"
+          ]
+        }
+      }
+    ],
+    "innateSpells": [
+      {
+        "spell": {
+          "choice": "srd:ritual-caster:wizard-spells:innate-spells"
+        },
+        "ability": "int",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:spell-sniper:wizard-spells",
+    "kind": "spell-list-option",
+    "name": "Wizard Spells",
+    "source": "srd"
+  }
+]

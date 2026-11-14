@@ -1,0 +1,245 @@
+[
+  {
+    "id": "srd:subclass:monster-slayer",
+    "kind": "subclass",
+    "name": "Monster Slayer",
+    "source": "srd",
+    "page": "XGE 43",
+    "class": "srd:class:ranger",
+    "tags": [
+      "ranger-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:monster-slayer:monster-slayer",
+          {
+            "id": "srd:spell:protection-from-evil-and-good",
+            "mode": "learned"
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          {
+            "id": "srd:spell:zone-of-truth",
+            "mode": "learned"
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:monster-slayer:supernatural-defense"
+        ]
+      },
+      "9": {
+        "grants": [
+          {
+            "id": "srd:spell:magic-circle",
+            "mode": "learned"
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:monster-slayer:magic-users-nemesis"
+        ]
+      },
+      "13": {
+        "grants": [
+          {
+            "id": "srd:spell:banishment",
+            "mode": "learned"
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:monster-slayer:slayers-counter"
+        ]
+      },
+      "17": {
+        "grants": [
+          {
+            "id": "srd:spell:hold-monster",
+            "mode": "learned"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:monster-slayer:monster-slayer-magic",
+    "kind": "subclass-feature",
+    "name": "Monster Slayer Magic",
+    "source": "srd",
+    "page": "XGE 43",
+    "tags": [
+      "monster-slayer-feature",
+      "ranger-feature"
+    ],
+    "text": "Starting at 3rd level, you learn an additional spell when you reach certain levels in this class, as shown in the Monster Slayer Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.\n\n**Monster Slayer Spells**\n| Ranger Level | Spells |\n| --- | --- |\n| 3rd | protection from evil and good |\n| 5th | zone of truth |\n| 9th | magic circle |\n| 13th | banishment |\n| 17th | hold monster |"
+  },
+  {
+    "id": "srd:monster-slayer:hunters-sense",
+    "kind": "subclass-feature",
+    "name": "Hunter's Sense",
+    "source": "srd",
+    "page": "XGE 43",
+    "tags": [
+      "monster-slayer-feature",
+      "ranger-feature"
+    ],
+    "text": "At 3rd level, you gain the ability to peer at a creature and magically discern how best to hurt it. As an action, choose one creature you can see within 60 feet of you. You immediately learn whether the creature has any damage immunities, resistances, or vulnerabilities and what they are. If the creature is hidden from divination magic, you sense that it has no damage immunities, resistances, or vulnerabilities.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once). You regain all expended uses of it when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:monster-slayer:hunters-sense",
+        "name": "Hunter's Sense",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "hunters-sense",
+        "name": "Hunter's Sense",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:monster-slayer:hunters-sense": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:monster-slayer:slayers-prey",
+    "kind": "subclass-feature",
+    "name": "Slayer's Prey",
+    "source": "srd",
+    "page": "XGE 43",
+    "tags": [
+      "monster-slayer-feature",
+      "ranger-feature"
+    ],
+    "text": "Starting at 3rd level, you can focus your ire on one foe, increasing the harm you inflict on it. As a bonus action, you designate one creature you can see within 60 feet of you as the target of this feature. The first time each turn that you hit that target with a weapon attack, it takes an extra 1d6 damage from the weapon.\n\nThis benefit lasts until you finish a short or long rest. It ends early if you designate a different creature.",
+    "actions": [
+      {
+        "id": "slayers-prey",
+        "name": "Slayer's Prey",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:monster-slayer:monster-slayer",
+    "kind": "subclass-feature",
+    "name": "Monster Slayer",
+    "source": "srd",
+    "page": "XGE 43",
+    "tags": [
+      "monster-slayer-feature",
+      "ranger-feature"
+    ],
+    "text": "You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.",
+    "grants": [
+      "srd:monster-slayer:monster-slayer-magic",
+      "srd:monster-slayer:hunters-sense",
+      "srd:monster-slayer:slayers-prey"
+    ]
+  },
+  {
+    "id": "srd:monster-slayer:supernatural-defense",
+    "kind": "subclass-feature",
+    "name": "Supernatural Defense",
+    "source": "srd",
+    "page": "XGE 43",
+    "tags": [
+      "monster-slayer-feature",
+      "ranger-feature"
+    ],
+    "text": "At 7th level, you gain extra resilience against your prey's assaults on your mind and body. Whenever the target of your Slayer's Prey forces you to make a saving throw and whenever you make an ability check to escape that target's grapple, add 1d6 to your roll."
+  },
+  {
+    "id": "srd:monster-slayer:magic-users-nemesis",
+    "kind": "subclass-feature",
+    "name": "Magic-User's Nemesis",
+    "source": "srd",
+    "page": "XGE 43",
+    "tags": [
+      "monster-slayer-feature",
+      "ranger-feature"
+    ],
+    "text": "At 11th level, you gain the ability to thwart someone else's magic. When you see a creature casting a spell or teleporting within 60 feet of you, you can use your reaction to try to magically foil it. The creature must succeed on a Wisdom saving throw against your spell save DC, or its spell or teleport fails and is wasted.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:monster-slayer:magic-users-nemesis",
+        "name": "Magic-User's Nemesis",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "magic-users-nemesis",
+        "name": "Magic-User's Nemesis",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:monster-slayer:magic-users-nemesis": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:monster-slayer:slayers-counter",
+    "kind": "subclass-feature",
+    "name": "Slayer's Counter",
+    "source": "srd",
+    "page": "XGE 43",
+    "tags": [
+      "monster-slayer-feature",
+      "ranger-feature"
+    ],
+    "text": "At 15th level, you gain the ability to counterattack when your prey tries to sabotage you. If the target of your Slayer's Prey forces you to make a saving throw, you can use your reaction to make one weapon attack against the quarry. You make this attack immediately before making the saving throw. If your attack hits, your save automatically succeeds, in addition to the attack's normal effects.",
+    "actions": [
+      {
+        "id": "slayers-counter",
+        "name": "Slayer's Counter",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,207 @@
+[
+  {
+    "id": "srd:subclass:college-of-glamour",
+    "kind": "subclass",
+    "name": "College of Glamour",
+    "source": "srd",
+    "page": "XGE 14",
+    "class": "srd:class:bard",
+    "tags": [
+      "bard-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> Illusions? How quaint. Before I destroy you, make one that looks like a really big goldfish—like as big as me! Hmm. That's too big. Goodbye!\n>\n> — Xanathar",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:glamour:college-of-glamour"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:glamour:mantle-of-majesty"
+        ],
+        "innateSpells": [
+          {
+            "spell": "srd:spell:command"
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:glamour:unbreakable-majesty"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:glamour:mantle-of-inspiration",
+    "kind": "subclass-feature",
+    "name": "Mantle of Inspiration",
+    "source": "srd",
+    "page": "XGE 14",
+    "tags": [
+      "glamour-feature",
+      "bard-feature"
+    ],
+    "text": "When you join the College of Glamour at 3rd level, you gain the ability to weave a song of fey magic that imbues your allies with vigor and speed.\n\nAs a bonus action, you can expend one use of your Bardic Inspiration to grant yourself a wondrous appearance. When you do so, choose a number of creatures you can see and that can see you within 60 feet of you, up to a number equal to your Charisma modifier (minimum of one). Each of them gains 5 temporary hit points. When a creature gains these temporary hit points, it can immediately use its reaction to move up to its speed, without provoking opportunity attacks.\n\nThe number of temporary hit points increases when you reach certain levels in this class, increasing to 8 at 5th level, 11 at 10th level, and 14 at 15th level.",
+    "actions": [
+      {
+        "id": "mantle-of-inspiration",
+        "name": "Mantle of Inspiration",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:glamour:enthralling-performance",
+    "kind": "subclass-feature",
+    "name": "Enthralling Performance",
+    "source": "srd",
+    "page": "XGE 14",
+    "tags": [
+      "glamour-feature",
+      "bard-feature"
+    ],
+    "text": "Starting at 3rd level, you can charge your performance with seductive, fey magic.\n\nIf you perform for at least 1 minute, you can attempt to inspire wonder in your audience by singing, reciting a poem, or dancing. At the end of the performance, choose a number of humanoids within 60 feet of you who watched and listened to all of it, up to a number equal to your Charisma modifier (minimum of one). Each target must succeed on a Wisdom saving throw against your spell save DC or be charmed by you. While charmed in this way, the target idolizes you, it speaks glowingly of you to anyone who talks to it, and it hinders anyone who opposes you, although it avoids violence unless it was already inclined to fight on your behalf. This effect ends on a target after 1 hour, if it takes any damage, if you attack it, or if it witnesses you attacking or damaging any of its allies.\n\nIf a target succeeds on its saving throw, the target has no hint that you tried to charm it.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:glamour:enthralling-performance",
+        "name": "Enthralling Performance",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "enthralling-performance",
+        "name": "Enthralling Performance",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:glamour:enthralling-performance": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:glamour:college-of-glamour",
+    "kind": "subclass-feature",
+    "name": "College of Glamour",
+    "source": "srd",
+    "page": "XGE 14",
+    "tags": [
+      "glamour-feature",
+      "bard-feature"
+    ],
+    "text": "The College of Glamour is the home of bards who mastered their craft in the vibrant realm of the Feywild or under the tutelage of someone who dwelled there. Tutored by satyrs, eladrin, and other fey, these bards learn to use their magic to delight and captivate others.\n\nThe bards of this college are regarded with a mixture of awe and fear. Their performances are the stuff of legend. These bards are so eloquent that a speech or song that one of them performs can cause captors to release the bard unharmed and can lull a furious dragon into complacency. The same magic that allows them to quell beasts can also bend minds. Villainous bards of this college can leech off a community for weeks, misusing their magic to turn their hosts into thralls. Heroic bards of this college instead use this power to gladden the downtrodden and undermine oppressors.",
+    "grants": [
+      "srd:glamour:mantle-of-inspiration",
+      "srd:glamour:enthralling-performance"
+    ]
+  },
+  {
+    "id": "srd:glamour:mantle-of-majesty",
+    "kind": "subclass-feature",
+    "name": "Mantle of Majesty",
+    "source": "srd",
+    "page": "XGE 14",
+    "tags": [
+      "glamour-feature",
+      "bard-feature"
+    ],
+    "text": "At 6th level, you gain the ability to cloak yourself in a fey magic that makes others want to serve you. As a bonus action, you cast command, without expending a spell slot, and you take on an appearance of unearthly beauty for 1 minute or until your concentration ends (as if you were concentrating on a spell). During this time, you can cast command as a bonus action on each of your turns, without expending a spell slot.\n\nAny creature charmed by you automatically fails its saving throw against the command you cast with this feature.\n\nOnce you use this feature, you can't use it again until you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:glamour:mantle-of-majesty",
+        "name": "Mantle of Majesty",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "mantle-of-majesty",
+        "name": "Mantle of Majesty",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:glamour:mantle-of-majesty": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:glamour:unbreakable-majesty",
+    "kind": "subclass-feature",
+    "name": "Unbreakable Majesty",
+    "source": "srd",
+    "page": "XGE 14",
+    "tags": [
+      "glamour-feature",
+      "bard-feature"
+    ],
+    "text": "At 14th level, your appearance permanently gains an otherworldly aspect that makes you look more lovely and fierce.\n\nIn addition, as a bonus action, you can assume a magically majestic presence for 1 minute or until you are incapacitated. For the duration, whenever any creature tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw against your spell save DC. On a failed save, it can't attack you on this turn, and it must choose a new target for its attack or the attack is wasted. On a successful save, it can attack you on this turn, but it has disadvantage on any saving throw it makes against your spells on your next turn.\n\nOnce you assume this majestic presence, you can't do so again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:glamour:unbreakable-majesty",
+        "name": "Unbreakable Majesty",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "unbreakable-majesty",
+        "name": "Unbreakable Majesty",
+        "activation": "bonus-action",
+        "cost": {
+          "srd:glamour:unbreakable-majesty": 1
+        },
+        "duration": "1 minute",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

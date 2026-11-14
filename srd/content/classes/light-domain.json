@@ -1,0 +1,225 @@
+[
+  {
+    "id": "srd:subclass:light-domain",
+    "kind": "subclass",
+    "name": "Light Domain",
+    "source": "srd",
+    "page": "PHB 60",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:light:light-domain",
+          "srd:spell:light",
+          "srd:spell:burning-hands",
+          "srd:spell:faerie-fire"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:light:channel-divinity-radiance-of-the-dawn"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:flaming-sphere",
+          "srd:spell:scorching-ray"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:daylight",
+          "srd:spell:fireball"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:light:improved-flare"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:guardian-of-faith",
+          "srd:spell:wall-of-fire"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:light:potent-spellcasting",
+          "srd:light:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:flame-strike",
+          "srd:spell:scrying"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:light:corona-of-light"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:light:bonus-cantrip",
+    "kind": "subclass-feature",
+    "name": "Bonus Cantrip",
+    "source": "srd",
+    "page": "PHB 60",
+    "tags": [
+      "light-feature",
+      "cleric-feature"
+    ],
+    "text": "When you choose this domain at 1st level, you gain the light cantrip if you don't already know it. This cantrip doesn't count against the number of cleric cantrips you know."
+  },
+  {
+    "id": "srd:light:warding-flare",
+    "kind": "subclass-feature",
+    "name": "Warding Flare",
+    "source": "srd",
+    "page": "PHB 60",
+    "tags": [
+      "light-feature",
+      "cleric-feature"
+    ],
+    "text": "Also at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:light:warding-flare",
+        "name": "Warding Flare",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "warding-flare",
+        "name": "Warding Flare",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:light:warding-flare": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:light:light-domain",
+    "kind": "subclass-feature",
+    "name": "Light Domain",
+    "source": "srd",
+    "page": "PHB 60",
+    "tags": [
+      "light-feature",
+      "cleric-feature"
+    ],
+    "text": "Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Light Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | burning hands, faerie fire |\n| 3rd | flaming sphere, scorching ray |\n| 5th | daylight, fireball |\n| 7th | guardian of faith, wall of fire |\n| 9th | flame strike, scrying |",
+    "grants": [
+      "srd:light:bonus-cantrip",
+      "srd:light:warding-flare"
+    ]
+  },
+  {
+    "id": "srd:light:channel-divinity-radiance-of-the-dawn",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Radiance of the Dawn",
+    "source": "srd",
+    "page": "PHB 60",
+    "tags": [
+      "light-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to harness sunlight, banishing darkness and dealing radiant damage to your foes.\n\nAs an action, you present your holy symbol, and any magical darkness within 30 feet of you is dispelled. Additionally, each hostile creature within 30 feet of you must make a Constitution saving throw. A creature takes radiant damage equal to 2d10 + your cleric level on a failed saving throw, and half as much damage on a successful one. A creature that has total cover from you is not affected.",
+    "actions": [
+      {
+        "id": "channel-divinity-radiance-of-the-dawn",
+        "name": "Channel Divinity: Radiance of the Dawn",
+        "activation": "action",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:light:improved-flare",
+    "kind": "subclass-feature",
+    "name": "Improved Flare",
+    "source": "srd",
+    "page": "PHB 60",
+    "tags": [
+      "light-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 6th level, you can also use your Warding Flare feature when a creature that you can see within 30 feet of you attacks a creature other than you."
+  },
+  {
+    "id": "srd:light:potent-spellcasting",
+    "kind": "subclass-feature",
+    "name": "Potent Spellcasting",
+    "source": "srd",
+    "page": "PHB 60",
+    "tags": [
+      "light-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+  },
+  {
+    "id": "srd:light:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "light-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Potent Spellcasting feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:light:corona-of-light",
+    "kind": "subclass-feature",
+    "name": "Corona of Light",
+    "source": "srd",
+    "page": "PHB 60",
+    "tags": [
+      "light-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 17th level, you can use your action to activate an aura of sunlight that lasts for 1 minute or until you dismiss it using another action. You emit bright light in a 60-foot radius and dim light 30 feet beyond that. Your enemies in the bright light have disadvantage on saving throws against any spell that deals fire or radiant damage.",
+    "actions": [
+      {
+        "id": "corona-of-light",
+        "name": "Corona of Light",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

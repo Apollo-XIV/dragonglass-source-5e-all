@@ -1,0 +1,1541 @@
+[
+  {
+    "id": "srd:tool:alchemists-supplies",
+    "kind": "tool",
+    "name": "Alchemist's Supplies",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:alchemists-supplies"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:bagpipes",
+    "kind": "tool",
+    "name": "Bagpipes",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:bagpipes"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:birdpipes",
+    "kind": "tool",
+    "name": "Birdpipes",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:birdpipes"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:brewers-supplies",
+    "kind": "tool",
+    "name": "Brewer's Supplies",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:brewers-supplies"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:calligraphers-supplies",
+    "kind": "tool",
+    "name": "Calligrapher's Supplies",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:calligraphers-supplies"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:carpenters-tools",
+    "kind": "tool",
+    "name": "Carpenter's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:carpenters-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:cartographers-tools",
+    "kind": "tool",
+    "name": "Cartographer's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:cartographers-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:cobblers-tools",
+    "kind": "tool",
+    "name": "Cobbler's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:cobblers-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:cooks-utensils",
+    "kind": "tool",
+    "name": "Cook's Utensils",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:cooks-utensils"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:drum",
+    "kind": "tool",
+    "name": "Drum",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:drum"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:dulcimer",
+    "kind": "tool",
+    "name": "Dulcimer",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:dulcimer"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:flute",
+    "kind": "tool",
+    "name": "Flute",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:flute"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:glassblowers-tools",
+    "kind": "tool",
+    "name": "Glassblower's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:glassblowers-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:glaur",
+    "kind": "tool",
+    "name": "Glaur",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:glaur"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:hand-drum",
+    "kind": "tool",
+    "name": "Hand Drum",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:hand-drum"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:horn",
+    "kind": "tool",
+    "name": "Horn",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:horn"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:jewelers-tools",
+    "kind": "tool",
+    "name": "Jeweler's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:jewelers-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:leatherworkers-tools",
+    "kind": "tool",
+    "name": "Leatherworker's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:leatherworkers-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:longhorn",
+    "kind": "tool",
+    "name": "Longhorn",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:longhorn"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:lute",
+    "kind": "tool",
+    "name": "Lute",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:lute"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:lyre",
+    "kind": "tool",
+    "name": "Lyre",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:lyre"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:masons-tools",
+    "kind": "tool",
+    "name": "Mason's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:masons-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:painters-supplies",
+    "kind": "tool",
+    "name": "Painter's Supplies",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:painters-supplies"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:pan-flute",
+    "kind": "tool",
+    "name": "Pan Flute",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:pan-flute"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:potters-tools",
+    "kind": "tool",
+    "name": "Potter's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:potters-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:shawm",
+    "kind": "tool",
+    "name": "Shawm",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:shawm"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:smiths-tools",
+    "kind": "tool",
+    "name": "Smith's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:smiths-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:songhorn",
+    "kind": "tool",
+    "name": "Songhorn",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:songhorn"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:tantan",
+    "kind": "tool",
+    "name": "Tantan",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:tantan"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:thelarr",
+    "kind": "tool",
+    "name": "Thelarr",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:thelarr"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:tinkers-tools",
+    "kind": "tool",
+    "name": "Tinker's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:tinkers-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:tocken",
+    "kind": "tool",
+    "name": "Tocken",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:tocken"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:viol",
+    "kind": "tool",
+    "name": "Viol",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:viol"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:wargong",
+    "kind": "tool",
+    "name": "Wargong",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:wargong"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:weavers-tools",
+    "kind": "tool",
+    "name": "Weaver's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:weavers-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:woodcarvers-tools",
+    "kind": "tool",
+    "name": "Woodcarver's Tools",
+    "source": "srd",
+    "tags": [
+      "artisans-tools"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:woodcarvers-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:yarting",
+    "kind": "tool",
+    "name": "Yarting",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:yarting"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:zulkoon",
+    "kind": "tool",
+    "name": "Zulkoon",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:zulkoon"
+        ]
+      }
+    ],
+    "page": "SCAG 124"
+  },
+  {
+    "id": "srd:tool:1-rhythm-makers-drum",
+    "kind": "tool",
+    "name": "+1 Rhythm-Maker's Drum",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:1-rhythm-makers-drum"
+        ]
+      }
+    ],
+    "page": "TCE 134"
+  },
+  {
+    "id": "srd:tool:2-rhythm-makers-drum",
+    "kind": "tool",
+    "name": "+2 Rhythm-Maker's Drum",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:2-rhythm-makers-drum"
+        ]
+      }
+    ],
+    "page": "TCE 134"
+  },
+  {
+    "id": "srd:tool:3-rhythm-makers-drum",
+    "kind": "tool",
+    "name": "+3 Rhythm-Maker's Drum",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:3-rhythm-makers-drum"
+        ]
+      }
+    ],
+    "page": "TCE 134"
+  },
+  {
+    "id": "srd:tool:dice-set",
+    "kind": "tool",
+    "name": "Dice Set",
+    "source": "srd",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:dice-set"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:disguise-kit",
+    "kind": "tool",
+    "name": "Disguise Kit",
+    "source": "srd",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:disguise-kit"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:dragonchess-set",
+    "kind": "tool",
+    "name": "Dragonchess Set",
+    "source": "srd",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:dragonchess-set"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:enchanted-three-dragon-ante-set",
+    "kind": "tool",
+    "name": "Enchanted Three-Dragon Ante Set",
+    "source": "srd",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:enchanted-three-dragon-ante-set"
+        ]
+      }
+    ],
+    "page": "LLK 15"
+  },
+  {
+    "id": "srd:tool:forgery-kit",
+    "kind": "tool",
+    "name": "Forgery Kit",
+    "source": "srd",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:forgery-kit"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:harp-of-gilded-plenty",
+    "kind": "tool",
+    "name": "Harp of Gilded Plenty",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:harp-of-gilded-plenty"
+        ]
+      }
+    ],
+    "page": "BGG 112"
+  },
+  {
+    "id": "srd:tool:herbalism-kit",
+    "kind": "tool",
+    "name": "Herbalism Kit",
+    "source": "srd",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:herbalism-kit"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:horn-of-blasting",
+    "kind": "tool",
+    "name": "Horn of Blasting",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:horn-of-blasting"
+        ]
+      }
+    ],
+    "page": "DMG 174"
+  },
+  {
+    "id": "srd:tool:horn-of-silent-alarm",
+    "kind": "tool",
+    "name": "Horn of Silent Alarm",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:horn-of-silent-alarm"
+        ]
+      }
+    ],
+    "page": "XGE 137"
+  },
+  {
+    "id": "srd:tool:horn-of-the-endless-maze",
+    "kind": "tool",
+    "name": "Horn of the Endless Maze",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:horn-of-the-endless-maze"
+        ]
+      }
+    ],
+    "page": "WDMM 163"
+  },
+  {
+    "id": "srd:tool:horn-of-valhalla-brass",
+    "kind": "tool",
+    "name": "Horn of Valhalla, Brass",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:horn-of-valhalla-brass"
+        ]
+      }
+    ],
+    "page": "DMG 175"
+  },
+  {
+    "id": "srd:tool:horn-of-valhalla-bronze",
+    "kind": "tool",
+    "name": "Horn of Valhalla, Bronze",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:horn-of-valhalla-bronze"
+        ]
+      }
+    ],
+    "page": "DMG 175"
+  },
+  {
+    "id": "srd:tool:horn-of-valhalla-iron",
+    "kind": "tool",
+    "name": "Horn of Valhalla, Iron",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:horn-of-valhalla-iron"
+        ]
+      }
+    ],
+    "page": "DMG 175"
+  },
+  {
+    "id": "srd:tool:horn-of-valhalla-silver",
+    "kind": "tool",
+    "name": "Horn of Valhalla, Silver",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:horn-of-valhalla-silver"
+        ]
+      }
+    ],
+    "page": "DMG 175"
+  },
+  {
+    "id": "srd:tool:iggwilvs-horn",
+    "kind": "tool",
+    "name": "Iggwilv's Horn",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:iggwilvs-horn"
+        ]
+      }
+    ],
+    "page": "DitLCoT 14"
+  },
+  {
+    "id": "srd:tool:instrument-of-illusions",
+    "kind": "tool",
+    "name": "Instrument of Illusions",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-illusions"
+        ]
+      }
+    ],
+    "page": "XGE 137"
+  },
+  {
+    "id": "srd:tool:instrument-of-scribing",
+    "kind": "tool",
+    "name": "Instrument of Scribing",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-scribing"
+        ]
+      }
+    ],
+    "page": "XGE 138"
+  },
+  {
+    "id": "srd:tool:instrument-of-the-bards-anstruth-harp",
+    "kind": "tool",
+    "name": "Instrument of the Bards, Anstruth Harp",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-the-bards-anstruth-harp"
+        ]
+      }
+    ],
+    "page": "DMG 176"
+  },
+  {
+    "id": "srd:tool:instrument-of-the-bards-canaith-mandolin",
+    "kind": "tool",
+    "name": "Instrument of the Bards, Canaith Mandolin",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-the-bards-canaith-mandolin"
+        ]
+      }
+    ],
+    "page": "DMG 176"
+  },
+  {
+    "id": "srd:tool:instrument-of-the-bards-cli-lyre",
+    "kind": "tool",
+    "name": "Instrument of the Bards, Cli Lyre",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-the-bards-cli-lyre"
+        ]
+      }
+    ],
+    "page": "DMG 176"
+  },
+  {
+    "id": "srd:tool:instrument-of-the-bards-doss-lute",
+    "kind": "tool",
+    "name": "Instrument of the Bards, Doss Lute",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-the-bards-doss-lute"
+        ]
+      }
+    ],
+    "page": "DMG 176"
+  },
+  {
+    "id": "srd:tool:instrument-of-the-bards-fochlucan-bandore",
+    "kind": "tool",
+    "name": "Instrument of the Bards, Fochlucan Bandore",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-the-bards-fochlucan-bandore"
+        ]
+      }
+    ],
+    "page": "DMG 176"
+  },
+  {
+    "id": "srd:tool:instrument-of-the-bards-mac-fuirmidh-cittern",
+    "kind": "tool",
+    "name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-the-bards-mac-fuirmidh-cittern"
+        ]
+      }
+    ],
+    "page": "DMG 176"
+  },
+  {
+    "id": "srd:tool:instrument-of-the-bards-ollamh-harp",
+    "kind": "tool",
+    "name": "Instrument of the Bards, Ollamh Harp",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:instrument-of-the-bards-ollamh-harp"
+        ]
+      }
+    ],
+    "page": "DMG 176"
+  },
+  {
+    "id": "srd:tool:lyre-of-building",
+    "kind": "tool",
+    "name": "Lyre of Building",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:lyre-of-building"
+        ]
+      }
+    ],
+    "page": "TCE 131"
+  },
+  {
+    "id": "srd:tool:navigators-tools",
+    "kind": "tool",
+    "name": "Navigator's Tools",
+    "source": "srd",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:navigators-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:pipes-of-haunting",
+    "kind": "tool",
+    "name": "Pipes of Haunting",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:pipes-of-haunting"
+        ]
+      }
+    ],
+    "page": "DMG 185"
+  },
+  {
+    "id": "srd:tool:pipes-of-the-sewers",
+    "kind": "tool",
+    "name": "Pipes of the Sewers",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:pipes-of-the-sewers"
+        ]
+      }
+    ],
+    "page": "DMG 185"
+  },
+  {
+    "id": "srd:tool:playing-card-set",
+    "kind": "tool",
+    "name": "Playing Card Set",
+    "source": "srd",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:playing-card-set"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:poisoners-kit",
+    "kind": "tool",
+    "name": "Poisoner's Kit",
+    "source": "srd",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:poisoners-kit"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:revelers-concertina",
+    "kind": "tool",
+    "name": "Reveler's Concertina",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:revelers-concertina"
+        ]
+      }
+    ],
+    "page": "TCE 134"
+  },
+  {
+    "id": "srd:tool:siren-song-lyre",
+    "kind": "tool",
+    "name": "Siren Song Lyre",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:siren-song-lyre"
+        ]
+      }
+    ],
+    "page": "MOT 198"
+  },
+  {
+    "id": "srd:tool:thieves-tools",
+    "kind": "tool",
+    "name": "Thieves' Tools",
+    "source": "srd",
+    "tags": [
+      "kit"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:thieves-tools"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:three-dragon-ante-set",
+    "kind": "tool",
+    "name": "Three-Dragon Ante Set",
+    "source": "srd",
+    "tags": [
+      "gaming-set"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:three-dragon-ante-set"
+        ]
+      }
+    ],
+    "page": "PHB 154"
+  },
+  {
+    "id": "srd:tool:war-horn-of-valor",
+    "kind": "tool",
+    "name": "War Horn of Valor",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:war-horn-of-valor"
+        ]
+      }
+    ],
+    "page": "BGG 117"
+  },
+  {
+    "id": "srd:tool:whistle-stick",
+    "kind": "tool",
+    "name": "Whistle-Stick",
+    "source": "srd",
+    "tags": [
+      "musical-instrument"
+    ],
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:whistle-stick"
+        ]
+      }
+    ],
+    "page": "OGA 4"
+  },
+  {
+    "id": "srd:tool:vehicles-air",
+    "kind": "tool",
+    "name": "Vehicles (Air)",
+    "source": "srd",
+    "tags": [
+      "vehicle"
+    ],
+    "text": "Proficiency with air vehicles lets you add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:vehicles-air"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:tool:vehicles-land",
+    "kind": "tool",
+    "name": "Vehicles (Land)",
+    "source": "srd",
+    "tags": [
+      "vehicle"
+    ],
+    "text": "Proficiency with land vehicles lets you add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:vehicles-land"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:tool:vehicles-space",
+    "kind": "tool",
+    "name": "Vehicles (Space)",
+    "source": "srd",
+    "tags": [
+      "vehicle"
+    ],
+    "text": "Proficiency with space vehicles lets you add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:vehicles-space"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:tool:vehicles-water",
+    "kind": "tool",
+    "name": "Vehicles (Water)",
+    "source": "srd",
+    "tags": [
+      "vehicle"
+    ],
+    "text": "Proficiency with water vehicles lets you add your proficiency bonus to any check you make to control that kind of vehicle in difficult circumstances.",
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "srd:tool:vehicles-water"
+        ]
+      }
+    ]
+  }
+]

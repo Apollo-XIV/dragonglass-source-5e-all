@@ -1,0 +1,225 @@
+[
+  {
+    "id": "srd24:subclass:battle-master",
+    "kind": "subclass",
+    "name": "Battle Master",
+    "source": "srd24",
+    "page": "XPHB 93",
+    "class": "srd24:class:fighter",
+    "tags": [
+      "fighter-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:battle-master:battle-master"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:battle-master:maneuvers-3",
+            "name": "Maneuvers",
+            "count": 3,
+            "from": {
+              "kind": "maneuver",
+              "tags": [
+                "battle-master-maneuver"
+              ]
+            }
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:battle-master:know-your-enemy"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:battle-master:maneuvers-7",
+            "name": "Maneuvers",
+            "count": 2,
+            "from": {
+              "kind": "maneuver",
+              "tags": [
+                "battle-master-maneuver"
+              ]
+            }
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:battle-master:improved-combat-superiority"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:battle-master:maneuvers-10",
+            "name": "Maneuvers",
+            "count": 2,
+            "from": {
+              "kind": "maneuver",
+              "tags": [
+                "battle-master-maneuver"
+              ]
+            }
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:battle-master:relentless"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:battle-master:maneuvers-15",
+            "name": "Maneuvers",
+            "count": 2,
+            "from": {
+              "kind": "maneuver",
+              "tags": [
+                "battle-master-maneuver"
+              ]
+            }
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:battle-master:ultimate-combat-superiority"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:battle-master:combat-superiority",
+    "kind": "subclass-feature",
+    "name": "Combat Superiority",
+    "source": "srd24",
+    "page": "XPHB 93",
+    "tags": [
+      "battle-master-feature",
+      "fighter-feature"
+    ],
+    "text": "Your experience on the battlefield has refined your fighting techniques. You learn maneuvers that are fueled by special dice called Superiority Dice.\n\n**Maneuvers.** You learn three maneuvers of your choice from the \"Maneuvers Options\" section later in this subclass's description. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack.\n\nYou learn two additional maneuvers of your choice when you reach Fighter levels 7, 10, and 15. Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.\n\n**Superiority Dice.** You have four Superiority Dice, which are d8s. A Superiority Die is expended when you use it. You regain all expended Superiority Dice when you finish a Short or Long Rest.\n\nYou gain an additional Superiority Die when you reach Fighter levels 7 (five dice total) and 15 (six dice total).\n\n**Saving Throws.** If a maneuver requires a saving throw, the DC equals 8 plus your Strength or Dexterity modifier (your choice) and Proficiency Bonus."
+  },
+  {
+    "id": "srd24:battle-master:student-of-war",
+    "kind": "subclass-feature",
+    "name": "Student of War",
+    "source": "srd24",
+    "page": "XPHB 94",
+    "tags": [
+      "battle-master-feature",
+      "fighter-feature"
+    ],
+    "text": "You gain proficiency with one type of Artisan's Tools of your choice, and you gain proficiency in one skill of your choice from the skills available to Fighters at level 1."
+  },
+  {
+    "id": "srd24:battle-master:maneuver-options",
+    "kind": "subclass-feature",
+    "name": "Maneuver Options",
+    "source": "srd24",
+    "page": "XPHB 94",
+    "tags": [
+      "battle-master-feature",
+      "fighter-feature"
+    ],
+    "text": "The maneuvers are presented here in alphabetical order."
+  },
+  {
+    "id": "srd24:battle-master:battle-master",
+    "kind": "subclass-feature",
+    "name": "Battle Master",
+    "source": "srd24",
+    "page": "XPHB 93",
+    "tags": [
+      "battle-master-feature",
+      "fighter-feature"
+    ],
+    "text": "*Master Sophisticated Battle Maneuvers*\n\nBattle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.",
+    "grants": [
+      "srd24:battle-master:combat-superiority",
+      "srd24:battle-master:student-of-war",
+      "srd24:battle-master:maneuver-options"
+    ]
+  },
+  {
+    "id": "srd24:battle-master:know-your-enemy",
+    "kind": "subclass-feature",
+    "name": "Know Your Enemy",
+    "source": "srd24",
+    "page": "XPHB 94",
+    "tags": [
+      "battle-master-feature",
+      "fighter-feature"
+    ],
+    "text": "As a Bonus Action, you can discern certain strengths and weaknesses of a creature you can see within 30 feet of yourself; you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.\n\nOnce you use this feature, you can't do so again until you finish a Long Rest. You can also restore a use of the feature by expending one Superiority Die (no action required).",
+    "resources": [
+      {
+        "id": "srd24:battle-master:know-your-enemy",
+        "name": "Know Your Enemy",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "know-your-enemy",
+        "name": "Know Your Enemy",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:battle-master:know-your-enemy": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:battle-master:improved-combat-superiority",
+    "kind": "subclass-feature",
+    "name": "Improved Combat Superiority",
+    "source": "srd24",
+    "page": "XPHB 94",
+    "tags": [
+      "battle-master-feature",
+      "fighter-feature"
+    ],
+    "text": "Your Superiority Die becomes a d10."
+  },
+  {
+    "id": "srd24:battle-master:relentless",
+    "kind": "subclass-feature",
+    "name": "Relentless",
+    "source": "srd24",
+    "page": "XPHB 94",
+    "tags": [
+      "battle-master-feature",
+      "fighter-feature"
+    ],
+    "text": "Once per turn, when you use a maneuver, you can roll 1d8 and use the number rolled instead of expending a Superiority Die."
+  },
+  {
+    "id": "srd24:battle-master:ultimate-combat-superiority",
+    "kind": "subclass-feature",
+    "name": "Ultimate Combat Superiority",
+    "source": "srd24",
+    "page": "XPHB 94",
+    "tags": [
+      "battle-master-feature",
+      "fighter-feature"
+    ],
+    "text": "Your Superiority Die becomes a d12."
+  }
+]

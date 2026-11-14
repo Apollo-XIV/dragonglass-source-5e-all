@@ -1,0 +1,235 @@
+[
+  {
+    "id": "srd:subclass:clockwork-soul",
+    "kind": "subclass",
+    "name": "Clockwork Soul",
+    "source": "srd",
+    "page": "TCE 68",
+    "class": "srd:class:sorcerer",
+    "tags": [
+      "sorcerer-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:clockwork-soul:clockwork-soul",
+          {
+            "id": "srd:spell:alarm",
+            "mode": "learned"
+          },
+          {
+            "id": "srd:spell:protection-from-evil-and-good",
+            "mode": "learned"
+          }
+        ]
+      },
+      "3": {
+        "grants": [
+          {
+            "id": "srd:spell:aid",
+            "mode": "learned"
+          },
+          {
+            "id": "srd:spell:lesser-restoration",
+            "mode": "learned"
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          {
+            "id": "srd:spell:dispel-magic",
+            "mode": "learned"
+          },
+          {
+            "id": "srd:spell:protection-from-energy",
+            "mode": "learned"
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:clockwork-soul:bastion-of-law"
+        ]
+      },
+      "7": {
+        "grants": [
+          {
+            "id": "srd:spell:freedom-of-movement",
+            "mode": "learned"
+          },
+          {
+            "id": "srd:spell:summon-construct",
+            "mode": "learned"
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          {
+            "id": "srd:spell:greater-restoration",
+            "mode": "learned"
+          },
+          {
+            "id": "srd:spell:wall-of-force",
+            "mode": "learned"
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:clockwork-soul:trance-of-order"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd:clockwork-soul:clockwork-cavalcade"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:clockwork-soul:clockwork-magic",
+    "kind": "subclass-feature",
+    "name": "Clockwork Magic",
+    "source": "srd",
+    "page": "TCE 68",
+    "tags": [
+      "clockwork-soul-feature",
+      "sorcerer-feature"
+    ],
+    "text": "*1st-level Clockwork Soul feature*\n\nYou learn additional spells when you reach certain levels in this class, as shown on the Clockwork Spells table. Each of these spells counts as a sorcerer spell for you, but it doesn't count against the number of sorcerer spells you know.\n\nWhenever you gain a sorcerer level, you can replace one spell you gained from this feature with another spell of the same level. The new spell must be an abjuration or a transmutation spell from the sorcerer, warlock, or wizard spell list.\n\n**Clockwork Spells**\n| Sorcerer Level | Spells |\n| --- | --- |\n| 1st | alarm, protection from evil and good |\n| 3rd | aid, lesser restoration |\n| 5th | dispel magic, protection from energy |\n| 7th | freedom of movement, summon construct |\n| 9th | greater restoration, wall of force |\n\nIn addition, consult the Manifestations of Order table and choose or randomly determine a way your connection to order manifests while you are casting any of your sorcerer spells.\n\n**Manifestations of Order**\n| d6 | Manifestation |\n| --- | --- |\n| 1 | Spectral cogwheels hover behind you. |\n| 2 | The hands of a clock spin in your eyes. |\n| 3 | Your skin glows with a brassy sheen. |\n| 4 | Floating equations and geometric objects overlay your body. |\n| 5 | Your spellcasting focus temporarily takes the form of a Tiny clockwork mechanism. |\n| 6 | The ticking of gears or ringing of a clock can be heard by you and those affected by your magic. |"
+  },
+  {
+    "id": "srd:clockwork-soul:restore-balance",
+    "kind": "subclass-feature",
+    "name": "Restore Balance",
+    "source": "srd",
+    "page": "TCE 68",
+    "tags": [
+      "clockwork-soul-feature",
+      "sorcerer-feature"
+    ],
+    "text": "*1st-level Clockwork Soul feature*\n\nYour connection to the plane of absolute order allows you to equalize chaotic moments. When a creature you can see within 60 feet of you is about to roll a d20 with advantage or disadvantage, you can use your reaction to prevent the roll from being affected by advantage and disadvantage.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:clockwork-soul:restore-balance",
+        "name": "Restore Balance",
+        "max": "@prof",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "restore-balance",
+        "name": "Restore Balance",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:clockwork-soul:restore-balance": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:clockwork-soul:clockwork-soul",
+    "kind": "subclass-feature",
+    "name": "Clockwork Soul",
+    "source": "srd",
+    "page": "TCE 68",
+    "tags": [
+      "clockwork-soul-feature",
+      "sorcerer-feature"
+    ],
+    "text": "The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it-a plane of existence shaped entirely by clockwork efficiency. You, or someone from your lineage, might have become entangled in the machinations of the modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it is part of a vast and glorious system.",
+    "grants": [
+      "srd:clockwork-soul:clockwork-magic",
+      "srd:clockwork-soul:restore-balance"
+    ]
+  },
+  {
+    "id": "srd:clockwork-soul:bastion-of-law",
+    "kind": "subclass-feature",
+    "name": "Bastion of Law",
+    "source": "srd",
+    "page": "TCE 68",
+    "tags": [
+      "clockwork-soul-feature",
+      "sorcerer-feature"
+    ],
+    "text": "*6th-level Clockwork Soul feature*\n\nYou can tap into the grand equation of existence to imbue a creature with a shimmering shield of order. As an action, you can expend 1 to 5 sorcery points to create a magical ward around yourself or another creature you can see within 30 feet of you. The ward lasts until you finish a long rest or until you use this feature again.\n\nThe ward is represented by a number of d8s equal to the number of sorcery points spent to create it. When the warded creature takes damage, it can expend a number of those dice, roll them, and reduce the damage taken by the total rolled on those dice.",
+    "actions": [
+      {
+        "id": "bastion-of-law",
+        "name": "Bastion of Law",
+        "activation": "action",
+        "cost": {
+          "srd:sorcerer:sorcery-points": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:clockwork-soul:trance-of-order",
+    "kind": "subclass-feature",
+    "name": "Trance of Order",
+    "source": "srd",
+    "page": "TCE 68",
+    "tags": [
+      "clockwork-soul-feature",
+      "sorcerer-feature"
+    ],
+    "text": "*14th-level Clockwork Soul feature*\n\nYou gain the ability to align your consciousness to the endless calculations of Mechanus. As a bonus action, you can enter this state for 1 minute. For the duration, attack rolls against you can't benefit from advantage, and whenever you make an attack roll, an ability check, or a saving throw, you can treat a roll of 9 or lower on the d20 as a 10.\n\nOnce you use this bonus action, you can't use it again until you finish a long rest, unless you spend 5 sorcery points to use it again.",
+    "actions": [
+      {
+        "id": "trance-of-order",
+        "name": "Trance of Order",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:clockwork-soul:clockwork-cavalcade",
+    "kind": "subclass-feature",
+    "name": "Clockwork Cavalcade",
+    "source": "srd",
+    "page": "TCE 68",
+    "tags": [
+      "clockwork-soul-feature",
+      "sorcerer-feature"
+    ],
+    "text": "*18th-level Clockwork Soul feature*\n\nYou summon spirits of order to expunge disorder around you. As an action, you summon the spirits in a 30-foot cube originating from you. The spirits look like modrons or other constructs of your choice. The spirits are intangible and invulnerable, and they create the following effects within the cube before vanishing:\n\n- The spirits restore up to 100 hit points, divided as you choose among any number of creatures of your choice in the cube.\n- Any damaged objects entirely in the cube are repaired instantly.\n- Every spell of 6th level or lower ends on creatures and objects of your choice in the cube.\n\nOnce you use this action, you can't use it again until you finish a long rest, unless you spend 7 sorcery points to use it again.",
+    "actions": [
+      {
+        "id": "clockwork-cavalcade",
+        "name": "Clockwork Cavalcade",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

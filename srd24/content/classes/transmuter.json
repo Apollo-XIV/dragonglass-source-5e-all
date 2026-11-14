@@ -1,0 +1,346 @@
+[
+  {
+    "id": "srd24:subclass:transmuter",
+    "kind": "subclass",
+    "name": "Transmuter",
+    "source": "srd24",
+    "page": "AU 19",
+    "class": "srd24:class:wizard",
+    "tags": [
+      "wizard-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> Commune with the Weave, and the limitations of your corporeal form will begin to fall away.\n>\n> — Alustriel",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:transmuter:transmuter",
+          "srd24:spell:alter-self"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:transmuter:known-spells-3",
+            "name": "Spell",
+            "count": 2,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:2",
+                "wizard-spell",
+                "school:transmutation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ],
+        "innateSpells": [
+          {
+            "spell": "srd24:spell:alter-self",
+            "uses": 1,
+            "recharge": [
+              {
+                "on": "long-rest",
+                "amount": "all"
+              }
+            ]
+          }
+        ]
+      },
+      "5": {
+        "choices": [
+          {
+            "id": "srd24:subclass:transmuter:known-spells-5",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:3",
+                "wizard-spell",
+                "school:transmutation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:transmuter:empowered-transmutation"
+        ]
+      },
+      "7": {
+        "choices": [
+          {
+            "id": "srd24:subclass:transmuter:known-spells-7",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:4",
+                "wizard-spell",
+                "school:transmutation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "9": {
+        "choices": [
+          {
+            "id": "srd24:subclass:transmuter:known-spells-9",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:5",
+                "wizard-spell",
+                "school:transmutation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:transmuter:potent-stone",
+          "srd24:transmuter:shape-shifter",
+          "srd24:spell:polymorph"
+        ],
+        "innateSpells": [
+          {
+            "spell": "srd24:spell:polymorph",
+            "uses": 1,
+            "recharge": [
+              {
+                "on": "long-rest",
+                "amount": "all"
+              }
+            ]
+          }
+        ]
+      },
+      "11": {
+        "choices": [
+          {
+            "id": "srd24:subclass:transmuter:known-spells-11",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:6",
+                "wizard-spell",
+                "school:transmutation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "13": {
+        "choices": [
+          {
+            "id": "srd24:subclass:transmuter:known-spells-13",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:7",
+                "wizard-spell",
+                "school:transmutation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:transmuter:master-transmuter"
+        ]
+      },
+      "15": {
+        "choices": [
+          {
+            "id": "srd24:subclass:transmuter:known-spells-15",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:8",
+                "wizard-spell",
+                "school:transmutation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "17": {
+        "choices": [
+          {
+            "id": "srd24:subclass:transmuter:known-spells-17",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:9",
+                "wizard-spell",
+                "school:transmutation"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:transmuter:transmutation-savant",
+    "kind": "subclass-feature",
+    "name": "Transmutation Savant",
+    "source": "srd24",
+    "page": "AU 19",
+    "tags": [
+      "transmuter-feature",
+      "wizard-feature"
+    ],
+    "text": "Choose two Wizard spells from the Transmutation school, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Transmutation school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  },
+  {
+    "id": "srd24:transmuter:transmuters-stone",
+    "kind": "subclass-feature",
+    "name": "Transmuter's Stone",
+    "source": "srd24",
+    "page": "AU 19",
+    "tags": [
+      "transmuter-feature",
+      "wizard-feature"
+    ],
+    "text": "When you finish a Long Rest, you can create a magic stone that lasts until you use this feature again. The stone is a Tiny object, and you can use it as a Spellcasting Focus for your Wizard spells. A creature with the stone in its possession gains proficiency in Constitution saving throws and one of the following benefits, which you choose when you create the stone. You can change the stone's benefit when you cast a Transmutation spell using a spell slot.\n\n**Darkvision.** The bearer gains Darkvision with a range of 60 feet or increases the range of its Darkvision by 60 feet.\n\n**Resistance.** The bearer gains Resistance to Acid, Cold, Fire, Lightning, Poison, or Thunder damage (your choice each time you choose this benefit).\n\n**Speed.** The bearer's Speed increases by 10 feet."
+  },
+  {
+    "id": "srd24:transmuter:wondrous-alteration",
+    "kind": "subclass-feature",
+    "name": "Wondrous Alteration",
+    "source": "srd24",
+    "page": "AU 19",
+    "tags": [
+      "transmuter-feature",
+      "wizard-feature"
+    ],
+    "text": "You always have the Alter Self spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest.\n\nWhile under the effects of Alter Self, you gain an additional benefit for each of its options.\n\n**Aquatic Adaptation.** While underwater, you can take the Dash action as a Bonus Action.\n\n**Change Appearance.** You have Advantage on Charisma (Deception) checks.\n\n**Natural Weapons.** The damage of your new growth increases to 2d6 damage of the type associated with the growth. You also have Advantage on Constitution saving throws to maintain Concentration."
+  },
+  {
+    "id": "srd24:transmuter:transmuter",
+    "kind": "subclass-feature",
+    "name": "Transmuter",
+    "source": "srd24",
+    "page": "AU 19",
+    "tags": [
+      "transmuter-feature",
+      "wizard-feature"
+    ],
+    "text": "*Transform Energy and Matter*\n\nYou study spells that modify energy and matter—to you, the world is eminently mutable. Using your magic, you become a smith at reality's forge.\n\nSome Transmuters are tinkerers and pranksters. Others seek the power to make and destroy worlds.",
+    "grants": [
+      "srd24:transmuter:transmutation-savant",
+      "srd24:transmuter:transmuters-stone",
+      "srd24:transmuter:wondrous-alteration"
+    ]
+  },
+  {
+    "id": "srd24:transmuter:empowered-transmutation",
+    "kind": "subclass-feature",
+    "name": "Empowered Transmutation",
+    "source": "srd24",
+    "page": "AU 20",
+    "tags": [
+      "transmuter-feature",
+      "wizard-feature"
+    ],
+    "text": "When you use a spell slot to cast a Transmutation spell that doesn't make an attack roll or force a saving throw, such as Fly or Magic Weapon, you can increase the spell's effective level by 1.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:transmuter:empowered-transmutation",
+        "name": "Empowered Transmutation",
+        "max": "max(1, @abilities.int.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "empowered-transmutation",
+        "name": "Empowered Transmutation",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:transmuter:empowered-transmutation": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:transmuter:potent-stone",
+    "kind": "subclass-feature",
+    "name": "Potent Stone",
+    "source": "srd24",
+    "page": "AU 20",
+    "tags": [
+      "transmuter-feature",
+      "wizard-feature"
+    ],
+    "text": "Your Transmuter's Stone is more versatile. When you create your Transmuter's Stone, you can choose up to two benefits. You can choose each option other than **Resistance** only once. If you choose **Resistance** twice, you must choose different damage types. You can change either or both benefits when you cast a Transmutation spell using a spell slot.\n\nIn addition, the following are now among your benefit options for Transmuter's Stone.\n\n**Mighty Build.** The bearer has Advantage on Strength saving throws. The bearer also counts as one size larger when determining its carrying capacity.\n\n**Tremorsense.** The bearer gains Tremorsense with a range of 30 feet."
+  },
+  {
+    "id": "srd24:transmuter:shape-shifter",
+    "kind": "subclass-feature",
+    "name": "Shape-Shifter",
+    "source": "srd24",
+    "page": "AU 20",
+    "tags": [
+      "transmuter-feature",
+      "wizard-feature"
+    ],
+    "text": "You always have the Polymorph spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest.\n\nIn addition, when you target yourself with the spell, you can modify the spell to gain the benefits below. Once you modify the spell using this feature, you can't do so again until you finish a Long Rest.\n\n**Game Statistics.** In addition to retaining the features specified in the spell, you retain your memories and ability to communicate. You also retain your Intelligence, Wisdom, and Charisma scores; proficiencies; class features; and feats.\n\n**Transmute Spells.** While shape-shifted, you can cast spells, but only Transmutation spells that don't have a Material component that has a specified cost or that is consumed by the spell."
+  },
+  {
+    "id": "srd24:transmuter:master-transmuter",
+    "kind": "subclass-feature",
+    "name": "Master Transmuter",
+    "source": "srd24",
+    "page": "AU 20",
+    "tags": [
+      "transmuter-feature",
+      "wizard-feature"
+    ],
+    "text": "While you carry your Transmuter's Stone, you can take a Magic action to consume the reserve of transmutation magic stored inside and choose one of the following benefits. After you use the stone in this way, it crumbles to dust. You can prevent the stone from crumbling by expending a level 7+ spell slot as part of the Magic action you take using this feature.\n\n**Major Transformation.** You can transmute one nonmagical object—no larger than a 10-foot Cube or eight connected 5-foot Cubes—into another nonmagical object of similar size and mass and of equal or lesser value. You must spend 10 minutes handling the object to transform it.\n\n**Panacea.** You touch a creature as part of this Magic action, and the target regains a number of Hit Points equal to half its Hit Point maximum (round down). The target is cured of all magical contagions, and any curses affecting the target are lifted, including the target's Attunement to a cursed item. If the target has the Poisoned or Petrified condition, those conditions end.\n\n**Restore Life.** You cast the Raise Dead spell without expending a spell slot, using the stone in place of the required Material components.\n\n**Restore Youth.** You touch one willing creature as part of this Magic action, and the target's Exhaustion level, if any, decreases to 0, and it permanently appears 3d10 years younger, to a minimum of young adulthood."
+  }
+]

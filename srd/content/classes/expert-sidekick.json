@@ -1,0 +1,190 @@
+[
+  {
+    "id": "srd:class:expert-sidekick",
+    "kind": "class",
+    "name": "Expert Sidekick",
+    "source": "srd",
+    "page": "TCE 142",
+    "key": "expert-sidekick",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "fluff": "The Expert is a master of certain tasks or knowledge, favoring cunning over brawn. It might be a scout, a musician, a librarian, a clever street kid, a wily merchant, or a burglar.",
+    "text": "**Hit Dice:** 1d8 per expert sidekick level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per expert sidekick level after 1st.\n\n**Armor:** None\n**Tools:** None\n**Saving Throws:** ",
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:expert-sidekick:sidekick-class",
+          "srd:expert-sidekick:bonus-proficiencies",
+          "srd:expert-sidekick:helpful"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:expert-sidekick:cunning-action"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:expert-sidekick:expertise"
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd:class:expert-sidekick:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:expert-sidekick:coordinated-strike"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:expert-sidekick:evasion"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd:class:expert-sidekick:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "10": {
+        "choices": [
+          {
+            "id": "srd:class:expert-sidekick:asi-10",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:expert-sidekick:inspiring-help"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd:class:expert-sidekick:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:expert-sidekick:reliable-talent"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:expert-sidekick:expertise-15"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd:class:expert-sidekick:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd:expert-sidekick:sharp-mind"
+        ]
+      },
+      "19": {
+        "choices": [
+          {
+            "id": "srd:class:expert-sidekick:asi-19",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd:expert-sidekick:inspiring-help-improvement"
+        ]
+      }
+    }
+  }
+]

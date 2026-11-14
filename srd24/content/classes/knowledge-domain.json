@@ -1,0 +1,180 @@
+[
+  {
+    "id": "srd24:subclass:knowledge-domain",
+    "kind": "subclass",
+    "name": "Knowledge Domain",
+    "source": "srd24",
+    "page": "FRHoF 18",
+    "class": "srd24:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:knowledge:knowledge-domain",
+          "srd24:spell:command",
+          "srd24:spell:comprehend-languages",
+          "srd24:spell:detect-magic",
+          "srd24:spell:detect-thoughts",
+          "srd24:spell:identify",
+          "srd24:spell:mind-spike"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:dispel-magic",
+          "srd24:spell:nondetection",
+          "srd24:spell:tongues"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:knowledge:unfettered-mind"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:spell:arcane-eye",
+          "srd24:spell:banishment",
+          "srd24:spell:confusion"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:legend-lore",
+          "srd24:spell:scrying",
+          "srd24:spell:synaptic-static"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:knowledge:divine-foreknowledge"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:knowledge:blessings-of-knowledge",
+    "kind": "subclass-feature",
+    "name": "Blessings of Knowledge",
+    "source": "srd24",
+    "page": "FRHoF 18",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "You gain proficiency with one type of Artisan's Tools of your choice and in two of the following skills of your choice: Arcana, History, Nature, or Religion. You have Expertise in those two skills."
+  },
+  {
+    "id": "srd24:knowledge:knowledge-domain-spells",
+    "kind": "subclass-feature",
+    "name": "Knowledge Domain Spells",
+    "source": "srd24",
+    "page": "FRHoF 2",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "When you reach a Cleric level specified in the Knowledge Domain Spells table, you thereafter always have the listed spells prepared.\n\n| Cleric Level | Spells |\n| --- | --- |\n| 3 | Command, Comprehend Languages*, Detect Magic*, Detect Thoughts*, Identify*, Mind Spike* |\n| 5 | Dispel Magic, Nondetection, Tongues* |\n| 7 | Arcane Eye*, Banishment, Confusion |\n| 9 | Legend Lore*, Scrying*, Synaptic Static |"
+  },
+  {
+    "id": "srd24:knowledge:mind-magic",
+    "kind": "subclass-feature",
+    "name": "Mind Magic",
+    "source": "srd24",
+    "page": "FRHoF 18",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "As a Magic action, you can expend one use of your Channel Divinity to manifest your magical knowledge. Choose one spell from the Divination school on the Knowledge Domain Spells table that you have prepared. As part of that action, you cast that spell without expending a spell slot or needing Material components.",
+    "actions": [
+      {
+        "id": "mind-magic",
+        "name": "Mind Magic",
+        "activation": "action",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:knowledge:knowledge-domain",
+    "kind": "subclass-feature",
+    "name": "Knowledge Domain",
+    "source": "srd24",
+    "page": "FRHoF 18",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "*Unearth Secrets and Master the Mind*\n\nThe Knowledge Domain values learning and understanding above all. Clerics who tap into this domain study esoteric lore, collect old tomes, delve into secret places, and examine the processes of the mind. To them, knowledge is more valuable than material wealth, and learning is an act of worship. Libraries, universities, and other educational institutions also draw on the power of the Knowledge Domain.\n\nGods of knowledge vary from masters of arcane magic to patrons of craft and invention. In Faerûn, Clerics of the Knowledge Domain worship deities of learning and ingenuity such as Oghma and Gond, among many others.",
+    "grants": [
+      "srd24:knowledge:blessings-of-knowledge",
+      "srd24:knowledge:knowledge-domain-spells",
+      "srd24:knowledge:mind-magic"
+    ]
+  },
+  {
+    "id": "srd24:knowledge:unfettered-mind",
+    "kind": "subclass-feature",
+    "name": "Unfettered Mind",
+    "source": "srd24",
+    "page": "FRHoF 18",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "You gain telepathy out to 60 feet. When you use this telepathy, you can simultaneously contact a number of creatures equal to your Wisdom modifier (minimum of one).\n\nAdditionally, you gain proficiency in Intelligence saving throws. If you already have this proficiency, you instead gain saving throw proficiency with one ability in which you lack it."
+  },
+  {
+    "id": "srd24:knowledge:divine-foreknowledge",
+    "kind": "subclass-feature",
+    "name": "Divine Foreknowledge",
+    "source": "srd24",
+    "page": "FRHoF 19",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "As a Bonus Action, you magically expand your mind to the future. For 1 hour, you have Advantage on D20 Tests. Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of this feature by expending a level 6+ spell slot (no action required).",
+    "resources": [
+      {
+        "id": "srd24:knowledge:divine-foreknowledge",
+        "name": "Divine Foreknowledge",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "divine-foreknowledge",
+        "name": "Divine Foreknowledge",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:knowledge:divine-foreknowledge": 1
+        }
+      }
+    ]
+  }
+]

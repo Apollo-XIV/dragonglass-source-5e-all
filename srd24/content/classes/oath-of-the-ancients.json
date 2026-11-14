@@ -1,0 +1,215 @@
+[
+  {
+    "id": "srd24:subclass:oath-of-the-ancients",
+    "kind": "subclass",
+    "name": "Oath of the Ancients",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "class": "srd24:class:paladin",
+    "tags": [
+      "paladin-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:ancients:oath-of-the-ancients",
+          "srd24:spell:ensnaring-strike",
+          "srd24:spell:speak-with-animals"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:misty-step",
+          "srd24:spell:moonbeam"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:ancients:aura-of-warding"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:plant-growth",
+          "srd24:spell:protection-from-energy"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:spell:ice-storm",
+          "srd24:spell:stoneskin"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:ancients:undying-sentinel"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:spell:commune-with-nature",
+          "srd24:spell:tree-stride"
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:ancients:elder-champion"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:ancients:oath-of-the-ancients-spells",
+    "kind": "subclass-feature",
+    "name": "Oath of the Ancients Spells",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "ancients-feature",
+      "paladin-feature"
+    ],
+    "text": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of the Ancients Spells table, you thereafter always have the listed spells prepared.\n\n**Oath of the Ancients Spells**\n| Paladin Level | Spells |\n| --- | --- |\n| 3 | Ensnaring Strike, Speak with Animals |\n| 5 | Misty Step, Moonbeam |\n| 9 | Plant Growth, Protection from Energy |\n| 13 | Ice Storm, Stoneskin |\n| 17 | Commune with Nature, Tree Stride |"
+  },
+  {
+    "id": "srd24:ancients:natures-wrath",
+    "kind": "subclass-feature",
+    "name": "Nature's Wrath",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "ancients-feature",
+      "paladin-feature"
+    ],
+    "text": "As a Magic action, you can expend one use of your Channel Divinity to conjure spectral vines around nearby creatures. Each creature of your choice that you can see within 15 feet of yourself must succeed on a Strength saving throw or have the Restrained condition for 1 minute. A Restrained creature repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+    "actions": [
+      {
+        "id": "natures-wrath",
+        "name": "Nature's Wrath",
+        "activation": "action",
+        "cost": {
+          "srd24:paladin:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:ancients:oath-of-the-ancients",
+    "kind": "subclass-feature",
+    "name": "Oath of the Ancients",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "ancients-feature",
+      "paladin-feature"
+    ],
+    "text": "*Preserve Life and Light in the World*\n\nThe Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.\n\nThese paladins share the following tenets:\n\n- Kindle the light of hope.\n- Shelter life.\n- Delight in art and laughter.",
+    "grants": [
+      "srd24:ancients:oath-of-the-ancients-spells",
+      "srd24:ancients:natures-wrath"
+    ]
+  },
+  {
+    "id": "srd24:ancients:aura-of-warding",
+    "kind": "subclass-feature",
+    "name": "Aura of Warding",
+    "source": "srd24",
+    "page": "XPHB 116",
+    "tags": [
+      "ancients-feature",
+      "paladin-feature"
+    ],
+    "text": "Ancient magic lies so heavily upon you that it forms an eldritch ward, blunting energy from beyond the Material Plane; you and your allies have Resistance to Necrotic, Psychic, and Radiant damage while in your Aura of Protection."
+  },
+  {
+    "id": "srd24:ancients:undying-sentinel",
+    "kind": "subclass-feature",
+    "name": "Undying Sentinel",
+    "source": "srd24",
+    "page": "XPHB 116",
+    "tags": [
+      "ancients-feature",
+      "paladin-feature"
+    ],
+    "text": "When you are reduced to 0 Hit Points and not killed outright, you can drop to 1 Hit Point instead, and you regain a number of Hit Points equal to three times your Paladin level. Once you use this feature, you can't do so again until you finish a Long Rest.\n\nAdditionally, you can't be aged magically, and you cease visibly aging.",
+    "resources": [
+      {
+        "id": "srd24:ancients:undying-sentinel",
+        "name": "Undying Sentinel",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "undying-sentinel",
+        "name": "Undying Sentinel",
+        "activation": "special",
+        "cost": {
+          "srd24:ancients:undying-sentinel": 1
+        },
+        "heal": "3 * @level(paladin)",
+        "text": "When reduced to 0 Hit Points and not killed outright, drop to 1 Hit Point instead.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:ancients:elder-champion",
+    "kind": "subclass-feature",
+    "name": "Elder Champion",
+    "source": "srd24",
+    "page": "XPHB 116",
+    "tags": [
+      "ancients-feature",
+      "paladin-feature"
+    ],
+    "text": "As a Bonus Action, you can imbue your Aura of Protection with primal power, granting the benefits below for 1 minute or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).\n\n**Diminish Defiance.** Enemies in the aura have Disadvantage on saving throws against your spells and Channel Divinity options.\n\n**Regeneration.** At the start of each of your turns, you regain 10 Hit Points.\n\n**Swift Spells.** Whenever you cast a spell that has a casting time of an action, you can cast it using a Bonus Action instead.",
+    "resources": [
+      {
+        "id": "srd24:ancients:elder-champion",
+        "name": "Elder Champion",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "elder-champion",
+        "name": "Elder Champion",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

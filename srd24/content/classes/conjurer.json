@@ -1,0 +1,307 @@
+[
+  {
+    "id": "srd24:subclass:conjurer",
+    "kind": "subclass",
+    "name": "Conjurer",
+    "source": "srd24",
+    "page": "AU 15",
+    "class": "srd24:class:wizard",
+    "tags": [
+      "wizard-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> There is no concept of physical distance in the Weave. With enough magical power, you can travel anywhere in existence with merely a thought.\n>\n> — Alustriel",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:conjurer:conjurer"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:conjurer:known-spells-3",
+            "name": "Spell",
+            "count": 2,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:2",
+                "wizard-spell",
+                "school:conjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "5": {
+        "choices": [
+          {
+            "id": "srd24:subclass:conjurer:known-spells-5",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:3",
+                "wizard-spell",
+                "school:conjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:conjurer:distant-transposition",
+          "srd24:conjurer:durable-summons"
+        ]
+      },
+      "7": {
+        "choices": [
+          {
+            "id": "srd24:subclass:conjurer:known-spells-7",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:4",
+                "wizard-spell",
+                "school:conjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "9": {
+        "choices": [
+          {
+            "id": "srd24:subclass:conjurer:known-spells-9",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:5",
+                "wizard-spell",
+                "school:conjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:conjurer:focused-conjuration"
+        ]
+      },
+      "11": {
+        "choices": [
+          {
+            "id": "srd24:subclass:conjurer:known-spells-11",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:6",
+                "wizard-spell",
+                "school:conjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "13": {
+        "choices": [
+          {
+            "id": "srd24:subclass:conjurer:known-spells-13",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:7",
+                "wizard-spell",
+                "school:conjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:conjurer:splintered-summons"
+        ]
+      },
+      "15": {
+        "choices": [
+          {
+            "id": "srd24:subclass:conjurer:known-spells-15",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:8",
+                "wizard-spell",
+                "school:conjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "17": {
+        "choices": [
+          {
+            "id": "srd24:subclass:conjurer:known-spells-17",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:9",
+                "wizard-spell",
+                "school:conjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:conjurer:benign-transposition",
+    "kind": "subclass-feature",
+    "name": "Benign Transposition",
+    "source": "srd24",
+    "page": "AU 15",
+    "tags": [
+      "conjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "As a Bonus Action, you teleport up to 30 feet to an unoccupied space that you can see. Alternatively, you can choose a space within range that is occupied by a Medium or smaller creature. If that creature is willing, you both teleport, swapping places.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:conjurer:benign-transposition",
+        "name": "Benign Transposition",
+        "max": "max(1, @abilities.int.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "benign-transposition",
+        "name": "Benign Transposition",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:conjurer:benign-transposition": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:conjurer:conjuration-savant",
+    "kind": "subclass-feature",
+    "name": "Conjuration Savant",
+    "source": "srd24",
+    "page": "AU 15",
+    "tags": [
+      "conjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "Choose two Wizard spells from the Conjuration school, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  },
+  {
+    "id": "srd24:conjurer:conjurer",
+    "kind": "subclass-feature",
+    "name": "Conjurer",
+    "source": "srd24",
+    "page": "AU 15",
+    "tags": [
+      "conjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "*Step Across Space and Call Creatures from Thin Air*\n\nA Conjurer considers distance and matter to be flexible guidelines rather than physical laws. Conjurers master magic that moves creatures instantly through space and summons creatures to fight on their behalf.",
+    "grants": [
+      "srd24:conjurer:benign-transposition",
+      "srd24:conjurer:conjuration-savant"
+    ]
+  },
+  {
+    "id": "srd24:conjurer:distant-transposition",
+    "kind": "subclass-feature",
+    "name": "Distant Transposition",
+    "source": "srd24",
+    "page": "AU 15",
+    "tags": [
+      "conjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "The range of your Benign Transposition feature increases to 60 feet. Additionally, you can restore one use of it by expending a level 3+ spell slot (no action required)."
+  },
+  {
+    "id": "srd24:conjurer:durable-summons",
+    "kind": "subclass-feature",
+    "name": "Durable Summons",
+    "source": "srd24",
+    "page": "AU 16",
+    "tags": [
+      "conjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "When you cast a Conjuration spell to summon or create a creature using a spell slot, that creature gains Temporary Hit Points equal to twice your Wizard level when it first appears. While it has these Temporary Hit Points, the creature has Resistance to every damage type except Force, Necrotic, Psychic, and Radiant."
+  },
+  {
+    "id": "srd24:conjurer:focused-conjuration",
+    "kind": "subclass-feature",
+    "name": "Focused Conjuration",
+    "source": "srd24",
+    "page": "AU 16",
+    "tags": [
+      "conjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "Taking damage can't break your Concentration on Conjuration spells."
+  },
+  {
+    "id": "srd24:conjurer:splintered-summons",
+    "kind": "subclass-feature",
+    "name": "Splintered Summons",
+    "source": "srd24",
+    "page": "AU 16",
+    "tags": [
+      "conjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "When you use a spell slot to cast a Conjuration spell that summons a spirit whose stat block is included in the spell description, such as Summon Aberration, you can modify the spell to summon two creatures with the spell instead of one. Each creature is of the same kind, uses the stat block and rules denoted by the spell, and manifests in a different unoccupied space of your choice within the spell's range, but the summoned creatures' Hit Point maximums and current Hit Points are halved. If you lose Concentration on the spell, both creatures disappear.\n\nOnce you use this feature to modify a spell in this way, you must finish a Long Rest before you can do so again. You can also restore your use of it by expending a level 5+ spell slot (no action required)."
+  }
+]

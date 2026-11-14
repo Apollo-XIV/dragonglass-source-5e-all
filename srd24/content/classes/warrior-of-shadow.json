@@ -1,0 +1,195 @@
+[
+  {
+    "id": "srd24:subclass:warrior-of-shadow",
+    "kind": "subclass",
+    "name": "Warrior of Shadow",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "class": "srd24:class:monk",
+    "tags": [
+      "monk-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:shadow:warrior-of-shadow",
+          "srd24:spell:minor-illusion"
+        ],
+        "innateSpells": [
+          {
+            "spell": "srd24:spell:darkness",
+            "ability": "wis",
+            "cost": {
+              "srd24:monk:focus-points": 1
+            }
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:shadow:shadow-step"
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:shadow:improved-shadow-step"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:shadow:cloak-of-shadows"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:shadow:darkness",
+    "kind": "subclass-feature",
+    "name": "Darkness",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "tags": [
+      "shadow-feature",
+      "monk-feature"
+    ],
+    "text": "You can expend 1 Focus Point to cast the Darkness spell without spell components. You can see within the spell's area when you cast it with this feature. While the spell persists, you can move its area of Darkness to a space within 60 feet of yourself at the start of each of your turns.",
+    "actions": [
+      {
+        "id": "darkness",
+        "name": "Darkness",
+        "activation": "special",
+        "cost": {
+          "srd24:monk:focus-points": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:shadow:darkvision",
+    "kind": "subclass-feature",
+    "name": "Darkvision",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "tags": [
+      "shadow-feature",
+      "monk-feature"
+    ],
+    "text": "You gain Darkvision with a range of 60 feet. If you already have Darkvision, its range increases by 60 feet."
+  },
+  {
+    "id": "srd24:shadow:shadowy-figments",
+    "kind": "subclass-feature",
+    "name": "Shadowy Figments",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "tags": [
+      "shadow-feature",
+      "monk-feature"
+    ],
+    "text": "You know the Minor Illusion spell. Wisdom is your spellcasting ability for it."
+  },
+  {
+    "id": "srd24:shadow:shadow-arts",
+    "kind": "subclass-feature",
+    "name": "Shadow Arts",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "tags": [
+      "shadow-feature",
+      "monk-feature"
+    ],
+    "text": "You have learned to draw on the power of the Shadowfell, gaining the following benefits.",
+    "grants": [
+      "srd24:shadow:darkness",
+      "srd24:shadow:darkvision",
+      "srd24:shadow:shadowy-figments"
+    ]
+  },
+  {
+    "id": "srd24:shadow:warrior-of-shadow",
+    "kind": "subclass-feature",
+    "name": "Warrior of Shadow",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "tags": [
+      "shadow-feature",
+      "monk-feature"
+    ],
+    "text": "*Harness Shadow Power for Stealth and Subterfuge*\n\nWarriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.",
+    "grants": [
+      "srd24:shadow:shadow-arts"
+    ]
+  },
+  {
+    "id": "srd24:shadow:shadow-step",
+    "kind": "subclass-feature",
+    "name": "Shadow Step",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "tags": [
+      "shadow-feature",
+      "monk-feature"
+    ],
+    "text": "While entirely within Dim Light or Darkness, you can use a Bonus Action to teleport up to 60 feet to an unoccupied space you can see that is also in Dim Light or Darkness. You then have Advantage on the next melee attack you make before the end of the current turn.",
+    "actions": [
+      {
+        "id": "shadow-step",
+        "name": "Shadow Step",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:shadow:improved-shadow-step",
+    "kind": "subclass-feature",
+    "name": "Improved Shadow Step",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "tags": [
+      "shadow-feature",
+      "monk-feature"
+    ],
+    "text": "You can draw on your Shadowfell connection to empower your teleportation. When you use your Shadow Step, you can expend 1 Focus Point to remove the requirement that you must start and end in Dim Light or Darkness for that use of the feature. As part of this Bonus Action, you can make an Unarmed Strike immediately after you teleport.",
+    "actions": [
+      {
+        "id": "improved-shadow-step",
+        "name": "Improved Shadow Step",
+        "activation": "special",
+        "cost": {
+          "srd24:monk:focus-points": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:shadow:cloak-of-shadows",
+    "kind": "subclass-feature",
+    "name": "Cloak of Shadows",
+    "source": "srd24",
+    "page": "XPHB 105",
+    "tags": [
+      "shadow-feature",
+      "monk-feature"
+    ],
+    "text": "As a Magic action while entirely within Dim Light or Darkness, you can expend 3 Focus Points to shroud yourself with shadows for 1 minute, until you have the Incapacitated condition, or until you end your turn in Bright Light. While shrouded by these shadows, you gain the following benefits.\n\n**Invisibility.** You have the Invisible condition.\n\n**Partially Incorporeal.** You can move through occupied spaces as if they were Difficult Terrain. If you end your turn in such a space, you are shunted to the last unoccupied space you were in.\n\n**Shadow Flurry.** You can use your Flurry of Blows without expending any Focus Points.",
+    "actions": [
+      {
+        "id": "cloak-of-shadows",
+        "name": "Cloak of Shadows",
+        "activation": "action",
+        "cost": {
+          "srd24:monk:focus-points": 3
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

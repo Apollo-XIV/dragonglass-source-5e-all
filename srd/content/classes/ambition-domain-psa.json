@@ -1,0 +1,234 @@
+[
+  {
+    "id": "srd:subclass:ambition-domain-psa",
+    "kind": "subclass",
+    "name": "Ambition Domain (PSA)",
+    "source": "srd",
+    "page": "PSA 27",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:ambition-psa:ambition-domain-psa",
+          "srd:spell:bane",
+          "srd:spell:disguise-self"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:ambition-psa:channel-divinity-invoke-duplicity"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:mirror-image",
+          "srd:spell:ray-of-enfeeblement"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:bestow-curse",
+          "srd:spell:vampiric-touch"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:ambition-psa:channel-divinity-cloak-of-shadows"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:death-ward",
+          "srd:spell:dimension-door"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:ambition-psa:potent-spellcasting",
+          "srd:ambition-psa:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:dominate-person",
+          "srd:spell:modify-memory"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:ambition-psa:improved-duplicity"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:ambition-psa:warding-flare",
+    "kind": "subclass-feature",
+    "name": "Warding Flare",
+    "source": "srd",
+    "page": "PSA 27",
+    "tags": [
+      "ambition-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "When you choose this domain at 1st level, you can interpose divine light between yourself and an attacking enemy. When you are attacked by a creature within 30 feet of you that you can see, you can use your reaction to impose disadvantage on the attack roll, causing light to flare before the attacker before it hits or misses. An attacker that can't be blinded is immune to this feature.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:ambition-psa:warding-flare",
+        "name": "Warding Flare",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "warding-flare",
+        "name": "Warding Flare",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:ambition-psa:warding-flare": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:ambition-psa:ambition-domain-psa",
+    "kind": "subclass-feature",
+    "name": "Ambition Domain (PSA)",
+    "source": "srd",
+    "page": "PSA 27",
+    "tags": [
+      "ambition-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "> The worthy shall strive for greatness—supremacy in life leads to supremacy in the afterlife.\n\nBontu has fully embraced this dictum, and though she expends little effort in teaching it, she surely leads by example. Her viziers subtly plant the seeds that flower into the ambition the God-Pharaoh desires. Through insinuation, they remind acolytes and initiates alike that achieving one's place in the afterlife at the expense of others is not shameful, but is proof of the initiate's determination and drive. Nothing is more important than that drive, they suggest—not the bonds of a crop, not friendship or love. Not even devotion to a deity.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Ambition Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bane, disguise self |\n| 3rd | mirror image, ray of enfeeblement |\n| 5th | bestow curse, vampiric touch |\n| 7th | death ward, dimension door |\n| 9th | dominate person, modify memory |",
+    "grants": [
+      "srd:ambition-psa:warding-flare"
+    ]
+  },
+  {
+    "id": "srd:ambition-psa:channel-divinity-invoke-duplicity",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Invoke Duplicity",
+    "source": "srd",
+    "page": "PSA 27",
+    "tags": [
+      "ambition-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to create an illusory duplicate of yourself.\n\nAs an action, you create a perfect illusion of yourself that lasts for 1 minute, or until you lose your concentration (as if you were concentrating on a spell). The illusion appears in an unoccupied space that you can see within 30 feet of you. As a bonus action on your turn, you can move the illusion up to 30 feet to a space you can see, but it must remain within 120 feet of you.\n\nFor the duration, you can cast spells as though you were in the illusion's space, but you must use your own senses. Additionally, when both you and your illusion are within 5 feet of a creature that can see the illusion, you have advantage on attack rolls against that creature, given how distracting the illusion is to the target.",
+    "actions": [
+      {
+        "id": "channel-divinity-invoke-duplicity",
+        "name": "Channel Divinity: Invoke Duplicity",
+        "activation": "special",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        }
+      }
+    ],
+    "modifiers": [
+      {
+        "target": "attacks.all",
+        "op": "advantage",
+        "when": {
+          "text": "when both you and your illusion are within 5 feet of a creature that can see the illusion (attack rolls against that creature)"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:ambition-psa:channel-divinity-cloak-of-shadows",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Cloak of Shadows",
+    "source": "srd",
+    "page": "PSA 27",
+    "tags": [
+      "ambition-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 6th level, you can use your Channel Divinity to vanish. As an action, you become invisible until the end of your next turn. You become visible if you attack or cast a spell.",
+    "actions": [
+      {
+        "id": "channel-divinity-cloak-of-shadows",
+        "name": "Channel Divinity: Cloak of Shadows",
+        "activation": "action",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:ambition-psa:potent-spellcasting",
+    "kind": "subclass-feature",
+    "name": "Potent Spellcasting",
+    "source": "srd",
+    "page": "PSA 27",
+    "tags": [
+      "ambition-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+  },
+  {
+    "id": "srd:ambition-psa:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "ambition-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Potent Spellcasting feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:ambition-psa:improved-duplicity",
+    "kind": "subclass-feature",
+    "name": "Improved Duplicity",
+    "source": "srd",
+    "page": "PSA 27",
+    "tags": [
+      "ambition-psa-feature",
+      "cleric-feature"
+    ],
+    "text": "At 17th level, you can create up to four duplicates of yourself, instead of one, when you use Invoke Duplicity. As a bonus action on your turn, you can move any number of them up to 30 feet, to a maximum range of 120 feet.",
+    "actions": [
+      {
+        "id": "improved-duplicity",
+        "name": "Improved Duplicity",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,256 @@
+[
+  {
+    "id": "srd:subclass:oath-of-glory",
+    "kind": "subclass",
+    "name": "Oath of Glory",
+    "source": "srd",
+    "page": "TCE 53",
+    "class": "srd:class:paladin",
+    "tags": [
+      "paladin-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:glory:oath-of-glory",
+          "srd:spell:guiding-bolt",
+          "srd:spell:heroism"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:enhance-ability",
+          "srd:spell:magic-weapon"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:glory:aura-of-alacrity"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:haste",
+          "srd:spell:protection-from-energy"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd:spell:compulsion",
+          "srd:spell:freedom-of-movement"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:glory:glorious-defense"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:spell:commune",
+          "srd:spell:flame-strike"
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd:glory:living-legend"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:glory:tenets-of-glory",
+    "kind": "subclass-feature",
+    "name": "Tenets of Glory",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "The tenets of the Oath of Glory drive a paladin to attempt heroics that might one day shine in legend.\n\n**Actions over Words.** Strive to be known by glorious deeds, not words.\n\n**Challenges Are but Tests.** Face hardships with courage, and encourage your allies to face them with you.\n\n**Hone the Body.** Like raw stone, your body must be worked so its potential can be realized.\n\n**Discipline the Soul.** You must marshal the discipline to overcome failings within yourself that threaten to dim the glory of you and your friends."
+  },
+  {
+    "id": "srd:glory:oath-spells",
+    "kind": "subclass-feature",
+    "name": "Oath Spells",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "*3rd-level Oath of Glory feature*\n\nYou gain oath spells at the paladin levels listed in the Oath of Glory Spells table. See the Sacred Oath class feature for how oath spells work.\n\n**Oath of Glory Spells**\n| Paladin Level | Spells |\n| --- | --- |\n| 3rd | guiding bolt, heroism |\n| 5th | enhance ability, magic weapon |\n| 9th | haste, protection from energy |\n| 13th | compulsion, freedom of movement |\n| 17th | commune, flame strike |"
+  },
+  {
+    "id": "srd:glory:peerless-athlete",
+    "kind": "subclass-feature",
+    "name": "Peerless Athlete",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "As a bonus action, you can use your Channel Divinity to augment your athleticism. For the next 10 minutes, you have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks; you can carry, push, drag, and lift twice as much weight as normal; and the distance of your long and high jumps increases by 10 feet (this extra distance costs movement as normal).",
+    "actions": [
+      {
+        "id": "peerless-athlete",
+        "name": "Peerless Athlete",
+        "activation": "bonus-action",
+        "cost": {
+          "srd:paladin:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:glory:inspiring-smite",
+    "kind": "subclass-feature",
+    "name": "Inspiring Smite",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "Immediately after you deal damage to a creature with your Divine Smite feature, you can use your Channel Divinity as a bonus action and distribute temporary hit points to creatures of your choice within 30 feet of you, which can include you. The total number of temporary hit points equals 2d8 + your level in this class, divided among the chosen creatures however you like.",
+    "actions": [
+      {
+        "id": "inspiring-smite",
+        "name": "Inspiring Smite",
+        "activation": "special",
+        "cost": {
+          "srd:paladin:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:glory:channel-divinity",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "*3rd-level Oath of Glory feature*\n\nYou gain the following two Channel Divinity options. See the Sacred Oath class feature for how Channel Divinity works.",
+    "grants": [
+      "srd:glory:peerless-athlete",
+      "srd:glory:inspiring-smite"
+    ]
+  },
+  {
+    "id": "srd:glory:oath-of-glory",
+    "kind": "subclass-feature",
+    "name": "Oath of Glory",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "Paladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions so they're all ready when destiny calls.",
+    "grants": [
+      "srd:glory:tenets-of-glory",
+      "srd:glory:oath-spells",
+      "srd:glory:channel-divinity"
+    ]
+  },
+  {
+    "id": "srd:glory:aura-of-alacrity",
+    "kind": "subclass-feature",
+    "name": "Aura of Alacrity",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "*7th-level Oath of Glory feature*\n\nYou emanate an aura that fills you and your companions with supernatural speed, allowing you to race across a battlefield in formation. Your walking speed increases by 10 feet. In addition, if you aren't incapacitated, the walking speed of any ally who starts their turn within 5 feet of you increases by 10 feet until the end of that turn.\n\nWhen you reach 18th level in this class, the range of the aura increases to 10 feet.",
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "add",
+        "value": 10,
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:glory:glorious-defense",
+    "kind": "subclass-feature",
+    "name": "Glorious Defense",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "*15th-level Oath of Glory feature*\n\nYou can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can use your reaction to grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one weapon attack against the attacker as part of this reaction, provided the attacker is within your weapon's range.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:glory:glorious-defense",
+        "name": "Glorious Defense",
+        "max": "max(1, @abilities.cha.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "glorious-defense",
+        "name": "Glorious Defense",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:glory:glorious-defense": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:glory:living-legend",
+    "kind": "subclass-feature",
+    "name": "Living Legend",
+    "source": "srd",
+    "page": "TCE 53",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "*20th-level Oath of Glory feature*\n\nYou can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a bonus action, you gain the following benefits for 1 minute:\n\n- You are blessed with an otherworldly presence, gaining advantage on all Charisma checks.\n- Once on each of your turns when you make a weapon attack and miss, you can cause that attack to hit instead.\n- If you fail a saving throw, you can use your reaction to reroll it. You must use this new roll.\n\nOnce you use this feature, you can't use it again until you finish a long rest, unless you expend a 5th-level spell slot to use it again.",
+    "actions": [
+      {
+        "id": "living-legend",
+        "name": "Living Legend",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

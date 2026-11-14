@@ -1,0 +1,220 @@
+[
+  {
+    "id": "srd:subclass:nature-domain",
+    "kind": "subclass",
+    "name": "Nature Domain",
+    "source": "srd",
+    "page": "PHB 61",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:nature:nature-domain",
+          "srd:spell:animal-friendship",
+          "srd:spell:speak-with-animals"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:nature-domain:known-spells-1",
+            "name": "Cantrip",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level:0",
+                "druid-spell"
+              ]
+            }
+          }
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:nature:channel-divinity-charm-animals-and-plants"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:barkskin",
+          "srd:spell:spike-growth"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:plant-growth",
+          "srd:spell:wind-wall"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:nature:dampen-elements"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:dominate-beast",
+          "srd:spell:grasping-vine"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:nature:divine-strike",
+          "srd:nature:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:insect-plague",
+          "srd:spell:tree-stride"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:nature:master-of-nature"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:nature:acolyte-of-nature",
+    "kind": "subclass-feature",
+    "name": "Acolyte of Nature",
+    "source": "srd",
+    "page": "PHB 61",
+    "tags": [
+      "nature-feature",
+      "cleric-feature"
+    ],
+    "text": "At 1st level, you learn one druid cantrip of your choice. This cantrip doesn't count against the number of cleric cantrips you know. You also gain proficiency in one of the following skills of your choice: Animal Handling, Nature, or Survival."
+  },
+  {
+    "id": "srd:nature:bonus-proficiency",
+    "kind": "subclass-feature",
+    "name": "Bonus Proficiency",
+    "source": "srd",
+    "page": "PHB 61",
+    "tags": [
+      "nature-feature",
+      "cleric-feature"
+    ],
+    "text": "Also at 1st level, you gain proficiency with heavy armor.",
+    "modifiers": [
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "heavy armor"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:nature:nature-domain",
+    "kind": "subclass-feature",
+    "name": "Nature Domain",
+    "source": "srd",
+    "page": "PHB 61",
+    "tags": [
+      "nature-feature",
+      "cleric-feature"
+    ],
+    "text": "Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Nature Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | animal friendship, speak with animals |\n| 3rd | barkskin, spike growth |\n| 5th | plant growth, wind wall |\n| 7th | dominate beast, grasping vine |\n| 9th | insect plague, tree stride |",
+    "grants": [
+      "srd:nature:acolyte-of-nature",
+      "srd:nature:bonus-proficiency"
+    ]
+  },
+  {
+    "id": "srd:nature:channel-divinity-charm-animals-and-plants",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Charm Animals and Plants",
+    "source": "srd",
+    "page": "PHB 61",
+    "tags": [
+      "nature-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to charm animals and plants.\n\nAs an action, you present your holy symbol and invoke the name of your deity. Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage. While it is charmed by you, it is friendly to you and other creatures you designate.",
+    "actions": [
+      {
+        "id": "channel-divinity-charm-animals-and-plants",
+        "name": "Channel Divinity: Charm Animals and Plants",
+        "activation": "action",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:nature:dampen-elements",
+    "kind": "subclass-feature",
+    "name": "Dampen Elements",
+    "source": "srd",
+    "page": "PHB 61",
+    "tags": [
+      "nature-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 6th level, when you or a creature within 30 feet of you takes acid, cold, fire, lightning, or thunder damage, you can use your reaction to grant resistance to the creature against that instance of the damage.",
+    "actions": [
+      {
+        "id": "dampen-elements",
+        "name": "Dampen Elements",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:nature:divine-strike",
+    "kind": "subclass-feature",
+    "name": "Divine Strike",
+    "source": "srd",
+    "page": "PHB 61",
+    "tags": [
+      "nature-feature",
+      "cleric-feature"
+    ],
+    "text": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 cold, fire, or lightning damage (your choice) to the target. When you reach 14th level, the extra damage increases to 2d8."
+  },
+  {
+    "id": "srd:nature:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "nature-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Divine Strike feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:nature:master-of-nature",
+    "kind": "subclass-feature",
+    "name": "Master of Nature",
+    "source": "srd",
+    "page": "PHB 61",
+    "tags": [
+      "nature-feature",
+      "cleric-feature"
+    ],
+    "text": "At 17th level, you gain the ability to command animals and plant creatures. While creatures are charmed by your Charm Animals and Plants feature, you can take a bonus action on your turn to verbally command what each of those creatures will do on its next turn."
+  }
+]

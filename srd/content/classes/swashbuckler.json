@@ -1,0 +1,135 @@
+[
+  {
+    "id": "srd:subclass:swashbuckler",
+    "kind": "subclass",
+    "name": "Swashbuckler",
+    "source": "srd",
+    "page": "XGE 48",
+    "class": "srd:class:rogue",
+    "tags": [
+      "rogue-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> What's a swashbuckler? Do you swash buckles or buckle swashes? You can't tell me you don't think that word is funny.\n>\n> — Xanathar",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:swashbuckler:swashbuckler"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:swashbuckler:panache"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd:swashbuckler:elegant-maneuver"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:swashbuckler:master-duelist"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:swashbuckler:fancy-footwork",
+    "kind": "subclass-feature",
+    "name": "Fancy Footwork",
+    "source": "srd",
+    "page": "XGE 48",
+    "tags": [
+      "swashbuckler-feature",
+      "rogue-feature"
+    ],
+    "text": "When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn."
+  },
+  {
+    "id": "srd:swashbuckler:rakish-audacity",
+    "kind": "subclass-feature",
+    "name": "Rakish Audacity",
+    "source": "srd",
+    "page": "XGE 48",
+    "tags": [
+      "swashbuckler-feature",
+      "rogue-feature"
+    ],
+    "text": "Starting at 3rd level, your confidence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.\n\nYou also gain an additional way to use your Sneak Attack; you don't need advantage on your attack roll to use Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you."
+  },
+  {
+    "id": "srd:swashbuckler:swashbuckler",
+    "kind": "subclass-feature",
+    "name": "Swashbuckler",
+    "source": "srd",
+    "page": "XGE 48",
+    "tags": [
+      "swashbuckler-feature",
+      "rogue-feature"
+    ],
+    "text": "You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.\n\nA Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
+    "grants": [
+      "srd:swashbuckler:fancy-footwork",
+      "srd:swashbuckler:rakish-audacity"
+    ]
+  },
+  {
+    "id": "srd:swashbuckler:panache",
+    "kind": "subclass-feature",
+    "name": "Panache",
+    "source": "srd",
+    "page": "XGE 48",
+    "tags": [
+      "swashbuckler-feature",
+      "rogue-feature"
+    ],
+    "text": "At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.\n\nIf you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.\n\nIf you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.",
+    "actions": [
+      {
+        "id": "panache",
+        "name": "Panache",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:swashbuckler:elegant-maneuver",
+    "kind": "subclass-feature",
+    "name": "Elegant Maneuver",
+    "source": "srd",
+    "page": "XGE 48",
+    "tags": [
+      "swashbuckler-feature",
+      "rogue-feature"
+    ],
+    "text": "Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.",
+    "actions": [
+      {
+        "id": "elegant-maneuver",
+        "name": "Elegant Maneuver",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:swashbuckler:master-duelist",
+    "kind": "subclass-feature",
+    "name": "Master Duelist",
+    "source": "srd",
+    "page": "XGE 48",
+    "tags": [
+      "swashbuckler-feature",
+      "rogue-feature"
+    ],
+    "text": "Beginning at 17th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest."
+  }
+]

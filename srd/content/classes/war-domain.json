@@ -1,0 +1,247 @@
+[
+  {
+    "id": "srd:subclass:war-domain",
+    "kind": "subclass",
+    "name": "War Domain",
+    "source": "srd",
+    "page": "PHB 63",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:war:war-domain",
+          "srd:spell:divine-favor",
+          "srd:spell:shield-of-faith"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:war:channel-divinity-guided-strike"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:magic-weapon",
+          "srd:spell:spiritual-weapon"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:crusaders-mantle",
+          "srd:spell:spirit-guardians"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:war:channel-divinity-war-gods-blessing"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:freedom-of-movement",
+          "srd:spell:stoneskin"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:war:divine-strike",
+          "srd:war:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:flame-strike",
+          "srd:spell:hold-monster"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:war:avatar-of-battle"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:war:bonus-proficiencies",
+    "kind": "subclass-feature",
+    "name": "Bonus Proficiencies",
+    "source": "srd",
+    "page": "PHB 63",
+    "tags": [
+      "war-feature",
+      "cleric-feature"
+    ],
+    "text": "At 1st level, you gain proficiency with martial weapons and heavy armor.",
+    "modifiers": [
+      {
+        "target": "proficiencies.weapon",
+        "op": "include",
+        "value": [
+          "martial weapons"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "heavy armor"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:war:war-priest",
+    "kind": "subclass-feature",
+    "name": "War Priest",
+    "source": "srd",
+    "page": "PHB 63",
+    "tags": [
+      "war-feature",
+      "cleric-feature"
+    ],
+    "text": "From 1st level, your god delivers bolts of inspiration to you while you are engaged in battle. When you use the Attack action, you can make one weapon attack as a bonus action. You can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:war:war-priest",
+        "name": "War Priest",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "war-priest",
+        "name": "War Priest",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:war:war-priest": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:war:war-domain",
+    "kind": "subclass-feature",
+    "name": "War Domain",
+    "source": "srd",
+    "page": "PHB 63",
+    "tags": [
+      "war-feature",
+      "cleric-feature"
+    ],
+    "text": "War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**War Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | divine favor, shield of faith |\n| 3rd | magic weapon, spiritual weapon |\n| 5th | crusader's mantle, spirit guardians |\n| 7th | freedom of movement, stoneskin |\n| 9th | flame strike, hold monster |",
+    "grants": [
+      "srd:war:bonus-proficiencies",
+      "srd:war:war-priest"
+    ]
+  },
+  {
+    "id": "srd:war:channel-divinity-guided-strike",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Guided Strike",
+    "source": "srd",
+    "page": "PHB 63",
+    "tags": [
+      "war-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to strike with supernatural accuracy. When you make an attack roll, you can use your Channel Divinity to gain a +10 bonus to the roll. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.",
+    "actions": [
+      {
+        "id": "channel-divinity-guided-strike",
+        "name": "Channel Divinity: Guided Strike",
+        "activation": "special",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:war:channel-divinity-war-gods-blessing",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: War God's Blessing",
+    "source": "srd",
+    "page": "PHB 63",
+    "tags": [
+      "war-feature",
+      "cleric-feature"
+    ],
+    "text": "At 6th level, when a creature within 30 feet of you makes an attack roll, you can use your reaction to grant that creature a +10 bonus to the roll, using your Channel Divinity. You make this choice after you see the roll, but before the DM says whether the attack hits or misses.",
+    "actions": [
+      {
+        "id": "channel-divinity-war-gods-blessing",
+        "name": "Channel Divinity: War God's Blessing",
+        "activation": "reaction",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:war:divine-strike",
+    "kind": "subclass-feature",
+    "name": "Divine Strike",
+    "source": "srd",
+    "page": "PHB 63",
+    "tags": [
+      "war-feature",
+      "cleric-feature"
+    ],
+    "text": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 damage of the same type dealt by the weapon to the target. When you reach 14th level, the extra damage increases to 2d8."
+  },
+  {
+    "id": "srd:war:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "war-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Divine Strike feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:war:avatar-of-battle",
+    "kind": "subclass-feature",
+    "name": "Avatar of Battle",
+    "source": "srd",
+    "page": "PHB 63",
+    "tags": [
+      "war-feature",
+      "cleric-feature"
+    ],
+    "text": "At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+  }
+]

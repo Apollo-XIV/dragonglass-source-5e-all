@@ -1,0 +1,233 @@
+[
+  {
+    "id": "srd:subclass:the-archfey",
+    "kind": "subclass",
+    "name": "The Archfey",
+    "source": "srd",
+    "page": "PHB 108",
+    "class": "srd:class:warlock",
+    "tags": [
+      "warlock-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:archfey:the-archfey"
+        ],
+        "spellListAdditions": [
+          {
+            "class": "srd:class:warlock",
+            "spells": [
+              "srd:spell:faerie-fire",
+              "srd:spell:sleep",
+              "srd:spell:calm-emotions",
+              "srd:spell:phantasmal-force",
+              "srd:spell:blink",
+              "srd:spell:plant-growth",
+              "srd:spell:dominate-beast",
+              "srd:spell:greater-invisibility",
+              "srd:spell:dominate-person",
+              "srd:spell:seeming"
+            ]
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:archfey:misty-escape"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:archfey:beguiling-defenses"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:archfey:dark-delirium"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:archfey:fey-presence",
+    "kind": "subclass-feature",
+    "name": "Fey Presence",
+    "source": "srd",
+    "page": "PHB 108",
+    "tags": [
+      "archfey-feature",
+      "warlock-feature"
+    ],
+    "text": "Starting at 1st level, your patron bestows upon you the ability to project the beguiling and fearsome presence of the fey. As an action, you can cause each creature in a 10-foot cube originating from you to make a Wisdom saving throw against your warlock spell save DC. The creatures that fail their saving throws are all charmed or frightened by you (your choice) until the end of your next turn.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:archfey:fey-presence",
+        "name": "Fey Presence",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "fey-presence",
+        "name": "Fey Presence",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:archfey:fey-presence": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:archfey:the-archfey",
+    "kind": "subclass-feature",
+    "name": "The Archfey",
+    "source": "srd",
+    "page": "PHB 108",
+    "tags": [
+      "archfey-feature",
+      "warlock-feature"
+    ],
+    "text": "Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.\n\n**Expanded Spell List.** The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Archfey Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | faerie fire, sleep |\n| 2nd | calm emotions, phantasmal force |\n| 3rd | blink, plant growth |\n| 4th | dominate beast, greater invisibility |\n| 5th | dominate person, seeming |",
+    "grants": [
+      "srd:archfey:fey-presence"
+    ]
+  },
+  {
+    "id": "srd:archfey:misty-escape",
+    "kind": "subclass-feature",
+    "name": "Misty Escape",
+    "source": "srd",
+    "page": "PHB 108",
+    "tags": [
+      "archfey-feature",
+      "warlock-feature"
+    ],
+    "text": "Starting at 6th level, you can vanish in a puff of mist in response to harm. When you take damage, you can use your reaction to turn invisible and teleport up to 60 feet to an unoccupied space you can see. You remain invisible until the start of your next turn or until you attack or cast a spell.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:archfey:misty-escape",
+        "name": "Misty Escape",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "misty-escape",
+        "name": "Misty Escape",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:archfey:misty-escape": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:archfey:beguiling-defenses",
+    "kind": "subclass-feature",
+    "name": "Beguiling Defenses",
+    "source": "srd",
+    "page": "PHB 108",
+    "tags": [
+      "archfey-feature",
+      "warlock-feature"
+    ],
+    "text": "Beginning at 10th level, your patron teaches you how to turn the mind-affecting magic of your enemies against them. You are immune to being charmed, and when another creature attempts to charm you, you can use your reaction to attempt to turn the charm back on that creature. The creature must succeed on a Wisdom saving throw against your warlock spell save DC or be charmed by you for 1 minute or until the creature takes any damage.",
+    "modifiers": [
+      {
+        "target": "conditionImmunities",
+        "op": "include",
+        "value": [
+          "charmed"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "beguiling-defenses",
+        "name": "Beguiling Defenses",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:archfey:dark-delirium",
+    "kind": "subclass-feature",
+    "name": "Dark Delirium",
+    "source": "srd",
+    "page": "PHB 108",
+    "tags": [
+      "archfey-feature",
+      "warlock-feature"
+    ],
+    "text": "Starting at 14th level, you can plunge a creature into an illusory realm. As an action, choose a creature that you can see within 60 feet of you. It must make a Wisdom saving throw against your warlock spell save DC. On a failed save, it is charmed or frightened by you (your choice) for 1 minute or until your concentration is broken (as if you are concentrating on a spell). This effect ends early if the creature takes any damage.\n\nUntil this illusion ends, the creature thinks it is lost in a misty realm, the appearance of which you choose. The creature can see and hear only itself, you, and the illusion.\n\nYou must finish a short or long rest before you can use this feature again.",
+    "resources": [
+      {
+        "id": "srd:archfey:dark-delirium",
+        "name": "Dark Delirium",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "dark-delirium",
+        "name": "Dark Delirium",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:archfey:dark-delirium": 1
+        }
+      }
+    ]
+  }
+]

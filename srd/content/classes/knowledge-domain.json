@@ -1,0 +1,214 @@
+[
+  {
+    "id": "srd:subclass:knowledge-domain",
+    "kind": "subclass",
+    "name": "Knowledge Domain",
+    "source": "srd",
+    "page": "PHB 59",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:knowledge:knowledge-domain",
+          "srd:spell:command",
+          "srd:spell:identify"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:knowledge:channel-divinity-knowledge-of-the-ages"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:augury",
+          "srd:spell:suggestion"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:nondetection",
+          "srd:spell:speak-with-dead"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:knowledge:channel-divinity-read-thoughts"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:arcane-eye",
+          "srd:spell:confusion"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:knowledge:potent-spellcasting",
+          "srd:knowledge:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:legend-lore",
+          "srd:spell:scrying"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:knowledge:visions-of-the-past"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:knowledge:blessings-of-knowledge",
+    "kind": "subclass-feature",
+    "name": "Blessings of Knowledge",
+    "source": "srd",
+    "page": "PHB 59",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.\n\nYour proficiency bonus is doubled for any ability check you make that uses either of those skills."
+  },
+  {
+    "id": "srd:knowledge:knowledge-domain",
+    "kind": "subclass-feature",
+    "name": "Knowledge Domain",
+    "source": "srd",
+    "page": "PHB 59",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Knowledge Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | command, identify |\n| 3rd | augury, suggestion |\n| 5th | nondetection, speak with dead |\n| 7th | arcane eye, confusion |\n| 9th | legend lore, scrying |",
+    "grants": [
+      "srd:knowledge:blessings-of-knowledge"
+    ]
+  },
+  {
+    "id": "srd:knowledge:channel-divinity-knowledge-of-the-ages",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Knowledge of the Ages",
+    "source": "srd",
+    "page": "PHB 59",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to tap into a divine well of knowledge. As an action, you choose one skill or tool. For 10 minutes, you have proficiency with the chosen skill or tool.",
+    "actions": [
+      {
+        "id": "channel-divinity-knowledge-of-the-ages",
+        "name": "Channel Divinity: Knowledge of the Ages",
+        "activation": "action",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:knowledge:channel-divinity-read-thoughts",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Read Thoughts",
+    "source": "srd",
+    "page": "PHB 59",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "At 6th level, you can use your Channel Divinity to read a creature's thoughts. You can then use your access to the creature's mind to command it.\n\nAs an action, choose one creature that you can see within 60 feet of you. That creature must make a Wisdom saving throw. If the creature succeeds on the saving throw, you can't use this feature on it again until you finish a long rest.\n\nIf the creature fails its save, you can read its surface thoughts (those foremost in its mind, reflecting its current emotions and what it is actively thinking about) when it is within 60 feet of you. This effect lasts for 1 minute.\n\nDuring that time, you can use your action to end this effect and cast the suggestion spell on the creature without expending a spell slot. The target automatically fails its saving throw against the spell.",
+    "actions": [
+      {
+        "id": "channel-divinity-read-thoughts",
+        "name": "Channel Divinity: Read Thoughts",
+        "activation": "action",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:knowledge:potent-spellcasting",
+    "kind": "subclass-feature",
+    "name": "Potent Spellcasting",
+    "source": "srd",
+    "page": "PHB 59",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+  },
+  {
+    "id": "srd:knowledge:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Potent Spellcasting feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:knowledge:visions-of-the-past",
+    "kind": "subclass-feature",
+    "name": "Visions of the Past",
+    "source": "srd",
+    "page": "PHB 59",
+    "tags": [
+      "knowledge-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 17th level, you can call up visions of the past that relate to an object you hold or your immediate surroundings. You spend at least 1 minute in meditation and prayer, then receive dreamlike, shadowy glimpses of recent events. You can meditate in this way for a number of minutes equal to your Wisdom score and must maintain concentration during that time, as if you were casting a spell.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.\n\n**Object Reading.** Holding an object as you meditate, you can see visions of the object's previous owner. After meditating for 1 minute, you learn how the owner acquired and lost the object, as well as the most recent significant event involving the object and that owner. If the object was owned by another creature in the recent past (within a number of days equal to your Wisdom score), you can spend 1 additional minute for each owner to learn the same information about that creature.\n\n**Area Reading.** As you meditate, you see visions of recent events in your immediate vicinity (a room, street, tunnel, clearing, or the like, up to a 50-foot cube), going back a number of days equal to your Wisdom score. For each minute you meditate, you learn about one significant event, beginning with the most recent. Significant events typically involve powerful emotions, such as battles and betrayals, marriages and murders, births and funerals. However, they might also include more mundane events that are nevertheless important in your current situation.",
+    "resources": [
+      {
+        "id": "srd:knowledge:visions-of-the-past",
+        "name": "Visions of the Past",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "visions-of-the-past",
+        "name": "Visions of the Past",
+        "activation": "minute",
+        "cost": {
+          "srd:knowledge:visions-of-the-past": 1
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

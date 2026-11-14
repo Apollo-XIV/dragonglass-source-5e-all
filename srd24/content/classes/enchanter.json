@@ -1,0 +1,351 @@
+[
+  {
+    "id": "srd24:subclass:enchanter",
+    "kind": "subclass",
+    "name": "Enchanter",
+    "source": "srd24",
+    "page": "AU 16",
+    "class": "srd24:class:wizard",
+    "tags": [
+      "wizard-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> Minds can be molded like clay when magic is involved. Take care you don't abuse this power.\n>\n> — Alustriel",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:enchanter:enchanter"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:enchanter:known-spells-3",
+            "name": "Spell",
+            "count": 2,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:2",
+                "wizard-spell",
+                "school:enchantment"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "5": {
+        "choices": [
+          {
+            "id": "srd24:subclass:enchanter:known-spells-5",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:3",
+                "wizard-spell",
+                "school:enchantment"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:enchanter:split-enchantment"
+        ]
+      },
+      "7": {
+        "choices": [
+          {
+            "id": "srd24:subclass:enchanter:known-spells-7",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:4",
+                "wizard-spell",
+                "school:enchantment"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "9": {
+        "choices": [
+          {
+            "id": "srd24:subclass:enchanter:known-spells-9",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:5",
+                "wizard-spell",
+                "school:enchantment"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:enchanter:instinctive-charm"
+        ]
+      },
+      "11": {
+        "choices": [
+          {
+            "id": "srd24:subclass:enchanter:known-spells-11",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:6",
+                "wizard-spell",
+                "school:enchantment"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "13": {
+        "choices": [
+          {
+            "id": "srd24:subclass:enchanter:known-spells-13",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:7",
+                "wizard-spell",
+                "school:enchantment"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:enchanter:alter-memories"
+        ]
+      },
+      "15": {
+        "choices": [
+          {
+            "id": "srd24:subclass:enchanter:known-spells-15",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:8",
+                "wizard-spell",
+                "school:enchantment"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "17": {
+        "choices": [
+          {
+            "id": "srd24:subclass:enchanter:known-spells-17",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:9",
+                "wizard-spell",
+                "school:enchantment"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:enchanter:enchanting-conversationalist",
+    "kind": "subclass-feature",
+    "name": "Enchanting Conversationalist",
+    "source": "srd24",
+    "page": "AU 16",
+    "tags": [
+      "enchanter-feature",
+      "wizard-feature"
+    ],
+    "text": "You gain proficiency in one of the following skills of your choice: Deception, Intimidation, or Persuasion.\n\nIn addition, when you make an ability check with the chosen skill, you gain a bonus to the check equal to your Intelligence modifier (minimum of +1)."
+  },
+  {
+    "id": "srd24:enchanter:enchantment-savant",
+    "kind": "subclass-feature",
+    "name": "Enchantment Savant",
+    "source": "srd24",
+    "page": "AU 16",
+    "tags": [
+      "enchanter-feature",
+      "wizard-feature"
+    ],
+    "text": "Choose two Wizard spells from the Enchantment school, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Enchantment school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  },
+  {
+    "id": "srd24:enchanter:hypnotic-presence",
+    "kind": "subclass-feature",
+    "name": "Hypnotic Presence",
+    "source": "srd24",
+    "page": "AU 17",
+    "tags": [
+      "enchanter-feature",
+      "wizard-feature"
+    ],
+    "text": "Your charming words and enchanting gaze can enthrall another creature. As a Magic action, choose one creature that you can see within 10 feet of yourself. If the target can see or hear you, it must succeed on a Wisdom saving throw against your spell save DC or have the Charmed condition for 1 minute or until the target is more than 10 feet away from you, the target can neither see nor hear you, or the target takes damage. While Charmed, the target has the Incapacitated condition and a Speed of 0.\n\nYou can use this feature a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:enchanter:hypnotic-presence",
+        "name": "Hypnotic Presence",
+        "max": "max(1, @abilities.int.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "hypnotic-presence",
+        "name": "Hypnotic Presence",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:enchanter:hypnotic-presence": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:enchanter:enchanter",
+    "kind": "subclass-feature",
+    "name": "Enchanter",
+    "source": "srd24",
+    "page": "AU 16",
+    "tags": [
+      "enchanter-feature",
+      "wizard-feature"
+    ],
+    "text": "*Entrance and Beguile Others*\n\nAn Enchanter's magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends.",
+    "grants": [
+      "srd24:enchanter:enchanting-conversationalist",
+      "srd24:enchanter:enchantment-savant",
+      "srd24:enchanter:hypnotic-presence"
+    ]
+  },
+  {
+    "id": "srd24:enchanter:split-enchantment",
+    "kind": "subclass-feature",
+    "name": "Split Enchantment",
+    "source": "srd24",
+    "page": "AU 17",
+    "tags": [
+      "enchanter-feature",
+      "wizard-feature"
+    ],
+    "text": "When you use a spell slot to cast an Enchantment spell, such as Charm Person, that can be cast with a higher-level spell slot to target an additional creature, you can increase the spell's effective level by 1.\n\nYou can use this feature a number of times equal to your Intelligence modifier, and you regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:enchanter:split-enchantment",
+        "name": "Split Enchantment",
+        "max": "@abilities.int.mod",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "split-enchantment",
+        "name": "Split Enchantment",
+        "activation": "special",
+        "cost": {
+          "srd24:enchanter:split-enchantment": 1
+        },
+        "text": "When casting an Enchantment spell with a slot, increase its effective level by 1 to target an additional creature.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:enchanter:instinctive-charm",
+    "kind": "subclass-feature",
+    "name": "Instinctive Charm",
+    "source": "srd24",
+    "page": "AU 17",
+    "tags": [
+      "enchanter-feature",
+      "wizard-feature"
+    ],
+    "text": "When a creature within 30 feet of you that you can see hits you with an attack roll, you can take a Reaction to force the attacker to make a Wisdom saving throw against your spell save DC. On a failed save, the attack misses instead, and if there is another creature within range of the attack other than the attacker, the attacker targets that creature with the triggering attack, using the same attack roll. If multiple creatures are within the attack's range, you choose which one to target.\n\nOnce you take this Reaction, you can't do so again until you finish a Long Rest. You can also restore your use of it by casting an Enchantment spell with a spell slot.",
+    "actions": [
+      {
+        "id": "instinctive-charm",
+        "name": "Instinctive Charm",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:enchanter:alter-memories",
+    "kind": "subclass-feature",
+    "name": "Alter Memories",
+    "source": "srd24",
+    "page": "AU 17",
+    "tags": [
+      "enchanter-feature",
+      "wizard-feature"
+    ],
+    "text": "You can make a creature unaware of your magical influence. When you cast an Enchantment spell that imposes the Charmed condition using a spell slot, you can choose one creature targeted by the spell. That creature remains unaware of being Charmed by you.\n\nIn addition, once before the spell ends, you can take a Magic action to force the chosen creature to make an Intelligence saving throw against your spell save DC. On a failed save, you can make the creature lose a number of hours of its memories equal to 1 plus your Intelligence modifier (minimum of 1 hour lost). You can make the creature forget less time, and the amount of time can't exceed the duration of your Enchantment spell."
+  }
+]

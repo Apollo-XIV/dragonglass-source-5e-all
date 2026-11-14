@@ -1,0 +1,233 @@
+[
+  {
+    "id": "srd:subclass:tempest-domain",
+    "kind": "subclass",
+    "name": "Tempest Domain",
+    "source": "srd",
+    "page": "PHB 62",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:tempest:tempest-domain",
+          "srd:spell:fog-cloud",
+          "srd:spell:thunderwave"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:tempest:channel-divinity-destructive-wrath"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:gust-of-wind",
+          "srd:spell:shatter"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:call-lightning",
+          "srd:spell:sleet-storm"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:tempest:thunderbolt-strike"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:control-water",
+          "srd:spell:ice-storm"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:tempest:divine-strike",
+          "srd:tempest:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:destructive-wave",
+          "srd:spell:insect-plague"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:tempest:stormborn"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:tempest:bonus-proficiencies",
+    "kind": "subclass-feature",
+    "name": "Bonus Proficiencies",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "tempest-feature",
+      "cleric-feature"
+    ],
+    "text": "At 1st level, you gain proficiency with martial weapons and heavy armor.",
+    "modifiers": [
+      {
+        "target": "proficiencies.weapon",
+        "op": "include",
+        "value": [
+          "martial weapons"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "heavy armor"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:tempest:wrath-of-the-storm",
+    "kind": "subclass-feature",
+    "name": "Wrath of the Storm",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "tempest-feature",
+      "cleric-feature"
+    ],
+    "text": "Also at 1st level, you can thunderously rebuke attackers. When a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to cause the creature to make a Dexterity saving throw. The creature takes 2d8 lightning or thunder damage (your choice) on a failed saving throw, and half as much damage on a successful one.\n\nYou can use this feature a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:tempest:wrath-of-the-storm",
+        "name": "Wrath of the Storm",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "wrath-of-the-storm",
+        "name": "Wrath of the Storm",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:tempest:wrath-of-the-storm": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:tempest:tempest-domain",
+    "kind": "subclass-feature",
+    "name": "Tempest Domain",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "tempest-feature",
+      "cleric-feature"
+    ],
+    "text": "Gods whose portfolios include the Tempest domain—including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Tempest Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | fog cloud, thunderwave |\n| 3rd | gust of wind, shatter |\n| 5th | call lightning, sleet storm |\n| 7th | control water, ice storm |\n| 9th | destructive wave, insect plague |",
+    "grants": [
+      "srd:tempest:bonus-proficiencies",
+      "srd:tempest:wrath-of-the-storm"
+    ]
+  },
+  {
+    "id": "srd:tempest:channel-divinity-destructive-wrath",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Destructive Wrath",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "tempest-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to wield the power of the storm with unchecked ferocity.\n\nWhen you roll lightning or thunder damage, you can use your Channel Divinity to deal maximum damage, instead of rolling.",
+    "actions": [
+      {
+        "id": "channel-divinity-destructive-wrath",
+        "name": "Channel Divinity: Destructive Wrath",
+        "activation": "special",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:tempest:thunderbolt-strike",
+    "kind": "subclass-feature",
+    "name": "Thunderbolt Strike",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "tempest-feature",
+      "cleric-feature"
+    ],
+    "text": "At 6th level, when you deal lightning damage to a Large or smaller creature, you can also push it up to 10 feet away from you."
+  },
+  {
+    "id": "srd:tempest:divine-strike",
+    "kind": "subclass-feature",
+    "name": "Divine Strike",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "tempest-feature",
+      "cleric-feature"
+    ],
+    "text": "At 8th level, you gain the ability to infuse your weapon strikes with divine energy. Once on each of your turns when you hit a creature with a weapon attack, you can cause the attack to deal an extra 1d8 thunder damage to the target. When you reach 14th level, the extra damage increases to 2d8."
+  },
+  {
+    "id": "srd:tempest:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "tempest-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Divine Strike feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:tempest:stormborn",
+    "kind": "subclass-feature",
+    "name": "Stormborn",
+    "source": "srd",
+    "page": "PHB 62",
+    "tags": [
+      "tempest-feature",
+      "cleric-feature"
+    ],
+    "text": "At 17th level, you have a flying speed equal to your current walking speed whenever you are not underground or indoors."
+  }
+]

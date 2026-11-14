@@ -1,0 +1,260 @@
+[
+  {
+    "id": "srd:subclass:arcane-archer",
+    "kind": "subclass",
+    "name": "Arcane Archer",
+    "source": "srd",
+    "page": "XGE 28",
+    "class": "srd:class:fighter",
+    "tags": [
+      "fighter-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> Arrows are the worst. They go much farther than eye rays. That's why I stay indoors all the time. Besides, the sky is totally overrated.\n>\n> — Xanathar\n\n> So there are different names for different sorts of people who swing swords? Why? Let me try: big sword swinger and tiny sword swinger. No, that sounds like it's the size of the sword that matters. How about: big meat bag with a sword and little meat bag with a sword!\n>\n> — Xanathar",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:arcane-archer:arcane-archer",
+          "srd:spell:prestidigitation",
+          "srd:spell:druidcraft"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:arcane-archer:arcane-shots-3",
+            "name": "Arcane Shots",
+            "count": 2,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:arcane-archer:magic-arrow",
+          "srd:arcane-archer:curving-shot",
+          "srd:arcane-archer:additional-arcane-shot-option"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:arcane-archer:arcane-shots-7",
+            "name": "Arcane Shots",
+            "count": 1,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:arcane-archer:additional-arcane-shot-option-10"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:arcane-archer:arcane-shots-10",
+            "name": "Arcane Shots",
+            "count": 1,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:arcane-archer:ever-ready-shot",
+          "srd:arcane-archer:additional-arcane-shot-option-15"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:arcane-archer:arcane-shots-15",
+            "name": "Arcane Shots",
+            "count": 1,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd:arcane-archer:additional-arcane-shot-option-18"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:arcane-archer:arcane-shots-18",
+            "name": "Arcane Shots",
+            "count": 1,
+            "from": {
+              "kind": "arcane-shot",
+              "tags": [
+                "arcane-archer-shot"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:arcane-archer:arcane-archer-lore",
+    "kind": "subclass-feature",
+    "name": "Arcane Archer Lore",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "At 3rd level, you learn magical theory or some of the secrets of nature—typical for practitioners of this elven martial tradition. You choose to gain proficiency in either the Arcana or the Nature skill, and you choose to learn either the prestidigitation or the druidcraft cantrip."
+  },
+  {
+    "id": "srd:arcane-archer:arcane-shot",
+    "kind": "subclass-feature",
+    "name": "Arcane Shot",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "At 3rd level, you learn to unleash special magical effects with some of your shots. When you gain this feature, you learn two Arcane Shot options of your choice (see \"Arcane Shot Options\" below).\n\nOnce per turn when you fire an arrow from a shortbow or longbow as part of the Attack action, you can apply one of your Arcane Shot options to that arrow. You decide to use the option when the arrow hits a creature, unless the option doesn't involve an attack roll. You have two uses of this ability, and you regain all expended uses of it when you finish a short or long rest.\n\nYou gain an additional Arcane Shot option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter."
+  },
+  {
+    "id": "srd:arcane-archer:arcane-shot-options",
+    "kind": "subclass-feature",
+    "name": "Arcane Shot Options",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.\n\nIf an option requires a saving throw, your Arcane Shot save DC is calculated as follows:\n\n**Arcane Shot save DC** = 8 + your proficiency bonus + your Intelligence modifier"
+  },
+  {
+    "id": "srd:arcane-archer:arcane-archer",
+    "kind": "subclass-feature",
+    "name": "Arcane Archer",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
+    "grants": [
+      "srd:arcane-archer:arcane-archer-lore",
+      "srd:arcane-archer:arcane-shot",
+      "srd:arcane-archer:arcane-shot-options"
+    ]
+  },
+  {
+    "id": "srd:arcane-archer:magic-arrow",
+    "kind": "subclass-feature",
+    "name": "Magic Arrow",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "At 7th level, you gain the ability to infuse arrows with magic. Whenever you fire a nonmagical arrow from a shortbow or longbow, you can make it magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. The magic fades from the arrow immediately after it hits or misses its target."
+  },
+  {
+    "id": "srd:arcane-archer:curving-shot",
+    "kind": "subclass-feature",
+    "name": "Curving Shot",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "At 7th level, you learn how to direct an errant arrow toward a new target. When you make an attack roll with a magic arrow and miss, you can use a bonus action to reroll the attack roll against a different target within 60 feet of the original target.",
+    "actions": [
+      {
+        "id": "curving-shot",
+        "name": "Curving Shot",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:arcane-archer:additional-arcane-shot-option",
+    "kind": "subclass-feature",
+    "name": "Additional Arcane Shot Option",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You gain an additional Arcane Shot option of your choice when you reach 7th level."
+  },
+  {
+    "id": "srd:arcane-archer:additional-arcane-shot-option-10",
+    "kind": "subclass-feature",
+    "name": "Additional Arcane Shot Option",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You gain an additional Arcane Shot option of your choice when you reach 10th level."
+  },
+  {
+    "id": "srd:arcane-archer:ever-ready-shot",
+    "kind": "subclass-feature",
+    "name": "Ever-Ready Shot",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "Starting at 15th level, your magical archery is available whenever battle starts. If you roll initiative and have no uses of Arcane Shot remaining, you regain one use of it."
+  },
+  {
+    "id": "srd:arcane-archer:additional-arcane-shot-option-15",
+    "kind": "subclass-feature",
+    "name": "Additional Arcane Shot Option",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You gain an additional Arcane Shot option of your choice when you reach 15th level."
+  },
+  {
+    "id": "srd:arcane-archer:additional-arcane-shot-option-18",
+    "kind": "subclass-feature",
+    "name": "Additional Arcane Shot Option",
+    "source": "srd",
+    "page": "XGE 28",
+    "tags": [
+      "arcane-archer-feature",
+      "fighter-feature"
+    ],
+    "text": "You gain an additional Arcane Shot option of your choice when you reach 18th level. Each option also improves when you become an 18th-level fighter."
+  }
+]

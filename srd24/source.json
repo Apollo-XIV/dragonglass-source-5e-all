@@ -1,0 +1,8 @@
+{
+  "id": "srd24",
+  "name": "System Reference Document 5.2",
+  "description": "Converted from 5etools SRD data (2024) by 5etools-to-dragonglass. Includes 5etools setting prose as `fluff`, which is not all SRD; rebuild with --no-fluff to publish.",
+  "sourcebooks": [
+    "srd24"
+  ]
+}

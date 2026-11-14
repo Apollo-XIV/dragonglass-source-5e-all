@@ -1,0 +1,164 @@
+[
+  {
+    "id": "srd24:subclass:circle-of-the-sea",
+    "kind": "subclass",
+    "name": "Circle of the Sea",
+    "source": "srd24",
+    "page": "XPHB 87",
+    "class": "srd24:class:druid",
+    "tags": [
+      "druid-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:sea:circle-of-the-sea",
+          "srd24:spell:fog-cloud",
+          "srd24:spell:gust-of-wind",
+          "srd24:spell:ray-of-frost",
+          "srd24:spell:shatter",
+          "srd24:spell:thunderwave"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:lightning-bolt",
+          "srd24:spell:water-breathing"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:sea:aquatic-affinity"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:spell:control-water",
+          "srd24:spell:ice-storm"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:conjure-elemental",
+          "srd24:spell:hold-monster"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:sea:stormborn"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:sea:oceanic-gift"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:sea:circle-of-the-sea-spells",
+    "kind": "subclass-feature",
+    "name": "Circle of the Sea Spells",
+    "source": "srd24",
+    "page": "XPHB 87",
+    "tags": [
+      "sea-feature",
+      "druid-feature"
+    ],
+    "text": "When you reach a Druid level specified in the Circle of the Sea Spells table, you thereafter always have the listed spells prepared.\n\n**Circle of the Sea Spells**\n| Druid Level | Prepared Spells |\n| --- | --- |\n| 3 | Fog Cloud, Gust of Wind, Ray of Frost, Shatter, Thunderwave |\n| 5 | Lightning Bolt, Water Breathing |\n| 7 | Control Water, Ice Storm |\n| 9 | Conjure Elemental, Hold Monster |"
+  },
+  {
+    "id": "srd24:sea:wrath-of-the-sea",
+    "kind": "subclass-feature",
+    "name": "Wrath of the Sea",
+    "source": "srd24",
+    "page": "XPHB 87",
+    "tags": [
+      "sea-feature",
+      "druid-feature"
+    ],
+    "text": "As a Bonus Action, you can expend a use of your Wild Shape to manifest a 5-foot Emanation that takes the form of ocean spray that surrounds you for 10 minutes. It ends early if you dismiss it (no action required), manifest it again, or have the Incapacitated condition.\n\nWhen you manifest the Emanation and as a Bonus Action on your subsequent turns, you can choose another creature you can see in the Emanation. The target must succeed on a Constitution saving throw against your spell save DC or take Cold damage and, if the creature is Large or smaller, be pushed up to 15 feet away from you. To determine this damage, roll a number of d6s equal to your Wisdom modifier (minimum of one die).",
+    "actions": [
+      {
+        "id": "wrath-of-the-sea",
+        "name": "Wrath of the Sea",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:sea:circle-of-the-sea",
+    "kind": "subclass-feature",
+    "name": "Circle of the Sea",
+    "source": "srd24",
+    "page": "XPHB 87",
+    "tags": [
+      "sea-feature",
+      "druid-feature"
+    ],
+    "text": "*Become One with Tides and Storms*\n\nDruids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature's wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.",
+    "grants": [
+      "srd24:sea:circle-of-the-sea-spells",
+      "srd24:sea:wrath-of-the-sea"
+    ]
+  },
+  {
+    "id": "srd24:sea:aquatic-affinity",
+    "kind": "subclass-feature",
+    "name": "Aquatic Affinity",
+    "source": "srd24",
+    "page": "XPHB 87",
+    "tags": [
+      "sea-feature",
+      "druid-feature"
+    ],
+    "text": "The size of the Emanation created by your Wrath of the Sea increases to 10 feet.\n\nIn addition, you gain a Swim Speed equal to your Speed."
+  },
+  {
+    "id": "srd24:sea:stormborn",
+    "kind": "subclass-feature",
+    "name": "Stormborn",
+    "source": "srd24",
+    "page": "XPHB 87",
+    "tags": [
+      "sea-feature",
+      "druid-feature"
+    ],
+    "text": "Your Wrath of the Sea confers two more benefits while active, as detailed below.\n\n**Flight.** You gain a Fly Speed equal to your Speed.\n\n**Resistance.** You have Resistance to Cold, Lightning, and Thunder damage.",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "cold",
+          "lightning",
+          "thunder"
+        ],
+        "when": {
+          "text": "while Wrath of the Sea is active"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:sea:oceanic-gift",
+    "kind": "subclass-feature",
+    "name": "Oceanic Gift",
+    "source": "srd24",
+    "page": "XPHB 88",
+    "tags": [
+      "sea-feature",
+      "druid-feature"
+    ],
+    "text": "Instead of manifesting the Emanation of Wrath of the Sea around yourself, you can manifest it around one willing creature within 60 feet of yourself. That creature gains all the benefits of the Emanation and uses your spell save DC and Wisdom modifier for it.\n\nIn addition, you can manifest the Emanation around both the other creature and yourself if you expend two uses of your Wild Shape instead of one when manifesting it."
+  }
+]

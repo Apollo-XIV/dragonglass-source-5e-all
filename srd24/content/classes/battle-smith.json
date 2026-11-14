@@ -1,0 +1,233 @@
+[
+  {
+    "id": "srd24:subclass:battle-smith",
+    "kind": "subclass",
+    "name": "Battle Smith",
+    "source": "srd24",
+    "page": "EFA 18",
+    "class": "srd24:class:artificer",
+    "tags": [
+      "artificer-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:battle-smith:battle-smith",
+          "srd24:spell:heroism",
+          "srd24:spell:shield"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:battle-smith:extra-attack",
+          "srd24:spell:shining-smite",
+          "srd24:spell:warding-bond"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:battle-smith:arcane-jolt",
+          "srd24:spell:aura-of-vitality",
+          "srd24:spell:conjure-barrage"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:spell:aura-of-purity",
+          "srd24:spell:fire-shield"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:battle-smith:improved-defender"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:spell:banishing-smite",
+          "srd24:spell:mass-cure-wounds"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:battle-smith:tools-of-the-trade",
+    "kind": "subclass-feature",
+    "name": "Tools of the Trade",
+    "source": "srd24",
+    "page": "EFA 18",
+    "tags": [
+      "battle-smith-feature",
+      "artificer-feature"
+    ],
+    "text": "You gain the following benefits.\n\n**Tool Proficiency.** You gain proficiency with Smith's Tools. If you already have this proficiency, you gain proficiency with one other type of Artisan's Tools of your choice.\n\n**Weapon Crafting.** When you craft a nonmagical or magic weapon, the amount of time required to craft it is halved.",
+    "modifiers": [
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "Smith's Tools"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:battle-smith:battle-smith-spells",
+    "kind": "subclass-feature",
+    "name": "Battle Smith Spells",
+    "source": "srd24",
+    "page": "EFA 18",
+    "tags": [
+      "battle-smith-feature",
+      "artificer-feature"
+    ],
+    "text": "When you reach an Artificer level specified in the Battle Smith Spells table, you thereafter always have the listed spells prepared.\n\n**Battle Smith Spells**\n| Artificer Level | Spells |\n| --- | --- |\n| 3 | Heroism, Shield |\n| 5 | Shining Smite, Warding Bond |\n| 9 | Aura of Vitality, Conjure Barrage |\n| 13 | Aura of Purity, Fire Shield |\n| 17 | Banishing Smite, Mass Cure Wounds |"
+  },
+  {
+    "id": "srd24:battle-smith:battle-ready",
+    "kind": "subclass-feature",
+    "name": "Battle Ready",
+    "source": "srd24",
+    "page": "EFA 18",
+    "tags": [
+      "battle-smith-feature",
+      "artificer-feature"
+    ],
+    "text": "Your combat training and your experiments with magic have paid off in two ways.\n\n**Arcane Empowerment.** When you attack with a magic weapon, you can use your Intelligence modifier, instead of your Strength or Dexterity modifier, for the attack and damage rolls.\n\n**Weapon Knowledge.** You gain proficiency with Martial weapons. You can use a weapon with which you have proficiency as a Spellcasting Focus for your Artificer spells.",
+    "modifiers": [
+      {
+        "target": "proficiencies.weapon",
+        "op": "include",
+        "value": [
+          "Martial weapons"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:battle-smith:steel-defender",
+    "kind": "subclass-feature",
+    "name": "Steel Defender",
+    "source": "srd24",
+    "page": "EFA 18",
+    "tags": [
+      "battle-smith-feature",
+      "artificer-feature"
+    ],
+    "text": "Your tinkering has borne you a companion, a Steel Defender. You determine the defender's appearance and whether it has two legs or four; your choices don't affect the defender's game statistics.\n\nThe defender is Friendly to you and your allies and obeys you. It vanishes if you die.\n\n**The Defender in Combat.** In combat, the defender acts during your turn. It can move and take its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action. If you have the Incapacitated condition, the defender acts on its own and isn't limited to the Dodge action.\n\n**Restoring or Replacing the Defender.** If the defender has died within the last hour, you can take a Magic action to touch it and expend a spell slot. The defender returns to life after 1 minute with all its Hit Points restored.\n\nWhenever you finish a Long Rest, you can create a new defender if you have Smith's Tools in hand. If you already have a defender from this feature, the first one vanishes."
+  },
+  {
+    "id": "srd24:battle-smith:battle-smith",
+    "kind": "subclass-feature",
+    "name": "Battle Smith",
+    "source": "srd24",
+    "page": "EFA 18",
+    "tags": [
+      "battle-smith-feature",
+      "artificer-feature"
+    ],
+    "text": "*Command a Construct Guardian*\n\nA Battle Smith is a combination of protector and medic, an expert at defending others and repairing both materiel and personnel. To aid in their work, Battle Smiths are accompanied by a Steel Defender, a protective companion of their own creation.",
+    "grants": [
+      "srd24:battle-smith:tools-of-the-trade",
+      "srd24:battle-smith:battle-smith-spells",
+      "srd24:battle-smith:battle-ready",
+      "srd24:battle-smith:steel-defender"
+    ]
+  },
+  {
+    "id": "srd24:battle-smith:extra-attack",
+    "kind": "subclass-feature",
+    "name": "Extra Attack",
+    "source": "srd24",
+    "page": "EFA 19",
+    "tags": [
+      "battle-smith-feature",
+      "artificer-feature"
+    ],
+    "text": "You can attack twice instead of once whenever you take the Attack action on your turn. You can forgo one of your attacks when you take the Attack action to command your Steel Defender to take the Force-Empowered Rend action."
+  },
+  {
+    "id": "srd24:battle-smith:arcane-jolt",
+    "kind": "subclass-feature",
+    "name": "Arcane Jolt",
+    "source": "srd24",
+    "page": "EFA 19",
+    "tags": [
+      "battle-smith-feature",
+      "artificer-feature"
+    ],
+    "text": "When either you hit a target with an attack roll using a magic weapon or your Steel Defender hits a target, you can channel magical energy through the strike to create one of the following effects:\n\n- **Destructive Energy.** The target takes an extra 2d6 Force damage.\n- **Restorative Energy.** Choose one creature or object you can see within 30 feet of the target. Healing energy flows into the chosen recipient, restoring 2d6 Hit Points to it.\n\nYou can use this energy a number of times equal to your Intelligence modifier (minimum of once), but you can do so no more than once per turn. You regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:battle-smith:arcane-jolt",
+        "name": "Arcane Jolt",
+        "max": "max(1, @abilities.int.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "arcane-jolt-destructive",
+        "name": "Arcane Jolt: Destructive Energy",
+        "activation": "special",
+        "cost": {
+          "srd24:battle-smith:arcane-jolt": 1
+        },
+        "damage": "2d6",
+        "damageType": "force",
+        "text": "Once per turn, when you hit with a magic weapon or your Steel Defender hits.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "id": "arcane-jolt-restorative",
+        "name": "Arcane Jolt: Restorative Energy",
+        "activation": "special",
+        "cost": {
+          "srd24:battle-smith:arcane-jolt": 1
+        },
+        "heal": "2d6",
+        "range": "30 ft.",
+        "target": "one creature or object you can see within 30 feet of the target",
+        "text": "Once per turn, when you hit with a magic weapon or your Steel Defender hits.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:battle-smith:improved-defender",
+    "kind": "subclass-feature",
+    "name": "Improved Defender",
+    "source": "srd24",
+    "page": "EFA 19",
+    "tags": [
+      "battle-smith-feature",
+      "artificer-feature"
+    ],
+    "text": "Your Arcane Jolt and Steel Defender have become more powerful, granting these benefits.\n\n**Improved Jolt.** The extra damage and healing of your Arcane Jolt both increase to 4d6.\n\n**Improved Deflection.** Whenever your Steel Defender uses its Deflect Attack, the attacker takes Force damage equal to 1d4 plus your Intelligence modifier."
+  }
+]

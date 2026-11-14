@@ -1,0 +1,120 @@
+[
+  {
+    "id": "srd:subclass:college-of-valor",
+    "kind": "subclass",
+    "name": "College of Valor",
+    "source": "srd",
+    "page": "PHB 55",
+    "class": "srd:class:bard",
+    "tags": [
+      "bard-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:valor:college-of-valor"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:valor:extra-attack"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:valor:battle-magic"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:valor:bonus-proficiencies",
+    "kind": "subclass-feature",
+    "name": "Bonus Proficiencies",
+    "source": "srd",
+    "page": "PHB 55",
+    "tags": [
+      "valor-feature",
+      "bard-feature"
+    ],
+    "text": "When you join the College of Valor at 3rd level, you gain proficiency with medium armor, shields, and martial weapons.",
+    "modifiers": [
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "medium armor",
+          "shields"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.weapon",
+        "op": "include",
+        "value": [
+          "martial weapons"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:valor:combat-inspiration",
+    "kind": "subclass-feature",
+    "name": "Combat Inspiration",
+    "source": "srd",
+    "page": "PHB 55",
+    "tags": [
+      "valor-feature",
+      "bard-feature"
+    ],
+    "text": "Also at 3rd level, you learn to inspire others in battle. A creature that has a Bardic Inspiration die from you can roll that die and add the number rolled to a weapon damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll the Bardic Inspiration die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses."
+  },
+  {
+    "id": "srd:valor:college-of-valor",
+    "kind": "subclass-feature",
+    "name": "College of Valor",
+    "source": "srd",
+    "page": "PHB 55",
+    "tags": [
+      "valor-feature",
+      "bard-feature"
+    ],
+    "text": "Bards of the College of Valor are daring skalds whose tales keep alive the memory of the great heroes of the past, and thereby inspire a new generation of heroes. These bards gather in mead halls or around great bonfires to sing the deeds of the mighty, both past and present. They travel the land to witness great events firsthand and to ensure that the memory of those events doesn't pass from the world. With their songs, they inspire others to reach the same heights of accomplishment as the heroes of old.",
+    "grants": [
+      "srd:valor:bonus-proficiencies",
+      "srd:valor:combat-inspiration"
+    ]
+  },
+  {
+    "id": "srd:valor:extra-attack",
+    "kind": "subclass-feature",
+    "name": "Extra Attack",
+    "source": "srd",
+    "page": "PHB 55",
+    "tags": [
+      "valor-feature",
+      "bard-feature"
+    ],
+    "text": "Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+  },
+  {
+    "id": "srd:valor:battle-magic",
+    "kind": "subclass-feature",
+    "name": "Battle Magic",
+    "source": "srd",
+    "page": "PHB 55",
+    "tags": [
+      "valor-feature",
+      "bard-feature"
+    ],
+    "text": "At 14th level, you have mastered the art of weaving spellcasting and weapon use into a single harmonious act. When you use your action to cast a bard spell, you can make one weapon attack as a bonus action."
+  }
+]

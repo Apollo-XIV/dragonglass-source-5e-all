@@ -1,0 +1,185 @@
+[
+  {
+    "id": "srd24:subclass:banneret",
+    "kind": "subclass",
+    "name": "Banneret",
+    "source": "srd24",
+    "page": "FRHoF 19",
+    "class": "srd24:class:fighter",
+    "tags": [
+      "fighter-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:banneret:banneret"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:banneret:team-tactics"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:banneret:rallying-surge"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:banneret:shared-resilience"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:banneret:inspiring-commander"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:banneret:knightly-envoy",
+    "kind": "subclass-feature",
+    "name": "Knightly Envoy",
+    "source": "srd24",
+    "page": "FRHoF 19",
+    "tags": [
+      "banneret-feature",
+      "fighter-feature"
+    ],
+    "text": "You know how to conduct yourself with grace as a noble ambassador. You gain the following benefits.\n\n**Comprehension.** You can cast the Comprehend Languages spell but only as a Ritual. Charisma is your spellcasting ability for it.\n\n**Polyglot.** You learn one language from the language tables in the Player's Handbook or chapter 2 of this book. When you finish a Long Rest, you can replace a language learned from this benefit with another language you have heard, seen signed, or read in the past 24 hours.\n\n**Well Spoken.** You gain proficiency in one of the following skills of your choice: Insight, Intimidation, Persuasion, or Performance."
+  },
+  {
+    "id": "srd24:banneret:group-recovery",
+    "kind": "subclass-feature",
+    "name": "Group Recovery",
+    "source": "srd24",
+    "page": "FRHoF 19",
+    "tags": [
+      "banneret-feature",
+      "fighter-feature"
+    ],
+    "text": "When you use your Second Wind to regain Hit Points, you can choose a number of allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies regains Hit Points equal to 1d4 plus your Fighter level. Once you use this ability, you can't use it again until you finish a Short or Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:banneret:group-recovery",
+        "name": "Group Recovery",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "group-recovery",
+        "name": "Group Recovery",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:banneret:group-recovery": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:banneret:banneret",
+    "kind": "subclass-feature",
+    "name": "Banneret",
+    "source": "srd24",
+    "page": "FRHoF 19",
+    "tags": [
+      "banneret-feature",
+      "fighter-feature"
+    ],
+    "text": "*Rally Fellow Heroes with Inspiring Leadership*\n\nBannerets are paragons of valor and leadership who protect the innocent and rally fellow adventurers to the causes of justice and freedom. Many are knights serving in Cormyr, the Silver Marches, Damara, Chessenta, or other lands across Faerûn. They wander the realms as knights errant, taking the fight against evil beyond their kingdom's borders.\n\nA Banneret relies on judgment, bravery, and fidelity to the code of chivalry to guide them in defeating evildoers. A lone Banneret is a skilled warrior, but when leading a band of allies one of these warriors can transform even a poorly equipped militia into a ferocious war band.",
+    "grants": [
+      "srd24:banneret:knightly-envoy",
+      "srd24:banneret:group-recovery"
+    ]
+  },
+  {
+    "id": "srd24:banneret:team-tactics",
+    "kind": "subclass-feature",
+    "name": "Team Tactics",
+    "source": "srd24",
+    "page": "FRHoF 19",
+    "tags": [
+      "banneret-feature",
+      "fighter-feature"
+    ],
+    "text": "When you use Group Recovery, each chosen ally has Advantage on D20 Tests until the start of your next turn."
+  },
+  {
+    "id": "srd24:banneret:rallying-surge",
+    "kind": "subclass-feature",
+    "name": "Rallying Surge",
+    "source": "srd24",
+    "page": "FRHoF 19",
+    "tags": [
+      "banneret-feature",
+      "fighter-feature"
+    ],
+    "text": "When you use your Action Surge, you can choose allies within a 30-foot Emanation originating from yourself, up to a number of allies equal to your Charisma modifier (minimum of one). Each of those allies can immediately take a Reaction to use one of the following options.\n\n**Attack.** The ally makes one attack with a weapon or an Unarmed Strike.\n\n**Move.** The ally moves up to half its Speed without provoking an Opportunity Attack."
+  },
+  {
+    "id": "srd24:banneret:shared-resilience",
+    "kind": "subclass-feature",
+    "name": "Shared Resilience",
+    "source": "srd24",
+    "page": "FRHoF 20",
+    "tags": [
+      "banneret-feature",
+      "fighter-feature"
+    ],
+    "text": "When an ally you can see within 60 feet of yourself fails a saving throw, you can take a Reaction to expend a use of your Indomitable feature. The ally can immediately reroll the saving throw with a bonus equal to your Fighter level; the ally must use the new roll.",
+    "actions": [
+      {
+        "id": "shared-resilience",
+        "name": "Shared Resilience",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:banneret:inspiring-commander",
+    "kind": "subclass-feature",
+    "name": "Inspiring Commander",
+    "source": "srd24",
+    "page": "FRHoF 20",
+    "tags": [
+      "banneret-feature",
+      "fighter-feature"
+    ],
+    "text": "You gain the following benefits.\n\n**Bolstered Rally.** The area of effect for both Group Recovery and Rallying Surge is now a 60-foot Emanation.\n\n**Unshakable Bravery.** You have Immunity to the Charmed and Frightened conditions.",
+    "modifiers": [
+      {
+        "target": "conditionImmunities",
+        "op": "include",
+        "value": [
+          "charmed",
+          "frightened"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

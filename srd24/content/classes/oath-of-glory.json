@@ -1,0 +1,268 @@
+[
+  {
+    "id": "srd24:subclass:oath-of-glory",
+    "kind": "subclass",
+    "name": "Oath of Glory",
+    "source": "srd24",
+    "page": "XPHB 114",
+    "class": "srd24:class:paladin",
+    "tags": [
+      "paladin-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:glory:oath-of-glory",
+          "srd24:spell:guiding-bolt",
+          "srd24:spell:heroism"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:enhance-ability",
+          "srd24:spell:magic-weapon"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:glory:aura-of-alacrity"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:haste",
+          "srd24:spell:protection-from-energy"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:spell:compulsion",
+          "srd24:spell:freedom-of-movement"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:glory:glorious-defense"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:spell:legend-lore",
+          "srd24:spell:yolandes-regal-presence"
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:glory:living-legend"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:glory:oath-of-glory-spells",
+    "kind": "subclass-feature",
+    "name": "Oath of Glory Spells",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Glory Spells table, you thereafter always have the listed spells prepared.\n\n**Oath of Glory Spells**\n| Paladin Level | Spells |\n| --- | --- |\n| 3 | Guiding Bolt, Heroism |\n| 5 | Enhance Ability, Magic Weapon |\n| 9 | Haste, Protection from Energy |\n| 13 | Compulsion, Freedom of Movement |\n| 17 | Legend Lore, Yolande's Regal Presence |"
+  },
+  {
+    "id": "srd24:glory:inspiring-smite",
+    "kind": "subclass-feature",
+    "name": "Inspiring Smite",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "Immediately after you cast Divine Smite, you can expend one use of your Channel Divinity and distribute Temporary Hit Points to creatures of your choice within 30 feet of yourself, which can include you. The total number of Temporary Hit Points equals 2d8 plus your Paladin level, divided among the chosen creatures however you like.",
+    "actions": [
+      {
+        "id": "inspiring-smite",
+        "name": "Inspiring Smite",
+        "activation": "special",
+        "cost": {
+          "srd24:paladin:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:glory:peerless-athlete",
+    "kind": "subclass-feature",
+    "name": "Peerless Athlete",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "As a Bonus Action, you can expend one use of your Channel Divinity to augment your athleticism. For 1 hour, you have Advantage on Strength (Athletics) and Dexterity (Acrobatics) checks, and the distance of your Long and High Jumps increases by 10 feet (this extra distance costs movement as normal).",
+    "actions": [
+      {
+        "id": "peerless-athlete",
+        "name": "Peerless Athlete",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:paladin:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:glory:oath-of-glory",
+    "kind": "subclass-feature",
+    "name": "Oath of Glory",
+    "source": "srd24",
+    "page": "XPHB 114",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "*Strive for the Heights of Heroism*\n\nPaladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they're all ready when destiny calls.\n\nThese paladins share the following tenets:\n\n- Endeavor to be known by your deeds.\n- Face hardships with courage.\n- Inspire others to strive for glory.",
+    "grants": [
+      "srd24:glory:oath-of-glory-spells",
+      "srd24:glory:inspiring-smite",
+      "srd24:glory:peerless-athlete"
+    ]
+  },
+  {
+    "id": "srd24:glory:aura-of-alacrity",
+    "kind": "subclass-feature",
+    "name": "Aura of Alacrity",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "Your Speed increases by 10 feet.\n\nIn addition, whenever an ally enters your Aura of Protection for the first time on a turn or starts their turn there, the ally's Speed increases by 10 feet until the end of their next turn.",
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "add",
+        "value": 10,
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:glory:glorious-defense",
+    "kind": "subclass-feature",
+    "name": "Glorious Defense",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "You can turn defense into a sudden strike. When you or another creature you can see within 10 feet of you is hit by an attack roll, you can take a Reaction to grant a bonus to the target's AC against that attack, potentially causing it to miss. The bonus equals your Charisma modifier (minimum of +1). If the attack misses, you can make one attack with a weapon against the attacker as part of this Reaction if the attacker is within your weapon's range.\n\nYou can use this feature a number of times equal to your Charisma modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:glory:glorious-defense",
+        "name": "Glorious Defense",
+        "max": "max(1, @abilities.cha.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "glorious-defense",
+        "name": "Glorious Defense",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:glory:glorious-defense": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:glory:living-legend",
+    "kind": "subclass-feature",
+    "name": "Living Legend",
+    "source": "srd24",
+    "page": "XPHB 115",
+    "tags": [
+      "glory-feature",
+      "paladin-feature"
+    ],
+    "text": "You can empower yourself with the legends—whether true or exaggerated—of your great deeds. As a Bonus Action, you gain the benefits below for 10 minutes. Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).\n\n**Charismatic.** You are blessed with an otherworldly presence and have Advantage on all Charisma checks.\n\n**Saving Throw Reroll.** If you fail a saving throw, you can take a Reaction to reroll it. You must use this new roll.\n\n**Unerring Strike.** Once on each of your turns when you make an attack roll with a weapon and miss, you can cause that attack to hit instead.",
+    "resources": [
+      {
+        "id": "srd24:glory:living-legend",
+        "name": "Living Legend",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "living-legend",
+        "name": "Living Legend",
+        "activation": "bonus-action",
+        "cost": {
+          "srd24:glory:living-legend": 1
+        },
+        "applies": "living-legend",
+        "duration": "10 minutes",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "id": "living-legend",
+        "name": "Living Legend",
+        "duration": "10 minutes",
+        "modifiers": [
+          {
+            "target": "checks.cha",
+            "op": "advantage"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,1461 @@
+[
+  {
+    "id": "srd:invocation:agonizing-blast",
+    "kind": "eldritch-invocation",
+    "name": "Agonizing Blast",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.",
+    "page": "PHB 110",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:spell:eldritch-blast"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:armor-of-shadows",
+    "kind": "eldritch-invocation",
+    "name": "Armor of Shadows",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast mage armor on yourself at will, without expending a spell slot or material components.",
+    "page": "PHB 110",
+    "innateSpells": [
+      {
+        "spell": "srd:spell:mage-armor"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:ascendant-step",
+    "kind": "eldritch-invocation",
+    "name": "Ascendant Step",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast levitate on yourself at will, without expending a spell slot or material components.",
+    "page": "PHB 110",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 9
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:levitate"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:aspect-of-the-moon",
+    "kind": "eldritch-invocation",
+    "name": "Aspect of the Moon",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You no longer need to sleep and can't be forced to sleep by any means. To gain the benefits of a long rest, you can spend all 8 hours doing light activity, such as reading your Book of Shadows and keeping watch.",
+    "page": "XGE 56",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-tome"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:beast-speech",
+    "kind": "eldritch-invocation",
+    "name": "Beast Speech",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast speak with animals at will, without expending a spell slot.",
+    "page": "PHB 110",
+    "innateSpells": [
+      {
+        "spell": "srd:spell:speak-with-animals"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:beguiling-influence",
+    "kind": "eldritch-invocation",
+    "name": "Beguiling Influence",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You gain proficiency in the Deception and Persuasion skills.",
+    "page": "PHB 110",
+    "grants": [
+      "srd:skill:deception",
+      "srd:skill:persuasion"
+    ]
+  },
+  {
+    "id": "srd:invocation:bewitching-whispers",
+    "kind": "eldritch-invocation",
+    "name": "Bewitching Whispers",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast compulsion once using a warlock spell slot. You can't do so again until you finish a long rest.",
+    "page": "PHB 110",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 7
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:compulsion",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:bond-of-the-talisman",
+    "kind": "eldritch-invocation",
+    "name": "Bond of the Talisman",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "While someone else is wearing your talisman, you can use your action to teleport to the unoccupied space closest to them, provided the two of you are on the same plane of existence. The wearer of your talisman can do the same thing, using their action to teleport to you. The teleportation can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.",
+    "page": "TCE 70",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 12
+        },
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-talisman"
+        }
+      ]
+    },
+    "resources": [
+      {
+        "id": "srd:invocation:bond-of-the-talisman",
+        "name": "Bond of the Talisman",
+        "max": "@prof",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "bond-of-the-talisman",
+        "name": "Bond of the Talisman",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:book-of-ancient-secrets",
+    "kind": "eldritch-invocation",
+    "name": "Book of Ancient Secrets",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can now inscribe magical rituals in your Book of Shadows. Choose two 1st-level spells that have the ritual tag from any class's spell list. The spells needn't be from the same spell list. The spells appear in the book and don't count against the number of spells you know. With your Book of Shadows in hand, you can cast the chosen spells as rituals. You can't cast the spells except as rituals, unless you've learned them by some other means. You can also cast a warlock spell you know as a ritual if it has the ritual tag.\n\nOn your adventures, you can add other ritual spells to your Book of Shadows. When you find such a spell, you can add it to the book if the spell's level is equal to or less than half your warlock level (rounded up) and if you can spare the time to transcribe the spell. For each level of the spell, the transcription process takes 2 hours and costs 50 gp for the rare inks needed to inscribe it.",
+    "page": "PHB 110",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-tome"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:chains-of-carceri",
+    "kind": "eldritch-invocation",
+    "name": "Chains of Carceri",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast hold monster at will—targeting a celestial, fiend, or elemental—without expending a spell slot or material components. You must finish a long rest before you can use this invocation on the same creature again.",
+    "page": "PHB 110",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-chain"
+        },
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 15
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:hold-monster",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:cloak-of-flies",
+    "kind": "eldritch-invocation",
+    "name": "Cloak of Flies",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "As a bonus action, you can surround yourself with a magical aura that looks like buzzing flies. The aura extends 5 feet from you in every direction, but not through total cover. It lasts until you're incapacitated or you dismiss it as a bonus action.\n\nThe aura grants you advantage on Charisma (Intimidation) checks but disadvantage on all other Charisma checks. Any other creature that starts its turn in the aura takes poison damage equal to your Charisma modifier (minimum of 0 damage).\n\nOnce you use this invocation, you can't use it again until you finish a short or long rest.",
+    "page": "XGE 56",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    },
+    "resources": [
+      {
+        "id": "srd:invocation:cloak-of-flies",
+        "name": "Cloak of Flies",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "cloak-of-flies",
+        "name": "Cloak of Flies",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:invocation:cloak-of-flies": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:devils-sight",
+    "kind": "eldritch-invocation",
+    "name": "Devil's Sight",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can see normally in darkness, both magical and nonmagical, to a distance of 120 feet.",
+    "page": "PHB 110",
+    "modifiers": [
+      {
+        "target": "senses.darkvision",
+        "op": "base",
+        "value": 120,
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:dreadful-word",
+    "kind": "eldritch-invocation",
+    "name": "Dreadful Word",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast confusion once using a warlock spell slot. You can't do so again until you finish a long rest.",
+    "page": "PHB 110",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 7
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:confusion",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:eldritch-mind",
+    "kind": "eldritch-invocation",
+    "name": "Eldritch Mind",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You have advantage on Constitution saving throws that you make to maintain your concentration on a spell.",
+    "page": "TCE 71"
+  },
+  {
+    "id": "srd:invocation:eldritch-sight",
+    "kind": "eldritch-invocation",
+    "name": "Eldritch Sight",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast detect magic at will, without expending a spell slot.",
+    "page": "PHB 110",
+    "innateSpells": [
+      {
+        "spell": "srd:spell:detect-magic"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:eldritch-smite",
+    "kind": "eldritch-invocation",
+    "name": "Eldritch Smite",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "Once per turn when you hit a creature with your pact weapon, you can expend a warlock spell slot to deal an extra 1d8 force damage to the target, plus another 1d8 per level of the spell slot, and you can knock the target prone if it is Huge or smaller.",
+    "page": "XGE 56",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-blade"
+        },
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:eldritch-spear",
+    "kind": "eldritch-invocation",
+    "name": "Eldritch Spear",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "When you cast eldritch blast, its range is 300 feet.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:spell:eldritch-blast"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:eyes-of-the-rune-keeper",
+    "kind": "eldritch-invocation",
+    "name": "Eyes of the Rune Keeper",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can read all writing.",
+    "page": "PHB 111"
+  },
+  {
+    "id": "srd:invocation:far-scribe",
+    "kind": "eldritch-invocation",
+    "name": "Far Scribe",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.\n\nYou can cast the sending spell, targeting a creature whose name is on the page, without using a spell slot and without using material components. To do so, you must write the message on the page. The target hears the message in their mind, and if the target replies, their message appears on the page, rather than in your mind. The writing disappears after 1 minute.\n\nAs an action, you can magically erase a name on the page by touching it.",
+    "page": "TCE 71",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        },
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-tome"
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:sending"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:fiendish-vigor",
+    "kind": "eldritch-invocation",
+    "name": "Fiendish Vigor",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast false life on yourself at will as a 1st-level spell, without expending a spell slot or material components.",
+    "page": "PHB 111",
+    "innateSpells": [
+      {
+        "spell": "srd:spell:false-life"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:gaze-of-two-minds",
+    "kind": "eldritch-invocation",
+    "name": "Gaze of Two Minds",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can use your action to touch a willing humanoid and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can use your action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you are blinded and deafened to your own surroundings.",
+    "page": "PHB 111",
+    "actions": [
+      {
+        "id": "gaze-of-two-minds",
+        "name": "Gaze of Two Minds",
+        "activation": "action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:ghostly-gaze",
+    "kind": "eldritch-invocation",
+    "name": "Ghostly Gaze",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don't already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images.\n\nOnce you use this invocation, you can't use it again until you finish a short or long rest.",
+    "page": "XGE 56",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 7
+        }
+      ]
+    },
+    "resources": [
+      {
+        "id": "srd:invocation:ghostly-gaze",
+        "name": "Ghostly Gaze",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "ghostly-gaze",
+        "name": "Ghostly Gaze",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:invocation:ghostly-gaze": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:gift-of-the-depths",
+    "kind": "eldritch-invocation",
+    "name": "Gift of the Depths",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can breathe underwater, and you gain a swimming speed equal to your walking speed.\n\nYou can also cast water breathing once without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:water-breathing",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:gift-of-the-ever-living-ones",
+    "kind": "eldritch-invocation",
+    "name": "Gift of the Ever-Living Ones",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "Whenever you regain hit points while your familiar is within 100 feet of you, treat any dice rolled to determine the hit points you regain as having rolled their maximum value for you.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-chain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:gift-of-the-protectors",
+    "kind": "eldritch-invocation",
+    "name": "Gift of the Protectors",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "A new page appears in your Book of Shadows. With your permission, a creature can use its action to write its name on that page, which can contain a number of names equal to your proficiency bonus.\n\nWhen any creature whose name is on the page is reduced to 0 hit points but not killed outright, the creature magically drops to 1 hit point instead. Once this magic is triggered, no creature can benefit from it until you finish a long rest.\n\nAs an action, you can magically erase a name on the page by touching it.",
+    "page": "TCE 71",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 9
+        },
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-tome"
+        }
+      ]
+    },
+    "actions": [
+      {
+        "id": "gift-of-the-protectors",
+        "name": "Gift of the Protectors",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:grasp-of-hadar",
+    "kind": "eldritch-invocation",
+    "name": "Grasp of Hadar",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "Once on each of your turns when you hit a creature with your eldritch blast, you can move that creature in a straight line 10 feet closer to you.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:spell:eldritch-blast"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:improved-pact-weapon",
+    "kind": "eldritch-invocation",
+    "name": "Improved Pact Weapon",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can use any weapon you summon with your Pact of the Blade feature as a spellcasting focus for your warlock spells.\n\nIn addition, the weapon gains a +1 bonus to its attack and damage rolls, unless it is a magic weapon that already has a bonus to those rolls.\n\nFinally, the weapon you conjure can be a shortbow, longbow, light crossbow, or heavy crossbow.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-blade"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:investment-of-the-chain-master",
+    "kind": "eldritch-invocation",
+    "name": "Investment of the Chain Master",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "When you cast find familiar, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits:\n\n- The familiar gains either a flying speed or a swimming speed (your choice) of 40 feet.\n- As a bonus action, you can command the familiar to take the Attack action.\n- The familiar's weapon attacks are considered magical for the purpose of overcoming immunity and resistance to nonmagical attacks.\n- If the familiar forces a creature to make a saving throw, it uses your spell save DC.\n- When the familiar takes damage, you can use your reaction to grant it resistance against that damage.",
+    "page": "TCE 71",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-chain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:lance-of-lethargy",
+    "kind": "eldritch-invocation",
+    "name": "Lance of Lethargy",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "Once on each of your turns when you hit a creature with your eldritch blast, you can reduce that creature's speed by 10 feet until the end of your next turn.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:spell:eldritch-blast"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:lifedrinker",
+    "kind": "eldritch-invocation",
+    "name": "Lifedrinker",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "When you hit a creature with your pact weapon, the creature takes extra necrotic damage equal to your Charisma modifier (minimum of 1).",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 12
+        },
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-blade"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:maddening-hex",
+    "kind": "eldritch-invocation",
+    "name": "Maddening Hex",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "As a bonus action, you cause a psychic disturbance around the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. When you do so, you deal psychic damage to the cursed target and each creature of your choice that you can see within 5 feet of it. The psychic damage equals your Charisma modifier (minimum of 1 damage). To use this invocation, you must be able to see the cursed target, and it must be within 30 feet of you.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        },
+        {
+          "type": "has",
+          "id": "srd:spell:hex-curse"
+        }
+      ]
+    },
+    "actions": [
+      {
+        "id": "maddening-hex",
+        "name": "Maddening Hex",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:mask-of-many-faces",
+    "kind": "eldritch-invocation",
+    "name": "Mask of Many Faces",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast disguise self at will, without expending a spell slot.",
+    "page": "PHB 111",
+    "innateSpells": [
+      {
+        "spell": "srd:spell:disguise-self"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:master-of-myriad-forms",
+    "kind": "eldritch-invocation",
+    "name": "Master of Myriad Forms",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast alter self at will, without expending a spell slot.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 15
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:alter-self"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:minions-of-chaos",
+    "kind": "eldritch-invocation",
+    "name": "Minions of Chaos",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast conjure elemental once using a warlock spell slot. You can't do so again until you finish a long rest.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 9
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:conjure-elemental",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:mire-the-mind",
+    "kind": "eldritch-invocation",
+    "name": "Mire the Mind",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast slow once using a warlock spell slot. You can't do so again until you finish a long rest.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:slow",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:misty-visions",
+    "kind": "eldritch-invocation",
+    "name": "Misty Visions",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast silent image at will, without expending a spell slot or material components.",
+    "page": "PHB 111",
+    "innateSpells": [
+      {
+        "spell": "srd:spell:silent-image"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:one-with-shadows",
+    "kind": "eldritch-invocation",
+    "name": "One with Shadows",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    },
+    "actions": [
+      {
+        "id": "one-with-shadows",
+        "name": "One with Shadows",
+        "activation": "action",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:otherworldly-leap",
+    "kind": "eldritch-invocation",
+    "name": "Otherworldly Leap",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast jump on yourself at will, without expending a spell slot or material components.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 9
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:jump"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:protection-of-the-talisman",
+    "kind": "eldritch-invocation",
+    "name": "Protection of the Talisman",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "When the wearer of your talisman fails a saving throw, they can add a d4 to the roll, potentially turning the save into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.",
+    "page": "TCE 71",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 7
+        },
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-talisman"
+        }
+      ]
+    },
+    "resources": [
+      {
+        "id": "srd:invocation:protection-of-the-talisman",
+        "name": "Protection of the Talisman",
+        "max": "@prof",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:rebuke-of-the-talisman",
+    "kind": "eldritch-invocation",
+    "name": "Rebuke of the Talisman",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "When the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your proficiency bonus and push it up to 10 feet away from the talisman's wearer.",
+    "page": "TCE 71",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-talisman"
+        }
+      ]
+    },
+    "actions": [
+      {
+        "id": "rebuke-of-the-talisman",
+        "name": "Rebuke of the Talisman",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:relentless-hex",
+    "kind": "eldritch-invocation",
+    "name": "Relentless Hex",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "Your curse creates a temporary bond between you and your target. As a bonus action, you can magically teleport up to 30 feet to an unoccupied space you can see within 5 feet of the target cursed by your hex spell or by a warlock feature of yours, such as Hexblade's Curse or Sign of Ill Omen. To teleport in this way, you must be able to see the cursed target.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 7
+        },
+        {
+          "type": "has",
+          "id": "srd:spell:hex-curse"
+        }
+      ]
+    },
+    "actions": [
+      {
+        "id": "relentless-hex",
+        "name": "Relentless Hex",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:repelling-blast",
+    "kind": "eldritch-invocation",
+    "name": "Repelling Blast",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "When you hit a creature with eldritch blast, you can push the creature up to 10 feet away from you in a straight line.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:spell:eldritch-blast"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:sculptor-of-flesh",
+    "kind": "eldritch-invocation",
+    "name": "Sculptor of Flesh",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast polymorph once using a warlock spell slot. You can't do so again until you finish a long rest.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 7
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:polymorph",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:shroud-of-shadow",
+    "kind": "eldritch-invocation",
+    "name": "Shroud of Shadow",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast invisibility at will, without expending a spell slot.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 15
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:invisibility"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:sign-of-ill-omen",
+    "kind": "eldritch-invocation",
+    "name": "Sign of Ill Omen",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast bestow curse once using a warlock spell slot. You can't do so again until you finish a long rest.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:bestow-curse",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:thief-of-five-fates",
+    "kind": "eldritch-invocation",
+    "name": "Thief of Five Fates",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast bane once using a warlock spell slot. You can't do so again until you finish a long rest.",
+    "page": "PHB 111",
+    "innateSpells": [
+      {
+        "spell": "srd:spell:bane",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:thirsting-blade",
+    "kind": "eldritch-invocation",
+    "name": "Thirsting Blade",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can attack with your pact weapon twice, instead of once, whenever you take the Attack action on your turn.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-blade"
+        },
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    },
+    "actions": [
+      {
+        "id": "thirsting-blade",
+        "name": "Thirsting Blade",
+        "activation": "special",
+        "provenance": {
+          "source": "pack:release-5.3.3",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:tomb-of-levistus",
+    "kind": "eldritch-invocation",
+    "name": "Tomb of Levistus",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "As a reaction when you take damage, you can entomb yourself in ice, which melts away at the end of your next turn. You gain 10 temporary hit points per warlock level, which take as much of the triggering damage as possible. Immediately after you take the damage, you gain vulnerability to fire damage, your speed is reduced to 0, and you are incapacitated. These effects, including any remaining temporary hit points, all end when the ice melts.\n\nOnce you use this invocation, you can't use it again until you finish a short or long rest.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    },
+    "resources": [
+      {
+        "id": "srd:invocation:tomb-of-levistus",
+        "name": "Tomb of Levistus",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "tomb-of-levistus",
+        "name": "Tomb of Levistus",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:invocation:tomb-of-levistus": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:tricksters-escape",
+    "kind": "eldritch-invocation",
+    "name": "Trickster's Escape",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast freedom of movement once on yourself without expending a spell slot. You regain the ability to do so when you finish a long rest.",
+    "page": "XGE 57",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 7
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:freedom-of-movement",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:undying-servitude",
+    "kind": "eldritch-invocation",
+    "name": "Undying Servitude",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast animate dead without using a spell slot. Once you do so, you can't cast it in this way again until you finish a long rest.",
+    "page": "TCE 71",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 5
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:animate-dead",
+        "uses": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ]
+      }
+    ],
+    "resources": [
+      {
+        "id": "srd:invocation:undying-servitude",
+        "name": "Undying Servitude",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "undying-servitude",
+        "name": "Undying Servitude",
+        "activation": "special",
+        "cost": {
+          "srd:invocation:undying-servitude": 1
+        },
+        "text": "Cast animate dead without a spell slot.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:visions-of-distant-realms",
+    "kind": "eldritch-invocation",
+    "name": "Visions of Distant Realms",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast arcane eye at will, without expending a spell slot.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 15
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:arcane-eye"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:voice-of-the-chain-master",
+    "kind": "eldritch-invocation",
+    "name": "Voice of the Chain Master",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can communicate telepathically with your familiar and perceive through your familiar's senses as long as you are on the same plane of existence. Additionally, while perceiving through your familiar's senses, you can also speak through your familiar in your own voice, even if your familiar is normally incapable of speech.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "has",
+          "id": "srd:pact-boon:pact-of-the-chain"
+        }
+      ]
+    }
+  },
+  {
+    "id": "srd:invocation:whispers-of-the-grave",
+    "kind": "eldritch-invocation",
+    "name": "Whispers of the Grave",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can cast speak with dead at will, without expending a spell slot.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 9
+        }
+      ]
+    },
+    "innateSpells": [
+      {
+        "spell": "srd:spell:speak-with-dead"
+      }
+    ]
+  },
+  {
+    "id": "srd:invocation:witch-sight",
+    "kind": "eldritch-invocation",
+    "name": "Witch Sight",
+    "source": "srd",
+    "tags": [
+      "warlock-invocation"
+    ],
+    "text": "You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.",
+    "page": "PHB 111",
+    "requires": {
+      "all": [
+        {
+          "type": "class-level",
+          "class": "warlock",
+          "min": 15
+        }
+      ]
+    }
+  }
+]

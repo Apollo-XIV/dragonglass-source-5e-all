@@ -1,0 +1,203 @@
+[
+  {
+    "id": "srd:subclass:fey-wanderer",
+    "kind": "subclass",
+    "name": "Fey Wanderer",
+    "source": "srd",
+    "page": "TCE 58",
+    "class": "srd:class:ranger",
+    "tags": [
+      "ranger-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd:fey-wanderer:fey-wanderer",
+          {
+            "id": "srd:spell:charm-person",
+            "mode": "learned"
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          {
+            "id": "srd:spell:misty-step",
+            "mode": "learned"
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:fey-wanderer:beguiling-twist"
+        ]
+      },
+      "9": {
+        "grants": [
+          {
+            "id": "srd:spell:dispel-magic",
+            "mode": "learned"
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:fey-wanderer:fey-reinforcements"
+        ]
+      },
+      "13": {
+        "grants": [
+          {
+            "id": "srd:spell:dimension-door",
+            "mode": "learned"
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:fey-wanderer:misty-wanderer"
+        ]
+      },
+      "17": {
+        "grants": [
+          {
+            "id": "srd:spell:mislead",
+            "mode": "learned"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:fey-wanderer:dreadful-strikes",
+    "kind": "subclass-feature",
+    "name": "Dreadful Strikes",
+    "source": "srd",
+    "page": "TCE 58",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "*3rd-level Fey Wanderer feature*\n\nYou can augment your weapon strikes with mind-scarring magic, drawn from the gloomy hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 psychic damage to the target, which can take this extra damage only once per turn.\n\nThe extra damage increases to 1d6 when you reach 11th level in this class."
+  },
+  {
+    "id": "srd:fey-wanderer:fey-wanderer-magic",
+    "kind": "subclass-feature",
+    "name": "Fey Wanderer Magic",
+    "source": "srd",
+    "page": "TCE 58",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "*3rd-level Fey Wanderer feature*\n\nYou learn an additional spell when you reach certain levels in this class, as shown in the Fey Wanderer Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.\n\n**Fey Wanderer Spells**\n| Ranger Level | Spells |\n| --- | --- |\n| 3rd | charm person |\n| 5th | misty step |\n| 9th | dispel magic |\n| 13th | dimension door |\n| 17th | mislead |\n\nYou also possess a preternatural blessing from a fey ally or a place of fey power. Choose your blessing from the Feywild Gifts table or determine it randomly.\n\n**Feywild Gifts**\n| d6 | Gift |\n| --- | --- |\n| 1 | Illusory butterflies flutter around you while you take a short or long rest. |\n| 2 | Fresh, seasonal flowers sprout from your hair each dawn. |\n| 3 | You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice. |\n| 4 | Your shadow dances while no one is looking directly at it. |\n| 5 | Horns or antlers sprout from your head. |\n| 6 | Your skin and hair change color to match the season at each dawn. |"
+  },
+  {
+    "id": "srd:fey-wanderer:otherworldly-glamour",
+    "kind": "subclass-feature",
+    "name": "Otherworldly Glamour",
+    "source": "srd",
+    "page": "TCE 58",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "*3rd-level Fey Wanderer feature*\n\nYour fey qualities give you a supernatural charm. As a result, whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).\n\nIn addition, you gain proficiency in one of the following skills of your choice: Deception, Performance, or Persuasion."
+  },
+  {
+    "id": "srd:fey-wanderer:fey-wanderer",
+    "kind": "subclass-feature",
+    "name": "Fey Wanderer",
+    "source": "srd",
+    "page": "TCE 58",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "A fey mystique surrounds you, thanks to the boon of an archfey, the shining fruit you ate from a talking tree, the magic spring you swam in, or some other auspicious event. However you acquired your fey magic, you are now a Fey Wanderer, a ranger who represents both the mortal and the fey realms. As you wander the multiverse, your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.",
+    "grants": [
+      "srd:fey-wanderer:dreadful-strikes",
+      "srd:fey-wanderer:fey-wanderer-magic",
+      "srd:fey-wanderer:otherworldly-glamour"
+    ]
+  },
+  {
+    "id": "srd:fey-wanderer:beguiling-twist",
+    "kind": "subclass-feature",
+    "name": "Beguiling Twist",
+    "source": "srd",
+    "page": "TCE 58",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "*7th-level Fey Wanderer feature*\n\nThe magic of the Feywild guards your mind. You have advantage on saving throws against being charmed or frightened.\n\nIn addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw against being charmed or frightened, you can use your reaction to force a different creature you can see within 120 feet of you to make a Wisdom saving throw against your spell save DC. If the save fails, the target is charmed or frightened by you (your choice) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a successful save.",
+    "actions": [
+      {
+        "id": "beguiling-twist",
+        "name": "Beguiling Twist",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:fey-wanderer:fey-reinforcements",
+    "kind": "subclass-feature",
+    "name": "Fey Reinforcements",
+    "source": "srd",
+    "page": "TCE 58",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "*11th-level Fey Wanderer feature*\n\nThe royal courts of the Feywild have blessed you with the assistance of fey beings: you know summon fey. It doesn't count against the number of ranger spells you know, and you can cast it without a material component. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.\n\nWhenever you start casting the spell, you can modify it so that it doesn't require concentration. If you do so, the spell's duration becomes 1 minute for that casting."
+  },
+  {
+    "id": "srd:fey-wanderer:misty-wanderer",
+    "kind": "subclass-feature",
+    "name": "Misty Wanderer",
+    "source": "srd",
+    "page": "TCE 58",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "*15th-level Fey Wanderer feature*\n\nYou can slip in and out of the Feywild to move in a blink of an eye: you can cast misty step without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a long rest.\n\nIn addition, whenever you cast *misty step*, you can bring along one willing creature you can see within 5 feet of you. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.",
+    "resources": [
+      {
+        "id": "srd:fey-wanderer:misty-wanderer",
+        "name": "Misty Wanderer",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "misty-wanderer",
+        "name": "Misty Wanderer",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:fey-wanderer:misty-wanderer": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,289 @@
+[
+  {
+    "id": "srd24:subclass:abjurer",
+    "kind": "subclass",
+    "name": "Abjurer",
+    "source": "srd24",
+    "page": "XPHB 172",
+    "class": "srd24:class:wizard",
+    "tags": [
+      "wizard-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:abjurer:abjurer"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:abjurer:known-spells-3",
+            "name": "Spell",
+            "count": 2,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:2",
+                "wizard-spell",
+                "school:abjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "5": {
+        "choices": [
+          {
+            "id": "srd24:subclass:abjurer:known-spells-5",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:3",
+                "wizard-spell",
+                "school:abjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:abjurer:projected-ward"
+        ]
+      },
+      "7": {
+        "choices": [
+          {
+            "id": "srd24:subclass:abjurer:known-spells-7",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:4",
+                "wizard-spell",
+                "school:abjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "9": {
+        "choices": [
+          {
+            "id": "srd24:subclass:abjurer:known-spells-9",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:5",
+                "wizard-spell",
+                "school:abjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:abjurer:spell-breaker",
+          "srd24:spell:counterspell",
+          "srd24:spell:dispel-magic"
+        ]
+      },
+      "11": {
+        "choices": [
+          {
+            "id": "srd24:subclass:abjurer:known-spells-11",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:6",
+                "wizard-spell",
+                "school:abjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "13": {
+        "choices": [
+          {
+            "id": "srd24:subclass:abjurer:known-spells-13",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:7",
+                "wizard-spell",
+                "school:abjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:abjurer:spell-resistance"
+        ]
+      },
+      "15": {
+        "choices": [
+          {
+            "id": "srd24:subclass:abjurer:known-spells-15",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:8",
+                "wizard-spell",
+                "school:abjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "17": {
+        "choices": [
+          {
+            "id": "srd24:subclass:abjurer:known-spells-17",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:9",
+                "wizard-spell",
+                "school:abjuration"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:abjurer:abjuration-savant",
+    "kind": "subclass-feature",
+    "name": "Abjuration Savant",
+    "source": "srd24",
+    "page": "XPHB 172",
+    "tags": [
+      "abjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "Choose two Wizard spells from the Abjuration school, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Abjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  },
+  {
+    "id": "srd24:abjurer:arcane-ward",
+    "kind": "subclass-feature",
+    "name": "Arcane Ward",
+    "source": "srd24",
+    "page": "XPHB 172",
+    "tags": [
+      "abjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "You can weave magic around yourself for protection. When you cast an Abjuration spell with a spell slot, you can simultaneously use a strand of the spell's magic to create a magical ward on yourself that lasts until you finish a Long Rest. The ward has a Hit Point maximum equal to twice your Wizard level plus your Intelligence modifier. Whenever you take damage, the ward takes the damage instead, and if you have any Resistances or Vulnerabilities, apply them before reducing the ward's Hit Points. If the damage reduces the ward to 0 Hit Points, you take any remaining damage. While the ward has 0 Hit Points, it can't absorb damage, but its magic remains.\n\nWhenever you cast an Abjuration spell with a spell slot, the ward regains a number of Hit Points equal to twice the level of the spell slot. Alternatively, as a Bonus Action, you can expend a spell slot, and the ward regains a number of Hit Points equal to twice the level of the spell slot expended.\n\nOnce you create the ward, you can't create it again until you finish a Long Rest."
+  },
+  {
+    "id": "srd24:abjurer:abjurer",
+    "kind": "subclass-feature",
+    "name": "Abjurer",
+    "source": "srd24",
+    "page": "XPHB 172",
+    "tags": [
+      "abjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "*Shield Companions and Banish Foes*\n\nYour study of magic is focused on spells that block, banish, or protect—ending harmful effects, banishing evil influences, and protecting the weak. Abjurers are sought when baleful spirits require exorcism, when locations must be guarded against magical spying, and when portals to other planes of existence must be closed. Adventuring parties value Abjurers for the protection they provide against a variety of hostile magic and other attacks.",
+    "grants": [
+      "srd24:abjurer:abjuration-savant",
+      "srd24:abjurer:arcane-ward"
+    ]
+  },
+  {
+    "id": "srd24:abjurer:projected-ward",
+    "kind": "subclass-feature",
+    "name": "Projected Ward",
+    "source": "srd24",
+    "page": "XPHB 172",
+    "tags": [
+      "abjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "When a creature that you can see within 30 feet of yourself takes damage, you can take a Reaction to cause your Arcane Ward to absorb that damage. If this damage reduces the ward to 0 Hit Points, the warded creature takes any remaining damage. If that creature has any Resistances or Vulnerabilities, apply them before reducing the ward's Hit Points.",
+    "actions": [
+      {
+        "id": "projected-ward",
+        "name": "Projected Ward",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:abjurer:spell-breaker",
+    "kind": "subclass-feature",
+    "name": "Spell Breaker",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "tags": [
+      "abjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "You always have the Counterspell and Dispel Magic spells prepared. In addition, you can cast Dispel Magic as a Bonus Action, and you can add your Proficiency Bonus to its ability check.\n\nWhen you cast either spell with a spell slot, that slot isn't expended if the spell fails to stop a spell."
+  },
+  {
+    "id": "srd24:abjurer:spell-resistance",
+    "kind": "subclass-feature",
+    "name": "Spell Resistance",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "tags": [
+      "abjurer-feature",
+      "wizard-feature"
+    ],
+    "text": "You have Advantage on saving throws against spells, and you have Resistance to the damage of spells.",
+    "modifiers": [
+      {
+        "target": "saves.all",
+        "op": "advantage",
+        "when": {
+          "text": "against spells",
+          "context": "spells"
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "id": "srd24:subclass:oath-of-vengeance",
+    "kind": "subclass",
+    "name": "Oath of Vengeance",
+    "source": "srd24",
+    "page": "XPHB 116",
+    "class": "srd24:class:paladin",
+    "tags": [
+      "paladin-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:vengeance:oath-of-vengeance",
+          "srd24:spell:bane",
+          "srd24:spell:hunters-mark"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:hold-person",
+          "srd24:spell:misty-step"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:vengeance:relentless-avenger"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:haste",
+          "srd24:spell:protection-from-energy"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:spell:banishment",
+          "srd24:spell:dimension-door"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:vengeance:soul-of-vengeance"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:spell:hold-monster",
+          "srd24:spell:scrying"
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd24:vengeance:avenging-angel"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:vengeance:oath-of-vengeance-spells",
+    "kind": "subclass-feature",
+    "name": "Oath of Vengeance Spells",
+    "source": "srd24",
+    "page": "XPHB 116",
+    "tags": [
+      "vengeance-feature",
+      "paladin-feature"
+    ],
+    "text": "The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Vengeance Spells table, you thereafter always have the listed spells prepared.\n\n**Oath of Vengeance Spells**\n| Paladin Level | Spells |\n| --- | --- |\n| 3 | Bane, Hunter's Mark |\n| 5 | Hold Person, Misty Step |\n| 9 | Haste, Protection from Energy |\n| 13 | Banishment, Dimension Door |\n| 17 | Hold Monster, Scrying |"
+  },
+  {
+    "id": "srd24:vengeance:vow-of-enmity",
+    "kind": "subclass-feature",
+    "name": "Vow of Enmity",
+    "source": "srd24",
+    "page": "XPHB 117",
+    "tags": [
+      "vengeance-feature",
+      "paladin-feature"
+    ],
+    "text": "When you take the Attack action, you can expend one use of your Channel Divinity to utter a vow of enmity against a creature you can see within 30 feet of yourself. You have Advantage on attack rolls against the creature for 1 minute or until you use this feature again.\n\nIf the creature drops to 0 Hit Points before the vow ends, you can transfer the vow to a different creature within 30 feet of yourself (no action required).",
+    "actions": [
+      {
+        "id": "vow-of-enmity",
+        "name": "Vow of Enmity",
+        "activation": "special",
+        "cost": {
+          "srd24:paladin:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:vengeance:oath-of-vengeance",
+    "kind": "subclass-feature",
+    "name": "Oath of Vengeance",
+    "source": "srd24",
+    "page": "XPHB 116",
+    "tags": [
+      "vengeance-feature",
+      "paladin-feature"
+    ],
+    "text": "*Punish Evildoers at Any Cost*\n\nThe Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.\n\nThese paladins share the following tenets:\n\n- Show the wicked no mercy.\n- Fight injustice and its causes.\n- Aid those harmed by injustice.",
+    "grants": [
+      "srd24:vengeance:oath-of-vengeance-spells",
+      "srd24:vengeance:vow-of-enmity"
+    ]
+  },
+  {
+    "id": "srd24:vengeance:relentless-avenger",
+    "kind": "subclass-feature",
+    "name": "Relentless Avenger",
+    "source": "srd24",
+    "page": "XPHB 117",
+    "tags": [
+      "vengeance-feature",
+      "paladin-feature"
+    ],
+    "text": "Your supernatural focus helps you close off a foe's retreat. When you hit a creature with an Opportunity Attack, you can reduce the creature's Speed to 0 until the end of the current turn. You can then move up to half your Speed as part of the same Reaction. This movement doesn't provoke Opportunity Attack."
+  },
+  {
+    "id": "srd24:vengeance:soul-of-vengeance",
+    "kind": "subclass-feature",
+    "name": "Soul of Vengeance",
+    "source": "srd24",
+    "page": "XPHB 117",
+    "tags": [
+      "vengeance-feature",
+      "paladin-feature"
+    ],
+    "text": "Immediately after a creature under the effect of your Vow of Enmity hits or misses with an attack roll, you can take a Reaction to make a melee attack against that creature if it's within range.",
+    "actions": [
+      {
+        "id": "soul-of-vengeance",
+        "name": "Soul of Vengeance",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:vengeance:avenging-angel",
+    "kind": "subclass-feature",
+    "name": "Avenging Angel",
+    "source": "srd24",
+    "page": "XPHB 117",
+    "tags": [
+      "vengeance-feature",
+      "paladin-feature"
+    ],
+    "text": "As a Bonus Action, you gain the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).\n\n**Flight.** You sprout spectral wings on your back, have a Fly Speed of 60 feet, and can hover.\n\n**Frightful Aura.** Whenever an enemy starts its turn in your Aura of Protection, that creature must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. Attack rolls against the Frightened creature have Advantage.",
+    "resources": [
+      {
+        "id": "srd24:vengeance:avenging-angel",
+        "name": "Avenging Angel",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "unit": "uses",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "avenging-angel",
+        "name": "Avenging Angel",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

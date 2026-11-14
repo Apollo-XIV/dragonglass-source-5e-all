@@ -1,0 +1,172 @@
+[
+  {
+    "id": "srd24:subclass:shadow-sorcery",
+    "kind": "subclass",
+    "name": "Shadow Sorcery",
+    "source": "srd24",
+    "page": "RHW 23",
+    "class": "srd24:class:sorcerer",
+    "tags": [
+      "sorcerer-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:shadow:shadow-sorcery",
+          "srd24:spell:bane",
+          "srd24:spell:darkness",
+          "srd24:spell:inflict-wounds",
+          "srd24:spell:pass-without-trace"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:hunger-of-hadar",
+          "srd24:spell:nondetection"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:shadow:beasts-of-ill-omen"
+        ],
+        "innateSpells": [
+          {
+            "spell": "srd24:spell:summon-beast",
+            "cost": {
+              "srd24:sorcerer:sorcery-points": 3
+            }
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:spell:greater-invisibility",
+          "srd24:spell:phantasmal-killer"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:contagion",
+          "srd24:spell:creation"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:shadow:shadow-walk"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd24:shadow:umbral-form"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:shadow:shadow-spells",
+    "kind": "subclass-feature",
+    "name": "Shadow Spells",
+    "source": "srd24",
+    "page": "RHW 23",
+    "tags": [
+      "shadow-feature",
+      "sorcerer-feature"
+    ],
+    "text": "When you reach a Sorcerer level specified in the Shadow Spells table, you thereafter always have the listed spells prepared.\n\n**Shadow Spells**\n| Sorcerer Level | Spells |\n| --- | --- |\n| 3 | Bane, Darkness, Inflict Wounds, Pass Without Trace |\n| 5 | Hunger of Hadar, Nondetection |\n| 7 | Greater Invisibility, Phantasmal Killer |\n| 9 | Contagion, Creation |"
+  },
+  {
+    "id": "srd24:shadow:power-of-shadow",
+    "kind": "subclass-feature",
+    "name": "Power of Shadow",
+    "source": "srd24",
+    "page": "RHW 24",
+    "tags": [
+      "shadow-feature",
+      "sorcerer-feature"
+    ],
+    "text": "You gain the following benefits.\n\n**Eyes of the Dark.** You have Darkvision with a range of 120 feet and Blindsight with a range of 10 feet. In addition, if a spell you cast creates an area of Darkness, you can see normally through that spell's Darkness.\n\n**Strength of the Grave.** If you would drop to 0 Hit Points and not die outright, you can make a Charisma saving throw (DC 5 plus the damage taken). On a successful save, your Hit Points instead change to a number equal to your Charisma modifier plus your Sorcerer level. After you succeed on this save, you can't use this benefit again until you finish a Long Rest.",
+    "modifiers": [
+      {
+        "target": "senses.darkvision",
+        "op": "max",
+        "value": 120,
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "senses.blindsight",
+        "op": "max",
+        "value": 10,
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:shadow:shadow-sorcery",
+    "kind": "subclass-feature",
+    "name": "Shadow Sorcery",
+    "source": "srd24",
+    "page": "RHW 23",
+    "tags": [
+      "shadow-feature",
+      "sorcerer-feature"
+    ],
+    "text": "*Bend Doom and Darkness to Your Will*\n\nYour innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe.",
+    "grants": [
+      "srd24:shadow:shadow-spells",
+      "srd24:shadow:power-of-shadow"
+    ]
+  },
+  {
+    "id": "srd24:shadow:beasts-of-ill-omen",
+    "kind": "subclass-feature",
+    "name": "Beasts of Ill Omen",
+    "source": "srd24",
+    "page": "RHW 24",
+    "tags": [
+      "shadow-feature",
+      "sorcerer-feature"
+    ],
+    "text": "You can call forth a howling creature of shadow to hound your foes. You can spend 3 Sorcery Points to cast Summon Beast as a Bonus Action without expending a spell slot, without preparing the spell, and without Material components. The summoned creature appears as a beast made of shadow, and enemies within 5 feet of the summoned creature have Disadvantage on saving throws against spells you cast.\n\nWhenever you cast the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting, and the spell ends early if you cast the spell again."
+  },
+  {
+    "id": "srd24:shadow:shadow-walk",
+    "kind": "subclass-feature",
+    "name": "Shadow Walk",
+    "source": "srd24",
+    "page": "RHW 24",
+    "tags": [
+      "shadow-feature",
+      "sorcerer-feature"
+    ],
+    "text": "While you are in Dim Light or Darkness, you can take a Bonus Action to teleport up to 120 feet to an unoccupied space you can see that is also in Dim Light or Darkness."
+  },
+  {
+    "id": "srd24:shadow:umbral-form",
+    "kind": "subclass-feature",
+    "name": "Umbral Form",
+    "source": "srd24",
+    "page": "RHW 24",
+    "tags": [
+      "shadow-feature",
+      "sorcerer-feature"
+    ],
+    "text": "When you use Innate Sorcery, you can adopt a shadowy form, gaining the benefits below while your Innate Sorcery is active or until you end the form (no action required). Once you use this feature, you can't use it again until you finish a Long Rest unless you spend 6 Sorcery Points (no action required) to restore your use of it.\n\n**Incorporeal Movement.** You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object.\n\n**Shadow Resilience.** You have Resistance to all damage except Force and Radiant damage.",
+    "actions": [
+      {
+        "id": "umbral-form",
+        "name": "Umbral Form",
+        "activation": "special",
+        "cost": {
+          "srd24:sorcerer:sorcery-points": 6
+        }
+      }
+    ]
+  }
+]

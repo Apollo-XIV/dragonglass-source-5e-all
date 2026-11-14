@@ -1,0 +1,423 @@
+[
+  {
+    "id": "srd:class:artificer",
+    "kind": "class",
+    "name": "Artificer",
+    "source": "srd",
+    "page": "TCE 9",
+    "key": "artificer",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "fluff": "Masters of invention, artificers use ingenuity and magic to unlock extraordinary capabilities in objects. They see magic as a complex system waiting to be decoded and then harnessed in their spells and inventions. You can find everything you need to play one of these inventors in the next few sections. Artificers use a variety of tools to channel their arcane power. To cast a spell, an artificer might use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents, and few other characters can produce the right tool for a job as well as an artificer.\n\n**Artificers in Many Worlds.** Throughout the D&D multiverse, artificers create inventions and magic items of peace and war. Many lives have been brightened or saved because of the work of kind artificers, but countless lives have also been lost because of the mass destruction unleashed by certain artificers' creations.\n\nIn the Forgotten Realms, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the world of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational.\n\nArtificers in the City of Sigil share discoveries from throughout the multiverse, and from there, the gnome artificer Vi runs a cosmos-spanning business that hires adventurers to fix problems that others deem unfixable. In Vi's home world, Eberron, magic is harnessed as a form of science and deployed throughout society, largely as a result of the wondrous ingenuity of artificers.\n\n**Creating an Artificer.** To create an artificer, consult the subsections which give you hit points, proficiencies, and starting equipment. Then look at the Artificer table to see which features you get at each level. The descriptions of those features appear below.\n\n> Artificers invent cutting-edge problems, then try to solve them-loudly and often with collateral damage.\n>\n> — Tasha\n\n**Multiclassing and the Artificer.** If your group uses the optional rule on multiclassing in the Player's Handbook, here's what you need to know if you choose artificer as one of your classes.\n\n**Ability Score Minimum.** As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an artificer.\n\n**Proficiencies Gained.** If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, thieves' tools, tinker's tools.\n\n**Spell Slots.** Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots.\n\nMasters of unlocking magic in everyday objects, artificers are supreme inventors. They see magic as a complex system waiting to be decoded and controlled. Artificers use tools to channel arcane power, crafting magical objects. To cast a spell, an artificer could use alchemist's supplies to create a potent elixir, calligrapher's supplies to inscribe a sigil of power on an ally's armor, or tinker's tools to craft a temporary charm. The magic of artificers is tied to their tools and their talents.\n\n**Arcane Science.** In the world of Eberron, arcane magic has been harnessed as a form of science and deployed throughout society. Artificers reflect this development. Their knowledge of magical devices, and their ability to infuse mundane items with magic, allows Eberron's most miraculous projects to continue.\n\nDuring the Last War, artificers were marshaled on a massive scale. Many lives were saved because of the inventions of brave artificers, but countless lives were also lost because of the mass destruction unleashed by their creations.\n\n**Seekers of New Lore.** Nothing excites an artificer quite like uncovering a new metal or discovering a source of elemental energy. In artificer circles, new inventions and strange discoveries create the most excitement. Artificers who wish to make their mark must innovate, creating something fresh, rather than iterating on familiar designs.\n\nThis drive for novelty pushes artificers to become adventurers. Eberron's main travel routes and populated regions have long since been explored. Thus, artificers seek the frontiers of civilization in hopes of making the next great discovery in arcane research.\n\n**Creating an Artificer.** When creating an artificer, think about your character's relationship with the artisan who taught them their craft. Does the character have a rival? Talk to your DM about the role played by artificers in the campaign and the sort of organizations you might have ties to.\n\n> **Artificers in Other Worlds**\n>\n> Eberron is the world most associated with artificers, yet the class can be found throughout the D&D multiverse. In the Forgotten Realms, for example, the island of Lantan is home to many artificers, and in the world of Dragonlance, tinker gnomes are often members of this class. The strange technologies in the Barrier Peaks of the World of Greyhawk have inspired some folk to walk the path of the artificer, and in Mystara, various nations employ artificers to keep airships and other wondrous devices operational. In the City of Sigil, artificers share discoveries from throughout the cosmos, and one in particular—the gnome inventor Vi—has run a multiverse-spanning business from there since leaving the world of her birth, Eberron. In the world-city Ravnica, the Izzet League trains numerous artificers, the destructiveness of whom is unparalleled in other worlds—except, perhaps, by the tinker gnomes of Krynn.\n\n**Quick Build.** You can make an artificer quickly by following these suggestions. First, put your highest ability score in Intelligence, followed by Constitution or Dexterity. Second, choose the guild artisan background.\n\n**Optional Rule: Multiclassing.** If your group uses the optional rule on multiclassing in the Player's Handbook, here's what you need to know if you choose artificer as one of your classes.\n\n**Ability Score Minimum.** As a multiclass character, you must have at least an Intelligence score of 13 to take a level in this class, or to take a level in another class if you are already an artificer.\n\n**Proficiencies Gained.** If artificer isn't your initial class, here are the proficiencies you gain when you take your first level as an artificer: light armor, medium armor, shields, thieves' tools, tinker's tools.\n\n**Spell Slots.** Add half your levels (rounded up) in the artificer class to the appropriate levels from other classes to determine your available spell slots.",
+    "text": "**Hit Dice:** 1d8 per artificer level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per artificer level after 1st.\n\n**Armor:** Light, medium, shield\n**Weapons:** Simple, firearms\n**Tools:** Thieves' tools, tinker's tools, one type of artisan's tools of your choice\n**Saving Throws:** Constitution, Intelligence\n**Skills:** Choose 2 from arcana, history, investigation, medicine, nature, perception, sleight of hand\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n- any two simple weapons of your choice\n- a light crossbow and 20 bolts\n- (a) studded leather armor or (b) scale mail\n- thieves' tools and a dungeoneer's pack\n\nAlternatively, you may start with 5d4 × 10 gp to buy your own equipment.",
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "int",
+          "min": 13
+        }
+      ],
+      "text": "Intelligence 13"
+    },
+    "primaryAbility": [
+      "int"
+    ],
+    "x-multiclass-proficiencies": {
+      "tools": [
+        "{@item thieves' tools|PHB}",
+        "{@item tinker's tools|PHB}"
+      ],
+      "toolProficiencies": [
+        {
+          "thieves' tools": true,
+          "tinker's tools": true
+        }
+      ],
+      "armor": [
+        "light",
+        "medium",
+        "shield"
+      ],
+      "armorProficiencies": [
+        {
+          "light": true,
+          "medium": true,
+          "shield": true
+        }
+      ]
+    },
+    "spellcasting": {
+      "ability": "int",
+      "progression": "half",
+      "type": "prepared",
+      "list": "artificer-spell",
+      "cantrips": "@table(artificer, cantrips-known)",
+      "prepared": "floor(@level(artificer) / 2) + @abilities.int.mod"
+    },
+    "tables": {
+      "infusions-known": [
+        0,
+        4,
+        4,
+        4,
+        4,
+        6,
+        6,
+        6,
+        6,
+        8,
+        8,
+        8,
+        8,
+        10,
+        10,
+        10,
+        10,
+        12,
+        12,
+        12
+      ],
+      "infused-items": [
+        0,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        6,
+        6,
+        6
+      ],
+      "cantrips-known": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:tool:thieves-tools",
+          "srd:tool:tinkers-tools",
+          "srd:artificer:optional-rule-firearm-proficiency",
+          "srd:artificer:magical-tinkering",
+          "srd:artificer:spellcasting"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:artificer:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd:skill:arcana",
+                "srd:skill:history",
+                "srd:skill:investigation",
+                "srd:skill:medicine",
+                "srd:skill:nature",
+                "srd:skill:perception",
+                "srd:skill:sleight-of-hand"
+              ]
+            }
+          },
+          {
+            "id": "srd:class:artificer:tool",
+            "name": "Tool Proficiency",
+            "count": 1,
+            "from": {
+              "kind": "tool",
+              "tags": [
+                "artisans-tools"
+              ]
+            },
+            "text": "one type of artisan's tools of your choice"
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.con",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.int",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.armor",
+            "op": "include",
+            "value": [
+              "light",
+              "medium",
+              "shield"
+            ]
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "srd:item:object-object"
+            ]
+          }
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:artificer:infuse-item"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:artificer:infusions-2",
+            "name": "Infusions",
+            "count": 4,
+            "from": {
+              "kind": "infusion",
+              "tags": [
+                "artificer-infusion"
+              ]
+            }
+          }
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:artificer:artificer-specialist",
+          "srd:artificer:the-right-tool-for-the-job"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:artificer:subclass",
+            "name": "Artificer Specialist",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "artificer-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd:class:artificer:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:artificer:tool-expertise"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:artificer:infusions-6",
+            "name": "Infusions",
+            "count": 2,
+            "from": {
+              "kind": "infusion",
+              "tags": [
+                "artificer-infusion"
+              ]
+            }
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:artificer:flash-of-genius"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd:class:artificer:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:artificer:magic-item-adept"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:artificer:infusions-10",
+            "name": "Infusions",
+            "count": 2,
+            "from": {
+              "kind": "infusion",
+              "tags": [
+                "artificer-infusion"
+              ]
+            }
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd:artificer:spell-storing-item"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd:class:artificer:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:artificer:magic-item-savant"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:artificer:infusions-14",
+            "name": "Infusions",
+            "count": 2,
+            "from": {
+              "kind": "infusion",
+              "tags": [
+                "artificer-infusion"
+              ]
+            }
+          }
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd:class:artificer:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd:artificer:magic-item-master"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:artificer:infusions-18",
+            "name": "Infusions",
+            "count": 2,
+            "from": {
+              "kind": "infusion",
+              "tags": [
+                "artificer-infusion"
+              ]
+            }
+          }
+        ]
+      },
+      "19": {
+        "choices": [
+          {
+            "id": "srd:class:artificer:asi-19",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd:artificer:soul-of-artifice"
+        ]
+      }
+    }
+  }
+]

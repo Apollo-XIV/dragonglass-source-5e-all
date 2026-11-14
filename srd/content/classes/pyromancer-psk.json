@@ -1,0 +1,110 @@
+[
+  {
+    "id": "srd:subclass:pyromancer-psk",
+    "kind": "subclass",
+    "name": "Pyromancer (PSK)",
+    "source": "srd",
+    "page": "PSK 9",
+    "class": "srd:class:sorcerer",
+    "tags": [
+      "sorcerer-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:pyromancer-psk:pyromancer-psk"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:pyromancer-psk:fire-in-the-veins"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:pyromancer-psk:pyromancers-fury"
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd:pyromancer-psk:fiery-soul"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:pyromancer-psk:heart-of-fire",
+    "kind": "subclass-feature",
+    "name": "Heart of Fire",
+    "source": "srd",
+    "page": "PSK 9",
+    "tags": [
+      "pyromancer-psk-feature",
+      "sorcerer-feature"
+    ],
+    "text": "At 1st level, whenever you start casting a spell of 1st level or higher that deals fire damage, fiery magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take fire damage equal to half your sorcerer level (minimum of 1)."
+  },
+  {
+    "id": "srd:pyromancer-psk:pyromancer-psk",
+    "kind": "subclass-feature",
+    "name": "Pyromancer (PSK)",
+    "source": "srd",
+    "page": "PSK 9",
+    "tags": [
+      "pyromancer-psk-feature",
+      "sorcerer-feature"
+    ],
+    "text": "Your innate magic manifests in fire. You are your fire, and your fire is you.",
+    "grants": [
+      "srd:pyromancer-psk:heart-of-fire"
+    ]
+  },
+  {
+    "id": "srd:pyromancer-psk:fire-in-the-veins",
+    "kind": "subclass-feature",
+    "name": "Fire in the Veins",
+    "source": "srd",
+    "page": "PSK 9",
+    "tags": [
+      "pyromancer-psk-feature",
+      "sorcerer-feature"
+    ],
+    "text": "At 6th level, you gain resistance to fire damage. In addition, spells you cast ignore resistance to fire damage."
+  },
+  {
+    "id": "srd:pyromancer-psk:pyromancers-fury",
+    "kind": "subclass-feature",
+    "name": "Pyromancer's Fury",
+    "source": "srd",
+    "page": "PSK 9",
+    "tags": [
+      "pyromancer-psk-feature",
+      "sorcerer-feature"
+    ],
+    "text": "Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal fire damage to the attacker. The damage equals your sorcerer level, and ignores resistance to fire damage.",
+    "actions": [
+      {
+        "id": "pyromancers-fury",
+        "name": "Pyromancer's Fury",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:pyromancer-psk:fiery-soul",
+    "kind": "subclass-feature",
+    "name": "Fiery Soul",
+    "source": "srd",
+    "page": "PSK 9",
+    "tags": [
+      "pyromancer-psk-feature",
+      "sorcerer-feature"
+    ],
+    "text": "At 18th level, you gain immunity to fire damage. In addition, any spell or effect you create ignores resistance to fire damage and treats immunity to fire damage as resistance to fire damage."
+  }
+]

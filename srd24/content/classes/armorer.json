@@ -1,0 +1,335 @@
+[
+  {
+    "id": "srd24:subclass:armorer",
+    "kind": "subclass",
+    "name": "Armorer",
+    "source": "srd24",
+    "page": "EFA 14",
+    "class": "srd24:class:artificer",
+    "tags": [
+      "artificer-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:armorer:armorer",
+          "srd24:spell:magic-missile",
+          "srd24:spell:thunderwave"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:armorer:extra-attack",
+          "srd24:spell:mirror-image",
+          "srd24:spell:shatter"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:armorer:improved-armorer",
+          "srd24:spell:hypnotic-pattern",
+          "srd24:spell:lightning-bolt"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:spell:fire-shield",
+          "srd24:spell:greater-invisibility"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:armorer:perfected-armor"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:spell:passwall",
+          "srd24:spell:wall-of-force"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:armorer:tools-of-the-trade",
+    "kind": "subclass-feature",
+    "name": "Tools of the Trade",
+    "source": "srd24",
+    "page": "EFA 14",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "You gain the following benefits.\n\n**Armor Training.** You gain training with Heavy armor.\n\n**Tool Proficiency.** You gain proficiency with Smith's Tools. If you already have this tool proficiency, you gain proficiency with one other type of Artisan's Tools of your choice.\n\n**Armor Crafting.** When you craft nonmagical or magic armor, the amount of time required to craft it is halved.",
+    "modifiers": [
+      {
+        "target": "proficiencies.armor",
+        "op": "include",
+        "value": [
+          "heavy"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "proficiencies.tool",
+        "op": "include",
+        "value": [
+          "Smith's Tools"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:armorer:armorer-spells",
+    "kind": "subclass-feature",
+    "name": "Armorer Spells",
+    "source": "srd24",
+    "page": "EFA 15",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "When you reach an Artificer level specified in the Armorer Spells table, you thereafter always have the listed spells prepared.\n\n**Armorer Spells**\n| Artificer Level | Spells |\n| --- | --- |\n| 3 | Magic Missile, Thunderwave |\n| 5 | Mirror Image, Shatter |\n| 9 | Hypnotic Pattern, Lightning Bolt |\n| 13 | Fire Shield, Greater Invisibility |\n| 17 | Passwall, Wall of Force |"
+  },
+  {
+    "id": "srd24:armorer:arcane-armor",
+    "kind": "subclass-feature",
+    "name": "Arcane Armor",
+    "source": "srd24",
+    "page": "EFA 15",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "As a Magic action while you have Smith's Tools in hand, you can turn a suit of armor you are wearing into Arcane Armor. The armor continues to be Arcane Armor until you don another suit of armor or you die.\n\nYou gain the following benefits while wearing your Arcane Armor.\n\n**No Strength Requirement.** If the armor normally has a Strength requirement, the Arcane Armor lacks this requirement for you.\n\n**Quick Don and Doff.** You can don or doff the armor as a Utilize action. The armor can't be removed against your will.\n\n**Spellcasting Focus.** You can use the Arcane Armor as a Spellcasting Focus for your Artificer spells.",
+    "actions": [
+      {
+        "id": "arcane-armor",
+        "name": "Arcane Armor",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:armorer:dreadnaught",
+    "kind": "subclass-feature",
+    "name": "Dreadnaught",
+    "source": "srd24",
+    "page": "EFA 15",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "You design your armor to become a towering juggernaut in battle. It has the following features:\n\n- **Force Demolisher.** An arcane wrecking ball or sledgehammer projects from your armor. The demolisher counts as a Simple Melee weapon with the Reach property, and it deals 1d10 Force damage on a hit. If you hit a creature that is at least one size smaller than you with the demolisher, you can push the creature up to 10 feet straight away from yourself or pull the creature up to 10 feet toward yourself.\n- **Giant Stature.** As a Bonus Action, you transform and enlarge your armor for 1 minute. For the duration, your reach increases by 5 feet, and if you are smaller than Large, you become Large, along with anything you are wearing. If there isn't enough room for you to increase your size, your size doesn't change. You can use this Bonus Action a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses when you finish a Long Rest."
+  },
+  {
+    "id": "srd24:armorer:guardian",
+    "kind": "subclass-feature",
+    "name": "Guardian",
+    "source": "srd24",
+    "page": "EFA 15",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "You design your armor to be in the front line of conflict. It has the following features:\n\n**Thunder Pulse.** You can discharge concussive blasts with strikes from your armor. The pulse counts as a Simple Melee weapon and deals 1d8 Thunder damage on a hit. A creature hit by the pulse has Disadvantage on attack rolls against targets other than you until the start of your next turn.\n\n**Defensive Field.** While Bloodied, you can take a Bonus Action to gain Temporary Hit Points equal to your Artificer level. You lose these Temporary Hit Points if you doff the armor."
+  },
+  {
+    "id": "srd24:armorer:infiltrator",
+    "kind": "subclass-feature",
+    "name": "Infiltrator",
+    "source": "srd24",
+    "page": "EFA 15",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "You customize your armor for subtler undertakings. It has the following features:\n\n- **Lightning Launcher.** A gemlike node appears on your armor, from which you can shoot bolts of lightning. The launcher counts as a Simple Ranged weapon with a normal range of 90 feet and a long range of 300 feet, and it deals 1d6 Lightning damage on a hit. Once on each of your turns when you hit a creature with the launcher, you can deal an extra 1d6 Lightning damage to that target.\n- **Powered Steps.** Your Speed increases by 5 feet.\n- **Dampening Field.** You have Advantage on Dexterity (Stealth) checks. If the armor imposes Disadvantage on such checks, the Advantage and Disadvantage cancel each other, as normal.",
+    "modifiers": [
+      {
+        "target": "speed.walk",
+        "op": "add",
+        "value": 5,
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "skills.stealth",
+        "op": "advantage",
+        "when": {
+          "text": "armor disadvantage on Stealth cancels this advantage as normal"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:armorer:armor-model",
+    "kind": "subclass-feature",
+    "name": "Armor Model",
+    "source": "srd24",
+    "page": "EFA 15",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "You can customize your Arcane Armor. When you do so, choose one of the following armor models: Dreadnaught, Guardian, or Infiltrator. The model you choose gives you special benefits while you wear it.\n\nEach model includes a special weapon. When you attack with that weapon, you can add your Intelligence modifier, instead of your Strength or Dexterity modifier, to the attack and damage rolls.\n\nYou can change the armor's model whenever you finish a Short or Long Rest if you have Smith's Tools in hand.",
+    "grants": [
+      "srd24:armorer:dreadnaught",
+      "srd24:armorer:guardian",
+      "srd24:armorer:infiltrator"
+    ]
+  },
+  {
+    "id": "srd24:armorer:armorer",
+    "kind": "subclass-feature",
+    "name": "Armorer",
+    "source": "srd24",
+    "page": "EFA 14",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "*Craft Magic Armor to Enhance Your Abilities*\n\nAn Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the Armorer's magic, unleash potent attacks, and generate a formidable defense.",
+    "grants": [
+      "srd24:armorer:tools-of-the-trade",
+      "srd24:armorer:armorer-spells",
+      "srd24:armorer:arcane-armor",
+      "srd24:armorer:armor-model"
+    ]
+  },
+  {
+    "id": "srd24:armorer:extra-attack",
+    "kind": "subclass-feature",
+    "name": "Extra Attack",
+    "source": "srd24",
+    "page": "EFA 15",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "You can attack twice instead of once whenever you take the Attack action on your turn."
+  },
+  {
+    "id": "srd24:armorer:improved-armorer",
+    "kind": "subclass-feature",
+    "name": "Improved Armorer",
+    "source": "srd24",
+    "page": "EFA 15",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "You gain the following benefits.\n\n**Armor Replication.** You learn an additional plan for your Replicate Magic Item feature, and it must be in the Armor category. If you replace that plan, you must replace it with another Armor plan.\n\nIn addition, you can create an additional item with that feature, and the item must also be in the Armor category.\n\n**Improved Arsenal.** You gain a +1 bonus to attack and damage rolls made with the special weapon of your Arcane Armor model.",
+    "modifiers": [
+      {
+        "target": "attacks.all",
+        "op": "add",
+        "value": 1,
+        "when": {
+          "text": "with the special weapon of your Arcane Armor model"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "damage.all",
+        "op": "add",
+        "value": 1,
+        "when": {
+          "text": "with the special weapon of your Arcane Armor model"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:armorer:perfected-armor",
+    "kind": "subclass-feature",
+    "name": "Perfected Armor",
+    "source": "srd24",
+    "page": "EFA 16",
+    "tags": [
+      "armorer-feature",
+      "artificer-feature"
+    ],
+    "text": "Your Arcane Armor gains additional benefits based on its model, as detailed below.\n\n**Dreadnaught.** The damage die of your Force Demolisher increases to 2d6 Force damage.\n\nIn addition, when you use your Giant Stature, your reach increases by 10 feet, your size can increase to Large or Huge (your choice), and you have Advantage on Strength checks and Strength saving throws for the duration.\n\n**Guardian.** The damage die of your Thunder Pulse increases to 1d10 Thunder damage.\n\nIn addition, when a Huge or smaller creature you can see ends its turn within 30 feet of you, you can take a Reaction to magically force that creature to make a Strength saving throw against your spell save DC. On a failed save, you pull the creature up to 25 feet directly toward you to an unoccupied space. If you pull the target to a space within 5 feet of yourself, you can make a melee weapon attack against it as part of this Reaction.\n\nYou can take this Reaction a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\n**Infiltrator.** The damage die of your Lightning Launcher increases to 2d6 Lightning damage. Any creature that takes Lightning damage from your Lightning Launcher glimmers with magical light until the start of your next turn. The glimmering creature sheds Dim Light in a 5-foot radius, and it has Disadvantage on attack rolls against you, as the light jolts it if it attacks you.\n\nAdditionally, as a Bonus Action, you can gain a Fly Speed equal to twice your Speed until the end of the current turn. You can take this Bonus Action a number of times equal to your Intelligence modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "modifiers": [
+      {
+        "target": "checks.str",
+        "op": "advantage",
+        "when": {
+          "text": "when you use your Giant Stature, for the duration"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      },
+      {
+        "target": "saves.str",
+        "op": "advantage",
+        "when": {
+          "text": "when you use your Giant Stature, for the duration"
+        },
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "resources": [
+      {
+        "id": "srd24:armorer:perfected-armor",
+        "name": "Perfected Armor",
+        "max": "max(1, @abilities.int.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "perfected-armor",
+        "name": "Perfected Armor",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:armorer:perfected-armor": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "id": "srd:subclass:peace-domain",
+    "kind": "subclass",
+    "name": "Peace Domain",
+    "source": "srd",
+    "page": "TCE 32",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:peace:peace-domain",
+          "srd:spell:heroism",
+          "srd:spell:sanctuary"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:peace:channel-divinity-balm-of-peace"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:aid",
+          "srd:spell:warding-bond"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:beacon-of-hope",
+          "srd:spell:sending"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:peace:protective-bond"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:aura-of-purity",
+          "srd:spell:resilient-sphere"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:peace:potent-spellcasting",
+          "srd:peace:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:greater-restoration",
+          "srd:spell:telepathic-bond"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:peace:expansive-bond"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:peace:implement-of-peace",
+    "kind": "subclass-feature",
+    "name": "Implement of Peace",
+    "source": "srd",
+    "page": "TCE 32",
+    "tags": [
+      "peace-feature",
+      "cleric-feature"
+    ],
+    "text": "*1st-level Peace Domain feature*\n\nYou gain proficiency in the Insight, Performance, or Persuasion skill (your choice)."
+  },
+  {
+    "id": "srd:peace:emboldening-bond",
+    "kind": "subclass-feature",
+    "name": "Emboldening Bond",
+    "source": "srd",
+    "page": "TCE 32",
+    "tags": [
+      "peace-feature",
+      "cleric-feature"
+    ],
+    "text": "*1st-level Peace Domain feature*\n\nYou can forge an empowering bond among people who are at peace with one another. As an action, you choose a number of willing creatures within 30 feet of you (this can include yourself) equal to your proficiency bonus. You create a magical bond among them for 10 minutes or until you use this feature again. While any bonded creature is within 30 feet of another, the creature can roll a d4 and add the number rolled to an attack roll, an ability check, or a saving throw it makes. Each creature can add the d4 no more than once per turn.\n\nYou can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:peace:emboldening-bond",
+        "name": "Emboldening Bond",
+        "max": "@prof",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "emboldening-bond",
+        "name": "Emboldening Bond",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:peace:emboldening-bond": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:peace:peace-domain",
+    "kind": "subclass-feature",
+    "name": "Peace Domain",
+    "source": "srd",
+    "page": "TCE 32",
+    "tags": [
+      "peace-feature",
+      "cleric-feature"
+    ],
+    "text": "The balm of peace thrives at the heart of healthy communities, between friendly nations, and in the souls of the kindhearted. The gods of peace inspire people of all sorts to resolve conflict and to stand up against those forces that try to prevent peace from flourishing. See the Peace Deities table for a list of some of the gods associated with this domain.\n\nClerics of the Peace Domain preside over the signing of treaties, and they are often asked to arbitrate in disputes. These clerics' blessings draw people together and help them shoulder one another's burdens, and the clerics' magic aids those who are driven to fight for the way of peace.\n\n**Peace Deities**\n| Example Deity | Pantheon |\n| --- | --- |\n| Angharradh | Elven |\n| Berronar Truesilver | Dwarven |\n| Boldrei | Eberron |\n| Cyrrollalee | Halfling |\n| Eldath | Forgotten Realms |\n| Gaerdal Ironhand | Gnomish |\n| Paladine | Dragonlance |\n| Rao | Greyhawk |\n\n**Domain Spells.** *1st-level Peace Domain feature*\n\nYou gain domain spells at the cleric levels listed in the Peace Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\n**Peace Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | heroism, sanctuary |\n| 3rd | aid, warding bond |\n| 5th | beacon of hope, sending |\n| 7th | aura of purity, Otiluke's resilient sphere |\n| 9th | greater restoration, Rary's telepathic bond |",
+    "grants": [
+      "srd:peace:implement-of-peace",
+      "srd:peace:emboldening-bond"
+    ]
+  },
+  {
+    "id": "srd:peace:channel-divinity-balm-of-peace",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Balm of Peace",
+    "source": "srd",
+    "page": "TCE 32",
+    "tags": [
+      "peace-feature",
+      "cleric-feature"
+    ],
+    "text": "*2nd-level Peace Domain feature*\n\nYou can use your Channel Divinity to make your very presence a soothing balm. As an action, you can move up to your speed, without provoking opportunity attacks, and when you move within 5 feet of any other creature during this action, you can restore a number of hit points to that creature equal to 2d6 + your Wisdom modifier (minimum of 1 hit point). A creature can receive this healing only once whenever you take this action.",
+    "actions": [
+      {
+        "id": "channel-divinity-balm-of-peace",
+        "name": "Channel Divinity: Balm of Peace",
+        "activation": "action",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:peace:protective-bond",
+    "kind": "subclass-feature",
+    "name": "Protective Bond",
+    "source": "srd",
+    "page": "TCE 32",
+    "tags": [
+      "peace-feature",
+      "cleric-feature"
+    ],
+    "text": "*6th-level Peace Domain feature*\n\nThe bond you forge between people helps them protect each other. When a creature affected by your Emboldening Bond feature is about to take damage, a second bonded creature within 30 feet of the first can use its reaction to teleport to an unoccupied space within 5 feet of the first creature. The second creature then takes all the damage instead."
+  },
+  {
+    "id": "srd:peace:potent-spellcasting",
+    "kind": "subclass-feature",
+    "name": "Potent Spellcasting",
+    "source": "srd",
+    "page": "TCE 32",
+    "tags": [
+      "peace-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level Peace Domain feature*\n\nYou add your Wisdom modifier to the damage you deal with any cleric cantrip."
+  },
+  {
+    "id": "srd:peace:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 32",
+    "tags": [
+      "peace-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Potent Spellcasting feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:peace:expansive-bond",
+    "kind": "subclass-feature",
+    "name": "Expansive Bond",
+    "source": "srd",
+    "page": "TCE 32",
+    "tags": [
+      "peace-feature",
+      "cleric-feature"
+    ],
+    "text": "*17th-level Peace Domain feature*\n\nThe benefits of your Emboldening Bond and Protective Bond features now work when the creatures are within 60 feet of each other. Moreover, when a creature uses Protective Bond to take someone else's damage, the creature has resistance to that damage."
+  }
+]

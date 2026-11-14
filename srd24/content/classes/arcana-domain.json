@@ -1,0 +1,224 @@
+[
+  {
+    "id": "srd24:subclass:arcana-domain",
+    "kind": "subclass",
+    "name": "Arcana Domain",
+    "source": "srd24",
+    "page": "AU 8",
+    "class": "srd24:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "fluff": "> Magic and the divine are naturally in harmony, like colors in a beautiful cosmic painting.\n>\n> — Alustriel",
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:arcana:arcana-domain",
+          "srd24:spell:detect-magic",
+          "srd24:spell:magic-missile",
+          "srd24:spell:magic-weapon",
+          "srd24:spell:arcanists-magic-aura"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:arcana-domain:known-spells-3",
+            "name": "Cantrip",
+            "count": 2,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level:0",
+                "wizard-spell"
+              ]
+            }
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:counterspell",
+          "srd24:spell:dispel-magic"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:arcana:dispelling-recovery"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:spell:arcane-eye",
+          "srd24:spell:secret-chest"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:arcane-hand",
+          "srd24:spell:teleportation-circle"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:arcana:magical-mastery"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:arcana:arcana-domain-spells",
+    "kind": "subclass-feature",
+    "name": "Arcana Domain Spells",
+    "source": "srd24",
+    "page": "AU 8",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "Your connection to this divine domain means you always have certain spells ready. When you reach a Cleric level specified in the Arcana Domain Spells table, you thereafter always have the listed spells prepared.\n\n**Arcana Domain Spells**\n| Cleric Level | Prepared Spells |\n| --- | --- |\n| 3 | Detect Magic, Magic Missile, Magic Weapon, Nystul's Magic Aura |\n| 5 | Counterspell, Dispel Magic |\n| 7 | Arcane Eye, Leomund's Secret Chest |\n| 9 | Bigby's Hand, Teleportation Circle |"
+  },
+  {
+    "id": "srd24:arcana:fortifying-spell",
+    "kind": "subclass-feature",
+    "name": "Fortifying Spell",
+    "source": "srd24",
+    "page": "AU 8",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "One target of the spell gains a number of Temporary Hit Points equal to 2d8 plus your Cleric level.",
+    "actions": [
+      {
+        "id": "fortifying-spell",
+        "name": "Fortifying Spell",
+        "activation": "special",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:arcana:tenacious-spell",
+    "kind": "subclass-feature",
+    "name": "Tenacious Spell",
+    "source": "srd24",
+    "page": "AU 8",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "When you cast a spell that forces a creature to make a saving throw, and a creature you can see succeeds on that saving throw, roll 1d6 and subtract the number rolled from the target's first saving throw against the spell's effect.",
+    "actions": [
+      {
+        "id": "tenacious-spell",
+        "name": "Tenacious Spell",
+        "activation": "special",
+        "cost": {
+          "srd24:cleric:channel-divinity": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:arcana:modify-magic",
+    "kind": "subclass-feature",
+    "name": "Modify Magic",
+    "source": "srd24",
+    "page": "AU 8",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "You can use your Channel Divinity to alter your spells as you cast them. When you cast a spell, you can expend one use of your Channel Divinity and change the spell in one of the following ways (no action required).",
+    "grants": [
+      "srd24:arcana:fortifying-spell",
+      "srd24:arcana:tenacious-spell"
+    ]
+  },
+  {
+    "id": "srd24:arcana:student-of-arcana",
+    "kind": "subclass-feature",
+    "name": "Student of Arcana",
+    "source": "srd24",
+    "page": "AU 8",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "You gain the following benefits.\n\n**Magical Knowledge.** You gain proficiency in the Arcana skill or one skill of your choice from the skills available to Clerics at level 1.\n\n**Cantrips.** You learn two Wizard cantrips of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another Wizard cantrip."
+  },
+  {
+    "id": "srd24:arcana:arcana-domain",
+    "kind": "subclass-feature",
+    "name": "Arcana Domain",
+    "source": "srd24",
+    "page": "AU 8",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "*Amplify Your Magical Power*\n\nMagic suffuses the multiverse and fuels both destruction and creation. Clerics with the Arcana Domain view magical knowledge not as power to be used in pursuit of personal ends, but as a gift they have the responsibility to share.\n\nGods associated with the Arcana Domain know the secrets and potential of magic intimately. These gods are often connected to knowledge, secrecy, or power.",
+    "grants": [
+      "srd24:arcana:arcana-domain-spells",
+      "srd24:arcana:modify-magic",
+      "srd24:arcana:student-of-arcana"
+    ]
+  },
+  {
+    "id": "srd24:arcana:dispelling-recovery",
+    "kind": "subclass-feature",
+    "name": "Dispelling Recovery",
+    "source": "srd24",
+    "page": "AU 9",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "Immediately after you cast a spell with a spell slot that restores Hit Points to a creature or ends a condition on a creature, you can cast Dispel Magic as part of that action, Bonus Action, or Reaction, and without expending a spell slot.\n\nOnce you use this feature, you can't use it again until you finish a Short or Long Rest. You also restore your use of it by expending one use of Channel Divinity (no action required).",
+    "resources": [
+      {
+        "id": "srd24:arcana:dispelling-recovery",
+        "name": "Dispelling Recovery",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "dispelling-recovery",
+        "name": "Dispelling Recovery",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:arcana:dispelling-recovery": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:arcana:magical-mastery",
+    "kind": "subclass-feature",
+    "name": "Magical Mastery",
+    "source": "srd24",
+    "page": "AU 9",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "You learn four Wizard spells, one from each of levels 6, 7, 8, and 9. You thereafter always have those spells prepared. Whenever you gain a Cleric level, you can replace one of these spells with another Wizard spell of the same level."
+  }
+]

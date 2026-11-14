@@ -1,0 +1,203 @@
+[
+  {
+    "id": "srd24:subclass:fey-wanderer",
+    "kind": "subclass",
+    "name": "Fey Wanderer",
+    "source": "srd24",
+    "page": "XPHB 124",
+    "class": "srd24:class:ranger",
+    "tags": [
+      "ranger-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:fey-wanderer:fey-wanderer",
+          {
+            "id": "srd24:spell:charm-person",
+            "mode": "learned"
+          }
+        ]
+      },
+      "5": {
+        "grants": [
+          {
+            "id": "srd24:spell:misty-step",
+            "mode": "learned"
+          }
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:fey-wanderer:beguiling-twist"
+        ]
+      },
+      "9": {
+        "grants": [
+          {
+            "id": "srd24:spell:summon-fey",
+            "mode": "learned"
+          }
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:fey-wanderer:fey-reinforcements"
+        ]
+      },
+      "13": {
+        "grants": [
+          {
+            "id": "srd24:spell:dimension-door",
+            "mode": "learned"
+          }
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:fey-wanderer:misty-wanderer"
+        ]
+      },
+      "17": {
+        "grants": [
+          {
+            "id": "srd24:spell:mislead",
+            "mode": "learned"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:fey-wanderer:dreadful-strikes",
+    "kind": "subclass-feature",
+    "name": "Dreadful Strikes",
+    "source": "srd24",
+    "page": "XPHB 124",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "You can augment your weapon strikes with mind-scarring magic drawn from the murky hollows of the Feywild. When you hit a creature with a weapon, you can deal an extra 1d4 Psychic damage to the target, which can take this extra damage only once per turn. The extra damage increases to 1d6 when you reach Ranger level 11."
+  },
+  {
+    "id": "srd24:fey-wanderer:fey-wanderer-spells",
+    "kind": "subclass-feature",
+    "name": "Fey Wanderer Spells",
+    "source": "srd24",
+    "page": "XPHB 124",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "When you reach a Ranger level specified in the Fey Wanderer Spells table, you thereafter always have the listed spells prepared.\n\n**Fey Wanderer Spells**\n| Ranger Level | Spells |\n| --- | --- |\n| 3 | Charm Person |\n| 5 | Misty Step |\n| 9 | Summon Fey |\n| 13 | Dimension Door |\n| 17 | Mislead |\n\nYou also possess a fey blessing. Choose it from the Feywild Gifts table or determine it randomly.\n\n**Feywild Gifts**\n| 1d6 | Gift |\n| --- | --- |\n| 1 | Illusory butterflies flutter around you while you take a Short or Long Rest. |\n| 2 | Flowers bloom from your hair each dawn. |\n| 3 | You faintly smell of cinnamon, lavender, nutmeg, or another comforting herb or spice. |\n| 4 | Your shadow dances while no one is looking directly at it. |\n| 5 | Horns or antlers sprout from your head. |\n| 6 | Your skin and hair change color each dawn. |"
+  },
+  {
+    "id": "srd24:fey-wanderer:otherworldly-glamour",
+    "kind": "subclass-feature",
+    "name": "Otherworldly Glamour",
+    "source": "srd24",
+    "page": "XPHB 124",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "Whenever you make a Charisma check, you gain a bonus to the check equal to your Wisdom modifier (minimum of +1).\n\nYou also gain proficiency in one of these skills of your choice: Deception, Performance, or Persuasion."
+  },
+  {
+    "id": "srd24:fey-wanderer:fey-wanderer",
+    "kind": "subclass-feature",
+    "name": "Fey Wanderer",
+    "source": "srd24",
+    "page": "XPHB 124",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "*Wield Fey Mirth and Fury*\n\nA fey mystique surrounds you, thanks to the boon of an archfey or a location in the Feywild that transformed you. However you gained fey magic, you are now a Fey Wanderer. Your joyful laughter brightens the hearts of the downtrodden, and your martial prowess strikes terror in your foes, for great is the mirth of the fey and dreadful is their fury.",
+    "grants": [
+      "srd24:fey-wanderer:dreadful-strikes",
+      "srd24:fey-wanderer:fey-wanderer-spells",
+      "srd24:fey-wanderer:otherworldly-glamour"
+    ]
+  },
+  {
+    "id": "srd24:fey-wanderer:beguiling-twist",
+    "kind": "subclass-feature",
+    "name": "Beguiling Twist",
+    "source": "srd24",
+    "page": "XPHB 125",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "The magic of the Feywild guards your mind. You have Advantage on saving throws to avoid or end the Charmed or Frightened condition.\n\nIn addition, whenever you or a creature you can see within 120 feet of you succeeds on a saving throw to avoid or end the Charmed or Frightened condition, you can take a Reaction to force a different creature you can see within 120 feet of yourself to make a Wisdom save against your spell save DC. On a failed save, the target is Charmed or Frightened (your choice) for 1 minute. The target repeats the save at the end of each of its turns, ending the effect on itself on a success.",
+    "actions": [
+      {
+        "id": "beguiling-twist",
+        "name": "Beguiling Twist",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:fey-wanderer:fey-reinforcements",
+    "kind": "subclass-feature",
+    "name": "Fey Reinforcements",
+    "source": "srd24",
+    "page": "XPHB 125",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "You can cast Summon Fey without a Material component. You can also cast it once without a spell slot, and you regain the ability to cast it in this way when you finish a Long Rest.\n\nWhenever you start casting the spell, you can modify it so that it doesn't require Concentration. If you do so, the spell's duration becomes 1 minute for that casting."
+  },
+  {
+    "id": "srd24:fey-wanderer:misty-wanderer",
+    "kind": "subclass-feature",
+    "name": "Misty Wanderer",
+    "source": "srd24",
+    "page": "XPHB 125",
+    "tags": [
+      "fey-wanderer-feature",
+      "ranger-feature"
+    ],
+    "text": "You can cast Misty Step without expending a spell slot. You can do so a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.\n\nIn addition, whenever you cast Misty Step, you can bring along one willing creature you can see within 5 feet of yourself. That creature teleports to an unoccupied space of your choice within 5 feet of your destination space.",
+    "resources": [
+      {
+        "id": "srd24:fey-wanderer:misty-wanderer",
+        "name": "Misty Wanderer",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "misty-wanderer",
+        "name": "Misty Wanderer",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:fey-wanderer:misty-wanderer": 1
+        }
+      }
+    ]
+  }
+]

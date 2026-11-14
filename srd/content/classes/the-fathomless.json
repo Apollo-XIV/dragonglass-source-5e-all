@@ -1,0 +1,215 @@
+[
+  {
+    "id": "srd:subclass:the-fathomless",
+    "kind": "subclass",
+    "name": "The Fathomless",
+    "source": "srd",
+    "page": "TCE 72",
+    "class": "srd:class:warlock",
+    "tags": [
+      "warlock-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:fathomless:the-fathomless"
+        ],
+        "spellListAdditions": [
+          {
+            "class": "srd:class:warlock",
+            "spells": [
+              "srd:spell:create-or-destroy-water",
+              "srd:spell:thunderwave",
+              "srd:spell:gust-of-wind",
+              "srd:spell:silence",
+              "srd:spell:lightning-bolt",
+              "srd:spell:sleet-storm",
+              "srd:spell:control-water",
+              "srd:spell:summon-elemental",
+              "srd:spell:arcane-hand",
+              "srd:spell:cone-of-cold"
+            ]
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:fathomless:oceanic-soul",
+          "srd:fathomless:guardian-coil"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:fathomless:grasping-tentacles"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:fathomless:fathomless-plunge"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:fathomless:tentacle-of-the-deeps",
+    "kind": "subclass-feature",
+    "name": "Tentacle of the Deeps",
+    "source": "srd",
+    "page": "TCE 72",
+    "tags": [
+      "fathomless-feature",
+      "warlock-feature"
+    ],
+    "text": "*1st-level Fathomless feature*\n\nYou can magically summon a spectral tentacle that strikes at your foes. As a bonus action, you create a 10-foot-long tentacle at a point you can see within 60 feet of you. The tentacle lasts for 1 minute or until you use this feature to create another tentacle.\n\nWhen you create the tentacle, you can make a melee spell attack against one creature within 10 feet of it. On a hit, the target takes 1d8 cold damage, and its speed is reduced by 10 feet until the start of your next turn. When you reach 10th level in this class, the damage increases to 2d8.\n\nAs a bonus action on your turn, you can move the tentacle up to 30 feet and repeat the attack.\n\nYou can summon the tentacle a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.",
+    "resources": [
+      {
+        "id": "srd:fathomless:tentacle-of-the-deeps",
+        "name": "Tentacle of the Deeps",
+        "max": "@prof",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "tentacle-of-the-deeps",
+        "name": "Tentacle of the Deeps",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:fathomless:tentacle-of-the-deeps": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:fathomless:gift-of-the-sea",
+    "kind": "subclass-feature",
+    "name": "Gift of the Sea",
+    "source": "srd",
+    "page": "TCE 72",
+    "tags": [
+      "fathomless-feature",
+      "warlock-feature"
+    ],
+    "text": "*1st-level Fathomless feature*\n\nYou gain a swimming speed of 40 feet, and you can breathe underwater."
+  },
+  {
+    "id": "srd:fathomless:the-fathomless",
+    "kind": "subclass-feature",
+    "name": "The Fathomless",
+    "source": "srd",
+    "page": "TCE 72",
+    "tags": [
+      "fathomless-feature",
+      "warlock-feature"
+    ],
+    "text": "You have plunged into a pact with the deeps. An entity of the ocean, the Elemental Plane of Water, or another otherworldly sea now allows you to draw on its thalassic power. Is it merely using you to learn about terrestrial realms, or does it want you to open cosmic floodgates and drown the world?\n\nPerhaps you were born into a generational cult that venerates the Fathomless and its spawn. Or you might have been shipwrecked and on the brink of drowning when your patron's grasp offered you a chance at life. Whatever the reason for your pact, the sea and its unknown depths call to you.\n\nEntities of the deep that might empower a warlock include krakens, ancient water elementals, godlike hallucinations dreamed into being by kuo-toa, merfolk demigods, and sea hag covens.\n\n**Expanded Spell List.** *1st-level Fathomless feature*\n\nThe Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Fathomless Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | create or destroy water, thunderwave |\n| 2nd | gust of wind, silence |\n| 3rd | lightning bolt, sleet storm |\n| 4th | control water, summon elemental (water only) |\n| 5th | Bigby's hand (appears as a tentacle), cone of cold |",
+    "grants": [
+      "srd:fathomless:tentacle-of-the-deeps",
+      "srd:fathomless:gift-of-the-sea"
+    ]
+  },
+  {
+    "id": "srd:fathomless:oceanic-soul",
+    "kind": "subclass-feature",
+    "name": "Oceanic Soul",
+    "source": "srd",
+    "page": "TCE 72",
+    "tags": [
+      "fathomless-feature",
+      "warlock-feature"
+    ],
+    "text": "*6th-level Fathomless feature*\n\nYou are now even more at home in the depths. You gain resistance to cold damage. In addition, when you are fully submerged, any creature that is also fully submerged can understand your speech, and you can understand theirs."
+  },
+  {
+    "id": "srd:fathomless:guardian-coil",
+    "kind": "subclass-feature",
+    "name": "Guardian Coil",
+    "source": "srd",
+    "page": "TCE 72",
+    "tags": [
+      "fathomless-feature",
+      "warlock-feature"
+    ],
+    "text": "*6th-level Fathomless feature*\n\nYour Tentacle of the Deeps can defend you and others, interposing itself between them and harm. When you or a creature you can see takes damage while within 10 feet of the tentacle, you can use your reaction to choose one of those creatures and reduce the damage to that creature by 1d8. When you reach 10th level in this class, the damage reduced by the tentacle increases to 2d8.",
+    "actions": [
+      {
+        "id": "guardian-coil",
+        "name": "Guardian Coil",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:fathomless:grasping-tentacles",
+    "kind": "subclass-feature",
+    "name": "Grasping Tentacles",
+    "source": "srd",
+    "page": "TCE 72",
+    "tags": [
+      "fathomless-feature",
+      "warlock-feature"
+    ],
+    "text": "*10th-level Fathomless feature*\n\nYou learn the spell Evard's black tentacles. It counts as a warlock spell for you, but it doesn't count against the number of spells you know. You can also cast it once without a spell slot, and you regain the ability to do so when you finish a long rest.\n\nWhenever you cast this spell, your patron's magic bolsters you, granting you a number of temporary hit points equal to your warlock level. Moreover, damage can't break your concentration on this spell."
+  },
+  {
+    "id": "srd:fathomless:fathomless-plunge",
+    "kind": "subclass-feature",
+    "name": "Fathomless Plunge",
+    "source": "srd",
+    "page": "TCE 72",
+    "tags": [
+      "fathomless-feature",
+      "warlock-feature"
+    ],
+    "text": "*14th-level Fathomless feature*\n\nYou can magically open temporary conduits to watery destinations. As an action, you can teleport yourself and up to five other willing creatures that you can see within 30 feet of you. Amid a whirl of tentacles, you all vanish and then reappear up to 1 mile away in a body of water you've seen (pond size or larger) or within 30 feet of it, each of you appearing in an unoccupied space within 30 feet of the others.\n\nOnce you use this feature, you can't use it again until you finish a short or long rest.",
+    "resources": [
+      {
+        "id": "srd:fathomless:fathomless-plunge",
+        "name": "Fathomless Plunge",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "short-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "fathomless-plunge",
+        "name": "Fathomless Plunge",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:fathomless:fathomless-plunge": 1
+        }
+      }
+    ]
+  }
+]

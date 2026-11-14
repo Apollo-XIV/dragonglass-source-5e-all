@@ -1,0 +1,278 @@
+[
+  {
+    "id": "srd24:subclass:diviner",
+    "kind": "subclass",
+    "name": "Diviner",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "class": "srd24:class:wizard",
+    "tags": [
+      "wizard-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:diviner:diviner"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:diviner:known-spells-3",
+            "name": "Spell",
+            "count": 2,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:2",
+                "wizard-spell",
+                "school:divination"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "5": {
+        "choices": [
+          {
+            "id": "srd24:subclass:diviner:known-spells-5",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:3",
+                "wizard-spell",
+                "school:divination"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:diviner:expert-divination"
+        ]
+      },
+      "7": {
+        "choices": [
+          {
+            "id": "srd24:subclass:diviner:known-spells-7",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:4",
+                "wizard-spell",
+                "school:divination"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "9": {
+        "choices": [
+          {
+            "id": "srd24:subclass:diviner:known-spells-9",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:5",
+                "wizard-spell",
+                "school:divination"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd24:diviner:the-third-eye"
+        ],
+        "innateSpells": [
+          {
+            "spell": "srd24:spell:see-invisibility"
+          }
+        ]
+      },
+      "11": {
+        "choices": [
+          {
+            "id": "srd24:subclass:diviner:known-spells-11",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:6",
+                "wizard-spell",
+                "school:divination"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "13": {
+        "choices": [
+          {
+            "id": "srd24:subclass:diviner:known-spells-13",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:7",
+                "wizard-spell",
+                "school:divination"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:diviner:greater-portent"
+        ]
+      },
+      "15": {
+        "choices": [
+          {
+            "id": "srd24:subclass:diviner:known-spells-15",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:8",
+                "wizard-spell",
+                "school:divination"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      },
+      "17": {
+        "choices": [
+          {
+            "id": "srd24:subclass:diviner:known-spells-17",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level-max:9",
+                "wizard-spell",
+                "school:divination"
+              ]
+            },
+            "mode": "learned",
+            "counts": false
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:diviner:divination-savant",
+    "kind": "subclass-feature",
+    "name": "Divination Savant",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "tags": [
+      "diviner-feature",
+      "wizard-feature"
+    ],
+    "text": "Choose two Wizard spells from the Divination school, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Divination school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
+  },
+  {
+    "id": "srd24:diviner:portent",
+    "kind": "subclass-feature",
+    "name": "Portent",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "tags": [
+      "diviner-feature",
+      "wizard-feature"
+    ],
+    "text": "Glimpses of the future begin to press on your awareness. Whenever you finish a Long Rest, roll two d20s and record the numbers rolled. You can replace any D20 Test made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.\n\nEach foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls."
+  },
+  {
+    "id": "srd24:diviner:diviner",
+    "kind": "subclass-feature",
+    "name": "Diviner",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "tags": [
+      "diviner-feature",
+      "wizard-feature"
+    ],
+    "text": "*Learn the Secrets of the Multiverse*\n\nThe counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
+    "grants": [
+      "srd24:diviner:divination-savant",
+      "srd24:diviner:portent"
+    ]
+  },
+  {
+    "id": "srd24:diviner:expert-divination",
+    "kind": "subclass-feature",
+    "name": "Expert Divination",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "tags": [
+      "diviner-feature",
+      "wizard-feature"
+    ],
+    "text": "Casting Divination spells comes so easily to you that it expends only a fraction of your spellcasting efforts. When you cast a Divination spell using a level 2+ spell slot, you regain one expended spell slot. The slot you regain must be of a level lower than the slot you expended and can't be higher than level 5."
+  },
+  {
+    "id": "srd24:diviner:the-third-eye",
+    "kind": "subclass-feature",
+    "name": "The Third Eye",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "tags": [
+      "diviner-feature",
+      "wizard-feature"
+    ],
+    "text": "You can increase your powers of perception. As a Bonus Action, choose one of the following benefits, which lasts until you start a Short or Long Rest. You can't use this feature again until you finish a Short or Long Rest.\n\n**Darkvision.** You gain Darkvision with a range of 120 feet.\n\n**Greater Comprehension.** You can read any language.\n\n**See Invisibility.** You can cast See Invisibility without expending a spell slot.",
+    "actions": [
+      {
+        "id": "the-third-eye",
+        "name": "The Third Eye",
+        "activation": "bonus-action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:diviner:greater-portent",
+    "kind": "subclass-feature",
+    "name": "Greater Portent",
+    "source": "srd24",
+    "page": "XPHB 173",
+    "tags": [
+      "diviner-feature",
+      "wizard-feature"
+    ],
+    "text": "The visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. Roll three d20s for your Portent feature rather than two."
+  }
+]

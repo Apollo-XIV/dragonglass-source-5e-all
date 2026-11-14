@@ -1,0 +1,116 @@
+[
+  {
+    "id": "srd24:subclass:college-of-the-moon",
+    "kind": "subclass",
+    "name": "College of the Moon",
+    "source": "srd24",
+    "page": "FRHoF 16",
+    "class": "srd24:class:bard",
+    "tags": [
+      "bard-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:moon:college-of-the-moon"
+        ],
+        "choices": [
+          {
+            "id": "srd24:subclass:college-of-the-moon:innate-spells-3",
+            "name": "Spell",
+            "count": 1,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level:0",
+                "druid-spell"
+              ]
+            }
+          }
+        ],
+        "innateSpells": [
+          {
+            "spell": {
+              "choice": "srd24:subclass:college-of-the-moon:innate-spells-3"
+            }
+          }
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd24:moon:blessing-of-moonlight"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd24:moon:eventides-splendor"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:moon:moons-inspiration",
+    "kind": "subclass-feature",
+    "name": "Moon's Inspiration",
+    "source": "srd24",
+    "page": "FRHoF 17",
+    "tags": [
+      "moon-feature",
+      "bard-feature"
+    ],
+    "text": "The primal and ever-changing power of the moon flows through you, granting you the following benefits.\n\n**Inspired Eclipse.** When you take a Bonus Action to give a creature a Bardic Inspiration die, you can have the Invisible condition and teleport up to 30 feet to an unoccupied space you can see as part of that Bonus Action. This invisibility lasts until the start of your next turn and ends early immediately after you make an attack roll, deal damage, or cast a spell.\n\n**Lunar Vitality.** Once per turn when you restore Hit Points to a creature with a spell, you can expend a Bardic Inspiration die and increase the amount of Hit Points restored by a number equal to a roll of the Bardic Inspiration die. The creature's Speed also increases by 10 feet until the end of its next turn."
+  },
+  {
+    "id": "srd24:moon:primal-lore",
+    "kind": "subclass-feature",
+    "name": "Primal Lore",
+    "source": "srd24",
+    "page": "FRHoF 17",
+    "tags": [
+      "moon-feature",
+      "bard-feature"
+    ],
+    "text": "You learn Druidic and one cantrip from the Druid spell list. It counts as a Bard spell for you but doesn't count against the number of cantrips you know. Whenever you gain a Bard level, you can replace this cantrip with another cantrip of your choice from the Druid spell list.\n\nAdditionally, choose one of the following skills: Animal Handling, Insight, Medicine, Nature, Perception, or Survival. You have proficiency in that skill."
+  },
+  {
+    "id": "srd24:moon:college-of-the-moon",
+    "kind": "subclass-feature",
+    "name": "College of the Moon",
+    "source": "srd24",
+    "page": "FRHoF 16",
+    "tags": [
+      "moon-feature",
+      "bard-feature"
+    ],
+    "text": "*Inspire Allies with Primal Tales*\n\nThe College of the Moon traces its origins to the ancient druidic circles of the Moonshae Isles, who entrusted the first Bards of this tradition with chronicling the stories of the islands and their people. Bards of this college draw from the isles' fey magic and the primal power of the moonwells to bolster their allies, protect the natural world, and inspire their bardic works.",
+    "grants": [
+      "srd24:moon:moons-inspiration",
+      "srd24:moon:primal-lore"
+    ]
+  },
+  {
+    "id": "srd24:moon:blessing-of-moonlight",
+    "kind": "subclass-feature",
+    "name": "Blessing of Moonlight",
+    "source": "srd24",
+    "page": "FRHoF 17",
+    "tags": [
+      "moon-feature",
+      "bard-feature"
+    ],
+    "text": "You always have the Moonbeam spell prepared.\n\nWhen you cast Moonbeam, you can modify the spell so that you glow faintly while the spell is active. While glowing, you shed Dim Light out to 5 feet, and whenever a creature fails its saving throw against the effects of this Moonbeam, another creature of your choice that you can see within 60 feet of yourself regains 2d4 Hit Points.\n\nOnce you use this feature to modify a casting of Moonbeam, you can't use it again until you finish a Long Rest."
+  },
+  {
+    "id": "srd24:moon:eventides-splendor",
+    "kind": "subclass-feature",
+    "name": "Eventide's Splendor",
+    "source": "srd24",
+    "page": "FRHoF 17",
+    "tags": [
+      "moon-feature",
+      "bard-feature"
+    ],
+    "text": "You become suffused with the might of the moon, improving your Moon's Inspiration in the following ways.\n\n**Shadow of the New Moon.** When you use Inspired Eclipse, the creature who received the Bardic Inspiration die can also have the Invisible condition and immediately take a Reaction to teleport up to 30 feet to an unoccupied space it can see. The creature remains Invisible until the start of its next turn.\n\n**Vibrance of the Full Moon.** When you use Lunar Vitality, you can roll 1d6 and use the number rolled in place of expending a Bardic Inspiration die."
+  }
+]

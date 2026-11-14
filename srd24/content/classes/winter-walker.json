@@ -1,0 +1,287 @@
+[
+  {
+    "id": "srd24:subclass:winter-walker",
+    "kind": "subclass",
+    "name": "Winter Walker",
+    "source": "srd24",
+    "page": "FRHoF 21",
+    "class": "srd24:class:ranger",
+    "tags": [
+      "ranger-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "3": {
+        "grants": [
+          "srd24:winter-walker:winter-walker",
+          "srd24:spell:ice-knife"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd24:spell:hold-person"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd24:winter-walker:fortifying-soul"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd24:spell:remove-curse"
+        ]
+      },
+      "11": {
+        "grants": [
+          "srd24:winter-walker:chilling-retribution"
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd24:spell:ice-storm"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd24:winter-walker:frozen-haunt"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd24:spell:cone-of-cold"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd24:winter-walker:frigid-explorer",
+    "kind": "subclass-feature",
+    "name": "Frigid Explorer",
+    "source": "srd24",
+    "page": "FRHoF 21",
+    "tags": [
+      "winter-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "You gain the following benefits.\n\n**Biting Cold.** Damage from your weapon attacks, Ranger spells, and Ranger features ignores Resistance to Cold damage.\n\n**Frost Resistance.** You have Resistance to Cold damage.\n\n**Polar Strikes.** When you hit a creature with an attack roll using a weapon, you can deal an extra 1d4 Cold damage to the target, which can take this extra damage only once per turn. When you reach Ranger level 11, this extra damage increases to 1d6.",
+    "modifiers": [
+      {
+        "target": "resistances",
+        "op": "include",
+        "value": [
+          "cold"
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:winter-walker:hunters-rime",
+    "kind": "subclass-feature",
+    "name": "Hunter's Rime",
+    "source": "srd24",
+    "page": "FRHoF 21",
+    "tags": [
+      "winter-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "Ice rimes you and your prey, protecting you and slowing them. When you cast Hunter's Mark, you gain Temporary Hit Points equal to 1d10 plus your Ranger level.\n\nAdditionally, while a creature is marked by your Hunter's Mark, it can't take the Disengage action."
+  },
+  {
+    "id": "srd24:winter-walker:winter-walker-spells",
+    "kind": "subclass-feature",
+    "name": "Winter Walker Spells",
+    "source": "srd24",
+    "page": "FRHoF 22",
+    "tags": [
+      "winter-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "When you reach a Ranger level specified in the Winter Walker Spells table, you thereafter always have the listed spells prepared.\n\n| Ranger Level | Spells |\n| --- | --- |\n| 3 | Ice Knife |\n| 5 | Hold Person |\n| 9 | Remove Curse |\n| 13 | Ice Storm |\n| 17 | Cone of Cold |"
+  },
+  {
+    "id": "srd24:winter-walker:winter-walker",
+    "kind": "subclass-feature",
+    "name": "Winter Walker",
+    "source": "srd24",
+    "page": "FRHoF 21",
+    "tags": [
+      "winter-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "*Withstand the Horrors of Frigid Wastelands*\n\nWinter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers' frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse.",
+    "grants": [
+      "srd24:winter-walker:frigid-explorer",
+      "srd24:winter-walker:hunters-rime",
+      "srd24:winter-walker:winter-walker-spells"
+    ]
+  },
+  {
+    "id": "srd24:winter-walker:fortifying-soul",
+    "kind": "subclass-feature",
+    "name": "Fortifying Soul",
+    "source": "srd24",
+    "page": "FRHoF 22",
+    "tags": [
+      "winter-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "Your experience surviving harrowing environments allows you to bolster your allies in addition to yourself. As a Magic action, choose a number of creatures you can see equal to your Wisdom modifier (minimum of one). Each chosen creature regains Hit Points equal to 1d10 plus your Ranger level and has Advantage on saving throws to avoid or end the Frightened condition for 1 hour.\n\nOnce you use this feature, you can't use it again until you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:winter-walker:fortifying-soul",
+        "name": "Fortifying Soul",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "fortifying-soul",
+        "name": "Fortifying Soul",
+        "activation": "action",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:winter-walker:fortifying-soul": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:winter-walker:chilling-retribution",
+    "kind": "subclass-feature",
+    "name": "Chilling Retribution",
+    "source": "srd24",
+    "page": "FRHoF 22",
+    "tags": [
+      "winter-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "When a creature hits you with an attack roll, you can take a Reaction to force the creature to make a Wisdom saving throw against your spell save DC. On a failed save, the target has the Stunned condition until the end of your next turn. While the target is Stunned, its Speed is reduced to 0 feet.\n\nYou can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
+    "resources": [
+      {
+        "id": "srd24:winter-walker:chilling-retribution",
+        "name": "Chilling Retribution",
+        "max": "max(1, @abilities.wis.mod)",
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          }
+        ],
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "chilling-retribution",
+        "name": "Chilling Retribution",
+        "activation": "reaction",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:winter-walker:chilling-retribution": 1
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd24:winter-walker:frozen-haunt",
+    "kind": "subclass-feature",
+    "name": "Frozen Haunt",
+    "source": "srd24",
+    "page": "FRHoF 22",
+    "tags": [
+      "winter-walker-feature",
+      "ranger-feature"
+    ],
+    "text": "When you cast Hunter's Mark, you can adopt a ghostly, snowy form. This form lasts until the spell ends, and while you are in this form, you gain the following benefits. Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a level 4+ spell slot (no action required).\n\n**Frozen Soul.** You have Immunity to Cold damage. When you first adopt this form and at the start of each of your subsequent turns, each creature of your choice in a 15-foot Emanation originating from you takes 2d4 Cold damage.\n\n**Partially Incorporeal.** You have Immunity to the Grappled, Prone, and Restrained conditions. You can move through creatures and objects as if they were Difficult Terrain, but you take 1d10 Force damage if you end your turn inside a creature or an object. If the form ends while you are inside a creature or an object, you are shunted to the nearest unoccupied space.",
+    "resources": [
+      {
+        "id": "srd24:winter-walker:frozen-haunt",
+        "name": "Frozen Haunt",
+        "max": 1,
+        "recharge": [
+          {
+            "on": "long-rest",
+            "amount": "all"
+          },
+          {
+            "on": "special",
+            "amount": "all",
+            "text": "Expend a level 4+ spell slot (no action required) to restore your use of this feature."
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "frozen-haunt",
+        "name": "Frozen Haunt",
+        "activation": "special",
+        "cost": {
+          "srd24:winter-walker:frozen-haunt": 1
+        },
+        "applies": "frozen-haunt",
+        "text": "When you cast Hunter's Mark, adopt a ghostly, snowy form until the spell ends.",
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "id": "frozen-haunt",
+        "name": "Ghostly Snowy Form",
+        "modifiers": [
+          {
+            "target": "immunities",
+            "op": "include",
+            "value": [
+              "cold"
+            ]
+          },
+          {
+            "target": "conditionImmunities",
+            "op": "include",
+            "value": [
+              "grappled",
+              "prone",
+              "restrained"
+            ]
+          }
+        ],
+        "provenance": {
+          "source": "llm:claude-sonnet-5-5",
+          "review": "auto"
+        }
+      }
+    ]
+  }
+]

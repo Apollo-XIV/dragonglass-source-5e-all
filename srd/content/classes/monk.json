@@ -1,0 +1,351 @@
+[
+  {
+    "id": "srd:class:monk",
+    "kind": "class",
+    "name": "Monk",
+    "source": "srd",
+    "page": "PHB 76",
+    "key": "monk",
+    "hitDie": "d8",
+    "tags": [
+      "srd-class"
+    ],
+    "fluff": "Her fists a blur as they deflect an incoming hail of arrows, a half-elf springs over a barricade and throws herself into the massed ranks of hobgoblins on the other side. She whirls among them, knocking their blows aside and sending them reeling, until at last she stands alone.\n\nTaking a deep breath, a human covered in tattoos settles into a battle stance. As the first charging orcs reach him, he exhales and a blast of fire roars from his mouth, engulfing his foes.\n\nMoving with the silence of the night, a black-clad halfling steps into a shadow beneath an arch and emerges from another inky shadow on a balcony a stone's throw away. She slides her blade free of its cloth-wrapped scabbard and peers through the open window at the tyrant prince, so vulnerable in the grip of sleep.\n\nWhatever their discipline, monks are united in their ability to magically harness the energy that flows in their bodies. Whether channeled as a striking display of combat prowess or a subtler focus of defensive ability and speed, this energy infuses all that a monk does.\n\n**The Magic of Ki.** Monks make careful study of a magical energy that most monastic traditions call ki. This energy is an element of the magic that suffuses the multiverse—specifically, the element that flows through living bodies. Monks harness this power within themselves to create magical effects and exceed their bodies' physical capabilities, and some of their special attacks can hinder the flow of ki in their opponents. Using this energy, monks channel uncanny speed and strength into their unarmed strikes. As they gain experience, their martial training and their mastery of ki gives them more power over their bodies and the bodies of their foes.\n\n**Training and Asceticism.** Small walled cloisters dot the landscapes of the worlds of D&D, tiny refuges from the flow of ordinary life, where time seems to stand still. The monks who live there seek personal perfection through contemplation and rigorous training. Many entered the monastery as children, sent to live there when their parents died, when food couldn't be found to support them, or in return for some kindness that the monks had performed for their families.\n\nSome monks live entirely apart from the surrounding population, secluded from anything that might impede their spiritual progress. Others are sworn to isolation, emerging only to serve as spies or assassins at the command of their leader, a noble patron, or some other mortal or divine power.\n\nThe majority of monks don't shun their neighbors, making frequent visits to nearby towns or villages and exchanging their service for food and other goods. As versatile warriors, monks often end up protecting their neighbors from monsters or tyrants.\n\nFor a monk, becoming an adventurer means leaving a structured, communal lifestyle to become a wanderer. This can be a harsh transition, and monks don't undertake it lightly. Those who leave their cloisters take their work seriously, approaching their adventures as personal tests of their physical and spiritual growth. As a rule, monks care little for material wealth and are driven by a desire to accomplish a greater mission than merely slaying monsters and plundering their treasure.\n\n**Creating a Monk.** As you make your monk character, think about your connection to the monastery where you learned your skills and spent your formative years. Were you an orphan or a child left on the monastery's threshold? Did your parents promise you to the monastery in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?\n\nConsider why you left. Did the head of your monastery choose you for a particularly important mission beyond the cloister? Perhaps you were cast out because of some violation of the community's rules. Did you dread leaving, or were you happy to go? Is there something you hope to accomplish outside the monastery? Are you eager to return to your home?\n\nAs a result of the structured life of a monastic community and the discipline required to harness ki, monks are almost always lawful in alignment.\n\n**Quick Build.** You can make a monk quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom. Second, choose the hermit background.\n\n> Do not mistake my silence for acceptance of your villainy. While you blustered and threatened, I've planned four different ways to snap your neck with my bare hands.\n>\n> — Ember, grand master of flowers\n\nMonks walk a path of contradiction. They study their art as a wizard does, and like a wizard, they wear no armor and typically eschew weapons. Yet they are deadly combatants, their abilities on a par with those of a raging barbarian or a superbly trained fighter. Monks embrace this seeming contradiction, for it speaks to the core of all monastic study. By coming to know oneself completely, one learns much of the wider world.\n\nA monk's focus on inner mastery leads many such individuals to become detached from society, more concerned with their personal experience than with happenings elsewhere. Adventuring monks are a rare breed of an already rare type of character, taking their quest for perfection beyond the walls of the monastery into the world at large.\n\nPlaying a monk character offers many intriguing opportunities to try something different. To distinguish your monk character even further, consider the options in the sections that follow.\n\n> I bet I could be a monk if I wanted.\n>\n> What? Why are you laughing?\n>\n> — Xanathar\n\n**Monastery.** A monk studies in a monastery in preparation for a life of asceticism. Most of those who enter a monastery make it their home for the rest of their lives, with the exception of adventurers and others who have reason to leave. For those individuals, a monastery might serve as a refuge between excursions to the world or as a source of support in times of need.\n\nWhat sort of place was your monastery, and where is it located? Did attending it contribute to your experience in an unusual or distinctive way?\n\n**Monastery**\n| d6 | Monastery |\n| --- | --- |\n| 1 | Your monastery is carved out of a mountainside, where it looms over a treacherous pass. |\n| 2 | Your monastery is high in the branches of an immense tree in the Feywild. |\n| 3 | Your monastery was founded long ago by a cloud giant and is inside a cloud castle that can be reached only by flying. |\n| 4 | Your monastery is built beside a volcanic system of hot springs, geysers, and sulfur pools. You regularly received visits from azer traders. |\n| 5 | Your monastery was founded by gnomes and is an underground labyrinth of tunnels and rooms. |\n| 6 | Your monastery was carved from an iceberg in the frozen reaches of the world. |\n\n**Icon.** Even in the monastic lifestyle, which eschews materialism and personal possessions, symbolism plays an important part in defining the identity of an order. Some monastic orders treat certain creatures with special regard, either because the creature is tied to the order's history or because it serves as an example of a quality the monks seek to emulate.\n\nIf your character's monastery had a special icon, you might wear a crude image of the creature somewhere inconspicuous on your clothing to serve as an identifying mark. Or perhaps your order's icon does not have a physical form but is expressed through a gesture or a posture that you adopt, and which other monks might know how to interpret.\n\n**Icon**\n| d6 | Icon |\n| --- | --- |\n| 1 | Monkey. Quick reflexes and the ability to travel through the treetops are two of the reasons why your order admires the monkey. |\n| 2 | Dragon Turtle. The monks of your seaside monastery venerate the dragon turtle, reciting ancient prayers and offering garlands of flowers to honor this living spirit of the sea. |\n| 3 | Ki-rin. Your monastery sees its main purpose as watching over and protecting the land in the manner of the ki-rin. |\n| 4 | Owlbear. The monks of your monastery revere a family of owlbears and have coexisted with them for generations. |\n| 5 | Hydra. Your order singles out the hydra for its ability to unleash several attacks simultaneously. |\n| 6 | Dragon. A dragon once laired within your monastery. Its influence remains long after its departure. |\n\n**Master.** During your studies, you were likely under the tutelage of a master who imparted to you the precepts of the order. Your master was the one most responsible for shaping your understanding of the martial arts and your attitude toward the world. What sort of person was your master, and how did your relationship with your master affect you?\n\n**Master**\n| d6 | Master |\n| --- | --- |\n| 1 | Your master was a tyrant whom you had to defeat in single combat to complete your instruction. |\n| 2 | Your master was kindly and taught you to pursue the cause of peace. |\n| 3 | Your master was merciless in pushing you to your limits. You nearly lost an eye during one especially brutal practice session. |\n| 4 | Your master seemed goodhearted while tutoring you, but betrayed your monastery in the end. |\n| 5 | Your master was cold and distant. You suspect that the two of you might be related. |\n| 6 | Your master was kind and generous, never critical of your progress. Nevertheless, you feel you never fully lived up to the expectations placed on you. |",
+    "text": "**Hit Dice:** 1d8 per monk level.\n\n**Hit Points at 1st Level:** 8 + your Constitution modifier.\n\n**Hit Points at Higher Levels:** 1d8 (or 5) + your Constitution modifier per monk level after 1st.\n\n**Armor:** None\n**Weapons:** Simple, shortswords\n**Tools:** Any one type of artisan's tools or any one musical instrument of your choice\n**Saving Throws:** Strength, Dexterity\n**Skills:** Choose 2 from acrobatics, athletics, history, insight, religion, stealth\n\n**Equipment:** You start with the following equipment, in addition to the equipment granted by your background:\n\n- (a) a shortsword or (b) any simple weapon\n- (a) a dungeoneer's pack or (b) an explorer's pack\n- 10 darts\n\nAlternatively, you may start with 5d4 gp to buy your own equipment.",
+    "multiclassRequires": {
+      "all": [
+        {
+          "type": "ability",
+          "ability": "dex",
+          "min": 13
+        },
+        {
+          "type": "ability",
+          "ability": "wis",
+          "min": 13
+        }
+      ],
+      "text": "Dexterity 13 and Wisdom 13"
+    },
+    "primaryAbility": [
+      "dex",
+      "wis"
+    ],
+    "x-multiclass-proficiencies": {
+      "weapons": [
+        "simple",
+        "{@item shortsword|phb|shortswords}"
+      ]
+    },
+    "tables": {
+      "martial-arts": [
+        "1d4",
+        "1d4",
+        "1d4",
+        "1d4",
+        "1d6",
+        "1d6",
+        "1d6",
+        "1d6",
+        "1d6",
+        "1d6",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d8",
+        "1d10",
+        "1d10",
+        "1d10",
+        "1d10"
+      ],
+      "ki-points": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unarmored-movement": [
+        0,
+        10,
+        10,
+        10,
+        10,
+        15,
+        15,
+        15,
+        15,
+        20,
+        20,
+        20,
+        20,
+        25,
+        25,
+        25,
+        25,
+        30,
+        30,
+        30
+      ]
+    },
+    "levels": {
+      "1": {
+        "choices": [
+          {
+            "id": "srd:class:monk:skill",
+            "name": "Skill Proficiency",
+            "count": 2,
+            "from": {
+              "ids": [
+                "srd:skill:acrobatics",
+                "srd:skill:athletics",
+                "srd:skill:history",
+                "srd:skill:insight",
+                "srd:skill:religion",
+                "srd:skill:stealth"
+              ]
+            }
+          },
+          {
+            "id": "srd:class:monk:tool",
+            "name": "Tool Proficiency",
+            "count": 1,
+            "from": {
+              "kind": "tool",
+              "tags": [
+                "artisans-tools",
+                "musical-instrument"
+              ]
+            },
+            "text": "any one type of artisan's tools or any one musical instrument of your choice"
+          }
+        ],
+        "modifiers": [
+          {
+            "target": "saves.str",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "saves.dex",
+            "op": "proficiency",
+            "value": "proficient"
+          },
+          {
+            "target": "proficiencies.weapon",
+            "op": "include",
+            "value": [
+              "simple",
+              "srd:item:shortsword"
+            ]
+          }
+        ],
+        "grants": [
+          "srd:monk:unarmored-defense",
+          "srd:monk:martial-arts"
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:monk:ki",
+          "srd:monk:dedicated-weapon",
+          "srd:monk:unarmored-movement"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:monk:deflect-missiles",
+          "srd:monk:monastic-tradition",
+          "srd:monk:ki-fueled-attack"
+        ],
+        "choices": [
+          {
+            "id": "srd:class:monk:subclass",
+            "name": "Monastic Tradition",
+            "count": 1,
+            "from": {
+              "kind": "subclass",
+              "tags": [
+                "monk-subclass"
+              ]
+            }
+          }
+        ]
+      },
+      "4": {
+        "choices": [
+          {
+            "id": "srd:class:monk:asi-4",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ],
+        "grants": [
+          "srd:monk:slow-fall",
+          "srd:monk:quickened-healing"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:monk:extra-attack",
+          "srd:monk:stunning-strike",
+          "srd:monk:focused-aim"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:monk:ki-empowered-strikes"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:monk:evasion",
+          "srd:monk:stillness-of-mind"
+        ]
+      },
+      "8": {
+        "choices": [
+          {
+            "id": "srd:class:monk:asi-8",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:monk:unarmored-movement-improvement"
+        ]
+      },
+      "10": {
+        "grants": [
+          "srd:monk:purity-of-body"
+        ]
+      },
+      "12": {
+        "choices": [
+          {
+            "id": "srd:class:monk:asi-12",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "13": {
+        "grants": [
+          "srd:monk:tongue-of-the-sun-and-moon"
+        ]
+      },
+      "14": {
+        "grants": [
+          "srd:monk:diamond-soul"
+        ]
+      },
+      "15": {
+        "grants": [
+          "srd:monk:timeless-body"
+        ]
+      },
+      "16": {
+        "choices": [
+          {
+            "id": "srd:class:monk:asi-16",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "18": {
+        "grants": [
+          "srd:monk:empty-body"
+        ]
+      },
+      "19": {
+        "choices": [
+          {
+            "id": "srd:class:monk:asi-19",
+            "name": "Ability Score Improvement",
+            "count": 1,
+            "from": {
+              "kind": [
+                "feat",
+                "feature"
+              ],
+              "tags": [
+                "ability-score-improvement",
+                "srd-feat"
+              ]
+            },
+            "text": "Increase one ability score by 2, or two by 1 each — or take a feat."
+          }
+        ]
+      },
+      "20": {
+        "grants": [
+          "srd:monk:perfect-self"
+        ]
+      }
+    }
+  }
+]

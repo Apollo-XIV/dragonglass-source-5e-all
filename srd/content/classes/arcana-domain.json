@@ -1,0 +1,183 @@
+[
+  {
+    "id": "srd:subclass:arcana-domain",
+    "kind": "subclass",
+    "name": "Arcana Domain",
+    "source": "srd",
+    "page": "SCAG 125",
+    "class": "srd:class:cleric",
+    "tags": [
+      "cleric-subclass",
+      "srd-subclass"
+    ],
+    "levels": {
+      "1": {
+        "grants": [
+          "srd:arcana:arcana-domain",
+          "srd:spell:detect-magic",
+          "srd:spell:magic-missile"
+        ],
+        "choices": [
+          {
+            "id": "srd:subclass:arcana-domain:known-spells-1",
+            "name": "Cantrip",
+            "count": 2,
+            "from": {
+              "kind": "spell",
+              "allTags": [
+                "spell-level:0",
+                "wizard-spell"
+              ]
+            }
+          }
+        ]
+      },
+      "2": {
+        "grants": [
+          "srd:arcana:channel-divinity-arcane-abjuration"
+        ]
+      },
+      "3": {
+        "grants": [
+          "srd:spell:magic-weapon",
+          "srd:spell:arcanists-magic-aura"
+        ]
+      },
+      "5": {
+        "grants": [
+          "srd:spell:dispel-magic",
+          "srd:spell:magic-circle"
+        ]
+      },
+      "6": {
+        "grants": [
+          "srd:arcana:spell-breaker"
+        ]
+      },
+      "7": {
+        "grants": [
+          "srd:spell:arcane-eye",
+          "srd:spell:secret-chest"
+        ]
+      },
+      "8": {
+        "grants": [
+          "srd:arcana:potent-spellcasting",
+          "srd:arcana:blessed-strikes"
+        ]
+      },
+      "9": {
+        "grants": [
+          "srd:spell:planar-binding",
+          "srd:spell:teleportation-circle"
+        ]
+      },
+      "17": {
+        "grants": [
+          "srd:arcana:arcane-mastery"
+        ]
+      }
+    }
+  },
+  {
+    "id": "srd:arcana:arcane-initiate",
+    "kind": "subclass-feature",
+    "name": "Arcane Initiate",
+    "source": "srd",
+    "page": "SCAG 125",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips."
+  },
+  {
+    "id": "srd:arcana:arcana-domain",
+    "kind": "subclass-feature",
+    "name": "Arcana Domain",
+    "source": "srd",
+    "page": "SCAG 125",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.\n\nThe gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include Azuth and Mystra, as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes Hecate, Math Mathonwy, and Isis; the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and Boccob, Vecna, and Wee Jas of Greyhawk.\n\nAt each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.\n\n**Arcana Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | detect magic, magic missile |\n| 3rd | magic weapon, Nystul's magic aura |\n| 5th | dispel magic, magic circle |\n| 7th | arcane eye, Leomund's secret chest |\n| 9th | planar binding, teleportation circle |",
+    "grants": [
+      "srd:arcana:arcane-initiate"
+    ]
+  },
+  {
+    "id": "srd:arcana:channel-divinity-arcane-abjuration",
+    "kind": "subclass-feature",
+    "name": "Channel Divinity: Arcane Abjuration",
+    "source": "srd",
+    "page": "SCAG 125",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures.\n\nAs an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.\n\nA turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, then the creature can use the Dodge action.\n\nAfter you reach 5th level, when a creature fails its saving throw against your Arcane Abjuration feature, the creature is banished for 1 minute (as in the banishment spell, no concentration required) if it isn't on its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.\n\n**Arcane Banishment**\n| Cleric level | Banishes Creatures of CR... |\n| --- | --- |\n| 5th | 1/2 or lower |\n| 8th | 1 or lower |\n| 11th | 2 or lower |\n| 14th | 3 or lower |\n| 17th | 4 or lower |",
+    "actions": [
+      {
+        "id": "channel-divinity-arcane-abjuration",
+        "name": "Channel Divinity: Arcane Abjuration",
+        "activation": "action",
+        "cost": {
+          "srd:cleric:channel-divinity": 1
+        },
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        }
+      }
+    ]
+  },
+  {
+    "id": "srd:arcana:spell-breaker",
+    "kind": "subclass-feature",
+    "name": "Spell Breaker",
+    "source": "srd",
+    "page": "SCAG 125",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 6th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell."
+  },
+  {
+    "id": "srd:arcana:potent-spellcasting",
+    "kind": "subclass-feature",
+    "name": "Potent Spellcasting",
+    "source": "srd",
+    "page": "SCAG 125",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+  },
+  {
+    "id": "srd:arcana:blessed-strikes",
+    "kind": "subclass-feature",
+    "name": "Blessed Strikes",
+    "source": "srd",
+    "page": "TCE 30",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "*8th-level cleric optional feature, which replaces the Potent Spellcasting feature*\n\nYou are blessed with divine might in battle. When a creature takes damage from one of your cantrips or weapon attacks, you can also deal 1d8 radiant damage to that creature. Once you deal this damage, you can't use this feature again until the start of your next turn."
+  },
+  {
+    "id": "srd:arcana:arcane-mastery",
+    "kind": "subclass-feature",
+    "name": "Arcane Mastery",
+    "source": "srd",
+    "page": "SCAG 125",
+    "tags": [
+      "arcana-feature",
+      "cleric-feature"
+    ],
+    "text": "At 17th level, you choose four spells from the Wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you."
+  }
+]
