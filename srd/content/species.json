@@ -1808,6 +1808,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "vampiric-bite",
+        "name": "Vampiric Bite",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:dhampir:vampiric-bite": 1
+        }
+      }
     ]
   },
   {
@@ -1894,6 +1908,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd:dragonborn:breath-weapon": 1
         }
       }
     ]
@@ -4622,6 +4639,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd:eladrin:fey-step": 1
         }
       }
     ]
@@ -8360,6 +8380,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd:goliath:stones-endurance": 1
         }
       }
     ]
@@ -15105,41 +15128,7 @@
       "tiefling-trait"
     ],
     "text": "You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell with this trait; you regain the ability to cast it when you finish a long rest. Once you reach 5th level, you can also cast the darkness spell once per day with this trait; you regain the ability to cast it when you finish a long rest. Charisma is your spellcasting ability for these spells.",
-    "page": "PHB 42",
-    "resources": [
-      {
-        "id": "srd:tiefling:infernal-legacy-hellish-rebuke",
-        "name": "Infernal Legacy: Hellish Rebuke",
-        "max": "min(1, floor(@level/3))",
-        "recharge": [
-          {
-            "on": "long-rest",
-            "amount": "all"
-          }
-        ],
-        "unit": "uses",
-        "provenance": {
-          "source": "llm:claude-sonnet-5-5",
-          "review": "auto"
-        }
-      },
-      {
-        "id": "srd:tiefling:infernal-legacy-darkness",
-        "name": "Infernal Legacy: Darkness",
-        "max": "min(1, floor(@level/5))",
-        "recharge": [
-          {
-            "on": "long-rest",
-            "amount": "all"
-          }
-        ],
-        "unit": "uses",
-        "provenance": {
-          "source": "llm:claude-sonnet-5-5",
-          "review": "auto"
-        }
-      }
-    ]
+    "page": "PHB 42"
   },
   {
     "id": "srd:species:tiefling",

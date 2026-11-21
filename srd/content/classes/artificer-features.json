@@ -60,6 +60,20 @@
         "max": "@table(artificer, infusions-known)",
         "recharge": []
       }
+    ],
+    "actions": [
+      {
+        "id": "infusions-known",
+        "name": "Infusions Known",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:artificer:infusions-known": 1
+        }
+      }
     ]
   },
   {

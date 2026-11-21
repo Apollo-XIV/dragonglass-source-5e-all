@@ -141,6 +141,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd:wild-magic:bolstering-magic": 1
         }
       }
     ]

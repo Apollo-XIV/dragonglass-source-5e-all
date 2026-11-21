@@ -81,6 +81,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "mystic-arcanum-6th-level",
+        "name": "Mystic Arcanum (6th level)",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:warlock:mystic-arcanum-6th-level": 1
+        }
+      }
     ]
   },
   {

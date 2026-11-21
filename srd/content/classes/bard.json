@@ -206,6 +206,17 @@
                 "bard-subclass"
               ]
             }
+          },
+          {
+            "id": "srd:class:bard:expertise-3",
+            "name": "Expertise",
+            "count": 2,
+            "from": {
+              "kind": "expertise",
+              "tags": [
+                "expertise-skill"
+              ]
+            }
           }
         ]
       },
@@ -281,6 +292,17 @@
               ]
             },
             "mode": "learned"
+          },
+          {
+            "id": "srd:class:bard:expertise-10",
+            "name": "Expertise",
+            "count": 2,
+            "from": {
+              "kind": "expertise",
+              "tags": [
+                "expertise-skill"
+              ]
+            }
           }
         ],
         "grants": [

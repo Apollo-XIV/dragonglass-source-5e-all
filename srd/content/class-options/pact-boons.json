@@ -58,6 +58,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "pact-of-the-talisman",
+        "name": "Pact of the Talisman",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:pact-boon:pact-of-the-talisman": 1
+        }
+      }
     ]
   },
   {

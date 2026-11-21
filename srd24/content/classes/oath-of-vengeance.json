@@ -181,6 +181,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd24:vengeance:avenging-angel": 1
         }
       }
     ]

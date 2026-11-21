@@ -86,6 +86,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd:undead:form-of-dread": 1
         }
       }
     ]

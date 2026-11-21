@@ -189,6 +189,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd:invocation:bond-of-the-talisman": 1
         }
       }
     ]
@@ -987,6 +990,20 @@
         "provenance": {
           "source": "llm:claude-sonnet-5-5",
           "review": "auto"
+        }
+      }
+    ],
+    "actions": [
+      {
+        "id": "protection-of-the-talisman",
+        "name": "Protection of the Talisman",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:invocation:protection-of-the-talisman": 1
         }
       }
     ]

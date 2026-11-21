@@ -46,6 +46,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd24:artificer:tinkers-magic": 1
         }
       }
     ]

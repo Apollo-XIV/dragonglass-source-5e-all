@@ -1270,6 +1270,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "boon-of-fate",
+        "name": "Boon of Fate",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd24:feat:boon-of-fate": 1
+        }
+      }
     ]
   },
   {
@@ -6488,6 +6502,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd24:feat:mythal-touched": 1
         }
       }
     ]
@@ -8236,6 +8253,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd24:feat:symbiotic-being": 1
         }
       }
     ]

@@ -191,6 +191,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd:genie:bottled-respite": 1
         }
       }
     ]

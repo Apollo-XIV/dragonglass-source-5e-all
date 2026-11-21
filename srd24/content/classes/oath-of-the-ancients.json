@@ -208,6 +208,9 @@
         "provenance": {
           "source": "prose",
           "review": "auto"
+        },
+        "cost": {
+          "srd24:ancients:elder-champion": 1
         }
       }
     ]

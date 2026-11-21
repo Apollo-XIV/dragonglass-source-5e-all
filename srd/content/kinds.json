@@ -146,6 +146,19 @@
     "order": 122
   },
   {
+    "id": "srd:kind:expertise",
+    "kind": "kind",
+    "name": "Expertise",
+    "source": "srd",
+    "key": "expertise",
+    "label": "Expertise",
+    "plural": "Expertise",
+    "tab": null,
+    "display": "list",
+    "browsable": true,
+    "order": 123
+  },
+  {
     "id": "srd:kind:arcane-shot",
     "kind": "kind",
     "name": "Arcane Shot",

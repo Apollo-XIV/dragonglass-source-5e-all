@@ -183,6 +183,20 @@
           "review": "auto"
         }
       }
+    ],
+    "actions": [
+      {
+        "id": "arcane-jolt",
+        "name": "Arcane Jolt",
+        "activation": "special",
+        "provenance": {
+          "source": "prose",
+          "review": "auto"
+        },
+        "cost": {
+          "srd:battle-smith:arcane-jolt": 1
+        }
+      }
     ]
   },
   {
