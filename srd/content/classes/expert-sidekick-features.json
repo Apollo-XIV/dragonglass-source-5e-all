@@ -3,8 +3,8 @@
     "id": "srd:expert-sidekick:sidekick-class",
     "kind": "class-feature",
     "name": "Sidekick Class",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd:expert-sidekick:bonus-proficiencies",
     "kind": "class-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd:expert-sidekick:helpful",
     "kind": "class-feature",
     "name": "Helpful",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -36,8 +36,8 @@
     "id": "srd:expert-sidekick:cunning-action",
     "kind": "class-feature",
     "name": "Cunning Action",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -47,8 +47,8 @@
     "id": "srd:expert-sidekick:expertise",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -58,8 +58,8 @@
     "id": "srd:expert-sidekick:coordinated-strike",
     "kind": "class-feature",
     "name": "Coordinated Strike",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -69,8 +69,8 @@
     "id": "srd:expert-sidekick:evasion",
     "kind": "class-feature",
     "name": "Evasion",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -80,8 +80,8 @@
     "id": "srd:expert-sidekick:inspiring-help",
     "kind": "class-feature",
     "name": "Inspiring Help",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -91,8 +91,8 @@
     "id": "srd:expert-sidekick:reliable-talent",
     "kind": "class-feature",
     "name": "Reliable Talent",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -102,8 +102,8 @@
     "id": "srd:expert-sidekick:expertise-15",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -113,8 +113,8 @@
     "id": "srd:expert-sidekick:sharp-mind",
     "kind": "class-feature",
     "name": "Sharp Mind",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],
@@ -124,8 +124,8 @@
     "id": "srd:expert-sidekick:inspiring-help-improvement",
     "kind": "class-feature",
     "name": "Inspiring Help Improvement",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "tags": [
       "expert-sidekick-feature"
     ],

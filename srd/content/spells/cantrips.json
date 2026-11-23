@@ -3,7 +3,7 @@
     "id": "srd:spell:acid-splash",
     "kind": "spell",
     "name": "Acid Splash",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -21,7 +21,7 @@
       "school:conjuration"
     ],
     "spellLevel": 0,
-    "page": "PHB 211",
+    "page": "211",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -46,7 +46,7 @@
     "id": "srd:spell:blade-ward",
     "kind": "spell",
     "name": "Blade Ward",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -66,7 +66,7 @@
       "school:abjuration"
     ],
     "spellLevel": 0,
-    "page": "PHB 218",
+    "page": "218",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -103,7 +103,7 @@
     "id": "srd:spell:booming-blade",
     "kind": "spell",
     "name": "Booming Blade",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -122,7 +122,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "TCE 106",
+    "page": "106",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "Self (5-foot radius)",
@@ -145,7 +145,7 @@
     "id": "srd:spell:chill-touch",
     "kind": "spell",
     "name": "Chill Touch",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -164,7 +164,7 @@
       "school:necromancy"
     ],
     "spellLevel": 0,
-    "page": "PHB 221",
+    "page": "221",
     "school": "necromancy",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -187,7 +187,7 @@
     "id": "srd:spell:control-flames",
     "kind": "spell",
     "name": "Control Flames",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -203,7 +203,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "XGE 152",
+    "page": "152",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -215,7 +215,7 @@
     "id": "srd:spell:create-bonfire",
     "kind": "spell",
     "name": "Create Bonfire",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -231,7 +231,7 @@
       "school:conjuration"
     ],
     "spellLevel": 0,
-    "page": "XGE 152",
+    "page": "152",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -257,7 +257,7 @@
     "id": "srd:spell:dancing-lights",
     "kind": "spell",
     "name": "Dancing Lights",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -276,7 +276,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "PHB 230",
+    "page": "230",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -289,7 +289,7 @@
     "id": "srd:spell:druidcraft",
     "kind": "spell",
     "name": "Druidcraft",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "druid-spell",
       "spell-level:0",
@@ -306,7 +306,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "PHB 236",
+    "page": "236",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -318,7 +318,7 @@
     "id": "srd:spell:eldritch-blast",
     "kind": "spell",
     "name": "Eldritch Blast",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "warlock-spell",
       "spell-level:0",
@@ -335,7 +335,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "PHB 237",
+    "page": "237",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -358,7 +358,7 @@
     "id": "srd:spell:encode-thoughts",
     "kind": "spell",
     "name": "Encode Thoughts",
-    "source": "srd",
+    "source": "ggr",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -374,7 +374,7 @@
       "school:enchantment"
     ],
     "spellLevel": 0,
-    "page": "GGR 47",
+    "page": "47",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "Self",
@@ -386,7 +386,7 @@
     "id": "srd:spell:fire-bolt",
     "kind": "spell",
     "name": "Fire Bolt",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -404,7 +404,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "PHB 242",
+    "page": "242",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -427,7 +427,7 @@
     "id": "srd:spell:friends",
     "kind": "spell",
     "name": "Friends",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -447,7 +447,7 @@
       "school:enchantment"
     ],
     "spellLevel": 0,
-    "page": "PHB 244",
+    "page": "244",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "Self",
@@ -479,7 +479,7 @@
     "id": "srd:spell:frostbite",
     "kind": "spell",
     "name": "Frostbite",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -495,7 +495,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "XGE 156",
+    "page": "156",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -520,7 +520,7 @@
     "id": "srd:spell:green-flame-blade",
     "kind": "spell",
     "name": "Green-Flame Blade",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -539,7 +539,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "TCE 107",
+    "page": "107",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "Self (5-foot radius)",
@@ -562,7 +562,7 @@
     "id": "srd:spell:guidance",
     "kind": "spell",
     "name": "Guidance",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -580,7 +580,7 @@
       "school:divination"
     ],
     "spellLevel": 0,
-    "page": "PHB 248",
+    "page": "248",
     "school": "divination",
     "castingTime": "1 action",
     "range": "Touch",
@@ -593,7 +593,7 @@
     "id": "srd:spell:gust",
     "kind": "spell",
     "name": "Gust",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -609,7 +609,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "XGE 157",
+    "page": "157",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -632,7 +632,7 @@
     "id": "srd:spell:infestation",
     "kind": "spell",
     "name": "Infestation",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -648,7 +648,7 @@
       "school:conjuration"
     ],
     "spellLevel": 0,
-    "page": "XGE 158",
+    "page": "158",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -673,7 +673,7 @@
     "id": "srd:spell:light",
     "kind": "spell",
     "name": "Light",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -693,7 +693,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "PHB 255",
+    "page": "255",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -716,7 +716,7 @@
     "id": "srd:spell:lightning-lure",
     "kind": "spell",
     "name": "Lightning Lure",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -735,7 +735,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "TCE 107",
+    "page": "107",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "Self (15-foot radius)",
@@ -760,7 +760,7 @@
     "id": "srd:spell:mage-hand",
     "kind": "spell",
     "name": "Mage Hand",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -780,7 +780,7 @@
       "school:conjuration"
     ],
     "spellLevel": 0,
-    "page": "PHB 256",
+    "page": "256",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -792,7 +792,7 @@
     "id": "srd:spell:magic-stone",
     "kind": "spell",
     "name": "Magic Stone",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -808,7 +808,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "XGE 160",
+    "page": "160",
     "school": "transmutation",
     "castingTime": "1 bonus action",
     "range": "Touch",
@@ -829,7 +829,7 @@
     "id": "srd:spell:mending",
     "kind": "spell",
     "name": "Mending",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -850,7 +850,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "PHB 259",
+    "page": "259",
     "school": "transmutation",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -862,7 +862,7 @@
     "id": "srd:spell:message",
     "kind": "spell",
     "name": "Message",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -881,7 +881,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "PHB 259",
+    "page": "259",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -893,7 +893,7 @@
     "id": "srd:spell:mind-sliver",
     "kind": "spell",
     "name": "Mind Sliver",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -909,7 +909,7 @@
       "school:enchantment"
     ],
     "spellLevel": 0,
-    "page": "TCE 108",
+    "page": "108",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -934,7 +934,7 @@
     "id": "srd:spell:minor-illusion",
     "kind": "spell",
     "name": "Minor Illusion",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -954,7 +954,7 @@
       "school:illusion"
     ],
     "spellLevel": 0,
-    "page": "PHB 260",
+    "page": "260",
     "school": "illusion",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -966,7 +966,7 @@
     "id": "srd:spell:mold-earth",
     "kind": "spell",
     "name": "Mold Earth",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -982,7 +982,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "XGE 162",
+    "page": "162",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -994,7 +994,7 @@
     "id": "srd:spell:poison-spray",
     "kind": "spell",
     "name": "Poison Spray",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "druid-spell",
       "sorcerer-spell",
@@ -1014,7 +1014,7 @@
       "school:conjuration"
     ],
     "spellLevel": 0,
-    "page": "PHB 266",
+    "page": "266",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -1039,7 +1039,7 @@
     "id": "srd:spell:prestidigitation",
     "kind": "spell",
     "name": "Prestidigitation",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -1059,7 +1059,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "PHB 267",
+    "page": "267",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -1071,7 +1071,7 @@
     "id": "srd:spell:primal-savagery",
     "kind": "spell",
     "name": "Primal Savagery",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -1087,7 +1087,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "XGE 163",
+    "page": "163",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -1110,7 +1110,7 @@
     "id": "srd:spell:produce-flame",
     "kind": "spell",
     "name": "Produce Flame",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "druid-spell",
       "spell-level:0",
@@ -1127,7 +1127,7 @@
       "school:conjuration"
     ],
     "spellLevel": 0,
-    "page": "PHB 269",
+    "page": "269",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -1150,7 +1150,7 @@
     "id": "srd:spell:ray-of-frost",
     "kind": "spell",
     "name": "Ray of Frost",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -1168,7 +1168,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "PHB 271",
+    "page": "271",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1191,7 +1191,7 @@
     "id": "srd:spell:resistance",
     "kind": "spell",
     "name": "Resistance",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -1209,7 +1209,7 @@
       "school:abjuration"
     ],
     "spellLevel": 0,
-    "page": "PHB 272",
+    "page": "272",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1222,7 +1222,7 @@
     "id": "srd:spell:sacred-flame",
     "kind": "spell",
     "name": "Sacred Flame",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "cleric-spell",
       "spell-level:0",
@@ -1239,7 +1239,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "PHB 272",
+    "page": "272",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1264,7 +1264,7 @@
     "id": "srd:spell:sapping-sting",
     "kind": "spell",
     "name": "Sapping Sting",
-    "source": "srd",
+    "source": "egw",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -1280,7 +1280,7 @@
       "school:necromancy"
     ],
     "spellLevel": 0,
-    "page": "EGW 189",
+    "page": "189",
     "school": "necromancy",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1305,7 +1305,7 @@
     "id": "srd:spell:shape-water",
     "kind": "spell",
     "name": "Shape Water",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -1321,7 +1321,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "XGE 164",
+    "page": "164",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1333,7 +1333,7 @@
     "id": "srd:spell:shillelagh",
     "kind": "spell",
     "name": "Shillelagh",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "druid-spell",
       "spell-level:0",
@@ -1350,7 +1350,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "PHB 275",
+    "page": "275",
     "school": "transmutation",
     "castingTime": "1 bonus action",
     "range": "Touch",
@@ -1362,7 +1362,7 @@
     "id": "srd:spell:shocking-grasp",
     "kind": "spell",
     "name": "Shocking Grasp",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -1380,7 +1380,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "PHB 275",
+    "page": "275",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1403,7 +1403,7 @@
     "id": "srd:spell:spare-the-dying",
     "kind": "spell",
     "name": "Spare the Dying",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "cleric-spell",
       "spell-level:0",
@@ -1420,7 +1420,7 @@
       "school:necromancy"
     ],
     "spellLevel": 0,
-    "page": "PHB 277",
+    "page": "277",
     "school": "necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1432,7 +1432,7 @@
     "id": "srd:spell:sword-burst",
     "kind": "spell",
     "name": "Sword Burst",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -1451,7 +1451,7 @@
       "school:conjuration"
     ],
     "spellLevel": 0,
-    "page": "TCE 115",
+    "page": "115",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "Self (5-foot radius)",
@@ -1476,7 +1476,7 @@
     "id": "srd:spell:thaumaturgy",
     "kind": "spell",
     "name": "Thaumaturgy",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "cleric-spell",
       "spell-level:0",
@@ -1493,7 +1493,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "PHB 282",
+    "page": "282",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1505,7 +1505,7 @@
     "id": "srd:spell:thorn-whip",
     "kind": "spell",
     "name": "Thorn Whip",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "druid-spell",
       "spell-level:0",
@@ -1522,7 +1522,7 @@
       "school:transmutation"
     ],
     "spellLevel": 0,
-    "page": "PHB 282",
+    "page": "282",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1545,7 +1545,7 @@
     "id": "srd:spell:thunderclap",
     "kind": "spell",
     "name": "Thunderclap",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -1561,7 +1561,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "XGE 168",
+    "page": "168",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "5 feet",
@@ -1586,7 +1586,7 @@
     "id": "srd:spell:toll-the-dead",
     "kind": "spell",
     "name": "Toll the Dead",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -1602,7 +1602,7 @@
       "school:necromancy"
     ],
     "spellLevel": 0,
-    "page": "XGE 169",
+    "page": "169",
     "school": "necromancy",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1627,7 +1627,7 @@
     "id": "srd:spell:true-strike",
     "kind": "spell",
     "name": "True Strike",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -1647,7 +1647,7 @@
       "school:divination"
     ],
     "spellLevel": 0,
-    "page": "PHB 284",
+    "page": "284",
     "school": "divination",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1660,7 +1660,7 @@
     "id": "srd:spell:vicious-mockery",
     "kind": "spell",
     "name": "Vicious Mockery",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "bard-spell",
       "spell-level:0",
@@ -1677,7 +1677,7 @@
       "school:enchantment"
     ],
     "spellLevel": 0,
-    "page": "PHB 285",
+    "page": "285",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1702,7 +1702,7 @@
     "id": "srd:spell:word-of-radiance",
     "kind": "spell",
     "name": "Word of Radiance",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "spell-level:0",
       "spell-level-max:0",
@@ -1718,7 +1718,7 @@
       "school:evocation"
     ],
     "spellLevel": 0,
-    "page": "XGE 171",
+    "page": "171",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "5 feet",

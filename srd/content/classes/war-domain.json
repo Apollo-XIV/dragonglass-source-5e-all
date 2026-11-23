@@ -3,17 +3,19 @@
     "id": "srd:subclass:war-domain",
     "kind": "subclass",
     "name": "War Domain",
-    "source": "srd",
-    "page": "PHB 63",
+    "source": "phb",
+    "page": "63",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**War Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | divine favor, shield of faith |\n| 3rd | magic weapon, spiritual weapon |\n| 5th | crusader's mantle, spirit guardians |\n| 7th | freedom of movement, stoneskin |\n| 9th | flame strike, hold monster |",
     "levels": {
       "1": {
         "grants": [
-          "srd:war:war-domain",
+          "srd:war:bonus-proficiencies",
+          "srd:war:war-priest",
           "srd:spell:divine-favor",
           "srd:spell:shield-of-faith"
         ]
@@ -69,8 +71,8 @@
     "id": "srd:war:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "PHB 63",
+    "source": "phb",
+    "page": "63",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -105,8 +107,8 @@
     "id": "srd:war:war-priest",
     "kind": "subclass-feature",
     "name": "War Priest",
-    "source": "srd",
-    "page": "PHB 63",
+    "source": "phb",
+    "page": "63",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -145,27 +147,11 @@
     ]
   },
   {
-    "id": "srd:war:war-domain",
-    "kind": "subclass-feature",
-    "name": "War Domain",
-    "source": "srd",
-    "page": "PHB 63",
-    "tags": [
-      "war-feature",
-      "cleric-feature"
-    ],
-    "text": "War has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. In either case, the gods of war watch over warriors and reward them for their great deeds. The clerics of such gods excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers. Gods of war include champions of honor and chivalry (such as Torm, Heironeous, and Kiri-Jolith) as well as gods of destruction and pillage (such as Erythnul, the Fury, Gruumsh, and Ares) and gods of conquest and domination (such as Bane, Hextor, and Maglubiyet). Other war gods (such as Tempus, Nike, and Nuada) take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**War Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | divine favor, shield of faith |\n| 3rd | magic weapon, spiritual weapon |\n| 5th | crusader's mantle, spirit guardians |\n| 7th | freedom of movement, stoneskin |\n| 9th | flame strike, hold monster |",
-    "grants": [
-      "srd:war:bonus-proficiencies",
-      "srd:war:war-priest"
-    ]
-  },
-  {
     "id": "srd:war:channel-divinity-guided-strike",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Guided Strike",
-    "source": "srd",
-    "page": "PHB 63",
+    "source": "phb",
+    "page": "63",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -186,8 +172,8 @@
     "id": "srd:war:channel-divinity-war-gods-blessing",
     "kind": "subclass-feature",
     "name": "Channel Divinity: War God's Blessing",
-    "source": "srd",
-    "page": "PHB 63",
+    "source": "phb",
+    "page": "63",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -212,8 +198,8 @@
     "id": "srd:war:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "PHB 63",
+    "source": "phb",
+    "page": "63",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -224,8 +210,8 @@
     "id": "srd:war:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -236,8 +222,8 @@
     "id": "srd:war:avatar-of-battle",
     "kind": "subclass-feature",
     "name": "Avatar of Battle",
-    "source": "srd",
-    "page": "PHB 63",
+    "source": "phb",
+    "page": "63",
     "tags": [
       "war-feature",
       "cleric-feature"

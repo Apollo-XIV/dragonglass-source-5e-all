@@ -3,17 +3,19 @@
     "id": "srd24:subclass:college-of-glamour",
     "kind": "subclass",
     "name": "College of Glamour",
-    "source": "srd24",
-    "page": "XPHB 65",
+    "source": "xphb",
+    "page": "65",
     "class": "srd24:class:bard",
     "tags": [
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "*Weave Beguiling Fey Magic*\n\nThe College of Glamour traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hard-hearted listeners.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:glamour:college-of-glamour",
+          "srd24:glamour:beguiling-magic",
+          "srd24:glamour:mantle-of-inspiration",
           "srd24:spell:charm-person",
           "srd24:spell:mirror-image"
         ]
@@ -40,8 +42,8 @@
     "id": "srd24:glamour:beguiling-magic",
     "kind": "subclass-feature",
     "name": "Beguiling Magic",
-    "source": "srd24",
-    "page": "XPHB 65",
+    "source": "xphb",
+    "page": "65",
     "tags": [
       "glamour-feature",
       "bard-feature"
@@ -83,8 +85,8 @@
     "id": "srd24:glamour:mantle-of-inspiration",
     "kind": "subclass-feature",
     "name": "Mantle of Inspiration",
-    "source": "srd24",
-    "page": "XPHB 65",
+    "source": "xphb",
+    "page": "65",
     "tags": [
       "glamour-feature",
       "bard-feature"
@@ -103,27 +105,11 @@
     ]
   },
   {
-    "id": "srd24:glamour:college-of-glamour",
-    "kind": "subclass-feature",
-    "name": "College of Glamour",
-    "source": "srd24",
-    "page": "XPHB 65",
-    "tags": [
-      "glamour-feature",
-      "bard-feature"
-    ],
-    "text": "*Weave Beguiling Fey Magic*\n\nThe College of Glamour traces its origins to the beguiling magic of the Feywild. Bards who study this magic weave threads of beauty and terror into their songs and stories, and the mightiest among them can cloak themselves in otherworldly majesty. Their performances stir up wistful longing for forgotten innocence, evoke unconscious memories of long-held fears, and tug at the emotions of even the most hard-hearted listeners.",
-    "grants": [
-      "srd24:glamour:beguiling-magic",
-      "srd24:glamour:mantle-of-inspiration"
-    ]
-  },
-  {
     "id": "srd24:glamour:mantle-of-majesty",
     "kind": "subclass-feature",
     "name": "Mantle of Majesty",
-    "source": "srd24",
-    "page": "XPHB 65",
+    "source": "xphb",
+    "page": "65",
     "tags": [
       "glamour-feature",
       "bard-feature"
@@ -165,8 +151,8 @@
     "id": "srd24:glamour:unbreakable-majesty",
     "kind": "subclass-feature",
     "name": "Unbreakable Majesty",
-    "source": "srd24",
-    "page": "XPHB 66",
+    "source": "xphb",
+    "page": "66",
     "tags": [
       "glamour-feature",
       "bard-feature"

@@ -3,8 +3,8 @@
     "id": "srd24:fighter:fighting-style",
     "kind": "class-feature",
     "name": "Fighting Style",
-    "source": "srd24",
-    "page": "XPHB 91",
+    "source": "xphb",
+    "page": "91",
     "tags": [
       "fighter-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:fighter:second-wind",
     "kind": "class-feature",
     "name": "Second Wind",
-    "source": "srd24",
-    "page": "XPHB 91",
+    "source": "xphb",
+    "page": "91",
     "tags": [
       "fighter-feature"
     ],
@@ -60,8 +60,8 @@
     "id": "srd24:fighter:weapon-mastery",
     "kind": "class-feature",
     "name": "Weapon Mastery",
-    "source": "srd24",
-    "page": "XPHB 91",
+    "source": "xphb",
+    "page": "91",
     "tags": [
       "fighter-feature"
     ],
@@ -71,8 +71,8 @@
     "id": "srd24:fighter:action-surge",
     "kind": "class-feature",
     "name": "Action Surge",
-    "source": "srd24",
-    "page": "XPHB 91",
+    "source": "xphb",
+    "page": "91",
     "tags": [
       "fighter-feature"
     ],
@@ -115,8 +115,8 @@
     "id": "srd24:fighter:tactical-mind",
     "kind": "class-feature",
     "name": "Tactical Mind",
-    "source": "srd24",
-    "page": "XPHB 91",
+    "source": "xphb",
+    "page": "91",
     "tags": [
       "fighter-feature"
     ],
@@ -126,8 +126,8 @@
     "id": "srd24:fighter:fighter-subclass",
     "kind": "class-feature",
     "name": "Fighter Subclass",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -137,8 +137,8 @@
     "id": "srd24:fighter:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -148,8 +148,8 @@
     "id": "srd24:fighter:tactical-shift",
     "kind": "class-feature",
     "name": "Tactical Shift",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -159,8 +159,8 @@
     "id": "srd24:fighter:indomitable",
     "kind": "class-feature",
     "name": "Indomitable",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -181,8 +181,8 @@
     "id": "srd24:fighter:tactical-master",
     "kind": "class-feature",
     "name": "Tactical Master",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -192,8 +192,8 @@
     "id": "srd24:fighter:two-extra-attacks",
     "kind": "class-feature",
     "name": "Two Extra Attacks",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -203,8 +203,8 @@
     "id": "srd24:fighter:indomitable-13",
     "kind": "class-feature",
     "name": "Indomitable",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -214,8 +214,8 @@
     "id": "srd24:fighter:studied-attacks",
     "kind": "class-feature",
     "name": "Studied Attacks",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -225,8 +225,8 @@
     "id": "srd24:fighter:action-surge-17",
     "kind": "class-feature",
     "name": "Action Surge",
-    "source": "srd24",
-    "page": "XPHB 91",
+    "source": "xphb",
+    "page": "91",
     "tags": [
       "fighter-feature"
     ],
@@ -269,8 +269,8 @@
     "id": "srd24:fighter:indomitable-17",
     "kind": "class-feature",
     "name": "Indomitable",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -280,8 +280,8 @@
     "id": "srd24:fighter:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],
@@ -291,8 +291,8 @@
     "id": "srd24:fighter:three-extra-attacks",
     "kind": "class-feature",
     "name": "Three Extra Attacks",
-    "source": "srd24",
-    "page": "XPHB 92",
+    "source": "xphb",
+    "page": "92",
     "tags": [
       "fighter-feature"
     ],

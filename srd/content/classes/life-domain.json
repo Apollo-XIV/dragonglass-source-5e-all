@@ -3,17 +3,19 @@
     "id": "srd:subclass:life-domain",
     "kind": "subclass",
     "name": "Life Domain",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Life Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bless, cure wounds |\n| 3rd | lesser restoration, spiritual weapon |\n| 5th | beacon of hope, revivify |\n| 7th | death ward, guardian of faith |\n| 9th | mass cure wounds, raise dead |",
     "levels": {
       "1": {
         "grants": [
-          "srd:life:life-domain",
+          "srd:life:bonus-proficiency",
+          "srd:life:disciple-of-life",
           "srd:spell:bless",
           "srd:spell:cure-wounds"
         ]
@@ -69,8 +71,8 @@
     "id": "srd:life:bonus-proficiency",
     "kind": "subclass-feature",
     "name": "Bonus Proficiency",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -94,8 +96,8 @@
     "id": "srd:life:disciple-of-life",
     "kind": "subclass-feature",
     "name": "Disciple of Life",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -103,27 +105,11 @@
     "text": "Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level."
   },
   {
-    "id": "srd:life:life-domain",
-    "kind": "subclass-feature",
-    "name": "Life Domain",
-    "source": "srd",
-    "page": "PHB 60",
-    "tags": [
-      "life-feature",
-      "cleric-feature"
-    ],
-    "text": "The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-Horakhty), gods of healing or endurance (such as Ilmater, Mishakal, Apollo, and Diancecht), and gods of home and community (such as Hestia, Hathor, and Boldrei).\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Life Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bless, cure wounds |\n| 3rd | lesser restoration, spiritual weapon |\n| 5th | beacon of hope, revivify |\n| 7th | death ward, guardian of faith |\n| 9th | mass cure wounds, raise dead |",
-    "grants": [
-      "srd:life:bonus-proficiency",
-      "srd:life:disciple-of-life"
-    ]
-  },
-  {
     "id": "srd:life:channel-divinity-preserve-life",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Preserve Life",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -148,8 +134,8 @@
     "id": "srd:life:blessed-healer",
     "kind": "subclass-feature",
     "name": "Blessed Healer",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -171,8 +157,8 @@
     "id": "srd:life:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -183,8 +169,8 @@
     "id": "srd:life:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -195,8 +181,8 @@
     "id": "srd:life:supreme-healing",
     "kind": "subclass-feature",
     "name": "Supreme Healing",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "life-feature",
       "cleric-feature"

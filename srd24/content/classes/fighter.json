@@ -3,8 +3,8 @@
     "id": "srd24:class:fighter",
     "kind": "class",
     "name": "Fighter",
-    "source": "srd24",
-    "page": "XPHB 90",
+    "source": "xphb",
+    "page": "90",
     "key": "fighter",
     "hitDie": "d10",
     "tags": [

@@ -3,8 +3,8 @@
     "id": "srd24:paladin:lay-on-hands",
     "kind": "class-feature",
     "name": "Lay on Hands",
-    "source": "srd24",
-    "page": "XPHB 109",
+    "source": "xphb",
+    "page": "109",
     "tags": [
       "paladin-feature"
     ],
@@ -60,8 +60,8 @@
     "id": "srd24:paladin:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 109",
+    "source": "xphb",
+    "page": "109",
     "tags": [
       "paladin-feature"
     ],
@@ -71,8 +71,8 @@
     "id": "srd24:paladin:weapon-mastery",
     "kind": "class-feature",
     "name": "Weapon Mastery",
-    "source": "srd24",
-    "page": "XPHB 110",
+    "source": "xphb",
+    "page": "110",
     "tags": [
       "paladin-feature"
     ],
@@ -82,8 +82,8 @@
     "id": "srd24:paladin:fighting-style",
     "kind": "class-feature",
     "name": "Fighting Style",
-    "source": "srd24",
-    "page": "XPHB 110",
+    "source": "xphb",
+    "page": "110",
     "tags": [
       "paladin-feature"
     ],
@@ -93,8 +93,8 @@
     "id": "srd24:paladin:paladins-smite",
     "kind": "class-feature",
     "name": "Paladin's Smite",
-    "source": "srd24",
-    "page": "XPHB 110",
+    "source": "xphb",
+    "page": "110",
     "tags": [
       "paladin-feature"
     ],
@@ -104,8 +104,8 @@
     "id": "srd24:paladin:divine-sense",
     "kind": "class-feature",
     "name": "Divine Sense",
-    "source": "srd24",
-    "page": "XPHB 110",
+    "source": "xphb",
+    "page": "110",
     "tags": [
       "paladin-feature"
     ],
@@ -129,8 +129,8 @@
     "id": "srd24:paladin:channel-divinity",
     "kind": "class-feature",
     "name": "Channel Divinity",
-    "source": "srd24",
-    "page": "XPHB 110",
+    "source": "xphb",
+    "page": "110",
     "tags": [
       "paladin-feature"
     ],
@@ -164,8 +164,8 @@
     "id": "srd24:paladin:paladin-subclass",
     "kind": "class-feature",
     "name": "Paladin Subclass",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -175,8 +175,8 @@
     "id": "srd24:paladin:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -186,8 +186,8 @@
     "id": "srd24:paladin:faithful-steed",
     "kind": "class-feature",
     "name": "Faithful Steed",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -197,8 +197,8 @@
     "id": "srd24:paladin:aura-of-protection",
     "kind": "class-feature",
     "name": "Aura of Protection",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -219,8 +219,8 @@
     "id": "srd24:paladin:abjure-foes",
     "kind": "class-feature",
     "name": "Abjure Foes",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -248,8 +248,8 @@
     "id": "srd24:paladin:aura-of-courage",
     "kind": "class-feature",
     "name": "Aura of Courage",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -259,8 +259,8 @@
     "id": "srd24:paladin:radiant-strikes",
     "kind": "class-feature",
     "name": "Radiant Strikes",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -270,8 +270,8 @@
     "id": "srd24:paladin:restoring-touch",
     "kind": "class-feature",
     "name": "Restoring Touch",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -281,8 +281,8 @@
     "id": "srd24:paladin:aura-expansion",
     "kind": "class-feature",
     "name": "Aura Expansion",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],
@@ -292,8 +292,8 @@
     "id": "srd24:paladin:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 111",
+    "source": "xphb",
+    "page": "111",
     "tags": [
       "paladin-feature"
     ],

@@ -3,17 +3,19 @@
     "id": "srd:subclass:school-of-transmutation",
     "kind": "subclass",
     "name": "School of Transmutation",
-    "source": "srd",
-    "page": "PHB 119",
+    "source": "phb",
+    "page": "119",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality's forge.\n\nSome transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.",
     "levels": {
       "2": {
         "grants": [
-          "srd:transmutation:school-of-transmutation"
+          "srd:transmutation:transmutation-savant",
+          "srd:transmutation:minor-alchemy"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:transmutation:transmutation-savant",
     "kind": "subclass-feature",
     "name": "Transmutation Savant",
-    "source": "srd",
-    "page": "PHB 119",
+    "source": "phb",
+    "page": "119",
     "tags": [
       "transmutation-feature",
       "wizard-feature"
@@ -49,8 +51,8 @@
     "id": "srd:transmutation:minor-alchemy",
     "kind": "subclass-feature",
     "name": "Minor Alchemy",
-    "source": "srd",
-    "page": "PHB 119",
+    "source": "phb",
+    "page": "119",
     "tags": [
       "transmutation-feature",
       "wizard-feature"
@@ -58,27 +60,11 @@
     "text": "Starting at 2nd level when you select this school, you can temporarily alter the physical properties of one nonmagical object, changing it from one substance into another. You perform a special alchemical procedure on one object composed entirely of wood, stone (but not a gemstone), iron, copper, or silver, transforming it into a different one of those materials. For each 10 minutes you spend performing the procedure, you can transform up to 1 cubic foot of material. After 1 hour, or until you lose your concentration (as if you were concentrating on a spell), the material reverts to its original substance."
   },
   {
-    "id": "srd:transmutation:school-of-transmutation",
-    "kind": "subclass-feature",
-    "name": "School of Transmutation",
-    "source": "srd",
-    "page": "PHB 119",
-    "tags": [
-      "transmutation-feature",
-      "wizard-feature"
-    ],
-    "text": "You are a student of spells that modify energy and matter. To you, the world is not a fixed thing, but eminently mutable, and you delight in being an agent of change. You wield the raw stuff of creation and learn to alter both physical forms and mental qualities. Your magic gives you the tools to become a smith on reality's forge.\n\nSome transmuters are tinkerers and pranksters, turning people into toads and transforming copper into silver for fun and occasional profit. Others pursue their magical studies with deadly seriousness, seeking the power of the gods to make and destroy worlds.",
-    "grants": [
-      "srd:transmutation:transmutation-savant",
-      "srd:transmutation:minor-alchemy"
-    ]
-  },
-  {
     "id": "srd:transmutation:transmuters-stone",
     "kind": "subclass-feature",
     "name": "Transmuter's Stone",
-    "source": "srd",
-    "page": "PHB 119",
+    "source": "phb",
+    "page": "119",
     "tags": [
       "transmutation-feature",
       "wizard-feature"
@@ -89,8 +75,8 @@
     "id": "srd:transmutation:shapechanger",
     "kind": "subclass-feature",
     "name": "Shapechanger",
-    "source": "srd",
-    "page": "PHB 119",
+    "source": "phb",
+    "page": "119",
     "tags": [
       "transmutation-feature",
       "wizard-feature"
@@ -101,8 +87,8 @@
     "id": "srd:transmutation:master-transmuter",
     "kind": "subclass-feature",
     "name": "Master Transmuter",
-    "source": "srd",
-    "page": "PHB 119",
+    "source": "phb",
+    "page": "119",
     "tags": [
       "transmutation-feature",
       "wizard-feature"

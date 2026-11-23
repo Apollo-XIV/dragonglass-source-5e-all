@@ -3,17 +3,19 @@
     "id": "srd24:subclass:scion-of-the-three",
     "kind": "subclass",
     "name": "Scion of the Three",
-    "source": "srd24",
-    "page": "FRHoF 23",
+    "source": "frhof",
+    "page": "23",
     "class": "srd24:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "*Become a Gruesome Agent of Malice*\n\nA Scion of the Three draws power from a group of malevolent gods known as the Dead Three: Bane, deity of tyranny; Bhaal, deity of violence and murder; and Myrkul, deity of death. While some Rogues of this subclass pledge themselves ardently to those three macabre gods, others find themselves thrust on this path by a curse. Either way, a scion's power manifests as various occult gifts, as well as an uncanny talent for striking and terrifying foes.\n\nScions of the Three are most common in Baldur's Gate, where the Dead Three have long competed for influence over mortal hearts. Underground cults to Bane, Bhaal, and Myrkul often count Scions of the Three among their most useful agents. Outside Baldur's Gate, secular thieves' guilds such as the Shadow Thieves of Amn or Xanathar's guild in Waterdeep might cautiously call on a Scion of the Three to undertake an especially violent contract.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:scion-of-the-three:scion-of-the-three"
+          "srd24:scion-of-the-three:bloodthirst",
+          "srd24:scion-of-the-three:dread-allegiance"
         ]
       },
       "9": {
@@ -37,8 +39,8 @@
     "id": "srd24:scion-of-the-three:bloodthirst",
     "kind": "subclass-feature",
     "name": "Bloodthirst",
-    "source": "srd24",
-    "page": "FRHoF 23",
+    "source": "frhof",
+    "page": "23",
     "tags": [
       "scion-of-the-three-feature",
       "rogue-feature"
@@ -80,8 +82,8 @@
     "id": "srd24:scion-of-the-three:dread-allegiance",
     "kind": "subclass-feature",
     "name": "Dread Allegiance",
-    "source": "srd24",
-    "page": "FRHoF 23",
+    "source": "frhof",
+    "page": "23",
     "tags": [
       "scion-of-the-three-feature",
       "rogue-feature"
@@ -89,27 +91,11 @@
     "text": "Choose one of the Dead Three: Bane, Bhaal, or Myrkul. You gain Resistance to one type of damage and the ability to cast a cantrip, as detailed in the table below; Intelligence is your spellcasting ability for this cantrip. When you finish a Long Rest, you can change your choice.\n\n| God | Damage Resistance | Cantrip |\n| --- | --- | --- |\n| Bane | Psychic | Minor Illusion |\n| Bhaal | Poison | Blade Ward |\n| Myrkul | Necrotic | Chill Touch |"
   },
   {
-    "id": "srd24:scion-of-the-three:scion-of-the-three",
-    "kind": "subclass-feature",
-    "name": "Scion of the Three",
-    "source": "srd24",
-    "page": "FRHoF 23",
-    "tags": [
-      "scion-of-the-three-feature",
-      "rogue-feature"
-    ],
-    "text": "*Become a Gruesome Agent of Malice*\n\nA Scion of the Three draws power from a group of malevolent gods known as the Dead Three: Bane, deity of tyranny; Bhaal, deity of violence and murder; and Myrkul, deity of death. While some Rogues of this subclass pledge themselves ardently to those three macabre gods, others find themselves thrust on this path by a curse. Either way, a scion's power manifests as various occult gifts, as well as an uncanny talent for striking and terrifying foes.\n\nScions of the Three are most common in Baldur's Gate, where the Dead Three have long competed for influence over mortal hearts. Underground cults to Bane, Bhaal, and Myrkul often count Scions of the Three among their most useful agents. Outside Baldur's Gate, secular thieves' guilds such as the Shadow Thieves of Amn or Xanathar's guild in Waterdeep might cautiously call on a Scion of the Three to undertake an especially violent contract.",
-    "grants": [
-      "srd24:scion-of-the-three:bloodthirst",
-      "srd24:scion-of-the-three:dread-allegiance"
-    ]
-  },
-  {
     "id": "srd24:scion-of-the-three:strike-fear",
     "kind": "subclass-feature",
     "name": "Strike Fear",
-    "source": "srd24",
-    "page": "FRHoF 23",
+    "source": "frhof",
+    "page": "23",
     "tags": [
       "scion-of-the-three-feature",
       "rogue-feature"
@@ -120,8 +106,8 @@
     "id": "srd24:scion-of-the-three:aura-of-malevolence",
     "kind": "subclass-feature",
     "name": "Aura of Malevolence",
-    "source": "srd24",
-    "page": "FRHoF 24",
+    "source": "frhof",
+    "page": "24",
     "tags": [
       "scion-of-the-three-feature",
       "rogue-feature"
@@ -132,8 +118,8 @@
     "id": "srd24:scion-of-the-three:dread-incarnate",
     "kind": "subclass-feature",
     "name": "Dread Incarnate",
-    "source": "srd24",
-    "page": "FRHoF 24",
+    "source": "frhof",
+    "page": "24",
     "tags": [
       "scion-of-the-three-feature",
       "rogue-feature"

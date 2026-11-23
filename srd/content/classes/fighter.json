@@ -3,8 +3,8 @@
     "id": "srd:class:fighter",
     "kind": "class",
     "name": "Fighter",
-    "source": "srd",
-    "page": "PHB 70",
+    "source": "phb",
+    "page": "70",
     "key": "fighter",
     "hitDie": "d10",
     "tags": [

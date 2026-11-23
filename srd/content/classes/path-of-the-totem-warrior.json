@@ -3,17 +3,19 @@
     "id": "srd:subclass:path-of-the-totem-warrior",
     "kind": "subclass",
     "name": "Path of the Totem Warrior",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "class": "srd:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.\n\nMost barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.",
     "levels": {
       "3": {
         "grants": [
-          "srd:totem-warrior:path-of-the-totem-warrior"
+          "srd:totem-warrior:spirit-seeker",
+          "srd:totem-warrior:totem-spirit"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:totem-warrior:spirit-seeker",
     "kind": "subclass-feature",
     "name": "Spirit Seeker",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature"
@@ -49,8 +51,8 @@
     "id": "srd:totem-warrior:bear",
     "kind": "subclass-feature",
     "name": "Bear",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -62,8 +64,8 @@
     "id": "srd:totem-warrior:eagle",
     "kind": "subclass-feature",
     "name": "Eagle",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -75,8 +77,8 @@
     "id": "srd:totem-warrior:elk",
     "kind": "subclass-feature",
     "name": "Elk",
-    "source": "srd",
-    "page": "SCAG 122",
+    "source": "scag",
+    "page": "122",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -102,8 +104,8 @@
     "id": "srd:totem-warrior:tiger",
     "kind": "subclass-feature",
     "name": "Tiger",
-    "source": "srd",
-    "page": "SCAG 122",
+    "source": "scag",
+    "page": "122",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -115,8 +117,8 @@
     "id": "srd:totem-warrior:wolf",
     "kind": "subclass-feature",
     "name": "Wolf",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -128,8 +130,8 @@
     "id": "srd:totem-warrior:totem-spirit",
     "kind": "subclass-feature",
     "name": "Totem Spirit",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature"
@@ -150,27 +152,11 @@
     ]
   },
   {
-    "id": "srd:totem-warrior:path-of-the-totem-warrior",
-    "kind": "subclass-feature",
-    "name": "Path of the Totem Warrior",
-    "source": "srd",
-    "page": "PHB 50",
-    "tags": [
-      "totem-warrior-feature",
-      "barbarian-feature"
-    ],
-    "text": "The Path of the Totem Warrior is a spiritual journey, as the barbarian accepts a spirit animal as guide, protector, and inspiration. In battle, your totem spirit fills you with supernatural might, adding magical fuel to your barbarian rage.\n\nMost barbarian tribes consider a totem animal to be kin to a particular clan. In such cases, it is unusual for an individual to have more than one totem animal spirit, though exceptions exist.",
-    "grants": [
-      "srd:totem-warrior:spirit-seeker",
-      "srd:totem-warrior:totem-spirit"
-    ]
-  },
-  {
     "id": "srd:totem-warrior:bear-6",
     "kind": "subclass-feature",
     "name": "Bear",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -195,8 +181,8 @@
     "id": "srd:totem-warrior:eagle-6",
     "kind": "subclass-feature",
     "name": "Eagle",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -208,8 +194,8 @@
     "id": "srd:totem-warrior:elk-6",
     "kind": "subclass-feature",
     "name": "Elk",
-    "source": "srd",
-    "page": "SCAG 122",
+    "source": "scag",
+    "page": "122",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -221,8 +207,8 @@
     "id": "srd:totem-warrior:tiger-6",
     "kind": "subclass-feature",
     "name": "Tiger",
-    "source": "srd",
-    "page": "SCAG 122",
+    "source": "scag",
+    "page": "122",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -234,8 +220,8 @@
     "id": "srd:totem-warrior:wolf-6",
     "kind": "subclass-feature",
     "name": "Wolf",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -247,8 +233,8 @@
     "id": "srd:totem-warrior:aspect-of-the-beast",
     "kind": "subclass-feature",
     "name": "Aspect of the Beast",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature"
@@ -272,8 +258,8 @@
     "id": "srd:totem-warrior:spirit-walker",
     "kind": "subclass-feature",
     "name": "Spirit Walker",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature"
@@ -284,8 +270,8 @@
     "id": "srd:totem-warrior:bear-14",
     "kind": "subclass-feature",
     "name": "Bear",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -297,8 +283,8 @@
     "id": "srd:totem-warrior:eagle-14",
     "kind": "subclass-feature",
     "name": "Eagle",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -310,8 +296,8 @@
     "id": "srd:totem-warrior:elk-14",
     "kind": "subclass-feature",
     "name": "Elk",
-    "source": "srd",
-    "page": "SCAG 122",
+    "source": "scag",
+    "page": "122",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -334,8 +320,8 @@
     "id": "srd:totem-warrior:tiger-14",
     "kind": "subclass-feature",
     "name": "Tiger",
-    "source": "srd",
-    "page": "SCAG 122",
+    "source": "scag",
+    "page": "122",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -358,8 +344,8 @@
     "id": "srd:totem-warrior:wolf-14",
     "kind": "subclass-feature",
     "name": "Wolf",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature",
@@ -382,8 +368,8 @@
     "id": "srd:totem-warrior:totemic-attunement",
     "kind": "subclass-feature",
     "name": "Totemic Attunement",
-    "source": "srd",
-    "page": "PHB 50",
+    "source": "phb",
+    "page": "50",
     "tags": [
       "totem-warrior-feature",
       "barbarian-feature"

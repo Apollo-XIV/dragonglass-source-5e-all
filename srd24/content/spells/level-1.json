@@ -3,7 +3,7 @@
     "id": "srd24:spell:alarm",
     "kind": "spell",
     "name": "Alarm",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ranger-spell",
       "wizard-spell",
@@ -21,7 +21,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 239",
+    "page": "239",
     "school": "abjuration",
     "castingTime": "1 minute",
     "range": "30 feet",
@@ -34,7 +34,7 @@
     "id": "srd24:spell:animal-friendship",
     "kind": "spell",
     "name": "Animal Friendship",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -52,7 +52,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 239",
+    "page": "239",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -76,7 +76,7 @@
     "id": "srd24:spell:armor-of-agathys",
     "kind": "spell",
     "name": "Armor of Agathys",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "warlock-spell",
       "spell-level:1",
@@ -92,7 +92,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 243",
+    "page": "243",
     "school": "abjuration",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -115,7 +115,7 @@
     "id": "srd24:spell:arms-of-hadar",
     "kind": "spell",
     "name": "Arms of Hadar",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "warlock-spell",
       "spell-level:1",
@@ -131,7 +131,7 @@
       "school:conjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 243",
+    "page": "243",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "Self (10-foot emanation)",
@@ -157,7 +157,7 @@
     "id": "srd24:spell:bane",
     "kind": "spell",
     "name": "Bane",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -175,7 +175,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 245",
+    "page": "245",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -200,7 +200,7 @@
     "id": "srd24:spell:bless",
     "kind": "spell",
     "name": "Bless",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "paladin-spell",
@@ -217,7 +217,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 247",
+    "page": "247",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -231,7 +231,7 @@
     "id": "srd24:spell:burning-hands",
     "kind": "spell",
     "name": "Burning Hands",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -248,7 +248,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 248",
+    "page": "248",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "Self (15-foot cone)",
@@ -274,7 +274,7 @@
     "id": "srd24:spell:charm-person",
     "kind": "spell",
     "name": "Charm Person",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -294,7 +294,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 249",
+    "page": "249",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -318,7 +318,7 @@
     "id": "srd24:spell:chromatic-orb",
     "kind": "spell",
     "name": "Chromatic Orb",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -335,7 +335,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 249",
+    "page": "249",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -357,7 +357,7 @@
     "id": "srd24:spell:color-spray",
     "kind": "spell",
     "name": "Color Spray",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -375,7 +375,7 @@
       "school:illusion"
     ],
     "spellLevel": 1,
-    "page": "XPHB 251",
+    "page": "251",
     "school": "illusion",
     "castingTime": "1 action",
     "range": "Self (15-foot cone)",
@@ -398,7 +398,7 @@
     "id": "srd24:spell:command",
     "kind": "spell",
     "name": "Command",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -416,7 +416,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 251",
+    "page": "251",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -440,7 +440,7 @@
     "id": "srd24:spell:compelled-duel",
     "kind": "spell",
     "name": "Compelled Duel",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "paladin-spell",
       "spell-level:1",
@@ -456,7 +456,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 252",
+    "page": "252",
     "school": "enchantment",
     "castingTime": "1 bonus action",
     "range": "30 feet",
@@ -480,7 +480,7 @@
     "id": "srd24:spell:comprehend-languages",
     "kind": "spell",
     "name": "Comprehend Languages",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -500,7 +500,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 252",
+    "page": "252",
     "school": "divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -513,7 +513,7 @@
     "id": "srd24:spell:create-or-destroy-water",
     "kind": "spell",
     "name": "Create or Destroy Water",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -530,7 +530,7 @@
       "school:transmutation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 258",
+    "page": "258",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -543,7 +543,7 @@
     "id": "srd24:spell:cure-wounds",
     "kind": "spell",
     "name": "Cure Wounds",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -563,7 +563,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 259",
+    "page": "259",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -576,7 +576,7 @@
     "id": "srd24:spell:detect-evil-and-good",
     "kind": "spell",
     "name": "Detect Evil and Good",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "paladin-spell",
@@ -593,7 +593,7 @@
       "school:divination"
     ],
     "spellLevel": 1,
-    "page": "XPHB 261",
+    "page": "261",
     "school": "divination",
     "castingTime": "1 action",
     "range": "Self (30-foot-radius sphere)",
@@ -606,7 +606,7 @@
     "id": "srd24:spell:detect-magic",
     "kind": "spell",
     "name": "Detect Magic",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -630,7 +630,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 262",
+    "page": "262",
     "school": "divination",
     "castingTime": "1 action",
     "range": "Self (30-foot-radius sphere)",
@@ -644,7 +644,7 @@
     "id": "srd24:spell:detect-poison-and-disease",
     "kind": "spell",
     "name": "Detect Poison and Disease",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -664,7 +664,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 262",
+    "page": "262",
     "school": "divination",
     "castingTime": "1 action",
     "range": "Self (30-foot-radius sphere)",
@@ -678,7 +678,7 @@
     "id": "srd24:spell:disguise-self",
     "kind": "spell",
     "name": "Disguise Self",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -696,7 +696,7 @@
       "school:illusion"
     ],
     "spellLevel": 1,
-    "page": "XPHB 262",
+    "page": "262",
     "school": "illusion",
     "castingTime": "1 action",
     "range": "Self",
@@ -708,7 +708,7 @@
     "id": "srd24:spell:dissonant-whispers",
     "kind": "spell",
     "name": "Dissonant Whispers",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "spell-level:1",
@@ -724,7 +724,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 264",
+    "page": "264",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -750,7 +750,7 @@
     "id": "srd24:spell:divine-favor",
     "kind": "spell",
     "name": "Divine Favor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "paladin-spell",
       "spell-level:1",
@@ -766,7 +766,7 @@
       "school:transmutation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 265",
+    "page": "265",
     "school": "transmutation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -788,7 +788,7 @@
     "id": "srd24:spell:divine-smite",
     "kind": "spell",
     "name": "Divine Smite",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "paladin-spell",
       "spell-level:1",
@@ -804,7 +804,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 265",
+    "page": "265",
     "school": "evocation",
     "castingTime": "1 bonus action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
     "range": "Self",
@@ -827,7 +827,7 @@
     "id": "srd24:spell:ensnaring-strike",
     "kind": "spell",
     "name": "Ensnaring Strike",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ranger-spell",
       "spell-level:1",
@@ -843,7 +843,7 @@
       "school:conjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 268",
+    "page": "268",
     "school": "conjuration",
     "castingTime": "1 bonus action, which you take immediately after hitting a creature with a weapon",
     "range": "Self",
@@ -870,7 +870,7 @@
     "id": "srd24:spell:entangle",
     "kind": "spell",
     "name": "Entangle",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "ranger-spell",
@@ -887,7 +887,7 @@
       "school:conjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 268",
+    "page": "268",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -911,7 +911,7 @@
     "id": "srd24:spell:expeditious-retreat",
     "kind": "spell",
     "name": "Expeditious Retreat",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -929,7 +929,7 @@
       "school:transmutation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 270",
+    "page": "270",
     "school": "transmutation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -942,7 +942,7 @@
     "id": "srd24:spell:faerie-fire",
     "kind": "spell",
     "name": "Faerie Fire",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -959,7 +959,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 271",
+    "page": "271",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -983,7 +983,7 @@
     "id": "srd24:spell:false-life",
     "kind": "spell",
     "name": "False Life",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -1000,7 +1000,7 @@
       "school:necromancy"
     ],
     "spellLevel": 1,
-    "page": "XPHB 271",
+    "page": "271",
     "school": "necromancy",
     "castingTime": "1 action",
     "range": "Self",
@@ -1013,7 +1013,7 @@
     "id": "srd24:spell:feather-fall",
     "kind": "spell",
     "name": "Feather Fall",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -1031,7 +1031,7 @@
       "school:transmutation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 271",
+    "page": "271",
     "school": "transmutation",
     "castingTime": "1 reaction, which you take when you or a creature you can see within 60 feet of you falls",
     "range": "60 feet",
@@ -1043,7 +1043,7 @@
     "id": "srd24:spell:find-familiar",
     "kind": "spell",
     "name": "Find Familiar",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "wizard-spell",
       "spell-level:1",
@@ -1060,7 +1060,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 272",
+    "page": "272",
     "school": "conjuration",
     "castingTime": "1 hour",
     "range": "10 feet",
@@ -1073,7 +1073,7 @@
     "id": "srd24:spell:floating-disk",
     "kind": "spell",
     "name": "Floating Disk",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "wizard-spell",
       "spell-level:1",
@@ -1090,7 +1090,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 332",
+    "page": "332",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1103,7 +1103,7 @@
     "id": "srd24:spell:fog-cloud",
     "kind": "spell",
     "name": "Fog Cloud",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "ranger-spell",
@@ -1122,7 +1122,7 @@
       "school:conjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 276",
+    "page": "276",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -1136,7 +1136,7 @@
     "id": "srd24:spell:goodberry",
     "kind": "spell",
     "name": "Goodberry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "ranger-spell",
@@ -1153,7 +1153,7 @@
       "school:conjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 280",
+    "page": "280",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1165,7 +1165,7 @@
     "id": "srd24:spell:grease",
     "kind": "spell",
     "name": "Grease",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -1182,7 +1182,7 @@
       "school:conjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 280",
+    "page": "280",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1205,7 +1205,7 @@
     "id": "srd24:spell:guiding-bolt",
     "kind": "spell",
     "name": "Guiding Bolt",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "spell-level:1",
@@ -1221,7 +1221,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 282",
+    "page": "282",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -1245,7 +1245,7 @@
     "id": "srd24:spell:hail-of-thorns",
     "kind": "spell",
     "name": "Hail of Thorns",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ranger-spell",
       "spell-level:1",
@@ -1261,7 +1261,7 @@
       "school:conjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 283",
+    "page": "283",
     "school": "conjuration",
     "castingTime": "1 bonus action, which you take immediately after hitting a creature with a Ranged weapon",
     "range": "Self",
@@ -1287,7 +1287,7 @@
     "id": "srd24:spell:healing-word",
     "kind": "spell",
     "name": "Healing Word",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -1305,7 +1305,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 284",
+    "page": "284",
     "school": "abjuration",
     "castingTime": "1 bonus action",
     "range": "60 feet",
@@ -1318,7 +1318,7 @@
     "id": "srd24:spell:hellish-rebuke",
     "kind": "spell",
     "name": "Hellish Rebuke",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "warlock-spell",
       "spell-level:1",
@@ -1334,7 +1334,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 284",
+    "page": "284",
     "school": "evocation",
     "castingTime": "1 reaction, which you take in response to taking damage from a creature that you can see within 60 feet of yourself",
     "range": "60 feet",
@@ -1360,7 +1360,7 @@
     "id": "srd24:spell:heroism",
     "kind": "spell",
     "name": "Heroism",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "paladin-spell",
@@ -1377,7 +1377,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 285",
+    "page": "285",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1391,7 +1391,7 @@
     "id": "srd24:spell:hex",
     "kind": "spell",
     "name": "Hex",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "warlock-spell",
       "spell-level:1",
@@ -1407,7 +1407,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 285",
+    "page": "285",
     "school": "enchantment",
     "castingTime": "1 bonus action",
     "range": "90 feet",
@@ -1431,7 +1431,7 @@
     "id": "srd24:spell:hideous-laughter",
     "kind": "spell",
     "name": "Hideous Laughter",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "warlock-spell",
@@ -1449,7 +1449,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 331",
+    "page": "331",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -1474,7 +1474,7 @@
     "id": "srd24:spell:hunters-mark",
     "kind": "spell",
     "name": "Hunter's Mark",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ranger-spell",
       "spell-level:1",
@@ -1490,7 +1490,7 @@
       "school:divination"
     ],
     "spellLevel": 1,
-    "page": "XPHB 287",
+    "page": "287",
     "school": "divination",
     "castingTime": "1 bonus action",
     "range": "90 feet",
@@ -1514,7 +1514,7 @@
     "id": "srd24:spell:ice-knife",
     "kind": "spell",
     "name": "Ice Knife",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "sorcerer-spell",
@@ -1532,7 +1532,7 @@
       "school:conjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 287",
+    "page": "287",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1571,7 +1571,7 @@
     "id": "srd24:spell:identify",
     "kind": "spell",
     "name": "Identify",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "wizard-spell",
@@ -1589,7 +1589,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 287",
+    "page": "287",
     "school": "divination",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -1602,7 +1602,7 @@
     "id": "srd24:spell:illusory-script",
     "kind": "spell",
     "name": "Illusory Script",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "warlock-spell",
@@ -1621,7 +1621,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 288",
+    "page": "288",
     "school": "illusion",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -1634,7 +1634,7 @@
     "id": "srd24:spell:inflict-wounds",
     "kind": "spell",
     "name": "Inflict Wounds",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "spell-level:1",
@@ -1650,7 +1650,7 @@
       "school:necromancy"
     ],
     "spellLevel": 1,
-    "page": "XPHB 288",
+    "page": "288",
     "school": "necromancy",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1676,7 +1676,7 @@
     "id": "srd24:spell:jump",
     "kind": "spell",
     "name": "Jump",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "ranger-spell",
@@ -1695,7 +1695,7 @@
       "school:transmutation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 290",
+    "page": "290",
     "school": "transmutation",
     "castingTime": "1 bonus action",
     "range": "Touch",
@@ -1708,7 +1708,7 @@
     "id": "srd24:spell:longstrider",
     "kind": "spell",
     "name": "Longstrider",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -1727,7 +1727,7 @@
       "school:transmutation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 293",
+    "page": "293",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1740,7 +1740,7 @@
     "id": "srd24:spell:mage-armor",
     "kind": "spell",
     "name": "Mage Armor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -1757,7 +1757,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 293",
+    "page": "293",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1769,7 +1769,7 @@
     "id": "srd24:spell:magic-missile",
     "kind": "spell",
     "name": "Magic Missile",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -1786,7 +1786,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 295",
+    "page": "295",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -1809,7 +1809,7 @@
     "id": "srd24:spell:protection-from-evil-and-good",
     "kind": "spell",
     "name": "Protection from Evil and Good",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -1829,7 +1829,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 309",
+    "page": "309",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -1842,7 +1842,7 @@
     "id": "srd24:spell:purify-food-and-drink",
     "kind": "spell",
     "name": "Purify Food and Drink",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -1861,7 +1861,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 310",
+    "page": "310",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "10 feet",
@@ -1874,7 +1874,7 @@
     "id": "srd24:spell:ray-of-sickness",
     "kind": "spell",
     "name": "Ray of Sickness",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -1891,7 +1891,7 @@
       "school:necromancy"
     ],
     "spellLevel": 1,
-    "page": "XPHB 311",
+    "page": "311",
     "school": "necromancy",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -1915,7 +1915,7 @@
     "id": "srd24:spell:sanctuary",
     "kind": "spell",
     "name": "Sanctuary",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "spell-level:1",
@@ -1931,7 +1931,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 313",
+    "page": "313",
     "school": "abjuration",
     "castingTime": "1 bonus action",
     "range": "30 feet",
@@ -1954,7 +1954,7 @@
     "id": "srd24:spell:searing-smite",
     "kind": "spell",
     "name": "Searing Smite",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "paladin-spell",
       "spell-level:1",
@@ -1970,7 +1970,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 314",
+    "page": "314",
     "school": "evocation",
     "castingTime": "1 bonus action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
     "range": "Self",
@@ -1996,7 +1996,7 @@
     "id": "srd24:spell:shield",
     "kind": "spell",
     "name": "Shield",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -2013,7 +2013,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 316",
+    "page": "316",
     "school": "abjuration",
     "castingTime": "1 reaction, which you take when you are hit by an attack roll or targeted by the Magic Missile spell",
     "range": "Self",
@@ -2025,7 +2025,7 @@
     "id": "srd24:spell:shield-of-faith",
     "kind": "spell",
     "name": "Shield of Faith",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "paladin-spell",
@@ -2042,7 +2042,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "XPHB 316",
+    "page": "316",
     "school": "abjuration",
     "castingTime": "1 bonus action",
     "range": "60 feet",
@@ -2055,7 +2055,7 @@
     "id": "srd24:spell:silent-image",
     "kind": "spell",
     "name": "Silent Image",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -2073,7 +2073,7 @@
       "school:illusion"
     ],
     "spellLevel": 1,
-    "page": "XPHB 317",
+    "page": "317",
     "school": "illusion",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2086,7 +2086,7 @@
     "id": "srd24:spell:sleep",
     "kind": "spell",
     "name": "Sleep",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -2104,7 +2104,7 @@
       "school:enchantment"
     ],
     "spellLevel": 1,
-    "page": "XPHB 317",
+    "page": "317",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2128,7 +2128,7 @@
     "id": "srd24:spell:speak-with-animals",
     "kind": "spell",
     "name": "Speak with Animals",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -2148,7 +2148,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 318",
+    "page": "318",
     "school": "divination",
     "castingTime": "1 action",
     "range": "Self",
@@ -2161,7 +2161,7 @@
     "id": "srd24:spell:spellfire-flare",
     "kind": "spell",
     "name": "Spellfire Flare",
-    "source": "srd24",
+    "source": "frhof",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -2178,7 +2178,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "FRHoF 146",
+    "page": "146",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2202,7 +2202,7 @@
     "id": "srd24:spell:thunderous-smite",
     "kind": "spell",
     "name": "Thunderous Smite",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "paladin-spell",
       "spell-level:1",
@@ -2218,7 +2218,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 334",
+    "page": "334",
     "school": "evocation",
     "castingTime": "1 bonus action, which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike",
     "range": "Self",
@@ -2244,7 +2244,7 @@
     "id": "srd24:spell:thunderwave",
     "kind": "spell",
     "name": "Thunderwave",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -2263,7 +2263,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 334",
+    "page": "334",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "Self (15-foot cube)",
@@ -2289,7 +2289,7 @@
     "id": "srd24:spell:unseen-servant",
     "kind": "spell",
     "name": "Unseen Servant",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "warlock-spell",
@@ -2308,7 +2308,7 @@
       "ritual"
     ],
     "spellLevel": 1,
-    "page": "XPHB 336",
+    "page": "336",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2321,7 +2321,7 @@
     "id": "srd24:spell:wardaway",
     "kind": "spell",
     "name": "Wardaway",
-    "source": "srd24",
+    "source": "frhof",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -2340,7 +2340,7 @@
       "school:abjuration"
     ],
     "spellLevel": 1,
-    "page": "FRHoF 147",
+    "page": "147",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2366,7 +2366,7 @@
     "id": "srd24:spell:witch-bolt",
     "kind": "spell",
     "name": "Witch Bolt",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -2384,7 +2384,7 @@
       "school:evocation"
     ],
     "spellLevel": 1,
-    "page": "XPHB 343",
+    "page": "343",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -2418,7 +2418,7 @@
     "id": "srd24:spell:wrathful-smite",
     "kind": "spell",
     "name": "Wrathful Smite",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "paladin-spell",
       "spell-level:1",
@@ -2434,7 +2434,7 @@
       "school:necromancy"
     ],
     "spellLevel": 1,
-    "page": "XPHB 343",
+    "page": "343",
     "school": "necromancy",
     "castingTime": "1 bonus action, which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike",
     "range": "Self",

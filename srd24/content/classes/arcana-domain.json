@@ -3,18 +3,21 @@
     "id": "srd24:subclass:arcana-domain",
     "kind": "subclass",
     "name": "Arcana Domain",
-    "source": "srd24",
-    "page": "AU 8",
+    "source": "au",
+    "page": "8",
     "class": "srd24:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "*Amplify Your Magical Power*\n\nMagic suffuses the multiverse and fuels both destruction and creation. Clerics with the Arcana Domain view magical knowledge not as power to be used in pursuit of personal ends, but as a gift they have the responsibility to share.\n\nGods associated with the Arcana Domain know the secrets and potential of magic intimately. These gods are often connected to knowledge, secrecy, or power.",
     "fluff": "> Magic and the divine are naturally in harmony, like colors in a beautiful cosmic painting.\n>\n> — Alustriel",
     "levels": {
       "3": {
         "grants": [
-          "srd24:arcana:arcana-domain",
+          "srd24:arcana:arcana-domain-spells",
+          "srd24:arcana:modify-magic",
+          "srd24:arcana:student-of-arcana",
           "srd24:spell:detect-magic",
           "srd24:spell:magic-missile",
           "srd24:spell:magic-weapon",
@@ -69,8 +72,8 @@
     "id": "srd24:arcana:arcana-domain-spells",
     "kind": "subclass-feature",
     "name": "Arcana Domain Spells",
-    "source": "srd24",
-    "page": "AU 8",
+    "source": "au",
+    "page": "8",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -81,8 +84,8 @@
     "id": "srd24:arcana:fortifying-spell",
     "kind": "subclass-feature",
     "name": "Fortifying Spell",
-    "source": "srd24",
-    "page": "AU 8",
+    "source": "au",
+    "page": "8",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -103,8 +106,8 @@
     "id": "srd24:arcana:tenacious-spell",
     "kind": "subclass-feature",
     "name": "Tenacious Spell",
-    "source": "srd24",
-    "page": "AU 8",
+    "source": "au",
+    "page": "8",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -125,8 +128,8 @@
     "id": "srd24:arcana:modify-magic",
     "kind": "subclass-feature",
     "name": "Modify Magic",
-    "source": "srd24",
-    "page": "AU 8",
+    "source": "au",
+    "page": "8",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -141,8 +144,8 @@
     "id": "srd24:arcana:student-of-arcana",
     "kind": "subclass-feature",
     "name": "Student of Arcana",
-    "source": "srd24",
-    "page": "AU 8",
+    "source": "au",
+    "page": "8",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -150,28 +153,11 @@
     "text": "You gain the following benefits.\n\n**Magical Knowledge.** You gain proficiency in the Arcana skill or one skill of your choice from the skills available to Clerics at level 1.\n\n**Cantrips.** You learn two Wizard cantrips of your choice. Whenever you gain a Cleric level, you can replace one of these cantrips with another Wizard cantrip."
   },
   {
-    "id": "srd24:arcana:arcana-domain",
-    "kind": "subclass-feature",
-    "name": "Arcana Domain",
-    "source": "srd24",
-    "page": "AU 8",
-    "tags": [
-      "arcana-feature",
-      "cleric-feature"
-    ],
-    "text": "*Amplify Your Magical Power*\n\nMagic suffuses the multiverse and fuels both destruction and creation. Clerics with the Arcana Domain view magical knowledge not as power to be used in pursuit of personal ends, but as a gift they have the responsibility to share.\n\nGods associated with the Arcana Domain know the secrets and potential of magic intimately. These gods are often connected to knowledge, secrecy, or power.",
-    "grants": [
-      "srd24:arcana:arcana-domain-spells",
-      "srd24:arcana:modify-magic",
-      "srd24:arcana:student-of-arcana"
-    ]
-  },
-  {
     "id": "srd24:arcana:dispelling-recovery",
     "kind": "subclass-feature",
     "name": "Dispelling Recovery",
-    "source": "srd24",
-    "page": "AU 9",
+    "source": "au",
+    "page": "9",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -213,8 +199,8 @@
     "id": "srd24:arcana:magical-mastery",
     "kind": "subclass-feature",
     "name": "Magical Mastery",
-    "source": "srd24",
-    "page": "AU 9",
+    "source": "au",
+    "page": "9",
     "tags": [
       "arcana-feature",
       "cleric-feature"

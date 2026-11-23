@@ -3,17 +3,18 @@
     "id": "srd:subclass:the-archfey",
     "kind": "subclass",
     "name": "The Archfey",
-    "source": "srd",
-    "page": "PHB 108",
+    "source": "phb",
+    "page": "108",
     "class": "srd:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.\n\n**Expanded Spell List.** The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Archfey Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | faerie fire, sleep |\n| 2nd | calm emotions, phantasmal force |\n| 3rd | blink, plant growth |\n| 4th | dominate beast, greater invisibility |\n| 5th | dominate person, seeming |",
     "levels": {
       "1": {
         "grants": [
-          "srd:archfey:the-archfey"
+          "srd:archfey:fey-presence"
         ],
         "spellListAdditions": [
           {
@@ -54,8 +55,8 @@
     "id": "srd:archfey:fey-presence",
     "kind": "subclass-feature",
     "name": "Fey Presence",
-    "source": "srd",
-    "page": "PHB 108",
+    "source": "phb",
+    "page": "108",
     "tags": [
       "archfey-feature",
       "warlock-feature"
@@ -94,26 +95,11 @@
     ]
   },
   {
-    "id": "srd:archfey:the-archfey",
-    "kind": "subclass-feature",
-    "name": "The Archfey",
-    "source": "srd",
-    "page": "PHB 108",
-    "tags": [
-      "archfey-feature",
-      "warlock-feature"
-    ],
-    "text": "Your patron is a lord or lady of the fey, a creature of legend who holds secrets that were forgotten before the mortal races were born. This being's motivations are often inscrutable, and sometimes whimsical, and might involve a striving for greater magical power or the settling of age-old grudges. Beings of this sort include the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; her consort Oberon, the Green Lord; Hyrsam, the Prince of Fools; and ancient hags.\n\n**Expanded Spell List.** The Archfey lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Archfey Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | faerie fire, sleep |\n| 2nd | calm emotions, phantasmal force |\n| 3rd | blink, plant growth |\n| 4th | dominate beast, greater invisibility |\n| 5th | dominate person, seeming |",
-    "grants": [
-      "srd:archfey:fey-presence"
-    ]
-  },
-  {
     "id": "srd:archfey:misty-escape",
     "kind": "subclass-feature",
     "name": "Misty Escape",
-    "source": "srd",
-    "page": "PHB 108",
+    "source": "phb",
+    "page": "108",
     "tags": [
       "archfey-feature",
       "warlock-feature"
@@ -155,8 +141,8 @@
     "id": "srd:archfey:beguiling-defenses",
     "kind": "subclass-feature",
     "name": "Beguiling Defenses",
-    "source": "srd",
-    "page": "PHB 108",
+    "source": "phb",
+    "page": "108",
     "tags": [
       "archfey-feature",
       "warlock-feature"
@@ -191,8 +177,8 @@
     "id": "srd:archfey:dark-delirium",
     "kind": "subclass-feature",
     "name": "Dark Delirium",
-    "source": "srd",
-    "page": "PHB 108",
+    "source": "phb",
+    "page": "108",
     "tags": [
       "archfey-feature",
       "warlock-feature"

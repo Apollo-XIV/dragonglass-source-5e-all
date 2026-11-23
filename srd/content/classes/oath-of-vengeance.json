@@ -3,17 +3,20 @@
     "id": "srd:subclass:oath-of-vengeance",
     "kind": "subclass",
     "name": "Oath of Vengeance",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "class": "srd:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins—sometimes called avengers or dark knights—their own purity is not as important as delivering justice.",
     "levels": {
       "3": {
         "grants": [
-          "srd:vengeance:oath-of-vengeance",
+          "srd:vengeance:tenets-of-vengeance",
+          "srd:vengeance:oath-spells",
+          "srd:vengeance:channel-divinity",
           "srd:spell:bane",
           "srd:spell:hunters-mark"
         ]
@@ -63,8 +66,8 @@
     "id": "srd:vengeance:tenets-of-vengeance",
     "kind": "subclass-feature",
     "name": "Tenets of Vengeance",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -75,8 +78,8 @@
     "id": "srd:vengeance:oath-spells",
     "kind": "subclass-feature",
     "name": "Oath Spells",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -87,8 +90,8 @@
     "id": "srd:vengeance:abjure-enemy",
     "kind": "subclass-feature",
     "name": "Abjure Enemy",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -113,8 +116,8 @@
     "id": "srd:vengeance:vow-of-enmity",
     "kind": "subclass-feature",
     "name": "Vow of Enmity",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -139,8 +142,8 @@
     "id": "srd:vengeance:channel-divinity",
     "kind": "subclass-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -152,28 +155,11 @@
     ]
   },
   {
-    "id": "srd:vengeance:oath-of-vengeance",
-    "kind": "subclass-feature",
-    "name": "Oath of Vengeance",
-    "source": "srd",
-    "page": "PHB 87",
-    "tags": [
-      "vengeance-feature",
-      "paladin-feature"
-    ],
-    "text": "The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins—sometimes called avengers or dark knights—their own purity is not as important as delivering justice.",
-    "grants": [
-      "srd:vengeance:tenets-of-vengeance",
-      "srd:vengeance:oath-spells",
-      "srd:vengeance:channel-divinity"
-    ]
-  },
-  {
     "id": "srd:vengeance:relentless-avenger",
     "kind": "subclass-feature",
     "name": "Relentless Avenger",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -184,8 +170,8 @@
     "id": "srd:vengeance:soul-of-vengeance",
     "kind": "subclass-feature",
     "name": "Soul of Vengeance",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -207,8 +193,8 @@
     "id": "srd:vengeance:avenging-angel",
     "kind": "subclass-feature",
     "name": "Avenging Angel",
-    "source": "srd",
-    "page": "PHB 87",
+    "source": "phb",
+    "page": "87",
     "tags": [
       "vengeance-feature",
       "paladin-feature"

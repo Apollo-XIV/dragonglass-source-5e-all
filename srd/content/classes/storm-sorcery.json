@@ -3,18 +3,20 @@
     "id": "srd:subclass:storm-sorcery",
     "kind": "subclass",
     "name": "Storm Sorcery",
-    "source": "srd",
-    "page": "XGE 51",
+    "source": "xge",
+    "page": "51",
     "class": "srd:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being.\n\nStorm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
     "fluff": "> What is it with people and the weather?\n>\n> It's just the sky weeping and shouting because it's so far away from me.\n>\n> — Xanathar",
     "levels": {
       "1": {
         "grants": [
-          "srd:storm:storm-sorcery"
+          "srd:storm:wind-speaker",
+          "srd:storm:tempestuous-magic"
         ]
       },
       "6": {
@@ -39,8 +41,8 @@
     "id": "srd:storm:wind-speaker",
     "kind": "subclass-feature",
     "name": "Wind Speaker",
-    "source": "srd",
-    "page": "XGE 51",
+    "source": "xge",
+    "page": "51",
     "tags": [
       "storm-feature",
       "sorcerer-feature"
@@ -51,8 +53,8 @@
     "id": "srd:storm:tempestuous-magic",
     "kind": "subclass-feature",
     "name": "Tempestuous Magic",
-    "source": "srd",
-    "page": "XGE 51",
+    "source": "xge",
+    "page": "51",
     "tags": [
       "storm-feature",
       "sorcerer-feature"
@@ -71,27 +73,11 @@
     ]
   },
   {
-    "id": "srd:storm:storm-sorcery",
-    "kind": "subclass-feature",
-    "name": "Storm Sorcery",
-    "source": "srd",
-    "page": "XGE 51",
-    "tags": [
-      "storm-feature",
-      "sorcerer-feature"
-    ],
-    "text": "Your innate magic comes from the power of elemental air. Many with this power can trace their magic back to a near-death experience caused by the Great Rain, but perhaps you were born during a howling gale so powerful that folk still tell stories of it, or your lineage might include the influence of potent air creatures such as djinn. Whatever the case, the magic of the storm permeates your being.\n\nStorm sorcerers are invaluable members of a ship's crew. Their magic allows them to exert control over wind and weather in their immediate area. Their abilities also prove useful in repelling attacks by sahuagin, pirates, and other waterborne threats.",
-    "grants": [
-      "srd:storm:wind-speaker",
-      "srd:storm:tempestuous-magic"
-    ]
-  },
-  {
     "id": "srd:storm:heart-of-the-storm",
     "kind": "subclass-feature",
     "name": "Heart of the Storm",
-    "source": "srd",
-    "page": "XGE 51",
+    "source": "xge",
+    "page": "51",
     "tags": [
       "storm-feature",
       "sorcerer-feature"
@@ -102,8 +88,8 @@
     "id": "srd:storm:storm-guide",
     "kind": "subclass-feature",
     "name": "Storm Guide",
-    "source": "srd",
-    "page": "XGE 51",
+    "source": "xge",
+    "page": "51",
     "tags": [
       "storm-feature",
       "sorcerer-feature"
@@ -125,8 +111,8 @@
     "id": "srd:storm:storms-fury",
     "kind": "subclass-feature",
     "name": "Storm's Fury",
-    "source": "srd",
-    "page": "XGE 51",
+    "source": "xge",
+    "page": "51",
     "tags": [
       "storm-feature",
       "sorcerer-feature"
@@ -148,8 +134,8 @@
     "id": "srd:storm:wind-soul",
     "kind": "subclass-feature",
     "name": "Wind Soul",
-    "source": "srd",
-    "page": "XGE 51",
+    "source": "xge",
+    "page": "51",
     "tags": [
       "storm-feature",
       "sorcerer-feature"

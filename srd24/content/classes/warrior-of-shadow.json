@@ -3,17 +3,18 @@
     "id": "srd24:subclass:warrior-of-shadow",
     "kind": "subclass",
     "name": "Warrior of Shadow",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "class": "srd24:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "*Harness Shadow Power for Stealth and Subterfuge*\n\nWarriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:shadow:warrior-of-shadow",
+          "srd24:shadow:shadow-arts",
           "srd24:spell:minor-illusion"
         ],
         "innateSpells": [
@@ -47,8 +48,8 @@
     "id": "srd24:shadow:darkness",
     "kind": "subclass-feature",
     "name": "Darkness",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -69,8 +70,8 @@
     "id": "srd24:shadow:darkvision",
     "kind": "subclass-feature",
     "name": "Darkvision",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -81,8 +82,8 @@
     "id": "srd24:shadow:shadowy-figments",
     "kind": "subclass-feature",
     "name": "Shadowy Figments",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -93,8 +94,8 @@
     "id": "srd24:shadow:shadow-arts",
     "kind": "subclass-feature",
     "name": "Shadow Arts",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -107,26 +108,11 @@
     ]
   },
   {
-    "id": "srd24:shadow:warrior-of-shadow",
-    "kind": "subclass-feature",
-    "name": "Warrior of Shadow",
-    "source": "srd24",
-    "page": "XPHB 105",
-    "tags": [
-      "shadow-feature",
-      "monk-feature"
-    ],
-    "text": "*Harness Shadow Power for Stealth and Subterfuge*\n\nWarriors of Shadow practice stealth and subterfuge, harnessing the power of the Shadowfell. They are at home in darkness, able to draw gloom around themselves to hide, leap from shadow to shadow, and take on a wraithlike form.",
-    "grants": [
-      "srd24:shadow:shadow-arts"
-    ]
-  },
-  {
     "id": "srd24:shadow:shadow-step",
     "kind": "subclass-feature",
     "name": "Shadow Step",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -148,8 +134,8 @@
     "id": "srd24:shadow:improved-shadow-step",
     "kind": "subclass-feature",
     "name": "Improved Shadow Step",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -170,8 +156,8 @@
     "id": "srd24:shadow:cloak-of-shadows",
     "kind": "subclass-feature",
     "name": "Cloak of Shadows",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "tags": [
       "shadow-feature",
       "monk-feature"

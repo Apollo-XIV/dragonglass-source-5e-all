@@ -3,17 +3,18 @@
     "id": "srd24:subclass:path-of-the-world-tree",
     "kind": "subclass",
     "name": "Path of the World Tree",
-    "source": "srd24",
-    "page": "XPHB 56",
+    "source": "xphb",
+    "page": "56",
     "class": "srd24:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "*Trace the Roots and Branches of the Multiverse*\n\nBarbarians who follow the Path of the World Tree connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree's magic for vitality and as a means of dimensional travel.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:world-tree:path-of-the-world-tree"
+          "srd24:world-tree:vitality-of-the-tree"
         ]
       },
       "6": {
@@ -37,8 +38,8 @@
     "id": "srd24:world-tree:vitality-of-the-tree",
     "kind": "subclass-feature",
     "name": "Vitality of the Tree",
-    "source": "srd24",
-    "page": "XPHB 56",
+    "source": "xphb",
+    "page": "56",
     "tags": [
       "world-tree-feature",
       "barbarian-feature"
@@ -46,26 +47,11 @@
     "text": "Your Rage taps into the life force of the World Tree. You gain the following benefits.\n\n**Vitality Surge.** When you activate your Rage, you gain a number of Temporary Hit Points equal to your Barbarian level.\n\n**Life-Giving Force.** At the start of each of your turns while your Rage is active, you can choose another creature within 10 feet of yourself to gain Temporary Hit Points. To determine the number of Temporary Hit Points, roll a number of d6s equal to your Rage Damage bonus, and add them together. If any of these Temporary Hit Points remain when your Rage ends, they vanish."
   },
   {
-    "id": "srd24:world-tree:path-of-the-world-tree",
-    "kind": "subclass-feature",
-    "name": "Path of the World Tree",
-    "source": "srd24",
-    "page": "XPHB 56",
-    "tags": [
-      "world-tree-feature",
-      "barbarian-feature"
-    ],
-    "text": "*Trace the Roots and Branches of the Multiverse*\n\nBarbarians who follow the Path of the World Tree connect with the cosmic tree Yggdrasil through their Rage. This tree grows among the Outer Planes, connecting them to each other and the Material Plane. These Barbarians draw on the tree's magic for vitality and as a means of dimensional travel.",
-    "grants": [
-      "srd24:world-tree:vitality-of-the-tree"
-    ]
-  },
-  {
     "id": "srd24:world-tree:branches-of-the-tree",
     "kind": "subclass-feature",
     "name": "Branches of the Tree",
-    "source": "srd24",
-    "page": "XPHB 56",
+    "source": "xphb",
+    "page": "56",
     "tags": [
       "world-tree-feature",
       "barbarian-feature"
@@ -87,8 +73,8 @@
     "id": "srd24:world-tree:battering-roots",
     "kind": "subclass-feature",
     "name": "Battering Roots",
-    "source": "srd24",
-    "page": "XPHB 56",
+    "source": "xphb",
+    "page": "56",
     "tags": [
       "world-tree-feature",
       "barbarian-feature"
@@ -99,8 +85,8 @@
     "id": "srd24:world-tree:travel-along-the-tree",
     "kind": "subclass-feature",
     "name": "Travel Along the Tree",
-    "source": "srd24",
-    "page": "XPHB 56",
+    "source": "xphb",
+    "page": "56",
     "tags": [
       "world-tree-feature",
       "barbarian-feature"

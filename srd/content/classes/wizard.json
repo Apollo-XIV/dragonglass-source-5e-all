@@ -3,8 +3,8 @@
     "id": "srd:class:wizard",
     "kind": "class",
     "name": "Wizard",
-    "source": "srd",
-    "page": "PHB 112",
+    "source": "phb",
+    "page": "112",
     "key": "wizard",
     "hitDie": "d6",
     "tags": [

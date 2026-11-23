@@ -3,17 +3,18 @@
     "id": "srd:subclass:ambition-domain-psa",
     "kind": "subclass",
     "name": "Ambition Domain (PSA)",
-    "source": "srd",
-    "page": "PSA 27",
+    "source": "psa",
+    "page": "27",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "> The worthy shall strive for greatness—supremacy in life leads to supremacy in the afterlife.\n\nBontu has fully embraced this dictum, and though she expends little effort in teaching it, she surely leads by example. Her viziers subtly plant the seeds that flower into the ambition the God-Pharaoh desires. Through insinuation, they remind acolytes and initiates alike that achieving one's place in the afterlife at the expense of others is not shameful, but is proof of the initiate's determination and drive. Nothing is more important than that drive, they suggest—not the bonds of a crop, not friendship or love. Not even devotion to a deity.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Ambition Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bane, disguise self |\n| 3rd | mirror image, ray of enfeeblement |\n| 5th | bestow curse, vampiric touch |\n| 7th | death ward, dimension door |\n| 9th | dominate person, modify memory |",
     "levels": {
       "1": {
         "grants": [
-          "srd:ambition-psa:ambition-domain-psa",
+          "srd:ambition-psa:warding-flare",
           "srd:spell:bane",
           "srd:spell:disguise-self"
         ]
@@ -69,8 +70,8 @@
     "id": "srd:ambition-psa:warding-flare",
     "kind": "subclass-feature",
     "name": "Warding Flare",
-    "source": "srd",
-    "page": "PSA 27",
+    "source": "psa",
+    "page": "27",
     "tags": [
       "ambition-psa-feature",
       "cleric-feature"
@@ -109,26 +110,11 @@
     ]
   },
   {
-    "id": "srd:ambition-psa:ambition-domain-psa",
-    "kind": "subclass-feature",
-    "name": "Ambition Domain (PSA)",
-    "source": "srd",
-    "page": "PSA 27",
-    "tags": [
-      "ambition-psa-feature",
-      "cleric-feature"
-    ],
-    "text": "> The worthy shall strive for greatness—supremacy in life leads to supremacy in the afterlife.\n\nBontu has fully embraced this dictum, and though she expends little effort in teaching it, she surely leads by example. Her viziers subtly plant the seeds that flower into the ambition the God-Pharaoh desires. Through insinuation, they remind acolytes and initiates alike that achieving one's place in the afterlife at the expense of others is not shameful, but is proof of the initiate's determination and drive. Nothing is more important than that drive, they suggest—not the bonds of a crop, not friendship or love. Not even devotion to a deity.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Ambition Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bane, disguise self |\n| 3rd | mirror image, ray of enfeeblement |\n| 5th | bestow curse, vampiric touch |\n| 7th | death ward, dimension door |\n| 9th | dominate person, modify memory |",
-    "grants": [
-      "srd:ambition-psa:warding-flare"
-    ]
-  },
-  {
     "id": "srd:ambition-psa:channel-divinity-invoke-duplicity",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Invoke Duplicity",
-    "source": "srd",
-    "page": "PSA 27",
+    "source": "psa",
+    "page": "27",
     "tags": [
       "ambition-psa-feature",
       "cleric-feature"
@@ -162,8 +148,8 @@
     "id": "srd:ambition-psa:channel-divinity-cloak-of-shadows",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Cloak of Shadows",
-    "source": "srd",
-    "page": "PSA 27",
+    "source": "psa",
+    "page": "27",
     "tags": [
       "ambition-psa-feature",
       "cleric-feature"
@@ -188,8 +174,8 @@
     "id": "srd:ambition-psa:potent-spellcasting",
     "kind": "subclass-feature",
     "name": "Potent Spellcasting",
-    "source": "srd",
-    "page": "PSA 27",
+    "source": "psa",
+    "page": "27",
     "tags": [
       "ambition-psa-feature",
       "cleric-feature"
@@ -200,8 +186,8 @@
     "id": "srd:ambition-psa:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "ambition-psa-feature",
       "cleric-feature"
@@ -212,8 +198,8 @@
     "id": "srd:ambition-psa:improved-duplicity",
     "kind": "subclass-feature",
     "name": "Improved Duplicity",
-    "source": "srd",
-    "page": "PSA 27",
+    "source": "psa",
+    "page": "27",
     "tags": [
       "ambition-psa-feature",
       "cleric-feature"

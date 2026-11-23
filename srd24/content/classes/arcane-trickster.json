@@ -3,17 +3,19 @@
     "id": "srd24:subclass:arcane-trickster",
     "kind": "subclass",
     "name": "Arcane Trickster",
-    "source": "srd24",
-    "page": "XPHB 132",
+    "source": "xphb",
+    "page": "132",
     "class": "srd24:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "*Enhance Stealth with Arcane Spells*\n\nSome Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:arcane-trickster:arcane-trickster",
+          "srd24:arcane-trickster:spellcasting",
+          "srd24:arcane-trickster:mage-hand-legerdemain",
           "srd24:spell:mage-hand"
         ],
         "spellListAdditions": [
@@ -74,8 +76,8 @@
     "id": "srd24:arcane-trickster:spellcasting",
     "kind": "subclass-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 132",
+    "source": "xphb",
+    "page": "132",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"
@@ -86,8 +88,8 @@
     "id": "srd24:arcane-trickster:mage-hand-legerdemain",
     "kind": "subclass-feature",
     "name": "Mage Hand Legerdemain",
-    "source": "srd24",
-    "page": "XPHB 133",
+    "source": "xphb",
+    "page": "133",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"
@@ -95,27 +97,11 @@
     "text": "When you cast Mage Hand, you can cast it as a Bonus Action, and you can make the spectral hand Invisible. You can control the hand as a Bonus Action, and through it, you can make Dexterity (Sleight of Hand) checks."
   },
   {
-    "id": "srd24:arcane-trickster:arcane-trickster",
-    "kind": "subclass-feature",
-    "name": "Arcane Trickster",
-    "source": "srd24",
-    "page": "XPHB 132",
-    "tags": [
-      "arcane-trickster-feature",
-      "rogue-feature"
-    ],
-    "text": "*Enhance Stealth with Arcane Spells*\n\nSome Rogues enhance their fine-honed skills of stealth and agility with spells, learning magical tricks to aid them in their trade. Some Arcane Tricksters use their talents as pickpockets and burglars, while others are pranksters.",
-    "grants": [
-      "srd24:arcane-trickster:spellcasting",
-      "srd24:arcane-trickster:mage-hand-legerdemain"
-    ]
-  },
-  {
     "id": "srd24:arcane-trickster:magical-ambush",
     "kind": "subclass-feature",
     "name": "Magical Ambush",
-    "source": "srd24",
-    "page": "XPHB 133",
+    "source": "xphb",
+    "page": "133",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"
@@ -126,8 +112,8 @@
     "id": "srd24:arcane-trickster:versatile-trickster",
     "kind": "subclass-feature",
     "name": "Versatile Trickster",
-    "source": "srd24",
-    "page": "XPHB 133",
+    "source": "xphb",
+    "page": "133",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"
@@ -138,8 +124,8 @@
     "id": "srd24:arcane-trickster:spell-thief",
     "kind": "subclass-feature",
     "name": "Spell Thief",
-    "source": "srd24",
-    "page": "XPHB 133",
+    "source": "xphb",
+    "page": "133",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"

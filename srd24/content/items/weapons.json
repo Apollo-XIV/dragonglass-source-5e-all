@@ -3,13 +3,13 @@
     "id": "srd24:item:antimatter-rifle",
     "kind": "item",
     "name": "Antimatter Rifle",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XDMG 73",
+    "page": "73",
     "itemType": "weapon",
     "weight": 10,
     "weapon": {
@@ -42,11 +42,11 @@
     "id": "srd24:item:arrow",
     "kind": "item",
     "name": "Arrow",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 0.05,
     "value": 5,
@@ -56,12 +56,12 @@
     "id": "srd24:item:arrows-20",
     "kind": "item",
     "name": "Arrows (20)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 1,
     "value": 100,
@@ -71,13 +71,13 @@
     "id": "srd24:item:automatic-rifle",
     "kind": "item",
     "name": "Automatic Rifle",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XDMG 73",
+    "page": "73",
     "itemType": "weapon",
     "weight": 8,
     "weapon": {
@@ -111,13 +111,13 @@
     "id": "srd24:item:battleaxe",
     "kind": "item",
     "name": "Battleaxe",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 4,
     "value": 1000,
@@ -134,13 +134,13 @@
     "id": "srd24:item:blowgun",
     "kind": "item",
     "name": "Blowgun",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 1,
     "value": 1000,
@@ -173,11 +173,11 @@
     "id": "srd24:item:bolt",
     "kind": "item",
     "name": "Bolt",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 0.075,
     "value": 5,
@@ -187,12 +187,12 @@
     "id": "srd24:item:bolts-20",
     "kind": "item",
     "name": "Bolts (20)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 1.5,
     "value": 100,
@@ -202,14 +202,14 @@
     "id": "srd24:item:club",
     "kind": "item",
     "name": "Club",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "light"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 10,
@@ -226,7 +226,7 @@
     "id": "srd24:item:dagger",
     "kind": "item",
     "name": "Dagger",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
@@ -234,7 +234,7 @@
       "finesse",
       "light"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 1,
     "value": 200,
@@ -254,14 +254,14 @@
     "id": "srd24:item:dart",
     "kind": "item",
     "name": "Dart",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon",
       "finesse"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 0.25,
     "value": 5,
@@ -294,11 +294,11 @@
     "id": "srd24:item:energy-cell",
     "kind": "item",
     "name": "Energy Cell",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "ammunition"
     ],
-    "page": "XDMG 72",
+    "page": "72",
     "itemType": "ammunition",
     "weight": 0.5
   },
@@ -306,11 +306,11 @@
     "id": "srd24:item:firearm-bullet",
     "kind": "item",
     "name": "Firearm Bullet",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 0.2,
     "value": 30,
@@ -320,12 +320,12 @@
     "id": "srd24:item:firearm-bullets-10",
     "kind": "item",
     "name": "Firearm Bullets (10)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 2,
     "value": 300,
@@ -335,13 +335,13 @@
     "id": "srd24:item:flail",
     "kind": "item",
     "name": "Flail",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 1000,
@@ -355,13 +355,13 @@
     "id": "srd24:item:glaive",
     "kind": "item",
     "name": "Glaive",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 6,
     "value": 2000,
@@ -380,13 +380,13 @@
     "id": "srd24:item:greataxe",
     "kind": "item",
     "name": "Greataxe",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 7,
     "value": 3000,
@@ -404,13 +404,13 @@
     "id": "srd24:item:greatclub",
     "kind": "item",
     "name": "Greatclub",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 10,
     "value": 20,
@@ -427,13 +427,13 @@
     "id": "srd24:item:greatsword",
     "kind": "item",
     "name": "Greatsword",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 6,
     "value": 5000,
@@ -451,13 +451,13 @@
     "id": "srd24:item:halberd",
     "kind": "item",
     "name": "Halberd",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 6,
     "value": 2000,
@@ -476,14 +476,14 @@
     "id": "srd24:item:hand-crossbow",
     "kind": "item",
     "name": "Hand Crossbow",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon",
       "light"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 3,
     "value": 7500,
@@ -517,14 +517,14 @@
     "id": "srd24:item:handaxe",
     "kind": "item",
     "name": "Handaxe",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "light"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 500,
@@ -543,13 +543,13 @@
     "id": "srd24:item:heavy-crossbow",
     "kind": "item",
     "name": "Heavy Crossbow",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 18,
     "value": 5000,
@@ -584,13 +584,13 @@
     "id": "srd24:item:hunting-rifle",
     "kind": "item",
     "name": "Hunting Rifle",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XDMG 73",
+    "page": "73",
     "itemType": "weapon",
     "weight": 8,
     "weapon": {
@@ -623,13 +623,13 @@
     "id": "srd24:item:javelin",
     "kind": "item",
     "name": "Javelin",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 50,
@@ -647,13 +647,13 @@
     "id": "srd24:item:lance",
     "kind": "item",
     "name": "Lance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 6,
     "value": 1000,
@@ -673,13 +673,13 @@
     "id": "srd24:item:laser-pistol",
     "kind": "item",
     "name": "Laser Pistol",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XDMG 73",
+    "page": "73",
     "itemType": "weapon",
     "weight": 2,
     "weapon": {
@@ -711,13 +711,13 @@
     "id": "srd24:item:laser-rifle",
     "kind": "item",
     "name": "Laser Rifle",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XDMG 73",
+    "page": "73",
     "itemType": "weapon",
     "weight": 7,
     "weapon": {
@@ -750,13 +750,13 @@
     "id": "srd24:item:light-crossbow",
     "kind": "item",
     "name": "Light Crossbow",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 5,
     "value": 2500,
@@ -790,14 +790,14 @@
     "id": "srd24:item:light-hammer",
     "kind": "item",
     "name": "Light Hammer",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "light"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 200,
@@ -816,13 +816,13 @@
     "id": "srd24:item:longbow",
     "kind": "item",
     "name": "Longbow",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 5000,
@@ -856,13 +856,13 @@
     "id": "srd24:item:longsword",
     "kind": "item",
     "name": "Longsword",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 3,
     "value": 1500,
@@ -879,13 +879,13 @@
     "id": "srd24:item:mace",
     "kind": "item",
     "name": "Mace",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 4,
     "value": 500,
@@ -899,13 +899,13 @@
     "id": "srd24:item:maul",
     "kind": "item",
     "name": "Maul",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 10,
     "value": 1000,
@@ -923,13 +923,13 @@
     "id": "srd24:item:morningstar",
     "kind": "item",
     "name": "Morningstar",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 4,
     "value": 1500,
@@ -943,13 +943,13 @@
     "id": "srd24:item:musket",
     "kind": "item",
     "name": "Musket",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 10,
     "value": 50000,
@@ -983,11 +983,11 @@
     "id": "srd24:item:needle",
     "kind": "item",
     "name": "Needle",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 0.02,
     "value": 2,
@@ -997,12 +997,12 @@
     "id": "srd24:item:needles-50",
     "kind": "item",
     "name": "Needles (50)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 1,
     "value": 100,
@@ -1012,13 +1012,13 @@
     "id": "srd24:item:pike",
     "kind": "item",
     "name": "Pike",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 18,
     "value": 500,
@@ -1037,13 +1037,13 @@
     "id": "srd24:item:pistol",
     "kind": "item",
     "name": "Pistol",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 3,
     "value": 25000,
@@ -1076,14 +1076,14 @@
     "id": "srd24:item:psychic-blade",
     "kind": "item",
     "name": "Psychic Blade",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "finesse"
     ],
-    "page": "XPHB 136",
+    "page": "136",
     "itemType": "weapon",
     "weapon": {
       "damage": "1d6",
@@ -1100,13 +1100,13 @@
     "id": "srd24:item:quarterstaff",
     "kind": "item",
     "name": "Quarterstaff",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 4,
     "value": 20,
@@ -1123,14 +1123,14 @@
     "id": "srd24:item:rapier",
     "kind": "item",
     "name": "Rapier",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon",
       "finesse"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 2500,
@@ -1147,13 +1147,13 @@
     "id": "srd24:item:revolver",
     "kind": "item",
     "name": "Revolver",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XDMG 73",
+    "page": "73",
     "itemType": "weapon",
     "weight": 3,
     "weapon": {
@@ -1185,7 +1185,7 @@
     "id": "srd24:item:scimitar",
     "kind": "item",
     "name": "Scimitar",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
@@ -1193,7 +1193,7 @@
       "finesse",
       "light"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 3,
     "value": 2500,
@@ -1211,13 +1211,13 @@
     "id": "srd24:item:semiautomatic-pistol",
     "kind": "item",
     "name": "Semiautomatic Pistol",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XDMG 73",
+    "page": "73",
     "itemType": "weapon",
     "weight": 3,
     "weapon": {
@@ -1249,13 +1249,13 @@
     "id": "srd24:item:shortbow",
     "kind": "item",
     "name": "Shortbow",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 2500,
@@ -1288,7 +1288,7 @@
     "id": "srd24:item:shortsword",
     "kind": "item",
     "name": "Shortsword",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
@@ -1296,7 +1296,7 @@
       "finesse",
       "light"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 1000,
@@ -1314,13 +1314,13 @@
     "id": "srd24:item:shotgun",
     "kind": "item",
     "name": "Shotgun",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "XDMG 73",
+    "page": "73",
     "itemType": "weapon",
     "weight": 7,
     "weapon": {
@@ -1353,14 +1353,14 @@
     "id": "srd24:item:sickle",
     "kind": "item",
     "name": "Sickle",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "light"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 100,
@@ -1377,13 +1377,13 @@
     "id": "srd24:item:sling",
     "kind": "item",
     "name": "Sling",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "value": 10,
     "weapon": {
@@ -1414,11 +1414,11 @@
     "id": "srd24:item:sling-bullet",
     "kind": "item",
     "name": "Sling Bullet",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 0.075,
     "value": 0.2,
@@ -1428,12 +1428,12 @@
     "id": "srd24:item:sling-bullets-20",
     "kind": "item",
     "name": "Sling Bullets (20)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "XPHB 222",
+    "page": "222",
     "itemType": "ammunition",
     "weight": 1.5,
     "value": 4,
@@ -1443,13 +1443,13 @@
     "id": "srd24:item:spear",
     "kind": "item",
     "name": "Spear",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 3,
     "value": 100,
@@ -1468,13 +1468,13 @@
     "id": "srd24:item:trident",
     "kind": "item",
     "name": "Trident",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 4,
     "value": 500,
@@ -1493,13 +1493,13 @@
     "id": "srd24:item:war-pick",
     "kind": "item",
     "name": "War Pick",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 2,
     "value": 500,
@@ -1516,13 +1516,13 @@
     "id": "srd24:item:warhammer",
     "kind": "item",
     "name": "Warhammer",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 5,
     "value": 1500,
@@ -1539,14 +1539,14 @@
     "id": "srd24:item:whip",
     "kind": "item",
     "name": "Whip",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon",
       "finesse"
     ],
-    "page": "XPHB 215",
+    "page": "215",
     "itemType": "weapon",
     "weight": 3,
     "value": 200,

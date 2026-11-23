@@ -3,7 +3,7 @@
     "id": "srd:magic-initiate:bard-spells",
     "kind": "spell-list-option",
     "name": "Bard Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:magic-initiate:bard-spells:known-spells",
@@ -50,7 +50,7 @@
     "id": "srd:ritual-caster:bard-spells",
     "kind": "spell-list-option",
     "name": "Bard Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:ritual-caster:bard-spells:innate-spells",
@@ -86,13 +86,13 @@
     "id": "srd:spell-sniper:bard-spells",
     "kind": "spell-list-option",
     "name": "Bard Spells",
-    "source": "srd"
+    "source": "phb"
   },
   {
     "id": "srd:scion-of-the-outer-planes:chaotic-outer-plane",
     "kind": "spell-list-option",
     "name": "Chaotic Outer Plane",
-    "source": "srd",
+    "source": "sato",
     "choices": [
       {
         "id": "srd:scion-of-the-outer-planes:chaotic-outer-plane:ability",
@@ -121,7 +121,7 @@
     "id": "srd:magic-initiate:cleric-spells",
     "kind": "spell-list-option",
     "name": "Cleric Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:magic-initiate:cleric-spells:known-spells",
@@ -168,7 +168,7 @@
     "id": "srd:ritual-caster:cleric-spells",
     "kind": "spell-list-option",
     "name": "Cleric Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:ritual-caster:cleric-spells:innate-spells",
@@ -204,13 +204,13 @@
     "id": "srd:spell-sniper:cleric-spells",
     "kind": "spell-list-option",
     "name": "Cleric Spells",
-    "source": "srd"
+    "source": "phb"
   },
   {
     "id": "srd:magic-initiate:druid-spells",
     "kind": "spell-list-option",
     "name": "Druid Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:magic-initiate:druid-spells:known-spells",
@@ -257,7 +257,7 @@
     "id": "srd:ritual-caster:druid-spells",
     "kind": "spell-list-option",
     "name": "Druid Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:ritual-caster:druid-spells:innate-spells",
@@ -293,13 +293,13 @@
     "id": "srd:spell-sniper:druid-spells",
     "kind": "spell-list-option",
     "name": "Druid Spells",
-    "source": "srd"
+    "source": "phb"
   },
   {
     "id": "srd:divinely-favored:evil",
     "kind": "spell-list-option",
     "name": "Evil",
-    "source": "srd",
+    "source": "dsotdq",
     "choices": [
       {
         "id": "srd:divinely-favored:evil:known-spells",
@@ -382,7 +382,7 @@
     "id": "srd:scion-of-the-outer-planes:evil-outer-plane",
     "kind": "spell-list-option",
     "name": "Evil Outer Plane",
-    "source": "srd",
+    "source": "sato",
     "choices": [
       {
         "id": "srd:scion-of-the-outer-planes:evil-outer-plane:ability",
@@ -411,7 +411,7 @@
     "id": "srd:divinely-favored:good",
     "kind": "spell-list-option",
     "name": "Good",
-    "source": "srd",
+    "source": "dsotdq",
     "choices": [
       {
         "id": "srd:divinely-favored:good:known-spells",
@@ -494,7 +494,7 @@
     "id": "srd:scion-of-the-outer-planes:good-outer-plane",
     "kind": "spell-list-option",
     "name": "Good Outer Plane",
-    "source": "srd",
+    "source": "sato",
     "choices": [
       {
         "id": "srd:scion-of-the-outer-planes:good-outer-plane:ability",
@@ -523,7 +523,7 @@
     "id": "srd:scion-of-the-outer-planes:lawful-outer-plane",
     "kind": "spell-list-option",
     "name": "Lawful Outer Plane",
-    "source": "srd",
+    "source": "sato",
     "choices": [
       {
         "id": "srd:scion-of-the-outer-planes:lawful-outer-plane:ability",
@@ -552,7 +552,7 @@
     "id": "srd:strixhaven-initiate:lorehold-1",
     "kind": "spell-list-option",
     "name": "Lorehold 1",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:lorehold-1:ability",
@@ -617,7 +617,7 @@
     "id": "srd:strixhaven-initiate:lorehold-2",
     "kind": "spell-list-option",
     "name": "Lorehold 2",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:lorehold-2:ability",
@@ -682,7 +682,7 @@
     "id": "srd:strixhaven-initiate:lorehold-3",
     "kind": "spell-list-option",
     "name": "Lorehold 3",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:lorehold-3:ability",
@@ -747,7 +747,7 @@
     "id": "srd:initiate-of-high-sorcery:lunitari",
     "kind": "spell-list-option",
     "name": "Lunitari",
-    "source": "srd",
+    "source": "dsotdq",
     "choices": [
       {
         "id": "srd:initiate-of-high-sorcery:lunitari:known-spells",
@@ -790,7 +790,7 @@
     "id": "srd:divinely-favored:neutral",
     "kind": "spell-list-option",
     "name": "Neutral",
-    "source": "srd",
+    "source": "dsotdq",
     "choices": [
       {
         "id": "srd:divinely-favored:neutral:known-spells",
@@ -873,7 +873,7 @@
     "id": "srd:initiate-of-high-sorcery:nuitari",
     "kind": "spell-list-option",
     "name": "Nuitari",
-    "source": "srd",
+    "source": "dsotdq",
     "choices": [
       {
         "id": "srd:initiate-of-high-sorcery:nuitari:known-spells",
@@ -916,7 +916,7 @@
     "id": "srd:strixhaven-initiate:prismari-1",
     "kind": "spell-list-option",
     "name": "Prismari 1",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:prismari-1:ability",
@@ -981,7 +981,7 @@
     "id": "srd:strixhaven-initiate:prismari-2",
     "kind": "spell-list-option",
     "name": "Prismari 2",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:prismari-2:ability",
@@ -1046,7 +1046,7 @@
     "id": "srd:strixhaven-initiate:prismari-3",
     "kind": "spell-list-option",
     "name": "Prismari 3",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:prismari-3:ability",
@@ -1111,7 +1111,7 @@
     "id": "srd:strixhaven-initiate:quandrix-1",
     "kind": "spell-list-option",
     "name": "Quandrix 1",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:quandrix-1:ability",
@@ -1176,7 +1176,7 @@
     "id": "srd:strixhaven-initiate:quandrix-2",
     "kind": "spell-list-option",
     "name": "Quandrix 2",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:quandrix-2:ability",
@@ -1241,7 +1241,7 @@
     "id": "srd:strixhaven-initiate:quandrix-3",
     "kind": "spell-list-option",
     "name": "Quandrix 3",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:quandrix-3:ability",
@@ -1306,7 +1306,7 @@
     "id": "srd:strixhaven-initiate:silverquill-1",
     "kind": "spell-list-option",
     "name": "Silverquill 1",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:silverquill-1:ability",
@@ -1371,7 +1371,7 @@
     "id": "srd:strixhaven-initiate:silverquill-2",
     "kind": "spell-list-option",
     "name": "Silverquill 2",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:silverquill-2:ability",
@@ -1436,7 +1436,7 @@
     "id": "srd:strixhaven-initiate:silverquill-3",
     "kind": "spell-list-option",
     "name": "Silverquill 3",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:silverquill-3:ability",
@@ -1501,7 +1501,7 @@
     "id": "srd:initiate-of-high-sorcery:solinari",
     "kind": "spell-list-option",
     "name": "Solinari",
-    "source": "srd",
+    "source": "dsotdq",
     "choices": [
       {
         "id": "srd:initiate-of-high-sorcery:solinari:known-spells",
@@ -1544,7 +1544,7 @@
     "id": "srd:magic-initiate:sorcerer-spells",
     "kind": "spell-list-option",
     "name": "Sorcerer Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:magic-initiate:sorcerer-spells:known-spells",
@@ -1591,7 +1591,7 @@
     "id": "srd:ritual-caster:sorcerer-spells",
     "kind": "spell-list-option",
     "name": "Sorcerer Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:ritual-caster:sorcerer-spells:innate-spells",
@@ -1627,13 +1627,13 @@
     "id": "srd:spell-sniper:sorcerer-spells",
     "kind": "spell-list-option",
     "name": "Sorcerer Spells",
-    "source": "srd"
+    "source": "phb"
   },
   {
     "id": "srd:scion-of-the-outer-planes:the-outlands",
     "kind": "spell-list-option",
     "name": "The Outlands",
-    "source": "srd",
+    "source": "sato",
     "choices": [
       {
         "id": "srd:scion-of-the-outer-planes:the-outlands:ability",
@@ -1662,7 +1662,7 @@
     "id": "srd:magic-initiate:warlock-spells",
     "kind": "spell-list-option",
     "name": "Warlock Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:magic-initiate:warlock-spells:known-spells",
@@ -1709,7 +1709,7 @@
     "id": "srd:ritual-caster:warlock-spells",
     "kind": "spell-list-option",
     "name": "Warlock Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:ritual-caster:warlock-spells:innate-spells",
@@ -1745,13 +1745,13 @@
     "id": "srd:spell-sniper:warlock-spells",
     "kind": "spell-list-option",
     "name": "Warlock Spells",
-    "source": "srd"
+    "source": "phb"
   },
   {
     "id": "srd:strixhaven-initiate:witherbloom-1",
     "kind": "spell-list-option",
     "name": "Witherbloom 1",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:witherbloom-1:ability",
@@ -1816,7 +1816,7 @@
     "id": "srd:strixhaven-initiate:witherbloom-2",
     "kind": "spell-list-option",
     "name": "Witherbloom 2",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:witherbloom-2:ability",
@@ -1881,7 +1881,7 @@
     "id": "srd:strixhaven-initiate:witherbloom-3",
     "kind": "spell-list-option",
     "name": "Witherbloom 3",
-    "source": "srd",
+    "source": "scc",
     "choices": [
       {
         "id": "srd:strixhaven-initiate:witherbloom-3:ability",
@@ -1946,7 +1946,7 @@
     "id": "srd:magic-initiate:wizard-spells",
     "kind": "spell-list-option",
     "name": "Wizard Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:magic-initiate:wizard-spells:known-spells",
@@ -1993,7 +1993,7 @@
     "id": "srd:ritual-caster:wizard-spells",
     "kind": "spell-list-option",
     "name": "Wizard Spells",
-    "source": "srd",
+    "source": "phb",
     "choices": [
       {
         "id": "srd:ritual-caster:wizard-spells:innate-spells",
@@ -2029,6 +2029,6 @@
     "id": "srd:spell-sniper:wizard-spells",
     "kind": "spell-list-option",
     "name": "Wizard Spells",
-    "source": "srd"
+    "source": "phb"
   }
 ]

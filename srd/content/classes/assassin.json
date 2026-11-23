@@ -3,17 +3,19 @@
     "id": "srd:subclass:assassin",
     "kind": "subclass",
     "name": "Assassin",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "class": "srd:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "You focus your training on the grim art of death. Those who adhere to this archetype are diverse—hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.\n\nYour archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
     "levels": {
       "3": {
         "grants": [
-          "srd:assassin:assassin"
+          "srd:assassin:assassinate",
+          "srd:assassin:bonus-proficiencies"
         ]
       },
       "9": {
@@ -37,8 +39,8 @@
     "id": "srd:assassin:assassinate",
     "kind": "subclass-feature",
     "name": "Assassinate",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "assassin-feature",
       "rogue-feature"
@@ -62,8 +64,8 @@
     "id": "srd:assassin:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "assassin-feature",
       "rogue-feature"
@@ -85,27 +87,11 @@
     ]
   },
   {
-    "id": "srd:assassin:assassin",
-    "kind": "subclass-feature",
-    "name": "Assassin",
-    "source": "srd",
-    "page": "PHB 97",
-    "tags": [
-      "assassin-feature",
-      "rogue-feature"
-    ],
-    "text": "You focus your training on the grim art of death. Those who adhere to this archetype are diverse—hired killers, spies, bounty hunters, and even specially anointed priests trained to exterminate the enemies of their deity. Stealth, poison, and disguise help you eliminate your foes with deadly efficiency.\n\nYour archetype grants you features at 3rd level and then again at 9th, 13th, and 17th level.",
-    "grants": [
-      "srd:assassin:assassinate",
-      "srd:assassin:bonus-proficiencies"
-    ]
-  },
-  {
     "id": "srd:assassin:infiltration-expertise",
     "kind": "subclass-feature",
     "name": "Infiltration Expertise",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "assassin-feature",
       "rogue-feature"
@@ -116,8 +102,8 @@
     "id": "srd:assassin:impostor",
     "kind": "subclass-feature",
     "name": "Impostor",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "assassin-feature",
       "rogue-feature"
@@ -128,8 +114,8 @@
     "id": "srd:assassin:death-strike",
     "kind": "subclass-feature",
     "name": "Death Strike",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "assassin-feature",
       "rogue-feature"

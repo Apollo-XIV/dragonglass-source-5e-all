@@ -3,17 +3,20 @@
     "id": "srd24:subclass:war-domain",
     "kind": "subclass",
     "name": "War Domain",
-    "source": "srd24",
-    "page": "XPHB 76",
+    "source": "xphb",
+    "page": "76",
     "class": "srd24:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "*Inspire Valor and Smite Foes*\n\nWar has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.\n\nGods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:war:war-domain",
+          "srd24:war:war-domain-spells",
+          "srd24:war:war-priest",
+          "srd24:war:guided-strike",
           "srd24:spell:guiding-bolt",
           "srd24:spell:magic-weapon",
           "srd24:spell:shield-of-faith",
@@ -54,8 +57,8 @@
     "id": "srd24:war:war-domain-spells",
     "kind": "subclass-feature",
     "name": "War Domain Spells",
-    "source": "srd24",
-    "page": "XPHB 77",
+    "source": "xphb",
+    "page": "77",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -66,8 +69,8 @@
     "id": "srd24:war:war-priest",
     "kind": "subclass-feature",
     "name": "War Priest",
-    "source": "srd24",
-    "page": "XPHB 77",
+    "source": "xphb",
+    "page": "77",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -109,8 +112,8 @@
     "id": "srd24:war:guided-strike",
     "kind": "subclass-feature",
     "name": "Guided Strike",
-    "source": "srd24",
-    "page": "XPHB 77",
+    "source": "xphb",
+    "page": "77",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -128,28 +131,11 @@
     ]
   },
   {
-    "id": "srd24:war:war-domain",
-    "kind": "subclass-feature",
-    "name": "War Domain",
-    "source": "srd24",
-    "page": "XPHB 76",
-    "tags": [
-      "war-feature",
-      "cleric-feature"
-    ],
-    "text": "*Inspire Valor and Smite Foes*\n\nWar has many manifestations. It can make heroes of ordinary people. It can be desperate and horrific, with acts of cruelty and cowardice eclipsing instances of excellence and courage. Clerics who tap into the magic of the War Domain excel in battle, inspiring others to fight the good fight or offering acts of violence as prayers.\n\nGods of the War Domain watch over warriors and reward them for their great deeds. They include champions of honor and chivalry as well as gods of destruction and pillage. Other war gods take a more neutral stance, promoting war in all its manifestations and supporting warriors in any circumstance.",
-    "grants": [
-      "srd24:war:war-domain-spells",
-      "srd24:war:war-priest",
-      "srd24:war:guided-strike"
-    ]
-  },
-  {
     "id": "srd24:war:war-gods-blessing",
     "kind": "subclass-feature",
     "name": "War God's Blessing",
-    "source": "srd24",
-    "page": "XPHB 77",
+    "source": "xphb",
+    "page": "77",
     "tags": [
       "war-feature",
       "cleric-feature"
@@ -170,8 +156,8 @@
     "id": "srd24:war:avatar-of-battle",
     "kind": "subclass-feature",
     "name": "Avatar of Battle",
-    "source": "srd24",
-    "page": "XPHB 77",
+    "source": "xphb",
+    "page": "77",
     "tags": [
       "war-feature",
       "cleric-feature"

@@ -3,17 +3,19 @@
     "id": "srd:subclass:zeal-domain-psa",
     "kind": "subclass",
     "name": "Zeal Domain (PSA)",
-    "source": "srd",
-    "page": "PSA 28",
+    "source": "psa",
+    "page": "28",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "> The worthy shall rush to the God-Pharaoh's side with relentless zeal, rising to overcome every obstacle in their way.\n\nThe God-Pharaoh expects those he welcomes into the afterlife to desire it above all other pleasures and achievements, and for them to show their dedication, passion, and fervor through their actions. Hazoret is charged with cultivating this zeal in the initiates who come under her care, and she has undertaken the task with appropriate enthusiasm. She recognizes, however, that the best way to teach zeal is by demonstrating it.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Zeal Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | searing smite, thunderous smite |\n| 3rd | magic weapon, shatter |\n| 5th | haste, fireball |\n| 7th | fire shield (warm shield only), freedom of movement |\n| 9th | destructive wave, flame strike |",
     "levels": {
       "1": {
         "grants": [
-          "srd:zeal-psa:zeal-domain-psa",
+          "srd:zeal-psa:bonus-proficiencies",
+          "srd:zeal-psa:priest-of-zeal",
           "srd:spell:searing-smite",
           "srd:spell:thunderous-smite"
         ]
@@ -69,8 +71,8 @@
     "id": "srd:zeal-psa:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "PSA 28",
+    "source": "psa",
+    "page": "28",
     "tags": [
       "zeal-psa-feature",
       "cleric-feature"
@@ -105,8 +107,8 @@
     "id": "srd:zeal-psa:priest-of-zeal",
     "kind": "subclass-feature",
     "name": "Priest of Zeal",
-    "source": "srd",
-    "page": "PSA 28",
+    "source": "psa",
+    "page": "28",
     "tags": [
       "zeal-psa-feature",
       "cleric-feature"
@@ -145,27 +147,11 @@
     ]
   },
   {
-    "id": "srd:zeal-psa:zeal-domain-psa",
-    "kind": "subclass-feature",
-    "name": "Zeal Domain (PSA)",
-    "source": "srd",
-    "page": "PSA 28",
-    "tags": [
-      "zeal-psa-feature",
-      "cleric-feature"
-    ],
-    "text": "> The worthy shall rush to the God-Pharaoh's side with relentless zeal, rising to overcome every obstacle in their way.\n\nThe God-Pharaoh expects those he welcomes into the afterlife to desire it above all other pleasures and achievements, and for them to show their dedication, passion, and fervor through their actions. Hazoret is charged with cultivating this zeal in the initiates who come under her care, and she has undertaken the task with appropriate enthusiasm. She recognizes, however, that the best way to teach zeal is by demonstrating it.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Zeal Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | searing smite, thunderous smite |\n| 3rd | magic weapon, shatter |\n| 5th | haste, fireball |\n| 7th | fire shield (warm shield only), freedom of movement |\n| 9th | destructive wave, flame strike |",
-    "grants": [
-      "srd:zeal-psa:bonus-proficiencies",
-      "srd:zeal-psa:priest-of-zeal"
-    ]
-  },
-  {
     "id": "srd:zeal-psa:channel-divinity-consuming-fervor",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Consuming Fervor",
-    "source": "srd",
-    "page": "PSA 28",
+    "source": "psa",
+    "page": "28",
     "tags": [
       "zeal-psa-feature",
       "cleric-feature"
@@ -186,8 +172,8 @@
     "id": "srd:zeal-psa:resounding-strike",
     "kind": "subclass-feature",
     "name": "Resounding Strike",
-    "source": "srd",
-    "page": "PSA 28",
+    "source": "psa",
+    "page": "28",
     "tags": [
       "zeal-psa-feature",
       "cleric-feature"
@@ -198,8 +184,8 @@
     "id": "srd:zeal-psa:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "PSA 28",
+    "source": "psa",
+    "page": "28",
     "tags": [
       "zeal-psa-feature",
       "cleric-feature"
@@ -210,8 +196,8 @@
     "id": "srd:zeal-psa:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "zeal-psa-feature",
       "cleric-feature"
@@ -222,8 +208,8 @@
     "id": "srd:zeal-psa:blaze-of-glory",
     "kind": "subclass-feature",
     "name": "Blaze of Glory",
-    "source": "srd",
-    "page": "PSA 28",
+    "source": "psa",
+    "page": "28",
     "tags": [
       "zeal-psa-feature",
       "cleric-feature"

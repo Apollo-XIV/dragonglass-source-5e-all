@@ -3,8 +3,8 @@
     "id": "srd24:ranger:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 119",
+    "source": "xphb",
+    "page": "119",
     "tags": [
       "ranger-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:ranger:favored-enemy",
     "kind": "class-feature",
     "name": "Favored Enemy",
-    "source": "srd24",
-    "page": "XPHB 120",
+    "source": "xphb",
+    "page": "120",
     "tags": [
       "ranger-feature"
     ],
@@ -56,8 +56,8 @@
     "id": "srd24:ranger:weapon-mastery",
     "kind": "class-feature",
     "name": "Weapon Mastery",
-    "source": "srd24",
-    "page": "XPHB 120",
+    "source": "xphb",
+    "page": "120",
     "tags": [
       "ranger-feature"
     ],
@@ -67,8 +67,8 @@
     "id": "srd24:ranger:deft-explorer",
     "kind": "class-feature",
     "name": "Deft Explorer",
-    "source": "srd24",
-    "page": "XPHB 120",
+    "source": "xphb",
+    "page": "120",
     "tags": [
       "ranger-feature"
     ],
@@ -78,8 +78,8 @@
     "id": "srd24:ranger:fighting-style",
     "kind": "class-feature",
     "name": "Fighting Style",
-    "source": "srd24",
-    "page": "XPHB 120",
+    "source": "xphb",
+    "page": "120",
     "tags": [
       "ranger-feature"
     ],
@@ -89,8 +89,8 @@
     "id": "srd24:ranger:ranger-subclass",
     "kind": "class-feature",
     "name": "Ranger Subclass",
-    "source": "srd24",
-    "page": "XPHB 120",
+    "source": "xphb",
+    "page": "120",
     "tags": [
       "ranger-feature"
     ],
@@ -100,8 +100,8 @@
     "id": "srd24:ranger:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd24",
-    "page": "XPHB 120",
+    "source": "xphb",
+    "page": "120",
     "tags": [
       "ranger-feature"
     ],
@@ -111,8 +111,8 @@
     "id": "srd24:ranger:roving",
     "kind": "class-feature",
     "name": "Roving",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],
@@ -137,8 +137,8 @@
     "id": "srd24:ranger:expertise",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],
@@ -148,8 +148,8 @@
     "id": "srd24:ranger:tireless",
     "kind": "class-feature",
     "name": "Tireless",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],
@@ -190,8 +190,8 @@
     "id": "srd24:ranger:relentless-hunter",
     "kind": "class-feature",
     "name": "Relentless Hunter",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],
@@ -201,8 +201,8 @@
     "id": "srd24:ranger:natures-veil",
     "kind": "class-feature",
     "name": "Nature's Veil",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],
@@ -243,8 +243,8 @@
     "id": "srd24:ranger:precise-hunter",
     "kind": "class-feature",
     "name": "Precise Hunter",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],
@@ -267,8 +267,8 @@
     "id": "srd24:ranger:feral-senses",
     "kind": "class-feature",
     "name": "Feral Senses",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],
@@ -289,8 +289,8 @@
     "id": "srd24:ranger:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],
@@ -300,8 +300,8 @@
     "id": "srd24:ranger:foe-slayer",
     "kind": "class-feature",
     "name": "Foe Slayer",
-    "source": "srd24",
-    "page": "XPHB 121",
+    "source": "xphb",
+    "page": "121",
     "tags": [
       "ranger-feature"
     ],

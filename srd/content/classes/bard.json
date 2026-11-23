@@ -3,8 +3,8 @@
     "id": "srd:class:bard",
     "kind": "class",
     "name": "Bard",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "key": "bard",
     "hitDie": "d8",
     "tags": [

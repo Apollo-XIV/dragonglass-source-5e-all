@@ -3,17 +3,19 @@
     "id": "srd:subclass:school-of-enchantment",
     "kind": "subclass",
     "name": "School of Enchantment",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between.",
     "levels": {
       "2": {
         "grants": [
-          "srd:enchantment:school-of-enchantment"
+          "srd:enchantment:enchantment-savant",
+          "srd:enchantment:hypnotic-gaze"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:enchantment:enchantment-savant",
     "kind": "subclass-feature",
     "name": "Enchantment Savant",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "enchantment-feature",
       "wizard-feature"
@@ -49,8 +51,8 @@
     "id": "srd:enchantment:hypnotic-gaze",
     "kind": "subclass-feature",
     "name": "Hypnotic Gaze",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "enchantment-feature",
       "wizard-feature"
@@ -69,27 +71,11 @@
     ]
   },
   {
-    "id": "srd:enchantment:school-of-enchantment",
-    "kind": "subclass-feature",
-    "name": "School of Enchantment",
-    "source": "srd",
-    "page": "PHB 117",
-    "tags": [
-      "enchantment-feature",
-      "wizard-feature"
-    ],
-    "text": "As a member of the School of Enchantment, you have honed your ability to magically entrance and beguile other people and monsters. Some enchanters are peacemakers who bewitch the violent to lay down their arms and charm the cruel into showing mercy. Others are tyrants who magically bind the unwilling into their service. Most enchanters fall somewhere in between.",
-    "grants": [
-      "srd:enchantment:enchantment-savant",
-      "srd:enchantment:hypnotic-gaze"
-    ]
-  },
-  {
     "id": "srd:enchantment:instinctive-charm",
     "kind": "subclass-feature",
     "name": "Instinctive Charm",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "enchantment-feature",
       "wizard-feature"
@@ -111,8 +97,8 @@
     "id": "srd:enchantment:split-enchantment",
     "kind": "subclass-feature",
     "name": "Split Enchantment",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "enchantment-feature",
       "wizard-feature"
@@ -123,8 +109,8 @@
     "id": "srd:enchantment:alter-memories",
     "kind": "subclass-feature",
     "name": "Alter Memories",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "enchantment-feature",
       "wizard-feature"

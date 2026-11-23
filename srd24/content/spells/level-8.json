@@ -3,7 +3,7 @@
     "id": "srd24:spell:animal-shapes",
     "kind": "spell",
     "name": "Animal Shapes",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "spell-level:8",
@@ -12,7 +12,7 @@
       "school:transmutation"
     ],
     "spellLevel": 8,
-    "page": "XPHB 240",
+    "page": "240",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -24,7 +24,7 @@
     "id": "srd24:spell:antimagic-field",
     "kind": "spell",
     "name": "Antimagic Field",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "wizard-spell",
@@ -34,7 +34,7 @@
       "school:abjuration"
     ],
     "spellLevel": 8,
-    "page": "XPHB 241",
+    "page": "241",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Self (10-foot emanation)",
@@ -47,7 +47,7 @@
     "id": "srd24:spell:antipathy-sympathy",
     "kind": "spell",
     "name": "Antipathy/Sympathy",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -58,7 +58,7 @@
       "school:enchantment"
     ],
     "spellLevel": 8,
-    "page": "XPHB 242",
+    "page": "242",
     "school": "enchantment",
     "castingTime": "1 hour",
     "range": "60 feet",
@@ -81,7 +81,7 @@
     "id": "srd24:spell:befuddlement",
     "kind": "spell",
     "name": "Befuddlement",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -93,7 +93,7 @@
       "school:enchantment"
     ],
     "spellLevel": 8,
-    "page": "XPHB 245",
+    "page": "245",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -118,7 +118,7 @@
     "id": "srd24:spell:clone",
     "kind": "spell",
     "name": "Clone",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "wizard-spell",
       "spell-level:8",
@@ -127,7 +127,7 @@
       "school:necromancy"
     ],
     "spellLevel": 8,
-    "page": "XPHB 251",
+    "page": "251",
     "school": "necromancy",
     "castingTime": "1 hour",
     "range": "Touch",
@@ -139,7 +139,7 @@
     "id": "srd24:spell:control-weather",
     "kind": "spell",
     "name": "Control Weather",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -150,7 +150,7 @@
       "school:transmutation"
     ],
     "spellLevel": 8,
-    "page": "XPHB 257",
+    "page": "257",
     "school": "transmutation",
     "castingTime": "10 minutes",
     "range": "Self (5-mile-radius sphere)",
@@ -163,7 +163,7 @@
     "id": "srd24:spell:demiplane",
     "kind": "spell",
     "name": "Demiplane",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -174,7 +174,7 @@
       "school:conjuration"
     ],
     "spellLevel": 8,
-    "page": "XPHB 261",
+    "page": "261",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -186,7 +186,7 @@
     "id": "srd24:spell:dominate-monster",
     "kind": "spell",
     "name": "Dominate Monster",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -198,7 +198,7 @@
       "school:enchantment"
     ],
     "spellLevel": 8,
-    "page": "XPHB 265",
+    "page": "265",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -223,7 +223,7 @@
     "id": "srd24:spell:earthquake",
     "kind": "spell",
     "name": "Earthquake",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -234,7 +234,7 @@
       "school:transmutation"
     ],
     "spellLevel": 8,
-    "page": "XPHB 267",
+    "page": "267",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "500 feet",
@@ -261,7 +261,7 @@
     "id": "srd24:spell:entrancing-mirrors",
     "kind": "spell",
     "name": "Entrancing Mirrors",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -273,7 +273,7 @@
       "school:illusion"
     ],
     "spellLevel": 8,
-    "page": "AU 39",
+    "page": "39",
     "school": "illusion",
     "castingTime": "1 action",
     "range": "90 feet",
@@ -299,7 +299,7 @@
     "id": "srd24:spell:glibness",
     "kind": "spell",
     "name": "Glibness",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "warlock-spell",
@@ -309,7 +309,7 @@
       "school:enchantment"
     ],
     "spellLevel": 8,
-    "page": "XPHB 279",
+    "page": "279",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "Self",
@@ -321,7 +321,7 @@
     "id": "srd24:spell:holy-aura",
     "kind": "spell",
     "name": "Holy Aura",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "spell-level:8",
@@ -330,7 +330,7 @@
       "school:abjuration"
     ],
     "spellLevel": 8,
-    "page": "XPHB 286",
+    "page": "286",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Self (30-foot emanation)",
@@ -354,7 +354,7 @@
     "id": "srd24:spell:holy-star-of-mystra",
     "kind": "spell",
     "name": "Holy Star of Mystra",
-    "source": "srd24",
+    "source": "frhof",
     "tags": [
       "cleric-spell",
       "wizard-spell",
@@ -364,7 +364,7 @@
       "school:evocation"
     ],
     "spellLevel": 8,
-    "page": "FRHoF 145",
+    "page": "145",
     "school": "evocation",
     "castingTime": "1 bonus action",
     "range": "Self",
@@ -386,7 +386,7 @@
     "id": "srd24:spell:illusory-dragon",
     "kind": "spell",
     "name": "Illusory Dragon",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "wizard-spell",
       "spell-level:8",
@@ -395,7 +395,7 @@
       "school:illusion"
     ],
     "spellLevel": 8,
-    "page": "AU 40",
+    "page": "40",
     "school": "illusion",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -420,7 +420,7 @@
     "id": "srd24:spell:incendiary-cloud",
     "kind": "spell",
     "name": "Incendiary Cloud",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "sorcerer-spell",
@@ -431,7 +431,7 @@
       "school:conjuration"
     ],
     "spellLevel": 8,
-    "page": "XPHB 288",
+    "page": "288",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -457,7 +457,7 @@
     "id": "srd24:spell:iron-body",
     "kind": "spell",
     "name": "Iron Body",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -468,7 +468,7 @@
       "school:transmutation"
     ],
     "spellLevel": 8,
-    "page": "AU 41",
+    "page": "41",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "Touch",
@@ -481,7 +481,7 @@
     "id": "srd24:spell:lightning-ring",
     "kind": "spell",
     "name": "Lightning Ring",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "druid-spell",
       "sorcerer-spell",
@@ -493,7 +493,7 @@
       "school:evocation"
     ],
     "spellLevel": 8,
-    "page": "AU 41",
+    "page": "41",
     "school": "evocation",
     "castingTime": "1 bonus action",
     "range": "Self (10-foot emanation)",
@@ -544,7 +544,7 @@
     "id": "srd24:spell:maze",
     "kind": "spell",
     "name": "Maze",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "wizard-spell",
       "spell-level:8",
@@ -553,7 +553,7 @@
       "school:conjuration"
     ],
     "spellLevel": 8,
-    "page": "XPHB 296",
+    "page": "296",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -566,7 +566,7 @@
     "id": "srd24:spell:mind-blank",
     "kind": "spell",
     "name": "Mind Blank",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "wizard-spell",
@@ -576,7 +576,7 @@
       "school:abjuration"
     ],
     "spellLevel": 8,
-    "page": "XPHB 298",
+    "page": "298",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Touch",
@@ -588,7 +588,7 @@
     "id": "srd24:spell:moment-of-prescience",
     "kind": "spell",
     "name": "Moment of Prescience",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "wizard-spell",
       "spell-level:8",
@@ -597,7 +597,7 @@
       "school:divination"
     ],
     "spellLevel": 8,
-    "page": "AU 42",
+    "page": "42",
     "school": "divination",
     "castingTime": "1 reaction, which you take when you fail a D20 Test or when a creature hits you with an attack roll",
     "range": "Self",
@@ -609,7 +609,7 @@
     "id": "srd24:spell:power-word-stun",
     "kind": "spell",
     "name": "Power Word Stun",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -621,7 +621,7 @@
       "school:enchantment"
     ],
     "spellLevel": 8,
-    "page": "XPHB 306",
+    "page": "306",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -644,7 +644,7 @@
     "id": "srd24:spell:sunburst",
     "kind": "spell",
     "name": "Sunburst",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -656,7 +656,7 @@
       "school:evocation"
     ],
     "spellLevel": 8,
-    "page": "XPHB 329",
+    "page": "329",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "150 feet",
@@ -681,7 +681,7 @@
     "id": "srd24:spell:telepathy",
     "kind": "spell",
     "name": "Telepathy",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "wizard-spell",
       "spell-level:8",
@@ -690,7 +690,7 @@
       "school:divination"
     ],
     "spellLevel": 8,
-    "page": "XPHB 331",
+    "page": "331",
     "school": "divination",
     "castingTime": "1 action",
     "range": "Unlimited",
@@ -702,7 +702,7 @@
     "id": "srd24:spell:tsunami",
     "kind": "spell",
     "name": "Tsunami",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "spell-level:8",
@@ -711,7 +711,7 @@
       "school:conjuration"
     ],
     "spellLevel": 8,
-    "page": "XPHB 336",
+    "page": "336",
     "school": "conjuration",
     "castingTime": "1 minute",
     "range": "1 mile",

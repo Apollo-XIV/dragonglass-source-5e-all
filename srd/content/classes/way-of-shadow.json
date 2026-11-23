@@ -3,17 +3,18 @@
     "id": "srd:subclass:way-of-shadow",
     "kind": "subclass",
     "name": "Way of Shadow",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadow dancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves' guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.",
     "levels": {
       "3": {
         "grants": [
-          "srd:shadow:way-of-shadow",
+          "srd:shadow:shadow-arts",
           "srd:spell:minor-illusion"
         ],
         "innateSpells": [
@@ -68,8 +69,8 @@
     "id": "srd:shadow:shadow-arts",
     "kind": "subclass-feature",
     "name": "Shadow Arts",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -91,26 +92,11 @@
     ]
   },
   {
-    "id": "srd:shadow:way-of-shadow",
-    "kind": "subclass-feature",
-    "name": "Way of Shadow",
-    "source": "srd",
-    "page": "PHB 80",
-    "tags": [
-      "shadow-feature",
-      "monk-feature"
-    ],
-    "text": "Monks of the Way of Shadow follow a tradition that values stealth and subterfuge. These monks might be called ninjas or shadow dancers, and they serve as spies and assassins. Sometimes the members of a ninja monastery are family members, forming a clan sworn to secrecy about their arts and missions. Other monasteries are more like thieves' guilds, hiring out their services to nobles, rich merchants, or anyone else who can pay their fees. Regardless of their methods, the heads of these monasteries expect the unquestioning obedience of their students.",
-    "grants": [
-      "srd:shadow:shadow-arts"
-    ]
-  },
-  {
     "id": "srd:shadow:shadow-step",
     "kind": "subclass-feature",
     "name": "Shadow Step",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -121,8 +107,8 @@
     "id": "srd:shadow:cloak-of-shadows",
     "kind": "subclass-feature",
     "name": "Cloak of Shadows",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "shadow-feature",
       "monk-feature"
@@ -144,8 +130,8 @@
     "id": "srd:shadow:opportunist",
     "kind": "subclass-feature",
     "name": "Opportunist",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "shadow-feature",
       "monk-feature"

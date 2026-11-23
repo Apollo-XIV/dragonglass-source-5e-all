@@ -3,8 +3,8 @@
     "id": "srd24:class:barbarian",
     "kind": "class",
     "name": "Barbarian",
-    "source": "srd24",
-    "page": "XPHB 50",
+    "source": "xphb",
+    "page": "50",
     "key": "barbarian",
     "hitDie": "d12",
     "tags": [

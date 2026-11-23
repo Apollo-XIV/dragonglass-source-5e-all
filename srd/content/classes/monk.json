@@ -3,8 +3,8 @@
     "id": "srd:class:monk",
     "kind": "class",
     "name": "Monk",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "key": "monk",
     "hitDie": "d8",
     "tags": [

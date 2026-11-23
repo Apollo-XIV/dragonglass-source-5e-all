@@ -3,17 +3,18 @@
     "id": "srd24:subclass:psi-warrior",
     "kind": "subclass",
     "name": "Psi Warrior",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "class": "srd24:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "*Augment Physical Might with Psionic Power*\n\nPsi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:psi-warrior:psi-warrior"
+          "srd24:psi-warrior:psionic-power"
         ]
       },
       "7": {
@@ -54,8 +55,8 @@
     "id": "srd24:psi-warrior:protective-field",
     "kind": "subclass-feature",
     "name": "Protective Field",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -81,8 +82,8 @@
     "id": "srd24:psi-warrior:psionic-strike",
     "kind": "subclass-feature",
     "name": "Psionic Strike",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -97,8 +98,8 @@
     "id": "srd24:psi-warrior:telekinetic-movement",
     "kind": "subclass-feature",
     "name": "Telekinetic Movement",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -124,8 +125,8 @@
     "id": "srd24:psi-warrior:psionic-power",
     "kind": "subclass-feature",
     "name": "Psionic Power",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -138,26 +139,11 @@
     ]
   },
   {
-    "id": "srd24:psi-warrior:psi-warrior",
-    "kind": "subclass-feature",
-    "name": "Psi Warrior",
-    "source": "srd24",
-    "page": "XPHB 98",
-    "tags": [
-      "psi-warrior-feature",
-      "fighter-feature"
-    ],
-    "text": "*Augment Physical Might with Psionic Power*\n\nPsi Warriors awaken the power of their minds to augment their physical might. They harness this psionic power to infuse their weapon strikes, lash out with telekinetic energy, and create barriers of mental force.",
-    "grants": [
-      "srd24:psi-warrior:psionic-power"
-    ]
-  },
-  {
     "id": "srd24:psi-warrior:psi-powered-leap",
     "kind": "subclass-feature",
     "name": "Psi-Powered Leap",
-    "source": "srd24",
-    "page": "XPHB 99",
+    "source": "xphb",
+    "page": "99",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -183,8 +169,8 @@
     "id": "srd24:psi-warrior:telekinetic-thrust",
     "kind": "subclass-feature",
     "name": "Telekinetic Thrust",
-    "source": "srd24",
-    "page": "XPHB 99",
+    "source": "xphb",
+    "page": "99",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -195,8 +181,8 @@
     "id": "srd24:psi-warrior:telekinetic-adept",
     "kind": "subclass-feature",
     "name": "Telekinetic Adept",
-    "source": "srd24",
-    "page": "XPHB 99",
+    "source": "xphb",
+    "page": "99",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -211,8 +197,8 @@
     "id": "srd24:psi-warrior:guarded-mind",
     "kind": "subclass-feature",
     "name": "Guarded Mind",
-    "source": "srd24",
-    "page": "XPHB 99",
+    "source": "xphb",
+    "page": "99",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -240,8 +226,8 @@
     "id": "srd24:psi-warrior:bulwark-of-force",
     "kind": "subclass-feature",
     "name": "Bulwark of Force",
-    "source": "srd24",
-    "page": "XPHB 99",
+    "source": "xphb",
+    "page": "99",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -267,8 +253,8 @@
     "id": "srd24:psi-warrior:telekinetic-master",
     "kind": "subclass-feature",
     "name": "Telekinetic Master",
-    "source": "srd24",
-    "page": "XPHB 99",
+    "source": "xphb",
+    "page": "99",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"

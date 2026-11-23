@@ -3,17 +3,19 @@
     "id": "srd:subclass:way-of-the-four-elements",
     "kind": "subclass",
     "name": "Way of the Four Elements",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.\n\nMany monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
     "levels": {
       "3": {
         "grants": [
-          "srd:four-elements:way-of-the-four-elements"
+          "srd:four-elements:disciple-of-the-elements",
+          "srd:four-elements:elemental-disciplines"
         ],
         "choices": [
           {
@@ -89,8 +91,8 @@
     "id": "srd:four-elements:disciple-of-the-elements",
     "kind": "subclass-feature",
     "name": "Disciple of the Elements",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "four-elements-feature",
       "monk-feature"
@@ -101,8 +103,8 @@
     "id": "srd:four-elements:elemental-disciplines",
     "kind": "subclass-feature",
     "name": "Elemental Disciplines",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "four-elements-feature",
       "monk-feature"
@@ -110,27 +112,11 @@
     "text": "The elemental disciplines are presented in alphabetical order. If a discipline requires a level, you must be the level in this class to learn the discipline."
   },
   {
-    "id": "srd:four-elements:way-of-the-four-elements",
-    "kind": "subclass-feature",
-    "name": "Way of the Four Elements",
-    "source": "srd",
-    "page": "PHB 80",
-    "tags": [
-      "four-elements-feature",
-      "monk-feature"
-    ],
-    "text": "You follow a monastic tradition that teaches you to harness the elements. When you focus your ki, you can align yourself with the forces of creation and bend the four elements to your will, using them as an extension of your body. Some members of this tradition dedicate themselves to a single element, but others weave the elements together.\n\nMany monks of this tradition tattoo their bodies with representations of their ki powers, commonly imagined as coiling dragons, but also as phoenixes, fish, plants, mountains, and cresting waves.",
-    "grants": [
-      "srd:four-elements:disciple-of-the-elements",
-      "srd:four-elements:elemental-disciplines"
-    ]
-  },
-  {
     "id": "srd:four-elements:extra-elemental-discipline",
     "kind": "subclass-feature",
     "name": "Extra Elemental Discipline",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "four-elements-feature",
       "monk-feature"
@@ -141,8 +127,8 @@
     "id": "srd:four-elements:extra-elemental-discipline-11",
     "kind": "subclass-feature",
     "name": "Extra Elemental Discipline",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "four-elements-feature",
       "monk-feature"
@@ -153,8 +139,8 @@
     "id": "srd:four-elements:extra-elemental-discipline-17",
     "kind": "subclass-feature",
     "name": "Extra Elemental Discipline",
-    "source": "srd",
-    "page": "PHB 80",
+    "source": "phb",
+    "page": "80",
     "tags": [
       "four-elements-feature",
       "monk-feature"

@@ -1,11 +1,130 @@
-{
-  "id": "srd24",
-  "kind": "sourcebook",
-  "name": "System Reference Document 5.2",
-  "source": "srd24",
-  "abbreviation": "SRD 5.2",
-  "ruleset": "2024",
-  "version": "5.2",
-  "license": "CC-BY-4.0",
-  "attribution": "This work includes material from the System Reference Document 5.2 (\"SRD 5.2\") by Wizards of the Coast LLC, available at https://www.dndbeyond.com/srd. The SRD 5.2 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.\n\nSome mechanics in this content were derived, with changes, from the structured data of the Foundry VTT dnd5e system (https://github.com/foundryvtt/dnd5e)."
-}
+[
+  {
+    "id": "abh",
+    "kind": "sourcebook",
+    "name": "Astarion's Book of Hungers",
+    "source": "abh",
+    "abbreviation": "ABH",
+    "ruleset": "2024"
+  },
+  {
+    "id": "au",
+    "kind": "sourcebook",
+    "name": "Arcana Unleashed",
+    "source": "au",
+    "abbreviation": "AU",
+    "ruleset": "2024"
+  },
+  {
+    "id": "aud",
+    "kind": "sourcebook",
+    "name": "Arcana Unleashed: Deadfall",
+    "source": "aud",
+    "abbreviation": "AUD",
+    "ruleset": "2024"
+  },
+  {
+    "id": "efa",
+    "kind": "sourcebook",
+    "name": "Eberron: Forge of the Artificer",
+    "source": "efa",
+    "abbreviation": "EFA",
+    "ruleset": "2024"
+  },
+  {
+    "id": "fraif",
+    "kind": "sourcebook",
+    "name": "The Lost Library of Lethchauntos",
+    "source": "fraif",
+    "abbreviation": "FRAiF",
+    "ruleset": "2024"
+  },
+  {
+    "id": "frhof",
+    "kind": "sourcebook",
+    "name": "Forgotten Realms: Heroes of Faerûn",
+    "source": "frhof",
+    "abbreviation": "FRHoF",
+    "ruleset": "2024"
+  },
+  {
+    "id": "hotb",
+    "kind": "sourcebook",
+    "name": "Heroes of the Borderlands",
+    "source": "hotb",
+    "abbreviation": "HotB",
+    "ruleset": "2024"
+  },
+  {
+    "id": "lfl",
+    "kind": "sourcebook",
+    "name": "Lorwyn: First Light",
+    "source": "lfl",
+    "abbreviation": "LFL",
+    "ruleset": "2024"
+  },
+  {
+    "id": "nf",
+    "kind": "sourcebook",
+    "name": "Netheril's Fall",
+    "source": "nf",
+    "abbreviation": "NF",
+    "ruleset": "2024"
+  },
+  {
+    "id": "pl",
+    "kind": "sourcebook",
+    "name": "Project_Lamordia",
+    "source": "pl",
+    "abbreviation": "PL",
+    "ruleset": "2024"
+  },
+  {
+    "id": "rhw",
+    "kind": "sourcebook",
+    "name": "Ravenloft: The Horrors Within",
+    "source": "rhw",
+    "abbreviation": "RHW",
+    "ruleset": "2024"
+  },
+  {
+    "id": "uthftlh",
+    "kind": "sourcebook",
+    "name": "Uni and the Hunt for the Lost Horn",
+    "source": "uthftlh",
+    "abbreviation": "UtHftLH",
+    "ruleset": "2024"
+  },
+  {
+    "id": "wtthc",
+    "kind": "sourcebook",
+    "name": "Stranger Things: Welcome to the Hellfire Club",
+    "source": "wtthc",
+    "abbreviation": "WttHC",
+    "ruleset": "2024"
+  },
+  {
+    "id": "xdmg",
+    "kind": "sourcebook",
+    "name": "Dungeon Master's Guide (2024)",
+    "source": "xdmg",
+    "abbreviation": "XDMG",
+    "ruleset": "2024"
+  },
+  {
+    "id": "xmm",
+    "kind": "sourcebook",
+    "name": "Monster Manual (2025)",
+    "source": "xmm",
+    "abbreviation": "XMM",
+    "ruleset": "2024"
+  },
+  {
+    "id": "xphb",
+    "kind": "sourcebook",
+    "name": "Player's Handbook (2024)",
+    "source": "xphb",
+    "abbreviation": "XPHB",
+    "ruleset": "2024"
+  }
+]

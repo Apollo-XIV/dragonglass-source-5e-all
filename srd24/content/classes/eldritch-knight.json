@@ -3,17 +3,19 @@
     "id": "srd24:subclass:eldritch-knight",
     "kind": "subclass",
     "name": "Eldritch Knight",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "class": "srd24:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "*Support Combat Skills with Arcane Magic*\n\nEldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:eldritch-knight:eldritch-knight"
+          "srd24:eldritch-knight:spellcasting",
+          "srd24:eldritch-knight:war-bond"
         ],
         "spellListAdditions": [
           {
@@ -78,8 +80,8 @@
     "id": "srd24:eldritch-knight:spellcasting",
     "kind": "subclass-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -90,8 +92,8 @@
     "id": "srd24:eldritch-knight:war-bond",
     "kind": "subclass-feature",
     "name": "War Bond",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -99,27 +101,11 @@
     "text": "You learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a Short Rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond. The bond fails if another Fighter is bonded to the weapon or if the weapon is a magic item to which someone else is attuned.\n\nOnce you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you have the Incapacitated condition. If it is on the same plane of existence, you can summon that weapon as a Bonus Action, causing it to teleport instantly to your hand.\n\nYou can have up to two bonded weapons, but you can summon only one at a time with a Bonus Action. If you attempt to bond with a third weapon, you must break the bond with one of the other two."
   },
   {
-    "id": "srd24:eldritch-knight:eldritch-knight",
-    "kind": "subclass-feature",
-    "name": "Eldritch Knight",
-    "source": "srd24",
-    "page": "XPHB 96",
-    "tags": [
-      "eldritch-knight-feature",
-      "fighter-feature"
-    ],
-    "text": "*Support Combat Skills with Arcane Magic*\n\nEldritch Knights combine the martial mastery common to all Fighters with a careful study of magic. Their spells both complement and extend their combat skills, providing additional protection to shore up their armor and also allowing them to engage many foes at once with explosive magic.",
-    "grants": [
-      "srd24:eldritch-knight:spellcasting",
-      "srd24:eldritch-knight:war-bond"
-    ]
-  },
-  {
     "id": "srd24:eldritch-knight:war-magic",
     "kind": "subclass-feature",
     "name": "War Magic",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -130,8 +116,8 @@
     "id": "srd24:eldritch-knight:eldritch-strike",
     "kind": "subclass-feature",
     "name": "Eldritch Strike",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -142,8 +128,8 @@
     "id": "srd24:eldritch-knight:arcane-charge",
     "kind": "subclass-feature",
     "name": "Arcane Charge",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -154,8 +140,8 @@
     "id": "srd24:eldritch-knight:improved-war-magic",
     "kind": "subclass-feature",
     "name": "Improved War Magic",
-    "source": "srd24",
-    "page": "XPHB 98",
+    "source": "xphb",
+    "page": "98",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"

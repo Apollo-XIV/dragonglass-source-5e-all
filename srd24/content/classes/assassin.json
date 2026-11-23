@@ -3,17 +3,19 @@
     "id": "srd24:subclass:assassin",
     "kind": "subclass",
     "name": "Assassin",
-    "source": "srd24",
-    "page": "XPHB 134",
+    "source": "xphb",
+    "page": "134",
     "class": "srd24:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "*Practice the Grim Art of Death*\n\nAn Assassin's training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:assassin:assassin"
+          "srd24:assassin:assassinate",
+          "srd24:assassin:assassins-tools"
         ]
       },
       "9": {
@@ -37,8 +39,8 @@
     "id": "srd24:assassin:assassinate",
     "kind": "subclass-feature",
     "name": "Assassinate",
-    "source": "srd24",
-    "page": "XPHB 134",
+    "source": "xphb",
+    "page": "134",
     "tags": [
       "assassin-feature",
       "rogue-feature"
@@ -70,8 +72,8 @@
     "id": "srd24:assassin:assassins-tools",
     "kind": "subclass-feature",
     "name": "Assassin's Tools",
-    "source": "srd24",
-    "page": "XPHB 134",
+    "source": "xphb",
+    "page": "134",
     "tags": [
       "assassin-feature",
       "rogue-feature"
@@ -93,27 +95,11 @@
     ]
   },
   {
-    "id": "srd24:assassin:assassin",
-    "kind": "subclass-feature",
-    "name": "Assassin",
-    "source": "srd24",
-    "page": "XPHB 134",
-    "tags": [
-      "assassin-feature",
-      "rogue-feature"
-    ],
-    "text": "*Practice the Grim Art of Death*\n\nAn Assassin's training focuses on using stealth, poison, and disguise to eliminate foes with deadly efficiency. While some Rogues who follow this path are hired killers, spies, or bounty hunters, the capabilities of this subclass are equally useful for adventurers facing a variety of monstrous enemies.",
-    "grants": [
-      "srd24:assassin:assassinate",
-      "srd24:assassin:assassins-tools"
-    ]
-  },
-  {
     "id": "srd24:assassin:infiltration-expertise",
     "kind": "subclass-feature",
     "name": "Infiltration Expertise",
-    "source": "srd24",
-    "page": "XPHB 134",
+    "source": "xphb",
+    "page": "134",
     "tags": [
       "assassin-feature",
       "rogue-feature"
@@ -124,8 +110,8 @@
     "id": "srd24:assassin:envenom-weapons",
     "kind": "subclass-feature",
     "name": "Envenom Weapons",
-    "source": "srd24",
-    "page": "XPHB 134",
+    "source": "xphb",
+    "page": "134",
     "tags": [
       "assassin-feature",
       "rogue-feature"
@@ -136,8 +122,8 @@
     "id": "srd24:assassin:death-strike",
     "kind": "subclass-feature",
     "name": "Death Strike",
-    "source": "srd24",
-    "page": "XPHB 134",
+    "source": "xphb",
+    "page": "134",
     "tags": [
       "assassin-feature",
       "rogue-feature"

@@ -3,17 +3,19 @@
     "id": "srd:subclass:aberrant-mind",
     "kind": "subclass",
     "name": "Aberrant Mind",
-    "source": "srd",
-    "page": "TCE 66",
+    "source": "tce",
+    "page": "66",
     "class": "srd:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?\n\nAs an Aberrant Mind sorcerer, you decide how you acquired your powers. Were you born with them? Or did an event later in life leave you shining with psionic awareness? Consult the Aberrant Origins table for a possible origin of your power.\n\n**Aberrant Origins**\n| d6 | Origin |\n| --- | --- |\n| 1 | You were exposed to the Far Realm's warping influence. You are convinced that a tentacle is now growing on you, but no one else can see it. |\n| 2 | A psychic wind from the Astral Plane carried psionic energy to you. When you use your powers, faint motes of light sparkle around you. |\n| 3 | You once suffered the dominating powers of an aboleth, leaving a psychic splinter in your mind. |\n| 4 | You were implanted with a mind flayer tadpole, but the ceremorphosis never completed. And now its psionic power is yours. When you use it, your flesh shines with a strange mucus. |\n| 5 | As a child, you had an imaginary friend that looked like a flumph or a strange platypus-like creature. One day, it gifted you with psionic powers, which have ended up being not so imaginary. |\n| 6 | Your nightmares whisper the truth to you: your psionic powers are not your own. You draw them from your parasitic twin! |",
     "levels": {
       "1": {
         "grants": [
-          "srd:aberrant-mind:aberrant-mind",
+          "srd:aberrant-mind:psionic-spells",
+          "srd:aberrant-mind:telepathic-speech",
           "srd:spell:mind-sliver",
           {
             "id": "srd:spell:arms-of-hadar",
@@ -95,8 +97,8 @@
     "id": "srd:aberrant-mind:psionic-spells",
     "kind": "subclass-feature",
     "name": "Psionic Spells",
-    "source": "srd",
-    "page": "TCE 66",
+    "source": "tce",
+    "page": "66",
     "tags": [
       "aberrant-mind-feature",
       "sorcerer-feature"
@@ -107,8 +109,8 @@
     "id": "srd:aberrant-mind:telepathic-speech",
     "kind": "subclass-feature",
     "name": "Telepathic Speech",
-    "source": "srd",
-    "page": "TCE 66",
+    "source": "tce",
+    "page": "66",
     "tags": [
       "aberrant-mind-feature",
       "sorcerer-feature"
@@ -127,27 +129,11 @@
     ]
   },
   {
-    "id": "srd:aberrant-mind:aberrant-mind",
-    "kind": "subclass-feature",
-    "name": "Aberrant Mind",
-    "source": "srd",
-    "page": "TCE 66",
-    "tags": [
-      "aberrant-mind-feature",
-      "sorcerer-feature"
-    ],
-    "text": "An alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you by using it to control the magical energy of the multiverse. Will this power shine from you as a hopeful beacon to others? Or will you be a source of terror to those who feel the stab of your mind and witness the strange manifestations of your might?\n\nAs an Aberrant Mind sorcerer, you decide how you acquired your powers. Were you born with them? Or did an event later in life leave you shining with psionic awareness? Consult the Aberrant Origins table for a possible origin of your power.\n\n**Aberrant Origins**\n| d6 | Origin |\n| --- | --- |\n| 1 | You were exposed to the Far Realm's warping influence. You are convinced that a tentacle is now growing on you, but no one else can see it. |\n| 2 | A psychic wind from the Astral Plane carried psionic energy to you. When you use your powers, faint motes of light sparkle around you. |\n| 3 | You once suffered the dominating powers of an aboleth, leaving a psychic splinter in your mind. |\n| 4 | You were implanted with a mind flayer tadpole, but the ceremorphosis never completed. And now its psionic power is yours. When you use it, your flesh shines with a strange mucus. |\n| 5 | As a child, you had an imaginary friend that looked like a flumph or a strange platypus-like creature. One day, it gifted you with psionic powers, which have ended up being not so imaginary. |\n| 6 | Your nightmares whisper the truth to you: your psionic powers are not your own. You draw them from your parasitic twin! |",
-    "grants": [
-      "srd:aberrant-mind:psionic-spells",
-      "srd:aberrant-mind:telepathic-speech"
-    ]
-  },
-  {
     "id": "srd:aberrant-mind:psionic-sorcery",
     "kind": "subclass-feature",
     "name": "Psionic Sorcery",
-    "source": "srd",
-    "page": "TCE 66",
+    "source": "tce",
+    "page": "66",
     "tags": [
       "aberrant-mind-feature",
       "sorcerer-feature"
@@ -158,8 +144,8 @@
     "id": "srd:aberrant-mind:psychic-defenses",
     "kind": "subclass-feature",
     "name": "Psychic Defenses",
-    "source": "srd",
-    "page": "TCE 66",
+    "source": "tce",
+    "page": "66",
     "tags": [
       "aberrant-mind-feature",
       "sorcerer-feature"
@@ -170,8 +156,8 @@
     "id": "srd:aberrant-mind:revelation-in-flesh",
     "kind": "subclass-feature",
     "name": "Revelation in Flesh",
-    "source": "srd",
-    "page": "TCE 66",
+    "source": "tce",
+    "page": "66",
     "tags": [
       "aberrant-mind-feature",
       "sorcerer-feature"
@@ -193,8 +179,8 @@
     "id": "srd:aberrant-mind:warping-implosion",
     "kind": "subclass-feature",
     "name": "Warping Implosion",
-    "source": "srd",
-    "page": "TCE 66",
+    "source": "tce",
+    "page": "66",
     "tags": [
       "aberrant-mind-feature",
       "sorcerer-feature"

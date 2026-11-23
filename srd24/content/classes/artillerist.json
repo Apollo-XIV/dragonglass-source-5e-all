@@ -3,17 +3,20 @@
     "id": "srd24:subclass:artillerist",
     "kind": "subclass",
     "name": "Artillerist",
-    "source": "srd24",
-    "page": "EFA 16",
+    "source": "efa",
+    "page": "16",
     "class": "srd24:class:artificer",
     "tags": [
       "artificer-subclass",
       "srd-subclass"
     ],
+    "text": "*Wield Destructive Power from Afar*\n\nAn Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:artillerist:artillerist",
+          "srd24:artillerist:tools-of-the-trade",
+          "srd24:artillerist:artillerist-spells",
+          "srd24:artillerist:eldritch-cannon",
           "srd24:spell:shield",
           "srd24:spell:thunderwave"
         ]
@@ -55,8 +58,8 @@
     "id": "srd24:artillerist:tools-of-the-trade",
     "kind": "subclass-feature",
     "name": "Tools of the Trade",
-    "source": "srd24",
-    "page": "EFA 16",
+    "source": "efa",
+    "page": "16",
     "tags": [
       "artillerist-feature",
       "artificer-feature"
@@ -91,8 +94,8 @@
     "id": "srd24:artillerist:artillerist-spells",
     "kind": "subclass-feature",
     "name": "Artillerist Spells",
-    "source": "srd24",
-    "page": "EFA 16",
+    "source": "efa",
+    "page": "16",
     "tags": [
       "artillerist-feature",
       "artificer-feature"
@@ -103,8 +106,8 @@
     "id": "srd24:artillerist:eldritch-cannon",
     "kind": "subclass-feature",
     "name": "Eldritch Cannon",
-    "source": "srd24",
-    "page": "EFA 16",
+    "source": "efa",
+    "page": "16",
     "tags": [
       "artillerist-feature",
       "artificer-feature"
@@ -112,28 +115,11 @@
     "text": "Using Smith's Tools or Woodcarver's Tools, you can take a Magic action to create a Small or Tiny Eldritch Cannon in an unoccupied space on a horizontal surface within 5 feet of yourself. You determine its appearance, including whether you carry it or not (and your choice of legs or wheels, for the latter). It disappears if it is reduced to 0 Hit Points or after 1 hour. You can dismiss it early as a Magic action.\n\nOnce you create a cannon, you can't do so again until you finish a Long Rest or expend a spell slot to create one. You can have only one cannon at a time and can't create one while you already have one."
   },
   {
-    "id": "srd24:artillerist:artillerist",
-    "kind": "subclass-feature",
-    "name": "Artillerist",
-    "source": "srd24",
-    "page": "EFA 16",
-    "tags": [
-      "artillerist-feature",
-      "artificer-feature"
-    ],
-    "text": "*Wield Destructive Power from Afar*\n\nAn Artillerist specializes in using magic to hurl energy, projectiles, and explosions on a battlefield.",
-    "grants": [
-      "srd24:artillerist:tools-of-the-trade",
-      "srd24:artillerist:artillerist-spells",
-      "srd24:artillerist:eldritch-cannon"
-    ]
-  },
-  {
     "id": "srd24:artillerist:arcane-firearm",
     "kind": "subclass-feature",
     "name": "Arcane Firearm",
-    "source": "srd24",
-    "page": "EFA 17",
+    "source": "efa",
+    "page": "17",
     "tags": [
       "artillerist-feature",
       "artificer-feature"
@@ -144,8 +130,8 @@
     "id": "srd24:artillerist:explosive-cannon",
     "kind": "subclass-feature",
     "name": "Explosive Cannon",
-    "source": "srd24",
-    "page": "EFA 17",
+    "source": "efa",
+    "page": "17",
     "tags": [
       "artillerist-feature",
       "artificer-feature"
@@ -167,8 +153,8 @@
     "id": "srd24:artillerist:fortified-position",
     "kind": "subclass-feature",
     "name": "Fortified Position",
-    "source": "srd24",
-    "page": "EFA 17",
+    "source": "efa",
+    "page": "17",
     "tags": [
       "artillerist-feature",
       "artificer-feature"

@@ -3,17 +3,20 @@
     "id": "srd24:subclass:gloom-stalker",
     "kind": "subclass",
     "name": "Gloom Stalker",
-    "source": "srd24",
-    "page": "XPHB 125",
+    "source": "xphb",
+    "page": "125",
     "class": "srd24:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "*Draw on Shadow Magic to Fight Your Foes*\n\nGloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:gloom-stalker:gloom-stalker",
+          "srd24:gloom-stalker:dread-ambusher",
+          "srd24:gloom-stalker:gloom-stalker-spells",
+          "srd24:gloom-stalker:umbral-sight",
           "srd24:spell:disguise-self"
         ]
       },
@@ -58,8 +61,8 @@
     "id": "srd24:gloom-stalker:dread-ambusher",
     "kind": "subclass-feature",
     "name": "Dread Ambusher",
-    "source": "srd24",
-    "page": "XPHB 125",
+    "source": "xphb",
+    "page": "125",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -124,8 +127,8 @@
     "id": "srd24:gloom-stalker:gloom-stalker-spells",
     "kind": "subclass-feature",
     "name": "Gloom Stalker Spells",
-    "source": "srd24",
-    "page": "XPHB 126",
+    "source": "xphb",
+    "page": "126",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -136,8 +139,8 @@
     "id": "srd24:gloom-stalker:umbral-sight",
     "kind": "subclass-feature",
     "name": "Umbral Sight",
-    "source": "srd24",
-    "page": "XPHB 126",
+    "source": "xphb",
+    "page": "126",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -145,28 +148,11 @@
     "text": "You gain Darkvision with a range of 60 feet. If you already have Darkvision when you gain this feature, its range increases by 60 feet.\n\nYou are also adept at evading creatures that rely on Darkvision. While entirely in Darkness, you have the Invisible condition to any creature that relies on Darkvision to see you in that Darkness."
   },
   {
-    "id": "srd24:gloom-stalker:gloom-stalker",
-    "kind": "subclass-feature",
-    "name": "Gloom Stalker",
-    "source": "srd24",
-    "page": "XPHB 125",
-    "tags": [
-      "gloom-stalker-feature",
-      "ranger-feature"
-    ],
-    "text": "*Draw on Shadow Magic to Fight Your Foes*\n\nGloom Stalkers are at home in the darkest places, wielding magic drawn from the Shadowfell to combat enemies that lurk in darkness.",
-    "grants": [
-      "srd24:gloom-stalker:dread-ambusher",
-      "srd24:gloom-stalker:gloom-stalker-spells",
-      "srd24:gloom-stalker:umbral-sight"
-    ]
-  },
-  {
     "id": "srd24:gloom-stalker:iron-mind",
     "kind": "subclass-feature",
     "name": "Iron Mind",
-    "source": "srd24",
-    "page": "XPHB 126",
+    "source": "xphb",
+    "page": "126",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -177,8 +163,8 @@
     "id": "srd24:gloom-stalker:stalkers-flurry",
     "kind": "subclass-feature",
     "name": "Stalker's Flurry",
-    "source": "srd24",
-    "page": "XPHB 126",
+    "source": "xphb",
+    "page": "126",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -189,8 +175,8 @@
     "id": "srd24:gloom-stalker:shadowy-dodge",
     "kind": "subclass-feature",
     "name": "Shadowy Dodge",
-    "source": "srd24",
-    "page": "XPHB 126",
+    "source": "xphb",
+    "page": "126",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"

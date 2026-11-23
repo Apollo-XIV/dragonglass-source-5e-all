@@ -3,17 +3,19 @@
     "id": "srd:subclass:school-of-divination",
     "kind": "subclass",
     "name": "School of Divination",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
     "levels": {
       "2": {
         "grants": [
-          "srd:divination:school-of-divination"
+          "srd:divination:divination-savant",
+          "srd:divination:portent"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:divination:divination-savant",
     "kind": "subclass-feature",
     "name": "Divination Savant",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "divination-feature",
       "wizard-feature"
@@ -49,8 +51,8 @@
     "id": "srd:divination:portent",
     "kind": "subclass-feature",
     "name": "Portent",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "divination-feature",
       "wizard-feature"
@@ -58,27 +60,11 @@
     "text": "Starting at 2nd level when you choose this school, glimpses of the future begin to press in on your awareness. When you finish a long rest, roll two d20s and record the numbers rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.\n\nEach foretelling roll can be used only once. When you finish a long rest, you lose any unused foretelling rolls."
   },
   {
-    "id": "srd:divination:school-of-divination",
-    "kind": "subclass-feature",
-    "name": "School of Divination",
-    "source": "srd",
-    "page": "PHB 116",
-    "tags": [
-      "divination-feature",
-      "wizard-feature"
-    ],
-    "text": "The counsel of a diviner is sought by royalty and commoners alike, for all seek a clearer understanding of the past, present, and future. As a diviner, you strive to part the veils of space, time, and consciousness so that you can see clearly. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
-    "grants": [
-      "srd:divination:divination-savant",
-      "srd:divination:portent"
-    ]
-  },
-  {
     "id": "srd:divination:expert-divination",
     "kind": "subclass-feature",
     "name": "Expert Divination",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "divination-feature",
       "wizard-feature"
@@ -89,8 +75,8 @@
     "id": "srd:divination:the-third-eye",
     "kind": "subclass-feature",
     "name": "The Third Eye",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "divination-feature",
       "wizard-feature"
@@ -112,8 +98,8 @@
     "id": "srd:divination:greater-portent",
     "kind": "subclass-feature",
     "name": "Greater Portent",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "divination-feature",
       "wizard-feature"

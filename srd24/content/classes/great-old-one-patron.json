@@ -3,17 +3,20 @@
     "id": "srd24:subclass:great-old-one-patron",
     "kind": "subclass",
     "name": "Great Old One Patron",
-    "source": "srd24",
-    "page": "XPHB 162",
+    "source": "xphb",
+    "page": "162",
     "class": "srd24:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "*Unearth Forbidden Lore of Ineffable Beings*\n\nWhen you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you've learned nevertheless allow you to draw strange magic from it.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:great-old-one:great-old-one-patron",
+          "srd24:great-old-one:great-old-one-spells",
+          "srd24:great-old-one:awakened-mind",
+          "srd24:great-old-one:psychic-spells",
           "srd24:spell:detect-thoughts",
           "srd24:spell:dissonant-whispers",
           "srd24:spell:phantasmal-force",
@@ -65,8 +68,8 @@
     "id": "srd24:great-old-one:great-old-one-spells",
     "kind": "subclass-feature",
     "name": "Great Old One Spells",
-    "source": "srd24",
-    "page": "XPHB 163",
+    "source": "xphb",
+    "page": "163",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -77,8 +80,8 @@
     "id": "srd24:great-old-one:awakened-mind",
     "kind": "subclass-feature",
     "name": "Awakened Mind",
-    "source": "srd24",
-    "page": "XPHB 162",
+    "source": "xphb",
+    "page": "162",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -100,8 +103,8 @@
     "id": "srd24:great-old-one:psychic-spells",
     "kind": "subclass-feature",
     "name": "Psychic Spells",
-    "source": "srd24",
-    "page": "XPHB 163",
+    "source": "xphb",
+    "page": "163",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -109,28 +112,11 @@
     "text": "When you cast a Warlock spell that deals damage, you can change its damage type to Psychic. In addition, when you cast a Warlock spell that is an Enchantment or Illusion, you can do so without Verbal or Somatic components."
   },
   {
-    "id": "srd24:great-old-one:great-old-one-patron",
-    "kind": "subclass-feature",
-    "name": "Great Old One Patron",
-    "source": "srd24",
-    "page": "XPHB 162",
-    "tags": [
-      "great-old-one-feature",
-      "warlock-feature"
-    ],
-    "text": "*Unearth Forbidden Lore of Ineffable Beings*\n\nWhen you choose this subclass, you might bind yourself to an unspeakable being from the Far Realm or an elder god—a being such as Tharizdun, the Chained God; Zargon, the Returner; Hadar, the Dark Hunger; or Great Cthulhu. Or you might invoke several entities without yoking yourself to one. The motives of these beings are incomprehensible, and the Great Old One might be indifferent to your existence. But the secrets you've learned nevertheless allow you to draw strange magic from it.",
-    "grants": [
-      "srd24:great-old-one:great-old-one-spells",
-      "srd24:great-old-one:awakened-mind",
-      "srd24:great-old-one:psychic-spells"
-    ]
-  },
-  {
     "id": "srd24:great-old-one:clairvoyant-combatant",
     "kind": "subclass-feature",
     "name": "Clairvoyant Combatant",
-    "source": "srd24",
-    "page": "XPHB 163",
+    "source": "xphb",
+    "page": "163",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -141,8 +127,8 @@
     "id": "srd24:great-old-one:eldritch-hex",
     "kind": "subclass-feature",
     "name": "Eldritch Hex",
-    "source": "srd24",
-    "page": "XPHB 163",
+    "source": "xphb",
+    "page": "163",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -153,8 +139,8 @@
     "id": "srd24:great-old-one:thought-shield",
     "kind": "subclass-feature",
     "name": "Thought Shield",
-    "source": "srd24",
-    "page": "XPHB 163",
+    "source": "xphb",
+    "page": "163",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -165,8 +151,8 @@
     "id": "srd24:great-old-one:create-thrall",
     "kind": "subclass-feature",
     "name": "Create Thrall",
-    "source": "srd24",
-    "page": "XPHB 163",
+    "source": "xphb",
+    "page": "163",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"

@@ -3,8 +3,8 @@
     "id": "srd:fighter:fighting-style",
     "kind": "class-feature",
     "name": "Fighting Style",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd:fighter:second-wind",
     "kind": "class-feature",
     "name": "Second Wind",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -56,8 +56,8 @@
     "id": "srd:fighter:action-surge",
     "kind": "class-feature",
     "name": "Action Surge",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -98,8 +98,8 @@
     "id": "srd:fighter:martial-archetype",
     "kind": "class-feature",
     "name": "Martial Archetype",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -109,8 +109,8 @@
     "id": "srd:fighter:martial-versatility",
     "kind": "class-feature",
     "name": "Martial Versatility",
-    "source": "srd",
-    "page": "TCE 41",
+    "source": "tce",
+    "page": "41",
     "tags": [
       "fighter-feature"
     ],
@@ -120,8 +120,8 @@
     "id": "srd:fighter:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -131,8 +131,8 @@
     "id": "srd:fighter:indomitable",
     "kind": "class-feature",
     "name": "Indomitable",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -173,8 +173,8 @@
     "id": "srd:fighter:extra-attack-2",
     "kind": "class-feature",
     "name": "Extra Attack (2)",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -184,8 +184,8 @@
     "id": "srd:fighter:indomitable-two-uses",
     "kind": "class-feature",
     "name": "Indomitable (two uses)",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -195,8 +195,8 @@
     "id": "srd:fighter:action-surge-two-uses",
     "kind": "class-feature",
     "name": "Action Surge (two uses)",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -206,8 +206,8 @@
     "id": "srd:fighter:indomitable-three-uses",
     "kind": "class-feature",
     "name": "Indomitable (three uses)",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],
@@ -217,8 +217,8 @@
     "id": "srd:fighter:extra-attack-3",
     "kind": "class-feature",
     "name": "Extra Attack (3)",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "fighter-feature"
     ],

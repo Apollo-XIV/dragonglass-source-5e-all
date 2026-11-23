@@ -3,17 +3,19 @@
     "id": "srd24:subclass:oath-of-the-ancients",
     "kind": "subclass",
     "name": "Oath of the Ancients",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "class": "srd24:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "*Preserve Life and Light in the World*\n\nThe Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.\n\nThese paladins share the following tenets:\n\n- Kindle the light of hope.\n- Shelter life.\n- Delight in art and laughter.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:ancients:oath-of-the-ancients",
+          "srd24:ancients:oath-of-the-ancients-spells",
+          "srd24:ancients:natures-wrath",
           "srd24:spell:ensnaring-strike",
           "srd24:spell:speak-with-animals"
         ]
@@ -63,8 +65,8 @@
     "id": "srd24:ancients:oath-of-the-ancients-spells",
     "kind": "subclass-feature",
     "name": "Oath of the Ancients Spells",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -75,8 +77,8 @@
     "id": "srd24:ancients:natures-wrath",
     "kind": "subclass-feature",
     "name": "Nature's Wrath",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -98,27 +100,11 @@
     ]
   },
   {
-    "id": "srd24:ancients:oath-of-the-ancients",
-    "kind": "subclass-feature",
-    "name": "Oath of the Ancients",
-    "source": "srd24",
-    "page": "XPHB 115",
-    "tags": [
-      "ancients-feature",
-      "paladin-feature"
-    ],
-    "text": "*Preserve Life and Light in the World*\n\nThe Oath of the Ancients is as old as the first elves. Paladins who swear this oath cherish the light; they love the beautiful and life-giving things of the world more than any principles of honor, courage, and justice. They often adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light.\n\nThese paladins share the following tenets:\n\n- Kindle the light of hope.\n- Shelter life.\n- Delight in art and laughter.",
-    "grants": [
-      "srd24:ancients:oath-of-the-ancients-spells",
-      "srd24:ancients:natures-wrath"
-    ]
-  },
-  {
     "id": "srd24:ancients:aura-of-warding",
     "kind": "subclass-feature",
     "name": "Aura of Warding",
-    "source": "srd24",
-    "page": "XPHB 116",
+    "source": "xphb",
+    "page": "116",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -129,8 +115,8 @@
     "id": "srd24:ancients:undying-sentinel",
     "kind": "subclass-feature",
     "name": "Undying Sentinel",
-    "source": "srd24",
-    "page": "XPHB 116",
+    "source": "xphb",
+    "page": "116",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -175,8 +161,8 @@
     "id": "srd24:ancients:elder-champion",
     "kind": "subclass-feature",
     "name": "Elder Champion",
-    "source": "srd24",
-    "page": "XPHB 116",
+    "source": "xphb",
+    "page": "116",
     "tags": [
       "ancients-feature",
       "paladin-feature"

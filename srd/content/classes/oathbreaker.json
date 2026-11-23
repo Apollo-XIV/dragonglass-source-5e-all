@@ -3,17 +3,19 @@
     "id": "srd:subclass:oathbreaker",
     "kind": "subclass",
     "name": "Oathbreaker",
-    "source": "srd",
-    "page": "DMG 97",
+    "source": "dmg",
+    "page": "97",
     "class": "srd:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.\n\nA paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.",
     "levels": {
       "3": {
         "grants": [
-          "srd:oathbreaker:oathbreaker",
+          "srd:oathbreaker:oathbreaker-spells",
+          "srd:oathbreaker:channel-divinity",
           "srd:spell:hellish-rebuke",
           "srd:spell:inflict-wounds"
         ]
@@ -63,8 +65,8 @@
     "id": "srd:oathbreaker:oathbreaker-spells",
     "kind": "subclass-feature",
     "name": "Oathbreaker Spells",
-    "source": "srd",
-    "page": "DMG 97",
+    "source": "dmg",
+    "page": "97",
     "tags": [
       "oathbreaker-feature",
       "paladin-feature"
@@ -75,8 +77,8 @@
     "id": "srd:oathbreaker:control-undead",
     "kind": "subclass-feature",
     "name": "Control Undead",
-    "source": "srd",
-    "page": "DMG 97",
+    "source": "dmg",
+    "page": "97",
     "tags": [
       "oathbreaker-feature",
       "paladin-feature"
@@ -98,8 +100,8 @@
     "id": "srd:oathbreaker:dreadful-aspect",
     "kind": "subclass-feature",
     "name": "Dreadful Aspect",
-    "source": "srd",
-    "page": "DMG 97",
+    "source": "dmg",
+    "page": "97",
     "tags": [
       "oathbreaker-feature",
       "paladin-feature"
@@ -121,8 +123,8 @@
     "id": "srd:oathbreaker:channel-divinity",
     "kind": "subclass-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "DMG 97",
+    "source": "dmg",
+    "page": "97",
     "tags": [
       "oathbreaker-feature",
       "paladin-feature"
@@ -134,27 +136,11 @@
     ]
   },
   {
-    "id": "srd:oathbreaker:oathbreaker",
-    "kind": "subclass-feature",
-    "name": "Oathbreaker",
-    "source": "srd",
-    "page": "DMG 97",
-    "tags": [
-      "oathbreaker-feature",
-      "paladin-feature"
-    ],
-    "text": "An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.\n\nA paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features.",
-    "grants": [
-      "srd:oathbreaker:oathbreaker-spells",
-      "srd:oathbreaker:channel-divinity"
-    ]
-  },
-  {
     "id": "srd:oathbreaker:aura-of-hate",
     "kind": "subclass-feature",
     "name": "Aura of Hate",
-    "source": "srd",
-    "page": "DMG 97",
+    "source": "dmg",
+    "page": "97",
     "tags": [
       "oathbreaker-feature",
       "paladin-feature"
@@ -165,8 +151,8 @@
     "id": "srd:oathbreaker:supernatural-resistance",
     "kind": "subclass-feature",
     "name": "Supernatural Resistance",
-    "source": "srd",
-    "page": "DMG 97",
+    "source": "dmg",
+    "page": "97",
     "tags": [
       "oathbreaker-feature",
       "paladin-feature"
@@ -177,8 +163,8 @@
     "id": "srd:oathbreaker:dread-lord",
     "kind": "subclass-feature",
     "name": "Dread Lord",
-    "source": "srd",
-    "page": "DMG 97",
+    "source": "dmg",
+    "page": "97",
     "tags": [
       "oathbreaker-feature",
       "paladin-feature"

@@ -3,17 +3,19 @@
     "id": "srd:subclass:order-domain",
     "kind": "subclass",
     "name": "Order Domain",
-    "source": "srd",
-    "page": "TCE 31",
+    "source": "tce",
+    "page": "31",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. On Ravnica, the domain is favored by clerics of the Azorius Senate, who use it to maintain and enforce the law, and of the Orzhov Syndicate, who exploit law and order for their personal gain. On other worlds, gods who grant access to this domain include Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.\n\nThe ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action's results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their guilds or deities.\n\nLaw establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Order Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | command, heroism |\n| 3rd | hold person, zone of truth |\n| 5th | mass healing word, slow |\n| 7th | compulsion, locate creature |\n| 9th | commune, dominate person |",
     "levels": {
       "1": {
         "grants": [
-          "srd:order:order-domain",
+          "srd:order:bonus-proficiencies",
+          "srd:order:voice-of-authority",
           "srd:spell:command",
           "srd:spell:heroism"
         ]
@@ -69,8 +71,8 @@
     "id": "srd:order:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "TCE 31",
+    "source": "tce",
+    "page": "31",
     "tags": [
       "order-feature",
       "cleric-feature"
@@ -94,8 +96,8 @@
     "id": "srd:order:voice-of-authority",
     "kind": "subclass-feature",
     "name": "Voice of Authority",
-    "source": "srd",
-    "page": "TCE 31",
+    "source": "tce",
+    "page": "31",
     "tags": [
       "order-feature",
       "cleric-feature"
@@ -103,27 +105,11 @@
     "text": "Starting at 1st level, you can invoke the power of law to drive an ally to attack. If you cast a spell with a spell slot of 1st level or higher and target an ally with the spell, that ally can use their reaction immediately after the spell to make one weapon attack against a creature of your choice that you can see.\n\nIf the spell targets more than one ally, you choose the ally who can make the attack."
   },
   {
-    "id": "srd:order:order-domain",
-    "kind": "subclass-feature",
-    "name": "Order Domain",
-    "source": "srd",
-    "page": "TCE 31",
-    "tags": [
-      "order-feature",
-      "cleric-feature"
-    ],
-    "text": "The Order Domain represents discipline, as well as devotion to a society or an institution and strict obedience to the laws governing it. On Ravnica, the domain is favored by clerics of the Azorius Senate, who use it to maintain and enforce the law, and of the Orzhov Syndicate, who exploit law and order for their personal gain. On other worlds, gods who grant access to this domain include Bane, Tyr, Majere, Erathis, Pholtus, Wee Jas, Aureon, Maglubiyet, Nuada, Athena, Anubis, Forseti, and Asmodeus.\n\nThe ideal of order is obedience to the law above all else, rather than to a specific individual or the passing influence of emotion or popular rule. Clerics of order are typically concerned with how things are done, rather than whether an action's results are just. Following the law and obeying its edicts is critical, especially when it benefits these clerics and their guilds or deities.\n\nLaw establishes hierarchies. Those selected by the law to lead must be obeyed. Those who obey must do so to the best of their ability. In this manner, law creates an intricate web of obligations that allows society to forge order and security in a chaotic multiverse.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Order Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | command, heroism |\n| 3rd | hold person, zone of truth |\n| 5th | mass healing word, slow |\n| 7th | compulsion, locate creature |\n| 9th | commune, dominate person |",
-    "grants": [
-      "srd:order:bonus-proficiencies",
-      "srd:order:voice-of-authority"
-    ]
-  },
-  {
     "id": "srd:order:channel-divinity-orders-demand",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Order's Demand",
-    "source": "srd",
-    "page": "TCE 31",
+    "source": "tce",
+    "page": "31",
     "tags": [
       "order-feature",
       "cleric-feature"
@@ -148,8 +134,8 @@
     "id": "srd:order:embodiment-of-the-law",
     "kind": "subclass-feature",
     "name": "Embodiment of the Law",
-    "source": "srd",
-    "page": "TCE 31",
+    "source": "tce",
+    "page": "31",
     "tags": [
       "order-feature",
       "cleric-feature"
@@ -191,8 +177,8 @@
     "id": "srd:order:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "TCE 31",
+    "source": "tce",
+    "page": "31",
     "tags": [
       "order-feature",
       "cleric-feature"
@@ -203,8 +189,8 @@
     "id": "srd:order:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 31",
+    "source": "tce",
+    "page": "31",
     "tags": [
       "order-feature",
       "cleric-feature"
@@ -215,8 +201,8 @@
     "id": "srd:order:orders-wrath",
     "kind": "subclass-feature",
     "name": "Order's Wrath",
-    "source": "srd",
-    "page": "TCE 31",
+    "source": "tce",
+    "page": "31",
     "tags": [
       "order-feature",
       "cleric-feature"

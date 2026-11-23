@@ -3,17 +3,19 @@
     "id": "srd:subclass:school-of-evocation",
     "kind": "subclass",
     "name": "School of Evocation",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.",
     "levels": {
       "2": {
         "grants": [
-          "srd:evocation:school-of-evocation"
+          "srd:evocation:evocation-savant",
+          "srd:evocation:sculpt-spells"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:evocation:evocation-savant",
     "kind": "subclass-feature",
     "name": "Evocation Savant",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "evocation-feature",
       "wizard-feature"
@@ -49,8 +51,8 @@
     "id": "srd:evocation:sculpt-spells",
     "kind": "subclass-feature",
     "name": "Sculpt Spells",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "evocation-feature",
       "wizard-feature"
@@ -69,27 +71,11 @@
     ]
   },
   {
-    "id": "srd:evocation:school-of-evocation",
-    "kind": "subclass-feature",
-    "name": "School of Evocation",
-    "source": "srd",
-    "page": "PHB 117",
-    "tags": [
-      "evocation-feature",
-      "wizard-feature"
-    ],
-    "text": "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants.",
-    "grants": [
-      "srd:evocation:evocation-savant",
-      "srd:evocation:sculpt-spells"
-    ]
-  },
-  {
     "id": "srd:evocation:potent-cantrip",
     "kind": "subclass-feature",
     "name": "Potent Cantrip",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "evocation-feature",
       "wizard-feature"
@@ -100,8 +86,8 @@
     "id": "srd:evocation:empowered-evocation",
     "kind": "subclass-feature",
     "name": "Empowered Evocation",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "evocation-feature",
       "wizard-feature"
@@ -123,8 +109,8 @@
     "id": "srd:evocation:overchannel",
     "kind": "subclass-feature",
     "name": "Overchannel",
-    "source": "srd",
-    "page": "PHB 117",
+    "source": "phb",
+    "page": "117",
     "tags": [
       "evocation-feature",
       "wizard-feature"

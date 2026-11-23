@@ -3,17 +3,19 @@
     "id": "srd:subclass:clockwork-soul",
     "kind": "subclass",
     "name": "Clockwork Soul",
-    "source": "srd",
-    "page": "TCE 68",
+    "source": "tce",
+    "page": "68",
     "class": "srd:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it-a plane of existence shaped entirely by clockwork efficiency. You, or someone from your lineage, might have become entangled in the machinations of the modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it is part of a vast and glorious system.",
     "levels": {
       "1": {
         "grants": [
-          "srd:clockwork-soul:clockwork-soul",
+          "srd:clockwork-soul:clockwork-magic",
+          "srd:clockwork-soul:restore-balance",
           {
             "id": "srd:spell:alarm",
             "mode": "learned"
@@ -93,8 +95,8 @@
     "id": "srd:clockwork-soul:clockwork-magic",
     "kind": "subclass-feature",
     "name": "Clockwork Magic",
-    "source": "srd",
-    "page": "TCE 68",
+    "source": "tce",
+    "page": "68",
     "tags": [
       "clockwork-soul-feature",
       "sorcerer-feature"
@@ -105,8 +107,8 @@
     "id": "srd:clockwork-soul:restore-balance",
     "kind": "subclass-feature",
     "name": "Restore Balance",
-    "source": "srd",
-    "page": "TCE 68",
+    "source": "tce",
+    "page": "68",
     "tags": [
       "clockwork-soul-feature",
       "sorcerer-feature"
@@ -145,27 +147,11 @@
     ]
   },
   {
-    "id": "srd:clockwork-soul:clockwork-soul",
-    "kind": "subclass-feature",
-    "name": "Clockwork Soul",
-    "source": "srd",
-    "page": "TCE 68",
-    "tags": [
-      "clockwork-soul-feature",
-      "sorcerer-feature"
-    ],
-    "text": "The cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it-a plane of existence shaped entirely by clockwork efficiency. You, or someone from your lineage, might have become entangled in the machinations of the modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it is part of a vast and glorious system.",
-    "grants": [
-      "srd:clockwork-soul:clockwork-magic",
-      "srd:clockwork-soul:restore-balance"
-    ]
-  },
-  {
     "id": "srd:clockwork-soul:bastion-of-law",
     "kind": "subclass-feature",
     "name": "Bastion of Law",
-    "source": "srd",
-    "page": "TCE 68",
+    "source": "tce",
+    "page": "68",
     "tags": [
       "clockwork-soul-feature",
       "sorcerer-feature"
@@ -190,8 +176,8 @@
     "id": "srd:clockwork-soul:trance-of-order",
     "kind": "subclass-feature",
     "name": "Trance of Order",
-    "source": "srd",
-    "page": "TCE 68",
+    "source": "tce",
+    "page": "68",
     "tags": [
       "clockwork-soul-feature",
       "sorcerer-feature"
@@ -213,8 +199,8 @@
     "id": "srd:clockwork-soul:clockwork-cavalcade",
     "kind": "subclass-feature",
     "name": "Clockwork Cavalcade",
-    "source": "srd",
-    "page": "TCE 68",
+    "source": "tce",
+    "page": "68",
     "tags": [
       "clockwork-soul-feature",
       "sorcerer-feature"

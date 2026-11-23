@@ -3,13 +3,14 @@
     "id": "srd24:subclass:vestige-patron",
     "kind": "subclass",
     "name": "Vestige Patron",
-    "source": "srd24",
-    "page": "AU 13",
+    "source": "au",
+    "page": "13",
     "class": "srd24:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "*Wield the Remnants of a Dying God's Power*\n\nYour pact draws on the power of a dying god, a being once worshipped by countless followers but now abandoned and forgotten. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but now it is driven to regain its former power. The vestige needs your help, and it is willing to share its remaining strength with you.",
     "fluff": "> The multiverse is full of gods, though not all their names grace the halls of temples. Communing with a forgotten god's benevolence is a noble pursuit.\n>\n> — Alustriel",
     "choices": [
       {
@@ -27,7 +28,8 @@
     "levels": {
       "3": {
         "grants": [
-          "srd24:vestige:vestige-patron"
+          "srd24:vestige:vestige-companion",
+          "srd24:vestige:vestige-spells"
         ]
       },
       "6": {
@@ -51,7 +53,7 @@
     "id": "srd24:terrain:life-domain",
     "kind": "terrain",
     "name": "Life Domain",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "vestige-patron-terrain-option"
     ],
@@ -89,7 +91,7 @@
     "id": "srd24:terrain:light-domain",
     "kind": "terrain",
     "name": "Light Domain",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "vestige-patron-terrain-option"
     ],
@@ -127,7 +129,7 @@
     "id": "srd24:terrain:trickery-domain",
     "kind": "terrain",
     "name": "Trickery Domain",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "vestige-patron-terrain-option"
     ],
@@ -165,7 +167,7 @@
     "id": "srd24:terrain:war-domain",
     "kind": "terrain",
     "name": "War Domain",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "vestige-patron-terrain-option"
     ],
@@ -203,8 +205,8 @@
     "id": "srd24:vestige:vestige-companion",
     "kind": "subclass-feature",
     "name": "Vestige Companion",
-    "source": "srd24",
-    "page": "AU 13",
+    "source": "au",
+    "page": "13",
     "tags": [
       "vestige-feature",
       "warlock-feature"
@@ -226,8 +228,8 @@
     "id": "srd24:vestige:vestige-spells",
     "kind": "subclass-feature",
     "name": "Vestige Spells",
-    "source": "srd24",
-    "page": "AU 14",
+    "source": "au",
+    "page": "14",
     "tags": [
       "vestige-feature",
       "warlock-feature"
@@ -235,27 +237,11 @@
     "text": "The magic of your Vestige Companion ensures you always have certain spells ready. Select one of the following Cleric domains: Life, Light, Trickery, or War. The Domain Spells of your chosen domain are Warlock spells for you. When you reach a Warlock level equal to a Cleric level listed on the Domain Spells table for the domain you have chosen, you thereafter always have the listed spells prepared.\n\nFor example, if you chose the War Domain for this feature, when you reach Warlock level 3, you would have the Guiding Bolt, Magic Weapon, Shield of Faith, and Spiritual Weapon spells prepared."
   },
   {
-    "id": "srd24:vestige:vestige-patron",
-    "kind": "subclass-feature",
-    "name": "Vestige Patron",
-    "source": "srd24",
-    "page": "AU 13",
-    "tags": [
-      "vestige-feature",
-      "warlock-feature"
-    ],
-    "text": "*Wield the Remnants of a Dying God's Power*\n\nYour pact draws on the power of a dying god, a being once worshipped by countless followers but now abandoned and forgotten. This dying god, known as a vestige, might have been benevolent, evil, or strange and unknowable, but now it is driven to regain its former power. The vestige needs your help, and it is willing to share its remaining strength with you.",
-    "grants": [
-      "srd24:vestige:vestige-companion",
-      "srd24:vestige:vestige-spells"
-    ]
-  },
-  {
     "id": "srd24:vestige:vestige-power",
     "kind": "subclass-feature",
     "name": "Vestige Power",
-    "source": "srd24",
-    "page": "AU 14",
+    "source": "au",
+    "page": "14",
     "tags": [
       "vestige-feature",
       "warlock-feature"
@@ -266,8 +252,8 @@
     "id": "srd24:vestige:vestige-recovery",
     "kind": "subclass-feature",
     "name": "Vestige Recovery",
-    "source": "srd24",
-    "page": "AU 14",
+    "source": "au",
+    "page": "14",
     "tags": [
       "vestige-feature",
       "warlock-feature"
@@ -309,8 +295,8 @@
     "id": "srd24:vestige:semblance-of-life",
     "kind": "subclass-feature",
     "name": "Semblance of Life",
-    "source": "srd24",
-    "page": "AU 14",
+    "source": "au",
+    "page": "14",
     "tags": [
       "vestige-feature",
       "warlock-feature"

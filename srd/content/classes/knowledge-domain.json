@@ -3,17 +3,18 @@
     "id": "srd:subclass:knowledge-domain",
     "kind": "subclass",
     "name": "Knowledge Domain",
-    "source": "srd",
-    "page": "PHB 59",
+    "source": "phb",
+    "page": "59",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Knowledge Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | command, identify |\n| 3rd | augury, suggestion |\n| 5th | nondetection, speak with dead |\n| 7th | arcane eye, confusion |\n| 9th | legend lore, scrying |",
     "levels": {
       "1": {
         "grants": [
-          "srd:knowledge:knowledge-domain",
+          "srd:knowledge:blessings-of-knowledge",
           "srd:spell:command",
           "srd:spell:identify"
         ]
@@ -69,8 +70,8 @@
     "id": "srd:knowledge:blessings-of-knowledge",
     "kind": "subclass-feature",
     "name": "Blessings of Knowledge",
-    "source": "srd",
-    "page": "PHB 59",
+    "source": "phb",
+    "page": "59",
     "tags": [
       "knowledge-feature",
       "cleric-feature"
@@ -78,26 +79,11 @@
     "text": "At 1st level, you learn two languages of your choice. You also become proficient in your choice of two of the following skills: Arcana, History, Nature, or Religion.\n\nYour proficiency bonus is doubled for any ability check you make that uses either of those skills."
   },
   {
-    "id": "srd:knowledge:knowledge-domain",
-    "kind": "subclass-feature",
-    "name": "Knowledge Domain",
-    "source": "srd",
-    "page": "PHB 59",
-    "tags": [
-      "knowledge-feature",
-      "cleric-feature"
-    ],
-    "text": "The gods of knowledge—including Oghma, Boccob, Gilean, Aureon, and Thoth—value learning and understanding above all. Some teach that knowledge is to be gathered and shared in libraries and universities, or promote the practical knowledge of craft and invention. Some deities hoard knowledge and keep its secrets to themselves. And some promise their followers that they will gain tremendous power if they unlock the secrets of the multiverse. Followers of these gods study esoteric lore, collect old tomes, delve into the secret places of the earth, and learn all they can. Some gods of knowledge promote the practical knowledge of craft and invention, including smith deities like Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Knowledge Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | command, identify |\n| 3rd | augury, suggestion |\n| 5th | nondetection, speak with dead |\n| 7th | arcane eye, confusion |\n| 9th | legend lore, scrying |",
-    "grants": [
-      "srd:knowledge:blessings-of-knowledge"
-    ]
-  },
-  {
     "id": "srd:knowledge:channel-divinity-knowledge-of-the-ages",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Knowledge of the Ages",
-    "source": "srd",
-    "page": "PHB 59",
+    "source": "phb",
+    "page": "59",
     "tags": [
       "knowledge-feature",
       "cleric-feature"
@@ -122,8 +108,8 @@
     "id": "srd:knowledge:channel-divinity-read-thoughts",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Read Thoughts",
-    "source": "srd",
-    "page": "PHB 59",
+    "source": "phb",
+    "page": "59",
     "tags": [
       "knowledge-feature",
       "cleric-feature"
@@ -148,8 +134,8 @@
     "id": "srd:knowledge:potent-spellcasting",
     "kind": "subclass-feature",
     "name": "Potent Spellcasting",
-    "source": "srd",
-    "page": "PHB 59",
+    "source": "phb",
+    "page": "59",
     "tags": [
       "knowledge-feature",
       "cleric-feature"
@@ -160,8 +146,8 @@
     "id": "srd:knowledge:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "knowledge-feature",
       "cleric-feature"
@@ -172,8 +158,8 @@
     "id": "srd:knowledge:visions-of-the-past",
     "kind": "subclass-feature",
     "name": "Visions of the Past",
-    "source": "srd",
-    "page": "PHB 59",
+    "source": "phb",
+    "page": "59",
     "tags": [
       "knowledge-feature",
       "cleric-feature"

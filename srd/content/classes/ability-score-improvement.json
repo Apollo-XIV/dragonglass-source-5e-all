@@ -3,7 +3,7 @@
     "id": "srd:feature:ability-score-improvement",
     "kind": "feature",
     "name": "Ability Score Improvement",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ability-score-improvement"
     ],

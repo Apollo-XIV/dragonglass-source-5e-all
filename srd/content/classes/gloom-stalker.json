@@ -3,18 +3,21 @@
     "id": "srd:subclass:gloom-stalker",
     "kind": "subclass",
     "name": "Gloom Stalker",
-    "source": "srd",
-    "page": "XGE 41",
+    "source": "xge",
+    "page": "41",
     "class": "srd:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
     "fluff": "> So you sneak around in the dark? You know most everything but humans can see in the dark, right? We all see you. Tiptoeing doesn't turn you invisible.\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:gloom-stalker:gloom-stalker",
+          "srd:gloom-stalker:gloom-stalker-magic",
+          "srd:gloom-stalker:dread-ambusher",
+          "srd:gloom-stalker:umbral-sight",
           {
             "id": "srd:spell:disguise-self",
             "mode": "learned"
@@ -74,8 +77,8 @@
     "id": "srd:gloom-stalker:gloom-stalker-magic",
     "kind": "subclass-feature",
     "name": "Gloom Stalker Magic",
-    "source": "srd",
-    "page": "XGE 41",
+    "source": "xge",
+    "page": "41",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -86,8 +89,8 @@
     "id": "srd:gloom-stalker:dread-ambusher",
     "kind": "subclass-feature",
     "name": "Dread Ambusher",
-    "source": "srd",
-    "page": "XGE 41",
+    "source": "xge",
+    "page": "41",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -109,8 +112,8 @@
     "id": "srd:gloom-stalker:umbral-sight",
     "kind": "subclass-feature",
     "name": "Umbral Sight",
-    "source": "srd",
-    "page": "XGE 41",
+    "source": "xge",
+    "page": "41",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -118,28 +121,11 @@
     "text": "At 3rd level, you gain darkvision out to a range of 60 feet. If you already have darkvision from your race, its range increases by 30 feet.\n\nYou are also adept at evading creatures that rely on darkvision. While in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness."
   },
   {
-    "id": "srd:gloom-stalker:gloom-stalker",
-    "kind": "subclass-feature",
-    "name": "Gloom Stalker",
-    "source": "srd",
-    "page": "XGE 41",
-    "tags": [
-      "gloom-stalker-feature",
-      "ranger-feature"
-    ],
-    "text": "Gloom Stalkers are at home in the darkest places: deep under the earth, in gloomy alleyways, in primeval forests, and wherever else the light dims. Most folk enter such places with trepidation, but a Gloom Stalker ventures boldly into the darkness, seeking to ambush threats before they can reach the broader world. Such rangers are often found in the Underdark, but they will go any place where evil lurks in the shadows.",
-    "grants": [
-      "srd:gloom-stalker:gloom-stalker-magic",
-      "srd:gloom-stalker:dread-ambusher",
-      "srd:gloom-stalker:umbral-sight"
-    ]
-  },
-  {
     "id": "srd:gloom-stalker:iron-mind",
     "kind": "subclass-feature",
     "name": "Iron Mind",
-    "source": "srd",
-    "page": "XGE 41",
+    "source": "xge",
+    "page": "41",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -150,8 +136,8 @@
     "id": "srd:gloom-stalker:stalkers-flurry",
     "kind": "subclass-feature",
     "name": "Stalker's Flurry",
-    "source": "srd",
-    "page": "XGE 41",
+    "source": "xge",
+    "page": "41",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"
@@ -162,8 +148,8 @@
     "id": "srd:gloom-stalker:shadowy-dodge",
     "kind": "subclass-feature",
     "name": "Shadowy Dodge",
-    "source": "srd",
-    "page": "XGE 41",
+    "source": "xge",
+    "page": "41",
     "tags": [
       "gloom-stalker-feature",
       "ranger-feature"

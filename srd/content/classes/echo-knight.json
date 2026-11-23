@@ -3,17 +3,19 @@
     "id": "srd:subclass:echo-knight",
     "kind": "subclass",
     "name": "Echo Knight",
-    "source": "srd",
-    "page": "EGW 183",
+    "source": "egw",
+    "page": "183",
     "class": "srd:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "A mysterious and feared frontline warrior of the Kryn Dynasty, the Echo Knight has mastered the art of using dunamis to summon the fading shades of unrealized timelines to aid them in battle. Surrounded by echoes of their own might, they charge into the fray as a cycling swarm of shadows and strikes.",
     "levels": {
       "3": {
         "grants": [
-          "srd:echo-knight:echo-knight"
+          "srd:echo-knight:manifest-echo",
+          "srd:echo-knight:unleash-incarnation"
         ]
       },
       "7": {
@@ -42,8 +44,8 @@
     "id": "srd:echo-knight:manifest-echo",
     "kind": "subclass-feature",
     "name": "Manifest Echo",
-    "source": "srd",
-    "page": "EGW 183",
+    "source": "egw",
+    "page": "183",
     "tags": [
       "echo-knight-feature",
       "fighter-feature"
@@ -65,8 +67,8 @@
     "id": "srd:echo-knight:unleash-incarnation",
     "kind": "subclass-feature",
     "name": "Unleash Incarnation",
-    "source": "srd",
-    "page": "EGW 183",
+    "source": "egw",
+    "page": "183",
     "tags": [
       "echo-knight-feature",
       "fighter-feature"
@@ -105,27 +107,11 @@
     ]
   },
   {
-    "id": "srd:echo-knight:echo-knight",
-    "kind": "subclass-feature",
-    "name": "Echo Knight",
-    "source": "srd",
-    "page": "EGW 183",
-    "tags": [
-      "echo-knight-feature",
-      "fighter-feature"
-    ],
-    "text": "A mysterious and feared frontline warrior of the Kryn Dynasty, the Echo Knight has mastered the art of using dunamis to summon the fading shades of unrealized timelines to aid them in battle. Surrounded by echoes of their own might, they charge into the fray as a cycling swarm of shadows and strikes.",
-    "grants": [
-      "srd:echo-knight:manifest-echo",
-      "srd:echo-knight:unleash-incarnation"
-    ]
-  },
-  {
     "id": "srd:echo-knight:echo-avatar",
     "kind": "subclass-feature",
     "name": "Echo Avatar",
-    "source": "srd",
-    "page": "EGW 183",
+    "source": "egw",
+    "page": "183",
     "tags": [
       "echo-knight-feature",
       "fighter-feature"
@@ -147,8 +133,8 @@
     "id": "srd:echo-knight:shadow-martyr",
     "kind": "subclass-feature",
     "name": "Shadow Martyr",
-    "source": "srd",
-    "page": "EGW 183",
+    "source": "egw",
+    "page": "183",
     "tags": [
       "echo-knight-feature",
       "fighter-feature"
@@ -190,8 +176,8 @@
     "id": "srd:echo-knight:reclaim-potential",
     "kind": "subclass-feature",
     "name": "Reclaim Potential",
-    "source": "srd",
-    "page": "EGW 183",
+    "source": "egw",
+    "page": "183",
     "tags": [
       "echo-knight-feature",
       "fighter-feature"
@@ -233,8 +219,8 @@
     "id": "srd:echo-knight:legion-of-one",
     "kind": "subclass-feature",
     "name": "Legion of One",
-    "source": "srd",
-    "page": "EGW 183",
+    "source": "egw",
+    "page": "183",
     "tags": [
       "echo-knight-feature",
       "fighter-feature"

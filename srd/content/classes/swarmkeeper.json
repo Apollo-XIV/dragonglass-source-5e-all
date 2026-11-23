@@ -3,17 +3,19 @@
     "id": "srd:subclass:swarmkeeper",
     "kind": "subclass",
     "name": "Swarmkeeper",
-    "source": "srd",
-    "page": "TCE 59",
+    "source": "tce",
+    "page": "59",
     "class": "srd:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.",
     "levels": {
       "3": {
         "grants": [
-          "srd:swarmkeeper:swarmkeeper",
+          "srd:swarmkeeper:gathered-swarm",
+          "srd:swarmkeeper:swarmkeeper-magic",
           "srd:spell:mage-hand",
           {
             "id": "srd:spell:faerie-fire",
@@ -74,8 +76,8 @@
     "id": "srd:swarmkeeper:gathered-swarm",
     "kind": "subclass-feature",
     "name": "Gathered Swarm",
-    "source": "srd",
-    "page": "TCE 59",
+    "source": "tce",
+    "page": "59",
     "tags": [
       "swarmkeeper-feature",
       "ranger-feature"
@@ -86,8 +88,8 @@
     "id": "srd:swarmkeeper:swarmkeeper-magic",
     "kind": "subclass-feature",
     "name": "Swarmkeeper Magic",
-    "source": "srd",
-    "page": "TCE 59",
+    "source": "tce",
+    "page": "59",
     "tags": [
       "swarmkeeper-feature",
       "ranger-feature"
@@ -95,27 +97,11 @@
     "text": "*3rd-level Swarmkeeper feature*\n\nYou learn the mage hand cantrip if you don't already know it. When you cast it, the hand takes the form of your swarming nature spirits.\n\nYou also learn an additional spell of 1st level or higher when you reach certain levels in this class, as shown in the Swarmkeeper Spells table. Each spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.\n\n**Swarmkeeper Spells**\n| Ranger Level | Spells |\n| --- | --- |\n| 3rd | faerie fire |\n| 5th | web |\n| 9th | gaseous form |\n| 13th | arcane eye |\n| 17th | insect plague |"
   },
   {
-    "id": "srd:swarmkeeper:swarmkeeper",
-    "kind": "subclass-feature",
-    "name": "Swarmkeeper",
-    "source": "srd",
-    "page": "TCE 59",
-    "tags": [
-      "swarmkeeper-feature",
-      "ranger-feature"
-    ],
-    "text": "Feeling a deep connection to the environment around them, some rangers reach out through their magical connection to the world and bond with a swarm of nature spirits. The swarm becomes a potent force in battle, as well as helpful company for the ranger. Some Swarmkeepers are outcasts or hermits, keeping to themselves and their attendant swarms rather than dealing with the discomfort of others. Other Swarmkeepers enjoy building vibrant communities that work for the mutual benefit of all those they consider part of their swarm.",
-    "grants": [
-      "srd:swarmkeeper:gathered-swarm",
-      "srd:swarmkeeper:swarmkeeper-magic"
-    ]
-  },
-  {
     "id": "srd:swarmkeeper:writhing-tide",
     "kind": "subclass-feature",
     "name": "Writhing Tide",
-    "source": "srd",
-    "page": "TCE 59",
+    "source": "tce",
+    "page": "59",
     "tags": [
       "swarmkeeper-feature",
       "ranger-feature"
@@ -157,8 +143,8 @@
     "id": "srd:swarmkeeper:mighty-swarm",
     "kind": "subclass-feature",
     "name": "Mighty Swarm",
-    "source": "srd",
-    "page": "TCE 59",
+    "source": "tce",
+    "page": "59",
     "tags": [
       "swarmkeeper-feature",
       "ranger-feature"
@@ -169,8 +155,8 @@
     "id": "srd:swarmkeeper:swarming-dispersal",
     "kind": "subclass-feature",
     "name": "Swarming Dispersal",
-    "source": "srd",
-    "page": "TCE 59",
+    "source": "tce",
+    "page": "59",
     "tags": [
       "swarmkeeper-feature",
       "ranger-feature"

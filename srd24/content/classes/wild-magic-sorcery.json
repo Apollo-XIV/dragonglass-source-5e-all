@@ -3,17 +3,19 @@
     "id": "srd24:subclass:wild-magic-sorcery",
     "kind": "subclass",
     "name": "Wild Magic Sorcery",
-    "source": "srd24",
-    "page": "XPHB 149",
+    "source": "xphb",
+    "page": "149",
     "class": "srd24:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "*Unleash Chaotic Magic*\n\nYour innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:wild-magic:wild-magic-sorcery"
+          "srd24:wild-magic:wild-magic-surge",
+          "srd24:wild-magic:tides-of-chaos"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd24:wild-magic:wild-magic-surge",
     "kind": "subclass-feature",
     "name": "Wild Magic Surge",
-    "source": "srd24",
-    "page": "XPHB 149",
+    "source": "xphb",
+    "page": "149",
     "tags": [
       "wild-magic-feature",
       "sorcerer-feature"
@@ -49,8 +51,8 @@
     "id": "srd24:wild-magic:tides-of-chaos",
     "kind": "subclass-feature",
     "name": "Tides of Chaos",
-    "source": "srd24",
-    "page": "XPHB 149",
+    "source": "xphb",
+    "page": "149",
     "tags": [
       "wild-magic-feature",
       "sorcerer-feature"
@@ -58,27 +60,11 @@
     "text": "You can manipulate chaos itself to give yourself Advantage on one D20 Test before you roll the d20. Once you do so, you must cast a Sorcerer spell with a spell slot or finish a Long Rest before you can use this feature again.\n\nIf you do cast a Sorcerer spell with a spell slot before you finish a Long Rest, you automatically roll on the Wild Magic Surge table."
   },
   {
-    "id": "srd24:wild-magic:wild-magic-sorcery",
-    "kind": "subclass-feature",
-    "name": "Wild Magic Sorcery",
-    "source": "srd24",
-    "page": "XPHB 149",
-    "tags": [
-      "wild-magic-feature",
-      "sorcerer-feature"
-    ],
-    "text": "*Unleash Chaotic Magic*\n\nYour innate magic stems from the forces of chaos that underlie the order of creation. You or an ancestor might have endured exposure to raw magic, perhaps through a planar portal leading to Limbo or the Elemental Planes. Perhaps you were blessed by a fey being or marked by a demon. Or your magic could be a fluke with no apparent cause. Whatever its source, this magic churns within you, waiting for any outlet.",
-    "grants": [
-      "srd24:wild-magic:wild-magic-surge",
-      "srd24:wild-magic:tides-of-chaos"
-    ]
-  },
-  {
     "id": "srd24:wild-magic:bend-luck",
     "kind": "subclass-feature",
     "name": "Bend Luck",
-    "source": "srd24",
-    "page": "XPHB 149",
+    "source": "xphb",
+    "page": "149",
     "tags": [
       "wild-magic-feature",
       "sorcerer-feature"
@@ -103,8 +89,8 @@
     "id": "srd24:wild-magic:controlled-chaos",
     "kind": "subclass-feature",
     "name": "Controlled Chaos",
-    "source": "srd24",
-    "page": "XPHB 149",
+    "source": "xphb",
+    "page": "149",
     "tags": [
       "wild-magic-feature",
       "sorcerer-feature"
@@ -115,8 +101,8 @@
     "id": "srd24:wild-magic:tamed-surge",
     "kind": "subclass-feature",
     "name": "Tamed Surge",
-    "source": "srd24",
-    "page": "XPHB 150",
+    "source": "xphb",
+    "page": "150",
     "tags": [
       "wild-magic-feature",
       "sorcerer-feature"

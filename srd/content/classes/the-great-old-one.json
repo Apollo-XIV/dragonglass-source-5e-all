@@ -3,17 +3,18 @@
     "id": "srd:subclass:the-great-old-one",
     "kind": "subclass",
     "name": "The Great Old One",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "class": "srd:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.\n\n**Expanded Spell List.** The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Great Old One Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | dissonant whispers, Tasha's hideous laughter |\n| 2nd | detect thoughts, phantasmal force |\n| 3rd | clairvoyance, sending |\n| 4th | dominate beast, Evard's black tentacles |\n| 5th | dominate person, telekinesis |",
     "levels": {
       "1": {
         "grants": [
-          "srd:great-old-one:the-great-old-one"
+          "srd:great-old-one:awakened-mind"
         ],
         "spellListAdditions": [
           {
@@ -54,8 +55,8 @@
     "id": "srd:great-old-one:awakened-mind",
     "kind": "subclass-feature",
     "name": "Awakened Mind",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -63,26 +64,11 @@
     "text": "Starting at 1st level, your alien knowledge gives you the ability to touch the minds of other creatures. You can telepathically speak to any creature you can see within 30 feet of you. You don't need to share a language with the creature for it to understand your telepathic utterances, but the creature must be able to understand at least one language."
   },
   {
-    "id": "srd:great-old-one:the-great-old-one",
-    "kind": "subclass-feature",
-    "name": "The Great Old One",
-    "source": "srd",
-    "page": "PHB 109",
-    "tags": [
-      "great-old-one-feature",
-      "warlock-feature"
-    ],
-    "text": "Your patron is a mysterious entity whose nature is utterly foreign to the fabric of reality. It might come from the Far Realm, the space beyond reality, or it could be one of the elder gods known only in legends. Its motives are incomprehensible to mortals, and its knowledge so immense and ancient that even the greatest libraries pale in comparison to the vast secrets it holds. The Great Old One might be unaware of your existence or entirely indifferent to you, but the secrets you have learned allow you to draw your magic from it. Entities of this type include Ghaunadar, called That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; Zargon, the Returner; Great Cthulhu; and other unfathomable beings.\n\n**Expanded Spell List.** The Great Old One lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Great Old One Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | dissonant whispers, Tasha's hideous laughter |\n| 2nd | detect thoughts, phantasmal force |\n| 3rd | clairvoyance, sending |\n| 4th | dominate beast, Evard's black tentacles |\n| 5th | dominate person, telekinesis |",
-    "grants": [
-      "srd:great-old-one:awakened-mind"
-    ]
-  },
-  {
     "id": "srd:great-old-one:entropic-ward",
     "kind": "subclass-feature",
     "name": "Entropic Ward",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -124,8 +110,8 @@
     "id": "srd:great-old-one:thought-shield",
     "kind": "subclass-feature",
     "name": "Thought Shield",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"
@@ -136,8 +122,8 @@
     "id": "srd:great-old-one:create-thrall",
     "kind": "subclass-feature",
     "name": "Create Thrall",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "tags": [
       "great-old-one-feature",
       "warlock-feature"

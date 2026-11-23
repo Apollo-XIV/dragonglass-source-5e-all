@@ -3,17 +3,18 @@
     "id": "srd:subclass:psi-warrior",
     "kind": "subclass",
     "name": "Psi Warrior",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "class": "srd:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "Awake to the psionic power within, a Psi Warrior is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force. Many githyanki train to become such warriors, as do some of the most disciplined high elves. In the world of Eberron, many young kalashtar dream of becoming Psi Warriors.\n\nAs a Psi Warrior, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mind's power as both weapon and shield.",
     "levels": {
       "3": {
         "grants": [
-          "srd:psi-warrior:psi-warrior"
+          "srd:psi-warrior:psionic-power"
         ]
       },
       "7": {
@@ -54,8 +55,8 @@
     "id": "srd:psi-warrior:protective-field",
     "kind": "subclass-feature",
     "name": "Protective Field",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature",
@@ -82,8 +83,8 @@
     "id": "srd:psi-warrior:psionic-strike",
     "kind": "subclass-feature",
     "name": "Psionic Strike",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature",
@@ -99,8 +100,8 @@
     "id": "srd:psi-warrior:telekinetic-movement",
     "kind": "subclass-feature",
     "name": "Telekinetic Movement",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature",
@@ -123,8 +124,8 @@
     "id": "srd:psi-warrior:psionic-power",
     "kind": "subclass-feature",
     "name": "Psionic Power",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -145,26 +146,11 @@
     ]
   },
   {
-    "id": "srd:psi-warrior:psi-warrior",
-    "kind": "subclass-feature",
-    "name": "Psi Warrior",
-    "source": "srd",
-    "page": "TCE 42",
-    "tags": [
-      "psi-warrior-feature",
-      "fighter-feature"
-    ],
-    "text": "Awake to the psionic power within, a Psi Warrior is a fighter who augments their physical might with psi-infused weapon strikes, telekinetic lashes, and barriers of mental force. Many githyanki train to become such warriors, as do some of the most disciplined high elves. In the world of Eberron, many young kalashtar dream of becoming Psi Warriors.\n\nAs a Psi Warrior, you might have honed your psionic abilities through solo discipline, unlocked it under the tutelage of a master, or refined it at an academy dedicated to wielding the mind's power as both weapon and shield.",
-    "grants": [
-      "srd:psi-warrior:psionic-power"
-    ]
-  },
-  {
     "id": "srd:psi-warrior:psi-powered-leap",
     "kind": "subclass-feature",
     "name": "Psi-Powered Leap",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature",
@@ -187,8 +173,8 @@
     "id": "srd:psi-warrior:telekinetic-thrust",
     "kind": "subclass-feature",
     "name": "Telekinetic Thrust",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature",
@@ -200,8 +186,8 @@
     "id": "srd:psi-warrior:telekinetic-adept",
     "kind": "subclass-feature",
     "name": "Telekinetic Adept",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -225,8 +211,8 @@
     "id": "srd:psi-warrior:guarded-mind",
     "kind": "subclass-feature",
     "name": "Guarded Mind",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -250,8 +236,8 @@
     "id": "srd:psi-warrior:bulwark-of-force",
     "kind": "subclass-feature",
     "name": "Bulwark of Force",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"
@@ -273,8 +259,8 @@
     "id": "srd:psi-warrior:telekinetic-master",
     "kind": "subclass-feature",
     "name": "Telekinetic Master",
-    "source": "srd",
-    "page": "TCE 42",
+    "source": "tce",
+    "page": "42",
     "tags": [
       "psi-warrior-feature",
       "fighter-feature"

@@ -3,8 +3,8 @@
     "id": "srd:class:artificer",
     "kind": "class",
     "name": "Artificer",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "key": "artificer",
     "hitDie": "d8",
     "tags": [

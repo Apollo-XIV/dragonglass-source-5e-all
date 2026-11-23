@@ -3,12 +3,12 @@
     "id": "srd:item:breastplate",
     "kind": "item",
     "name": "Breastplate",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "PHB 145",
+    "page": "145",
     "itemType": "armor",
     "weight": 20,
     "value": 40000,
@@ -23,12 +23,12 @@
     "id": "srd:item:chain-mail",
     "kind": "item",
     "name": "Chain Mail",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "heavy-armor"
     ],
-    "page": "PHB 145",
+    "page": "145",
     "itemType": "armor",
     "weight": 55,
     "value": 7500,
@@ -44,12 +44,12 @@
     "id": "srd:item:chain-shirt",
     "kind": "item",
     "name": "Chain Shirt",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "PHB 144",
+    "page": "144",
     "itemType": "armor",
     "weight": 20,
     "value": 5000,
@@ -64,12 +64,12 @@
     "id": "srd:item:half-plate-armor",
     "kind": "item",
     "name": "Half Plate Armor",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "PHB 145",
+    "page": "145",
     "itemType": "armor",
     "weight": 40,
     "value": 75000,
@@ -85,12 +85,12 @@
     "id": "srd:item:hide-armor",
     "kind": "item",
     "name": "Hide Armor",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "PHB 144",
+    "page": "144",
     "itemType": "armor",
     "weight": 12,
     "value": 1000,
@@ -105,12 +105,12 @@
     "id": "srd:item:leather-armor",
     "kind": "item",
     "name": "Leather Armor",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "light-armor"
     ],
-    "page": "PHB 144",
+    "page": "144",
     "itemType": "armor",
     "weight": 10,
     "value": 1000,
@@ -124,12 +124,12 @@
     "id": "srd:item:padded-armor",
     "kind": "item",
     "name": "Padded Armor",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "light-armor"
     ],
-    "page": "PHB 144",
+    "page": "144",
     "itemType": "armor",
     "weight": 8,
     "value": 500,
@@ -144,12 +144,12 @@
     "id": "srd:item:plate-armor",
     "kind": "item",
     "name": "Plate Armor",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "heavy-armor"
     ],
-    "page": "PHB 145",
+    "page": "145",
     "itemType": "armor",
     "weight": 65,
     "value": 150000,
@@ -165,12 +165,12 @@
     "id": "srd:item:ring-mail",
     "kind": "item",
     "name": "Ring Mail",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "heavy-armor"
     ],
-    "page": "PHB 145",
+    "page": "145",
     "itemType": "armor",
     "weight": 40,
     "value": 3000,
@@ -186,12 +186,12 @@
     "id": "srd:item:scale-mail",
     "kind": "item",
     "name": "Scale Mail",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "PHB 144",
+    "page": "144",
     "itemType": "armor",
     "weight": 45,
     "value": 5000,
@@ -207,12 +207,12 @@
     "id": "srd:item:shield",
     "kind": "item",
     "name": "Shield",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "shield"
     ],
-    "page": "PHB 144",
+    "page": "144",
     "itemType": "shield",
     "weight": 6,
     "value": 1000,
@@ -230,12 +230,12 @@
     "id": "srd:item:spiked-armor",
     "kind": "item",
     "name": "Spiked Armor",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "SCAG 121",
+    "page": "121",
     "itemType": "armor",
     "weight": 45,
     "value": 7500,
@@ -251,12 +251,12 @@
     "id": "srd:item:splint-armor",
     "kind": "item",
     "name": "Splint Armor",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "heavy-armor"
     ],
-    "page": "PHB 145",
+    "page": "145",
     "itemType": "armor",
     "weight": 60,
     "value": 20000,
@@ -272,12 +272,12 @@
     "id": "srd:item:studded-leather-armor",
     "kind": "item",
     "name": "Studded Leather Armor",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "armor",
       "light-armor"
     ],
-    "page": "PHB 144",
+    "page": "144",
     "itemType": "armor",
     "weight": 13,
     "value": 4500,
@@ -291,12 +291,12 @@
     "id": "srd:item:survival-mantle",
     "kind": "item",
     "name": "Survival Mantle",
-    "source": "srd",
+    "source": "vgm",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "VGM 81",
+    "page": "81",
     "itemType": "armor",
     "weight": 40,
     "armor": {

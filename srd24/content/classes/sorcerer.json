@@ -3,8 +3,8 @@
     "id": "srd24:class:sorcerer",
     "kind": "class",
     "name": "Sorcerer",
-    "source": "srd24",
-    "page": "XPHB 138",
+    "source": "xphb",
+    "page": "138",
     "key": "sorcerer",
     "hitDie": "d6",
     "tags": [

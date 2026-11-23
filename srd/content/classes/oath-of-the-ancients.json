@@ -3,17 +3,20 @@
     "id": "srd:subclass:oath-of-the-ancients",
     "kind": "subclass",
     "name": "Oath of the Ancients",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "class": "srd:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light in the world.",
     "levels": {
       "3": {
         "grants": [
-          "srd:ancients:oath-of-the-ancients",
+          "srd:ancients:tenets-of-the-ancients",
+          "srd:ancients:oath-spells",
+          "srd:ancients:channel-divinity",
           "srd:spell:ensnaring-strike",
           "srd:spell:speak-with-animals"
         ]
@@ -63,8 +66,8 @@
     "id": "srd:ancients:tenets-of-the-ancients",
     "kind": "subclass-feature",
     "name": "Tenets of the Ancients",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -75,8 +78,8 @@
     "id": "srd:ancients:oath-spells",
     "kind": "subclass-feature",
     "name": "Oath Spells",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -87,8 +90,8 @@
     "id": "srd:ancients:natures-wrath",
     "kind": "subclass-feature",
     "name": "Nature's Wrath",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -113,8 +116,8 @@
     "id": "srd:ancients:turn-the-faithless",
     "kind": "subclass-feature",
     "name": "Turn the Faithless",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -139,8 +142,8 @@
     "id": "srd:ancients:channel-divinity",
     "kind": "subclass-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -152,28 +155,11 @@
     ]
   },
   {
-    "id": "srd:ancients:oath-of-the-ancients",
-    "kind": "subclass-feature",
-    "name": "Oath of the Ancients",
-    "source": "srd",
-    "page": "PHB 86",
-    "tags": [
-      "ancients-feature",
-      "paladin-feature"
-    ],
-    "text": "The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things—leaves, antlers, or flowers—to reflect their commitment to preserving life and light in the world.",
-    "grants": [
-      "srd:ancients:tenets-of-the-ancients",
-      "srd:ancients:oath-spells",
-      "srd:ancients:channel-divinity"
-    ]
-  },
-  {
     "id": "srd:ancients:aura-of-warding",
     "kind": "subclass-feature",
     "name": "Aura of Warding",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -184,8 +170,8 @@
     "id": "srd:ancients:undying-sentinel",
     "kind": "subclass-feature",
     "name": "Undying Sentinel",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "tags": [
       "ancients-feature",
       "paladin-feature"
@@ -227,8 +213,8 @@
     "id": "srd:ancients:elder-champion",
     "kind": "subclass-feature",
     "name": "Elder Champion",
-    "source": "srd",
-    "page": "PHB 86",
+    "source": "phb",
+    "page": "86",
     "tags": [
       "ancients-feature",
       "paladin-feature"

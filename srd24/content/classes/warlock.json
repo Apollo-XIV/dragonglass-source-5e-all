@@ -3,8 +3,8 @@
     "id": "srd24:class:warlock",
     "kind": "class",
     "name": "Warlock",
-    "source": "srd24",
-    "page": "XPHB 152",
+    "source": "xphb",
+    "page": "152",
     "key": "warlock",
     "hitDie": "d8",
     "tags": [

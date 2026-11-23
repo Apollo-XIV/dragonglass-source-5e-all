@@ -3,77 +3,77 @@
     "id": "srd24:disease:cackle-fever",
     "kind": "disease",
     "name": "Cackle Fever",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "disease"
     ],
     "text": "Cheaply made potions and elixirs are sometimes tainted by Cackle Fever, which affects Humanoids only (gnomes are strangely immune). A creature suffers the following effects 1d4 days after infection:\n\n- **Fever.** The creature gains 1 Exhaustion level, which lasts until the contagion ends on the creature.\n- **Uncontrollable Laughter.** While the creature has the Exhaustion condition, the creature makes a DC 13 Constitution saving throw each time it takes damage other than Psychic damage. On a failed save, the creature takes 5 (1d10) Psychic damage and has the Incapacitated condition as it laughs uncontrollably. At the end of each of its turns, the creature repeats the save, ending the effect on itself on a success. After 1 minute, it succeeds automatically.\n\n**Fighting the Contagion.** At the end of each Long Rest, an infected creature makes a DC 13 Constitution saving throw. After the creature succeeds on three of these saves, the contagion ends on it, and the creature is immune to Cackle Fever for 1 year.\n\n**Spreading the Contagion.** Any Humanoid (other than a gnome) that starts its turn within a 10-foot Emanation originating from a creature infected with Cackle Fever must succeed on a DC 10 Constitution saving throw or also become infected with the contagion. On a successful save, the Humanoid can't catch the contagion from that particular infected creature for the next 24 hours.",
-    "page": "XDMG 61"
+    "page": "61"
   },
   {
     "id": "srd24:disease:lichen-plague",
     "kind": "disease",
     "name": "Lichen Plague",
-    "source": "srd24",
+    "source": "fraif",
     "tags": [
       "disease"
     ],
     "text": "A Beast, Giant, Humanoid, or Monstrosity that comes into contact with bile lichen spores is at risk of contracting a horrible disease as the lichen takes root on its body and grows into its brain. A creature suffers the following effects 1d4 days after infection:\n\n- **Skinroot.** The contagion first appears as a patch of green-yellow lichen no larger than 1 square inch on a random area of the body. When it finishes a Long Rest, the infected creature must succeed on a DC 14 Constitution saving throw or gain 1 Exhaustion level as the lichen spreads toward the creature's head. This Exhaustion level lasts until the contagion ends on the creature.\n- **Mindroot.** A Humanoid that dies while infected with Lichen Plague rises immediately as a Zombie under the DM's control.\n\n**Fighting the Contagion.** When it finishes a Long Rest, an infected creature makes a DC 14 Constitution saving throw. If the creature succeeds on three of these saving throws, the contagion ends on the creature and the creature is immune to Lichen Plague forever. The successful saves don't need to be consecutive.\n\n**Spreading the Contagion.** Any Beast, Giant, Humanoid, or Monstrosity that makes skin contact with the lichen on an infected creature must succeed on a DC 14 Constitution saving throw or be infected with Lichen Plague. On a successful save, the creature can't catch Lichen Plague for the next 24 hours.",
-    "page": "FRAiF 98"
+    "page": "98"
   },
   {
     "id": "srd24:disease:mudpox",
     "kind": "disease",
     "name": "Mudpox",
-    "source": "srd24",
+    "source": "fraif",
     "tags": [
       "disease"
     ],
     "text": "Contact with dead oozes from the Underdark mixed with snowmelt and mud has been making people sick. Any Beast or Humanoid that touches mud contaminated by Mudpox must succeed on a DC 12 Constitution saving throw or become infected, suffering the following effect:\n\n- **Disrupted Digestion.** Daily at dawn, the creature must succeed on a DC 12 Constitution saving throw or vomit up the food it ate the previous day, gaining 1 Exhaustion level. If the creature succeeds on this saving throw three consecutive times, the contagion ends.\n\n**Fighting the Contagion.** A Heal or Lesser Restoration spell ends the contagion immediately.\n\n**Spreading the Contagion.** Any Humanoid that makes skin contact with a creature infected with Mudpox must succeed on a DC 12 Constitution saving throw or also become infected with the contagion. If the creature succeeds on this save, it can't catch the contagion from that particular infected creature for the next 24 hours.",
-    "page": "FRAiF 98"
+    "page": "98"
   },
   {
     "id": "srd24:disease:sewer-plague",
     "kind": "disease",
     "name": "Sewer Plague",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "disease"
     ],
     "text": "Fouled potions and alchemical waste can give rise to Sewer Plague, which incubates in sewers and refuse heaps and is sometimes transmitted by creatures that dwell in such areas, including otyughs and rats. Any Humanoid that is wounded by a creature that carries the contagion or that comes into contact with contaminated filth or offal must succeed on a DC 11 Constitution saving throw or become infected with Sewer Plague. A creature suffers the following effects 1d4 days after infection:\n\n- **Fatigue.** The creature gains 1 Exhaustion level.\n- **Weakness.** While the creature has any Exhaustion levels, it regains only half the normal number of Hit Points from spending Hit Point Dice.\n- **Restlessness.** While the creature has any Exhaustion levels, finishing a Long Rest neither restores lost Hit Points nor reduces the creature's Exhaustion level.\n\n**Fighting the Contagion.** Daily at dawn, an infected creature makes a DC 11 Constitution saving throw. On a failed save, the creature gains 1 Exhaustion level as its fatigue worsens. On a successful save, the creature's Exhaustion level decreases by 1. If the creature's Exhaustion level is reduced to 0, the contagion ends on the creature.",
-    "page": "XDMG 61"
+    "page": "61"
   },
   {
     "id": "srd24:disease:shaking-plague",
     "kind": "disease",
     "name": "Shaking Plague",
-    "source": "srd24",
+    "source": "fraif",
     "tags": [
       "disease"
     ],
     "text": "Magical experiments gone awry gave rise to Shaking Plague, which affects Humanoids. A creature suffers the following effects 1d4 days after infection:\n\n- **Fatigue.** The creature gains 1 Exhaustion level. While the creature has any Exhaustion levels, finishing a Long Rest doesn't reduce the creature's Exhaustion level.\n- **Pus Boils.** While the creature has any Exhaustion levels, its skin is covered in pus-filled boils.\n- **Shaking.** While the creature has any Exhaustion levels, magic-dampening tremors afflict it. The creature has Disadvantage on Dexterity checks and saving throws, and whenever the creature casts a spell with a Somatic component, it must succeed on a DC 11 Constitution saving throw, or the spell dissipates with no effect and the action, Bonus Action, or Reaction used to cast it is wasted. If that spell was cast with a spell slot, that slot isn't expended.\n\n**Fighting the Contagion.** Daily at dawn, an infected creature makes a DC 11 Constitution saving throw. On a failed save, the creature gains 1 Exhaustion level as its fatigue worsens. On a successful save, the creature's Exhaustion level decreases by 1. If the creature's Exhaustion level is reduced to 0, the contagion ends on the creature.\n\n**Spreading the Contagion.** Any Humanoid that makes skin contact with a creature infected with Shaking Plague must succeed on a DC 11 Constitution saving throw or also become infected with the contagion. On a successful save, the Humanoid can't catch the contagion from that particular infected creature for the next 24 hours.",
-    "page": "FRAiF 70"
+    "page": "70"
   },
   {
     "id": "srd24:disease:sight-rot",
     "kind": "disease",
     "name": "Sight Rot",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "disease"
     ],
     "text": "Any Beast or Humanoid that drinks water tainted by Sight Rot must succeed on a DC 15 Constitution saving throw or have the Blinded condition until the contagion ends.\n\n**Fighting the Contagion.** Magic such as a Heal or Lesser Restoration spell ends the contagion immediately. A character who is proficient with an Herbalism Kit can use it to create one dose of nonmagical ointment, which takes 1 hour. When applied to the eyes of a creature suffering from Sight Rot, the ointment suppresses the contagion on that creature for 24 hours. If the contagion is suppressed in this way for a total of 72 hours (requiring three doses and applications of the ointment), the contagion ends on the creature.\n\n**Spreading the Contagion.** Any Humanoid that makes skin contact with a creature infected with Sight Rot must succeed on a DC 15 Constitution saving throw or also become infected with the contagion. On a successful save, the Humanoid can't catch the contagion from that particular infected creature for the next 24 hours.",
-    "page": "XDMG 61"
+    "page": "61"
   },
   {
     "id": "srd24:disease:the-rusting",
     "kind": "disease",
     "name": "The Rusting",
-    "source": "srd24",
+    "source": "fraif",
     "tags": [
       "disease"
     ],
     "text": "The Rusting manifests as a thin, iron coating that grows over a victim's body. When exposed to moisture, this iron skin corrodes into a rust-colored plaque. As the Rusting covers the victim, the victim eventually transforms into a type of creature known as a Rusted (see chapter 9).\n\nAny creature that is wounded by a Rusted creature or spends 1 hour in an area where the Rusting has manifested makes a DC 10 Constitution saving throw. Constructs and Undead automatically succeed on this save. On a failed save, the creature is afflicted by the Rusting and suffers the following effects:\n\n- **Curse.** The creature gains 1 Exhaustion level and is cursed. While the creature is cursed, finishing a Long Rest doesn't reduce the creature's Exhaustion level.\n- **Plated Joints.** The creature's Speed is reduced by 5 feet.\n- **Rusted Fate.** When a cursed creature's Exhaustion level reaches 6, it doesn't die. Instead, the creature transforms into a Rusted version of its former self; its creature type becomes Construct, and it gains Immunity to Poison damage and the Exhaustion, Petrified, and Poisoned conditions. The curse then ends for that creature.\n\n**Fighting the Contagion.** Daily at dawn, an afflicted creature makes a DC 10 Constitution saving throw. On a failed save, the creature gains 1 Exhaustion level as more iron coats its skin. On a successful save, the creature's Exhaustion level decreases by 1. If the creature's Exhaustion level is reduced to 0, the contagion ends on the creature.\n\nRemoving the curse immediately ends the contagion for a creature.",
-    "page": "FRAiF 165"
+    "page": "165"
   }
 ]

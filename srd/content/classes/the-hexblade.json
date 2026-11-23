@@ -3,18 +3,20 @@
     "id": "srd:subclass:the-hexblade",
     "kind": "subclass",
     "name": "The Hexblade",
-    "source": "srd",
-    "page": "XGE 55",
+    "source": "xge",
+    "page": "55",
     "class": "srd:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many Hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.\n\nBecause the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with Hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.\n\n**Expanded Spell List.** The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Hexblade Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | shield, wrathful smite |\n| 2nd | blur, branding smite |\n| 3rd | blink, elemental weapon |\n| 4th | phantasmal killer, staggering smite |\n| 5th | banishing smite, cone of cold |",
     "fluff": "> Hexblade. What a cool name! So is your sword evil or cursed or something? But you're evil, right?... Okay, now I don't like the name. Names aren't cool if they don't make sense. Like mine: The Xanathar. See? It's cool, and it makes sense!\n>\n> — Xanathar",
     "levels": {
       "1": {
         "grants": [
-          "srd:hexblade:the-hexblade"
+          "srd:hexblade:hexblades-curse",
+          "srd:hexblade:hex-warrior"
         ],
         "spellListAdditions": [
           {
@@ -55,8 +57,8 @@
     "id": "srd:hexblade:hexblades-curse",
     "kind": "subclass-feature",
     "name": "Hexblade's Curse",
-    "source": "srd",
-    "page": "XGE 55",
+    "source": "xge",
+    "page": "55",
     "tags": [
       "hexblade-feature",
       "warlock-feature"
@@ -98,8 +100,8 @@
     "id": "srd:hexblade:hex-warrior",
     "kind": "subclass-feature",
     "name": "Hex Warrior",
-    "source": "srd",
-    "page": "XGE 55",
+    "source": "xge",
+    "page": "55",
     "tags": [
       "hexblade-feature",
       "warlock-feature"
@@ -132,27 +134,11 @@
     ]
   },
   {
-    "id": "srd:hexblade:the-hexblade",
-    "kind": "subclass-feature",
-    "name": "The Hexblade",
-    "source": "srd",
-    "page": "XGE 55",
-    "tags": [
-      "hexblade-feature",
-      "warlock-feature"
-    ],
-    "text": "You have made your pact with a mysterious entity from the Shadowfell—a force that manifests in sentient magic weapons carved from the stuff of shadow. The mighty sword Blackrazor is the most notable of these weapons, which have been spread across the multiverse over the ages. The shadowy force behind these weapons can offer power to warlocks who form pacts with it. Many Hexblade warlocks create weapons that emulate those formed in the Shadowfell. Others forgo such arms, content to weave the dark magic of that plane into their spellcasting.\n\nBecause the Raven Queen is known to have forged the first of these weapons, many sages speculate that she and the force are one and that the weapons, along with Hexblade warlocks, are tools she uses to manipulate events on the Material Plane to her inscrutable ends.\n\n**Expanded Spell List.** The Hexblade lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Hexblade Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | shield, wrathful smite |\n| 2nd | blur, branding smite |\n| 3rd | blink, elemental weapon |\n| 4th | phantasmal killer, staggering smite |\n| 5th | banishing smite, cone of cold |",
-    "grants": [
-      "srd:hexblade:hexblades-curse",
-      "srd:hexblade:hex-warrior"
-    ]
-  },
-  {
     "id": "srd:hexblade:accursed-specter",
     "kind": "subclass-feature",
     "name": "Accursed Specter",
-    "source": "srd",
-    "page": "XGE 55",
+    "source": "xge",
+    "page": "55",
     "tags": [
       "hexblade-feature",
       "warlock-feature"
@@ -163,8 +149,8 @@
     "id": "srd:hexblade:armor-of-hexes",
     "kind": "subclass-feature",
     "name": "Armor of Hexes",
-    "source": "srd",
-    "page": "XGE 55",
+    "source": "xge",
+    "page": "55",
     "tags": [
       "hexblade-feature",
       "warlock-feature"
@@ -186,8 +172,8 @@
     "id": "srd:hexblade:master-of-hexes",
     "kind": "subclass-feature",
     "name": "Master of Hexes",
-    "source": "srd",
-    "page": "XGE 55",
+    "source": "xge",
+    "page": "55",
     "tags": [
       "hexblade-feature",
       "warlock-feature"

@@ -3,18 +3,19 @@
     "id": "srd:subclass:path-of-the-storm-herald",
     "kind": "subclass",
     "name": "Path of the Storm Herald",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "class": "srd:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "All barbarians harbor a fury within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn to transform that rage into a mantle of primal magic, which swirls around them. When in a fury, a barbarian of this path taps into the forces of nature to create powerful magical effects.\n\nStorm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.",
     "fluff": "> You know one of the great benefits of living underground? No weather. Don't mess this up for me.\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:storm-herald:path-of-the-storm-herald"
+          "srd:storm-herald:storm-aura"
         ]
       },
       "6": {
@@ -38,8 +39,8 @@
     "id": "srd:storm-herald:desert",
     "kind": "subclass-feature",
     "name": "Desert",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -51,8 +52,8 @@
     "id": "srd:storm-herald:sea",
     "kind": "subclass-feature",
     "name": "Sea",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -64,8 +65,8 @@
     "id": "srd:storm-herald:tundra",
     "kind": "subclass-feature",
     "name": "Tundra",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -77,8 +78,8 @@
     "id": "srd:storm-herald:storm-aura",
     "kind": "subclass-feature",
     "name": "Storm Aura",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature"
@@ -99,26 +100,11 @@
     ]
   },
   {
-    "id": "srd:storm-herald:path-of-the-storm-herald",
-    "kind": "subclass-feature",
-    "name": "Path of the Storm Herald",
-    "source": "srd",
-    "page": "XGE 10",
-    "tags": [
-      "storm-herald-feature",
-      "barbarian-feature"
-    ],
-    "text": "All barbarians harbor a fury within. Their rage grants them superior strength, durability, and speed. Barbarians who follow the Path of the Storm Herald learn to transform that rage into a mantle of primal magic, which swirls around them. When in a fury, a barbarian of this path taps into the forces of nature to create powerful magical effects.\n\nStorm heralds are typically elite champions who train alongside druids, rangers, and others sworn to protect nature. Other storm heralds hone their craft in lodges in regions wracked by storms, in the frozen reaches at the world's end, or deep in the hottest deserts.",
-    "grants": [
-      "srd:storm-herald:storm-aura"
-    ]
-  },
-  {
     "id": "srd:storm-herald:desert-6",
     "kind": "subclass-feature",
     "name": "Desert",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -157,8 +143,8 @@
     "id": "srd:storm-herald:sea-6",
     "kind": "subclass-feature",
     "name": "Sea",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -170,8 +156,8 @@
     "id": "srd:storm-herald:tundra-6",
     "kind": "subclass-feature",
     "name": "Tundra",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -211,8 +197,8 @@
     "id": "srd:storm-herald:storm-soul",
     "kind": "subclass-feature",
     "name": "Storm Soul",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature"
@@ -236,8 +222,8 @@
     "id": "srd:storm-herald:shielding-storm",
     "kind": "subclass-feature",
     "name": "Shielding Storm",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature"
@@ -248,8 +234,8 @@
     "id": "srd:storm-herald:desert-14",
     "kind": "subclass-feature",
     "name": "Desert",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -272,8 +258,8 @@
     "id": "srd:storm-herald:sea-14",
     "kind": "subclass-feature",
     "name": "Sea",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -296,8 +282,8 @@
     "id": "srd:storm-herald:tundra-14",
     "kind": "subclass-feature",
     "name": "Tundra",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature",
@@ -309,8 +295,8 @@
     "id": "srd:storm-herald:raging-storm",
     "kind": "subclass-feature",
     "name": "Raging Storm",
-    "source": "srd",
-    "page": "XGE 10",
+    "source": "xge",
+    "page": "10",
     "tags": [
       "storm-herald-feature",
       "barbarian-feature"

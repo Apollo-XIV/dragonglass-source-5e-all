@@ -3,17 +3,19 @@
     "id": "srd:subclass:way-of-the-drunken-master",
     "kind": "subclass",
     "name": "Way of the Drunken Master",
-    "source": "srd",
-    "page": "XGE 33",
+    "source": "xge",
+    "page": "33",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "The Way of the Drunken Master teaches its students to move with the jerky, unpredictable movements of a drunkard. A drunken master sways, tottering on unsteady feet, to present what seems like an incompetent combatant who proves frustrating to engage. The drunken master's erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats.\n\nA drunken master often enjoys playing the fool to bring gladness to the despondent or to demonstrate humility to the arrogant, but when battle is joined, the drunken master can be a maddening, masterful foe.",
     "levels": {
       "3": {
         "grants": [
-          "srd:drunken-master:way-of-the-drunken-master"
+          "srd:drunken-master:bonus-proficiencies",
+          "srd:drunken-master:drunken-technique"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:drunken-master:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "XGE 33",
+    "source": "xge",
+    "page": "33",
     "tags": [
       "drunken-master-feature",
       "monk-feature"
@@ -49,8 +51,8 @@
     "id": "srd:drunken-master:drunken-technique",
     "kind": "subclass-feature",
     "name": "Drunken Technique",
-    "source": "srd",
-    "page": "XGE 33",
+    "source": "xge",
+    "page": "33",
     "tags": [
       "drunken-master-feature",
       "monk-feature"
@@ -58,27 +60,11 @@
     "text": "At 3rd level, you learn how to twist and turn quickly as part of your Flurry of Blows. Whenever you use Flurry of Blows, you gain the benefit of the Disengage action, and your walking speed increases by 10 feet until the end of the current turn."
   },
   {
-    "id": "srd:drunken-master:way-of-the-drunken-master",
-    "kind": "subclass-feature",
-    "name": "Way of the Drunken Master",
-    "source": "srd",
-    "page": "XGE 33",
-    "tags": [
-      "drunken-master-feature",
-      "monk-feature"
-    ],
-    "text": "The Way of the Drunken Master teaches its students to move with the jerky, unpredictable movements of a drunkard. A drunken master sways, tottering on unsteady feet, to present what seems like an incompetent combatant who proves frustrating to engage. The drunken master's erratic stumbles conceal a carefully executed dance of blocks, parries, advances, attacks, and retreats.\n\nA drunken master often enjoys playing the fool to bring gladness to the despondent or to demonstrate humility to the arrogant, but when battle is joined, the drunken master can be a maddening, masterful foe.",
-    "grants": [
-      "srd:drunken-master:bonus-proficiencies",
-      "srd:drunken-master:drunken-technique"
-    ]
-  },
-  {
     "id": "srd:drunken-master:leap-to-your-feet",
     "kind": "subclass-feature",
     "name": "Leap to Your Feet",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "tags": [
       "drunken-master-feature",
       "monk-feature",
@@ -90,8 +76,8 @@
     "id": "srd:drunken-master:redirect-attack",
     "kind": "subclass-feature",
     "name": "Redirect Attack",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "tags": [
       "drunken-master-feature",
       "monk-feature",
@@ -113,8 +99,8 @@
     "id": "srd:drunken-master:tipsy-sway",
     "kind": "subclass-feature",
     "name": "Tipsy Sway",
-    "source": "srd",
-    "page": "XGE 33",
+    "source": "xge",
+    "page": "33",
     "tags": [
       "drunken-master-feature",
       "monk-feature"
@@ -138,8 +124,8 @@
     "id": "srd:drunken-master:drunkards-luck",
     "kind": "subclass-feature",
     "name": "Drunkard's Luck",
-    "source": "srd",
-    "page": "XGE 33",
+    "source": "xge",
+    "page": "33",
     "tags": [
       "drunken-master-feature",
       "monk-feature"
@@ -160,8 +146,8 @@
     "id": "srd:drunken-master:intoxicated-frenzy",
     "kind": "subclass-feature",
     "name": "Intoxicated Frenzy",
-    "source": "srd",
-    "page": "XGE 33",
+    "source": "xge",
+    "page": "33",
     "tags": [
       "drunken-master-feature",
       "monk-feature"

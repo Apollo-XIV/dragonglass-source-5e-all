@@ -3,17 +3,20 @@
     "id": "srd:subclass:alchemist",
     "kind": "subclass",
     "name": "Alchemist",
-    "source": "srd",
-    "page": "TCE 14",
+    "source": "tce",
+    "page": "14",
     "class": "srd:class:artificer",
     "tags": [
       "artificer-subclass",
       "srd-subclass"
     ],
+    "text": "An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
     "levels": {
       "3": {
         "grants": [
-          "srd:alchemist:alchemist",
+          "srd:alchemist:tool-proficiency",
+          "srd:alchemist:alchemist-spells",
+          "srd:alchemist:experimental-elixir",
           "srd:spell:healing-word",
           "srd:spell:ray-of-sickness"
         ]
@@ -55,8 +58,8 @@
     "id": "srd:alchemist:tool-proficiency",
     "kind": "subclass-feature",
     "name": "Tool Proficiency",
-    "source": "srd",
-    "page": "TCE 14",
+    "source": "tce",
+    "page": "14",
     "tags": [
       "alchemist-feature",
       "artificer-feature"
@@ -80,8 +83,8 @@
     "id": "srd:alchemist:alchemist-spells",
     "kind": "subclass-feature",
     "name": "Alchemist Spells",
-    "source": "srd",
-    "page": "TCE 14",
+    "source": "tce",
+    "page": "14",
     "tags": [
       "alchemist-feature",
       "artificer-feature"
@@ -92,8 +95,8 @@
     "id": "srd:alchemist:experimental-elixir",
     "kind": "subclass-feature",
     "name": "Experimental Elixir",
-    "source": "srd",
-    "page": "TCE 14",
+    "source": "tce",
+    "page": "14",
     "tags": [
       "alchemist-feature",
       "artificer-feature"
@@ -112,28 +115,11 @@
     ]
   },
   {
-    "id": "srd:alchemist:alchemist",
-    "kind": "subclass-feature",
-    "name": "Alchemist",
-    "source": "srd",
-    "page": "TCE 14",
-    "tags": [
-      "alchemist-feature",
-      "artificer-feature"
-    ],
-    "text": "An Alchemist is an expert at combining reagents to produce mystical effects. Alchemists use their creations to give life and to leech it away. Alchemy is the oldest of artificer traditions, and its versatility has long been valued during times of war and peace.",
-    "grants": [
-      "srd:alchemist:tool-proficiency",
-      "srd:alchemist:alchemist-spells",
-      "srd:alchemist:experimental-elixir"
-    ]
-  },
-  {
     "id": "srd:alchemist:alchemical-savant",
     "kind": "subclass-feature",
     "name": "Alchemical Savant",
-    "source": "srd",
-    "page": "TCE 14",
+    "source": "tce",
+    "page": "14",
     "tags": [
       "alchemist-feature",
       "artificer-feature"
@@ -144,8 +130,8 @@
     "id": "srd:alchemist:restorative-reagents",
     "kind": "subclass-feature",
     "name": "Restorative Reagents",
-    "source": "srd",
-    "page": "TCE 14",
+    "source": "tce",
+    "page": "14",
     "tags": [
       "alchemist-feature",
       "artificer-feature"
@@ -156,8 +142,8 @@
     "id": "srd:alchemist:chemical-mastery",
     "kind": "subclass-feature",
     "name": "Chemical Mastery",
-    "source": "srd",
-    "page": "TCE 14",
+    "source": "tce",
+    "page": "14",
     "tags": [
       "alchemist-feature",
       "artificer-feature"

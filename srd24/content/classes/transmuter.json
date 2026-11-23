@@ -3,18 +3,21 @@
     "id": "srd24:subclass:transmuter",
     "kind": "subclass",
     "name": "Transmuter",
-    "source": "srd24",
-    "page": "AU 19",
+    "source": "au",
+    "page": "19",
     "class": "srd24:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "*Transform Energy and Matter*\n\nYou study spells that modify energy and matter—to you, the world is eminently mutable. Using your magic, you become a smith at reality's forge.\n\nSome Transmuters are tinkerers and pranksters. Others seek the power to make and destroy worlds.",
     "fluff": "> Commune with the Weave, and the limitations of your corporeal form will begin to fall away.\n>\n> — Alustriel",
     "levels": {
       "3": {
         "grants": [
-          "srd24:transmuter:transmuter",
+          "srd24:transmuter:transmutation-savant",
+          "srd24:transmuter:transmuters-stone",
+          "srd24:transmuter:wondrous-alteration",
           "srd24:spell:alter-self"
         ],
         "choices": [
@@ -215,8 +218,8 @@
     "id": "srd24:transmuter:transmutation-savant",
     "kind": "subclass-feature",
     "name": "Transmutation Savant",
-    "source": "srd24",
-    "page": "AU 19",
+    "source": "au",
+    "page": "19",
     "tags": [
       "transmuter-feature",
       "wizard-feature"
@@ -227,8 +230,8 @@
     "id": "srd24:transmuter:transmuters-stone",
     "kind": "subclass-feature",
     "name": "Transmuter's Stone",
-    "source": "srd24",
-    "page": "AU 19",
+    "source": "au",
+    "page": "19",
     "tags": [
       "transmuter-feature",
       "wizard-feature"
@@ -239,8 +242,8 @@
     "id": "srd24:transmuter:wondrous-alteration",
     "kind": "subclass-feature",
     "name": "Wondrous Alteration",
-    "source": "srd24",
-    "page": "AU 19",
+    "source": "au",
+    "page": "19",
     "tags": [
       "transmuter-feature",
       "wizard-feature"
@@ -248,28 +251,11 @@
     "text": "You always have the Alter Self spell prepared and can cast it once without expending a spell slot. You regain the ability to cast it in this way when you finish a Long Rest.\n\nWhile under the effects of Alter Self, you gain an additional benefit for each of its options.\n\n**Aquatic Adaptation.** While underwater, you can take the Dash action as a Bonus Action.\n\n**Change Appearance.** You have Advantage on Charisma (Deception) checks.\n\n**Natural Weapons.** The damage of your new growth increases to 2d6 damage of the type associated with the growth. You also have Advantage on Constitution saving throws to maintain Concentration."
   },
   {
-    "id": "srd24:transmuter:transmuter",
-    "kind": "subclass-feature",
-    "name": "Transmuter",
-    "source": "srd24",
-    "page": "AU 19",
-    "tags": [
-      "transmuter-feature",
-      "wizard-feature"
-    ],
-    "text": "*Transform Energy and Matter*\n\nYou study spells that modify energy and matter—to you, the world is eminently mutable. Using your magic, you become a smith at reality's forge.\n\nSome Transmuters are tinkerers and pranksters. Others seek the power to make and destroy worlds.",
-    "grants": [
-      "srd24:transmuter:transmutation-savant",
-      "srd24:transmuter:transmuters-stone",
-      "srd24:transmuter:wondrous-alteration"
-    ]
-  },
-  {
     "id": "srd24:transmuter:empowered-transmutation",
     "kind": "subclass-feature",
     "name": "Empowered Transmutation",
-    "source": "srd24",
-    "page": "AU 20",
+    "source": "au",
+    "page": "20",
     "tags": [
       "transmuter-feature",
       "wizard-feature"
@@ -311,8 +297,8 @@
     "id": "srd24:transmuter:potent-stone",
     "kind": "subclass-feature",
     "name": "Potent Stone",
-    "source": "srd24",
-    "page": "AU 20",
+    "source": "au",
+    "page": "20",
     "tags": [
       "transmuter-feature",
       "wizard-feature"
@@ -323,8 +309,8 @@
     "id": "srd24:transmuter:shape-shifter",
     "kind": "subclass-feature",
     "name": "Shape-Shifter",
-    "source": "srd24",
-    "page": "AU 20",
+    "source": "au",
+    "page": "20",
     "tags": [
       "transmuter-feature",
       "wizard-feature"
@@ -335,8 +321,8 @@
     "id": "srd24:transmuter:master-transmuter",
     "kind": "subclass-feature",
     "name": "Master Transmuter",
-    "source": "srd24",
-    "page": "AU 20",
+    "source": "au",
+    "page": "20",
     "tags": [
       "transmuter-feature",
       "wizard-feature"

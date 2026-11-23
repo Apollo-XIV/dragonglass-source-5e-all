@@ -3,17 +3,18 @@
     "id": "srd:subclass:trickery-domain",
     "kind": "subclass",
     "name": "Trickery Domain",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "Gods of trickery—such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Trickery Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | charm person, disguise self |\n| 3rd | mirror image, pass without trace |\n| 5th | blink, dispel magic |\n| 7th | dimension door, polymorph |\n| 9th | dominate person, modify memory |",
     "levels": {
       "1": {
         "grants": [
-          "srd:trickery:trickery-domain",
+          "srd:trickery:blessing-of-the-trickster",
           "srd:spell:charm-person",
           "srd:spell:disguise-self"
         ]
@@ -69,8 +70,8 @@
     "id": "srd:trickery:blessing-of-the-trickster",
     "kind": "subclass-feature",
     "name": "Blessing of the Trickster",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "trickery-feature",
       "cleric-feature"
@@ -89,26 +90,11 @@
     ]
   },
   {
-    "id": "srd:trickery:trickery-domain",
-    "kind": "subclass-feature",
-    "name": "Trickery Domain",
-    "source": "srd",
-    "page": "PHB 62",
-    "tags": [
-      "trickery-feature",
-      "cleric-feature"
-    ],
-    "text": "Gods of trickery—such as Tymora, Beshaba, Olidammara, the Traveler, Garl Glittergold, and Loki—are mischief-makers and instigators who stand as a constant challenge to the accepted order among both gods and mortals. They're patrons of thieves, scoundrels, gamblers, rebels, and liberators. Their clerics are a disruptive force in the world, puncturing pride, mocking tyrants, stealing from the rich, freeing captives, and flouting hollow traditions. They prefer subterfuge, pranks, deception, and theft rather than direct confrontation.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Trickery Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | charm person, disguise self |\n| 3rd | mirror image, pass without trace |\n| 5th | blink, dispel magic |\n| 7th | dimension door, polymorph |\n| 9th | dominate person, modify memory |",
-    "grants": [
-      "srd:trickery:blessing-of-the-trickster"
-    ]
-  },
-  {
     "id": "srd:trickery:channel-divinity-invoke-duplicity",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Invoke Duplicity",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "trickery-feature",
       "cleric-feature"
@@ -142,8 +128,8 @@
     "id": "srd:trickery:channel-divinity-cloak-of-shadows",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Cloak of Shadows",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "trickery-feature",
       "cleric-feature"
@@ -168,8 +154,8 @@
     "id": "srd:trickery:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "trickery-feature",
       "cleric-feature"
@@ -180,8 +166,8 @@
     "id": "srd:trickery:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "trickery-feature",
       "cleric-feature"
@@ -192,8 +178,8 @@
     "id": "srd:trickery:improved-duplicity",
     "kind": "subclass-feature",
     "name": "Improved Duplicity",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "trickery-feature",
       "cleric-feature"

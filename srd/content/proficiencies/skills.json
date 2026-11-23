@@ -3,7 +3,7 @@
     "id": "srd:skill:acrobatics",
     "kind": "skill",
     "name": "Acrobatics",
-    "source": "srd",
+    "source": "phb",
     "ability": "dex",
     "tags": [
       "skill"
@@ -16,13 +16,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 176"
+    "page": "176"
   },
   {
     "id": "srd:skill:animal-handling",
     "kind": "skill",
     "name": "Animal Handling",
-    "source": "srd",
+    "source": "phb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -35,13 +35,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   },
   {
     "id": "srd:skill:arcana",
     "kind": "skill",
     "name": "Arcana",
-    "source": "srd",
+    "source": "phb",
     "ability": "int",
     "tags": [
       "skill"
@@ -54,13 +54,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 177"
+    "page": "177"
   },
   {
     "id": "srd:skill:athletics",
     "kind": "skill",
     "name": "Athletics",
-    "source": "srd",
+    "source": "phb",
     "ability": "str",
     "tags": [
       "skill"
@@ -73,13 +73,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 175"
+    "page": "175"
   },
   {
     "id": "srd:skill:deception",
     "kind": "skill",
     "name": "Deception",
-    "source": "srd",
+    "source": "phb",
     "ability": "cha",
     "tags": [
       "skill"
@@ -92,13 +92,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   },
   {
     "id": "srd:skill:history",
     "kind": "skill",
     "name": "History",
-    "source": "srd",
+    "source": "phb",
     "ability": "int",
     "tags": [
       "skill"
@@ -111,13 +111,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 177"
+    "page": "177"
   },
   {
     "id": "srd:skill:insight",
     "kind": "skill",
     "name": "Insight",
-    "source": "srd",
+    "source": "phb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -130,13 +130,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   },
   {
     "id": "srd:skill:intimidation",
     "kind": "skill",
     "name": "Intimidation",
-    "source": "srd",
+    "source": "phb",
     "ability": "cha",
     "tags": [
       "skill"
@@ -149,13 +149,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 179"
+    "page": "179"
   },
   {
     "id": "srd:skill:investigation",
     "kind": "skill",
     "name": "Investigation",
-    "source": "srd",
+    "source": "phb",
     "ability": "int",
     "tags": [
       "skill"
@@ -168,13 +168,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   },
   {
     "id": "srd:skill:medicine",
     "kind": "skill",
     "name": "Medicine",
-    "source": "srd",
+    "source": "phb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -187,13 +187,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   },
   {
     "id": "srd:skill:nature",
     "kind": "skill",
     "name": "Nature",
-    "source": "srd",
+    "source": "phb",
     "ability": "int",
     "tags": [
       "skill"
@@ -206,13 +206,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   },
   {
     "id": "srd:skill:perception",
     "kind": "skill",
     "name": "Perception",
-    "source": "srd",
+    "source": "phb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -225,13 +225,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   },
   {
     "id": "srd:skill:performance",
     "kind": "skill",
     "name": "Performance",
-    "source": "srd",
+    "source": "phb",
     "ability": "cha",
     "tags": [
       "skill"
@@ -244,13 +244,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 179"
+    "page": "179"
   },
   {
     "id": "srd:skill:persuasion",
     "kind": "skill",
     "name": "Persuasion",
-    "source": "srd",
+    "source": "phb",
     "ability": "cha",
     "tags": [
       "skill"
@@ -263,13 +263,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 179"
+    "page": "179"
   },
   {
     "id": "srd:skill:religion",
     "kind": "skill",
     "name": "Religion",
-    "source": "srd",
+    "source": "phb",
     "ability": "int",
     "tags": [
       "skill"
@@ -282,13 +282,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   },
   {
     "id": "srd:skill:sleight-of-hand",
     "kind": "skill",
     "name": "Sleight of Hand",
-    "source": "srd",
+    "source": "phb",
     "ability": "dex",
     "tags": [
       "skill"
@@ -301,13 +301,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 177"
+    "page": "177"
   },
   {
     "id": "srd:skill:stealth",
     "kind": "skill",
     "name": "Stealth",
-    "source": "srd",
+    "source": "phb",
     "ability": "dex",
     "tags": [
       "skill"
@@ -320,13 +320,13 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 177"
+    "page": "177"
   },
   {
     "id": "srd:skill:survival",
     "kind": "skill",
     "name": "Survival",
-    "source": "srd",
+    "source": "phb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -339,6 +339,6 @@
         "value": "proficient"
       }
     ],
-    "page": "PHB 178"
+    "page": "178"
   }
 ]

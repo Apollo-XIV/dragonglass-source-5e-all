@@ -3,17 +3,19 @@
     "id": "srd:subclass:death-domain",
     "kind": "subclass",
     "name": "Death Domain",
-    "source": "srd",
-    "page": "DMG 96",
+    "source": "dmg",
+    "page": "96",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as Chemosh, Myrkul, and Wee Jas are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder (Anubis, Bhaal, and Pyremius), pain (Iuz or Loviatar), disease or poison (Incabulos, Talona, or Morgion), and the underworld (Hades and Hel).\n\nAt each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.\n\n**Death Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | false life, ray of sickness |\n| 3rd | blindness/deafness, ray of enfeeblement |\n| 5th | animate dead, vampiric touch |\n| 7th | blight, death ward |\n| 9th | antilife shell, cloudkill |",
     "levels": {
       "1": {
         "grants": [
-          "srd:death:death-domain",
+          "srd:death:bonus-proficiency",
+          "srd:death:reaper",
           "srd:spell:false-life",
           "srd:spell:ray-of-sickness"
         ],
@@ -83,8 +85,8 @@
     "id": "srd:death:bonus-proficiency",
     "kind": "subclass-feature",
     "name": "Bonus Proficiency",
-    "source": "srd",
-    "page": "DMG 96",
+    "source": "dmg",
+    "page": "96",
     "tags": [
       "death-feature",
       "cleric-feature"
@@ -95,8 +97,8 @@
     "id": "srd:death:reaper",
     "kind": "subclass-feature",
     "name": "Reaper",
-    "source": "srd",
-    "page": "DMG 96",
+    "source": "dmg",
+    "page": "96",
     "tags": [
       "death-feature",
       "cleric-feature"
@@ -104,27 +106,11 @@
     "text": "At 1st level, the cleric learns one necromancy cantrip of his or her choice from any spell list. When the cleric casts a necromancy cantrip that normally targets only one creature, the spell can instead target two creatures within range and within 5 feet of each other."
   },
   {
-    "id": "srd:death:death-domain",
-    "kind": "subclass-feature",
-    "name": "Death Domain",
-    "source": "srd",
-    "page": "DMG 96",
-    "tags": [
-      "death-feature",
-      "cleric-feature"
-    ],
-    "text": "The Death domain is concerned with the forces that cause death, as well as the negative energy that gives rise to undead creatures. Deities such as Chemosh, Myrkul, and Wee Jas are patrons of necromancers, death knights, liches, mummy lords, and vampires. Gods of the Death domain also embody murder (Anubis, Bhaal, and Pyremius), pain (Iuz or Loviatar), disease or poison (Incabulos, Talona, or Morgion), and the underworld (Hades and Hel).\n\nAt each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.\n\n**Death Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | false life, ray of sickness |\n| 3rd | blindness/deafness, ray of enfeeblement |\n| 5th | animate dead, vampiric touch |\n| 7th | blight, death ward |\n| 9th | antilife shell, cloudkill |",
-    "grants": [
-      "srd:death:bonus-proficiency",
-      "srd:death:reaper"
-    ]
-  },
-  {
     "id": "srd:death:channel-divinity-touch-of-death",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Touch of Death",
-    "source": "srd",
-    "page": "DMG 96",
+    "source": "dmg",
+    "page": "96",
     "tags": [
       "death-feature",
       "cleric-feature"
@@ -145,8 +131,8 @@
     "id": "srd:death:inescapable-destruction",
     "kind": "subclass-feature",
     "name": "Inescapable Destruction",
-    "source": "srd",
-    "page": "DMG 96",
+    "source": "dmg",
+    "page": "96",
     "tags": [
       "death-feature",
       "cleric-feature"
@@ -157,8 +143,8 @@
     "id": "srd:death:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "DMG 96",
+    "source": "dmg",
+    "page": "96",
     "tags": [
       "death-feature",
       "cleric-feature"
@@ -169,8 +155,8 @@
     "id": "srd:death:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "death-feature",
       "cleric-feature"
@@ -181,8 +167,8 @@
     "id": "srd:death:improved-reaper",
     "kind": "subclass-feature",
     "name": "Improved Reaper",
-    "source": "srd",
-    "page": "DMG 96",
+    "source": "dmg",
+    "page": "96",
     "tags": [
       "death-feature",
       "cleric-feature"

@@ -3,13 +3,14 @@
     "id": "srd:subclass:the-genie",
     "kind": "subclass",
     "name": "The Genie",
-    "source": "srd",
-    "page": "TCE 73",
+    "source": "tce",
+    "page": "73",
     "class": "srd:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "You have made a pact with one of the rarest kinds of genie, a noble genie. Such entities rule vast fiefs on the Elemental Planes and have great influence over lesser genies and elemental creatures. Noble genies are varied in their motivations, but most are arrogant and wield power that rivals that of lesser deities. They delight in turning the table on mortals, who often bind genies into servitude, and readily enter into pacts that expand their reach.\n\nYou choose your patron's kind or determine it randomly, using the Genie Kind table.\n\n**Genie Kind**\n| d4 | Kind | Element |\n| --- | --- | --- |\n| 1 | Dao | Earth |\n| 2 | Djinni | Air |\n| 3 | Efreeti | Fire |\n| 4 | Marid | Water |\n\n**Expanded Spell List.** *1st-level Genie feature*\n\nThe Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.\n\n**Genie Expanded Spells**\n| Spell Level | Genie Spells | Dao Spells | Djinni Spells | Efreeti Spells | Marid Spells |\n| --- | --- | --- | --- | --- | --- |\n| 1st | detect evil and good | sanctuary | thunderwave | burning hands | fog cloud |\n| 2nd | phantasmal force | spike growth | gust of wind | scorching ray | blur |\n| 3rd | create food and water | meld into stone | wind wall | fireball | sleet storm |\n| 4th | phantasmal killer | stone shape | greater invisibility | fire shield | control water |\n| 5th | creation | wall of stone | seeming | flame strike | cone of cold |\n| 9th | wish | — | — | — | — |",
     "choices": [
       {
         "id": "srd:subclass:the-genie:terrain",
@@ -26,7 +27,7 @@
     "levels": {
       "1": {
         "grants": [
-          "srd:genie:the-genie"
+          "srd:genie:genies-vessel"
         ]
       },
       "6": {
@@ -50,7 +51,7 @@
     "id": "srd:terrain:dao",
     "kind": "terrain",
     "name": "Dao",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "the-genie-terrain-option"
     ],
@@ -77,7 +78,7 @@
     "id": "srd:terrain:djinni",
     "kind": "terrain",
     "name": "Djinni",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "the-genie-terrain-option"
     ],
@@ -104,7 +105,7 @@
     "id": "srd:terrain:efreeti",
     "kind": "terrain",
     "name": "Efreeti",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "the-genie-terrain-option"
     ],
@@ -131,7 +132,7 @@
     "id": "srd:terrain:marid",
     "kind": "terrain",
     "name": "Marid",
-    "source": "srd",
+    "source": "tce",
     "tags": [
       "the-genie-terrain-option"
     ],
@@ -158,8 +159,8 @@
     "id": "srd:genie:bottled-respite",
     "kind": "subclass-feature",
     "name": "Bottled Respite",
-    "source": "srd",
-    "page": "TCE 73",
+    "source": "tce",
+    "page": "73",
     "tags": [
       "genie-feature",
       "warlock-feature",
@@ -202,8 +203,8 @@
     "id": "srd:genie:genies-wrath",
     "kind": "subclass-feature",
     "name": "Genie's Wrath",
-    "source": "srd",
-    "page": "TCE 73",
+    "source": "tce",
+    "page": "73",
     "tags": [
       "genie-feature",
       "warlock-feature",
@@ -215,8 +216,8 @@
     "id": "srd:genie:genies-vessel",
     "kind": "subclass-feature",
     "name": "Genie's Vessel",
-    "source": "srd",
-    "page": "TCE 73",
+    "source": "tce",
+    "page": "73",
     "tags": [
       "genie-feature",
       "warlock-feature"
@@ -237,26 +238,11 @@
     ]
   },
   {
-    "id": "srd:genie:the-genie",
-    "kind": "subclass-feature",
-    "name": "The Genie",
-    "source": "srd",
-    "page": "TCE 73",
-    "tags": [
-      "genie-feature",
-      "warlock-feature"
-    ],
-    "text": "You have made a pact with one of the rarest kinds of genie, a noble genie. Such entities rule vast fiefs on the Elemental Planes and have great influence over lesser genies and elemental creatures. Noble genies are varied in their motivations, but most are arrogant and wield power that rivals that of lesser deities. They delight in turning the table on mortals, who often bind genies into servitude, and readily enter into pacts that expand their reach.\n\nYou choose your patron's kind or determine it randomly, using the Genie Kind table.\n\n**Genie Kind**\n| d4 | Kind | Element |\n| --- | --- | --- |\n| 1 | Dao | Earth |\n| 2 | Djinni | Air |\n| 3 | Efreeti | Fire |\n| 4 | Marid | Water |\n\n**Expanded Spell List.** *1st-level Genie feature*\n\nThe Genie lets you choose from an expanded list of spells when you learn a warlock spell. The Genie Expanded Spells table shows the genie spells that are added to the warlock spell list for you, along with the spells associated in the table with your patron's kind: dao, djinni, efreeti, or marid.\n\n**Genie Expanded Spells**\n| Spell Level | Genie Spells | Dao Spells | Djinni Spells | Efreeti Spells | Marid Spells |\n| --- | --- | --- | --- | --- | --- |\n| 1st | detect evil and good | sanctuary | thunderwave | burning hands | fog cloud |\n| 2nd | phantasmal force | spike growth | gust of wind | scorching ray | blur |\n| 3rd | create food and water | meld into stone | wind wall | fireball | sleet storm |\n| 4th | phantasmal killer | stone shape | greater invisibility | fire shield | control water |\n| 5th | creation | wall of stone | seeming | flame strike | cone of cold |\n| 9th | wish | — | — | — | — |",
-    "grants": [
-      "srd:genie:genies-vessel"
-    ]
-  },
-  {
     "id": "srd:genie:elemental-gift",
     "kind": "subclass-feature",
     "name": "Elemental Gift",
-    "source": "srd",
-    "page": "TCE 73",
+    "source": "tce",
+    "page": "73",
     "tags": [
       "genie-feature",
       "warlock-feature"
@@ -298,8 +284,8 @@
     "id": "srd:genie:sanctuary-vessel",
     "kind": "subclass-feature",
     "name": "Sanctuary Vessel",
-    "source": "srd",
-    "page": "TCE 73",
+    "source": "tce",
+    "page": "73",
     "tags": [
       "genie-feature",
       "warlock-feature"
@@ -321,8 +307,8 @@
     "id": "srd:genie:limited-wish",
     "kind": "subclass-feature",
     "name": "Limited Wish",
-    "source": "srd",
-    "page": "TCE 73",
+    "source": "tce",
+    "page": "73",
     "tags": [
       "genie-feature",
       "warlock-feature"

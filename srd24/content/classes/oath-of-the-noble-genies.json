@@ -3,17 +3,20 @@
     "id": "srd24:subclass:oath-of-the-noble-genies",
     "kind": "subclass",
     "name": "Oath of the Noble Genies",
-    "source": "srd24",
-    "page": "FRHoF 20",
+    "source": "frhof",
+    "page": "20",
     "class": "srd24:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "*Brandish the Elemental Splendor of Genies*\n\nPaladins sworn to the Oath of the Noble Genies revere the forces of the Elemental Planes. Through taking this oath, Paladins draw power from the four different types of genies—dao, masters of earth; djinn, masters of air; efreet, masters of fire; and marids, masters of water. In Faerûn, many Paladins who swear this oath hail from Calimshan, a land teeming with genies.\n\nPaladins who swear this oath often undertake quests that take them all over the Realms and across the multiverse—including the Elemental Planes. These paladins share the following tenets:\n\n- Sow the seeds of creation amid the ashes of destruction.\n- Lead with splendor and grace.\n- Respect the elements, and fear their wrath.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:noble-genies:oath-of-the-noble-genies",
+          "srd24:noble-genies:elemental-smite",
+          "srd24:noble-genies:genie-spells",
+          "srd24:noble-genies:genies-splendor",
           "srd24:spell:chromatic-orb",
           "srd24:spell:elementalism",
           "srd24:spell:thunderous-smite"
@@ -64,8 +67,8 @@
     "id": "srd24:noble-genies:daos-crush",
     "kind": "subclass-feature",
     "name": "Dao's Crush",
-    "source": "srd24",
-    "page": "FRHoF 20",
+    "source": "frhof",
+    "page": "20",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -86,8 +89,8 @@
     "id": "srd24:noble-genies:djinnis-escape",
     "kind": "subclass-feature",
     "name": "Djinni's Escape",
-    "source": "srd24",
-    "page": "FRHoF 20",
+    "source": "frhof",
+    "page": "20",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -108,8 +111,8 @@
     "id": "srd24:noble-genies:efreetis-fury",
     "kind": "subclass-feature",
     "name": "Efreeti's Fury",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -130,8 +133,8 @@
     "id": "srd24:noble-genies:marids-surge",
     "kind": "subclass-feature",
     "name": "Marid's Surge",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -152,8 +155,8 @@
     "id": "srd24:noble-genies:elemental-smite",
     "kind": "subclass-feature",
     "name": "Elemental Smite",
-    "source": "srd24",
-    "page": "FRHoF 20",
+    "source": "frhof",
+    "page": "20",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -170,8 +173,8 @@
     "id": "srd24:noble-genies:genie-spells",
     "kind": "subclass-feature",
     "name": "Genie Spells",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -182,8 +185,8 @@
     "id": "srd24:noble-genies:genies-splendor",
     "kind": "subclass-feature",
     "name": "Genie's Splendor",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -191,28 +194,11 @@
     "text": "When you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers. You can use a Shield and still gain this benefit.\n\nYou also gain proficiency in one of the following skills of your choice: Acrobatics, Intimidation, Performance, or Persuasion."
   },
   {
-    "id": "srd24:noble-genies:oath-of-the-noble-genies",
-    "kind": "subclass-feature",
-    "name": "Oath of the Noble Genies",
-    "source": "srd24",
-    "page": "FRHoF 20",
-    "tags": [
-      "noble-genies-feature",
-      "paladin-feature"
-    ],
-    "text": "*Brandish the Elemental Splendor of Genies*\n\nPaladins sworn to the Oath of the Noble Genies revere the forces of the Elemental Planes. Through taking this oath, Paladins draw power from the four different types of genies—dao, masters of earth; djinn, masters of air; efreet, masters of fire; and marids, masters of water. In Faerûn, many Paladins who swear this oath hail from Calimshan, a land teeming with genies.\n\nPaladins who swear this oath often undertake quests that take them all over the Realms and across the multiverse—including the Elemental Planes. These paladins share the following tenets:\n\n- Sow the seeds of creation amid the ashes of destruction.\n- Lead with splendor and grace.\n- Respect the elements, and fear their wrath.",
-    "grants": [
-      "srd24:noble-genies:elemental-smite",
-      "srd24:noble-genies:genie-spells",
-      "srd24:noble-genies:genies-splendor"
-    ]
-  },
-  {
     "id": "srd24:noble-genies:aura-of-elemental-shielding",
     "kind": "subclass-feature",
     "name": "Aura of Elemental Shielding",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -223,8 +209,8 @@
     "id": "srd24:noble-genies:elemental-rebuke",
     "kind": "subclass-feature",
     "name": "Elemental Rebuke",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"
@@ -266,8 +252,8 @@
     "id": "srd24:noble-genies:noble-scion",
     "kind": "subclass-feature",
     "name": "Noble Scion",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "noble-genies-feature",
       "paladin-feature"

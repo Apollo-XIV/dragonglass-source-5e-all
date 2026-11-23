@@ -3,8 +3,8 @@
     "id": "srd:rogue:expertise",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd:rogue:sneak-attack",
     "kind": "class-feature",
     "name": "Sneak Attack",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd:rogue:thieves-cant",
     "kind": "class-feature",
     "name": "Thieves' Cant",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -36,8 +36,8 @@
     "id": "srd:rogue:cunning-action",
     "kind": "class-feature",
     "name": "Cunning Action",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -58,8 +58,8 @@
     "id": "srd:rogue:roguish-archetype",
     "kind": "class-feature",
     "name": "Roguish Archetype",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -69,8 +69,8 @@
     "id": "srd:rogue:steady-aim",
     "kind": "class-feature",
     "name": "Steady Aim",
-    "source": "srd",
-    "page": "TCE 62",
+    "source": "tce",
+    "page": "62",
     "tags": [
       "rogue-feature"
     ],
@@ -91,8 +91,8 @@
     "id": "srd:rogue:uncanny-dodge",
     "kind": "class-feature",
     "name": "Uncanny Dodge",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -113,8 +113,8 @@
     "id": "srd:rogue:expertise-6",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -124,8 +124,8 @@
     "id": "srd:rogue:evasion",
     "kind": "class-feature",
     "name": "Evasion",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -135,8 +135,8 @@
     "id": "srd:rogue:reliable-talent",
     "kind": "class-feature",
     "name": "Reliable Talent",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -146,8 +146,8 @@
     "id": "srd:rogue:blindsense",
     "kind": "class-feature",
     "name": "Blindsense",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -157,8 +157,8 @@
     "id": "srd:rogue:slippery-mind",
     "kind": "class-feature",
     "name": "Slippery Mind",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -168,8 +168,8 @@
     "id": "srd:rogue:elusive",
     "kind": "class-feature",
     "name": "Elusive",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],
@@ -179,8 +179,8 @@
     "id": "srd:rogue:stroke-of-luck",
     "kind": "class-feature",
     "name": "Stroke of Luck",
-    "source": "srd",
-    "page": "PHB 94",
+    "source": "phb",
+    "page": "94",
     "tags": [
       "rogue-feature"
     ],

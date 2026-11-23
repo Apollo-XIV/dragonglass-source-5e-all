@@ -3,8 +3,8 @@
     "id": "srd24:barbarian:rage",
     "kind": "class-feature",
     "name": "Rage",
-    "source": "srd24",
-    "page": "XPHB 51",
+    "source": "xphb",
+    "page": "51",
     "tags": [
       "barbarian-feature"
     ],
@@ -89,8 +89,8 @@
     "id": "srd24:barbarian:unarmored-defense",
     "kind": "class-feature",
     "name": "Unarmored Defense",
-    "source": "srd24",
-    "page": "XPHB 51",
+    "source": "xphb",
+    "page": "51",
     "tags": [
       "barbarian-feature"
     ],
@@ -112,8 +112,8 @@
     "id": "srd24:barbarian:weapon-mastery",
     "kind": "class-feature",
     "name": "Weapon Mastery",
-    "source": "srd24",
-    "page": "XPHB 52",
+    "source": "xphb",
+    "page": "52",
     "tags": [
       "barbarian-feature"
     ],
@@ -123,8 +123,8 @@
     "id": "srd24:barbarian:danger-sense",
     "kind": "class-feature",
     "name": "Danger Sense",
-    "source": "srd24",
-    "page": "XPHB 52",
+    "source": "xphb",
+    "page": "52",
     "tags": [
       "barbarian-feature"
     ],
@@ -148,8 +148,8 @@
     "id": "srd24:barbarian:reckless-attack",
     "kind": "class-feature",
     "name": "Reckless Attack",
-    "source": "srd24",
-    "page": "XPHB 52",
+    "source": "xphb",
+    "page": "52",
     "tags": [
       "barbarian-feature"
     ],
@@ -159,8 +159,8 @@
     "id": "srd24:barbarian:barbarian-subclass",
     "kind": "class-feature",
     "name": "Barbarian Subclass",
-    "source": "srd24",
-    "page": "XPHB 52",
+    "source": "xphb",
+    "page": "52",
     "tags": [
       "barbarian-feature"
     ],
@@ -170,8 +170,8 @@
     "id": "srd24:barbarian:primal-knowledge",
     "kind": "class-feature",
     "name": "Primal Knowledge",
-    "source": "srd24",
-    "page": "XPHB 52",
+    "source": "xphb",
+    "page": "52",
     "tags": [
       "barbarian-feature"
     ],
@@ -181,8 +181,8 @@
     "id": "srd24:barbarian:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -192,8 +192,8 @@
     "id": "srd24:barbarian:fast-movement",
     "kind": "class-feature",
     "name": "Fast Movement",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -218,8 +218,8 @@
     "id": "srd24:barbarian:feral-instinct",
     "kind": "class-feature",
     "name": "Feral Instinct",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -239,8 +239,8 @@
     "id": "srd24:barbarian:instinctive-pounce",
     "kind": "class-feature",
     "name": "Instinctive Pounce",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -250,8 +250,8 @@
     "id": "srd24:barbarian:brutal-strike",
     "kind": "class-feature",
     "name": "Brutal Strike",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -272,8 +272,8 @@
     "id": "srd24:barbarian:relentless-rage",
     "kind": "class-feature",
     "name": "Relentless Rage",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -314,8 +314,8 @@
     "id": "srd24:barbarian:improved-brutal-strike",
     "kind": "class-feature",
     "name": "Improved Brutal Strike",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -325,8 +325,8 @@
     "id": "srd24:barbarian:persistent-rage",
     "kind": "class-feature",
     "name": "Persistent Rage",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -367,8 +367,8 @@
     "id": "srd24:barbarian:improved-brutal-strike-17",
     "kind": "class-feature",
     "name": "Improved Brutal Strike",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -378,8 +378,8 @@
     "id": "srd24:barbarian:indomitable-might",
     "kind": "class-feature",
     "name": "Indomitable Might",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -389,8 +389,8 @@
     "id": "srd24:barbarian:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],
@@ -400,8 +400,8 @@
     "id": "srd24:barbarian:primal-champion",
     "kind": "class-feature",
     "name": "Primal Champion",
-    "source": "srd24",
-    "page": "XPHB 53",
+    "source": "xphb",
+    "page": "53",
     "tags": [
       "barbarian-feature"
     ],

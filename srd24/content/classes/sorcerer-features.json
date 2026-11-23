@@ -3,8 +3,8 @@
     "id": "srd24:sorcerer:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 139",
+    "source": "xphb",
+    "page": "139",
     "tags": [
       "sorcerer-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:sorcerer:innate-sorcery",
     "kind": "class-feature",
     "name": "Innate Sorcery",
-    "source": "srd24",
-    "page": "XPHB 140",
+    "source": "xphb",
+    "page": "140",
     "tags": [
       "sorcerer-feature"
     ],
@@ -75,8 +75,8 @@
     "id": "srd24:sorcerer:font-of-magic",
     "kind": "class-feature",
     "name": "Font of Magic",
-    "source": "srd24",
-    "page": "XPHB 140",
+    "source": "xphb",
+    "page": "140",
     "tags": [
       "sorcerer-feature"
     ],
@@ -114,8 +114,8 @@
     "id": "srd24:sorcerer:metamagic",
     "kind": "class-feature",
     "name": "Metamagic",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],
@@ -125,8 +125,8 @@
     "id": "srd24:sorcerer:metamagic-options",
     "kind": "class-feature",
     "name": "Metamagic Options",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],
@@ -136,8 +136,8 @@
     "id": "srd24:sorcerer:sorcerer-subclass",
     "kind": "class-feature",
     "name": "Sorcerer Subclass",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],
@@ -147,8 +147,8 @@
     "id": "srd24:sorcerer:sorcerous-restoration",
     "kind": "class-feature",
     "name": "Sorcerous Restoration",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],
@@ -189,8 +189,8 @@
     "id": "srd24:sorcerer:sorcery-incarnate",
     "kind": "class-feature",
     "name": "Sorcery Incarnate",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],
@@ -210,8 +210,8 @@
     "id": "srd24:sorcerer:metamagic-10",
     "kind": "class-feature",
     "name": "Metamagic",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],
@@ -221,8 +221,8 @@
     "id": "srd24:sorcerer:metamagic-17",
     "kind": "class-feature",
     "name": "Metamagic",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],
@@ -232,8 +232,8 @@
     "id": "srd24:sorcerer:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],
@@ -243,8 +243,8 @@
     "id": "srd24:sorcerer:arcane-apotheosis",
     "kind": "class-feature",
     "name": "Arcane Apotheosis",
-    "source": "srd24",
-    "page": "XPHB 141",
+    "source": "xphb",
+    "page": "141",
     "tags": [
       "sorcerer-feature"
     ],

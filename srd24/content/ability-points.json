@@ -3,7 +3,7 @@
     "id": "srd24:ability-point:str",
     "kind": "ability-point",
     "name": "Strength +1",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "str",
     "modifiers": [
       {
@@ -17,7 +17,7 @@
     "id": "srd24:ability-point:dex",
     "kind": "ability-point",
     "name": "Dexterity +1",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "dex",
     "modifiers": [
       {
@@ -31,7 +31,7 @@
     "id": "srd24:ability-point:con",
     "kind": "ability-point",
     "name": "Constitution +1",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "con",
     "modifiers": [
       {
@@ -45,7 +45,7 @@
     "id": "srd24:ability-point:int",
     "kind": "ability-point",
     "name": "Intelligence +1",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "int",
     "modifiers": [
       {
@@ -59,7 +59,7 @@
     "id": "srd24:ability-point:wis",
     "kind": "ability-point",
     "name": "Wisdom +1",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "wis",
     "modifiers": [
       {
@@ -73,7 +73,7 @@
     "id": "srd24:ability-point:cha",
     "kind": "ability-point",
     "name": "Charisma +1",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "cha",
     "modifiers": [
       {

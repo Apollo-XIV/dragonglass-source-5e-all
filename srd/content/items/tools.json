@@ -3,12 +3,12 @@
     "id": "srd:item:alchemists-supplies",
     "kind": "item",
     "name": "Alchemist's Supplies",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 8,
     "value": 5000,
@@ -18,13 +18,13 @@
     "id": "srd:item:artisans-tools",
     "kind": "item",
     "name": "Artisan's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools",
       "item-group"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "text": "**Artisan's Tools.** These special tools include the items needed to pursue a craft or trade. Proficiency with a set of artisan's tools lets you add your proficiency bonus to any ability checks you make using the tools in your craft. Each type of artisan's tools requires a separate proficiency.\n\nThis group covers: Alchemist's Supplies, Brewer's Supplies, Calligrapher's Supplies, Carpenter's Tools, Cartographer's Tools, Cobbler's Tools, Cook's Utensils, Glassblower's Tools, Jeweler's Tools, Leatherworker's Tools, Mason's Tools, Painter's Supplies, Potter's Tools, Smith's Tools, Tinker's Tools, Weaver's Tools, Woodcarver's Tools."
   },
@@ -32,12 +32,12 @@
     "id": "srd:item:bagpipes",
     "kind": "item",
     "name": "Bagpipes",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 6,
     "value": 3000,
@@ -61,12 +61,12 @@
     "id": "srd:item:birdpipes",
     "kind": "item",
     "name": "Birdpipes",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "Pan pipes or satyr pipes, also known as the shalm, these are sacred to Lliira and popular with wood elf and wild elf bards."
   },
@@ -74,12 +74,12 @@
     "id": "srd:item:brewers-supplies",
     "kind": "item",
     "name": "Brewer's Supplies",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 9,
     "value": 2000,
@@ -89,12 +89,12 @@
     "id": "srd:item:calligraphers-supplies",
     "kind": "item",
     "name": "Calligrapher's Supplies",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 5,
     "value": 1000,
@@ -104,12 +104,12 @@
     "id": "srd:item:carpenters-tools",
     "kind": "item",
     "name": "Carpenter's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 6,
     "value": 800,
@@ -119,12 +119,12 @@
     "id": "srd:item:cartographers-tools",
     "kind": "item",
     "name": "Cartographer's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 6,
     "value": 1500,
@@ -134,12 +134,12 @@
     "id": "srd:item:cobblers-tools",
     "kind": "item",
     "name": "Cobbler's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 5,
     "value": 500,
@@ -149,12 +149,12 @@
     "id": "srd:item:cooks-utensils",
     "kind": "item",
     "name": "Cook's Utensils",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 8,
     "value": 100,
@@ -164,12 +164,12 @@
     "id": "srd:item:dice-set",
     "kind": "item",
     "name": "Dice Set",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "gaming-set"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "value": 10,
     "text": "**Gaming Set.** If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.\n\nProficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.\n\n**Components.** A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens.\n\n**History.** Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it.\n\n**Insight.** Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood.\n\n**Sleight of Hand.** Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt.\n\n**Gaming Set**\n| Activity | DC |\n| --- | --- |\n| Catch a player cheating | 15 |\n| Gain insight into an opponent's personality | 15 |"
@@ -178,12 +178,12 @@
     "id": "srd:item:disguise-kit",
     "kind": "item",
     "name": "Disguise Kit",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "kit"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 3,
     "value": 2500,
@@ -193,12 +193,12 @@
     "id": "srd:item:dragonchess-set",
     "kind": "item",
     "name": "Dragonchess Set",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "gaming-set"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 0.5,
     "value": 100,
@@ -208,12 +208,12 @@
     "id": "srd:item:drum",
     "kind": "item",
     "name": "Drum",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 3,
     "value": 600,
@@ -237,12 +237,12 @@
     "id": "srd:item:dulcimer",
     "kind": "item",
     "name": "Dulcimer",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 10,
     "value": 2500,
@@ -266,12 +266,12 @@
     "id": "srd:item:enchanted-three-dragon-ante-set",
     "kind": "item",
     "name": "Enchanted Three-Dragon Ante Set",
-    "source": "srd",
+    "source": "llk",
     "tags": [
       "tool",
       "gaming-set"
     ],
-    "page": "LLK 15",
+    "page": "15",
     "itemType": "tool",
     "text": "One card in this deck is enchanted to appear as whatever specific card its owner commands. This magic works only 25 percent of the time, but the deck is worth 500 gp to any serious gambler who doesn't mind the risk—or who isn't told about it."
   },
@@ -279,12 +279,12 @@
     "id": "srd:item:flute",
     "kind": "item",
     "name": "Flute",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 1,
     "value": 200,
@@ -308,12 +308,12 @@
     "id": "srd:item:forgery-kit",
     "kind": "item",
     "name": "Forgery Kit",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "kit"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 5,
     "value": 1500,
@@ -323,13 +323,13 @@
     "id": "srd:item:gaming-set",
     "kind": "item",
     "name": "Gaming Set",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "gaming-set",
       "item-group"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "text": "**Gaming Set.** If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.\n\nProficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.\n\n**Components.** A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens.\n\n**History.** Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it.\n\n**Insight.** Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood.\n\n**Sleight of Hand.** Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt.\n\n**Gaming Set**\n| Activity | DC |\n| --- | --- |\n| Catch a player cheating | 15 |\n| Gain insight into an opponent's personality | 15 |\n\nThis group covers: Dice Set, Dragonchess Set, Playing Card Set, Three-Dragon Ante Set."
   },
@@ -337,12 +337,12 @@
     "id": "srd:item:glassblowers-tools",
     "kind": "item",
     "name": "Glassblower's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 5,
     "value": 3000,
@@ -352,12 +352,12 @@
     "id": "srd:item:glaur",
     "kind": "item",
     "name": "Glaur",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "Short, curved horns like a cornucopia. Played with valves, glaur sound like trumpets, while those without valves, known as gloon, have a more mournful sound."
   },
@@ -365,12 +365,12 @@
     "id": "srd:item:hand-drum",
     "kind": "item",
     "name": "Hand Drum",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "A double-headed skin drum fitted with handles along its side."
   },
@@ -378,12 +378,12 @@
     "id": "srd:item:herbalism-kit",
     "kind": "item",
     "name": "Herbalism Kit",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "kit"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 3,
     "value": 500,
@@ -393,12 +393,12 @@
     "id": "srd:item:horn",
     "kind": "item",
     "name": "Horn",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 2,
     "value": 300,
@@ -422,12 +422,12 @@
     "id": "srd:item:jewelers-tools",
     "kind": "item",
     "name": "Jeweler's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 2,
     "value": 2500,
@@ -437,12 +437,12 @@
     "id": "srd:item:leatherworkers-tools",
     "kind": "item",
     "name": "Leatherworker's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 5,
     "value": 500,
@@ -452,12 +452,12 @@
     "id": "srd:item:longhorn",
     "kind": "item",
     "name": "Longhorn",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "A Faerûnian flute of sophisticated make, found only in areas with skilled artisans, as in great cities or elven enclaves."
   },
@@ -465,12 +465,12 @@
     "id": "srd:item:lute",
     "kind": "item",
     "name": "Lute",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 2,
     "value": 3500,
@@ -494,12 +494,12 @@
     "id": "srd:item:lyre",
     "kind": "item",
     "name": "Lyre",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 2,
     "value": 3000,
@@ -523,12 +523,12 @@
     "id": "srd:item:masons-tools",
     "kind": "item",
     "name": "Mason's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 8,
     "value": 1000,
@@ -538,13 +538,13 @@
     "id": "srd:item:musical-instrument",
     "kind": "item",
     "name": "Musical Instrument",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument",
       "item-group"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "text": "**Instrument.** If you have proficiency with a given musical instrument, you can add your proficiency bonus to any ability checks you make to play music with the instrument. A bard can use a musical instrument as a spellcasting focus. Each type of musical instrument requires a separate proficiency.\n\nProficiency with a musical instrument indicates you are familiar with the techniques used to play it. You also have knowledge of some songs commonly performed with that instrument.\n\n**History.** Your expertise aids you in recalling lore related to your instrument.\n\n**Performance.** Your ability to put on a good show is improved when you incorporate an instrument into your act.\n\n**Compose a Tune.** As part of a long rest, you can compose a new tune and lyrics for your instrument. You might use this ability to impress a noble or spread scandalous rumors with a catchy tune.\n\n**Musical Instrument**\n| Activity | DC |\n| --- | --- |\n| Identify a tune | 10 |\n| Improvise a tune | 20 |\n\nThis group covers: Bagpipes, Drum, Dulcimer, Flute, Horn, Lute, Lyre, Pan Flute, Shawm, Viol.",
     "modifiers": [
@@ -566,12 +566,12 @@
     "id": "srd:item:navigators-tools",
     "kind": "item",
     "name": "Navigator's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "kit"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 2,
     "value": 2500,
@@ -581,12 +581,12 @@
     "id": "srd:item:painters-supplies",
     "kind": "item",
     "name": "Painter's Supplies",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 5,
     "value": 1000,
@@ -596,12 +596,12 @@
     "id": "srd:item:pan-flute",
     "kind": "item",
     "name": "Pan Flute",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 2,
     "value": 1200,
@@ -625,12 +625,12 @@
     "id": "srd:item:playing-card-set",
     "kind": "item",
     "name": "Playing Card Set",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "gaming-set"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "value": 50,
     "text": "**Gaming Set.** If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.\n\nProficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.\n\n**Components.** A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens.\n\n**History.** Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it.\n\n**Insight.** Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood.\n\n**Sleight of Hand.** Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt.\n\n**Gaming Set**\n| Activity | DC |\n| --- | --- |\n| Catch a player cheating | 15 |\n| Gain insight into an opponent's personality | 15 |"
@@ -639,12 +639,12 @@
     "id": "srd:item:poisoners-kit",
     "kind": "item",
     "name": "Poisoner's Kit",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "kit"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 2,
     "value": 5000,
@@ -654,12 +654,12 @@
     "id": "srd:item:potters-tools",
     "kind": "item",
     "name": "Potter's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 3,
     "value": 1000,
@@ -669,12 +669,12 @@
     "id": "srd:item:shawm",
     "kind": "item",
     "name": "Shawm",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 1,
     "value": 200,
@@ -698,12 +698,12 @@
     "id": "srd:item:smiths-tools",
     "kind": "item",
     "name": "Smith's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 8,
     "value": 2000,
@@ -713,12 +713,12 @@
     "id": "srd:item:songhorn",
     "kind": "item",
     "name": "Songhorn",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "A recorder, a simple type of flute, usually carved from wood."
   },
@@ -726,12 +726,12 @@
     "id": "srd:item:tantan",
     "kind": "item",
     "name": "Tantan",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "A tambourine, a popular instrument with halflings and humans south of the Dalelands."
   },
@@ -739,12 +739,12 @@
     "id": "srd:item:thelarr",
     "kind": "item",
     "name": "Thelarr",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "Also known as a whistlecane, a simple and easy-to-make wind instrument cut from a reed. They are so simple, in fact, that skilled bards frequently make and give them away to children—to the parents' delight or regret."
   },
@@ -752,12 +752,12 @@
     "id": "srd:item:thieves-tools",
     "kind": "item",
     "name": "Thieves' Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "kit"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 1,
     "value": 2500,
@@ -767,12 +767,12 @@
     "id": "srd:item:three-dragon-ante-set",
     "kind": "item",
     "name": "Three-Dragon Ante Set",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "gaming-set"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "value": 100,
     "text": "**Gaming Set.** If you are proficient with a gaming set, you can add your proficiency bonus to ability checks you make to play a game with that set. Each type of gaming set requires a separate proficiency.\n\nProficiency with a gaming set applies to one type of game, such as Three-Dragon Ante or games of chance that use dice.\n\n**Components.** A gaming set has all the pieces needed to play a specific game or type of game, such as a complete deck of cards or a board and tokens.\n\n**History.** Your mastery of a game includes knowledge of its history, as well as of important events it was connected to or prominent historical figures involved with it.\n\n**Insight.** Playing games with someone is a good way to gain understanding of their personality, granting you a better ability to discern their lies from their truths and read their mood.\n\n**Sleight of Hand.** Sleight of Hand is a useful skill for cheating at a game, as it allows you to swap pieces, palm cards, or alter a die roll. Alternatively, engrossing a target in a game by manipulating the components with dexterous movements is a great distraction for a pickpocketing attempt.\n\n**Gaming Set**\n| Activity | DC |\n| --- | --- |\n| Catch a player cheating | 15 |\n| Gain insight into an opponent's personality | 15 |"
@@ -781,12 +781,12 @@
     "id": "srd:item:tinkers-tools",
     "kind": "item",
     "name": "Tinker's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 10,
     "value": 5000,
@@ -796,12 +796,12 @@
     "id": "srd:item:tocken",
     "kind": "item",
     "name": "Tocken",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "A hanging set of carved oval bells, usually played with a pair of light wooden hammers (or open handed). They are most common in underground cultures, where the resonant tones can carry."
   },
@@ -809,12 +809,12 @@
     "id": "srd:item:viol",
     "kind": "item",
     "name": "Viol",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 1,
     "value": 3000,
@@ -838,12 +838,12 @@
     "id": "srd:item:wargong",
     "kind": "item",
     "name": "Wargong",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "A metal gong, traditionally made from a shield, particularly the shield of an enemy. Both goblins and dwarves make and play wargongs, their sound echoing through tunnels in the Underdark."
   },
@@ -851,12 +851,12 @@
     "id": "srd:item:weavers-tools",
     "kind": "item",
     "name": "Weaver's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 5,
     "value": 100,
@@ -866,12 +866,12 @@
     "id": "srd:item:whistle-stick",
     "kind": "item",
     "name": "Whistle-Stick",
-    "source": "srd",
+    "source": "oga",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "OGA 4",
+    "page": "4",
     "itemType": "tool",
     "text": "The grung of One Grung Above are trained to use this new musical instrument. This is a hollow tube with holes cut throughout, much like a flute. You can play music with it for entertainment, but the grung also swing it about by a sturdy cord (attached) to create a sound recognizable by other grung, so they know each other's approximate location. Additionally, grung that know Thieves' Cant can use a whistle stick in this manner to communicate over distance."
   },
@@ -879,12 +879,12 @@
     "id": "srd:item:woodcarvers-tools",
     "kind": "item",
     "name": "Woodcarver's Tools",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "tool",
       "artisans-tools"
     ],
-    "page": "PHB 154",
+    "page": "154",
     "itemType": "tool",
     "weight": 5,
     "value": 100,
@@ -894,12 +894,12 @@
     "id": "srd:item:yarting",
     "kind": "item",
     "name": "Yarting",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "A southern instrument from Amn and Calimshan that is a Faerûnian analog to the guitar. Numerous variations have spread across the continent."
   },
@@ -907,12 +907,12 @@
     "id": "srd:item:zulkoon",
     "kind": "item",
     "name": "Zulkoon",
-    "source": "srd",
+    "source": "scag",
     "tags": [
       "tool",
       "musical-instrument"
     ],
-    "page": "SCAG 124",
+    "page": "124",
     "itemType": "tool",
     "text": "A complex pump organ that originated with the zulkirs of Thay, who use it in the casting of their spells. It is considered to have a dramatic, but sinister, sound."
   }

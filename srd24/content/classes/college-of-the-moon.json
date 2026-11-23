@@ -3,17 +3,19 @@
     "id": "srd24:subclass:college-of-the-moon",
     "kind": "subclass",
     "name": "College of the Moon",
-    "source": "srd24",
-    "page": "FRHoF 16",
+    "source": "frhof",
+    "page": "16",
     "class": "srd24:class:bard",
     "tags": [
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "*Inspire Allies with Primal Tales*\n\nThe College of the Moon traces its origins to the ancient druidic circles of the Moonshae Isles, who entrusted the first Bards of this tradition with chronicling the stories of the islands and their people. Bards of this college draw from the isles' fey magic and the primal power of the moonwells to bolster their allies, protect the natural world, and inspire their bardic works.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:moon:college-of-the-moon"
+          "srd24:moon:moons-inspiration",
+          "srd24:moon:primal-lore"
         ],
         "choices": [
           {
@@ -53,8 +55,8 @@
     "id": "srd24:moon:moons-inspiration",
     "kind": "subclass-feature",
     "name": "Moon's Inspiration",
-    "source": "srd24",
-    "page": "FRHoF 17",
+    "source": "frhof",
+    "page": "17",
     "tags": [
       "moon-feature",
       "bard-feature"
@@ -65,8 +67,8 @@
     "id": "srd24:moon:primal-lore",
     "kind": "subclass-feature",
     "name": "Primal Lore",
-    "source": "srd24",
-    "page": "FRHoF 17",
+    "source": "frhof",
+    "page": "17",
     "tags": [
       "moon-feature",
       "bard-feature"
@@ -74,27 +76,11 @@
     "text": "You learn Druidic and one cantrip from the Druid spell list. It counts as a Bard spell for you but doesn't count against the number of cantrips you know. Whenever you gain a Bard level, you can replace this cantrip with another cantrip of your choice from the Druid spell list.\n\nAdditionally, choose one of the following skills: Animal Handling, Insight, Medicine, Nature, Perception, or Survival. You have proficiency in that skill."
   },
   {
-    "id": "srd24:moon:college-of-the-moon",
-    "kind": "subclass-feature",
-    "name": "College of the Moon",
-    "source": "srd24",
-    "page": "FRHoF 16",
-    "tags": [
-      "moon-feature",
-      "bard-feature"
-    ],
-    "text": "*Inspire Allies with Primal Tales*\n\nThe College of the Moon traces its origins to the ancient druidic circles of the Moonshae Isles, who entrusted the first Bards of this tradition with chronicling the stories of the islands and their people. Bards of this college draw from the isles' fey magic and the primal power of the moonwells to bolster their allies, protect the natural world, and inspire their bardic works.",
-    "grants": [
-      "srd24:moon:moons-inspiration",
-      "srd24:moon:primal-lore"
-    ]
-  },
-  {
     "id": "srd24:moon:blessing-of-moonlight",
     "kind": "subclass-feature",
     "name": "Blessing of Moonlight",
-    "source": "srd24",
-    "page": "FRHoF 17",
+    "source": "frhof",
+    "page": "17",
     "tags": [
       "moon-feature",
       "bard-feature"
@@ -105,8 +91,8 @@
     "id": "srd24:moon:eventides-splendor",
     "kind": "subclass-feature",
     "name": "Eventide's Splendor",
-    "source": "srd24",
-    "page": "FRHoF 17",
+    "source": "frhof",
+    "page": "17",
     "tags": [
       "moon-feature",
       "bard-feature"

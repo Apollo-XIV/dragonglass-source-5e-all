@@ -3,17 +3,19 @@
     "id": "srd24:subclass:undead-patron",
     "kind": "subclass",
     "name": "Undead Patron",
-    "source": "srd24",
-    "page": "RHW 24",
+    "source": "rhw",
+    "page": "24",
     "class": "srd24:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "*Defy Death for Profane Power*\n\nYou've made a pact with a creature that defies the cycle of life and death: a powerful lich, a vampire, or another entity of undeath. Having once been mortal, these ancient patrons know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge and other secrets with those who work their will among the living.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:undead:undead-patron",
+          "srd24:undead:form-of-dread",
+          "srd24:undead:undead-spells",
           "srd24:spell:bane",
           "srd24:spell:blindness-deafness",
           "srd24:spell:phantasmal-force",
@@ -59,8 +61,8 @@
     "id": "srd24:undead:form-of-dread",
     "kind": "subclass-feature",
     "name": "Form of Dread",
-    "source": "srd24",
-    "page": "RHW 24",
+    "source": "rhw",
+    "page": "24",
     "tags": [
       "undead-feature",
       "warlock-feature"
@@ -102,8 +104,8 @@
     "id": "srd24:undead:undead-spells",
     "kind": "subclass-feature",
     "name": "Undead Spells",
-    "source": "srd24",
-    "page": "RHW 24",
+    "source": "rhw",
+    "page": "24",
     "tags": [
       "undead-feature",
       "warlock-feature"
@@ -111,27 +113,11 @@
     "text": "The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Undead Spells table, you thereafter always have the listed spells prepared.\n\n**Undead Spells**\n| Warlock Level | Spells |\n| --- | --- |\n| 3 | Bane, Blindness/Deafness, Phantasmal Force, Ray of Sickness |\n| 5 | Speak with Dead, Summon Undead |\n| 7 | Greater Invisibility, Phantasmal Killer |\n| 9 | Antilife Shell, Cloudkill |"
   },
   {
-    "id": "srd24:undead:undead-patron",
-    "kind": "subclass-feature",
-    "name": "Undead Patron",
-    "source": "srd24",
-    "page": "RHW 24",
-    "tags": [
-      "undead-feature",
-      "warlock-feature"
-    ],
-    "text": "*Defy Death for Profane Power*\n\nYou've made a pact with a creature that defies the cycle of life and death: a powerful lich, a vampire, or another entity of undeath. Having once been mortal, these ancient patrons know firsthand the paths of ambition and the routes past the doors of death. They eagerly share this profane knowledge and other secrets with those who work their will among the living.",
-    "grants": [
-      "srd24:undead:form-of-dread",
-      "srd24:undead:undead-spells"
-    ]
-  },
-  {
     "id": "srd24:undead:grave-touched",
     "kind": "subclass-feature",
     "name": "Grave Touched",
-    "source": "srd24",
-    "page": "RHW 24",
+    "source": "rhw",
+    "page": "24",
     "tags": [
       "undead-feature",
       "warlock-feature"
@@ -142,8 +128,8 @@
     "id": "srd24:undead:necrotic-husk",
     "kind": "subclass-feature",
     "name": "Necrotic Husk",
-    "source": "srd24",
-    "page": "RHW 25",
+    "source": "rhw",
+    "page": "25",
     "tags": [
       "undead-feature",
       "warlock-feature"
@@ -181,8 +167,8 @@
     "id": "srd24:undead:superior-dread",
     "kind": "subclass-feature",
     "name": "Superior Dread",
-    "source": "srd24",
-    "page": "RHW 25",
+    "source": "rhw",
+    "page": "25",
     "tags": [
       "undead-feature",
       "warlock-feature"

@@ -3,17 +3,20 @@
     "id": "srd:subclass:twilight-domain",
     "kind": "subclass",
     "name": "Twilight Domain",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "The twilit transition from light into darkness often brings calm and even joy, as the day's labors end and the hours of rest begin. The darkness can also bring terrors, but the gods of twilight guard against the horrors of the night.\n\nClerics who serve these deities-examples of which appear on the Twilight Deities table-bring comfort to those who seek rest and protect them by venturing into the encroaching darkness to ensure that the dark is a comfort, not a terror.\n\n**Twilight Deities**\n| Example Deity | Pantheon |\n| --- | --- |\n| Boldrei | Eberron |\n| Celestian | Greyhawk |\n| Dol Arrah | Eberron |\n| Helm | Forgotten Realms |\n| Ilmater | Forgotten Realms |\n| Mishakal | Dragonlance |\n| Selûne | Forgotten Realms |\n| Yondalla | Halfling |\n\n**Domain Spells.** *1st-level Twilight Domain feature*\n\nYou gain domain spells at the cleric levels listed in the Twilight Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\n**Twilight Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | faerie fire, sleep |\n| 3rd | moonbeam, see invisibility |\n| 5th | aura of vitality, Leomund's tiny hut |\n| 7th | aura of life, greater invisibility |\n| 9th | circle of power, mislead |",
     "levels": {
       "1": {
         "grants": [
-          "srd:twilight:twilight-domain",
+          "srd:twilight:bonus-proficiencies",
+          "srd:twilight:eyes-of-night",
+          "srd:twilight:vigilant-blessing",
           "srd:spell:faerie-fire",
           "srd:spell:sleep"
         ]
@@ -69,8 +72,8 @@
     "id": "srd:twilight:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "tags": [
       "twilight-feature",
       "cleric-feature"
@@ -105,8 +108,8 @@
     "id": "srd:twilight:eyes-of-night",
     "kind": "subclass-feature",
     "name": "Eyes of Night",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "tags": [
       "twilight-feature",
       "cleric-feature"
@@ -139,8 +142,8 @@
     "id": "srd:twilight:vigilant-blessing",
     "kind": "subclass-feature",
     "name": "Vigilant Blessing",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "tags": [
       "twilight-feature",
       "cleric-feature"
@@ -159,28 +162,11 @@
     ]
   },
   {
-    "id": "srd:twilight:twilight-domain",
-    "kind": "subclass-feature",
-    "name": "Twilight Domain",
-    "source": "srd",
-    "page": "TCE 34",
-    "tags": [
-      "twilight-feature",
-      "cleric-feature"
-    ],
-    "text": "The twilit transition from light into darkness often brings calm and even joy, as the day's labors end and the hours of rest begin. The darkness can also bring terrors, but the gods of twilight guard against the horrors of the night.\n\nClerics who serve these deities-examples of which appear on the Twilight Deities table-bring comfort to those who seek rest and protect them by venturing into the encroaching darkness to ensure that the dark is a comfort, not a terror.\n\n**Twilight Deities**\n| Example Deity | Pantheon |\n| --- | --- |\n| Boldrei | Eberron |\n| Celestian | Greyhawk |\n| Dol Arrah | Eberron |\n| Helm | Forgotten Realms |\n| Ilmater | Forgotten Realms |\n| Mishakal | Dragonlance |\n| Selûne | Forgotten Realms |\n| Yondalla | Halfling |\n\n**Domain Spells.** *1st-level Twilight Domain feature*\n\nYou gain domain spells at the cleric levels listed in the Twilight Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\n**Twilight Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | faerie fire, sleep |\n| 3rd | moonbeam, see invisibility |\n| 5th | aura of vitality, Leomund's tiny hut |\n| 7th | aura of life, greater invisibility |\n| 9th | circle of power, mislead |",
-    "grants": [
-      "srd:twilight:bonus-proficiencies",
-      "srd:twilight:eyes-of-night",
-      "srd:twilight:vigilant-blessing"
-    ]
-  },
-  {
     "id": "srd:twilight:channel-divinity-twilight-sanctuary",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Twilight Sanctuary",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "tags": [
       "twilight-feature",
       "cleric-feature"
@@ -205,8 +191,8 @@
     "id": "srd:twilight:steps-of-night",
     "kind": "subclass-feature",
     "name": "Steps of Night",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "tags": [
       "twilight-feature",
       "cleric-feature"
@@ -248,8 +234,8 @@
     "id": "srd:twilight:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "tags": [
       "twilight-feature",
       "cleric-feature"
@@ -260,8 +246,8 @@
     "id": "srd:twilight:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "tags": [
       "twilight-feature",
       "cleric-feature"
@@ -272,8 +258,8 @@
     "id": "srd:twilight:twilight-shroud",
     "kind": "subclass-feature",
     "name": "Twilight Shroud",
-    "source": "srd",
-    "page": "TCE 34",
+    "source": "tce",
+    "page": "34",
     "tags": [
       "twilight-feature",
       "cleric-feature"

@@ -3,18 +3,21 @@
     "id": "srd:subclass:arcane-archer",
     "kind": "subclass",
     "name": "Arcane Archer",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "class": "srd:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
     "fluff": "> Arrows are the worst. They go much farther than eye rays. That's why I stay indoors all the time. Besides, the sky is totally overrated.\n>\n> — Xanathar\n\n> So there are different names for different sorts of people who swing swords? Why? Let me try: big sword swinger and tiny sword swinger. No, that sounds like it's the size of the sword that matters. How about: big meat bag with a sword and little meat bag with a sword!\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:arcane-archer:arcane-archer",
+          "srd:arcane-archer:arcane-archer-lore",
+          "srd:arcane-archer:arcane-shot",
+          "srd:arcane-archer:arcane-shot-options",
           "srd:spell:prestidigitation",
           "srd:spell:druidcraft"
         ],
@@ -113,8 +116,8 @@
     "id": "srd:arcane-archer:arcane-archer-lore",
     "kind": "subclass-feature",
     "name": "Arcane Archer Lore",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -125,8 +128,8 @@
     "id": "srd:arcane-archer:arcane-shot",
     "kind": "subclass-feature",
     "name": "Arcane Shot",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -137,8 +140,8 @@
     "id": "srd:arcane-archer:arcane-shot-options",
     "kind": "subclass-feature",
     "name": "Arcane Shot Options",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -146,28 +149,11 @@
     "text": "The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order. They are all magical effects, and each one is associated with one of the schools of magic.\n\nIf an option requires a saving throw, your Arcane Shot save DC is calculated as follows:\n\n**Arcane Shot save DC** = 8 + your proficiency bonus + your Intelligence modifier"
   },
   {
-    "id": "srd:arcane-archer:arcane-archer",
-    "kind": "subclass-feature",
-    "name": "Arcane Archer",
-    "source": "srd",
-    "page": "XGE 28",
-    "tags": [
-      "arcane-archer-feature",
-      "fighter-feature"
-    ],
-    "text": "An Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Arcane Archers are some of the most elite warriors among the elves. They stand watch over the fringes of elven domains, keeping a keen eye out for trespassers and using magic-infused arrows to defeat monsters and invaders before they can reach elven settlements. Over the centuries, the methods of these elf archers have been learned by members of other races who can also balance arcane aptitude with archery.",
-    "grants": [
-      "srd:arcane-archer:arcane-archer-lore",
-      "srd:arcane-archer:arcane-shot",
-      "srd:arcane-archer:arcane-shot-options"
-    ]
-  },
-  {
     "id": "srd:arcane-archer:magic-arrow",
     "kind": "subclass-feature",
     "name": "Magic Arrow",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -178,8 +164,8 @@
     "id": "srd:arcane-archer:curving-shot",
     "kind": "subclass-feature",
     "name": "Curving Shot",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -201,8 +187,8 @@
     "id": "srd:arcane-archer:additional-arcane-shot-option",
     "kind": "subclass-feature",
     "name": "Additional Arcane Shot Option",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -213,8 +199,8 @@
     "id": "srd:arcane-archer:additional-arcane-shot-option-10",
     "kind": "subclass-feature",
     "name": "Additional Arcane Shot Option",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -225,8 +211,8 @@
     "id": "srd:arcane-archer:ever-ready-shot",
     "kind": "subclass-feature",
     "name": "Ever-Ready Shot",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -237,8 +223,8 @@
     "id": "srd:arcane-archer:additional-arcane-shot-option-15",
     "kind": "subclass-feature",
     "name": "Additional Arcane Shot Option",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -249,8 +235,8 @@
     "id": "srd:arcane-archer:additional-arcane-shot-option-18",
     "kind": "subclass-feature",
     "name": "Additional Arcane Shot Option",
-    "source": "srd",
-    "page": "XGE 28",
+    "source": "xge",
+    "page": "28",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"

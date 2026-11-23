@@ -3,17 +3,19 @@
     "id": "srd:subclass:school-of-necromancy",
     "kind": "subclass",
     "name": "School of Necromancy",
-    "source": "srd",
-    "page": "PHB 118",
+    "source": "phb",
+    "page": "118",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate.\n\nMost people see necromancers as menacing, or even villainous, due to the close association with death. Not all necromancers are evil, but the forces they manipulate are considered taboo by many societies.",
     "levels": {
       "2": {
         "grants": [
-          "srd:necromancy:school-of-necromancy"
+          "srd:necromancy:necromancy-savant",
+          "srd:necromancy:grim-harvest"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:necromancy:necromancy-savant",
     "kind": "subclass-feature",
     "name": "Necromancy Savant",
-    "source": "srd",
-    "page": "PHB 118",
+    "source": "phb",
+    "page": "118",
     "tags": [
       "necromancy-feature",
       "wizard-feature"
@@ -49,8 +51,8 @@
     "id": "srd:necromancy:grim-harvest",
     "kind": "subclass-feature",
     "name": "Grim Harvest",
-    "source": "srd",
-    "page": "PHB 118",
+    "source": "phb",
+    "page": "118",
     "tags": [
       "necromancy-feature",
       "wizard-feature"
@@ -58,27 +60,11 @@
     "text": "At 2nd level, you gain the ability to reap life energy from creatures you kill with your spells. Once per turn when you kill one or more creatures with a spell of 1st level or higher, you regain hit points equal to twice the spell's level, or three times its level if the spell belongs to the School of Necromancy. You don't gain this benefit for killing constructs or undead."
   },
   {
-    "id": "srd:necromancy:school-of-necromancy",
-    "kind": "subclass-feature",
-    "name": "School of Necromancy",
-    "source": "srd",
-    "page": "PHB 118",
-    "tags": [
-      "necromancy-feature",
-      "wizard-feature"
-    ],
-    "text": "The School of Necromancy explores the cosmic forces of life, death, and undeath. As you focus your studies in this tradition, you learn to manipulate the energy that animates all living things. As you progress, you learn to sap the life force from a creature as your magic destroys its body, transforming that vital energy into magical power you can manipulate.\n\nMost people see necromancers as menacing, or even villainous, due to the close association with death. Not all necromancers are evil, but the forces they manipulate are considered taboo by many societies.",
-    "grants": [
-      "srd:necromancy:necromancy-savant",
-      "srd:necromancy:grim-harvest"
-    ]
-  },
-  {
     "id": "srd:necromancy:undead-thralls",
     "kind": "subclass-feature",
     "name": "Undead Thralls",
-    "source": "srd",
-    "page": "PHB 118",
+    "source": "phb",
+    "page": "118",
     "tags": [
       "necromancy-feature",
       "wizard-feature"
@@ -89,8 +75,8 @@
     "id": "srd:necromancy:inured-to-undeath",
     "kind": "subclass-feature",
     "name": "Inured to Undeath",
-    "source": "srd",
-    "page": "PHB 118",
+    "source": "phb",
+    "page": "118",
     "tags": [
       "necromancy-feature",
       "wizard-feature"
@@ -114,8 +100,8 @@
     "id": "srd:necromancy:command-undead",
     "kind": "subclass-feature",
     "name": "Command Undead",
-    "source": "srd",
-    "page": "PHB 118",
+    "source": "phb",
+    "page": "118",
     "tags": [
       "necromancy-feature",
       "wizard-feature"

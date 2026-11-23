@@ -3,7 +3,7 @@
     "id": "srd24:expertise:acrobatics",
     "kind": "expertise",
     "name": "Acrobatics",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -27,7 +27,7 @@
     "id": "srd24:expertise:animal-handling",
     "kind": "expertise",
     "name": "Animal Handling",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -51,7 +51,7 @@
     "id": "srd24:expertise:arcana",
     "kind": "expertise",
     "name": "Arcana",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -75,7 +75,7 @@
     "id": "srd24:expertise:athletics",
     "kind": "expertise",
     "name": "Athletics",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -99,7 +99,7 @@
     "id": "srd24:expertise:deception",
     "kind": "expertise",
     "name": "Deception",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -123,7 +123,7 @@
     "id": "srd24:expertise:history",
     "kind": "expertise",
     "name": "History",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -147,7 +147,7 @@
     "id": "srd24:expertise:insight",
     "kind": "expertise",
     "name": "Insight",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -171,7 +171,7 @@
     "id": "srd24:expertise:intimidation",
     "kind": "expertise",
     "name": "Intimidation",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -195,7 +195,7 @@
     "id": "srd24:expertise:investigation",
     "kind": "expertise",
     "name": "Investigation",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -219,7 +219,7 @@
     "id": "srd24:expertise:medicine",
     "kind": "expertise",
     "name": "Medicine",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -243,7 +243,7 @@
     "id": "srd24:expertise:nature",
     "kind": "expertise",
     "name": "Nature",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -267,7 +267,7 @@
     "id": "srd24:expertise:perception",
     "kind": "expertise",
     "name": "Perception",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -291,7 +291,7 @@
     "id": "srd24:expertise:performance",
     "kind": "expertise",
     "name": "Performance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -315,7 +315,7 @@
     "id": "srd24:expertise:persuasion",
     "kind": "expertise",
     "name": "Persuasion",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -339,7 +339,7 @@
     "id": "srd24:expertise:religion",
     "kind": "expertise",
     "name": "Religion",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -363,7 +363,7 @@
     "id": "srd24:expertise:sleight-of-hand",
     "kind": "expertise",
     "name": "Sleight of Hand",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -387,7 +387,7 @@
     "id": "srd24:expertise:stealth",
     "kind": "expertise",
     "name": "Stealth",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -411,7 +411,7 @@
     "id": "srd24:expertise:survival",
     "kind": "expertise",
     "name": "Survival",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-skill"
     ],
@@ -435,7 +435,7 @@
     "id": "srd24:expertise:thieves-tools",
     "kind": "expertise",
     "name": "Thieves' Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "expertise-tool"
     ],

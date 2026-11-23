@@ -3,17 +3,19 @@
     "id": "srd24:subclass:aberrant-sorcery",
     "kind": "subclass",
     "name": "Aberrant Sorcery",
-    "source": "srd24",
-    "page": "XPHB 145",
+    "source": "xphb",
+    "page": "145",
     "class": "srd24:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "*Wield Unnatural Psionic Power*\n\nAn alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?\n\nPerhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm's warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole's psionic power is yours. However you acquired this power, your mind is aflame with it.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:aberrant:aberrant-sorcery",
+          "srd24:aberrant:psionic-spells",
+          "srd24:aberrant:telepathic-speech",
           "srd24:spell:arms-of-hadar",
           "srd24:spell:calm-emotions",
           "srd24:spell:detect-thoughts",
@@ -61,8 +63,8 @@
     "id": "srd24:aberrant:psionic-spells",
     "kind": "subclass-feature",
     "name": "Psionic Spells",
-    "source": "srd24",
-    "page": "XPHB 145",
+    "source": "xphb",
+    "page": "145",
     "tags": [
       "aberrant-feature",
       "sorcerer-feature"
@@ -73,8 +75,8 @@
     "id": "srd24:aberrant:telepathic-speech",
     "kind": "subclass-feature",
     "name": "Telepathic Speech",
-    "source": "srd24",
-    "page": "XPHB 145",
+    "source": "xphb",
+    "page": "145",
     "tags": [
       "aberrant-feature",
       "sorcerer-feature"
@@ -93,27 +95,11 @@
     ]
   },
   {
-    "id": "srd24:aberrant:aberrant-sorcery",
-    "kind": "subclass-feature",
-    "name": "Aberrant Sorcery",
-    "source": "srd24",
-    "page": "XPHB 145",
-    "tags": [
-      "aberrant-feature",
-      "sorcerer-feature"
-    ],
-    "text": "*Wield Unnatural Psionic Power*\n\nAn alien influence has wrapped its tendrils around your mind, giving you psionic power. You can now touch other minds with that power and alter the world around you. Will this power shine from you as a hopeful beacon to others? Or will you be a terror to those who feel the stab of your mind?\n\nPerhaps a psychic wind from the Astral Plane carried psionic energy to you, or you were exposed to the Far Realm's warping influence. Alternatively, you were implanted with a mind flayer tadpole, but your transformation into a mind flayer never occurred; now the tadpole's psionic power is yours. However you acquired this power, your mind is aflame with it.",
-    "grants": [
-      "srd24:aberrant:psionic-spells",
-      "srd24:aberrant:telepathic-speech"
-    ]
-  },
-  {
     "id": "srd24:aberrant:psionic-sorcery",
     "kind": "subclass-feature",
     "name": "Psionic Sorcery",
-    "source": "srd24",
-    "page": "XPHB 146",
+    "source": "xphb",
+    "page": "146",
     "tags": [
       "aberrant-feature",
       "sorcerer-feature"
@@ -124,8 +110,8 @@
     "id": "srd24:aberrant:psychic-defenses",
     "kind": "subclass-feature",
     "name": "Psychic Defenses",
-    "source": "srd24",
-    "page": "XPHB 146",
+    "source": "xphb",
+    "page": "146",
     "tags": [
       "aberrant-feature",
       "sorcerer-feature"
@@ -160,8 +146,8 @@
     "id": "srd24:aberrant:revelation-in-flesh",
     "kind": "subclass-feature",
     "name": "Revelation in Flesh",
-    "source": "srd24",
-    "page": "XPHB 146",
+    "source": "xphb",
+    "page": "146",
     "tags": [
       "aberrant-feature",
       "sorcerer-feature"
@@ -183,8 +169,8 @@
     "id": "srd24:aberrant:warping-implosion",
     "kind": "subclass-feature",
     "name": "Warping Implosion",
-    "source": "srd24",
-    "page": "XPHB 146",
+    "source": "xphb",
+    "page": "146",
     "tags": [
       "aberrant-feature",
       "sorcerer-feature"

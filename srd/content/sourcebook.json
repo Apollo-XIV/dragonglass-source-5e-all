@@ -1,11 +1,562 @@
-{
-  "id": "srd",
-  "kind": "sourcebook",
-  "name": "System Reference Document 5.1",
-  "source": "srd",
-  "abbreviation": "SRD",
-  "ruleset": "2014",
-  "version": "5.1",
-  "license": "CC-BY-4.0",
-  "attribution": "This work includes material from the System Reference Document 5.1 (\"SRD 5.1\") by Wizards of the Coast LLC, available at https://dnd.wizards.com/resources/systems-reference-document. The SRD 5.1 is licensed under the Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/legalcode.\n\nSome mechanics in this content were derived, with changes, from the structured data of the Foundry VTT dnd5e system (https://github.com/foundryvtt/dnd5e)."
-}
+[
+  {
+    "id": "aag",
+    "kind": "sourcebook",
+    "name": "Astral Adventurer's Guide",
+    "source": "aag",
+    "abbreviation": "AAG",
+    "ruleset": "2014"
+  },
+  {
+    "id": "ai",
+    "kind": "sourcebook",
+    "name": "Acquisitions Incorporated",
+    "source": "ai",
+    "abbreviation": "AI",
+    "ruleset": "2014"
+  },
+  {
+    "id": "aitfr-avt",
+    "kind": "sourcebook",
+    "name": "Adventures in the Forgotten Realms: A Verdant Tomb",
+    "source": "aitfr-avt",
+    "abbreviation": "AitFR-AVT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "aitfr-thp",
+    "kind": "sourcebook",
+    "name": "Adventures in the Forgotten Realms: The Hidden Page",
+    "source": "aitfr-thp",
+    "abbreviation": "AitFR-THP",
+    "ruleset": "2014"
+  },
+  {
+    "id": "awm",
+    "kind": "sourcebook",
+    "name": "Adventure with Muk",
+    "source": "awm",
+    "abbreviation": "AWM",
+    "ruleset": "2014"
+  },
+  {
+    "id": "azfyt",
+    "kind": "sourcebook",
+    "name": "A Zib for Your Thoughts",
+    "source": "azfyt",
+    "abbreviation": "AZfyT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "bam",
+    "kind": "sourcebook",
+    "name": "Boo's Astral Menagerie",
+    "source": "bam",
+    "abbreviation": "BAM",
+    "ruleset": "2014"
+  },
+  {
+    "id": "bgdia",
+    "kind": "sourcebook",
+    "name": "Baldur's Gate: Descent Into Avernus",
+    "source": "bgdia",
+    "abbreviation": "BGDIA",
+    "ruleset": "2014"
+  },
+  {
+    "id": "bgg",
+    "kind": "sourcebook",
+    "name": "Bigby Presents: Glory of the Giants",
+    "source": "bgg",
+    "abbreviation": "BGG",
+    "ruleset": "2014"
+  },
+  {
+    "id": "bmt",
+    "kind": "sourcebook",
+    "name": "The Book of Many Things",
+    "source": "bmt",
+    "abbreviation": "BMT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "cm",
+    "kind": "sourcebook",
+    "name": "Candlekeep Mysteries",
+    "source": "cm",
+    "abbreviation": "CM",
+    "ruleset": "2014"
+  },
+  {
+    "id": "coa",
+    "kind": "sourcebook",
+    "name": "Chains of Asmodeus",
+    "source": "coa",
+    "abbreviation": "CoA",
+    "ruleset": "2014"
+  },
+  {
+    "id": "cos",
+    "kind": "sourcebook",
+    "name": "Curse of Strahd",
+    "source": "cos",
+    "abbreviation": "CoS",
+    "ruleset": "2014"
+  },
+  {
+    "id": "crcotn",
+    "kind": "sourcebook",
+    "name": "Critical Role: Call of the Netherdeep",
+    "source": "crcotn",
+    "abbreviation": "CRCotN",
+    "ruleset": "2014"
+  },
+  {
+    "id": "dc",
+    "kind": "sourcebook",
+    "name": "Essentials Kit: Divine Contention",
+    "source": "dc",
+    "abbreviation": "DC",
+    "ruleset": "2014"
+  },
+  {
+    "id": "ditlcot",
+    "kind": "sourcebook",
+    "name": "Descent into the Lost Caverns of Tsojcanth",
+    "source": "ditlcot",
+    "abbreviation": "DitLCoT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "dmg",
+    "kind": "sourcebook",
+    "name": "Dungeon Master's Guide (2014)",
+    "source": "dmg",
+    "abbreviation": "DMG",
+    "ruleset": "2014"
+  },
+  {
+    "id": "dsotdq",
+    "kind": "sourcebook",
+    "name": "Dragonlance: Shadow of the Dragon Queen",
+    "source": "dsotdq",
+    "abbreviation": "DSotDQ",
+    "ruleset": "2014"
+  },
+  {
+    "id": "egw",
+    "kind": "sourcebook",
+    "name": "Explorer's Guide to Wildemount",
+    "source": "egw",
+    "abbreviation": "EGW",
+    "ruleset": "2014"
+  },
+  {
+    "id": "erlw",
+    "kind": "sourcebook",
+    "name": "Eberron: Rising from the Last War",
+    "source": "erlw",
+    "abbreviation": "ERLW",
+    "ruleset": "2014"
+  },
+  {
+    "id": "ftd",
+    "kind": "sourcebook",
+    "name": "Fizban's Treasury of Dragons",
+    "source": "ftd",
+    "abbreviation": "FTD",
+    "ruleset": "2014"
+  },
+  {
+    "id": "ggr",
+    "kind": "sourcebook",
+    "name": "Guildmasters' Guide to Ravnica",
+    "source": "ggr",
+    "abbreviation": "GGR",
+    "ruleset": "2014"
+  },
+  {
+    "id": "gos",
+    "kind": "sourcebook",
+    "name": "Ghosts of Saltmarsh",
+    "source": "gos",
+    "abbreviation": "GoS",
+    "ruleset": "2014"
+  },
+  {
+    "id": "hftt",
+    "kind": "sourcebook",
+    "name": "Hunt for the Thessalhydra",
+    "source": "hftt",
+    "abbreviation": "HftT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "hotdq",
+    "kind": "sourcebook",
+    "name": "Hoard of the Dragon Queen",
+    "source": "hotdq",
+    "abbreviation": "HotDQ",
+    "ruleset": "2014"
+  },
+  {
+    "id": "idrotf",
+    "kind": "sourcebook",
+    "name": "Icewind Dale: Rime of the Frostmaiden",
+    "source": "idrotf",
+    "abbreviation": "IDRotF",
+    "ruleset": "2014"
+  },
+  {
+    "id": "imr",
+    "kind": "sourcebook",
+    "name": "Infernal Machine Rebuild",
+    "source": "imr",
+    "abbreviation": "IMR",
+    "ruleset": "2014"
+  },
+  {
+    "id": "jttrc",
+    "kind": "sourcebook",
+    "name": "Journeys through the Radiant Citadel",
+    "source": "jttrc",
+    "abbreviation": "JttRC",
+    "ruleset": "2014"
+  },
+  {
+    "id": "kftgv",
+    "kind": "sourcebook",
+    "name": "Keys from the Golden Vault",
+    "source": "kftgv",
+    "abbreviation": "KftGV",
+    "ruleset": "2014"
+  },
+  {
+    "id": "llk",
+    "kind": "sourcebook",
+    "name": "Lost Laboratory of Kwalish",
+    "source": "llk",
+    "abbreviation": "LLK",
+    "ruleset": "2014"
+  },
+  {
+    "id": "lmop",
+    "kind": "sourcebook",
+    "name": "Lost Mine of Phandelver",
+    "source": "lmop",
+    "abbreviation": "LMoP",
+    "ruleset": "2014"
+  },
+  {
+    "id": "lox",
+    "kind": "sourcebook",
+    "name": "Light of Xaryxis",
+    "source": "lox",
+    "abbreviation": "LoX",
+    "ruleset": "2014"
+  },
+  {
+    "id": "lr",
+    "kind": "sourcebook",
+    "name": "Locathah Rising",
+    "source": "lr",
+    "abbreviation": "LR",
+    "ruleset": "2014"
+  },
+  {
+    "id": "mm",
+    "kind": "sourcebook",
+    "name": "Monster Manual (2014)",
+    "source": "mm",
+    "abbreviation": "MM",
+    "ruleset": "2014"
+  },
+  {
+    "id": "mot",
+    "kind": "sourcebook",
+    "name": "Theros: No Silent Secret",
+    "source": "mot",
+    "abbreviation": "MOT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "mpmm",
+    "kind": "sourcebook",
+    "name": "Mordenkainen Presents: Monsters of the Multiverse",
+    "source": "mpmm",
+    "abbreviation": "MPMM",
+    "ruleset": "2014"
+  },
+  {
+    "id": "mtf",
+    "kind": "sourcebook",
+    "name": "Mordenkainen's Tome of Foes",
+    "source": "mtf",
+    "abbreviation": "MTF",
+    "ruleset": "2014"
+  },
+  {
+    "id": "nrh-at",
+    "kind": "sourcebook",
+    "name": "NERDS Restoring Harmony: Adventure Together",
+    "source": "nrh-at",
+    "abbreviation": "NRH-AT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "nrh-tlt",
+    "kind": "sourcebook",
+    "name": "NERDS Restoring Harmony: The Lost Tomb",
+    "source": "nrh-tlt",
+    "abbreviation": "NRH-TLT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "oga",
+    "kind": "sourcebook",
+    "name": "One Grung Above",
+    "source": "oga",
+    "abbreviation": "OGA",
+    "ruleset": "2014"
+  },
+  {
+    "id": "oota",
+    "kind": "sourcebook",
+    "name": "Out of the Abyss",
+    "source": "oota",
+    "abbreviation": "OotA",
+    "ruleset": "2014"
+  },
+  {
+    "id": "oow",
+    "kind": "sourcebook",
+    "name": "The Orrery of the Wanderer",
+    "source": "oow",
+    "abbreviation": "OoW",
+    "ruleset": "2014"
+  },
+  {
+    "id": "pabtso",
+    "kind": "sourcebook",
+    "name": "Phandelver and Below: The Shattered Obelisk",
+    "source": "pabtso",
+    "abbreviation": "PaBTSO",
+    "ruleset": "2014"
+  },
+  {
+    "id": "phb",
+    "kind": "sourcebook",
+    "name": "Player's Handbook (2014)",
+    "source": "phb",
+    "abbreviation": "PHB",
+    "ruleset": "2014"
+  },
+  {
+    "id": "pota",
+    "kind": "sourcebook",
+    "name": "Princes of the Apocalypse",
+    "source": "pota",
+    "abbreviation": "PotA",
+    "ruleset": "2014"
+  },
+  {
+    "id": "psa",
+    "kind": "sourcebook",
+    "name": "Plane Shift: Amonkhet",
+    "source": "psa",
+    "abbreviation": "PSA",
+    "ruleset": "2014"
+  },
+  {
+    "id": "psd",
+    "kind": "sourcebook",
+    "name": "Plane Shift: Dominaria",
+    "source": "psd",
+    "abbreviation": "PSD",
+    "ruleset": "2014"
+  },
+  {
+    "id": "psi",
+    "kind": "sourcebook",
+    "name": "Plane Shift: Innistrad",
+    "source": "psi",
+    "abbreviation": "PSI",
+    "ruleset": "2014"
+  },
+  {
+    "id": "psk",
+    "kind": "sourcebook",
+    "name": "Plane Shift: Kaladesh",
+    "source": "psk",
+    "abbreviation": "PSK",
+    "ruleset": "2014"
+  },
+  {
+    "id": "psx",
+    "kind": "sourcebook",
+    "name": "Plane Shift: Ixalan",
+    "source": "psx",
+    "abbreviation": "PSX",
+    "ruleset": "2014"
+  },
+  {
+    "id": "psz",
+    "kind": "sourcebook",
+    "name": "Plane Shift: Zendikar",
+    "source": "psz",
+    "abbreviation": "PSZ",
+    "ruleset": "2014"
+  },
+  {
+    "id": "qftis",
+    "kind": "sourcebook",
+    "name": "Quests from the Infinite Staircase",
+    "source": "qftis",
+    "abbreviation": "QftIS",
+    "ruleset": "2014"
+  },
+  {
+    "id": "rmbre",
+    "kind": "sourcebook",
+    "name": "The Lost Dungeon of Rickedness: Big Rick Energy",
+    "source": "rmbre",
+    "abbreviation": "RMBRE",
+    "ruleset": "2014"
+  },
+  {
+    "id": "rot",
+    "kind": "sourcebook",
+    "name": "Rise of Tiamat",
+    "source": "rot",
+    "abbreviation": "RoT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "sato",
+    "kind": "sourcebook",
+    "name": "Sigil and the Outlands",
+    "source": "sato",
+    "abbreviation": "SatO",
+    "ruleset": "2014"
+  },
+  {
+    "id": "scag",
+    "kind": "sourcebook",
+    "name": "Sword Coast Adventurer's Guide",
+    "source": "scag",
+    "abbreviation": "SCAG",
+    "ruleset": "2014"
+  },
+  {
+    "id": "scc",
+    "kind": "sourcebook",
+    "name": "Strixhaven: A Curriculum of Chaos",
+    "source": "scc",
+    "abbreviation": "SCC",
+    "ruleset": "2014"
+  },
+  {
+    "id": "sdw",
+    "kind": "sourcebook",
+    "name": "Essentials Kit: Sleeping Dragon's Wake",
+    "source": "sdw",
+    "abbreviation": "SDW",
+    "ruleset": "2014"
+  },
+  {
+    "id": "skt",
+    "kind": "sourcebook",
+    "name": "Storm King's Thunder",
+    "source": "skt",
+    "abbreviation": "SKT",
+    "ruleset": "2014"
+  },
+  {
+    "id": "tce",
+    "kind": "sourcebook",
+    "name": "Tasha's Cauldron of Everything",
+    "source": "tce",
+    "abbreviation": "TCE",
+    "ruleset": "2014"
+  },
+  {
+    "id": "toa",
+    "kind": "sourcebook",
+    "name": "Tomb of Annihilation",
+    "source": "toa",
+    "abbreviation": "ToA",
+    "ruleset": "2014"
+  },
+  {
+    "id": "ttp",
+    "kind": "sourcebook",
+    "name": "The Tortle Package",
+    "source": "ttp",
+    "abbreviation": "TTP",
+    "ruleset": "2014"
+  },
+  {
+    "id": "veor",
+    "kind": "sourcebook",
+    "name": "Vecna: Eve of Ruin",
+    "source": "veor",
+    "abbreviation": "VEoR",
+    "ruleset": "2014"
+  },
+  {
+    "id": "vgm",
+    "kind": "sourcebook",
+    "name": "Volo's Guide to Monsters",
+    "source": "vgm",
+    "abbreviation": "VGM",
+    "ruleset": "2014"
+  },
+  {
+    "id": "vrgr",
+    "kind": "sourcebook",
+    "name": "Van Richten's Guide to Ravenloft",
+    "source": "vrgr",
+    "abbreviation": "VRGR",
+    "ruleset": "2014"
+  },
+  {
+    "id": "wbtw",
+    "kind": "sourcebook",
+    "name": "The Wild Beyond the Witchlight",
+    "source": "wbtw",
+    "abbreviation": "WBtW",
+    "ruleset": "2014"
+  },
+  {
+    "id": "wdh",
+    "kind": "sourcebook",
+    "name": "Waterdeep: Dragon Heist",
+    "source": "wdh",
+    "abbreviation": "WDH",
+    "ruleset": "2014"
+  },
+  {
+    "id": "wdmm",
+    "kind": "sourcebook",
+    "name": "Waterdeep: Dungeon of the Mad Mage",
+    "source": "wdmm",
+    "abbreviation": "WDMM",
+    "ruleset": "2014"
+  },
+  {
+    "id": "xge",
+    "kind": "sourcebook",
+    "name": "Xanathar's Guide to Everything",
+    "source": "xge",
+    "abbreviation": "XGE",
+    "ruleset": "2014"
+  },
+  {
+    "id": "xmts",
+    "kind": "sourcebook",
+    "name": "X Marks the Spot",
+    "source": "xmts",
+    "abbreviation": "XMtS",
+    "ruleset": "2014"
+  }
+]

@@ -3,17 +3,19 @@
     "id": "srd:subclass:tempest-domain",
     "kind": "subclass",
     "name": "Tempest Domain",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "Gods whose portfolios include the Tempest domain—including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Tempest Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | fog cloud, thunderwave |\n| 3rd | gust of wind, shatter |\n| 5th | call lightning, sleet storm |\n| 7th | control water, ice storm |\n| 9th | destructive wave, insect plague |",
     "levels": {
       "1": {
         "grants": [
-          "srd:tempest:tempest-domain",
+          "srd:tempest:bonus-proficiencies",
+          "srd:tempest:wrath-of-the-storm",
           "srd:spell:fog-cloud",
           "srd:spell:thunderwave"
         ]
@@ -69,8 +71,8 @@
     "id": "srd:tempest:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "tempest-feature",
       "cleric-feature"
@@ -105,8 +107,8 @@
     "id": "srd:tempest:wrath-of-the-storm",
     "kind": "subclass-feature",
     "name": "Wrath of the Storm",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "tempest-feature",
       "cleric-feature"
@@ -145,27 +147,11 @@
     ]
   },
   {
-    "id": "srd:tempest:tempest-domain",
-    "kind": "subclass-feature",
-    "name": "Tempest Domain",
-    "source": "srd",
-    "page": "PHB 62",
-    "tags": [
-      "tempest-feature",
-      "cleric-feature"
-    ],
-    "text": "Gods whose portfolios include the Tempest domain—including Talos, Umberlee, Kord, Zeboim, the Devourer, Zeus, and Thor—govern storms, sea, and sky. They include gods of lightning and thunder, gods of earthquakes, some fire gods, and certain gods of violence, physical strength, and courage. In some pantheons, a god of this domain rules over other deities and is known for swift justice delivered by thunderbolts. In the pantheons of seafaring people, gods of this domain are ocean deities and the patrons of sailors. Tempest gods send their clerics to inspire fear in the common folk, either to keep those folk on the path of righteousness or to encourage them to offer sacrifices of propitiation to ward off divine wrath.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Tempest Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | fog cloud, thunderwave |\n| 3rd | gust of wind, shatter |\n| 5th | call lightning, sleet storm |\n| 7th | control water, ice storm |\n| 9th | destructive wave, insect plague |",
-    "grants": [
-      "srd:tempest:bonus-proficiencies",
-      "srd:tempest:wrath-of-the-storm"
-    ]
-  },
-  {
     "id": "srd:tempest:channel-divinity-destructive-wrath",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Destructive Wrath",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "tempest-feature",
       "cleric-feature"
@@ -186,8 +172,8 @@
     "id": "srd:tempest:thunderbolt-strike",
     "kind": "subclass-feature",
     "name": "Thunderbolt Strike",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "tempest-feature",
       "cleric-feature"
@@ -198,8 +184,8 @@
     "id": "srd:tempest:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "tempest-feature",
       "cleric-feature"
@@ -210,8 +196,8 @@
     "id": "srd:tempest:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "tempest-feature",
       "cleric-feature"
@@ -222,8 +208,8 @@
     "id": "srd:tempest:stormborn",
     "kind": "subclass-feature",
     "name": "Stormborn",
-    "source": "srd",
-    "page": "PHB 62",
+    "source": "phb",
+    "page": "62",
     "tags": [
       "tempest-feature",
       "cleric-feature"

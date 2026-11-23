@@ -3,17 +3,20 @@
     "id": "srd24:subclass:winter-walker",
     "kind": "subclass",
     "name": "Winter Walker",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "class": "srd24:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "*Withstand the Horrors of Frigid Wastelands*\n\nWinter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers' frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:winter-walker:winter-walker",
+          "srd24:winter-walker:frigid-explorer",
+          "srd24:winter-walker:hunters-rime",
+          "srd24:winter-walker:winter-walker-spells",
           "srd24:spell:ice-knife"
         ]
       },
@@ -58,8 +61,8 @@
     "id": "srd24:winter-walker:frigid-explorer",
     "kind": "subclass-feature",
     "name": "Frigid Explorer",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "winter-walker-feature",
       "ranger-feature"
@@ -83,8 +86,8 @@
     "id": "srd24:winter-walker:hunters-rime",
     "kind": "subclass-feature",
     "name": "Hunter's Rime",
-    "source": "srd24",
-    "page": "FRHoF 21",
+    "source": "frhof",
+    "page": "21",
     "tags": [
       "winter-walker-feature",
       "ranger-feature"
@@ -95,8 +98,8 @@
     "id": "srd24:winter-walker:winter-walker-spells",
     "kind": "subclass-feature",
     "name": "Winter Walker Spells",
-    "source": "srd24",
-    "page": "FRHoF 22",
+    "source": "frhof",
+    "page": "22",
     "tags": [
       "winter-walker-feature",
       "ranger-feature"
@@ -104,28 +107,11 @@
     "text": "When you reach a Ranger level specified in the Winter Walker Spells table, you thereafter always have the listed spells prepared.\n\n| Ranger Level | Spells |\n| --- | --- |\n| 3 | Ice Knife |\n| 5 | Hold Person |\n| 9 | Remove Curse |\n| 13 | Ice Storm |\n| 17 | Cone of Cold |"
   },
   {
-    "id": "srd24:winter-walker:winter-walker",
-    "kind": "subclass-feature",
-    "name": "Winter Walker",
-    "source": "srd24",
-    "page": "FRHoF 21",
-    "tags": [
-      "winter-walker-feature",
-      "ranger-feature"
-    ],
-    "text": "*Withstand the Horrors of Frigid Wastelands*\n\nWinter Walkers hone their craft in the bleak and frozen wilds of places like Icewind Dale. These ruthless, rimed Rangers hunt monsters that haunt arctic wastelands, eventually becoming frigid terrors themselves. Winter Walkers are well versed in the phenomena of Icewind Dale, including the latent magic of fallen Netherese cities, endemic monsters like yetis and crag cats, and the rising threat of Underdark invaders. Due to their cold pragmatism, terrifying magic, and mastery of the region, Winter Walkers are regarded with equal parts respect and fear. Ten-Towns citizens say that Winter Walkers' frequent exposure to malignant entities gives them their fearsome powers. Many Reghed nomads, on the other hand, believe that nature spirits bestow on Winter Walkers a unique curse.",
-    "grants": [
-      "srd24:winter-walker:frigid-explorer",
-      "srd24:winter-walker:hunters-rime",
-      "srd24:winter-walker:winter-walker-spells"
-    ]
-  },
-  {
     "id": "srd24:winter-walker:fortifying-soul",
     "kind": "subclass-feature",
     "name": "Fortifying Soul",
-    "source": "srd24",
-    "page": "FRHoF 22",
+    "source": "frhof",
+    "page": "22",
     "tags": [
       "winter-walker-feature",
       "ranger-feature"
@@ -167,8 +153,8 @@
     "id": "srd24:winter-walker:chilling-retribution",
     "kind": "subclass-feature",
     "name": "Chilling Retribution",
-    "source": "srd24",
-    "page": "FRHoF 22",
+    "source": "frhof",
+    "page": "22",
     "tags": [
       "winter-walker-feature",
       "ranger-feature"
@@ -210,8 +196,8 @@
     "id": "srd24:winter-walker:frozen-haunt",
     "kind": "subclass-feature",
     "name": "Frozen Haunt",
-    "source": "srd24",
-    "page": "FRHoF 22",
+    "source": "frhof",
+    "page": "22",
     "tags": [
       "winter-walker-feature",
       "ranger-feature"

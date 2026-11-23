@@ -3,17 +3,20 @@
     "id": "srd:subclass:inquisitive",
     "kind": "subclass",
     "name": "Inquisitive",
-    "source": "srd",
-    "page": "XGE 45",
+    "source": "xge",
+    "page": "45",
     "class": "srd:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your keen deductions make you well equipped to expose and end hidden evils.",
     "levels": {
       "3": {
         "grants": [
-          "srd:inquisitive:inquisitive"
+          "srd:inquisitive:ear-for-deceit",
+          "srd:inquisitive:eye-for-detail",
+          "srd:inquisitive:insightful-fighting"
         ]
       },
       "9": {
@@ -37,8 +40,8 @@
     "id": "srd:inquisitive:ear-for-deceit",
     "kind": "subclass-feature",
     "name": "Ear for Deceit",
-    "source": "srd",
-    "page": "XGE 45",
+    "source": "xge",
+    "page": "45",
     "tags": [
       "inquisitive-feature",
       "rogue-feature"
@@ -49,8 +52,8 @@
     "id": "srd:inquisitive:eye-for-detail",
     "kind": "subclass-feature",
     "name": "Eye for Detail",
-    "source": "srd",
-    "page": "XGE 45",
+    "source": "xge",
+    "page": "45",
     "tags": [
       "inquisitive-feature",
       "rogue-feature"
@@ -72,8 +75,8 @@
     "id": "srd:inquisitive:insightful-fighting",
     "kind": "subclass-feature",
     "name": "Insightful Fighting",
-    "source": "srd",
-    "page": "XGE 45",
+    "source": "xge",
+    "page": "45",
     "tags": [
       "inquisitive-feature",
       "rogue-feature"
@@ -92,28 +95,11 @@
     ]
   },
   {
-    "id": "srd:inquisitive:inquisitive",
-    "kind": "subclass-feature",
-    "name": "Inquisitive",
-    "source": "srd",
-    "page": "XGE 45",
-    "tags": [
-      "inquisitive-feature",
-      "rogue-feature"
-    ],
-    "text": "As an archetypal Inquisitive, you excel at rooting out secrets and unraveling mysteries. You rely on your sharp eye for detail, but also on your finely honed ability to read the words and deeds of other creatures to determine their true intent. You excel at defeating creatures that hide among and prey upon ordinary folk, and your mastery of lore and your keen deductions make you well equipped to expose and end hidden evils.",
-    "grants": [
-      "srd:inquisitive:ear-for-deceit",
-      "srd:inquisitive:eye-for-detail",
-      "srd:inquisitive:insightful-fighting"
-    ]
-  },
-  {
     "id": "srd:inquisitive:steady-eye",
     "kind": "subclass-feature",
     "name": "Steady Eye",
-    "source": "srd",
-    "page": "XGE 45",
+    "source": "xge",
+    "page": "45",
     "tags": [
       "inquisitive-feature",
       "rogue-feature"
@@ -124,8 +110,8 @@
     "id": "srd:inquisitive:unerring-eye",
     "kind": "subclass-feature",
     "name": "Unerring Eye",
-    "source": "srd",
-    "page": "XGE 45",
+    "source": "xge",
+    "page": "45",
     "tags": [
       "inquisitive-feature",
       "rogue-feature"
@@ -167,8 +153,8 @@
     "id": "srd:inquisitive:eye-for-weakness",
     "kind": "subclass-feature",
     "name": "Eye for Weakness",
-    "source": "srd",
-    "page": "XGE 45",
+    "source": "xge",
+    "page": "45",
     "tags": [
       "inquisitive-feature",
       "rogue-feature"

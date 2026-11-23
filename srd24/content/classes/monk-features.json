@@ -3,8 +3,8 @@
     "id": "srd24:monk:bonus-unarmed-strike",
     "kind": "class-feature",
     "name": "Bonus Unarmed Strike",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:monk:martial-arts-die",
     "kind": "class-feature",
     "name": "Martial Arts Die",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd24:monk:dexterous-attacks",
     "kind": "class-feature",
     "name": "Dexterous Attacks",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -36,8 +36,8 @@
     "id": "srd24:monk:martial-arts",
     "kind": "class-feature",
     "name": "Martial Arts",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -52,8 +52,8 @@
     "id": "srd24:monk:unarmored-defense",
     "kind": "class-feature",
     "name": "Unarmored Defense",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -75,8 +75,8 @@
     "id": "srd24:monk:flurry-of-blows",
     "kind": "class-feature",
     "name": "Flurry of Blows",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -100,8 +100,8 @@
     "id": "srd24:monk:patient-defense",
     "kind": "class-feature",
     "name": "Patient Defense",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -134,8 +134,8 @@
     "id": "srd24:monk:step-of-the-wind",
     "kind": "class-feature",
     "name": "Step of the Wind",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -159,8 +159,8 @@
     "id": "srd24:monk:monks-focus",
     "kind": "class-feature",
     "name": "Monk's Focus",
-    "source": "srd24",
-    "page": "XPHB 101",
+    "source": "xphb",
+    "page": "101",
     "tags": [
       "monk-feature"
     ],
@@ -187,8 +187,8 @@
     "id": "srd24:monk:unarmored-movement",
     "kind": "class-feature",
     "name": "Unarmored Movement",
-    "source": "srd24",
-    "page": "XPHB 102",
+    "source": "xphb",
+    "page": "102",
     "tags": [
       "monk-feature"
     ],
@@ -213,8 +213,8 @@
     "id": "srd24:monk:uncanny-metabolism",
     "kind": "class-feature",
     "name": "Uncanny Metabolism",
-    "source": "srd24",
-    "page": "XPHB 102",
+    "source": "xphb",
+    "page": "102",
     "tags": [
       "monk-feature"
     ],
@@ -255,8 +255,8 @@
     "id": "srd24:monk:deflect-attacks",
     "kind": "class-feature",
     "name": "Deflect Attacks",
-    "source": "srd24",
-    "page": "XPHB 102",
+    "source": "xphb",
+    "page": "102",
     "tags": [
       "monk-feature"
     ],
@@ -277,8 +277,8 @@
     "id": "srd24:monk:monk-subclass",
     "kind": "class-feature",
     "name": "Monk Subclass",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -288,8 +288,8 @@
     "id": "srd24:monk:slow-fall",
     "kind": "class-feature",
     "name": "Slow Fall",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -310,8 +310,8 @@
     "id": "srd24:monk:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -321,8 +321,8 @@
     "id": "srd24:monk:stunning-strike",
     "kind": "class-feature",
     "name": "Stunning Strike",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -342,8 +342,8 @@
     "id": "srd24:monk:empowered-strikes",
     "kind": "class-feature",
     "name": "Empowered Strikes",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -364,8 +364,8 @@
     "id": "srd24:monk:evasion",
     "kind": "class-feature",
     "name": "Evasion",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -375,8 +375,8 @@
     "id": "srd24:monk:acrobatic-movement",
     "kind": "class-feature",
     "name": "Acrobatic Movement",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -386,8 +386,8 @@
     "id": "srd24:monk:heightened-focus",
     "kind": "class-feature",
     "name": "Heightened Focus",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -397,8 +397,8 @@
     "id": "srd24:monk:self-restoration",
     "kind": "class-feature",
     "name": "Self-Restoration",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -408,8 +408,8 @@
     "id": "srd24:monk:deflect-energy",
     "kind": "class-feature",
     "name": "Deflect Energy",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -430,8 +430,8 @@
     "id": "srd24:monk:disciplined-survivor",
     "kind": "class-feature",
     "name": "Disciplined Survivor",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -462,8 +462,8 @@
     "id": "srd24:monk:perfect-focus",
     "kind": "class-feature",
     "name": "Perfect Focus",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -473,8 +473,8 @@
     "id": "srd24:monk:superior-defense",
     "kind": "class-feature",
     "name": "Superior Defense",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -494,8 +494,8 @@
     "id": "srd24:monk:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],
@@ -505,8 +505,8 @@
     "id": "srd24:monk:body-and-mind",
     "kind": "class-feature",
     "name": "Body and Mind",
-    "source": "srd24",
-    "page": "XPHB 103",
+    "source": "xphb",
+    "page": "103",
     "tags": [
       "monk-feature"
     ],

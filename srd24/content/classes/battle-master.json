@@ -3,17 +3,20 @@
     "id": "srd24:subclass:battle-master",
     "kind": "subclass",
     "name": "Battle Master",
-    "source": "srd24",
-    "page": "XPHB 93",
+    "source": "xphb",
+    "page": "93",
     "class": "srd24:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "*Master Sophisticated Battle Maneuvers*\n\nBattle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:battle-master:battle-master"
+          "srd24:battle-master:combat-superiority",
+          "srd24:battle-master:student-of-war",
+          "srd24:battle-master:maneuver-options"
         ],
         "choices": [
           {
@@ -94,8 +97,8 @@
     "id": "srd24:battle-master:combat-superiority",
     "kind": "subclass-feature",
     "name": "Combat Superiority",
-    "source": "srd24",
-    "page": "XPHB 93",
+    "source": "xphb",
+    "page": "93",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -106,8 +109,8 @@
     "id": "srd24:battle-master:student-of-war",
     "kind": "subclass-feature",
     "name": "Student of War",
-    "source": "srd24",
-    "page": "XPHB 94",
+    "source": "xphb",
+    "page": "94",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -118,8 +121,8 @@
     "id": "srd24:battle-master:maneuver-options",
     "kind": "subclass-feature",
     "name": "Maneuver Options",
-    "source": "srd24",
-    "page": "XPHB 94",
+    "source": "xphb",
+    "page": "94",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -127,28 +130,11 @@
     "text": "The maneuvers are presented here in alphabetical order."
   },
   {
-    "id": "srd24:battle-master:battle-master",
-    "kind": "subclass-feature",
-    "name": "Battle Master",
-    "source": "srd24",
-    "page": "XPHB 93",
-    "tags": [
-      "battle-master-feature",
-      "fighter-feature"
-    ],
-    "text": "*Master Sophisticated Battle Maneuvers*\n\nBattle Masters are students of the art of battle, learning martial techniques passed down through generations. The most accomplished Battle Masters are well-rounded figures who combine their carefully honed combat skills with academic study in the fields of history, theory, and the arts.",
-    "grants": [
-      "srd24:battle-master:combat-superiority",
-      "srd24:battle-master:student-of-war",
-      "srd24:battle-master:maneuver-options"
-    ]
-  },
-  {
     "id": "srd24:battle-master:know-your-enemy",
     "kind": "subclass-feature",
     "name": "Know Your Enemy",
-    "source": "srd24",
-    "page": "XPHB 94",
+    "source": "xphb",
+    "page": "94",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -190,8 +176,8 @@
     "id": "srd24:battle-master:improved-combat-superiority",
     "kind": "subclass-feature",
     "name": "Improved Combat Superiority",
-    "source": "srd24",
-    "page": "XPHB 94",
+    "source": "xphb",
+    "page": "94",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -202,8 +188,8 @@
     "id": "srd24:battle-master:relentless",
     "kind": "subclass-feature",
     "name": "Relentless",
-    "source": "srd24",
-    "page": "XPHB 94",
+    "source": "xphb",
+    "page": "94",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -214,8 +200,8 @@
     "id": "srd24:battle-master:ultimate-combat-superiority",
     "kind": "subclass-feature",
     "name": "Ultimate Combat Superiority",
-    "source": "srd24",
-    "page": "XPHB 94",
+    "source": "xphb",
+    "page": "94",
     "tags": [
       "battle-master-feature",
       "fighter-feature"

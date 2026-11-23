@@ -3,17 +3,19 @@
     "id": "srd:subclass:light-domain",
     "kind": "subclass",
     "name": "Light Domain",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Light Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | burning hands, faerie fire |\n| 3rd | flaming sphere, scorching ray |\n| 5th | daylight, fireball |\n| 7th | guardian of faith, wall of fire |\n| 9th | flame strike, scrying |",
     "levels": {
       "1": {
         "grants": [
-          "srd:light:light-domain",
+          "srd:light:bonus-cantrip",
+          "srd:light:warding-flare",
           "srd:spell:light",
           "srd:spell:burning-hands",
           "srd:spell:faerie-fire"
@@ -70,8 +72,8 @@
     "id": "srd:light:bonus-cantrip",
     "kind": "subclass-feature",
     "name": "Bonus Cantrip",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "light-feature",
       "cleric-feature"
@@ -82,8 +84,8 @@
     "id": "srd:light:warding-flare",
     "kind": "subclass-feature",
     "name": "Warding Flare",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "light-feature",
       "cleric-feature"
@@ -122,27 +124,11 @@
     ]
   },
   {
-    "id": "srd:light:light-domain",
-    "kind": "subclass-feature",
-    "name": "Light Domain",
-    "source": "srd",
-    "page": "PHB 60",
-    "tags": [
-      "light-feature",
-      "cleric-feature"
-    ],
-    "text": "Gods of light—including Helm, Lathander, Pholtus, Branchala, the Silver Flame, Belenus, Apollo, and Re-Horakhty—promote the ideals of rebirth and renewal, truth, vigilance, and beauty, often using the symbol of the sun. Some of these gods are portrayed as the sun itself or as a charioteer who guides the sun across the sky. Others are tireless sentinels whose eyes pierce every shadow and see through every deception. Some are deities of beauty and artistry, who teach that art is a vehicle for the soul's improvement. Clerics of a god of light are enlightened souls infused with radiance and the power of their gods' discerning vision, charged with chasing away lies and burning away darkness.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Light Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | burning hands, faerie fire |\n| 3rd | flaming sphere, scorching ray |\n| 5th | daylight, fireball |\n| 7th | guardian of faith, wall of fire |\n| 9th | flame strike, scrying |",
-    "grants": [
-      "srd:light:bonus-cantrip",
-      "srd:light:warding-flare"
-    ]
-  },
-  {
     "id": "srd:light:channel-divinity-radiance-of-the-dawn",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Radiance of the Dawn",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "light-feature",
       "cleric-feature"
@@ -167,8 +153,8 @@
     "id": "srd:light:improved-flare",
     "kind": "subclass-feature",
     "name": "Improved Flare",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "light-feature",
       "cleric-feature"
@@ -179,8 +165,8 @@
     "id": "srd:light:potent-spellcasting",
     "kind": "subclass-feature",
     "name": "Potent Spellcasting",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "light-feature",
       "cleric-feature"
@@ -191,8 +177,8 @@
     "id": "srd:light:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "light-feature",
       "cleric-feature"
@@ -203,8 +189,8 @@
     "id": "srd:light:corona-of-light",
     "kind": "subclass-feature",
     "name": "Corona of Light",
-    "source": "srd",
-    "page": "PHB 60",
+    "source": "phb",
+    "page": "60",
     "tags": [
       "light-feature",
       "cleric-feature"

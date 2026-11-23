@@ -3,17 +3,19 @@
     "id": "srd24:subclass:diviner",
     "kind": "subclass",
     "name": "Diviner",
-    "source": "srd24",
-    "page": "XPHB 173",
+    "source": "xphb",
+    "page": "173",
     "class": "srd24:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "*Learn the Secrets of the Multiverse*\n\nThe counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:diviner:diviner"
+          "srd24:diviner:divination-savant",
+          "srd24:diviner:portent"
         ],
         "choices": [
           {
@@ -192,8 +194,8 @@
     "id": "srd24:diviner:divination-savant",
     "kind": "subclass-feature",
     "name": "Divination Savant",
-    "source": "srd24",
-    "page": "XPHB 173",
+    "source": "xphb",
+    "page": "173",
     "tags": [
       "diviner-feature",
       "wizard-feature"
@@ -204,8 +206,8 @@
     "id": "srd24:diviner:portent",
     "kind": "subclass-feature",
     "name": "Portent",
-    "source": "srd24",
-    "page": "XPHB 173",
+    "source": "xphb",
+    "page": "173",
     "tags": [
       "diviner-feature",
       "wizard-feature"
@@ -213,27 +215,11 @@
     "text": "Glimpses of the future begin to press on your awareness. Whenever you finish a Long Rest, roll two d20s and record the numbers rolled. You can replace any D20 Test made by you or a creature that you can see with one of these foretelling rolls. You must choose to do so before the roll, and you can replace a roll in this way only once per turn.\n\nEach foretelling roll can be used only once. When you finish a Long Rest, you lose any unused foretelling rolls."
   },
   {
-    "id": "srd24:diviner:diviner",
-    "kind": "subclass-feature",
-    "name": "Diviner",
-    "source": "srd24",
-    "page": "XPHB 173",
-    "tags": [
-      "diviner-feature",
-      "wizard-feature"
-    ],
-    "text": "*Learn the Secrets of the Multiverse*\n\nThe counsel of a Diviner is sought by those who want a clearer understanding of the past, present, and future. As a Diviner, you strive to part the veils of space, time, and consciousness. You work to master spells of discernment, remote viewing, supernatural knowledge, and foresight.",
-    "grants": [
-      "srd24:diviner:divination-savant",
-      "srd24:diviner:portent"
-    ]
-  },
-  {
     "id": "srd24:diviner:expert-divination",
     "kind": "subclass-feature",
     "name": "Expert Divination",
-    "source": "srd24",
-    "page": "XPHB 173",
+    "source": "xphb",
+    "page": "173",
     "tags": [
       "diviner-feature",
       "wizard-feature"
@@ -244,8 +230,8 @@
     "id": "srd24:diviner:the-third-eye",
     "kind": "subclass-feature",
     "name": "The Third Eye",
-    "source": "srd24",
-    "page": "XPHB 173",
+    "source": "xphb",
+    "page": "173",
     "tags": [
       "diviner-feature",
       "wizard-feature"
@@ -267,8 +253,8 @@
     "id": "srd24:diviner:greater-portent",
     "kind": "subclass-feature",
     "name": "Greater Portent",
-    "source": "srd24",
-    "page": "XPHB 173",
+    "source": "xphb",
+    "page": "173",
     "tags": [
       "diviner-feature",
       "wizard-feature"

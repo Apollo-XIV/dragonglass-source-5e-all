@@ -3,17 +3,19 @@
     "id": "srd24:subclass:illusionist",
     "kind": "subclass",
     "name": "Illusionist",
-    "source": "srd24",
-    "page": "XPHB 175",
+    "source": "xphb",
+    "page": "175",
     "class": "srd24:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "*Weave Subtle Spells of Deception*\n\nYou specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:illusionist:illusionist",
+          "srd24:illusionist:illusion-savant",
+          "srd24:illusionist:improved-illusions",
           "srd24:spell:minor-illusion"
         ],
         "choices": [
@@ -190,8 +192,8 @@
     "id": "srd24:illusionist:illusion-savant",
     "kind": "subclass-feature",
     "name": "Illusion Savant",
-    "source": "srd24",
-    "page": "XPHB 175",
+    "source": "xphb",
+    "page": "175",
     "tags": [
       "illusionist-feature",
       "wizard-feature"
@@ -202,8 +204,8 @@
     "id": "srd24:illusionist:improved-illusions",
     "kind": "subclass-feature",
     "name": "Improved Illusions",
-    "source": "srd24",
-    "page": "XPHB 175",
+    "source": "xphb",
+    "page": "175",
     "tags": [
       "illusionist-feature",
       "wizard-feature"
@@ -211,27 +213,11 @@
     "text": "You can cast Illusion spells without providing Verbal components, and if an Illusion spell you cast has a range of 10+ feet, the range increases by 60 feet.\n\nYou also know the Minor Illusion cantrip. If you already know it, you learn a different Wizard cantrip of your choice. The cantrip doesn't count against your number of cantrips known. You can create both a sound and an image with a single casting of Minor Illusion, and you can cast it as a Bonus Action."
   },
   {
-    "id": "srd24:illusionist:illusionist",
-    "kind": "subclass-feature",
-    "name": "Illusionist",
-    "source": "srd24",
-    "page": "XPHB 175",
-    "tags": [
-      "illusionist-feature",
-      "wizard-feature"
-    ],
-    "text": "*Weave Subtle Spells of Deception*\n\nYou specialize in magic that dazzles the senses and tricks the mind, and the illusions you craft make the impossible seem real.",
-    "grants": [
-      "srd24:illusionist:illusion-savant",
-      "srd24:illusionist:improved-illusions"
-    ]
-  },
-  {
     "id": "srd24:illusionist:phantasmal-creatures",
     "kind": "subclass-feature",
     "name": "Phantasmal Creatures",
-    "source": "srd24",
-    "page": "XPHB 175",
+    "source": "xphb",
+    "page": "175",
     "tags": [
       "illusionist-feature",
       "wizard-feature"
@@ -242,8 +228,8 @@
     "id": "srd24:illusionist:illusory-self",
     "kind": "subclass-feature",
     "name": "Illusory Self",
-    "source": "srd24",
-    "page": "XPHB 175",
+    "source": "xphb",
+    "page": "175",
     "tags": [
       "illusionist-feature",
       "wizard-feature"
@@ -285,8 +271,8 @@
     "id": "srd24:illusionist:illusory-reality",
     "kind": "subclass-feature",
     "name": "Illusory Reality",
-    "source": "srd24",
-    "page": "XPHB 175",
+    "source": "xphb",
+    "page": "175",
     "tags": [
       "illusionist-feature",
       "wizard-feature"

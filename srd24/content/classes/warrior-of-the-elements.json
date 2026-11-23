@@ -3,17 +3,19 @@
     "id": "srd24:subclass:warrior-of-the-elements",
     "kind": "subclass",
     "name": "Warrior of the Elements",
-    "source": "srd24",
-    "page": "XPHB 106",
+    "source": "xphb",
+    "page": "106",
     "class": "srd24:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "*Wield Strikes and Bursts of Elemental Power*\n\nWarriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:elements:warrior-of-the-elements",
+          "srd24:elements:elemental-attunement",
+          "srd24:elements:manipulate-elements",
           "srd24:spell:elementalism"
         ]
       },
@@ -38,8 +40,8 @@
     "id": "srd24:elements:elemental-attunement",
     "kind": "subclass-feature",
     "name": "Elemental Attunement",
-    "source": "srd24",
-    "page": "XPHB 106",
+    "source": "xphb",
+    "page": "106",
     "tags": [
       "elements-feature",
       "monk-feature"
@@ -60,8 +62,8 @@
     "id": "srd24:elements:manipulate-elements",
     "kind": "subclass-feature",
     "name": "Manipulate Elements",
-    "source": "srd24",
-    "page": "XPHB 106",
+    "source": "xphb",
+    "page": "106",
     "tags": [
       "elements-feature",
       "monk-feature"
@@ -69,27 +71,11 @@
     "text": "You know the Elementalism spell. Wisdom is your spellcasting ability for it."
   },
   {
-    "id": "srd24:elements:warrior-of-the-elements",
-    "kind": "subclass-feature",
-    "name": "Warrior of the Elements",
-    "source": "srd24",
-    "page": "XPHB 106",
-    "tags": [
-      "elements-feature",
-      "monk-feature"
-    ],
-    "text": "*Wield Strikes and Bursts of Elemental Power*\n\nWarriors of the Elements tap into the power of the Elemental Planes. Harnessing their supernatural focus, these Monks momentarily tame the energy of the Elemental Chaos to empower themselves in and out of battle.",
-    "grants": [
-      "srd24:elements:elemental-attunement",
-      "srd24:elements:manipulate-elements"
-    ]
-  },
-  {
     "id": "srd24:elements:elemental-burst",
     "kind": "subclass-feature",
     "name": "Elemental Burst",
-    "source": "srd24",
-    "page": "XPHB 106",
+    "source": "xphb",
+    "page": "106",
     "tags": [
       "elements-feature",
       "monk-feature"
@@ -114,8 +100,8 @@
     "id": "srd24:elements:stride-of-the-elements",
     "kind": "subclass-feature",
     "name": "Stride of the Elements",
-    "source": "srd24",
-    "page": "XPHB 106",
+    "source": "xphb",
+    "page": "106",
     "tags": [
       "elements-feature",
       "monk-feature"
@@ -126,8 +112,8 @@
     "id": "srd24:elements:elemental-epitome",
     "kind": "subclass-feature",
     "name": "Elemental Epitome",
-    "source": "srd24",
-    "page": "XPHB 106",
+    "source": "xphb",
+    "page": "106",
     "tags": [
       "elements-feature",
       "monk-feature"

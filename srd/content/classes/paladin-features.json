@@ -3,8 +3,8 @@
     "id": "srd:paladin:divine-sense",
     "kind": "class-feature",
     "name": "Divine Sense",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -45,8 +45,8 @@
     "id": "srd:paladin:lay-on-hands",
     "kind": "class-feature",
     "name": "Lay on Hands",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -90,8 +90,8 @@
     "id": "srd:paladin:divine-smite",
     "kind": "class-feature",
     "name": "Divine Smite",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -124,8 +124,8 @@
     "id": "srd:paladin:fighting-style",
     "kind": "class-feature",
     "name": "Fighting Style",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -135,8 +135,8 @@
     "id": "srd:paladin:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -146,8 +146,8 @@
     "id": "srd:paladin:divine-health",
     "kind": "class-feature",
     "name": "Divine Health",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -157,8 +157,8 @@
     "id": "srd:paladin:channel-divinity",
     "kind": "class-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -199,8 +199,8 @@
     "id": "srd:paladin:channel-divinity-harness-divine-power",
     "kind": "class-feature",
     "name": "Channel Divinity: Harness Divine Power",
-    "source": "srd",
-    "page": "TCE 52",
+    "source": "tce",
+    "page": "52",
     "tags": [
       "paladin-feature"
     ],
@@ -224,8 +224,8 @@
     "id": "srd:paladin:sacred-oath",
     "kind": "class-feature",
     "name": "Sacred Oath",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -239,8 +239,8 @@
     "id": "srd:paladin:martial-versatility",
     "kind": "class-feature",
     "name": "Martial Versatility",
-    "source": "srd",
-    "page": "TCE 52",
+    "source": "tce",
+    "page": "52",
     "tags": [
       "paladin-feature"
     ],
@@ -250,8 +250,8 @@
     "id": "srd:paladin:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -261,8 +261,8 @@
     "id": "srd:paladin:aura-of-protection",
     "kind": "class-feature",
     "name": "Aura of Protection",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -272,8 +272,8 @@
     "id": "srd:paladin:aura-of-courage",
     "kind": "class-feature",
     "name": "Aura of Courage",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -283,8 +283,8 @@
     "id": "srd:paladin:improved-divine-smite",
     "kind": "class-feature",
     "name": "Improved Divine Smite",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -294,8 +294,8 @@
     "id": "srd:paladin:cleansing-touch",
     "kind": "class-feature",
     "name": "Cleansing Touch",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],
@@ -336,8 +336,8 @@
     "id": "srd:paladin:aura-improvements",
     "kind": "class-feature",
     "name": "Aura improvements",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "tags": [
       "paladin-feature"
     ],

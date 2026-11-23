@@ -3,18 +3,20 @@
     "id": "srd24:subclass:conjurer",
     "kind": "subclass",
     "name": "Conjurer",
-    "source": "srd24",
-    "page": "AU 15",
+    "source": "au",
+    "page": "15",
     "class": "srd24:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "*Step Across Space and Call Creatures from Thin Air*\n\nA Conjurer considers distance and matter to be flexible guidelines rather than physical laws. Conjurers master magic that moves creatures instantly through space and summons creatures to fight on their behalf.",
     "fluff": "> There is no concept of physical distance in the Weave. With enough magical power, you can travel anywhere in existence with merely a thought.\n>\n> — Alustriel",
     "levels": {
       "3": {
         "grants": [
-          "srd24:conjurer:conjurer"
+          "srd24:conjurer:benign-transposition",
+          "srd24:conjurer:conjuration-savant"
         ],
         "choices": [
           {
@@ -189,8 +191,8 @@
     "id": "srd24:conjurer:benign-transposition",
     "kind": "subclass-feature",
     "name": "Benign Transposition",
-    "source": "srd24",
-    "page": "AU 15",
+    "source": "au",
+    "page": "15",
     "tags": [
       "conjurer-feature",
       "wizard-feature"
@@ -232,8 +234,8 @@
     "id": "srd24:conjurer:conjuration-savant",
     "kind": "subclass-feature",
     "name": "Conjuration Savant",
-    "source": "srd24",
-    "page": "AU 15",
+    "source": "au",
+    "page": "15",
     "tags": [
       "conjurer-feature",
       "wizard-feature"
@@ -241,27 +243,11 @@
     "text": "Choose two Wizard spells from the Conjuration school, each of which must be no higher than level 2, and add them to your spellbook for free.\n\nIn addition, whenever you gain access to a new level of spell slots in this class, you can add one Wizard spell from the Conjuration school to your spellbook for free. The chosen spell must be of a level for which you have spell slots."
   },
   {
-    "id": "srd24:conjurer:conjurer",
-    "kind": "subclass-feature",
-    "name": "Conjurer",
-    "source": "srd24",
-    "page": "AU 15",
-    "tags": [
-      "conjurer-feature",
-      "wizard-feature"
-    ],
-    "text": "*Step Across Space and Call Creatures from Thin Air*\n\nA Conjurer considers distance and matter to be flexible guidelines rather than physical laws. Conjurers master magic that moves creatures instantly through space and summons creatures to fight on their behalf.",
-    "grants": [
-      "srd24:conjurer:benign-transposition",
-      "srd24:conjurer:conjuration-savant"
-    ]
-  },
-  {
     "id": "srd24:conjurer:distant-transposition",
     "kind": "subclass-feature",
     "name": "Distant Transposition",
-    "source": "srd24",
-    "page": "AU 15",
+    "source": "au",
+    "page": "15",
     "tags": [
       "conjurer-feature",
       "wizard-feature"
@@ -272,8 +258,8 @@
     "id": "srd24:conjurer:durable-summons",
     "kind": "subclass-feature",
     "name": "Durable Summons",
-    "source": "srd24",
-    "page": "AU 16",
+    "source": "au",
+    "page": "16",
     "tags": [
       "conjurer-feature",
       "wizard-feature"
@@ -284,8 +270,8 @@
     "id": "srd24:conjurer:focused-conjuration",
     "kind": "subclass-feature",
     "name": "Focused Conjuration",
-    "source": "srd24",
-    "page": "AU 16",
+    "source": "au",
+    "page": "16",
     "tags": [
       "conjurer-feature",
       "wizard-feature"
@@ -296,8 +282,8 @@
     "id": "srd24:conjurer:splintered-summons",
     "kind": "subclass-feature",
     "name": "Splintered Summons",
-    "source": "srd24",
-    "page": "AU 16",
+    "source": "au",
+    "page": "16",
     "tags": [
       "conjurer-feature",
       "wizard-feature"

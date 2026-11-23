@@ -3,18 +3,20 @@
     "id": "srd:subclass:mastermind",
     "kind": "subclass",
     "name": "Mastermind",
-    "source": "srd",
-    "page": "XGE 46",
+    "source": "xge",
+    "page": "46",
     "class": "srd:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.",
     "fluff": "> Oh, please. If anyone is a mastermind around here, it's me. You're like a master doofus or a master dummy. No, you are!\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:mastermind:mastermind"
+          "srd:mastermind:master-of-intrigue",
+          "srd:mastermind:master-of-tactics"
         ]
       },
       "9": {
@@ -38,8 +40,8 @@
     "id": "srd:mastermind:master-of-intrigue",
     "kind": "subclass-feature",
     "name": "Master of Intrigue",
-    "source": "srd",
-    "page": "XGE 46",
+    "source": "xge",
+    "page": "46",
     "tags": [
       "mastermind-feature",
       "rogue-feature"
@@ -64,8 +66,8 @@
     "id": "srd:mastermind:master-of-tactics",
     "kind": "subclass-feature",
     "name": "Master of Tactics",
-    "source": "srd",
-    "page": "XGE 46",
+    "source": "xge",
+    "page": "46",
     "tags": [
       "mastermind-feature",
       "rogue-feature"
@@ -73,27 +75,11 @@
     "text": "Starting at 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than within 5 feet of you, if the target can see or hear you."
   },
   {
-    "id": "srd:mastermind:mastermind",
-    "kind": "subclass-feature",
-    "name": "Mastermind",
-    "source": "srd",
-    "page": "XGE 46",
-    "tags": [
-      "mastermind-feature",
-      "rogue-feature"
-    ],
-    "text": "Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.",
-    "grants": [
-      "srd:mastermind:master-of-intrigue",
-      "srd:mastermind:master-of-tactics"
-    ]
-  },
-  {
     "id": "srd:mastermind:insightful-manipulator",
     "kind": "subclass-feature",
     "name": "Insightful Manipulator",
-    "source": "srd",
-    "page": "XGE 46",
+    "source": "xge",
+    "page": "46",
     "tags": [
       "mastermind-feature",
       "rogue-feature"
@@ -104,8 +90,8 @@
     "id": "srd:mastermind:misdirection",
     "kind": "subclass-feature",
     "name": "Misdirection",
-    "source": "srd",
-    "page": "XGE 46",
+    "source": "xge",
+    "page": "46",
     "tags": [
       "mastermind-feature",
       "rogue-feature"
@@ -127,8 +113,8 @@
     "id": "srd:mastermind:soul-of-deceit",
     "kind": "subclass-feature",
     "name": "Soul of Deceit",
-    "source": "srd",
-    "page": "XGE 46",
+    "source": "xge",
+    "page": "46",
     "tags": [
       "mastermind-feature",
       "rogue-feature"

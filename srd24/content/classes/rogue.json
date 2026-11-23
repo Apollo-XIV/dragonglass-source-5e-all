@@ -3,8 +3,8 @@
     "id": "srd24:class:rogue",
     "kind": "class",
     "name": "Rogue",
-    "source": "srd24",
-    "page": "XPHB 128",
+    "source": "xphb",
+    "page": "128",
     "key": "rogue",
     "hitDie": "d8",
     "tags": [

@@ -3,17 +3,19 @@
     "id": "srd:subclass:lunar-sorcery",
     "kind": "subclass",
     "name": "Lunar Sorcery",
-    "source": "srd",
-    "page": "DSotDQ 34",
+    "source": "dsotdq",
+    "page": "34",
     "class": "srd:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.\n\nYou or someone from your lineage has been exposed to the concentrated magic of the moon (or moons) of your world, imbuing you with lunar magic. Perhaps your ancestor was involved in a druidic ritual involving an eclipse, or maybe a mystical fragment of a moon crashed near you. However you came to have your magic, your connection to the moon is obvious when you cast sorcerer spells—perhaps making your pupils glow with the color of a moon from your world, causing spectral manifestations of lunar phases to orbit you, or some other effect.",
     "levels": {
       "1": {
         "grants": [
-          "srd:lunar:lunar-sorcery",
+          "srd:lunar:lunar-embodiment",
+          "srd:lunar:moon-fire",
           {
             "id": "srd:spell:shield",
             "mode": "learned"
@@ -114,8 +116,8 @@
     "id": "srd:lunar:lunar-embodiment",
     "kind": "subclass-feature",
     "name": "Lunar Embodiment",
-    "source": "srd",
-    "page": "DSotDQ 34",
+    "source": "dsotdq",
+    "page": "34",
     "tags": [
       "lunar-feature",
       "sorcerer-feature"
@@ -126,8 +128,8 @@
     "id": "srd:lunar:moon-fire",
     "kind": "subclass-feature",
     "name": "Moon Fire",
-    "source": "srd",
-    "page": "DSotDQ 34",
+    "source": "dsotdq",
+    "page": "34",
     "tags": [
       "lunar-feature",
       "sorcerer-feature"
@@ -135,27 +137,11 @@
     "text": "*1st-Level Lunar Sorcery Feature*\n\nYou can call down the radiant light of the moon on command. You learn the sacred flame spell, which doesn't count against the number of sorcerer cantrips you know. When you cast the spell, you can target one creature as normal or target two creatures within range that are within 5 feet of each other."
   },
   {
-    "id": "srd:lunar:lunar-sorcery",
-    "kind": "subclass-feature",
-    "name": "Lunar Sorcery",
-    "source": "srd",
-    "page": "DSotDQ 34",
-    "tags": [
-      "lunar-feature",
-      "sorcerer-feature"
-    ],
-    "text": "On many worlds, the moon is a revered celestial body with magical properties. On Krynn, the gods of magic are associated with the world's three moons. On the world of Toril, the god Selûne uses the light of the moon to battle darkness. On Eberron, scholars of the Draconic Prophecy decipher ancient secrets from the waxing and waning of that world's twelve moons.\n\nYou or someone from your lineage has been exposed to the concentrated magic of the moon (or moons) of your world, imbuing you with lunar magic. Perhaps your ancestor was involved in a druidic ritual involving an eclipse, or maybe a mystical fragment of a moon crashed near you. However you came to have your magic, your connection to the moon is obvious when you cast sorcerer spells—perhaps making your pupils glow with the color of a moon from your world, causing spectral manifestations of lunar phases to orbit you, or some other effect.",
-    "grants": [
-      "srd:lunar:lunar-embodiment",
-      "srd:lunar:moon-fire"
-    ]
-  },
-  {
     "id": "srd:lunar:lunar-boons",
     "kind": "subclass-feature",
     "name": "Lunar Boons",
-    "source": "srd",
-    "page": "DSotDQ 34",
+    "source": "dsotdq",
+    "page": "34",
     "tags": [
       "lunar-feature",
       "sorcerer-feature"
@@ -199,8 +185,8 @@
     "id": "srd:lunar:waxing-and-waning",
     "kind": "subclass-feature",
     "name": "Waxing and Waning",
-    "source": "srd",
-    "page": "DSotDQ 35",
+    "source": "dsotdq",
+    "page": "35",
     "tags": [
       "lunar-feature",
       "sorcerer-feature"
@@ -225,8 +211,8 @@
     "id": "srd:lunar:lunar-empowerment",
     "kind": "subclass-feature",
     "name": "Lunar Empowerment",
-    "source": "srd",
-    "page": "DSotDQ 35",
+    "source": "dsotdq",
+    "page": "35",
     "tags": [
       "lunar-feature",
       "sorcerer-feature"
@@ -254,8 +240,8 @@
     "id": "srd:lunar:lunar-phenomenon",
     "kind": "subclass-feature",
     "name": "Lunar Phenomenon",
-    "source": "srd",
-    "page": "DSotDQ 35",
+    "source": "dsotdq",
+    "page": "35",
     "tags": [
       "lunar-feature",
       "sorcerer-feature"

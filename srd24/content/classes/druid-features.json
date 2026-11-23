@@ -3,8 +3,8 @@
     "id": "srd24:druid:druidic",
     "kind": "class-feature",
     "name": "Druidic",
-    "source": "srd24",
-    "page": "XPHB 80",
+    "source": "xphb",
+    "page": "80",
     "tags": [
       "druid-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:druid:magician",
     "kind": "class-feature",
     "name": "Magician",
-    "source": "srd24",
-    "page": "XPHB 80",
+    "source": "xphb",
+    "page": "80",
     "tags": [
       "druid-feature",
       "druid-primal-order-option"
@@ -26,8 +26,8 @@
     "id": "srd24:druid:warden",
     "kind": "class-feature",
     "name": "Warden",
-    "source": "srd24",
-    "page": "XPHB 80",
+    "source": "xphb",
+    "page": "80",
     "tags": [
       "druid-feature",
       "druid-primal-order-option"
@@ -62,8 +62,8 @@
     "id": "srd24:druid:primal-order",
     "kind": "class-feature",
     "name": "Primal Order",
-    "source": "srd24",
-    "page": "XPHB 80",
+    "source": "xphb",
+    "page": "80",
     "tags": [
       "druid-feature"
     ],
@@ -86,8 +86,8 @@
     "id": "srd24:druid:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 79",
+    "source": "xphb",
+    "page": "79",
     "tags": [
       "druid-feature"
     ],
@@ -97,8 +97,8 @@
     "id": "srd24:druid:wild-companion",
     "kind": "class-feature",
     "name": "Wild Companion",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature"
     ],
@@ -122,8 +122,8 @@
     "id": "srd24:druid:wild-shape",
     "kind": "class-feature",
     "name": "Wild Shape",
-    "source": "srd24",
-    "page": "XPHB 80",
+    "source": "xphb",
+    "page": "80",
     "tags": [
       "druid-feature"
     ],
@@ -168,8 +168,8 @@
     "id": "srd24:druid:druid-subclass",
     "kind": "class-feature",
     "name": "Druid Subclass",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature"
     ],
@@ -179,8 +179,8 @@
     "id": "srd24:druid:wild-resurgence",
     "kind": "class-feature",
     "name": "Wild Resurgence",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature"
     ],
@@ -221,8 +221,8 @@
     "id": "srd24:druid:potent-spellcasting",
     "kind": "class-feature",
     "name": "Potent Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature",
       "druid-elemental-fury-option"
@@ -233,8 +233,8 @@
     "id": "srd24:druid:primal-strike",
     "kind": "class-feature",
     "name": "Primal Strike",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature",
       "druid-elemental-fury-option"
@@ -245,8 +245,8 @@
     "id": "srd24:druid:elemental-fury",
     "kind": "class-feature",
     "name": "Elemental Fury",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature"
     ],
@@ -269,8 +269,8 @@
     "id": "srd24:druid:improved-elemental-fury",
     "kind": "class-feature",
     "name": "Improved Elemental Fury",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature"
     ],
@@ -280,8 +280,8 @@
     "id": "srd24:druid:beast-spells",
     "kind": "class-feature",
     "name": "Beast Spells",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature"
     ],
@@ -291,8 +291,8 @@
     "id": "srd24:druid:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 81",
+    "source": "xphb",
+    "page": "81",
     "tags": [
       "druid-feature"
     ],
@@ -302,8 +302,8 @@
     "id": "srd24:druid:archdruid",
     "kind": "class-feature",
     "name": "Archdruid",
-    "source": "srd24",
-    "page": "XPHB 82",
+    "source": "xphb",
+    "page": "82",
     "tags": [
       "druid-feature"
     ],

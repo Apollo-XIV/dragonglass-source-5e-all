@@ -3,17 +3,19 @@
     "id": "srd:subclass:eldritch-knight",
     "kind": "subclass",
     "name": "Eldritch Knight",
-    "source": "srd",
-    "page": "PHB 74",
+    "source": "phb",
+    "page": "74",
     "class": "srd:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic—abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.",
     "levels": {
       "3": {
         "grants": [
-          "srd:eldritch-knight:eldritch-knight"
+          "srd:eldritch-knight:spellcasting",
+          "srd:eldritch-knight:weapon-bond"
         ],
         "spellListAdditions": [
           {
@@ -78,8 +80,8 @@
     "id": "srd:eldritch-knight:spellcasting",
     "kind": "subclass-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "PHB 74",
+    "source": "phb",
+    "page": "74",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -90,8 +92,8 @@
     "id": "srd:eldritch-knight:weapon-bond",
     "kind": "subclass-feature",
     "name": "Weapon Bond",
-    "source": "srd",
-    "page": "PHB 74",
+    "source": "phb",
+    "page": "74",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -99,27 +101,11 @@
     "text": "At 3rd level, you learn a ritual that creates a magical bond between yourself and one weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond.\n\nOnce you have bonded a weapon to yourself, you can't be disarmed of that weapon unless you are incapacitated. If it is on the same plane of existence, you can summon that weapon as a bonus action on your turn, causing it to teleport instantly to your hand.\n\nYou can have up to two bonded weapons, but can summon only one at a time with your bonus action. If you attempt to bond with a third weapon, you must break the bond with one of the other two."
   },
   {
-    "id": "srd:eldritch-knight:eldritch-knight",
-    "kind": "subclass-feature",
-    "name": "Eldritch Knight",
-    "source": "srd",
-    "page": "PHB 74",
-    "tags": [
-      "eldritch-knight-feature",
-      "fighter-feature"
-    ],
-    "text": "The archetypal Eldritch Knight combines the martial mastery common to all fighters with a careful study of magic. Eldritch Knights use magical techniques similar to those practiced by wizards. They focus their study on two of the eight schools of magic—abjuration and evocation. Abjuration spells grant an Eldritch Knight additional protection in battle, and evocation spells deal damage to many foes at once, extending the fighter's reach in combat. These knights learn a comparatively small number of spells, committing them to memory instead of keeping them in a spellbook.",
-    "grants": [
-      "srd:eldritch-knight:spellcasting",
-      "srd:eldritch-knight:weapon-bond"
-    ]
-  },
-  {
     "id": "srd:eldritch-knight:war-magic",
     "kind": "subclass-feature",
     "name": "War Magic",
-    "source": "srd",
-    "page": "PHB 74",
+    "source": "phb",
+    "page": "74",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -130,8 +116,8 @@
     "id": "srd:eldritch-knight:eldritch-strike",
     "kind": "subclass-feature",
     "name": "Eldritch Strike",
-    "source": "srd",
-    "page": "PHB 74",
+    "source": "phb",
+    "page": "74",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -142,8 +128,8 @@
     "id": "srd:eldritch-knight:arcane-charge",
     "kind": "subclass-feature",
     "name": "Arcane Charge",
-    "source": "srd",
-    "page": "PHB 74",
+    "source": "phb",
+    "page": "74",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"
@@ -154,8 +140,8 @@
     "id": "srd:eldritch-knight:improved-war-magic",
     "kind": "subclass-feature",
     "name": "Improved War Magic",
-    "source": "srd",
-    "page": "PHB 74",
+    "source": "phb",
+    "page": "74",
     "tags": [
       "eldritch-knight-feature",
       "fighter-feature"

@@ -3,8 +3,8 @@
     "id": "srd:druid:druidic",
     "kind": "class-feature",
     "name": "Druidic",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd:druid:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd:druid:wild-shape",
     "kind": "class-feature",
     "name": "Wild Shape",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],
@@ -67,8 +67,8 @@
     "id": "srd:druid:wild-companion",
     "kind": "class-feature",
     "name": "Wild Companion",
-    "source": "srd",
-    "page": "TCE 35",
+    "source": "tce",
+    "page": "35",
     "tags": [
       "druid-feature"
     ],
@@ -88,8 +88,8 @@
     "id": "srd:druid:druid-circle",
     "kind": "class-feature",
     "name": "Druid Circle",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],
@@ -99,8 +99,8 @@
     "id": "srd:druid:wild-shape-improvement",
     "kind": "class-feature",
     "name": "Wild Shape Improvement",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],
@@ -110,8 +110,8 @@
     "id": "srd:druid:cantrip-versatility",
     "kind": "class-feature",
     "name": "Cantrip Versatility",
-    "source": "srd",
-    "page": "TCE 35",
+    "source": "tce",
+    "page": "35",
     "tags": [
       "druid-feature"
     ],
@@ -121,8 +121,8 @@
     "id": "srd:druid:wild-shape-improvement-8",
     "kind": "class-feature",
     "name": "Wild Shape Improvement",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],
@@ -132,8 +132,8 @@
     "id": "srd:druid:timeless-body",
     "kind": "class-feature",
     "name": "Timeless Body",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],
@@ -143,8 +143,8 @@
     "id": "srd:druid:beast-spells",
     "kind": "class-feature",
     "name": "Beast Spells",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],
@@ -154,8 +154,8 @@
     "id": "srd:druid:archdruid",
     "kind": "class-feature",
     "name": "Archdruid",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "tags": [
       "druid-feature"
     ],

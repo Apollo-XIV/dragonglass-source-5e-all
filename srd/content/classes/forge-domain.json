@@ -3,18 +3,20 @@
     "id": "srd:subclass:forge-domain",
     "kind": "subclass",
     "name": "Forge Domain",
-    "source": "srd",
-    "page": "XGE 18",
+    "source": "xge",
+    "page": "18",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object. Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Forge Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | identify, searing smite |\n| 3rd | heat metal, magic weapon |\n| 5th | elemental weapon, protection from energy |\n| 7th | fabricate, wall of fire |\n| 9th | animate objects, creation |",
     "fluff": "> I've got a minion that forges things. An ink-stained little twerp with excellent penmanship. So how do the hammers and fire help the process? Wouldn't the paper get burned? Oh, the fire must be for the wax seals!\n>\n> — Xanathar",
     "levels": {
       "1": {
         "grants": [
-          "srd:forge:forge-domain",
+          "srd:forge:bonus-proficiency",
+          "srd:forge:blessing-of-the-forge",
           "srd:spell:identify",
           "srd:spell:searing-smite"
         ]
@@ -70,8 +72,8 @@
     "id": "srd:forge:bonus-proficiency",
     "kind": "subclass-feature",
     "name": "Bonus Proficiency",
-    "source": "srd",
-    "page": "XGE 18",
+    "source": "xge",
+    "page": "18",
     "tags": [
       "forge-feature",
       "cleric-feature"
@@ -106,8 +108,8 @@
     "id": "srd:forge:blessing-of-the-forge",
     "kind": "subclass-feature",
     "name": "Blessing of the Forge",
-    "source": "srd",
-    "page": "XGE 18",
+    "source": "xge",
+    "page": "18",
     "tags": [
       "forge-feature",
       "cleric-feature"
@@ -115,27 +117,11 @@
     "text": "At 1st level, you gain the ability to imbue magic into a weapon or armor. At the end of a long rest, you can touch one nonmagical object that is a suit of armor or a simple or martial weapon. Until the end of your next long rest or until you die, the object becomes a magic item, granting a +1 bonus to AC if it's armor or a +1 bonus to attack and damage rolls if it's a weapon.\n\nOnce you use this feature, you can't use it again until you finish a long rest."
   },
   {
-    "id": "srd:forge:forge-domain",
-    "kind": "subclass-feature",
-    "name": "Forge Domain",
-    "source": "srd",
-    "page": "XGE 18",
-    "tags": [
-      "forge-feature",
-      "cleric-feature"
-    ],
-    "text": "The gods of the forge are patrons of artisans who work with metal, from a humble blacksmith who keeps a village in horseshoes and plow blades to the mighty elf artisan whose diamond-tipped arrows of mithral have felled demon lords. The gods of the forge teach that, with patience and hard work, even the most intractable metal can be transformed from a lump of ore to a beautifully wrought object. Clerics of these deities search for objects lost to the forces of darkness, liberate mines overrun by orcs, and uncover rare and wondrous materials necessary to create potent magic items. Followers of these gods take great pride in their work, and they are willing to craft and use heavy armor and powerful weapons to protect them. Deities of this domain include Gond, Reorx, Onatar, Moradin, Hephaestus, and Goibhniu.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Forge Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | identify, searing smite |\n| 3rd | heat metal, magic weapon |\n| 5th | elemental weapon, protection from energy |\n| 7th | fabricate, wall of fire |\n| 9th | animate objects, creation |",
-    "grants": [
-      "srd:forge:bonus-proficiency",
-      "srd:forge:blessing-of-the-forge"
-    ]
-  },
-  {
     "id": "srd:forge:channel-divinity-artisans-blessing",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Artisan's Blessing",
-    "source": "srd",
-    "page": "XGE 18",
+    "source": "xge",
+    "page": "18",
     "tags": [
       "forge-feature",
       "cleric-feature"
@@ -156,8 +142,8 @@
     "id": "srd:forge:soul-of-the-forge",
     "kind": "subclass-feature",
     "name": "Soul of the Forge",
-    "source": "srd",
-    "page": "XGE 18",
+    "source": "xge",
+    "page": "18",
     "tags": [
       "forge-feature",
       "cleric-feature"
@@ -193,8 +179,8 @@
     "id": "srd:forge:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "XGE 18",
+    "source": "xge",
+    "page": "18",
     "tags": [
       "forge-feature",
       "cleric-feature"
@@ -205,8 +191,8 @@
     "id": "srd:forge:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "forge-feature",
       "cleric-feature"
@@ -217,8 +203,8 @@
     "id": "srd:forge:saint-of-forge-and-fire",
     "kind": "subclass-feature",
     "name": "Saint of Forge and Fire",
-    "source": "srd",
-    "page": "XGE 18",
+    "source": "xge",
+    "page": "18",
     "tags": [
       "forge-feature",
       "cleric-feature"

@@ -3,17 +3,19 @@
     "id": "srd:subclass:school-of-conjuration",
     "kind": "subclass",
     "name": "School of Conjuration",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.",
     "levels": {
       "2": {
         "grants": [
-          "srd:conjuration:school-of-conjuration"
+          "srd:conjuration:conjuration-savant",
+          "srd:conjuration:minor-conjuration"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:conjuration:conjuration-savant",
     "kind": "subclass-feature",
     "name": "Conjuration Savant",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "conjuration-feature",
       "wizard-feature"
@@ -49,8 +51,8 @@
     "id": "srd:conjuration:minor-conjuration",
     "kind": "subclass-feature",
     "name": "Minor Conjuration",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "conjuration-feature",
       "wizard-feature"
@@ -69,27 +71,11 @@
     ]
   },
   {
-    "id": "srd:conjuration:school-of-conjuration",
-    "kind": "subclass-feature",
-    "name": "School of Conjuration",
-    "source": "srd",
-    "page": "PHB 116",
-    "tags": [
-      "conjuration-feature",
-      "wizard-feature"
-    ],
-    "text": "As a conjurer, you favor spells that produce objects and creatures out of thin air. You can conjure billowing clouds of killing fog or summon creatures from elsewhere to fight on your behalf. As your mastery grows, you learn spells of transportation and can teleport yourself across vast distances, even to other planes of existence, in an instant.",
-    "grants": [
-      "srd:conjuration:conjuration-savant",
-      "srd:conjuration:minor-conjuration"
-    ]
-  },
-  {
     "id": "srd:conjuration:benign-transposition",
     "kind": "subclass-feature",
     "name": "Benign Transposition",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "conjuration-feature",
       "wizard-feature"
@@ -136,8 +122,8 @@
     "id": "srd:conjuration:focused-conjuration",
     "kind": "subclass-feature",
     "name": "Focused Conjuration",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "conjuration-feature",
       "wizard-feature"
@@ -148,8 +134,8 @@
     "id": "srd:conjuration:durable-summons",
     "kind": "subclass-feature",
     "name": "Durable Summons",
-    "source": "srd",
-    "page": "PHB 116",
+    "source": "phb",
+    "page": "116",
     "tags": [
       "conjuration-feature",
       "wizard-feature"

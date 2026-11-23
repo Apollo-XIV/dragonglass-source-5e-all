@@ -3,8 +3,8 @@
     "id": "srd24:artificer:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "EFA 7",
+    "source": "efa",
+    "page": "7",
     "tags": [
       "artificer-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:artificer:tinkers-magic",
     "kind": "class-feature",
     "name": "Tinker's Magic",
-    "source": "srd24",
-    "page": "EFA 8",
+    "source": "efa",
+    "page": "8",
     "tags": [
       "artificer-feature"
     ],
@@ -57,8 +57,8 @@
     "id": "srd24:artificer:replicate-magic-item",
     "kind": "class-feature",
     "name": "Replicate Magic Item",
-    "source": "srd24",
-    "page": "EFA 8",
+    "source": "efa",
+    "page": "8",
     "tags": [
       "artificer-feature"
     ],
@@ -68,8 +68,8 @@
     "id": "srd24:artificer:artificer-subclass",
     "kind": "class-feature",
     "name": "Artificer Subclass",
-    "source": "srd24",
-    "page": "EFA 10",
+    "source": "efa",
+    "page": "10",
     "tags": [
       "artificer-feature"
     ],
@@ -79,8 +79,8 @@
     "id": "srd24:artificer:magic-item-tinker",
     "kind": "class-feature",
     "name": "Magic Item Tinker",
-    "source": "srd24",
-    "page": "EFA 10",
+    "source": "efa",
+    "page": "10",
     "tags": [
       "artificer-feature"
     ],
@@ -90,8 +90,8 @@
     "id": "srd24:artificer:flash-of-genius",
     "kind": "class-feature",
     "name": "Flash of Genius",
-    "source": "srd24",
-    "page": "EFA 10",
+    "source": "efa",
+    "page": "10",
     "tags": [
       "artificer-feature"
     ],
@@ -132,8 +132,8 @@
     "id": "srd24:artificer:magic-item-adept",
     "kind": "class-feature",
     "name": "Magic Item Adept",
-    "source": "srd24",
-    "page": "EFA 10",
+    "source": "efa",
+    "page": "10",
     "tags": [
       "artificer-feature"
     ],
@@ -143,8 +143,8 @@
     "id": "srd24:artificer:spell-storing-item",
     "kind": "class-feature",
     "name": "Spell-Storing Item",
-    "source": "srd24",
-    "page": "EFA 11",
+    "source": "efa",
+    "page": "11",
     "tags": [
       "artificer-feature"
     ],
@@ -154,8 +154,8 @@
     "id": "srd24:artificer:advanced-artifice",
     "kind": "class-feature",
     "name": "Advanced Artifice",
-    "source": "srd24",
-    "page": "EFA 11",
+    "source": "efa",
+    "page": "11",
     "tags": [
       "artificer-feature"
     ],
@@ -165,8 +165,8 @@
     "id": "srd24:artificer:magic-item-master",
     "kind": "class-feature",
     "name": "Magic Item Master",
-    "source": "srd24",
-    "page": "EFA 11",
+    "source": "efa",
+    "page": "11",
     "tags": [
       "artificer-feature"
     ],
@@ -176,8 +176,8 @@
     "id": "srd24:artificer:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "EFA 11",
+    "source": "efa",
+    "page": "11",
     "tags": [
       "artificer-feature"
     ],
@@ -187,8 +187,8 @@
     "id": "srd24:artificer:soul-of-artifice",
     "kind": "class-feature",
     "name": "Soul of Artifice",
-    "source": "srd24",
-    "page": "EFA 11",
+    "source": "efa",
+    "page": "11",
     "tags": [
       "artificer-feature"
     ],

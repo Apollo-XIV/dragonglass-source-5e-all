@@ -3,17 +3,18 @@
     "id": "srd:subclass:the-fiend",
     "kind": "subclass",
     "name": "The Fiend",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "class": "srd:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz-Urb'luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.\n\n**Expanded Spell List.** The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Fiend Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | burning hands, command |\n| 2nd | blindness/deafness, scorching ray |\n| 3rd | fireball, stinking cloud |\n| 4th | fire shield, wall of fire |\n| 5th | flame strike, hallow |",
     "levels": {
       "1": {
         "grants": [
-          "srd:fiend:the-fiend"
+          "srd:fiend:dark-ones-blessing"
         ],
         "spellListAdditions": [
           {
@@ -54,8 +55,8 @@
     "id": "srd:fiend:dark-ones-blessing",
     "kind": "subclass-feature",
     "name": "Dark One's Blessing",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "tags": [
       "fiend-feature",
       "warlock-feature"
@@ -63,26 +64,11 @@
     "text": "Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1)."
   },
   {
-    "id": "srd:fiend:the-fiend",
-    "kind": "subclass-feature",
-    "name": "The Fiend",
-    "source": "srd",
-    "page": "PHB 109",
-    "tags": [
-      "fiend-feature",
-      "warlock-feature"
-    ],
-    "text": "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz-Urb'luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths.\n\n**Expanded Spell List.** The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Fiend Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | burning hands, command |\n| 2nd | blindness/deafness, scorching ray |\n| 3rd | fireball, stinking cloud |\n| 4th | fire shield, wall of fire |\n| 5th | flame strike, hallow |",
-    "grants": [
-      "srd:fiend:dark-ones-blessing"
-    ]
-  },
-  {
     "id": "srd:fiend:dark-ones-own-luck",
     "kind": "subclass-feature",
     "name": "Dark One's Own Luck",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "tags": [
       "fiend-feature",
       "warlock-feature"
@@ -124,8 +110,8 @@
     "id": "srd:fiend:fiendish-resilience",
     "kind": "subclass-feature",
     "name": "Fiendish Resilience",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "tags": [
       "fiend-feature",
       "warlock-feature"
@@ -147,8 +133,8 @@
     "id": "srd:fiend:hurl-through-hell",
     "kind": "subclass-feature",
     "name": "Hurl Through Hell",
-    "source": "srd",
-    "page": "PHB 109",
+    "source": "phb",
+    "page": "109",
     "tags": [
       "fiend-feature",
       "warlock-feature"

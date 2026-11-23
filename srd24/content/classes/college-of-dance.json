@@ -3,17 +3,18 @@
     "id": "srd24:subclass:college-of-dance",
     "kind": "subclass",
     "name": "College of Dance",
-    "source": "srd24",
-    "page": "XPHB 64",
+    "source": "xphb",
+    "page": "64",
     "class": "srd24:class:bard",
     "tags": [
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "*Move in Harmony with the Cosmos*\n\nBards of the College of Dance know that the Words of Creation can't be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:dance:college-of-dance"
+          "srd24:dance:dazzling-footwork"
         ]
       },
       "6": {
@@ -33,8 +34,8 @@
     "id": "srd24:dance:dance-virtuoso",
     "kind": "subclass-feature",
     "name": "Dance Virtuoso",
-    "source": "srd24",
-    "page": "XPHB 64",
+    "source": "xphb",
+    "page": "64",
     "tags": [
       "dance-feature",
       "bard-feature"
@@ -45,8 +46,8 @@
     "id": "srd24:dance:unarmored-defense",
     "kind": "subclass-feature",
     "name": "Unarmored Defense",
-    "source": "srd24",
-    "page": "XPHB 64",
+    "source": "xphb",
+    "page": "64",
     "tags": [
       "dance-feature",
       "bard-feature"
@@ -57,8 +58,8 @@
     "id": "srd24:dance:agile-strikes",
     "kind": "subclass-feature",
     "name": "Agile Strikes",
-    "source": "srd24",
-    "page": "XPHB 64",
+    "source": "xphb",
+    "page": "64",
     "tags": [
       "dance-feature",
       "bard-feature"
@@ -69,8 +70,8 @@
     "id": "srd24:dance:bardic-damage",
     "kind": "subclass-feature",
     "name": "Bardic Damage",
-    "source": "srd24",
-    "page": "XPHB 64",
+    "source": "xphb",
+    "page": "64",
     "tags": [
       "dance-feature",
       "bard-feature"
@@ -81,8 +82,8 @@
     "id": "srd24:dance:dazzling-footwork",
     "kind": "subclass-feature",
     "name": "Dazzling Footwork",
-    "source": "srd24",
-    "page": "XPHB 64",
+    "source": "xphb",
+    "page": "64",
     "tags": [
       "dance-feature",
       "bard-feature"
@@ -96,26 +97,11 @@
     ]
   },
   {
-    "id": "srd24:dance:college-of-dance",
-    "kind": "subclass-feature",
-    "name": "College of Dance",
-    "source": "srd24",
-    "page": "XPHB 64",
-    "tags": [
-      "dance-feature",
-      "bard-feature"
-    ],
-    "text": "*Move in Harmony with the Cosmos*\n\nBards of the College of Dance know that the Words of Creation can't be contained within speech or song; the words are uttered by the movements of celestial bodies and flow through the motions of the smallest creatures. These Bards practice a way of being in harmony with the whirling cosmos that emphasizes agility, speed, and grace.",
-    "grants": [
-      "srd24:dance:dazzling-footwork"
-    ]
-  },
-  {
     "id": "srd24:dance:inspiring-movement",
     "kind": "subclass-feature",
     "name": "Inspiring Movement",
-    "source": "srd24",
-    "page": "XPHB 64",
+    "source": "xphb",
+    "page": "64",
     "tags": [
       "dance-feature",
       "bard-feature"
@@ -137,8 +123,8 @@
     "id": "srd24:dance:tandem-footwork",
     "kind": "subclass-feature",
     "name": "Tandem Footwork",
-    "source": "srd24",
-    "page": "XPHB 64",
+    "source": "xphb",
+    "page": "64",
     "tags": [
       "dance-feature",
       "bard-feature"
@@ -149,8 +135,8 @@
     "id": "srd24:dance:leading-evasion",
     "kind": "subclass-feature",
     "name": "Leading Evasion",
-    "source": "srd24",
-    "page": "XPHB 65",
+    "source": "xphb",
+    "page": "65",
     "tags": [
       "dance-feature",
       "bard-feature"

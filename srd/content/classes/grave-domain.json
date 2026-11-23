@@ -3,18 +3,20 @@
     "id": "srd:subclass:grave-domain",
     "kind": "subclass",
     "name": "Grave Domain",
-    "source": "srd",
-    "page": "XGE 19",
+    "source": "xge",
+    "page": "19",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include Kelemvor, Wee Jas, the ancestral spirits of the Undying Court, Hades, Anubis, and Osiris. Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.\n\n**Grave Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bane, false life |\n| 3rd | gentle repose, ray of enfeeblement |\n| 5th | revivify, vampiric touch |\n| 7th | blight, death ward |\n| 9th | antilife shell, raise dead |",
     "fluff": "> I guess if you can't disintegrate them or eat them, burying dead bodies makes as much sense as anything else.\n>\n> — Xanathar",
     "levels": {
       "1": {
         "grants": [
-          "srd:grave:grave-domain",
+          "srd:grave:circle-of-mortality",
+          "srd:grave:eyes-of-the-grave",
           "srd:spell:spare-the-dying",
           "srd:spell:bane",
           "srd:spell:false-life"
@@ -71,8 +73,8 @@
     "id": "srd:grave:circle-of-mortality",
     "kind": "subclass-feature",
     "name": "Circle of Mortality",
-    "source": "srd",
-    "page": "XGE 19",
+    "source": "xge",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -83,8 +85,8 @@
     "id": "srd:grave:eyes-of-the-grave",
     "kind": "subclass-feature",
     "name": "Eyes of the Grave",
-    "source": "srd",
-    "page": "XGE 19",
+    "source": "xge",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -123,27 +125,11 @@
     ]
   },
   {
-    "id": "srd:grave:grave-domain",
-    "kind": "subclass-feature",
-    "name": "Grave Domain",
-    "source": "srd",
-    "page": "XGE 19",
-    "tags": [
-      "grave-feature",
-      "cleric-feature"
-    ],
-    "text": "Gods of the grave watch over the line between life and death. To these deities, death and the afterlife are a foundational part of the multiverse. To desecrate the peace of the dead is an abomination. Deities of the grave include Kelemvor, Wee Jas, the ancestral spirits of the Undying Court, Hades, Anubis, and Osiris. Followers of these deities seek to put wandering spirits to rest, destroy the undead, and ease the suffering of the dying. Their magic also allows them to stave off death for a time, particularly for a person who still has some great work to accomplish in the world. This is a delay of death, not a denial of it, for death will eventually get its due.\n\n**Grave Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bane, false life |\n| 3rd | gentle repose, ray of enfeeblement |\n| 5th | revivify, vampiric touch |\n| 7th | blight, death ward |\n| 9th | antilife shell, raise dead |",
-    "grants": [
-      "srd:grave:circle-of-mortality",
-      "srd:grave:eyes-of-the-grave"
-    ]
-  },
-  {
     "id": "srd:grave:channel-divinity-path-to-the-grave",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Path to the Grave",
-    "source": "srd",
-    "page": "XGE 19",
+    "source": "xge",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -168,8 +154,8 @@
     "id": "srd:grave:sentinel-at-deaths-door",
     "kind": "subclass-feature",
     "name": "Sentinel at Death's Door",
-    "source": "srd",
-    "page": "XGE 19",
+    "source": "xge",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -211,8 +197,8 @@
     "id": "srd:grave:potent-spellcasting",
     "kind": "subclass-feature",
     "name": "Potent Spellcasting",
-    "source": "srd",
-    "page": "XGE 19",
+    "source": "xge",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -223,8 +209,8 @@
     "id": "srd:grave:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -235,8 +221,8 @@
     "id": "srd:grave:keeper-of-souls",
     "kind": "subclass-feature",
     "name": "Keeper of Souls",
-    "source": "srd",
-    "page": "XGE 19",
+    "source": "xge",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"

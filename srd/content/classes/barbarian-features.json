@@ -3,8 +3,8 @@
     "id": "srd:barbarian:rage",
     "kind": "class-feature",
     "name": "Rage",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -85,8 +85,8 @@
     "id": "srd:barbarian:unarmored-defense",
     "kind": "class-feature",
     "name": "Unarmored Defense",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -108,8 +108,8 @@
     "id": "srd:barbarian:danger-sense",
     "kind": "class-feature",
     "name": "Danger Sense",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -119,8 +119,8 @@
     "id": "srd:barbarian:reckless-attack",
     "kind": "class-feature",
     "name": "Reckless Attack",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -130,8 +130,8 @@
     "id": "srd:barbarian:primal-path",
     "kind": "class-feature",
     "name": "Primal Path",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -141,8 +141,8 @@
     "id": "srd:barbarian:primal-knowledge",
     "kind": "class-feature",
     "name": "Primal Knowledge",
-    "source": "srd",
-    "page": "TCE 24",
+    "source": "tce",
+    "page": "24",
     "tags": [
       "barbarian-feature"
     ],
@@ -152,8 +152,8 @@
     "id": "srd:barbarian:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -163,8 +163,8 @@
     "id": "srd:barbarian:fast-movement",
     "kind": "class-feature",
     "name": "Fast Movement",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -189,8 +189,8 @@
     "id": "srd:barbarian:feral-instinct",
     "kind": "class-feature",
     "name": "Feral Instinct",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -210,8 +210,8 @@
     "id": "srd:barbarian:instinctive-pounce",
     "kind": "class-feature",
     "name": "Instinctive Pounce",
-    "source": "srd",
-    "page": "TCE 24",
+    "source": "tce",
+    "page": "24",
     "tags": [
       "barbarian-feature"
     ],
@@ -221,8 +221,8 @@
     "id": "srd:barbarian:brutal-critical-1-die",
     "kind": "class-feature",
     "name": "Brutal Critical (1 die)",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -232,8 +232,8 @@
     "id": "srd:barbarian:relentless-rage",
     "kind": "class-feature",
     "name": "Relentless Rage",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -243,8 +243,8 @@
     "id": "srd:barbarian:brutal-critical-2-dice",
     "kind": "class-feature",
     "name": "Brutal Critical (2 dice)",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -254,8 +254,8 @@
     "id": "srd:barbarian:persistent-rage",
     "kind": "class-feature",
     "name": "Persistent Rage",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -265,8 +265,8 @@
     "id": "srd:barbarian:brutal-critical-3-dice",
     "kind": "class-feature",
     "name": "Brutal Critical (3 dice)",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -276,8 +276,8 @@
     "id": "srd:barbarian:indomitable-might",
     "kind": "class-feature",
     "name": "Indomitable Might",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],
@@ -298,8 +298,8 @@
     "id": "srd:barbarian:primal-champion",
     "kind": "class-feature",
     "name": "Primal Champion",
-    "source": "srd",
-    "page": "PHB 46",
+    "source": "phb",
+    "page": "46",
     "tags": [
       "barbarian-feature"
     ],

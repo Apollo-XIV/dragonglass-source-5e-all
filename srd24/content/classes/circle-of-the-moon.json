@@ -3,17 +3,19 @@
     "id": "srd24:subclass:circle-of-the-moon",
     "kind": "subclass",
     "name": "Circle of the Moon",
-    "source": "srd24",
-    "page": "XPHB 86",
+    "source": "xphb",
+    "page": "86",
     "class": "srd24:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "*Adopt Animal Forms to Guard the Wilds*\n\nDruids of the Circle of the Moon draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.\n\nChangeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid's blood.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:moon:circle-of-the-moon",
+          "srd24:moon:circle-of-the-moon-spells",
+          "srd24:moon:circle-forms",
           "srd24:spell:cure-wounds",
           "srd24:spell:moonbeam",
           "srd24:spell:starry-wisp"
@@ -55,8 +57,8 @@
     "id": "srd24:moon:circle-of-the-moon-spells",
     "kind": "subclass-feature",
     "name": "Circle of the Moon Spells",
-    "source": "srd24",
-    "page": "XPHB 86",
+    "source": "xphb",
+    "page": "86",
     "tags": [
       "moon-feature",
       "druid-feature"
@@ -67,8 +69,8 @@
     "id": "srd24:moon:circle-forms",
     "kind": "subclass-feature",
     "name": "Circle Forms",
-    "source": "srd24",
-    "page": "XPHB 86",
+    "source": "xphb",
+    "page": "86",
     "tags": [
       "moon-feature",
       "druid-feature"
@@ -76,27 +78,11 @@
     "text": "You can channel lunar magic when you assume a Wild Shape form, granting you the benefits below.\n\n**Challenge Rating.** The maximum Challenge Rating for the form equals your Druid level divided by 3 (round down).\n\n**Armor Class.** Until you leave the form, your AC equals 13 plus your Wisdom modifier if that total is higher than the Beast's AC.\n\n**Temporary Hit Points.** You gain a number of Temporary Hit Points equal to three times your Druid level."
   },
   {
-    "id": "srd24:moon:circle-of-the-moon",
-    "kind": "subclass-feature",
-    "name": "Circle of the Moon",
-    "source": "srd24",
-    "page": "XPHB 86",
-    "tags": [
-      "moon-feature",
-      "druid-feature"
-    ],
-    "text": "*Adopt Animal Forms to Guard the Wilds*\n\nDruids of the Circle of the Moon draw on lunar magic to transform themselves. Their order gathers under the moon to share news and perform rituals.\n\nChangeable as the moon, a Druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and then crash through undergrowth as a bear to drive off a trespassing monster. The wild is in the Druid's blood.",
-    "grants": [
-      "srd24:moon:circle-of-the-moon-spells",
-      "srd24:moon:circle-forms"
-    ]
-  },
-  {
     "id": "srd24:moon:improved-circle-forms",
     "kind": "subclass-feature",
     "name": "Improved Circle Forms",
-    "source": "srd24",
-    "page": "XPHB 87",
+    "source": "xphb",
+    "page": "87",
     "tags": [
       "moon-feature",
       "druid-feature"
@@ -107,8 +93,8 @@
     "id": "srd24:moon:moonlight-step",
     "kind": "subclass-feature",
     "name": "Moonlight Step",
-    "source": "srd24",
-    "page": "XPHB 87",
+    "source": "xphb",
+    "page": "87",
     "tags": [
       "moon-feature",
       "druid-feature"
@@ -150,8 +136,8 @@
     "id": "srd24:moon:lunar-form",
     "kind": "subclass-feature",
     "name": "Lunar Form",
-    "source": "srd24",
-    "page": "XPHB 87",
+    "source": "xphb",
+    "page": "87",
     "tags": [
       "moon-feature",
       "druid-feature"

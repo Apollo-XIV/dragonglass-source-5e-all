@@ -3,18 +3,21 @@
     "id": "srd24:subclass:enchanter",
     "kind": "subclass",
     "name": "Enchanter",
-    "source": "srd24",
-    "page": "AU 16",
+    "source": "au",
+    "page": "16",
     "class": "srd24:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "*Entrance and Beguile Others*\n\nAn Enchanter's magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends.",
     "fluff": "> Minds can be molded like clay when magic is involved. Take care you don't abuse this power.\n>\n> — Alustriel",
     "levels": {
       "3": {
         "grants": [
-          "srd24:enchanter:enchanter"
+          "srd24:enchanter:enchanting-conversationalist",
+          "srd24:enchanter:enchantment-savant",
+          "srd24:enchanter:hypnotic-presence"
         ],
         "choices": [
           {
@@ -188,8 +191,8 @@
     "id": "srd24:enchanter:enchanting-conversationalist",
     "kind": "subclass-feature",
     "name": "Enchanting Conversationalist",
-    "source": "srd24",
-    "page": "AU 16",
+    "source": "au",
+    "page": "16",
     "tags": [
       "enchanter-feature",
       "wizard-feature"
@@ -200,8 +203,8 @@
     "id": "srd24:enchanter:enchantment-savant",
     "kind": "subclass-feature",
     "name": "Enchantment Savant",
-    "source": "srd24",
-    "page": "AU 16",
+    "source": "au",
+    "page": "16",
     "tags": [
       "enchanter-feature",
       "wizard-feature"
@@ -212,8 +215,8 @@
     "id": "srd24:enchanter:hypnotic-presence",
     "kind": "subclass-feature",
     "name": "Hypnotic Presence",
-    "source": "srd24",
-    "page": "AU 17",
+    "source": "au",
+    "page": "17",
     "tags": [
       "enchanter-feature",
       "wizard-feature"
@@ -252,28 +255,11 @@
     ]
   },
   {
-    "id": "srd24:enchanter:enchanter",
-    "kind": "subclass-feature",
-    "name": "Enchanter",
-    "source": "srd24",
-    "page": "AU 16",
-    "tags": [
-      "enchanter-feature",
-      "wizard-feature"
-    ],
-    "text": "*Entrance and Beguile Others*\n\nAn Enchanter's magic clouds or captivates minds. Some Enchanters use their abilities to encourage peace and soften cruelty, while others use their mind-altering magic for selfish ends.",
-    "grants": [
-      "srd24:enchanter:enchanting-conversationalist",
-      "srd24:enchanter:enchantment-savant",
-      "srd24:enchanter:hypnotic-presence"
-    ]
-  },
-  {
     "id": "srd24:enchanter:split-enchantment",
     "kind": "subclass-feature",
     "name": "Split Enchantment",
-    "source": "srd24",
-    "page": "AU 17",
+    "source": "au",
+    "page": "17",
     "tags": [
       "enchanter-feature",
       "wizard-feature"
@@ -317,8 +303,8 @@
     "id": "srd24:enchanter:instinctive-charm",
     "kind": "subclass-feature",
     "name": "Instinctive Charm",
-    "source": "srd24",
-    "page": "AU 17",
+    "source": "au",
+    "page": "17",
     "tags": [
       "enchanter-feature",
       "wizard-feature"
@@ -340,8 +326,8 @@
     "id": "srd24:enchanter:alter-memories",
     "kind": "subclass-feature",
     "name": "Alter Memories",
-    "source": "srd24",
-    "page": "AU 17",
+    "source": "au",
+    "page": "17",
     "tags": [
       "enchanter-feature",
       "wizard-feature"

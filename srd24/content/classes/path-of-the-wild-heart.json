@@ -3,17 +3,19 @@
     "id": "srd24:subclass:path-of-the-wild-heart",
     "kind": "subclass",
     "name": "Path of the Wild Heart",
-    "source": "srd24",
-    "page": "XPHB 55",
+    "source": "xphb",
+    "page": "55",
     "class": "srd24:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "*Walk in Community with the Animal World*\n\nBarbarians who follow the Path of the Wild Heart view themselves as kin to animals. These Barbarians learn magical means to communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:wild-heart:path-of-the-wild-heart"
+          "srd24:wild-heart:animal-speaker",
+          "srd24:wild-heart:rage-of-the-wilds"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd24:wild-heart:animal-speaker",
     "kind": "subclass-feature",
     "name": "Animal Speaker",
-    "source": "srd24",
-    "page": "XPHB 55",
+    "source": "xphb",
+    "page": "55",
     "tags": [
       "wild-heart-feature",
       "barbarian-feature"
@@ -49,8 +51,8 @@
     "id": "srd24:wild-heart:rage-of-the-wilds",
     "kind": "subclass-feature",
     "name": "Rage of the Wilds",
-    "source": "srd24",
-    "page": "XPHB 55",
+    "source": "xphb",
+    "page": "55",
     "tags": [
       "wild-heart-feature",
       "barbarian-feature"
@@ -58,27 +60,11 @@
     "text": "Your Rage taps into the primal power of animals. Whenever you activate your Rage, you gain one of the following options of your choice.\n\n**Bear.** While your Rage is active, you have Resistance to every damage type except Force, Necrotic, Psychic, and Radiant.\n\n**Eagle.** When you activate your Rage, you can take the Disengage and Dash actions as part of that Bonus Action. While your Rage is active, you can take a Bonus Action to take both of those actions.\n\n**Wolf.** While your Rage is active, your allies have Advantage on attack rolls against any enemy of yours within 5 feet of you."
   },
   {
-    "id": "srd24:wild-heart:path-of-the-wild-heart",
-    "kind": "subclass-feature",
-    "name": "Path of the Wild Heart",
-    "source": "srd24",
-    "page": "XPHB 55",
-    "tags": [
-      "wild-heart-feature",
-      "barbarian-feature"
-    ],
-    "text": "*Walk in Community with the Animal World*\n\nBarbarians who follow the Path of the Wild Heart view themselves as kin to animals. These Barbarians learn magical means to communicate with animals, and their Rage heightens their connection to animals as it fills them with supernatural might.",
-    "grants": [
-      "srd24:wild-heart:animal-speaker",
-      "srd24:wild-heart:rage-of-the-wilds"
-    ]
-  },
-  {
     "id": "srd24:wild-heart:aspect-of-the-wilds",
     "kind": "subclass-feature",
     "name": "Aspect of the Wilds",
-    "source": "srd24",
-    "page": "XPHB 55",
+    "source": "xphb",
+    "page": "55",
     "tags": [
       "wild-heart-feature",
       "barbarian-feature"
@@ -89,8 +75,8 @@
     "id": "srd24:wild-heart:nature-speaker",
     "kind": "subclass-feature",
     "name": "Nature Speaker",
-    "source": "srd24",
-    "page": "XPHB 55",
+    "source": "xphb",
+    "page": "55",
     "tags": [
       "wild-heart-feature",
       "barbarian-feature"
@@ -101,8 +87,8 @@
     "id": "srd24:wild-heart:power-of-the-wilds",
     "kind": "subclass-feature",
     "name": "Power of the Wilds",
-    "source": "srd24",
-    "page": "XPHB 55",
+    "source": "xphb",
+    "page": "55",
     "tags": [
       "wild-heart-feature",
       "barbarian-feature"

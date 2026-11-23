@@ -3,17 +3,20 @@
     "id": "srd:subclass:oath-of-the-watchers",
     "kind": "subclass",
     "name": "Oath of the Watchers",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "class": "srd:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "The Oath of the Watchers binds paladins to protect mortal realms from the predations of extraplanar creatures, many of which can lay waste to mortal soldiers. Thus, the Watchers hone their minds, spirits, and bodies to be the ultimate weapons against such threats.\n\nPaladins who follow the Watchers' oath are ever vigilant in spotting the influence of extraplanar forces, often establishing a network of spies and informants to gather information on suspected cults. To a Watcher, keeping a healthy suspicion and awareness about one's surroundings is as natural as wearing armor in battle.",
     "levels": {
       "3": {
         "grants": [
-          "srd:watchers:oath-of-the-watchers",
+          "srd:watchers:tenets-of-the-watchers",
+          "srd:watchers:oath-spells",
+          "srd:watchers:channel-divinity",
           "srd:spell:alarm",
           "srd:spell:detect-magic"
         ]
@@ -63,8 +66,8 @@
     "id": "srd:watchers:tenets-of-the-watchers",
     "kind": "subclass-feature",
     "name": "Tenets of the Watchers",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "tags": [
       "watchers-feature",
       "paladin-feature"
@@ -75,8 +78,8 @@
     "id": "srd:watchers:oath-spells",
     "kind": "subclass-feature",
     "name": "Oath Spells",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "tags": [
       "watchers-feature",
       "paladin-feature"
@@ -87,8 +90,8 @@
     "id": "srd:watchers:watchers-will",
     "kind": "subclass-feature",
     "name": "Watcher's Will",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "tags": [
       "watchers-feature",
       "paladin-feature"
@@ -113,8 +116,8 @@
     "id": "srd:watchers:abjure-the-extraplanar",
     "kind": "subclass-feature",
     "name": "Abjure the Extraplanar",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "tags": [
       "watchers-feature",
       "paladin-feature"
@@ -139,8 +142,8 @@
     "id": "srd:watchers:channel-divinity",
     "kind": "subclass-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "tags": [
       "watchers-feature",
       "paladin-feature"
@@ -152,28 +155,11 @@
     ]
   },
   {
-    "id": "srd:watchers:oath-of-the-watchers",
-    "kind": "subclass-feature",
-    "name": "Oath of the Watchers",
-    "source": "srd",
-    "page": "TCE 54",
-    "tags": [
-      "watchers-feature",
-      "paladin-feature"
-    ],
-    "text": "The Oath of the Watchers binds paladins to protect mortal realms from the predations of extraplanar creatures, many of which can lay waste to mortal soldiers. Thus, the Watchers hone their minds, spirits, and bodies to be the ultimate weapons against such threats.\n\nPaladins who follow the Watchers' oath are ever vigilant in spotting the influence of extraplanar forces, often establishing a network of spies and informants to gather information on suspected cults. To a Watcher, keeping a healthy suspicion and awareness about one's surroundings is as natural as wearing armor in battle.",
-    "grants": [
-      "srd:watchers:tenets-of-the-watchers",
-      "srd:watchers:oath-spells",
-      "srd:watchers:channel-divinity"
-    ]
-  },
-  {
     "id": "srd:watchers:aura-of-the-sentinel",
     "kind": "subclass-feature",
     "name": "Aura of the Sentinel",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "tags": [
       "watchers-feature",
       "paladin-feature"
@@ -184,8 +170,8 @@
     "id": "srd:watchers:vigilant-rebuke",
     "kind": "subclass-feature",
     "name": "Vigilant Rebuke",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "tags": [
       "watchers-feature",
       "paladin-feature"
@@ -207,8 +193,8 @@
     "id": "srd:watchers:mortal-bulwark",
     "kind": "subclass-feature",
     "name": "Mortal Bulwark",
-    "source": "srd",
-    "page": "TCE 54",
+    "source": "tce",
+    "page": "54",
     "tags": [
       "watchers-feature",
       "paladin-feature"

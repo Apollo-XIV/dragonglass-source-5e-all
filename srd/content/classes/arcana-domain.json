@@ -3,17 +3,18 @@
     "id": "srd:subclass:arcana-domain",
     "kind": "subclass",
     "name": "Arcana Domain",
-    "source": "srd",
-    "page": "SCAG 125",
+    "source": "scag",
+    "page": "125",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.\n\nThe gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include Azuth and Mystra, as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes Hecate, Math Mathonwy, and Isis; the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and Boccob, Vecna, and Wee Jas of Greyhawk.\n\nAt each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.\n\n**Arcana Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | detect magic, magic missile |\n| 3rd | magic weapon, Nystul's magic aura |\n| 5th | dispel magic, magic circle |\n| 7th | arcane eye, Leomund's secret chest |\n| 9th | planar binding, teleportation circle |",
     "levels": {
       "1": {
         "grants": [
-          "srd:arcana:arcana-domain",
+          "srd:arcana:arcane-initiate",
           "srd:spell:detect-magic",
           "srd:spell:magic-missile"
         ],
@@ -83,8 +84,8 @@
     "id": "srd:arcana:arcane-initiate",
     "kind": "subclass-feature",
     "name": "Arcane Initiate",
-    "source": "srd",
-    "page": "SCAG 125",
+    "source": "scag",
+    "page": "125",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -92,26 +93,11 @@
     "text": "When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips."
   },
   {
-    "id": "srd:arcana:arcana-domain",
-    "kind": "subclass-feature",
-    "name": "Arcana Domain",
-    "source": "srd",
-    "page": "SCAG 125",
-    "tags": [
-      "arcana-feature",
-      "cleric-feature"
-    ],
-    "text": "Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.\n\nThe gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include Azuth and Mystra, as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes Hecate, Math Mathonwy, and Isis; the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and Boccob, Vecna, and Wee Jas of Greyhawk.\n\nAt each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.\n\n**Arcana Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | detect magic, magic missile |\n| 3rd | magic weapon, Nystul's magic aura |\n| 5th | dispel magic, magic circle |\n| 7th | arcane eye, Leomund's secret chest |\n| 9th | planar binding, teleportation circle |",
-    "grants": [
-      "srd:arcana:arcane-initiate"
-    ]
-  },
-  {
     "id": "srd:arcana:channel-divinity-arcane-abjuration",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Arcane Abjuration",
-    "source": "srd",
-    "page": "SCAG 125",
+    "source": "scag",
+    "page": "125",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -136,8 +122,8 @@
     "id": "srd:arcana:spell-breaker",
     "kind": "subclass-feature",
     "name": "Spell Breaker",
-    "source": "srd",
-    "page": "SCAG 125",
+    "source": "scag",
+    "page": "125",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -148,8 +134,8 @@
     "id": "srd:arcana:potent-spellcasting",
     "kind": "subclass-feature",
     "name": "Potent Spellcasting",
-    "source": "srd",
-    "page": "SCAG 125",
+    "source": "scag",
+    "page": "125",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -160,8 +146,8 @@
     "id": "srd:arcana:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "arcana-feature",
       "cleric-feature"
@@ -172,8 +158,8 @@
     "id": "srd:arcana:arcane-mastery",
     "kind": "subclass-feature",
     "name": "Arcane Mastery",
-    "source": "srd",
-    "page": "SCAG 125",
+    "source": "scag",
+    "page": "125",
     "tags": [
       "arcana-feature",
       "cleric-feature"

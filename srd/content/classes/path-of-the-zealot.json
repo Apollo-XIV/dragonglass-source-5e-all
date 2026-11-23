@@ -3,17 +3,19 @@
     "id": "srd:subclass:path-of-the-zealot",
     "kind": "subclass",
     "name": "Path of the Zealot",
-    "source": "srd",
-    "page": "XGE 11",
+    "source": "xge",
+    "page": "11",
     "class": "srd:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots—warriors who channel their rage into powerful displays of divine power.\n\nA variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
     "levels": {
       "3": {
         "grants": [
-          "srd:zealot:path-of-the-zealot"
+          "srd:zealot:divine-fury",
+          "srd:zealot:warrior-of-the-gods"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:zealot:divine-fury",
     "kind": "subclass-feature",
     "name": "Divine Fury",
-    "source": "srd",
-    "page": "XGE 11",
+    "source": "xge",
+    "page": "11",
     "tags": [
       "zealot-feature",
       "barbarian-feature"
@@ -49,8 +51,8 @@
     "id": "srd:zealot:warrior-of-the-gods",
     "kind": "subclass-feature",
     "name": "Warrior of the Gods",
-    "source": "srd",
-    "page": "XGE 11",
+    "source": "xge",
+    "page": "11",
     "tags": [
       "zealot-feature",
       "barbarian-feature"
@@ -58,27 +60,11 @@
     "text": "At 3rd level, your soul is marked for endless battle. If a spell, such as raise dead, has the sole effect of restoring you to life (but not undeath), the caster doesn't need material components to cast the spell on you."
   },
   {
-    "id": "srd:zealot:path-of-the-zealot",
-    "kind": "subclass-feature",
-    "name": "Path of the Zealot",
-    "source": "srd",
-    "page": "XGE 11",
-    "tags": [
-      "zealot-feature",
-      "barbarian-feature"
-    ],
-    "text": "Some deities inspire their followers to pitch themselves into a ferocious battle fury. These barbarians are zealots—warriors who channel their rage into powerful displays of divine power.\n\nA variety of gods across the worlds of D&D inspire their followers to embrace this path. Tempus from the Forgotten Realms and Hextor and Erythnul of Greyhawk are all prime examples. In general, the gods who inspire zealots are deities of combat, destruction, and violence. Not all are evil, but few are good.",
-    "grants": [
-      "srd:zealot:divine-fury",
-      "srd:zealot:warrior-of-the-gods"
-    ]
-  },
-  {
     "id": "srd:zealot:fanatical-focus",
     "kind": "subclass-feature",
     "name": "Fanatical Focus",
-    "source": "srd",
-    "page": "XGE 11",
+    "source": "xge",
+    "page": "11",
     "tags": [
       "zealot-feature",
       "barbarian-feature"
@@ -89,8 +75,8 @@
     "id": "srd:zealot:zealous-presence",
     "kind": "subclass-feature",
     "name": "Zealous Presence",
-    "source": "srd",
-    "page": "XGE 11",
+    "source": "xge",
+    "page": "11",
     "tags": [
       "zealot-feature",
       "barbarian-feature"
@@ -132,8 +118,8 @@
     "id": "srd:zealot:rage-beyond-death",
     "kind": "subclass-feature",
     "name": "Rage beyond Death",
-    "source": "srd",
-    "page": "XGE 11",
+    "source": "xge",
+    "page": "11",
     "tags": [
       "zealot-feature",
       "barbarian-feature"

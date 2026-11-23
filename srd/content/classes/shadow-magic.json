@@ -3,18 +3,20 @@
     "id": "srd:subclass:shadow-magic",
     "kind": "subclass",
     "name": "Shadow Magic",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "class": "srd:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.\n\nThe power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the Shadow Sorcerer Quirks table to create a quirk for your character.\n\n**Shadow Sorcerer Quirks**\n| d6 | Quirk |\n| --- | --- |\n| 1 | You are always icy cold to the touch. |\n| 2 | When you are asleep, you don't appear to breathe (though you must still breathe to survive). |\n| 3 | You barely bleed, even when badly injured. |\n| 4 | Your heart beats once per minute. This event sometimes surprises you. |\n| 5 | You have trouble remembering that living creatures and corpses should be treated differently. |\n| 6 | You blinked. Once. Last week. |",
     "fluff": "> Sometimes I disintegrate my shadow when I see it, because I think it's a different beholder.\n>\n> — Xanathar",
     "levels": {
       "1": {
         "grants": [
-          "srd:shadow:shadow-magic"
+          "srd:shadow:eyes-of-the-dark",
+          "srd:shadow:strength-of-the-grave"
         ]
       },
       "3": {
@@ -46,8 +48,8 @@
     "id": "srd:shadow:eyes-of-the-dark",
     "kind": "subclass-feature",
     "name": "Eyes of the Dark",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"
@@ -58,8 +60,8 @@
     "id": "srd:shadow:strength-of-the-grave",
     "kind": "subclass-feature",
     "name": "Strength of the Grave",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"
@@ -67,27 +69,11 @@
     "text": "Starting at 1st level, your existence in a twilight state between life and death makes you difficult to defeat. When damage reduces you to 0 hit points, you can make a Charisma saving throw (DC 5 + the damage taken). On a success, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points by radiant damage or by a critical hit.\n\nAfter the saving throw succeeds, you can't use this feature again until you finish a long rest."
   },
   {
-    "id": "srd:shadow:shadow-magic",
-    "kind": "subclass-feature",
-    "name": "Shadow Magic",
-    "source": "srd",
-    "page": "XGE 50",
-    "tags": [
-      "shadow-feature",
-      "sorcerer-feature"
-    ],
-    "text": "You are a creature of shadow, for your innate magic comes from the Shadowfell itself. You might trace your lineage to an entity from that place, or perhaps you were exposed to its fell energy and transformed by it.\n\nThe power of shadow magic casts a strange pall over your physical presence. The spark of life that sustains you is muffled, as if it struggles to remain viable against the dark energy that imbues your soul. At your option, you can pick from or roll on the Shadow Sorcerer Quirks table to create a quirk for your character.\n\n**Shadow Sorcerer Quirks**\n| d6 | Quirk |\n| --- | --- |\n| 1 | You are always icy cold to the touch. |\n| 2 | When you are asleep, you don't appear to breathe (though you must still breathe to survive). |\n| 3 | You barely bleed, even when badly injured. |\n| 4 | Your heart beats once per minute. This event sometimes surprises you. |\n| 5 | You have trouble remembering that living creatures and corpses should be treated differently. |\n| 6 | You blinked. Once. Last week. |",
-    "grants": [
-      "srd:shadow:eyes-of-the-dark",
-      "srd:shadow:strength-of-the-grave"
-    ]
-  },
-  {
     "id": "srd:shadow:hound-of-ill-omen",
     "kind": "subclass-feature",
     "name": "Hound of Ill Omen",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"
@@ -112,8 +98,8 @@
     "id": "srd:shadow:shadow-walk",
     "kind": "subclass-feature",
     "name": "Shadow Walk",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"
@@ -124,8 +110,8 @@
     "id": "srd:shadow:umbral-form",
     "kind": "subclass-feature",
     "name": "Umbral Form",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"

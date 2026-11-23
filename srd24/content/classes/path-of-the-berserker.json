@@ -3,17 +3,18 @@
     "id": "srd24:subclass:path-of-the-berserker",
     "kind": "subclass",
     "name": "Path of the Berserker",
-    "source": "srd24",
-    "page": "XPHB 54",
+    "source": "xphb",
+    "page": "54",
     "class": "srd24:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "*Channel Rage into Violent Fury*\n\nBarbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:berserker:path-of-the-berserker"
+          "srd24:berserker:frenzy"
         ]
       },
       "6": {
@@ -37,8 +38,8 @@
     "id": "srd24:berserker:frenzy",
     "kind": "subclass-feature",
     "name": "Frenzy",
-    "source": "srd24",
-    "page": "XPHB 54",
+    "source": "xphb",
+    "page": "54",
     "tags": [
       "berserker-feature",
       "barbarian-feature"
@@ -46,26 +47,11 @@
     "text": "If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack."
   },
   {
-    "id": "srd24:berserker:path-of-the-berserker",
-    "kind": "subclass-feature",
-    "name": "Path of the Berserker",
-    "source": "srd24",
-    "page": "XPHB 54",
-    "tags": [
-      "berserker-feature",
-      "barbarian-feature"
-    ],
-    "text": "*Channel Rage into Violent Fury*\n\nBarbarians who walk the Path of the Berserker direct their Rage primarily toward violence. Their path is one of untrammeled fury, and they thrill in the chaos of battle as they allow their Rage to seize and empower them.",
-    "grants": [
-      "srd24:berserker:frenzy"
-    ]
-  },
-  {
     "id": "srd24:berserker:mindless-rage",
     "kind": "subclass-feature",
     "name": "Mindless Rage",
-    "source": "srd24",
-    "page": "XPHB 54",
+    "source": "xphb",
+    "page": "54",
     "tags": [
       "berserker-feature",
       "barbarian-feature"
@@ -94,8 +80,8 @@
     "id": "srd24:berserker:retaliation",
     "kind": "subclass-feature",
     "name": "Retaliation",
-    "source": "srd24",
-    "page": "XPHB 54",
+    "source": "xphb",
+    "page": "54",
     "tags": [
       "berserker-feature",
       "barbarian-feature"
@@ -117,8 +103,8 @@
     "id": "srd24:berserker:intimidating-presence",
     "kind": "subclass-feature",
     "name": "Intimidating Presence",
-    "source": "srd24",
-    "page": "XPHB 54",
+    "source": "xphb",
+    "page": "54",
     "tags": [
       "berserker-feature",
       "barbarian-feature"

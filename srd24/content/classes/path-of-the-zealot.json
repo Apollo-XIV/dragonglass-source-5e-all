@@ -3,17 +3,19 @@
     "id": "srd24:subclass:path-of-the-zealot",
     "kind": "subclass",
     "name": "Path of the Zealot",
-    "source": "srd24",
-    "page": "XPHB 57",
+    "source": "xphb",
+    "page": "57",
     "class": "srd24:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "*Rage in Ecstatic Union with a God*\n\nBarbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:zealot:path-of-the-zealot"
+          "srd24:zealot:divine-fury",
+          "srd24:zealot:warrior-of-the-gods"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd24:zealot:divine-fury",
     "kind": "subclass-feature",
     "name": "Divine Fury",
-    "source": "srd24",
-    "page": "XPHB 57",
+    "source": "xphb",
+    "page": "57",
     "tags": [
       "zealot-feature",
       "barbarian-feature"
@@ -49,8 +51,8 @@
     "id": "srd24:zealot:warrior-of-the-gods",
     "kind": "subclass-feature",
     "name": "Warrior of the Gods",
-    "source": "srd24",
-    "page": "XPHB 57",
+    "source": "xphb",
+    "page": "57",
     "tags": [
       "zealot-feature",
       "barbarian-feature"
@@ -69,27 +71,11 @@
     ]
   },
   {
-    "id": "srd24:zealot:path-of-the-zealot",
-    "kind": "subclass-feature",
-    "name": "Path of the Zealot",
-    "source": "srd24",
-    "page": "XPHB 57",
-    "tags": [
-      "zealot-feature",
-      "barbarian-feature"
-    ],
-    "text": "*Rage in Ecstatic Union with a God*\n\nBarbarians who walk the Path of the Zealot receive boons from a god or pantheon. These Barbarians experience their Rage as an ecstatic episode of divine union that infuses them with power. They are often allies to the priests and other followers of their god or pantheon.",
-    "grants": [
-      "srd24:zealot:divine-fury",
-      "srd24:zealot:warrior-of-the-gods"
-    ]
-  },
-  {
     "id": "srd24:zealot:fanatical-focus",
     "kind": "subclass-feature",
     "name": "Fanatical Focus",
-    "source": "srd24",
-    "page": "XPHB 57",
+    "source": "xphb",
+    "page": "57",
     "tags": [
       "zealot-feature",
       "barbarian-feature"
@@ -100,8 +86,8 @@
     "id": "srd24:zealot:zealous-presence",
     "kind": "subclass-feature",
     "name": "Zealous Presence",
-    "source": "srd24",
-    "page": "XPHB 57",
+    "source": "xphb",
+    "page": "57",
     "tags": [
       "zealot-feature",
       "barbarian-feature"
@@ -123,8 +109,8 @@
     "id": "srd24:zealot:rage-of-the-gods",
     "kind": "subclass-feature",
     "name": "Rage of the Gods",
-    "source": "srd24",
-    "page": "XPHB 57",
+    "source": "xphb",
+    "page": "57",
     "tags": [
       "zealot-feature",
       "barbarian-feature"

@@ -3,17 +3,19 @@
     "id": "srd24:subclass:clockwork-sorcery",
     "kind": "subclass",
     "name": "Clockwork Sorcery",
-    "source": "srd24",
-    "page": "XPHB 146",
+    "source": "xphb",
+    "page": "146",
     "class": "srd24:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "*Channel Cosmic Forces of Order*\n\nThe cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it's part of a vast and glorious system.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:clockwork:clockwork-sorcery",
+          "srd24:clockwork:clockwork-spells",
+          "srd24:clockwork:restore-balance",
           "srd24:spell:aid",
           "srd24:spell:alarm",
           "srd24:spell:lesser-restoration",
@@ -59,8 +61,8 @@
     "id": "srd24:clockwork:clockwork-spells",
     "kind": "subclass-feature",
     "name": "Clockwork Spells",
-    "source": "srd24",
-    "page": "XPHB 146",
+    "source": "xphb",
+    "page": "146",
     "tags": [
       "clockwork-feature",
       "sorcerer-feature"
@@ -71,8 +73,8 @@
     "id": "srd24:clockwork:restore-balance",
     "kind": "subclass-feature",
     "name": "Restore Balance",
-    "source": "srd24",
-    "page": "XPHB 146",
+    "source": "xphb",
+    "page": "146",
     "tags": [
       "clockwork-feature",
       "sorcerer-feature"
@@ -111,27 +113,11 @@
     ]
   },
   {
-    "id": "srd24:clockwork:clockwork-sorcery",
-    "kind": "subclass-feature",
-    "name": "Clockwork Sorcery",
-    "source": "srd24",
-    "page": "XPHB 146",
-    "tags": [
-      "clockwork-feature",
-      "sorcerer-feature"
-    ],
-    "text": "*Channel Cosmic Forces of Order*\n\nThe cosmic force of order has suffused you with magic. That power arises from Mechanus or a realm like it—a plane of existence shaped entirely by clockwork efficiency. You or someone from your lineage might have become entangled in the machinations of modrons, the orderly beings who inhabit Mechanus. Perhaps your ancestor even took part in the Great Modron March. Whatever its origin within you, the power of order can seem strange to others, but for you, it's part of a vast and glorious system.",
-    "grants": [
-      "srd24:clockwork:clockwork-spells",
-      "srd24:clockwork:restore-balance"
-    ]
-  },
-  {
     "id": "srd24:clockwork:bastion-of-law",
     "kind": "subclass-feature",
     "name": "Bastion of Law",
-    "source": "srd24",
-    "page": "XPHB 147",
+    "source": "xphb",
+    "page": "147",
     "tags": [
       "clockwork-feature",
       "sorcerer-feature"
@@ -159,8 +145,8 @@
     "id": "srd24:clockwork:trance-of-order",
     "kind": "subclass-feature",
     "name": "Trance of Order",
-    "source": "srd24",
-    "page": "XPHB 147",
+    "source": "xphb",
+    "page": "147",
     "tags": [
       "clockwork-feature",
       "sorcerer-feature"
@@ -185,8 +171,8 @@
     "id": "srd24:clockwork:clockwork-cavalcade",
     "kind": "subclass-feature",
     "name": "Clockwork Cavalcade",
-    "source": "srd24",
-    "page": "XPHB 147",
+    "source": "xphb",
+    "page": "147",
     "tags": [
       "clockwork-feature",
       "sorcerer-feature"

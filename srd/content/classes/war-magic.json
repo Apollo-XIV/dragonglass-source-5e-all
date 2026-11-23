@@ -3,18 +3,20 @@
     "id": "srd:subclass:war-magic",
     "kind": "subclass",
     "name": "War Magic",
-    "source": "srd",
-    "page": "XGE 59",
+    "source": "xge",
+    "page": "59",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration, rather than specializing in either of those schools. It teaches techniques that empower a caster's spells, while also providing methods for wizards to bolster their own defenses.\n\nFollowers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any piece of steel. War mages act fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents' attempts to counterattack. War mages are also adept at turning other spellcasters' magical energy against them.\n\nIn great battles, a war mage often works with evokers, abjurers, and other types of wizards. Evokers, in particular, sometimes tease war mages for splitting their attention between offense and defense. A war mage's typical response: \"What good is being able to throw a mighty fireball if I die before I can cast it?\"",
     "fluff": "> War magic? Does that make you a War Wizard? I've heard about them. They dress in purple, I think. But you're not dressed in purple. That's disappointing. Go change.\n>\n> — Xanathar",
     "levels": {
       "2": {
         "grants": [
-          "srd:war:war-magic"
+          "srd:war:arcane-deflection",
+          "srd:war:tactical-wit"
         ]
       },
       "6": {
@@ -38,8 +40,8 @@
     "id": "srd:war:arcane-deflection",
     "kind": "subclass-feature",
     "name": "Arcane Deflection",
-    "source": "srd",
-    "page": "XGE 59",
+    "source": "xge",
+    "page": "59",
     "tags": [
       "war-feature",
       "wizard-feature"
@@ -61,8 +63,8 @@
     "id": "srd:war:tactical-wit",
     "kind": "subclass-feature",
     "name": "Tactical Wit",
-    "source": "srd",
-    "page": "XGE 59",
+    "source": "xge",
+    "page": "59",
     "tags": [
       "war-feature",
       "wizard-feature"
@@ -70,27 +72,11 @@
     "text": "Starting at 2nd level, your keen ability to assess tactical situations allows you to act quickly in battle. You can give yourself a bonus to your initiative rolls equal to your Intelligence modifier."
   },
   {
-    "id": "srd:war:war-magic",
-    "kind": "subclass-feature",
-    "name": "War Magic",
-    "source": "srd",
-    "page": "XGE 59",
-    "tags": [
-      "war-feature",
-      "wizard-feature"
-    ],
-    "text": "A variety of arcane colleges specialize in training wizards for war. The tradition of War Magic blends principles of evocation and abjuration, rather than specializing in either of those schools. It teaches techniques that empower a caster's spells, while also providing methods for wizards to bolster their own defenses.\n\nFollowers of this tradition are known as war mages. They see their magic as both a weapon and armor, a resource superior to any piece of steel. War mages act fast in battle, using their spells to seize tactical control of a situation. Their spells strike hard, while their defensive skills foil their opponents' attempts to counterattack. War mages are also adept at turning other spellcasters' magical energy against them.\n\nIn great battles, a war mage often works with evokers, abjurers, and other types of wizards. Evokers, in particular, sometimes tease war mages for splitting their attention between offense and defense. A war mage's typical response: \"What good is being able to throw a mighty fireball if I die before I can cast it?\"",
-    "grants": [
-      "srd:war:arcane-deflection",
-      "srd:war:tactical-wit"
-    ]
-  },
-  {
     "id": "srd:war:power-surge",
     "kind": "subclass-feature",
     "name": "Power Surge",
-    "source": "srd",
-    "page": "XGE 59",
+    "source": "xge",
+    "page": "59",
     "tags": [
       "war-feature",
       "wizard-feature"
@@ -101,8 +87,8 @@
     "id": "srd:war:durable-magic",
     "kind": "subclass-feature",
     "name": "Durable Magic",
-    "source": "srd",
-    "page": "XGE 59",
+    "source": "xge",
+    "page": "59",
     "tags": [
       "war-feature",
       "wizard-feature"
@@ -113,8 +99,8 @@
     "id": "srd:war:deflecting-shroud",
     "kind": "subclass-feature",
     "name": "Deflecting Shroud",
-    "source": "srd",
-    "page": "XGE 59",
+    "source": "xge",
+    "page": "59",
     "tags": [
       "war-feature",
       "wizard-feature"

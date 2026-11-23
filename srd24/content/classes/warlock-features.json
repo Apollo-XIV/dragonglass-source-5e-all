@@ -3,8 +3,8 @@
     "id": "srd24:warlock:eldritch-invocations",
     "kind": "class-feature",
     "name": "Eldritch Invocations",
-    "source": "srd24",
-    "page": "XPHB 153",
+    "source": "xphb",
+    "page": "153",
     "tags": [
       "warlock-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:warlock:pact-magic",
     "kind": "class-feature",
     "name": "Pact Magic",
-    "source": "srd24",
-    "page": "XPHB 153",
+    "source": "xphb",
+    "page": "153",
     "tags": [
       "warlock-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd24:warlock:eldritch-invocation-options",
     "kind": "class-feature",
     "name": "Eldritch Invocation Options",
-    "source": "srd24",
-    "page": "XPHB 153",
+    "source": "xphb",
+    "page": "153",
     "tags": [
       "warlock-feature"
     ],
@@ -36,8 +36,8 @@
     "id": "srd24:warlock:magical-cunning",
     "kind": "class-feature",
     "name": "Magical Cunning",
-    "source": "srd24",
-    "page": "XPHB 154",
+    "source": "xphb",
+    "page": "154",
     "tags": [
       "warlock-feature"
     ],
@@ -78,8 +78,8 @@
     "id": "srd24:warlock:warlock-subclass",
     "kind": "class-feature",
     "name": "Warlock Subclass",
-    "source": "srd24",
-    "page": "XPHB 154",
+    "source": "xphb",
+    "page": "154",
     "tags": [
       "warlock-feature"
     ],
@@ -89,8 +89,8 @@
     "id": "srd24:warlock:contact-patron",
     "kind": "class-feature",
     "name": "Contact Patron",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "warlock-feature"
     ],
@@ -133,8 +133,8 @@
     "id": "srd24:warlock:mystic-arcanum",
     "kind": "class-feature",
     "name": "Mystic Arcanum",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "warlock-feature"
     ],
@@ -144,8 +144,8 @@
     "id": "srd24:warlock:mystic-arcanum-13",
     "kind": "class-feature",
     "name": "Mystic Arcanum",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "warlock-feature"
     ],
@@ -155,8 +155,8 @@
     "id": "srd24:warlock:mystic-arcanum-15",
     "kind": "class-feature",
     "name": "Mystic Arcanum",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "warlock-feature"
     ],
@@ -166,8 +166,8 @@
     "id": "srd24:warlock:mystic-arcanum-17",
     "kind": "class-feature",
     "name": "Mystic Arcanum",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "warlock-feature"
     ],
@@ -177,8 +177,8 @@
     "id": "srd24:warlock:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "warlock-feature"
     ],
@@ -188,8 +188,8 @@
     "id": "srd24:warlock:eldritch-master",
     "kind": "class-feature",
     "name": "Eldritch Master",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "warlock-feature"
     ],

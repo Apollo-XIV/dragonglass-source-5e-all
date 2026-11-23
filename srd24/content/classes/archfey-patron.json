@@ -3,17 +3,19 @@
     "id": "srd24:subclass:archfey-patron",
     "kind": "subclass",
     "name": "Archfey Patron",
-    "source": "srd24",
-    "page": "XPHB 159",
+    "source": "xphb",
+    "page": "159",
     "class": "srd24:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "*Bargain with Whimsical Fey*\n\nYour pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:archfey:archfey-patron",
+          "srd24:archfey:archfey-spells",
+          "srd24:archfey:steps-of-the-fey",
           "srd24:spell:calm-emotions",
           "srd24:spell:faerie-fire",
           "srd24:spell:misty-step",
@@ -60,8 +62,8 @@
     "id": "srd24:archfey:archfey-spells",
     "kind": "subclass-feature",
     "name": "Archfey Spells",
-    "source": "srd24",
-    "page": "XPHB 159",
+    "source": "xphb",
+    "page": "159",
     "tags": [
       "archfey-feature",
       "warlock-feature"
@@ -72,8 +74,8 @@
     "id": "srd24:archfey:steps-of-the-fey",
     "kind": "subclass-feature",
     "name": "Steps of the Fey",
-    "source": "srd24",
-    "page": "XPHB 159",
+    "source": "xphb",
+    "page": "159",
     "tags": [
       "archfey-feature",
       "warlock-feature"
@@ -114,27 +116,11 @@
     ]
   },
   {
-    "id": "srd24:archfey:archfey-patron",
-    "kind": "subclass-feature",
-    "name": "Archfey Patron",
-    "source": "srd24",
-    "page": "XPHB 159",
-    "tags": [
-      "archfey-feature",
-      "warlock-feature"
-    ],
-    "text": "*Bargain with Whimsical Fey*\n\nYour pact draws on the power of the Feywild. When you choose this subclass, you might make a deal with an archfey, such as the Prince of Frost; the Queen of Air and Darkness, ruler of the Gloaming Court; Titania of the Summer Court; or an ancient hag. Or you might call on a spectrum of Fey, weaving a web of favors and debts. Whoever they are, your patron is often inscrutable and whimsical.",
-    "grants": [
-      "srd24:archfey:archfey-spells",
-      "srd24:archfey:steps-of-the-fey"
-    ]
-  },
-  {
     "id": "srd24:archfey:misty-escape",
     "kind": "subclass-feature",
     "name": "Misty Escape",
-    "source": "srd24",
-    "page": "XPHB 159",
+    "source": "xphb",
+    "page": "159",
     "tags": [
       "archfey-feature",
       "warlock-feature"
@@ -145,8 +131,8 @@
     "id": "srd24:archfey:beguiling-defenses",
     "kind": "subclass-feature",
     "name": "Beguiling Defenses",
-    "source": "srd24",
-    "page": "XPHB 159",
+    "source": "xphb",
+    "page": "159",
     "tags": [
       "archfey-feature",
       "warlock-feature"
@@ -181,8 +167,8 @@
     "id": "srd24:archfey:bewitching-magic",
     "kind": "subclass-feature",
     "name": "Bewitching Magic",
-    "source": "srd24",
-    "page": "XPHB 160",
+    "source": "xphb",
+    "page": "160",
     "tags": [
       "archfey-feature",
       "warlock-feature"

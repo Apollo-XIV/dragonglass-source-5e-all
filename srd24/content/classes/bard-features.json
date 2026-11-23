@@ -3,8 +3,8 @@
     "id": "srd24:bard:bardic-inspiration",
     "kind": "class-feature",
     "name": "Bardic Inspiration",
-    "source": "srd24",
-    "page": "XPHB 59",
+    "source": "xphb",
+    "page": "59",
     "tags": [
       "bard-feature"
     ],
@@ -45,8 +45,8 @@
     "id": "srd24:bard:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 59",
+    "source": "xphb",
+    "page": "59",
     "tags": [
       "bard-feature"
     ],
@@ -56,8 +56,8 @@
     "id": "srd24:bard:expertise",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd24",
-    "page": "XPHB 60",
+    "source": "xphb",
+    "page": "60",
     "tags": [
       "bard-feature"
     ],
@@ -67,8 +67,8 @@
     "id": "srd24:bard:jack-of-all-trades",
     "kind": "class-feature",
     "name": "Jack of All Trades",
-    "source": "srd24",
-    "page": "XPHB 60",
+    "source": "xphb",
+    "page": "60",
     "tags": [
       "bard-feature"
     ],
@@ -78,8 +78,8 @@
     "id": "srd24:bard:bard-subclass",
     "kind": "class-feature",
     "name": "Bard Subclass",
-    "source": "srd24",
-    "page": "XPHB 60",
+    "source": "xphb",
+    "page": "60",
     "tags": [
       "bard-feature"
     ],
@@ -89,8 +89,8 @@
     "id": "srd24:bard:font-of-inspiration",
     "kind": "class-feature",
     "name": "Font of Inspiration",
-    "source": "srd24",
-    "page": "XPHB 61",
+    "source": "xphb",
+    "page": "61",
     "tags": [
       "bard-feature"
     ],
@@ -100,8 +100,8 @@
     "id": "srd24:bard:countercharm",
     "kind": "class-feature",
     "name": "Countercharm",
-    "source": "srd24",
-    "page": "XPHB 61",
+    "source": "xphb",
+    "page": "61",
     "tags": [
       "bard-feature"
     ],
@@ -122,8 +122,8 @@
     "id": "srd24:bard:expertise-9",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd24",
-    "page": "XPHB 61",
+    "source": "xphb",
+    "page": "61",
     "tags": [
       "bard-feature"
     ],
@@ -133,8 +133,8 @@
     "id": "srd24:bard:magical-secrets",
     "kind": "class-feature",
     "name": "Magical Secrets",
-    "source": "srd24",
-    "page": "XPHB 61",
+    "source": "xphb",
+    "page": "61",
     "tags": [
       "bard-feature"
     ],
@@ -144,8 +144,8 @@
     "id": "srd24:bard:superior-inspiration",
     "kind": "class-feature",
     "name": "Superior Inspiration",
-    "source": "srd24",
-    "page": "XPHB 61",
+    "source": "xphb",
+    "page": "61",
     "tags": [
       "bard-feature"
     ],
@@ -155,8 +155,8 @@
     "id": "srd24:bard:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 61",
+    "source": "xphb",
+    "page": "61",
     "tags": [
       "bard-feature"
     ],
@@ -166,8 +166,8 @@
     "id": "srd24:bard:words-of-creation",
     "kind": "class-feature",
     "name": "Words of Creation",
-    "source": "srd24",
-    "page": "XPHB 61",
+    "source": "xphb",
+    "page": "61",
     "tags": [
       "bard-feature"
     ],

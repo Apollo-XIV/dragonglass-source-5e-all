@@ -3,17 +3,20 @@
     "id": "srd24:subclass:warrior-of-mercy",
     "kind": "subclass",
     "name": "Warrior of Mercy",
-    "source": "srd24",
-    "page": "XPHB 104",
+    "source": "xphb",
+    "page": "104",
     "class": "srd24:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "*Manipulate Forces of Life and Death*\n\nWarriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:mercy:warrior-of-mercy"
+          "srd24:mercy:hand-of-harm",
+          "srd24:mercy:hand-of-healing",
+          "srd24:mercy:implements-of-mercy"
         ]
       },
       "6": {
@@ -37,8 +40,8 @@
     "id": "srd24:mercy:hand-of-harm",
     "kind": "subclass-feature",
     "name": "Hand of Harm",
-    "source": "srd24",
-    "page": "XPHB 104",
+    "source": "xphb",
+    "page": "104",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -59,8 +62,8 @@
     "id": "srd24:mercy:hand-of-healing",
     "kind": "subclass-feature",
     "name": "Hand of Healing",
-    "source": "srd24",
-    "page": "XPHB 104",
+    "source": "xphb",
+    "page": "104",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -85,8 +88,8 @@
     "id": "srd24:mercy:implements-of-mercy",
     "kind": "subclass-feature",
     "name": "Implements of Mercy",
-    "source": "srd24",
-    "page": "XPHB 104",
+    "source": "xphb",
+    "page": "104",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -94,28 +97,11 @@
     "text": "You gain proficiency in the Insight and Medicine skills and proficiency with the Herbalism Kit."
   },
   {
-    "id": "srd24:mercy:warrior-of-mercy",
-    "kind": "subclass-feature",
-    "name": "Warrior of Mercy",
-    "source": "srd24",
-    "page": "XPHB 104",
-    "tags": [
-      "mercy-feature",
-      "monk-feature"
-    ],
-    "text": "*Manipulate Forces of Life and Death*\n\nWarriors of Mercy manipulate the life force of others. These Monks are wandering physicians, but they bring a swift end to their enemies. They often wear masks, presenting themselves as faceless bringers of life and death.",
-    "grants": [
-      "srd24:mercy:hand-of-harm",
-      "srd24:mercy:hand-of-healing",
-      "srd24:mercy:implements-of-mercy"
-    ]
-  },
-  {
     "id": "srd24:mercy:physicians-touch",
     "kind": "subclass-feature",
     "name": "Physician's Touch",
-    "source": "srd24",
-    "page": "XPHB 104",
+    "source": "xphb",
+    "page": "104",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -126,8 +112,8 @@
     "id": "srd24:mercy:flurry-of-healing-and-harm",
     "kind": "subclass-feature",
     "name": "Flurry of Healing and Harm",
-    "source": "srd24",
-    "page": "XPHB 104",
+    "source": "xphb",
+    "page": "104",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -170,8 +156,8 @@
     "id": "srd24:mercy:hand-of-ultimate-mercy",
     "kind": "subclass-feature",
     "name": "Hand of Ultimate Mercy",
-    "source": "srd24",
-    "page": "XPHB 105",
+    "source": "xphb",
+    "page": "105",
     "tags": [
       "mercy-feature",
       "monk-feature"

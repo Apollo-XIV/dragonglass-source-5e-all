@@ -3,13 +3,13 @@
     "id": "srd:item:antimatter-rifle",
     "kind": "item",
     "name": "Antimatter Rifle",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 10,
     "weapon": {
@@ -42,11 +42,11 @@
     "id": "srd:item:arrow",
     "kind": "item",
     "name": "Arrow",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ammunition"
     ],
-    "page": "PHB 150",
+    "page": "150",
     "itemType": "ammunition",
     "weight": 0.05,
     "value": 5
@@ -55,12 +55,12 @@
     "id": "srd:item:arrows-20",
     "kind": "item",
     "name": "Arrows (20)",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "PHB 150",
+    "page": "150",
     "itemType": "ammunition",
     "weight": 1,
     "value": 100
@@ -69,13 +69,13 @@
     "id": "srd:item:automatic-pistol",
     "kind": "item",
     "name": "Automatic Pistol",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 3,
     "weapon": {
@@ -107,13 +107,13 @@
     "id": "srd:item:automatic-rifle",
     "kind": "item",
     "name": "Automatic Rifle",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 8,
     "weapon": {
@@ -147,13 +147,13 @@
     "id": "srd:item:battleaxe",
     "kind": "item",
     "name": "Battleaxe",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 4,
     "value": 1000,
@@ -170,13 +170,13 @@
     "id": "srd:item:blowgun",
     "kind": "item",
     "name": "Blowgun",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 1,
     "value": 1000,
@@ -209,11 +209,11 @@
     "id": "srd:item:blowgun-needle",
     "kind": "item",
     "name": "Blowgun Needle",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ammunition"
     ],
-    "page": "PHB 150",
+    "page": "150",
     "itemType": "ammunition",
     "weight": 0.02,
     "value": 2
@@ -222,12 +222,12 @@
     "id": "srd:item:blowgun-needles-50",
     "kind": "item",
     "name": "Blowgun Needles (50)",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "PHB 150",
+    "page": "150",
     "itemType": "ammunition",
     "weight": 1,
     "value": 100
@@ -236,14 +236,14 @@
     "id": "srd:item:club",
     "kind": "item",
     "name": "Club",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "light"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 10,
@@ -260,11 +260,11 @@
     "id": "srd:item:crossbow-bolt",
     "kind": "item",
     "name": "Crossbow Bolt",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ammunition"
     ],
-    "page": "PHB 150",
+    "page": "150",
     "itemType": "ammunition",
     "weight": 0.075,
     "value": 5
@@ -273,12 +273,12 @@
     "id": "srd:item:crossbow-bolts-20",
     "kind": "item",
     "name": "Crossbow Bolts (20)",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "PHB 150",
+    "page": "150",
     "itemType": "ammunition",
     "weight": 1.5,
     "value": 100
@@ -287,7 +287,7 @@
     "id": "srd:item:dagger",
     "kind": "item",
     "name": "Dagger",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
@@ -295,7 +295,7 @@
       "finesse",
       "light"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 1,
     "value": 200,
@@ -315,14 +315,14 @@
     "id": "srd:item:dart",
     "kind": "item",
     "name": "Dart",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon",
       "finesse"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 0.25,
     "value": 5,
@@ -355,13 +355,13 @@
     "id": "srd:item:double-bladed-scimitar",
     "kind": "item",
     "name": "Double-Bladed Scimitar",
-    "source": "srd",
+    "source": "erlw",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "ERLW 21",
+    "page": "21",
     "itemType": "weapon",
     "weight": 6,
     "value": 10000,
@@ -380,11 +380,11 @@
     "id": "srd:item:energy-cell",
     "kind": "item",
     "name": "Energy Cell",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "ammunition"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "ammunition",
     "weight": 0.3125
   },
@@ -392,13 +392,13 @@
     "id": "srd:item:flail",
     "kind": "item",
     "name": "Flail",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 1000,
@@ -412,13 +412,13 @@
     "id": "srd:item:glaive",
     "kind": "item",
     "name": "Glaive",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 6,
     "value": 2000,
@@ -437,13 +437,13 @@
     "id": "srd:item:greataxe",
     "kind": "item",
     "name": "Greataxe",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 7,
     "value": 3000,
@@ -461,13 +461,13 @@
     "id": "srd:item:greatclub",
     "kind": "item",
     "name": "Greatclub",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 10,
     "value": 20,
@@ -484,13 +484,13 @@
     "id": "srd:item:greatsword",
     "kind": "item",
     "name": "Greatsword",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 6,
     "value": 5000,
@@ -508,13 +508,13 @@
     "id": "srd:item:halberd",
     "kind": "item",
     "name": "Halberd",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 6,
     "value": 2000,
@@ -533,14 +533,14 @@
     "id": "srd:item:hand-crossbow",
     "kind": "item",
     "name": "Hand Crossbow",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon",
       "light"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 3,
     "value": 7500,
@@ -574,14 +574,14 @@
     "id": "srd:item:handaxe",
     "kind": "item",
     "name": "Handaxe",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "light"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 500,
@@ -600,13 +600,13 @@
     "id": "srd:item:heavy-crossbow",
     "kind": "item",
     "name": "Heavy Crossbow",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 18,
     "value": 5000,
@@ -641,14 +641,14 @@
     "id": "srd:item:hooked-shortspear",
     "kind": "item",
     "name": "Hooked Shortspear",
-    "source": "srd",
+    "source": "oota",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon",
       "light"
     ],
-    "page": "OotA 224",
+    "page": "224",
     "itemType": "weapon",
     "weight": 2,
     "weapon": {
@@ -665,14 +665,14 @@
     "id": "srd:item:hoopak",
     "kind": "item",
     "name": "Hoopak",
-    "source": "srd",
+    "source": "dsotdq",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon",
       "finesse"
     ],
-    "page": "DSotDQ 188",
+    "page": "188",
     "itemType": "weapon",
     "weight": 2,
     "value": 10,
@@ -694,13 +694,13 @@
     "id": "srd:item:hunting-rifle",
     "kind": "item",
     "name": "Hunting Rifle",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 8,
     "weapon": {
@@ -733,14 +733,14 @@
     "id": "srd:item:iron-ball",
     "kind": "item",
     "name": "Iron Ball",
-    "source": "srd",
+    "source": "idrotf",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon",
       "finesse"
     ],
-    "page": "IDRotF 238",
+    "page": "238",
     "itemType": "weapon",
     "weapon": {
       "damage": "1d4",
@@ -758,13 +758,13 @@
     "id": "srd:item:javelin",
     "kind": "item",
     "name": "Javelin",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 50,
@@ -782,13 +782,13 @@
     "id": "srd:item:lance",
     "kind": "item",
     "name": "Lance",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 6,
     "value": 1000,
@@ -807,13 +807,13 @@
     "id": "srd:item:laser-pistol",
     "kind": "item",
     "name": "Laser Pistol",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 2,
     "weapon": {
@@ -845,13 +845,13 @@
     "id": "srd:item:laser-rifle",
     "kind": "item",
     "name": "Laser Rifle",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 7,
     "weapon": {
@@ -884,13 +884,13 @@
     "id": "srd:item:light-crossbow",
     "kind": "item",
     "name": "Light Crossbow",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 5,
     "value": 2500,
@@ -924,14 +924,14 @@
     "id": "srd:item:light-hammer",
     "kind": "item",
     "name": "Light Hammer",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "light"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 200,
@@ -950,13 +950,13 @@
     "id": "srd:item:light-repeating-crossbow",
     "kind": "item",
     "name": "Light Repeating Crossbow",
-    "source": "srd",
+    "source": "oota",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon"
     ],
-    "page": "OotA 224",
+    "page": "224",
     "itemType": "weapon",
     "weight": 5,
     "weapon": {
@@ -975,13 +975,13 @@
     "id": "srd:item:longbow",
     "kind": "item",
     "name": "Longbow",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 5000,
@@ -1015,13 +1015,13 @@
     "id": "srd:item:longsword",
     "kind": "item",
     "name": "Longsword",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 3,
     "value": 1500,
@@ -1038,13 +1038,13 @@
     "id": "srd:item:mace",
     "kind": "item",
     "name": "Mace",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 4,
     "value": 500,
@@ -1058,13 +1058,13 @@
     "id": "srd:item:maul",
     "kind": "item",
     "name": "Maul",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 10,
     "value": 1000,
@@ -1082,11 +1082,11 @@
     "id": "srd:item:modern-bullet",
     "kind": "item",
     "name": "Modern Bullet",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "ammunition"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "ammunition",
     "weight": 0.1
   },
@@ -1094,12 +1094,12 @@
     "id": "srd:item:modern-bullets-10",
     "kind": "item",
     "name": "Modern Bullets (10)",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "ammunition",
     "weight": 1
   },
@@ -1107,13 +1107,13 @@
     "id": "srd:item:morningstar",
     "kind": "item",
     "name": "Morningstar",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 4,
     "value": 1500,
@@ -1127,13 +1127,13 @@
     "id": "srd:item:musket",
     "kind": "item",
     "name": "Musket",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 10,
     "value": 50000,
@@ -1167,13 +1167,13 @@
     "id": "srd:item:net",
     "kind": "item",
     "name": "Net",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 3,
     "value": 100,
@@ -1192,13 +1192,13 @@
     "id": "srd:item:oversized-longbow",
     "kind": "item",
     "name": "Oversized Longbow",
-    "source": "srd",
+    "source": "wdh",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "WDH 201",
+    "page": "201",
     "itemType": "weapon",
     "weight": 2,
     "weapon": {
@@ -1218,13 +1218,13 @@
     "id": "srd:item:pike",
     "kind": "item",
     "name": "Pike",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 18,
     "value": 500,
@@ -1243,13 +1243,13 @@
     "id": "srd:item:pistol",
     "kind": "item",
     "name": "Pistol",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 3,
     "value": 25000,
@@ -1282,13 +1282,13 @@
     "id": "srd:item:quarterstaff",
     "kind": "item",
     "name": "Quarterstaff",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 4,
     "value": 20,
@@ -1305,14 +1305,14 @@
     "id": "srd:item:rapier",
     "kind": "item",
     "name": "Rapier",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon",
       "finesse"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 2500,
@@ -1329,11 +1329,11 @@
     "id": "srd:item:renaissance-bullet",
     "kind": "item",
     "name": "Renaissance Bullet",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "ammunition"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "ammunition",
     "weight": 0.2,
     "value": 30
@@ -1342,12 +1342,12 @@
     "id": "srd:item:renaissance-bullets-10",
     "kind": "item",
     "name": "Renaissance Bullets (10)",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "ammunition",
     "weight": 2,
     "value": 300
@@ -1356,13 +1356,13 @@
     "id": "srd:item:revolver",
     "kind": "item",
     "name": "Revolver",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 3,
     "weapon": {
@@ -1394,7 +1394,7 @@
     "id": "srd:item:scimitar",
     "kind": "item",
     "name": "Scimitar",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
@@ -1402,7 +1402,7 @@
       "finesse",
       "light"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 3,
     "value": 2500,
@@ -1420,13 +1420,13 @@
     "id": "srd:item:shortbow",
     "kind": "item",
     "name": "Shortbow",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 2500,
@@ -1459,7 +1459,7 @@
     "id": "srd:item:shortsword",
     "kind": "item",
     "name": "Shortsword",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
@@ -1467,7 +1467,7 @@
       "finesse",
       "light"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 1000,
@@ -1485,13 +1485,13 @@
     "id": "srd:item:shotgun",
     "kind": "item",
     "name": "Shotgun",
-    "source": "srd",
+    "source": "dmg",
     "tags": [
       "weapon",
       "ranged-weapon",
       "martial-weapon"
     ],
-    "page": "DMG 268",
+    "page": "268",
     "itemType": "weapon",
     "weight": 7,
     "weapon": {
@@ -1524,14 +1524,14 @@
     "id": "srd:item:sickle",
     "kind": "item",
     "name": "Sickle",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon",
       "light"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 100,
@@ -1548,13 +1548,13 @@
     "id": "srd:item:sling",
     "kind": "item",
     "name": "Sling",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "ranged-weapon",
       "simple-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "value": 10,
     "weapon": {
@@ -1585,11 +1585,11 @@
     "id": "srd:item:sling-bullet",
     "kind": "item",
     "name": "Sling Bullet",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ammunition"
     ],
-    "page": "PHB 150",
+    "page": "150",
     "itemType": "ammunition",
     "weight": 0.075,
     "value": 0.2
@@ -1598,12 +1598,12 @@
     "id": "srd:item:sling-bullets-20",
     "kind": "item",
     "name": "Sling Bullets (20)",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "ammunition",
       "bundle"
     ],
-    "page": "PHB 150",
+    "page": "150",
     "itemType": "ammunition",
     "weight": 1.5,
     "value": 4
@@ -1612,13 +1612,13 @@
     "id": "srd:item:spear",
     "kind": "item",
     "name": "Spear",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 3,
     "value": 100,
@@ -1637,13 +1637,13 @@
     "id": "srd:item:trident",
     "kind": "item",
     "name": "Trident",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 4,
     "value": 500,
@@ -1662,13 +1662,13 @@
     "id": "srd:item:war-pick",
     "kind": "item",
     "name": "War Pick",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 500,
@@ -1682,13 +1682,13 @@
     "id": "srd:item:warhammer",
     "kind": "item",
     "name": "Warhammer",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 2,
     "value": 1500,
@@ -1705,14 +1705,14 @@
     "id": "srd:item:whip",
     "kind": "item",
     "name": "Whip",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "weapon",
       "melee-weapon",
       "martial-weapon",
       "finesse"
     ],
-    "page": "PHB 149",
+    "page": "149",
     "itemType": "weapon",
     "weight": 3,
     "value": 200,
@@ -1730,13 +1730,13 @@
     "id": "srd:item:yklwa",
     "kind": "item",
     "name": "Yklwa",
-    "source": "srd",
+    "source": "toa",
     "tags": [
       "weapon",
       "melee-weapon",
       "simple-weapon"
     ],
-    "page": "ToA 32",
+    "page": "32",
     "itemType": "weapon",
     "weight": 3,
     "value": 100,

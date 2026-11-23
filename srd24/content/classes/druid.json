@@ -3,8 +3,8 @@
     "id": "srd24:class:druid",
     "kind": "class",
     "name": "Druid",
-    "source": "srd24",
-    "page": "XPHB 78",
+    "source": "xphb",
+    "page": "78",
     "key": "druid",
     "hitDie": "d8",
     "tags": [

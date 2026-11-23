@@ -3,8 +3,8 @@
     "id": "srd:bard:bardic-inspiration",
     "kind": "class-feature",
     "name": "Bardic Inspiration",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -45,8 +45,8 @@
     "id": "srd:bard:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -56,8 +56,8 @@
     "id": "srd:bard:jack-of-all-trades",
     "kind": "class-feature",
     "name": "Jack of All Trades",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -67,8 +67,8 @@
     "id": "srd:bard:song-of-rest-d6",
     "kind": "class-feature",
     "name": "Song of Rest (d6)",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -78,8 +78,8 @@
     "id": "srd:bard:magical-inspiration",
     "kind": "class-feature",
     "name": "Magical Inspiration",
-    "source": "srd",
-    "page": "TCE 27",
+    "source": "tce",
+    "page": "27",
     "tags": [
       "bard-feature"
     ],
@@ -89,8 +89,8 @@
     "id": "srd:bard:bard-college",
     "kind": "class-feature",
     "name": "Bard College",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -100,8 +100,8 @@
     "id": "srd:bard:expertise",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -111,8 +111,8 @@
     "id": "srd:bard:bardic-versatility",
     "kind": "class-feature",
     "name": "Bardic Versatility",
-    "source": "srd",
-    "page": "TCE 27",
+    "source": "tce",
+    "page": "27",
     "tags": [
       "bard-feature"
     ],
@@ -122,8 +122,8 @@
     "id": "srd:bard:bardic-inspiration-d8",
     "kind": "class-feature",
     "name": "Bardic Inspiration (d8)",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -133,8 +133,8 @@
     "id": "srd:bard:font-of-inspiration",
     "kind": "class-feature",
     "name": "Font of Inspiration",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -144,8 +144,8 @@
     "id": "srd:bard:countercharm",
     "kind": "class-feature",
     "name": "Countercharm",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -166,8 +166,8 @@
     "id": "srd:bard:song-of-rest-d8",
     "kind": "class-feature",
     "name": "Song of Rest (d8)",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -177,8 +177,8 @@
     "id": "srd:bard:bardic-inspiration-d10",
     "kind": "class-feature",
     "name": "Bardic Inspiration (d10)",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -188,8 +188,8 @@
     "id": "srd:bard:expertise-10",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -199,8 +199,8 @@
     "id": "srd:bard:magical-secrets",
     "kind": "class-feature",
     "name": "Magical Secrets",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -210,8 +210,8 @@
     "id": "srd:bard:song-of-rest-d10",
     "kind": "class-feature",
     "name": "Song of Rest (d10)",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -221,8 +221,8 @@
     "id": "srd:bard:magical-secrets-14",
     "kind": "class-feature",
     "name": "Magical Secrets",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -232,8 +232,8 @@
     "id": "srd:bard:bardic-inspiration-d12",
     "kind": "class-feature",
     "name": "Bardic Inspiration (d12)",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -243,8 +243,8 @@
     "id": "srd:bard:song-of-rest-d12",
     "kind": "class-feature",
     "name": "Song of Rest (d12)",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -254,8 +254,8 @@
     "id": "srd:bard:magical-secrets-18",
     "kind": "class-feature",
     "name": "Magical Secrets",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],
@@ -265,8 +265,8 @@
     "id": "srd:bard:superior-inspiration",
     "kind": "class-feature",
     "name": "Superior Inspiration",
-    "source": "srd",
-    "page": "PHB 51",
+    "source": "phb",
+    "page": "51",
     "tags": [
       "bard-feature"
     ],

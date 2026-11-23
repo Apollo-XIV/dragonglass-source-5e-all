@@ -3,17 +3,20 @@
     "id": "srd:subclass:circle-of-spores",
     "kind": "subclass",
     "name": "Circle of Spores",
-    "source": "srd",
-    "page": "TCE 36",
+    "source": "tce",
+    "page": "36",
     "class": "srd:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.\n\nThese druids believe that life and death are parts of a grand cycle, with one leading to the other and then back again. Death isn't the end of life, but instead a change of state that sees life shift into a new form.\n\nDruids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.",
     "levels": {
       "2": {
         "grants": [
-          "srd:spores:circle-of-spores",
+          "srd:spores:circle-spells",
+          "srd:spores:halo-of-spores",
+          "srd:spores:symbiotic-entity",
           "srd:spell:chill-touch"
         ]
       },
@@ -62,8 +65,8 @@
     "id": "srd:spores:circle-spells",
     "kind": "subclass-feature",
     "name": "Circle Spells",
-    "source": "srd",
-    "page": "TCE 36",
+    "source": "tce",
+    "page": "36",
     "tags": [
       "spores-feature",
       "druid-feature"
@@ -74,8 +77,8 @@
     "id": "srd:spores:halo-of-spores",
     "kind": "subclass-feature",
     "name": "Halo of Spores",
-    "source": "srd",
-    "page": "TCE 36",
+    "source": "tce",
+    "page": "36",
     "tags": [
       "spores-feature",
       "druid-feature"
@@ -97,8 +100,8 @@
     "id": "srd:spores:symbiotic-entity",
     "kind": "subclass-feature",
     "name": "Symbiotic Entity",
-    "source": "srd",
-    "page": "TCE 36",
+    "source": "tce",
+    "page": "36",
     "tags": [
       "spores-feature",
       "druid-feature"
@@ -120,28 +123,11 @@
     ]
   },
   {
-    "id": "srd:spores:circle-of-spores",
-    "kind": "subclass-feature",
-    "name": "Circle of Spores",
-    "source": "srd",
-    "page": "TCE 36",
-    "tags": [
-      "spores-feature",
-      "druid-feature"
-    ],
-    "text": "Druids of the Circle of Spores find beauty in decay. They see within mold and other fungi the ability to transform lifeless material into abundant, albeit somewhat strange, life.\n\nThese druids believe that life and death are parts of a grand cycle, with one leading to the other and then back again. Death isn't the end of life, but instead a change of state that sees life shift into a new form.\n\nDruids of this circle have a complex relationship with the undead. Unlike most other druids, they see nothing inherently wrong with undeath, which they consider to be a companion to life and death. But these druids believe that the natural cycle is healthiest when each segment of it is vibrant and changing. Undead that seek to replace all life with undeath, or that try to avoid passing to a final rest, violate the cycle and must be thwarted.",
-    "grants": [
-      "srd:spores:circle-spells",
-      "srd:spores:halo-of-spores",
-      "srd:spores:symbiotic-entity"
-    ]
-  },
-  {
     "id": "srd:spores:fungal-infestation",
     "kind": "subclass-feature",
     "name": "Fungal Infestation",
-    "source": "srd",
-    "page": "TCE 36",
+    "source": "tce",
+    "page": "36",
     "tags": [
       "spores-feature",
       "druid-feature"
@@ -183,8 +169,8 @@
     "id": "srd:spores:spreading-spores",
     "kind": "subclass-feature",
     "name": "Spreading Spores",
-    "source": "srd",
-    "page": "TCE 36",
+    "source": "tce",
+    "page": "36",
     "tags": [
       "spores-feature",
       "druid-feature"
@@ -206,8 +192,8 @@
     "id": "srd:spores:fungal-body",
     "kind": "subclass-feature",
     "name": "Fungal Body",
-    "source": "srd",
-    "page": "TCE 36",
+    "source": "tce",
+    "page": "36",
     "tags": [
       "spores-feature",
       "druid-feature"

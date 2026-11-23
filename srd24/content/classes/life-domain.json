@@ -3,17 +3,20 @@
     "id": "srd24:subclass:life-domain",
     "kind": "subclass",
     "name": "Life Domain",
-    "source": "srd24",
-    "page": "XPHB 73",
+    "source": "xphb",
+    "page": "73",
     "class": "srd24:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "*Soothe the Hurts of the World*\n\nThe Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.\n\nExistence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:life:life-domain",
+          "srd24:life:life-domain-spells",
+          "srd24:life:disciple-of-life",
+          "srd24:life:preserve-life",
           "srd24:spell:aid",
           "srd24:spell:bless",
           "srd24:spell:cure-wounds",
@@ -54,8 +57,8 @@
     "id": "srd24:life:life-domain-spells",
     "kind": "subclass-feature",
     "name": "Life Domain Spells",
-    "source": "srd24",
-    "page": "XPHB 73",
+    "source": "xphb",
+    "page": "73",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -66,8 +69,8 @@
     "id": "srd24:life:disciple-of-life",
     "kind": "subclass-feature",
     "name": "Disciple of Life",
-    "source": "srd24",
-    "page": "XPHB 73",
+    "source": "xphb",
+    "page": "73",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -78,8 +81,8 @@
     "id": "srd24:life:preserve-life",
     "kind": "subclass-feature",
     "name": "Preserve Life",
-    "source": "srd24",
-    "page": "XPHB 73",
+    "source": "xphb",
+    "page": "73",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -101,28 +104,11 @@
     ]
   },
   {
-    "id": "srd24:life:life-domain",
-    "kind": "subclass-feature",
-    "name": "Life Domain",
-    "source": "srd24",
-    "page": "XPHB 73",
-    "tags": [
-      "life-feature",
-      "cleric-feature"
-    ],
-    "text": "*Soothe the Hurts of the World*\n\nThe Life Domain focuses on the positive energy that helps sustain all life in the multiverse. Clerics who tap into this domain are masters of healing, using that life force to cure many hurts.\n\nExistence itself relies on the positive energy associated with this domain, so a Cleric of almost any religious tradition might choose it. This domain is particularly associated with agricultural deities, gods of healing or endurance, and gods of home and community. Religious orders of healing also seek the magic of this domain.",
-    "grants": [
-      "srd24:life:life-domain-spells",
-      "srd24:life:disciple-of-life",
-      "srd24:life:preserve-life"
-    ]
-  },
-  {
     "id": "srd24:life:blessed-healer",
     "kind": "subclass-feature",
     "name": "Blessed Healer",
-    "source": "srd24",
-    "page": "XPHB 74",
+    "source": "xphb",
+    "page": "74",
     "tags": [
       "life-feature",
       "cleric-feature"
@@ -133,8 +119,8 @@
     "id": "srd24:life:supreme-healing",
     "kind": "subclass-feature",
     "name": "Supreme Healing",
-    "source": "srd24",
-    "page": "XPHB 74",
+    "source": "xphb",
+    "page": "74",
     "tags": [
       "life-feature",
       "cleric-feature"

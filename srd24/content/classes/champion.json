@@ -3,17 +3,19 @@
     "id": "srd24:subclass:champion",
     "kind": "subclass",
     "name": "Champion",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "class": "srd24:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "*Pursue Physical Excellence in Combat*\n\nA Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:champion:champion"
+          "srd24:champion:improved-critical",
+          "srd24:champion:remarkable-athlete"
         ]
       },
       "7": {
@@ -55,8 +57,8 @@
     "id": "srd24:champion:improved-critical",
     "kind": "subclass-feature",
     "name": "Improved Critical",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -67,8 +69,8 @@
     "id": "srd24:champion:remarkable-athlete",
     "kind": "subclass-feature",
     "name": "Remarkable Athlete",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -94,27 +96,11 @@
     ]
   },
   {
-    "id": "srd24:champion:champion",
-    "kind": "subclass-feature",
-    "name": "Champion",
-    "source": "srd24",
-    "page": "XPHB 96",
-    "tags": [
-      "champion-feature",
-      "fighter-feature"
-    ],
-    "text": "*Pursue Physical Excellence in Combat*\n\nA Champion focuses on the development of martial prowess in a relentless pursuit of victory. Champions combine rigorous training with physical excellence to deal devastating blows, withstand peril, and garner glory. Whether in athletic contests or bloody battle, Champions strive for the crown of the victor.",
-    "grants": [
-      "srd24:champion:improved-critical",
-      "srd24:champion:remarkable-athlete"
-    ]
-  },
-  {
     "id": "srd24:champion:additional-fighting-style",
     "kind": "subclass-feature",
     "name": "Additional Fighting Style",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -125,8 +111,8 @@
     "id": "srd24:champion:heroic-warrior",
     "kind": "subclass-feature",
     "name": "Heroic Warrior",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -137,8 +123,8 @@
     "id": "srd24:champion:superior-critical",
     "kind": "subclass-feature",
     "name": "Superior Critical",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -149,8 +135,8 @@
     "id": "srd24:champion:survivor",
     "kind": "subclass-feature",
     "name": "Survivor",
-    "source": "srd24",
-    "page": "XPHB 96",
+    "source": "xphb",
+    "page": "96",
     "tags": [
       "champion-feature",
       "fighter-feature"

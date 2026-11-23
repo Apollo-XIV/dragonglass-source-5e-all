@@ -3,8 +3,8 @@
     "id": "srd:cleric:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd:cleric:divine-domain",
     "kind": "class-feature",
     "name": "Divine Domain",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd:cleric:channel-divinity-turn-undead",
     "kind": "class-feature",
     "name": "Channel Divinity: Turn Undead",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -54,8 +54,8 @@
     "id": "srd:cleric:channel-divinity",
     "kind": "class-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -99,8 +99,8 @@
     "id": "srd:cleric:channel-divinity-harness-divine-power",
     "kind": "class-feature",
     "name": "Channel Divinity: Harness Divine Power",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "cleric-feature"
     ],
@@ -124,8 +124,8 @@
     "id": "srd:cleric:cantrip-versatility",
     "kind": "class-feature",
     "name": "Cantrip Versatility",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "cleric-feature"
     ],
@@ -135,8 +135,8 @@
     "id": "srd:cleric:destroy-undead-cr-1-2",
     "kind": "class-feature",
     "name": "Destroy Undead (CR 1/2)",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -146,8 +146,8 @@
     "id": "srd:cleric:channel-divinity-6",
     "kind": "class-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -157,8 +157,8 @@
     "id": "srd:cleric:destroy-undead-cr-1",
     "kind": "class-feature",
     "name": "Destroy Undead (CR 1)",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -168,8 +168,8 @@
     "id": "srd:cleric:divine-intervention",
     "kind": "class-feature",
     "name": "Divine Intervention",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -210,8 +210,8 @@
     "id": "srd:cleric:destroy-undead-cr-2",
     "kind": "class-feature",
     "name": "Destroy Undead (CR 2)",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -221,8 +221,8 @@
     "id": "srd:cleric:destroy-undead-cr-3",
     "kind": "class-feature",
     "name": "Destroy Undead (CR 3)",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -232,8 +232,8 @@
     "id": "srd:cleric:destroy-undead-cr-4",
     "kind": "class-feature",
     "name": "Destroy Undead (CR 4)",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -243,8 +243,8 @@
     "id": "srd:cleric:channel-divinity-18",
     "kind": "class-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],
@@ -254,8 +254,8 @@
     "id": "srd:cleric:divine-intervention-improvement",
     "kind": "class-feature",
     "name": "Divine Intervention Improvement",
-    "source": "srd",
-    "page": "PHB 56",
+    "source": "phb",
+    "page": "56",
     "tags": [
       "cleric-feature"
     ],

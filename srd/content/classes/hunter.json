@@ -3,17 +3,18 @@
     "id": "srd:subclass:hunter",
     "kind": "subclass",
     "name": "Hunter",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "class": "srd:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
     "levels": {
       "3": {
         "grants": [
-          "srd:hunter:hunter"
+          "srd:hunter:hunters-prey"
         ]
       },
       "7": {
@@ -37,8 +38,8 @@
     "id": "srd:hunter:colossus-slayer",
     "kind": "subclass-feature",
     "name": "Colossus Slayer",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -62,8 +63,8 @@
     "id": "srd:hunter:giant-killer",
     "kind": "subclass-feature",
     "name": "Giant Killer",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -86,8 +87,8 @@
     "id": "srd:hunter:horde-breaker",
     "kind": "subclass-feature",
     "name": "Horde Breaker",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -110,8 +111,8 @@
     "id": "srd:hunter:hunters-prey",
     "kind": "subclass-feature",
     "name": "Hunter's Prey",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature"
@@ -132,26 +133,11 @@
     ]
   },
   {
-    "id": "srd:hunter:hunter",
-    "kind": "subclass-feature",
-    "name": "Hunter",
-    "source": "srd",
-    "page": "PHB 93",
-    "tags": [
-      "hunter-feature",
-      "ranger-feature"
-    ],
-    "text": "Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter's path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.",
-    "grants": [
-      "srd:hunter:hunters-prey"
-    ]
-  },
-  {
     "id": "srd:hunter:escape-the-horde",
     "kind": "subclass-feature",
     "name": "Escape the Horde",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -163,8 +149,8 @@
     "id": "srd:hunter:multiattack-defense",
     "kind": "subclass-feature",
     "name": "Multiattack Defense",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -190,8 +176,8 @@
     "id": "srd:hunter:steel-will",
     "kind": "subclass-feature",
     "name": "Steel Will",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -217,8 +203,8 @@
     "id": "srd:hunter:defensive-tactics",
     "kind": "subclass-feature",
     "name": "Defensive Tactics",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature"
@@ -242,8 +228,8 @@
     "id": "srd:hunter:volley",
     "kind": "subclass-feature",
     "name": "Volley",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -266,8 +252,8 @@
     "id": "srd:hunter:whirlwind-attack",
     "kind": "subclass-feature",
     "name": "Whirlwind Attack",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -290,8 +276,8 @@
     "id": "srd:hunter:multiattack",
     "kind": "subclass-feature",
     "name": "Multiattack",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature"
@@ -315,8 +301,8 @@
     "id": "srd:hunter:evasion",
     "kind": "subclass-feature",
     "name": "Evasion",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -328,8 +314,8 @@
     "id": "srd:hunter:stand-against-the-tide",
     "kind": "subclass-feature",
     "name": "Stand Against the Tide",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -352,8 +338,8 @@
     "id": "srd:hunter:uncanny-dodge",
     "kind": "subclass-feature",
     "name": "Uncanny Dodge",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature",
@@ -376,8 +362,8 @@
     "id": "srd:hunter:superior-hunters-defense",
     "kind": "subclass-feature",
     "name": "Superior Hunter's Defense",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "hunter-feature",
       "ranger-feature"

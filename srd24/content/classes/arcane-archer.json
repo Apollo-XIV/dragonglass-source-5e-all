@@ -3,18 +3,21 @@
     "id": "srd24:subclass:arcane-archer",
     "kind": "subclass",
     "name": "Arcane Archer",
-    "source": "srd24",
-    "page": "AU 9",
+    "source": "au",
+    "page": "9",
     "class": "srd24:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "*Deploy Magical Effects Through Enchanted Ammunition*\n\nAn Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Over the centuries, other folk have learned this technique and broadened it so it applies to ranged weapons of many kinds and to aspects of adventuring life outside of combat.",
     "fluff": "> When Mystra guides your arrows, they seldom miss.\n>\n> — Alustriel",
     "levels": {
       "3": {
         "grants": [
-          "srd24:arcane-archer:arcane-archer",
+          "srd24:arcane-archer:arcane-archer-lore",
+          "srd24:arcane-archer:arcane-shot",
+          "srd24:arcane-archer:arcane-shot-options",
           "srd24:spell:druidcraft",
           "srd24:spell:prestidigitation"
         ],
@@ -111,8 +114,8 @@
     "id": "srd24:arcane-archer:arcane-archer-lore",
     "kind": "subclass-feature",
     "name": "Arcane Archer Lore",
-    "source": "srd24",
-    "page": "AU 9",
+    "source": "au",
+    "page": "9",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -123,8 +126,8 @@
     "id": "srd24:arcane-archer:arcane-shot",
     "kind": "subclass-feature",
     "name": "Arcane Shot",
-    "source": "srd24",
-    "page": "AU 9",
+    "source": "au",
+    "page": "9",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -166,8 +169,8 @@
     "id": "srd24:arcane-archer:arcane-shot-options",
     "kind": "subclass-feature",
     "name": "Arcane Shot Options",
-    "source": "srd24",
-    "page": "AU 9",
+    "source": "au",
+    "page": "9",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -175,28 +178,11 @@
     "text": "The Arcane Shot feature lets you choose options for it at certain levels. The options are presented here in alphabetical order."
   },
   {
-    "id": "srd24:arcane-archer:arcane-archer",
-    "kind": "subclass-feature",
-    "name": "Arcane Archer",
-    "source": "srd24",
-    "page": "AU 9",
-    "tags": [
-      "arcane-archer-feature",
-      "fighter-feature"
-    ],
-    "text": "*Deploy Magical Effects Through Enchanted Ammunition*\n\nAn Arcane Archer studies a unique elven method of archery that weaves magic into attacks to produce supernatural effects. Over the centuries, other folk have learned this technique and broadened it so it applies to ranged weapons of many kinds and to aspects of adventuring life outside of combat.",
-    "grants": [
-      "srd24:arcane-archer:arcane-archer-lore",
-      "srd24:arcane-archer:arcane-shot",
-      "srd24:arcane-archer:arcane-shot-options"
-    ]
-  },
-  {
     "id": "srd24:arcane-archer:curving-shot",
     "kind": "subclass-feature",
     "name": "Curving Shot",
-    "source": "srd24",
-    "page": "AU 9",
+    "source": "au",
+    "page": "9",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -207,8 +193,8 @@
     "id": "srd24:arcane-archer:magical-ammunition",
     "kind": "subclass-feature",
     "name": "Magical Ammunition",
-    "source": "srd24",
-    "page": "AU 9",
+    "source": "au",
+    "page": "9",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -230,8 +216,8 @@
     "id": "srd24:arcane-archer:ever-ready-shot",
     "kind": "subclass-feature",
     "name": "Ever-Ready Shot",
-    "source": "srd24",
-    "page": "AU 10",
+    "source": "au",
+    "page": "10",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -242,8 +228,8 @@
     "id": "srd24:arcane-archer:indomitable-teleport",
     "kind": "subclass-feature",
     "name": "Indomitable Teleport",
-    "source": "srd24",
-    "page": "AU 10",
+    "source": "au",
+    "page": "10",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"
@@ -254,8 +240,8 @@
     "id": "srd24:arcane-archer:masterful-shots",
     "kind": "subclass-feature",
     "name": "Masterful Shots",
-    "source": "srd24",
-    "page": "AU 10",
+    "source": "au",
+    "page": "10",
     "tags": [
       "arcane-archer-feature",
       "fighter-feature"

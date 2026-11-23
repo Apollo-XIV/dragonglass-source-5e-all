@@ -3,8 +3,8 @@
     "id": "srd24:class:artificer",
     "kind": "class",
     "name": "Artificer",
-    "source": "srd24",
-    "page": "EFA 7",
+    "source": "efa",
+    "page": "7",
     "key": "artificer",
     "hitDie": "d8",
     "tags": [

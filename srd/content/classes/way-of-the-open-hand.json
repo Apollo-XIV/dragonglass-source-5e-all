@@ -3,17 +3,18 @@
     "id": "srd:subclass:way-of-the-open-hand",
     "kind": "subclass",
     "name": "Way of the Open Hand",
-    "source": "srd",
-    "page": "PHB 79",
+    "source": "phb",
+    "page": "79",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
     "levels": {
       "3": {
         "grants": [
-          "srd:open-hand:way-of-the-open-hand"
+          "srd:open-hand:open-hand-technique"
         ]
       },
       "6": {
@@ -50,8 +51,8 @@
     "id": "srd:open-hand:open-hand-technique",
     "kind": "subclass-feature",
     "name": "Open Hand Technique",
-    "source": "srd",
-    "page": "PHB 79",
+    "source": "phb",
+    "page": "79",
     "tags": [
       "open-hand-feature",
       "monk-feature"
@@ -70,26 +71,11 @@
     ]
   },
   {
-    "id": "srd:open-hand:way-of-the-open-hand",
-    "kind": "subclass-feature",
-    "name": "Way of the Open Hand",
-    "source": "srd",
-    "page": "PHB 79",
-    "tags": [
-      "open-hand-feature",
-      "monk-feature"
-    ],
-    "text": "Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm.",
-    "grants": [
-      "srd:open-hand:open-hand-technique"
-    ]
-  },
-  {
     "id": "srd:open-hand:wholeness-of-body",
     "kind": "subclass-feature",
     "name": "Wholeness of Body",
-    "source": "srd",
-    "page": "PHB 79",
+    "source": "phb",
+    "page": "79",
     "tags": [
       "open-hand-feature",
       "monk-feature"
@@ -131,8 +117,8 @@
     "id": "srd:open-hand:tranquility",
     "kind": "subclass-feature",
     "name": "Tranquility",
-    "source": "srd",
-    "page": "PHB 79",
+    "source": "phb",
+    "page": "79",
     "tags": [
       "open-hand-feature",
       "monk-feature"
@@ -158,8 +144,8 @@
     "id": "srd:open-hand:quivering-palm",
     "kind": "subclass-feature",
     "name": "Quivering Palm",
-    "source": "srd",
-    "page": "PHB 79",
+    "source": "phb",
+    "page": "79",
     "tags": [
       "open-hand-feature",
       "monk-feature"

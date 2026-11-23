@@ -3,17 +3,20 @@
     "id": "srd:subclass:oath-of-devotion",
     "kind": "subclass",
     "name": "Oath of Devotion",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "class": "srd:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.",
     "levels": {
       "3": {
         "grants": [
-          "srd:devotion:oath-of-devotion",
+          "srd:devotion:tenets-of-devotion",
+          "srd:devotion:oath-spells",
+          "srd:devotion:channel-divinity",
           "srd:spell:protection-from-evil-and-good",
           "srd:spell:sanctuary"
         ]
@@ -63,8 +66,8 @@
     "id": "srd:devotion:tenets-of-devotion",
     "kind": "subclass-feature",
     "name": "Tenets of Devotion",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "tags": [
       "devotion-feature",
       "paladin-feature"
@@ -75,8 +78,8 @@
     "id": "srd:devotion:oath-spells",
     "kind": "subclass-feature",
     "name": "Oath Spells",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "tags": [
       "devotion-feature",
       "paladin-feature"
@@ -87,8 +90,8 @@
     "id": "srd:devotion:sacred-weapon",
     "kind": "subclass-feature",
     "name": "Sacred Weapon",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "tags": [
       "devotion-feature",
       "paladin-feature"
@@ -113,8 +116,8 @@
     "id": "srd:devotion:turn-the-unholy",
     "kind": "subclass-feature",
     "name": "Turn the Unholy",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "tags": [
       "devotion-feature",
       "paladin-feature"
@@ -143,8 +146,8 @@
     "id": "srd:devotion:channel-divinity",
     "kind": "subclass-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "tags": [
       "devotion-feature",
       "paladin-feature"
@@ -156,28 +159,11 @@
     ]
   },
   {
-    "id": "srd:devotion:oath-of-devotion",
-    "kind": "subclass-feature",
-    "name": "Oath of Devotion",
-    "source": "srd",
-    "page": "PHB 85",
-    "tags": [
-      "devotion-feature",
-      "paladin-feature"
-    ],
-    "text": "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.",
-    "grants": [
-      "srd:devotion:tenets-of-devotion",
-      "srd:devotion:oath-spells",
-      "srd:devotion:channel-divinity"
-    ]
-  },
-  {
     "id": "srd:devotion:aura-of-devotion",
     "kind": "subclass-feature",
     "name": "Aura of Devotion",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "tags": [
       "devotion-feature",
       "paladin-feature"
@@ -188,8 +174,8 @@
     "id": "srd:devotion:purity-of-spirit",
     "kind": "subclass-feature",
     "name": "Purity of Spirit",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "tags": [
       "devotion-feature",
       "paladin-feature"
@@ -200,8 +186,8 @@
     "id": "srd:devotion:holy-nimbus",
     "kind": "subclass-feature",
     "name": "Holy Nimbus",
-    "source": "srd",
-    "page": "PHB 85",
+    "source": "phb",
+    "page": "85",
     "tags": [
       "devotion-feature",
       "paladin-feature"

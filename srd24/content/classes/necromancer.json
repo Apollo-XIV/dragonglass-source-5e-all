@@ -3,18 +3,20 @@
     "id": "srd24:subclass:necromancer",
     "kind": "subclass",
     "name": "Necromancer",
-    "source": "srd24",
-    "page": "AU 17",
+    "source": "au",
+    "page": "17",
     "class": "srd24:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "*Command the Powers of Death and Undeath*\n\nYou explore the forces of life, death, and undeath. As a necromancer, you learn to manipulate the energy that animates all creatures, and you draw increasing power from the forbidden secrets in your spellbook. Though many see Necromancers as menacing or villainous, not all Necromancers are evil.",
     "fluff": "> Life and death are interchangeable states of being to the most powerful mages.\n>\n> — Alustriel",
     "levels": {
       "3": {
         "grants": [
-          "srd24:necromancer:necromancer",
+          "srd24:necromancer:necromancy-savant",
+          "srd24:necromancer:necromancy-spellbook",
           {
             "id": "srd24:spell:find-familiar",
             "mode": "learned"
@@ -206,8 +208,8 @@
     "id": "srd24:necromancer:necromancy-savant",
     "kind": "subclass-feature",
     "name": "Necromancy Savant",
-    "source": "srd24",
-    "page": "AU 17",
+    "source": "au",
+    "page": "17",
     "tags": [
       "necromancer-feature",
       "wizard-feature"
@@ -218,8 +220,8 @@
     "id": "srd24:necromancer:necromancy-spellbook",
     "kind": "subclass-feature",
     "name": "Necromancy Spellbook",
-    "source": "srd24",
-    "page": "AU 17",
+    "source": "au",
+    "page": "17",
     "tags": [
       "necromancer-feature",
       "wizard-feature"
@@ -240,27 +242,11 @@
     ]
   },
   {
-    "id": "srd24:necromancer:necromancer",
-    "kind": "subclass-feature",
-    "name": "Necromancer",
-    "source": "srd24",
-    "page": "AU 17",
-    "tags": [
-      "necromancer-feature",
-      "wizard-feature"
-    ],
-    "text": "*Command the Powers of Death and Undeath*\n\nYou explore the forces of life, death, and undeath. As a necromancer, you learn to manipulate the energy that animates all creatures, and you draw increasing power from the forbidden secrets in your spellbook. Though many see Necromancers as menacing or villainous, not all Necromancers are evil.",
-    "grants": [
-      "srd24:necromancer:necromancy-savant",
-      "srd24:necromancer:necromancy-spellbook"
-    ]
-  },
-  {
     "id": "srd24:necromancer:grave-power",
     "kind": "subclass-feature",
     "name": "Grave Power",
-    "source": "srd24",
-    "page": "AU 17",
+    "source": "au",
+    "page": "17",
     "tags": [
       "necromancer-feature",
       "wizard-feature"
@@ -271,8 +257,8 @@
     "id": "srd24:necromancer:undead-thralls",
     "kind": "subclass-feature",
     "name": "Undead Thralls",
-    "source": "srd24",
-    "page": "AU 18",
+    "source": "au",
+    "page": "18",
     "tags": [
       "necromancer-feature",
       "wizard-feature"
@@ -283,8 +269,8 @@
     "id": "srd24:necromancer:harvest-undead",
     "kind": "subclass-feature",
     "name": "Harvest Undead",
-    "source": "srd24",
-    "page": "AU 18",
+    "source": "au",
+    "page": "18",
     "tags": [
       "necromancer-feature",
       "wizard-feature"
@@ -306,8 +292,8 @@
     "id": "srd24:necromancer:deaths-master",
     "kind": "subclass-feature",
     "name": "Death's Master",
-    "source": "srd24",
-    "page": "AU 18",
+    "source": "au",
+    "page": "18",
     "tags": [
       "necromancer-feature",
       "wizard-feature"

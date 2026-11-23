@@ -3,17 +3,20 @@
     "id": "srd24:subclass:reanimator",
     "kind": "subclass",
     "name": "Reanimator",
-    "source": "srd24",
-    "page": "RHW 15",
+    "source": "rhw",
+    "page": "15",
     "class": "srd24:class:artificer",
     "tags": [
       "artificer-subclass",
       "srd-subclass"
     ],
+    "text": "*Reassemble Corpses and Raise the Dead*\n\nReanimators defy the laws of nature in pursuit of gruesome experiments. These grim Artificers stitch together servants from disparate corpses, use foul magic to strengthen the living, and transform the art of necromancy into a terrifying science.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:reanimator:reanimator",
+          "srd24:reanimator:reanimator-spells",
+          "srd24:reanimator:reanimators-skill-set",
+          "srd24:reanimator:reanimated-companion",
           "srd24:spell:false-life",
           "srd24:spell:spare-the-dying",
           "srd24:spell:witch-bolt"
@@ -57,8 +60,8 @@
     "id": "srd24:reanimator:reanimator-spells",
     "kind": "subclass-feature",
     "name": "Reanimator Spells",
-    "source": "srd24",
-    "page": "RHW 15",
+    "source": "rhw",
+    "page": "15",
     "tags": [
       "reanimator-feature",
       "artificer-feature"
@@ -69,8 +72,8 @@
     "id": "srd24:reanimator:reanimators-skill-set",
     "kind": "subclass-feature",
     "name": "Reanimator's Skill Set",
-    "source": "srd24",
-    "page": "RHW 15",
+    "source": "rhw",
+    "page": "15",
     "tags": [
       "reanimator-feature",
       "artificer-feature"
@@ -112,8 +115,8 @@
     "id": "srd24:reanimator:reanimated-companion",
     "kind": "subclass-feature",
     "name": "Reanimated Companion",
-    "source": "srd24",
-    "page": "RHW 15",
+    "source": "rhw",
+    "page": "15",
     "tags": [
       "reanimator-feature",
       "artificer-feature"
@@ -121,28 +124,11 @@
     "text": "Using Tinker's Tools or another type of Artisan's Tools with which you have proficiency, you can take a Magic action to create a Reanimated Companion through the power of necromancy and science. The companion manifests in an unoccupied space within 5 feet of you. You determine the companion's appearance; your choices don't affect the companion's game statistics.\n\nThe companion is Friendly to you and your allies and obeys you. It lasts until you finish a Long Rest or until you take a Magic action to dismiss it early, at which point it harmlessly collapses into a pile of viscera. It immediately drops to 0 Hit Points and dies (triggering its Death Burst trait) if you die.\n\nOnce you create a companion, you can't do so again until you finish a Long Rest or expend a spell slot to create one. You can have only one companion at a time and can't create one while your companion is present.\n\n**The Companion in Combat.** In combat, the companion acts during your turn. It can move and take its Reaction on its own, but the only action it takes is the Dodge action unless you take a Bonus Action to command it to take an action. If you have the Incapacitated condition, the companion acts on its own and isn't limited to the Dodge action."
   },
   {
-    "id": "srd24:reanimator:reanimator",
-    "kind": "subclass-feature",
-    "name": "Reanimator",
-    "source": "srd24",
-    "page": "RHW 15",
-    "tags": [
-      "reanimator-feature",
-      "artificer-feature"
-    ],
-    "text": "*Reassemble Corpses and Raise the Dead*\n\nReanimators defy the laws of nature in pursuit of gruesome experiments. These grim Artificers stitch together servants from disparate corpses, use foul magic to strengthen the living, and transform the art of necromancy into a terrifying science.",
-    "grants": [
-      "srd24:reanimator:reanimator-spells",
-      "srd24:reanimator:reanimators-skill-set",
-      "srd24:reanimator:reanimated-companion"
-    ]
-  },
-  {
     "id": "srd24:reanimator:strange-modifications",
     "kind": "subclass-feature",
     "name": "Strange Modifications",
-    "source": "srd24",
-    "page": "RHW 16",
+    "source": "rhw",
+    "page": "16",
     "tags": [
       "reanimator-feature",
       "artificer-feature"
@@ -153,8 +139,8 @@
     "id": "srd24:reanimator:improved-reanimation",
     "kind": "subclass-feature",
     "name": "Improved Reanimation",
-    "source": "srd24",
-    "page": "RHW 16",
+    "source": "rhw",
+    "page": "16",
     "tags": [
       "reanimator-feature",
       "artificer-feature"
@@ -165,8 +151,8 @@
     "id": "srd24:reanimator:macabre-modifications",
     "kind": "subclass-feature",
     "name": "Macabre Modifications",
-    "source": "srd24",
-    "page": "RHW 16",
+    "source": "rhw",
+    "page": "16",
     "tags": [
       "reanimator-feature",
       "artificer-feature"
@@ -177,8 +163,8 @@
     "id": "srd24:reanimator:refined-reanimation",
     "kind": "subclass-feature",
     "name": "Refined Reanimation",
-    "source": "srd24",
-    "page": "RHW 16",
+    "source": "rhw",
+    "page": "16",
     "tags": [
       "reanimator-feature",
       "artificer-feature"

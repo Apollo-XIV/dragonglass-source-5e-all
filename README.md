@@ -11,8 +11,14 @@ CC-BY; keep it to local use.
 
 Two sources, one directory each, each with its own `source.json` and `content/`:
 
-- `srd/` — the 2014 ruleset (source id `srd`), 5312 elements
-- `srd24/` — the 2024 ruleset (source id `srd24`), 3272 elements
+- `srd/` — the 2014 ruleset (source id `srd`), 5277 elements in 70 books
+- `srd24/` — the 2024 ruleset (source id `srd24`), 3231 elements in 16 books
+
+Each element's `source` is the book that printed it (`xge`, `tce`, `lfl`...), one `sourcebook`
+element per book, so the builder tags an option with its book and can filter by it. Ids stay under
+the source (`srd:spell:toll-the-dead`), so characters built before this keep resolving. What the
+converter made itself, such as a species' traits or a proficiency set offered as an option, is in
+the book that offers it, or the core rulebook (PHB, XPHB) when several books do.
 
 Both validate at 0 errors, 0 warnings against the plugin's validator.
 

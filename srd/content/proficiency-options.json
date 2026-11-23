@@ -3,7 +3,7 @@
     "id": "srd:house-agent:tool:alchemists-supplies-herbalism-kit",
     "kind": "proficiency-option",
     "name": "Alchemist's supplies and herbalism kit",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:alchemists-supplies",
       "srd:tool:herbalism-kit"
@@ -13,7 +13,7 @@
     "id": "srd:house-agent:tool:alchemists-supplies-tinkers-tools",
     "kind": "proficiency-option",
     "name": "Alchemist's supplies and tinker's tools",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:alchemists-supplies",
       "srd:tool:tinkers-tools"
@@ -23,7 +23,7 @@
     "id": "srd:house-agent:tool:anygamingset-vehicles-land",
     "kind": "proficiency-option",
     "name": "Any gaming set and vehicles (land)",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:vehicles-land"
     ],
@@ -45,7 +45,7 @@
     "id": "srd:clan-crafter:language:anystandard",
     "kind": "proficiency-option",
     "name": "Any standard",
-    "source": "srd",
+    "source": "scag",
     "choices": [
       {
         "id": "srd:clan-crafter:language:anystandard:language",
@@ -64,7 +64,7 @@
     "id": "srd:house-agent:tool:brewers-supplies-cooks-utensils",
     "kind": "proficiency-option",
     "name": "Brewer's supplies and cook's utensils",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:brewers-supplies",
       "srd:tool:cooks-utensils"
@@ -74,7 +74,7 @@
     "id": "srd:house-agent:tool:calligraphers-supplies-forgery-kit",
     "kind": "proficiency-option",
     "name": "Calligrapher's supplies and forgery kit",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:calligraphers-supplies",
       "srd:tool:forgery-kit"
@@ -84,7 +84,7 @@
     "id": "srd:house-agent:tool:anymusicalinstrument-disguise-kit",
     "kind": "proficiency-option",
     "name": "Disguise kit and any musical instrument",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:disguise-kit"
     ],
@@ -106,7 +106,7 @@
     "id": "srd:clan-crafter:language:dwarvish",
     "kind": "proficiency-option",
     "name": "Dwarvish",
-    "source": "srd",
+    "source": "scag",
     "grants": [
       "srd:language:dwarvish"
     ]
@@ -115,7 +115,7 @@
     "id": "srd:house-agent:tool:anymusicalinstrument-poisoners-kit",
     "kind": "proficiency-option",
     "name": "Poisoner's kit and any musical instrument",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:poisoners-kit"
     ],
@@ -137,7 +137,7 @@
     "id": "srd:house-agent:tool:anygamingset-thieves-tools",
     "kind": "proficiency-option",
     "name": "Thieves' tools and any gaming set",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:thieves-tools"
     ],
@@ -159,7 +159,7 @@
     "id": "srd:house-agent:tool:disguise-kit-thieves-tools",
     "kind": "proficiency-option",
     "name": "Thieves' tools and disguise kit",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:thieves-tools",
       "srd:tool:disguise-kit"
@@ -169,7 +169,7 @@
     "id": "srd:house-agent:tool:thieves-tools-tinkers-tools",
     "kind": "proficiency-option",
     "name": "Tinker's tools and thieves' tools",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:tinkers-tools",
       "srd:tool:thieves-tools"
@@ -179,7 +179,7 @@
     "id": "srd:house-agent:tool:herbalism-kit-vehicles-land",
     "kind": "proficiency-option",
     "name": "Vehicles (land) and herbalism kit",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:vehicles-land",
       "srd:tool:herbalism-kit"
@@ -189,7 +189,7 @@
     "id": "srd:house-agent:tool:navigators-tools-vehicles-air-vehicles-water",
     "kind": "proficiency-option",
     "name": "Vehicles (water), vehicles (air) and navigator's tools",
-    "source": "srd",
+    "source": "erlw",
     "grants": [
       "srd:tool:vehicles-water",
       "srd:tool:vehicles-air",

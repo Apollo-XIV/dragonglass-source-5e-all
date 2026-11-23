@@ -3,8 +3,8 @@
     "id": "srd24:cleric:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 70",
+    "source": "xphb",
+    "page": "70",
     "tags": [
       "cleric-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:cleric:protector",
     "kind": "class-feature",
     "name": "Protector",
-    "source": "srd24",
-    "page": "XPHB 70",
+    "source": "xphb",
+    "page": "70",
     "tags": [
       "cleric-feature",
       "cleric-divine-order-option"
@@ -50,8 +50,8 @@
     "id": "srd24:cleric:thaumaturge",
     "kind": "class-feature",
     "name": "Thaumaturge",
-    "source": "srd24",
-    "page": "XPHB 70",
+    "source": "xphb",
+    "page": "70",
     "tags": [
       "cleric-feature",
       "cleric-divine-order-option"
@@ -62,8 +62,8 @@
     "id": "srd24:cleric:divine-order",
     "kind": "class-feature",
     "name": "Divine Order",
-    "source": "srd24",
-    "page": "XPHB 70",
+    "source": "xphb",
+    "page": "70",
     "tags": [
       "cleric-feature"
     ],
@@ -86,8 +86,8 @@
     "id": "srd24:cleric:divine-spark",
     "kind": "class-feature",
     "name": "Divine Spark",
-    "source": "srd24",
-    "page": "XPHB 70",
+    "source": "xphb",
+    "page": "70",
     "tags": [
       "cleric-feature"
     ],
@@ -128,8 +128,8 @@
     "id": "srd24:cleric:turn-undead",
     "kind": "class-feature",
     "name": "Turn Undead",
-    "source": "srd24",
-    "page": "XPHB 70",
+    "source": "xphb",
+    "page": "70",
     "tags": [
       "cleric-feature"
     ],
@@ -157,8 +157,8 @@
     "id": "srd24:cleric:channel-divinity",
     "kind": "class-feature",
     "name": "Channel Divinity",
-    "source": "srd24",
-    "page": "XPHB 70",
+    "source": "xphb",
+    "page": "70",
     "tags": [
       "cleric-feature"
     ],
@@ -193,8 +193,8 @@
     "id": "srd24:cleric:cleric-subclass",
     "kind": "class-feature",
     "name": "Cleric Subclass",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature"
     ],
@@ -204,8 +204,8 @@
     "id": "srd24:cleric:sear-undead",
     "kind": "class-feature",
     "name": "Sear Undead",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature"
     ],
@@ -234,8 +234,8 @@
     "id": "srd24:cleric:divine-strike",
     "kind": "class-feature",
     "name": "Divine Strike",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature",
       "cleric-blessed-strikes-option"
@@ -246,8 +246,8 @@
     "id": "srd24:cleric:potent-spellcasting",
     "kind": "class-feature",
     "name": "Potent Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature",
       "cleric-blessed-strikes-option"
@@ -258,8 +258,8 @@
     "id": "srd24:cleric:blessed-strikes",
     "kind": "class-feature",
     "name": "Blessed Strikes",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature"
     ],
@@ -282,8 +282,8 @@
     "id": "srd24:cleric:divine-intervention",
     "kind": "class-feature",
     "name": "Divine Intervention",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature"
     ],
@@ -324,8 +324,8 @@
     "id": "srd24:cleric:improved-blessed-strikes",
     "kind": "class-feature",
     "name": "Improved Blessed Strikes",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature"
     ],
@@ -335,8 +335,8 @@
     "id": "srd24:cleric:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature"
     ],
@@ -346,8 +346,8 @@
     "id": "srd24:cleric:greater-divine-intervention",
     "kind": "class-feature",
     "name": "Greater Divine Intervention",
-    "source": "srd24",
-    "page": "XPHB 71",
+    "source": "xphb",
+    "page": "71",
     "tags": [
       "cleric-feature"
     ],

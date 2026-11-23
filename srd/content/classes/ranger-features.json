@@ -3,8 +3,8 @@
     "id": "srd:ranger:favored-enemy",
     "kind": "class-feature",
     "name": "Favored Enemy",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd:ranger:favored-foe",
     "kind": "class-feature",
     "name": "Favored Foe",
-    "source": "srd",
-    "page": "TCE 56",
+    "source": "tce",
+    "page": "56",
     "tags": [
       "ranger-feature"
     ],
@@ -56,8 +56,8 @@
     "id": "srd:ranger:natural-explorer",
     "kind": "class-feature",
     "name": "Natural Explorer",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -67,8 +67,8 @@
     "id": "srd:ranger:deft-explorer",
     "kind": "class-feature",
     "name": "Deft Explorer",
-    "source": "srd",
-    "page": "TCE 56",
+    "source": "tce",
+    "page": "56",
     "tags": [
       "ranger-feature"
     ],
@@ -78,8 +78,8 @@
     "id": "srd:ranger:fighting-style",
     "kind": "class-feature",
     "name": "Fighting Style",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -89,8 +89,8 @@
     "id": "srd:ranger:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -100,8 +100,8 @@
     "id": "srd:ranger:spellcasting-focus",
     "kind": "class-feature",
     "name": "Spellcasting Focus",
-    "source": "srd",
-    "page": "TCE 56",
+    "source": "tce",
+    "page": "56",
     "tags": [
       "ranger-feature"
     ],
@@ -111,8 +111,8 @@
     "id": "srd:ranger:ranger-archetype",
     "kind": "class-feature",
     "name": "Ranger Archetype",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -122,8 +122,8 @@
     "id": "srd:ranger:primeval-awareness",
     "kind": "class-feature",
     "name": "Primeval Awareness",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -144,8 +144,8 @@
     "id": "srd:ranger:primal-awareness",
     "kind": "class-feature",
     "name": "Primal Awareness",
-    "source": "srd",
-    "page": "TCE 56",
+    "source": "tce",
+    "page": "56",
     "tags": [
       "ranger-feature"
     ],
@@ -155,8 +155,8 @@
     "id": "srd:ranger:martial-versatility",
     "kind": "class-feature",
     "name": "Martial Versatility",
-    "source": "srd",
-    "page": "TCE 56",
+    "source": "tce",
+    "page": "56",
     "tags": [
       "ranger-feature"
     ],
@@ -166,8 +166,8 @@
     "id": "srd:ranger:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -177,8 +177,8 @@
     "id": "srd:ranger:favored-enemy-and-natural-explorer-improvements",
     "kind": "class-feature",
     "name": "Favored Enemy and Natural Explorer improvements",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -188,8 +188,8 @@
     "id": "srd:ranger:deft-explorer-improvement",
     "kind": "class-feature",
     "name": "Deft Explorer Improvement",
-    "source": "srd",
-    "page": "TCE 56",
+    "source": "tce",
+    "page": "56",
     "tags": [
       "ranger-feature"
     ],
@@ -199,8 +199,8 @@
     "id": "srd:ranger:lands-stride",
     "kind": "class-feature",
     "name": "Land's Stride",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -210,8 +210,8 @@
     "id": "srd:ranger:hide-in-plain-sight",
     "kind": "class-feature",
     "name": "Hide in Plain Sight",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -250,8 +250,8 @@
     "id": "srd:ranger:natures-veil",
     "kind": "class-feature",
     "name": "Nature's Veil",
-    "source": "srd",
-    "page": "TCE 56",
+    "source": "tce",
+    "page": "56",
     "tags": [
       "ranger-feature"
     ],
@@ -292,8 +292,8 @@
     "id": "srd:ranger:natural-explorer-improvement",
     "kind": "class-feature",
     "name": "Natural Explorer improvement",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -303,8 +303,8 @@
     "id": "srd:ranger:deft-explorer-improvement-10",
     "kind": "class-feature",
     "name": "Deft Explorer Improvement",
-    "source": "srd",
-    "page": "TCE 56",
+    "source": "tce",
+    "page": "56",
     "tags": [
       "ranger-feature"
     ],
@@ -345,8 +345,8 @@
     "id": "srd:ranger:vanish",
     "kind": "class-feature",
     "name": "Vanish",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -367,8 +367,8 @@
     "id": "srd:ranger:favored-enemy-improvement",
     "kind": "class-feature",
     "name": "Favored Enemy improvement",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -378,8 +378,8 @@
     "id": "srd:ranger:feral-senses",
     "kind": "class-feature",
     "name": "Feral Senses",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],
@@ -389,8 +389,8 @@
     "id": "srd:ranger:foe-slayer",
     "kind": "class-feature",
     "name": "Foe Slayer",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "tags": [
       "ranger-feature"
     ],

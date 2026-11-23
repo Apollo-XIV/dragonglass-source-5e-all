@@ -3,17 +3,18 @@
     "id": "srd:subclass:path-of-the-beast",
     "kind": "subclass",
     "name": "Path of the Beast",
-    "source": "srd",
-    "page": "TCE 24",
+    "source": "tce",
+    "page": "24",
     "class": "srd:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "Barbarians who walk the Path of the Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.\n\nSuch a barbarian might be inhabited by a primal spirit or be descended from shape-shifters. You can choose the origin of your feral might or determine it by rolling on the Origin of the Beast table.\n\n**Origin of the Beast**\n| d4 | Origin |\n| --- | --- |\n| 1 | One of your parents is a lycanthrope, and you've inherited some of their curse. |\n| 2 | You are descended from an archdruid and inherited the ability to partially change shape. |\n| 3 | A fey spirit gifted you with the ability to adopt different bestial aspects. |\n| 4 | An ancient animal spirit dwells within you, allowing you to walk this path. |",
     "levels": {
       "3": {
         "grants": [
-          "srd:beast:path-of-the-beast"
+          "srd:beast:form-of-the-beast"
         ]
       },
       "6": {
@@ -37,8 +38,8 @@
     "id": "srd:beast:form-of-the-beast",
     "kind": "subclass-feature",
     "name": "Form of the Beast",
-    "source": "srd",
-    "page": "TCE 24",
+    "source": "tce",
+    "page": "24",
     "tags": [
       "beast-feature",
       "barbarian-feature"
@@ -46,26 +47,11 @@
     "text": "*3rd-level Path of the Beast feature*\n\nWhen you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.\n\nYou choose the weapon's form each time you rage:\n\n- **Bite.** Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.\n- **Claws.** Each of your hands transforms into a claw, which you can use as a weapon if it's empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.\n- **Tail.** You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you."
   },
   {
-    "id": "srd:beast:path-of-the-beast",
-    "kind": "subclass-feature",
-    "name": "Path of the Beast",
-    "source": "srd",
-    "page": "TCE 24",
-    "tags": [
-      "beast-feature",
-      "barbarian-feature"
-    ],
-    "text": "Barbarians who walk the Path of the Beast draw their rage from a bestial spark burning within their souls. That beast bursts forth in the throes of rage, physically transforming the barbarian.\n\nSuch a barbarian might be inhabited by a primal spirit or be descended from shape-shifters. You can choose the origin of your feral might or determine it by rolling on the Origin of the Beast table.\n\n**Origin of the Beast**\n| d4 | Origin |\n| --- | --- |\n| 1 | One of your parents is a lycanthrope, and you've inherited some of their curse. |\n| 2 | You are descended from an archdruid and inherited the ability to partially change shape. |\n| 3 | A fey spirit gifted you with the ability to adopt different bestial aspects. |\n| 4 | An ancient animal spirit dwells within you, allowing you to walk this path. |",
-    "grants": [
-      "srd:beast:form-of-the-beast"
-    ]
-  },
-  {
     "id": "srd:beast:bestial-soul",
     "kind": "subclass-feature",
     "name": "Bestial Soul",
-    "source": "srd",
-    "page": "TCE 24",
+    "source": "tce",
+    "page": "24",
     "tags": [
       "beast-feature",
       "barbarian-feature"
@@ -76,8 +62,8 @@
     "id": "srd:beast:infectious-fury",
     "kind": "subclass-feature",
     "name": "Infectious Fury",
-    "source": "srd",
-    "page": "TCE 24",
+    "source": "tce",
+    "page": "24",
     "tags": [
       "beast-feature",
       "barbarian-feature"
@@ -125,8 +111,8 @@
     "id": "srd:beast:call-the-hunt",
     "kind": "subclass-feature",
     "name": "Call the Hunt",
-    "source": "srd",
-    "page": "TCE 24",
+    "source": "tce",
+    "page": "24",
     "tags": [
       "beast-feature",
       "barbarian-feature"

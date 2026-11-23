@@ -3,17 +3,19 @@
     "id": "srd:subclass:chronurgy-magic",
     "kind": "subclass",
     "name": "Chronurgy Magic",
-    "source": "srd",
-    "page": "EGW 184",
+    "source": "egw",
+    "page": "184",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory dunamis energy, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.\n\nNote: This subclass has access to Dunamancy Spells.",
     "levels": {
       "2": {
         "grants": [
-          "srd:chronurgy:chronurgy-magic"
+          "srd:chronurgy:chronal-shift",
+          "srd:chronurgy:temporal-awareness"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:chronurgy:chronal-shift",
     "kind": "subclass-feature",
     "name": "Chronal Shift",
-    "source": "srd",
-    "page": "EGW 184",
+    "source": "egw",
+    "page": "184",
     "tags": [
       "chronurgy-feature",
       "wizard-feature"
@@ -60,8 +62,8 @@
     "id": "srd:chronurgy:temporal-awareness",
     "kind": "subclass-feature",
     "name": "Temporal Awareness",
-    "source": "srd",
-    "page": "EGW 184",
+    "source": "egw",
+    "page": "184",
     "tags": [
       "chronurgy-feature",
       "wizard-feature"
@@ -69,27 +71,11 @@
     "text": "*2nd-level Chronurgy Magic feature*\n\nYou can add your Intelligence modifier to your initiative rolls."
   },
   {
-    "id": "srd:chronurgy:chronurgy-magic",
-    "kind": "subclass-feature",
-    "name": "Chronurgy Magic",
-    "source": "srd",
-    "page": "EGW 184",
-    "tags": [
-      "chronurgy-feature",
-      "wizard-feature"
-    ],
-    "text": "Focusing on the manipulation of time, those who follow the Chronurgy tradition learn to alter the pace of reality to their liking. Using the ramping of anticipatory dunamis energy, these mages can bend the flow of time as adroitly as a skilled musician plays an instrument, lending themselves and their allies an advantage in the blink of an eye.\n\nNote: This subclass has access to Dunamancy Spells.",
-    "grants": [
-      "srd:chronurgy:chronal-shift",
-      "srd:chronurgy:temporal-awareness"
-    ]
-  },
-  {
     "id": "srd:chronurgy:momentary-stasis",
     "kind": "subclass-feature",
     "name": "Momentary Stasis",
-    "source": "srd",
-    "page": "EGW 184",
+    "source": "egw",
+    "page": "184",
     "tags": [
       "chronurgy-feature",
       "wizard-feature"
@@ -131,8 +117,8 @@
     "id": "srd:chronurgy:arcane-abeyance",
     "kind": "subclass-feature",
     "name": "Arcane Abeyance",
-    "source": "srd",
-    "page": "EGW 184",
+    "source": "egw",
+    "page": "184",
     "tags": [
       "chronurgy-feature",
       "wizard-feature"
@@ -143,8 +129,8 @@
     "id": "srd:chronurgy:convergent-future",
     "kind": "subclass-feature",
     "name": "Convergent Future",
-    "source": "srd",
-    "page": "EGW 184",
+    "source": "egw",
+    "page": "184",
     "tags": [
       "chronurgy-feature",
       "wizard-feature"

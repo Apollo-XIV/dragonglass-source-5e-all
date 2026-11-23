@@ -3,17 +3,18 @@
     "id": "srd:subclass:graviturgy-magic",
     "kind": "subclass",
     "name": "Graviturgy Magic",
-    "source": "srd",
-    "page": "EGW 185",
+    "source": "egw",
+    "page": "185",
     "class": "srd:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "Understanding and mastering the forces that draw bodies of matter together or drive them apart, the students of the Graviturgy arcane tradition learn to further bend and manipulate the violent energy of gravity to their benefit, and the terrible detriment of their enemies.\n\nNote: This subclass has access to Dunamancy Spells.",
     "levels": {
       "2": {
         "grants": [
-          "srd:graviturgy:graviturgy-magic"
+          "srd:graviturgy:adjust-density"
         ]
       },
       "6": {
@@ -37,8 +38,8 @@
     "id": "srd:graviturgy:adjust-density",
     "kind": "subclass-feature",
     "name": "Adjust Density",
-    "source": "srd",
-    "page": "EGW 185",
+    "source": "egw",
+    "page": "185",
     "tags": [
       "graviturgy-feature",
       "wizard-feature"
@@ -57,26 +58,11 @@
     ]
   },
   {
-    "id": "srd:graviturgy:graviturgy-magic",
-    "kind": "subclass-feature",
-    "name": "Graviturgy Magic",
-    "source": "srd",
-    "page": "EGW 185",
-    "tags": [
-      "graviturgy-feature",
-      "wizard-feature"
-    ],
-    "text": "Understanding and mastering the forces that draw bodies of matter together or drive them apart, the students of the Graviturgy arcane tradition learn to further bend and manipulate the violent energy of gravity to their benefit, and the terrible detriment of their enemies.\n\nNote: This subclass has access to Dunamancy Spells.",
-    "grants": [
-      "srd:graviturgy:adjust-density"
-    ]
-  },
-  {
     "id": "srd:graviturgy:gravity-well",
     "kind": "subclass-feature",
     "name": "Gravity Well",
-    "source": "srd",
-    "page": "EGW 185",
+    "source": "egw",
+    "page": "185",
     "tags": [
       "graviturgy-feature",
       "wizard-feature"
@@ -87,8 +73,8 @@
     "id": "srd:graviturgy:violent-attraction",
     "kind": "subclass-feature",
     "name": "Violent Attraction",
-    "source": "srd",
-    "page": "EGW 185",
+    "source": "egw",
+    "page": "185",
     "tags": [
       "graviturgy-feature",
       "wizard-feature"
@@ -130,8 +116,8 @@
     "id": "srd:graviturgy:event-horizon",
     "kind": "subclass-feature",
     "name": "Event Horizon",
-    "source": "srd",
-    "page": "EGW 185",
+    "source": "egw",
+    "page": "185",
     "tags": [
       "graviturgy-feature",
       "wizard-feature"

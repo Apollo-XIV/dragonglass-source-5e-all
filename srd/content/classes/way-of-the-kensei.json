@@ -3,18 +3,19 @@
     "id": "srd:subclass:way-of-the-kensei",
     "kind": "subclass",
     "name": "Way of the Kensei",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "Monks of the Way of the Kensei train relentlessly with their weapons, to the point where the weapon becomes an extension of the body. Founded on a mastery of sword fighting, the tradition has expanded to include many different weapons.\n\nA kensei sees a weapon in much the same way a calligrapher or painter regards a pen or brush. Whatever the weapon, the kensei views it as a tool used to express the beauty and precision of the martial arts. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
     "fluff": "> Why did the samurai cross the road?... Now you say \"Why?\"... Okay, here's the joke part: I kensei. Get it? What? Why aren't you laughing? The joke is solid gold, and my delivery was perfect. Maybe you didn't get it because you're stupid.\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:kensei:way-of-the-kensei"
+          "srd:kensei:path-of-the-kensei"
         ]
       },
       "6": {
@@ -38,8 +39,8 @@
     "id": "srd:kensei:agile-parry",
     "kind": "subclass-feature",
     "name": "Agile Parry",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "tags": [
       "kensei-feature",
       "monk-feature",
@@ -51,8 +52,8 @@
     "id": "srd:kensei:kenseis-shot",
     "kind": "subclass-feature",
     "name": "Kensei's Shot",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "tags": [
       "kensei-feature",
       "monk-feature",
@@ -75,8 +76,8 @@
     "id": "srd:kensei:path-of-the-kensei",
     "kind": "subclass-feature",
     "name": "Path of the Kensei",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "tags": [
       "kensei-feature",
       "monk-feature"
@@ -97,26 +98,11 @@
     ]
   },
   {
-    "id": "srd:kensei:way-of-the-kensei",
-    "kind": "subclass-feature",
-    "name": "Way of the Kensei",
-    "source": "srd",
-    "page": "XGE 34",
-    "tags": [
-      "kensei-feature",
-      "monk-feature"
-    ],
-    "text": "Monks of the Way of the Kensei train relentlessly with their weapons, to the point where the weapon becomes an extension of the body. Founded on a mastery of sword fighting, the tradition has expanded to include many different weapons.\n\nA kensei sees a weapon in much the same way a calligrapher or painter regards a pen or brush. Whatever the weapon, the kensei views it as a tool used to express the beauty and precision of the martial arts. That such mastery makes a kensei a peerless warrior is but a side effect of intense devotion, practice, and study.",
-    "grants": [
-      "srd:kensei:path-of-the-kensei"
-    ]
-  },
-  {
     "id": "srd:kensei:one-with-the-blade",
     "kind": "subclass-feature",
     "name": "One with the Blade",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "tags": [
       "kensei-feature",
       "monk-feature"
@@ -127,8 +113,8 @@
     "id": "srd:kensei:sharpen-the-blade",
     "kind": "subclass-feature",
     "name": "Sharpen the Blade",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "tags": [
       "kensei-feature",
       "monk-feature"
@@ -153,8 +139,8 @@
     "id": "srd:kensei:unerring-accuracy",
     "kind": "subclass-feature",
     "name": "Unerring Accuracy",
-    "source": "srd",
-    "page": "XGE 34",
+    "source": "xge",
+    "page": "34",
     "tags": [
       "kensei-feature",
       "monk-feature"

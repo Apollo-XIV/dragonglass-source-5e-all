@@ -3,8 +3,8 @@
     "id": "srd:class:expert-sidekick",
     "kind": "class",
     "name": "Expert Sidekick",
-    "source": "srd",
-    "page": "TCE 142",
+    "source": "tce",
+    "page": "142",
     "key": "expert-sidekick",
     "hitDie": "d8",
     "tags": [

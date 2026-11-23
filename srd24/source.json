@@ -1,8 +1,23 @@
 {
   "id": "srd24",
-  "name": "System Reference Document 5.2",
-  "description": "Converted from 5etools SRD data (2024) by 5etools-to-dragonglass. Includes 5etools setting prose as `fluff`, which is not all SRD; rebuild with --no-fluff to publish.",
+  "name": "5etools, every 2024 book",
+  "description": "Converted from 5etools data (2024), every book of the edition, by 5etools-to-dragonglass. Published material, not the SRD: for local use only. Includes 5etools setting prose as `fluff`, which is not all SRD; rebuild with --no-fluff to publish.",
   "sourcebooks": [
-    "srd24"
+    "abh",
+    "au",
+    "aud",
+    "efa",
+    "fraif",
+    "frhof",
+    "hotb",
+    "lfl",
+    "nf",
+    "pl",
+    "rhw",
+    "uthftlh",
+    "wtthc",
+    "xdmg",
+    "xmm",
+    "xphb"
   ]
 }

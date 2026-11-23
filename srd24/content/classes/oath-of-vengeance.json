@@ -3,17 +3,19 @@
     "id": "srd24:subclass:oath-of-vengeance",
     "kind": "subclass",
     "name": "Oath of Vengeance",
-    "source": "srd24",
-    "page": "XPHB 116",
+    "source": "xphb",
+    "page": "116",
     "class": "srd24:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "*Punish Evildoers at Any Cost*\n\nThe Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.\n\nThese paladins share the following tenets:\n\n- Show the wicked no mercy.\n- Fight injustice and its causes.\n- Aid those harmed by injustice.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:vengeance:oath-of-vengeance",
+          "srd24:vengeance:oath-of-vengeance-spells",
+          "srd24:vengeance:vow-of-enmity",
           "srd24:spell:bane",
           "srd24:spell:hunters-mark"
         ]
@@ -63,8 +65,8 @@
     "id": "srd24:vengeance:oath-of-vengeance-spells",
     "kind": "subclass-feature",
     "name": "Oath of Vengeance Spells",
-    "source": "srd24",
-    "page": "XPHB 116",
+    "source": "xphb",
+    "page": "116",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -75,8 +77,8 @@
     "id": "srd24:vengeance:vow-of-enmity",
     "kind": "subclass-feature",
     "name": "Vow of Enmity",
-    "source": "srd24",
-    "page": "XPHB 117",
+    "source": "xphb",
+    "page": "117",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -94,27 +96,11 @@
     ]
   },
   {
-    "id": "srd24:vengeance:oath-of-vengeance",
-    "kind": "subclass-feature",
-    "name": "Oath of Vengeance",
-    "source": "srd24",
-    "page": "XPHB 116",
-    "tags": [
-      "vengeance-feature",
-      "paladin-feature"
-    ],
-    "text": "*Punish Evildoers at Any Cost*\n\nThe Oath of Vengeance is a solemn commitment to punish those who have committed grievously evil acts. When evil armies slaughter helpless villagers, when a tyrant defies the will of the gods, when a thieves' guild grows too violent, when a dragon rampages through the countryside—at times like these, paladins arise and swear an Oath of Vengeance to set right what has gone wrong.\n\nThese paladins share the following tenets:\n\n- Show the wicked no mercy.\n- Fight injustice and its causes.\n- Aid those harmed by injustice.",
-    "grants": [
-      "srd24:vengeance:oath-of-vengeance-spells",
-      "srd24:vengeance:vow-of-enmity"
-    ]
-  },
-  {
     "id": "srd24:vengeance:relentless-avenger",
     "kind": "subclass-feature",
     "name": "Relentless Avenger",
-    "source": "srd24",
-    "page": "XPHB 117",
+    "source": "xphb",
+    "page": "117",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -125,8 +111,8 @@
     "id": "srd24:vengeance:soul-of-vengeance",
     "kind": "subclass-feature",
     "name": "Soul of Vengeance",
-    "source": "srd24",
-    "page": "XPHB 117",
+    "source": "xphb",
+    "page": "117",
     "tags": [
       "vengeance-feature",
       "paladin-feature"
@@ -148,8 +134,8 @@
     "id": "srd24:vengeance:avenging-angel",
     "kind": "subclass-feature",
     "name": "Avenging Angel",
-    "source": "srd24",
-    "page": "XPHB 117",
+    "source": "xphb",
+    "page": "117",
     "tags": [
       "vengeance-feature",
       "paladin-feature"

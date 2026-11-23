@@ -3,17 +3,19 @@
     "id": "srd24:subclass:bladesinger",
     "kind": "subclass",
     "name": "Bladesinger",
-    "source": "srd24",
-    "page": "FRHoF 26",
+    "source": "frhof",
+    "page": "26",
     "class": "srd24:class:wizard",
     "tags": [
       "wizard-subclass",
       "srd-subclass"
     ],
+    "text": "*Wield Weapon and Wizardry in Elegant Tandem*\n\nBladesingers master a tradition of wizardry that incorporates swordplay and dance. In combat, a Bladesinger uses intricate, elegant maneuvers that fend off harm and allow the Bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a Bladesinger at work remember the display as one of the more beautiful experiences in their life—a glorious dance accompanied by a singing blade.\n\nBladesinging is associated with the ancient elven societies that first mastered the art and coined the term. Even today, most Bladesingers still hail from old elven realms, such as Myth Drannor, or from non-elven societies that share land and history with elves, such as the Silver Marches. Wherever they hail from, Bladesingers take their talents all across the Realms to help common people and perform heroic deeds. Most communities greet the arrival of a Bladesinger as a good omen.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:bladesinger:bladesinger"
+          "srd24:bladesinger:bladesong",
+          "srd24:bladesinger:training-in-war-and-song"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd24:bladesinger:bladesong",
     "kind": "subclass-feature",
     "name": "Bladesong",
-    "source": "srd24",
-    "page": "FRHoF 26",
+    "source": "frhof",
+    "page": "26",
     "tags": [
       "bladesinger-feature",
       "wizard-feature"
@@ -80,8 +82,8 @@
     "id": "srd24:bladesinger:training-in-war-and-song",
     "kind": "subclass-feature",
     "name": "Training in War and Song",
-    "source": "srd24",
-    "page": "FRHoF 27",
+    "source": "frhof",
+    "page": "27",
     "tags": [
       "bladesinger-feature",
       "wizard-feature"
@@ -102,27 +104,11 @@
     ]
   },
   {
-    "id": "srd24:bladesinger:bladesinger",
-    "kind": "subclass-feature",
-    "name": "Bladesinger",
-    "source": "srd24",
-    "page": "FRHoF 26",
-    "tags": [
-      "bladesinger-feature",
-      "wizard-feature"
-    ],
-    "text": "*Wield Weapon and Wizardry in Elegant Tandem*\n\nBladesingers master a tradition of wizardry that incorporates swordplay and dance. In combat, a Bladesinger uses intricate, elegant maneuvers that fend off harm and allow the Bladesinger to channel magic into devastating attacks and a cunning defense. Many who have observed a Bladesinger at work remember the display as one of the more beautiful experiences in their life—a glorious dance accompanied by a singing blade.\n\nBladesinging is associated with the ancient elven societies that first mastered the art and coined the term. Even today, most Bladesingers still hail from old elven realms, such as Myth Drannor, or from non-elven societies that share land and history with elves, such as the Silver Marches. Wherever they hail from, Bladesingers take their talents all across the Realms to help common people and perform heroic deeds. Most communities greet the arrival of a Bladesinger as a good omen.",
-    "grants": [
-      "srd24:bladesinger:bladesong",
-      "srd24:bladesinger:training-in-war-and-song"
-    ]
-  },
-  {
     "id": "srd24:bladesinger:extra-attack",
     "kind": "subclass-feature",
     "name": "Extra Attack",
-    "source": "srd24",
-    "page": "FRHoF 27",
+    "source": "frhof",
+    "page": "27",
     "tags": [
       "bladesinger-feature",
       "wizard-feature"
@@ -133,8 +119,8 @@
     "id": "srd24:bladesinger:song-of-defense",
     "kind": "subclass-feature",
     "name": "Song of Defense",
-    "source": "srd24",
-    "page": "FRHoF 27",
+    "source": "frhof",
+    "page": "27",
     "tags": [
       "bladesinger-feature",
       "wizard-feature"
@@ -156,8 +142,8 @@
     "id": "srd24:bladesinger:song-of-victory",
     "kind": "subclass-feature",
     "name": "Song of Victory",
-    "source": "srd24",
-    "page": "FRHoF 27",
+    "source": "frhof",
+    "page": "27",
     "tags": [
       "bladesinger-feature",
       "wizard-feature"

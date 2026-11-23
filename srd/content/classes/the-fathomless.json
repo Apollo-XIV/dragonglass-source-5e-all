@@ -3,17 +3,19 @@
     "id": "srd:subclass:the-fathomless",
     "kind": "subclass",
     "name": "The Fathomless",
-    "source": "srd",
-    "page": "TCE 72",
+    "source": "tce",
+    "page": "72",
     "class": "srd:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "You have plunged into a pact with the deeps. An entity of the ocean, the Elemental Plane of Water, or another otherworldly sea now allows you to draw on its thalassic power. Is it merely using you to learn about terrestrial realms, or does it want you to open cosmic floodgates and drown the world?\n\nPerhaps you were born into a generational cult that venerates the Fathomless and its spawn. Or you might have been shipwrecked and on the brink of drowning when your patron's grasp offered you a chance at life. Whatever the reason for your pact, the sea and its unknown depths call to you.\n\nEntities of the deep that might empower a warlock include krakens, ancient water elementals, godlike hallucinations dreamed into being by kuo-toa, merfolk demigods, and sea hag covens.\n\n**Expanded Spell List.** *1st-level Fathomless feature*\n\nThe Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Fathomless Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | create or destroy water, thunderwave |\n| 2nd | gust of wind, silence |\n| 3rd | lightning bolt, sleet storm |\n| 4th | control water, summon elemental (water only) |\n| 5th | Bigby's hand (appears as a tentacle), cone of cold |",
     "levels": {
       "1": {
         "grants": [
-          "srd:fathomless:the-fathomless"
+          "srd:fathomless:tentacle-of-the-deeps",
+          "srd:fathomless:gift-of-the-sea"
         ],
         "spellListAdditions": [
           {
@@ -55,8 +57,8 @@
     "id": "srd:fathomless:tentacle-of-the-deeps",
     "kind": "subclass-feature",
     "name": "Tentacle of the Deeps",
-    "source": "srd",
-    "page": "TCE 72",
+    "source": "tce",
+    "page": "72",
     "tags": [
       "fathomless-feature",
       "warlock-feature"
@@ -98,8 +100,8 @@
     "id": "srd:fathomless:gift-of-the-sea",
     "kind": "subclass-feature",
     "name": "Gift of the Sea",
-    "source": "srd",
-    "page": "TCE 72",
+    "source": "tce",
+    "page": "72",
     "tags": [
       "fathomless-feature",
       "warlock-feature"
@@ -107,27 +109,11 @@
     "text": "*1st-level Fathomless feature*\n\nYou gain a swimming speed of 40 feet, and you can breathe underwater."
   },
   {
-    "id": "srd:fathomless:the-fathomless",
-    "kind": "subclass-feature",
-    "name": "The Fathomless",
-    "source": "srd",
-    "page": "TCE 72",
-    "tags": [
-      "fathomless-feature",
-      "warlock-feature"
-    ],
-    "text": "You have plunged into a pact with the deeps. An entity of the ocean, the Elemental Plane of Water, or another otherworldly sea now allows you to draw on its thalassic power. Is it merely using you to learn about terrestrial realms, or does it want you to open cosmic floodgates and drown the world?\n\nPerhaps you were born into a generational cult that venerates the Fathomless and its spawn. Or you might have been shipwrecked and on the brink of drowning when your patron's grasp offered you a chance at life. Whatever the reason for your pact, the sea and its unknown depths call to you.\n\nEntities of the deep that might empower a warlock include krakens, ancient water elementals, godlike hallucinations dreamed into being by kuo-toa, merfolk demigods, and sea hag covens.\n\n**Expanded Spell List.** *1st-level Fathomless feature*\n\nThe Fathomless lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.\n\n**Fathomless Expanded Spells**\n| Spell Level | Spells |\n| --- | --- |\n| 1st | create or destroy water, thunderwave |\n| 2nd | gust of wind, silence |\n| 3rd | lightning bolt, sleet storm |\n| 4th | control water, summon elemental (water only) |\n| 5th | Bigby's hand (appears as a tentacle), cone of cold |",
-    "grants": [
-      "srd:fathomless:tentacle-of-the-deeps",
-      "srd:fathomless:gift-of-the-sea"
-    ]
-  },
-  {
     "id": "srd:fathomless:oceanic-soul",
     "kind": "subclass-feature",
     "name": "Oceanic Soul",
-    "source": "srd",
-    "page": "TCE 72",
+    "source": "tce",
+    "page": "72",
     "tags": [
       "fathomless-feature",
       "warlock-feature"
@@ -138,8 +124,8 @@
     "id": "srd:fathomless:guardian-coil",
     "kind": "subclass-feature",
     "name": "Guardian Coil",
-    "source": "srd",
-    "page": "TCE 72",
+    "source": "tce",
+    "page": "72",
     "tags": [
       "fathomless-feature",
       "warlock-feature"
@@ -161,8 +147,8 @@
     "id": "srd:fathomless:grasping-tentacles",
     "kind": "subclass-feature",
     "name": "Grasping Tentacles",
-    "source": "srd",
-    "page": "TCE 72",
+    "source": "tce",
+    "page": "72",
     "tags": [
       "fathomless-feature",
       "warlock-feature"
@@ -173,8 +159,8 @@
     "id": "srd:fathomless:fathomless-plunge",
     "kind": "subclass-feature",
     "name": "Fathomless Plunge",
-    "source": "srd",
-    "page": "TCE 72",
+    "source": "tce",
+    "page": "72",
     "tags": [
       "fathomless-feature",
       "warlock-feature"

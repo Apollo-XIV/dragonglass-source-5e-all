@@ -3,18 +3,19 @@
     "id": "srd:subclass:circle-of-dreams",
     "kind": "subclass",
     "name": "Circle of Dreams",
-    "source": "srd",
-    "page": "XGE 22",
+    "source": "xge",
+    "page": "22",
     "class": "srd:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.",
     "fluff": "> I don't dream because I don't sleep. I'm always awake so no one can ever sneak up on me. If I dreamed, they would be bigger dreams than yours, though, because my head is bigger.\n>\n> — Xanathar",
     "levels": {
       "2": {
         "grants": [
-          "srd:dreams:circle-of-dreams"
+          "srd:dreams:balm-of-the-summer-court"
         ]
       },
       "6": {
@@ -38,8 +39,8 @@
     "id": "srd:dreams:balm-of-the-summer-court",
     "kind": "subclass-feature",
     "name": "Balm of the Summer Court",
-    "source": "srd",
-    "page": "XGE 22",
+    "source": "xge",
+    "page": "22",
     "tags": [
       "dreams-feature",
       "druid-feature"
@@ -58,26 +59,11 @@
     ]
   },
   {
-    "id": "srd:dreams:circle-of-dreams",
-    "kind": "subclass-feature",
-    "name": "Circle of Dreams",
-    "source": "srd",
-    "page": "XGE 22",
-    "tags": [
-      "dreams-feature",
-      "druid-feature"
-    ],
-    "text": "Druids who are members of the Circle of Dreams hail from regions that have strong ties to the Feywild and its dreamlike realms. The druids' guardianship of the natural world makes for a natural alliance between them and good-aligned fey. These druids seek to fill the world with dreamy wonder. Their magic mends wounds and brings joy to downcast hearts, and the realms they protect are gleaming, fruitful places, where dream and reality blur together and where the weary can find rest.",
-    "grants": [
-      "srd:dreams:balm-of-the-summer-court"
-    ]
-  },
-  {
     "id": "srd:dreams:hearth-of-moonlight-and-shadow",
     "kind": "subclass-feature",
     "name": "Hearth of Moonlight and Shadow",
-    "source": "srd",
-    "page": "XGE 22",
+    "source": "xge",
+    "page": "22",
     "tags": [
       "dreams-feature",
       "druid-feature"
@@ -88,8 +74,8 @@
     "id": "srd:dreams:hidden-paths",
     "kind": "subclass-feature",
     "name": "Hidden Paths",
-    "source": "srd",
-    "page": "XGE 22",
+    "source": "xge",
+    "page": "22",
     "tags": [
       "dreams-feature",
       "druid-feature"
@@ -134,8 +120,8 @@
     "id": "srd:dreams:walker-in-dreams",
     "kind": "subclass-feature",
     "name": "Walker in Dreams",
-    "source": "srd",
-    "page": "XGE 22",
+    "source": "xge",
+    "page": "22",
     "tags": [
       "dreams-feature",
       "druid-feature"

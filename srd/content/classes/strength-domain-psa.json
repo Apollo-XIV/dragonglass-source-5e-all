@@ -3,17 +3,19 @@
     "id": "srd:subclass:strength-domain-psa",
     "kind": "subclass",
     "name": "Strength Domain (PSA)",
-    "source": "srd",
-    "page": "PSA 26",
+    "source": "psa",
+    "page": "26",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "> The worthy shall hone a strong body that can withstand the boundless energies of the afterlife.\n\nIt falls to Rhonas to instill this teaching in those who would enter the afterlife—but to his mind, the words themselves don't matter. Strength can't be taught. It must be built through practice and training. Rhonas demonstrates his teachings by his example, rather than by giving his students any kind of academic instruction. He welcomes the people of Naktamun to stand by the Hekma and watch him as he storms into the desert to battle the greatest horrors. He encourages them to observe his indomitable strength, for though they will never equal it, they can aspire to mimicry. He invites them to scrutinize every move and practice what they see.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Strength Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | divine favor, shield of faith |\n| 3rd | enhance ability, protection from poison |\n| 5th | haste, protection from energy |\n| 7th | dominate beast, stoneskin |\n| 9th | destructive wave, insect plague |",
     "levels": {
       "1": {
         "grants": [
-          "srd:strength-psa:strength-domain-psa",
+          "srd:strength-psa:acolyte-of-strength",
+          "srd:strength-psa:bonus-proficiency",
           "srd:spell:divine-favor",
           "srd:spell:shield-of-faith"
         ],
@@ -83,8 +85,8 @@
     "id": "srd:strength-psa:acolyte-of-strength",
     "kind": "subclass-feature",
     "name": "Acolyte of Strength",
-    "source": "srd",
-    "page": "PSA 26",
+    "source": "psa",
+    "page": "26",
     "tags": [
       "strength-psa-feature",
       "cleric-feature"
@@ -95,8 +97,8 @@
     "id": "srd:strength-psa:bonus-proficiency",
     "kind": "subclass-feature",
     "name": "Bonus Proficiency",
-    "source": "srd",
-    "page": "PSA 26",
+    "source": "psa",
+    "page": "26",
     "tags": [
       "strength-psa-feature",
       "cleric-feature"
@@ -117,27 +119,11 @@
     ]
   },
   {
-    "id": "srd:strength-psa:strength-domain-psa",
-    "kind": "subclass-feature",
-    "name": "Strength Domain (PSA)",
-    "source": "srd",
-    "page": "PSA 26",
-    "tags": [
-      "strength-psa-feature",
-      "cleric-feature"
-    ],
-    "text": "> The worthy shall hone a strong body that can withstand the boundless energies of the afterlife.\n\nIt falls to Rhonas to instill this teaching in those who would enter the afterlife—but to his mind, the words themselves don't matter. Strength can't be taught. It must be built through practice and training. Rhonas demonstrates his teachings by his example, rather than by giving his students any kind of academic instruction. He welcomes the people of Naktamun to stand by the Hekma and watch him as he storms into the desert to battle the greatest horrors. He encourages them to observe his indomitable strength, for though they will never equal it, they can aspire to mimicry. He invites them to scrutinize every move and practice what they see.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Strength Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | divine favor, shield of faith |\n| 3rd | enhance ability, protection from poison |\n| 5th | haste, protection from energy |\n| 7th | dominate beast, stoneskin |\n| 9th | destructive wave, insect plague |",
-    "grants": [
-      "srd:strength-psa:acolyte-of-strength",
-      "srd:strength-psa:bonus-proficiency"
-    ]
-  },
-  {
     "id": "srd:strength-psa:channel-divinity-feat-of-strength",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Feat of Strength",
-    "source": "srd",
-    "page": "PSA 26",
+    "source": "psa",
+    "page": "26",
     "tags": [
       "strength-psa-feature",
       "cleric-feature"
@@ -158,8 +144,8 @@
     "id": "srd:strength-psa:rhonass-blessing",
     "kind": "subclass-feature",
     "name": "Rhonas's Blessing",
-    "source": "srd",
-    "page": "PSA 26",
+    "source": "psa",
+    "page": "26",
     "tags": [
       "strength-psa-feature",
       "cleric-feature"
@@ -181,8 +167,8 @@
     "id": "srd:strength-psa:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "PSA 26",
+    "source": "psa",
+    "page": "26",
     "tags": [
       "strength-psa-feature",
       "cleric-feature"
@@ -193,8 +179,8 @@
     "id": "srd:strength-psa:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "strength-psa-feature",
       "cleric-feature"
@@ -205,8 +191,8 @@
     "id": "srd:strength-psa:avatar-of-battle",
     "kind": "subclass-feature",
     "name": "Avatar of Battle",
-    "source": "srd",
-    "page": "PSA 26",
+    "source": "psa",
+    "page": "26",
     "tags": [
       "strength-psa-feature",
       "cleric-feature"

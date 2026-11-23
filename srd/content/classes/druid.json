@@ -3,8 +3,8 @@
     "id": "srd:class:druid",
     "kind": "class",
     "name": "Druid",
-    "source": "srd",
-    "page": "PHB 64",
+    "source": "phb",
+    "page": "64",
     "key": "druid",
     "hitDie": "d8",
     "tags": [

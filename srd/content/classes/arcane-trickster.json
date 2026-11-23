@@ -3,17 +3,19 @@
     "id": "srd:subclass:arcane-trickster",
     "kind": "subclass",
     "name": "Arcane Trickster",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "class": "srd:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
     "levels": {
       "3": {
         "grants": [
-          "srd:arcane-trickster:arcane-trickster",
+          "srd:arcane-trickster:spellcasting",
+          "srd:arcane-trickster:mage-hand-legerdemain",
           "srd:spell:mage-hand"
         ],
         "spellListAdditions": [
@@ -74,8 +76,8 @@
     "id": "srd:arcane-trickster:spellcasting",
     "kind": "subclass-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"
@@ -86,8 +88,8 @@
     "id": "srd:arcane-trickster:mage-hand-legerdemain",
     "kind": "subclass-feature",
     "name": "Mage Hand Legerdemain",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"
@@ -95,27 +97,11 @@
     "text": "Starting at 3rd level, when you cast mage hand, you can make the spectral hand invisible, and you can perform the following additional tasks with it:\n\n- You can stow one object the hand is holding in a container worn or carried by another creature.\n- You can retrieve an object in a container worn or carried by another creature.\n- You can use thieves' tools to pick locks and disarm traps at range.\n\nYou can perform one of these tasks without being noticed by a creature if you succeed on a Dexterity (Sleight of Hand) check contested by the creature's Wisdom (Perception) check.\n\nIn addition, you can use the bonus action granted by your Cunning Action to control the hand."
   },
   {
-    "id": "srd:arcane-trickster:arcane-trickster",
-    "kind": "subclass-feature",
-    "name": "Arcane Trickster",
-    "source": "srd",
-    "page": "PHB 97",
-    "tags": [
-      "arcane-trickster-feature",
-      "rogue-feature"
-    ],
-    "text": "Some rogues enhance their fine-honed skills of stealth and agility with magic, learning tricks of enchantment and illusion. These rogues include pickpockets and burglars, but also pranksters, mischief-makers, and a significant number of adventurers.",
-    "grants": [
-      "srd:arcane-trickster:spellcasting",
-      "srd:arcane-trickster:mage-hand-legerdemain"
-    ]
-  },
-  {
     "id": "srd:arcane-trickster:magical-ambush",
     "kind": "subclass-feature",
     "name": "Magical Ambush",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"
@@ -126,8 +112,8 @@
     "id": "srd:arcane-trickster:versatile-trickster",
     "kind": "subclass-feature",
     "name": "Versatile Trickster",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"
@@ -149,8 +135,8 @@
     "id": "srd:arcane-trickster:spell-thief",
     "kind": "subclass-feature",
     "name": "Spell Thief",
-    "source": "srd",
-    "page": "PHB 97",
+    "source": "phb",
+    "page": "97",
     "tags": [
       "arcane-trickster-feature",
       "rogue-feature"

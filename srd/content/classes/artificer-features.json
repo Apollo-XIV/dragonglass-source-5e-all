@@ -3,8 +3,8 @@
     "id": "srd:artificer:optional-rule-firearm-proficiency",
     "kind": "class-feature",
     "name": "Optional Rule: Firearm Proficiency",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd:artificer:magical-tinkering",
     "kind": "class-feature",
     "name": "Magical Tinkering",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -36,8 +36,8 @@
     "id": "srd:artificer:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -47,8 +47,8 @@
     "id": "srd:artificer:infusions-known",
     "kind": "class-feature",
     "name": "Infusions Known",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -80,8 +80,8 @@
     "id": "srd:artificer:infuse-item",
     "kind": "class-feature",
     "name": "Infuse Item",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -94,8 +94,8 @@
     "id": "srd:artificer:artificer-specialist",
     "kind": "class-feature",
     "name": "Artificer Specialist",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -105,8 +105,8 @@
     "id": "srd:artificer:the-right-tool-for-the-job",
     "kind": "class-feature",
     "name": "The Right Tool for the Job",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -116,8 +116,8 @@
     "id": "srd:artificer:tool-expertise",
     "kind": "class-feature",
     "name": "Tool Expertise",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -127,8 +127,8 @@
     "id": "srd:artificer:flash-of-genius",
     "kind": "class-feature",
     "name": "Flash of Genius",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -169,8 +169,8 @@
     "id": "srd:artificer:magic-item-adept",
     "kind": "class-feature",
     "name": "Magic Item Adept",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -180,8 +180,8 @@
     "id": "srd:artificer:spell-storing-item",
     "kind": "class-feature",
     "name": "Spell-Storing Item",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -191,8 +191,8 @@
     "id": "srd:artificer:magic-item-savant",
     "kind": "class-feature",
     "name": "Magic Item Savant",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -202,8 +202,8 @@
     "id": "srd:artificer:magic-item-master",
     "kind": "class-feature",
     "name": "Magic Item Master",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],
@@ -213,8 +213,8 @@
     "id": "srd:artificer:soul-of-artifice",
     "kind": "class-feature",
     "name": "Soul of Artifice",
-    "source": "srd",
-    "page": "TCE 9",
+    "source": "tce",
+    "page": "9",
     "tags": [
       "artificer-feature"
     ],

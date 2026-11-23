@@ -3,17 +3,20 @@
     "id": "srd:subclass:oath-of-the-crown",
     "kind": "subclass",
     "name": "Oath of the Crown",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "class": "srd:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.",
     "levels": {
       "3": {
         "grants": [
-          "srd:crown:oath-of-the-crown",
+          "srd:crown:tenets-of-the-crown",
+          "srd:crown:oath-spells",
+          "srd:crown:channel-divinity",
           "srd:spell:command",
           "srd:spell:compelled-duel"
         ]
@@ -63,8 +66,8 @@
     "id": "srd:crown:tenets-of-the-crown",
     "kind": "subclass-feature",
     "name": "Tenets of the Crown",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "tags": [
       "crown-feature",
       "paladin-feature"
@@ -75,8 +78,8 @@
     "id": "srd:crown:oath-spells",
     "kind": "subclass-feature",
     "name": "Oath Spells",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "tags": [
       "crown-feature",
       "paladin-feature"
@@ -87,8 +90,8 @@
     "id": "srd:crown:champion-challenge",
     "kind": "subclass-feature",
     "name": "Champion Challenge",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "tags": [
       "crown-feature",
       "paladin-feature"
@@ -113,8 +116,8 @@
     "id": "srd:crown:turn-the-tide",
     "kind": "subclass-feature",
     "name": "Turn the Tide",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "tags": [
       "crown-feature",
       "paladin-feature"
@@ -139,8 +142,8 @@
     "id": "srd:crown:channel-divinity",
     "kind": "subclass-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "tags": [
       "crown-feature",
       "paladin-feature"
@@ -152,28 +155,11 @@
     ]
   },
   {
-    "id": "srd:crown:oath-of-the-crown",
-    "kind": "subclass-feature",
-    "name": "Oath of the Crown",
-    "source": "srd",
-    "page": "SCAG 132",
-    "tags": [
-      "crown-feature",
-      "paladin-feature"
-    ],
-    "text": "The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.",
-    "grants": [
-      "srd:crown:tenets-of-the-crown",
-      "srd:crown:oath-spells",
-      "srd:crown:channel-divinity"
-    ]
-  },
-  {
     "id": "srd:crown:divine-allegiance",
     "kind": "subclass-feature",
     "name": "Divine Allegiance",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "tags": [
       "crown-feature",
       "paladin-feature"
@@ -195,8 +181,8 @@
     "id": "srd:crown:unyielding-spirit",
     "kind": "subclass-feature",
     "name": "Unyielding Spirit",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "tags": [
       "crown-feature",
       "paladin-feature"
@@ -207,8 +193,8 @@
     "id": "srd:crown:exalted-champion",
     "kind": "subclass-feature",
     "name": "Exalted Champion",
-    "source": "srd",
-    "page": "SCAG 132",
+    "source": "scag",
+    "page": "132",
     "tags": [
       "crown-feature",
       "paladin-feature"

@@ -3,12 +3,12 @@
     "id": "srd24:item:breastplate",
     "kind": "item",
     "name": "Breastplate",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 20,
     "value": 40000,
@@ -22,12 +22,12 @@
     "id": "srd24:item:chain-mail",
     "kind": "item",
     "name": "Chain Mail",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "heavy-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 55,
     "value": 7500,
@@ -43,12 +43,12 @@
     "id": "srd24:item:chain-shirt",
     "kind": "item",
     "name": "Chain Shirt",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 20,
     "value": 5000,
@@ -62,12 +62,12 @@
     "id": "srd24:item:half-plate-armor",
     "kind": "item",
     "name": "Half Plate Armor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 40,
     "value": 75000,
@@ -82,12 +82,12 @@
     "id": "srd24:item:hide-armor",
     "kind": "item",
     "name": "Hide Armor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 12,
     "value": 1000,
@@ -101,12 +101,12 @@
     "id": "srd24:item:leather-armor",
     "kind": "item",
     "name": "Leather Armor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "light-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 10,
     "value": 1000,
@@ -119,12 +119,12 @@
     "id": "srd24:item:padded-armor",
     "kind": "item",
     "name": "Padded Armor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "light-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 8,
     "value": 500,
@@ -138,12 +138,12 @@
     "id": "srd24:item:plate-armor",
     "kind": "item",
     "name": "Plate Armor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "heavy-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 65,
     "value": 150000,
@@ -159,12 +159,12 @@
     "id": "srd24:item:ring-mail",
     "kind": "item",
     "name": "Ring Mail",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "heavy-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 40,
     "value": 3000,
@@ -179,12 +179,12 @@
     "id": "srd24:item:scale-mail",
     "kind": "item",
     "name": "Scale Mail",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "medium-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 45,
     "value": 5000,
@@ -199,12 +199,12 @@
     "id": "srd24:item:shield",
     "kind": "item",
     "name": "Shield",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "shield"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "shield",
     "weight": 6,
     "value": 1000,
@@ -221,12 +221,12 @@
     "id": "srd24:item:splint-armor",
     "kind": "item",
     "name": "Splint Armor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "heavy-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 60,
     "value": 20000,
@@ -242,12 +242,12 @@
     "id": "srd24:item:studded-leather-armor",
     "kind": "item",
     "name": "Studded Leather Armor",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "armor",
       "light-armor"
     ],
-    "page": "XPHB 219",
+    "page": "219",
     "itemType": "armor",
     "weight": 13,
     "value": 4500,

@@ -3,17 +3,19 @@
     "id": "srd:subclass:drakewarden",
     "kind": "subclass",
     "name": "Drakewarden",
-    "source": "srd",
-    "page": "FTD 15",
+    "source": "ftd",
+    "page": "15",
     "class": "srd:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "Your connection to the natural world takes the form of a draconic spirit, which can manifest in physical form as a drake. As your powers grow, your drake grows as well, blossoming from a small four-legged companion to a majestic winged creature large and strong enough for you to ride. Along the way, you gain an increasing share of the awe-inspiring power of dragons.\n\nConsider the source of the draconic spirit you have bonded with. The Drakewarden Origin table offers examples.\n\n**Drakewarden Origin**\n| d6 | Origin |\n| --- | --- |\n| 1 | You studied a dragon's scale or claw, or a trinket from a dragon's hoard, creating your bond through that token's lingering draconic magic. |\n| 2 | A secret order of rangers who collect and guard draconic lore taught you their ways. |\n| 3 | A dragon gave you a geode or gemstone to care for. To your surprise, the drake hatched from that stone. |\n| 4 | You ingested a few drops of dragon blood, forever infusing your nature magic with draconic power. |\n| 5 | An ancient Draconic inscription on a standing stone empowered you when you read it aloud. |\n| 6 | You had a vivid dream of a mysterious figure accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you. |",
     "levels": {
       "3": {
         "grants": [
-          "srd:drakewarden:drakewarden",
+          "srd:drakewarden:draconic-gift",
+          "srd:drakewarden:drake-companion",
           "srd:spell:thaumaturgy"
         ]
       },
@@ -38,8 +40,8 @@
     "id": "srd:drakewarden:draconic-gift",
     "kind": "subclass-feature",
     "name": "Draconic Gift",
-    "source": "srd",
-    "page": "FTD 15",
+    "source": "ftd",
+    "page": "15",
     "tags": [
       "drakewarden-feature",
       "ranger-feature"
@@ -50,8 +52,8 @@
     "id": "srd:drakewarden:drake-companion",
     "kind": "subclass-feature",
     "name": "Drake Companion",
-    "source": "srd",
-    "page": "FTD 15",
+    "source": "ftd",
+    "page": "15",
     "tags": [
       "drakewarden-feature",
       "ranger-feature"
@@ -70,27 +72,11 @@
     ]
   },
   {
-    "id": "srd:drakewarden:drakewarden",
-    "kind": "subclass-feature",
-    "name": "Drakewarden",
-    "source": "srd",
-    "page": "FTD 15",
-    "tags": [
-      "drakewarden-feature",
-      "ranger-feature"
-    ],
-    "text": "Your connection to the natural world takes the form of a draconic spirit, which can manifest in physical form as a drake. As your powers grow, your drake grows as well, blossoming from a small four-legged companion to a majestic winged creature large and strong enough for you to ride. Along the way, you gain an increasing share of the awe-inspiring power of dragons.\n\nConsider the source of the draconic spirit you have bonded with. The Drakewarden Origin table offers examples.\n\n**Drakewarden Origin**\n| d6 | Origin |\n| --- | --- |\n| 1 | You studied a dragon's scale or claw, or a trinket from a dragon's hoard, creating your bond through that token's lingering draconic magic. |\n| 2 | A secret order of rangers who collect and guard draconic lore taught you their ways. |\n| 3 | A dragon gave you a geode or gemstone to care for. To your surprise, the drake hatched from that stone. |\n| 4 | You ingested a few drops of dragon blood, forever infusing your nature magic with draconic power. |\n| 5 | An ancient Draconic inscription on a standing stone empowered you when you read it aloud. |\n| 6 | You had a vivid dream of a mysterious figure accompanied by seven yellow canaries, who warned you of impending doom. When you awoke, your drake was there, watching you. |",
-    "grants": [
-      "srd:drakewarden:draconic-gift",
-      "srd:drakewarden:drake-companion"
-    ]
-  },
-  {
     "id": "srd:drakewarden:bond-of-fang-and-scale",
     "kind": "subclass-feature",
     "name": "Bond of Fang and Scale",
-    "source": "srd",
-    "page": "FTD 15",
+    "source": "ftd",
+    "page": "15",
     "tags": [
       "drakewarden-feature",
       "ranger-feature"
@@ -101,8 +87,8 @@
     "id": "srd:drakewarden:drakes-breath",
     "kind": "subclass-feature",
     "name": "Drake's Breath",
-    "source": "srd",
-    "page": "FTD 15",
+    "source": "ftd",
+    "page": "15",
     "tags": [
       "drakewarden-feature",
       "ranger-feature"
@@ -124,8 +110,8 @@
     "id": "srd:drakewarden:perfected-bond",
     "kind": "subclass-feature",
     "name": "Perfected Bond",
-    "source": "srd",
-    "page": "FTD 15",
+    "source": "ftd",
+    "page": "15",
     "tags": [
       "drakewarden-feature",
       "ranger-feature"

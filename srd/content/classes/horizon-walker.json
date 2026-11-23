@@ -3,18 +3,21 @@
     "id": "srd:subclass:horizon-walker",
     "kind": "subclass",
     "name": "Horizon Walker",
-    "source": "srd",
-    "page": "XGE 42",
+    "source": "xge",
+    "page": "42",
     "class": "srd:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse—especially benevolent dragons, fey, and elementals—that work to preserve life and the order of the planes.",
     "fluff": "> You can't walk to the horizon, because it keeps on getting farther away. Boom! Did I just blow your mind? I did, didn't I?\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:horizon-walker:horizon-walker",
+          "srd:horizon-walker:horizon-walker-magic",
+          "srd:horizon-walker:detect-portal",
+          "srd:horizon-walker:planar-warrior",
           {
             "id": "srd:spell:protection-from-evil-and-good",
             "mode": "learned"
@@ -74,8 +77,8 @@
     "id": "srd:horizon-walker:horizon-walker-magic",
     "kind": "subclass-feature",
     "name": "Horizon Walker Magic",
-    "source": "srd",
-    "page": "XGE 42",
+    "source": "xge",
+    "page": "42",
     "tags": [
       "horizon-walker-feature",
       "ranger-feature"
@@ -86,8 +89,8 @@
     "id": "srd:horizon-walker:detect-portal",
     "kind": "subclass-feature",
     "name": "Detect Portal",
-    "source": "srd",
-    "page": "XGE 42",
+    "source": "xge",
+    "page": "42",
     "tags": [
       "horizon-walker-feature",
       "ranger-feature"
@@ -129,8 +132,8 @@
     "id": "srd:horizon-walker:planar-warrior",
     "kind": "subclass-feature",
     "name": "Planar Warrior",
-    "source": "srd",
-    "page": "XGE 42",
+    "source": "xge",
+    "page": "42",
     "tags": [
       "horizon-walker-feature",
       "ranger-feature"
@@ -149,28 +152,11 @@
     ]
   },
   {
-    "id": "srd:horizon-walker:horizon-walker",
-    "kind": "subclass-feature",
-    "name": "Horizon Walker",
-    "source": "srd",
-    "page": "XGE 42",
-    "tags": [
-      "horizon-walker-feature",
-      "ranger-feature"
-    ],
-    "text": "Horizon Walkers guard the world against threats that originate from other planes or that seek to ravage the mortal realm with otherworldly magic. They seek out planar portals and keep watch over them, venturing to the Inner Planes and the Outer Planes as needed to pursue their foes. These rangers are also friends to any forces in the multiverse—especially benevolent dragons, fey, and elementals—that work to preserve life and the order of the planes.",
-    "grants": [
-      "srd:horizon-walker:horizon-walker-magic",
-      "srd:horizon-walker:detect-portal",
-      "srd:horizon-walker:planar-warrior"
-    ]
-  },
-  {
     "id": "srd:horizon-walker:ethereal-step",
     "kind": "subclass-feature",
     "name": "Ethereal Step",
-    "source": "srd",
-    "page": "XGE 42",
+    "source": "xge",
+    "page": "42",
     "tags": [
       "horizon-walker-feature",
       "ranger-feature"
@@ -212,8 +198,8 @@
     "id": "srd:horizon-walker:distant-strike",
     "kind": "subclass-feature",
     "name": "Distant Strike",
-    "source": "srd",
-    "page": "XGE 42",
+    "source": "xge",
+    "page": "42",
     "tags": [
       "horizon-walker-feature",
       "ranger-feature"
@@ -224,8 +210,8 @@
     "id": "srd:horizon-walker:spectral-defense",
     "kind": "subclass-feature",
     "name": "Spectral Defense",
-    "source": "srd",
-    "page": "XGE 42",
+    "source": "xge",
+    "page": "42",
     "tags": [
       "horizon-walker-feature",
       "ranger-feature"

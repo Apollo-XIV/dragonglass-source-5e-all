@@ -3,7 +3,7 @@
     "id": "srd24:cult-of-the-dragon-initiate:language:any",
     "kind": "proficiency-option",
     "name": "Any",
-    "source": "srd24",
+    "source": "frhof",
     "choices": [
       {
         "id": "srd24:cult-of-the-dragon-initiate:language:any:language",
@@ -19,7 +19,7 @@
     "id": "srd24:cult-of-the-dragon-initiate:language:draconic",
     "kind": "proficiency-option",
     "name": "Draconic",
-    "source": "srd24",
+    "source": "frhof",
     "grants": [
       "srd24:language:draconic"
     ]

@@ -3,17 +3,20 @@
     "id": "srd:subclass:way-of-mercy",
     "kind": "subclass",
     "name": "Way of Mercy",
-    "source": "srd",
-    "page": "TCE 49",
+    "source": "tce",
+    "page": "49",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help, they bring a swift end as an act of mercy.\n\nThose who follow the Way of Mercy might be members of a religious order, administering to the needy and making grim choices rooted in reality rather than idealism. Some might be gentle-voiced healers, beloved by their communities, while others might be masked bringers of macabre mercies.\n\nThe walkers of this way usually don robes with deep cowls, and they often conceal their faces with masks, presenting themselves as the faceless bringers of life and death.",
     "levels": {
       "3": {
         "grants": [
-          "srd:mercy:way-of-mercy"
+          "srd:mercy:implements-of-mercy",
+          "srd:mercy:hand-of-healing",
+          "srd:mercy:hand-of-harm"
         ]
       },
       "6": {
@@ -37,8 +40,8 @@
     "id": "srd:mercy:implements-of-mercy",
     "kind": "subclass-feature",
     "name": "Implements of Mercy",
-    "source": "srd",
-    "page": "TCE 49",
+    "source": "tce",
+    "page": "49",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -80,8 +83,8 @@
     "id": "srd:mercy:hand-of-healing",
     "kind": "subclass-feature",
     "name": "Hand of Healing",
-    "source": "srd",
-    "page": "TCE 49",
+    "source": "tce",
+    "page": "49",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -106,8 +109,8 @@
     "id": "srd:mercy:hand-of-harm",
     "kind": "subclass-feature",
     "name": "Hand of Harm",
-    "source": "srd",
-    "page": "TCE 49",
+    "source": "tce",
+    "page": "49",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -125,28 +128,11 @@
     ]
   },
   {
-    "id": "srd:mercy:way-of-mercy",
-    "kind": "subclass-feature",
-    "name": "Way of Mercy",
-    "source": "srd",
-    "page": "TCE 49",
-    "tags": [
-      "mercy-feature",
-      "monk-feature"
-    ],
-    "text": "Monks of the Way of Mercy learn to manipulate the life force of others to bring aid to those in need. They are wandering physicians to the poor and hurt. However, to those beyond their help, they bring a swift end as an act of mercy.\n\nThose who follow the Way of Mercy might be members of a religious order, administering to the needy and making grim choices rooted in reality rather than idealism. Some might be gentle-voiced healers, beloved by their communities, while others might be masked bringers of macabre mercies.\n\nThe walkers of this way usually don robes with deep cowls, and they often conceal their faces with masks, presenting themselves as the faceless bringers of life and death.",
-    "grants": [
-      "srd:mercy:implements-of-mercy",
-      "srd:mercy:hand-of-healing",
-      "srd:mercy:hand-of-harm"
-    ]
-  },
-  {
     "id": "srd:mercy:physicians-touch",
     "kind": "subclass-feature",
     "name": "Physician's Touch",
-    "source": "srd",
-    "page": "TCE 49",
+    "source": "tce",
+    "page": "49",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -157,8 +143,8 @@
     "id": "srd:mercy:flurry-of-healing-and-harm",
     "kind": "subclass-feature",
     "name": "Flurry of Healing and Harm",
-    "source": "srd",
-    "page": "TCE 49",
+    "source": "tce",
+    "page": "49",
     "tags": [
       "mercy-feature",
       "monk-feature"
@@ -169,8 +155,8 @@
     "id": "srd:mercy:hand-of-ultimate-mercy",
     "kind": "subclass-feature",
     "name": "Hand of Ultimate Mercy",
-    "source": "srd",
-    "page": "TCE 49",
+    "source": "tce",
+    "page": "49",
     "tags": [
       "mercy-feature",
       "monk-feature"

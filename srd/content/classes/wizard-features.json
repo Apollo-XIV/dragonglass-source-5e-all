@@ -3,8 +3,8 @@
     "id": "srd:wizard:arcane-recovery",
     "kind": "class-feature",
     "name": "Arcane Recovery",
-    "source": "srd",
-    "page": "PHB 112",
+    "source": "phb",
+    "page": "112",
     "tags": [
       "wizard-feature"
     ],
@@ -45,8 +45,8 @@
     "id": "srd:wizard:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd",
-    "page": "PHB 112",
+    "source": "phb",
+    "page": "112",
     "tags": [
       "wizard-feature"
     ],
@@ -56,8 +56,8 @@
     "id": "srd:wizard:arcane-tradition",
     "kind": "class-feature",
     "name": "Arcane Tradition",
-    "source": "srd",
-    "page": "PHB 112",
+    "source": "phb",
+    "page": "112",
     "tags": [
       "wizard-feature"
     ],
@@ -67,8 +67,8 @@
     "id": "srd:wizard:cantrip-formulas",
     "kind": "class-feature",
     "name": "Cantrip Formulas",
-    "source": "srd",
-    "page": "TCE 75",
+    "source": "tce",
+    "page": "75",
     "tags": [
       "wizard-feature"
     ],
@@ -78,8 +78,8 @@
     "id": "srd:wizard:spell-mastery",
     "kind": "class-feature",
     "name": "Spell Mastery",
-    "source": "srd",
-    "page": "PHB 112",
+    "source": "phb",
+    "page": "112",
     "tags": [
       "wizard-feature"
     ],
@@ -89,8 +89,8 @@
     "id": "srd:wizard:signature-spells",
     "kind": "class-feature",
     "name": "Signature Spells",
-    "source": "srd",
-    "page": "PHB 112",
+    "source": "phb",
+    "page": "112",
     "tags": [
       "wizard-feature"
     ],

@@ -3,17 +3,19 @@
     "id": "srd24:subclass:shadow-sorcery",
     "kind": "subclass",
     "name": "Shadow Sorcery",
-    "source": "srd24",
-    "page": "RHW 23",
+    "source": "rhw",
+    "page": "23",
     "class": "srd24:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "*Bend Doom and Darkness to Your Will*\n\nYour innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:shadow:shadow-sorcery",
+          "srd24:shadow:shadow-spells",
+          "srd24:shadow:power-of-shadow",
           "srd24:spell:bane",
           "srd24:spell:darkness",
           "srd24:spell:inflict-wounds",
@@ -67,8 +69,8 @@
     "id": "srd24:shadow:shadow-spells",
     "kind": "subclass-feature",
     "name": "Shadow Spells",
-    "source": "srd24",
-    "page": "RHW 23",
+    "source": "rhw",
+    "page": "23",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"
@@ -79,8 +81,8 @@
     "id": "srd24:shadow:power-of-shadow",
     "kind": "subclass-feature",
     "name": "Power of Shadow",
-    "source": "srd24",
-    "page": "RHW 24",
+    "source": "rhw",
+    "page": "24",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"
@@ -108,27 +110,11 @@
     ]
   },
   {
-    "id": "srd24:shadow:shadow-sorcery",
-    "kind": "subclass-feature",
-    "name": "Shadow Sorcery",
-    "source": "srd24",
-    "page": "RHW 23",
-    "tags": [
-      "shadow-feature",
-      "sorcerer-feature"
-    ],
-    "text": "*Bend Doom and Darkness to Your Will*\n\nYour innate magic comes from the most nebulous and inscrutable forces of the Shadowfell or from other regions of supernatural darkness. You might trace your lineage to an entity from such a place, or perhaps you were exposed to the sinister energy of a shadow dragon and were transformed by it. Your shadowy magic allows you to command darkness, undeath, and woe.",
-    "grants": [
-      "srd24:shadow:shadow-spells",
-      "srd24:shadow:power-of-shadow"
-    ]
-  },
-  {
     "id": "srd24:shadow:beasts-of-ill-omen",
     "kind": "subclass-feature",
     "name": "Beasts of Ill Omen",
-    "source": "srd24",
-    "page": "RHW 24",
+    "source": "rhw",
+    "page": "24",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"
@@ -139,8 +125,8 @@
     "id": "srd24:shadow:shadow-walk",
     "kind": "subclass-feature",
     "name": "Shadow Walk",
-    "source": "srd24",
-    "page": "RHW 24",
+    "source": "rhw",
+    "page": "24",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"
@@ -151,8 +137,8 @@
     "id": "srd24:shadow:umbral-form",
     "kind": "subclass-feature",
     "name": "Umbral Form",
-    "source": "srd24",
-    "page": "RHW 24",
+    "source": "rhw",
+    "page": "24",
     "tags": [
       "shadow-feature",
       "sorcerer-feature"

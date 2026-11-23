@@ -3,17 +3,19 @@
     "id": "srd24:subclass:thief",
     "kind": "subclass",
     "name": "Thief",
-    "source": "srd24",
-    "page": "XPHB 137",
+    "source": "xphb",
+    "page": "137",
     "class": "srd24:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "*Hunt for Treasure as a Classic Adventurer*\n\nA mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:thief:thief"
+          "srd24:thief:fast-hands",
+          "srd24:thief:second-story-work"
         ]
       },
       "9": {
@@ -37,8 +39,8 @@
     "id": "srd24:thief:fast-hands",
     "kind": "subclass-feature",
     "name": "Fast Hands",
-    "source": "srd24",
-    "page": "XPHB 137",
+    "source": "xphb",
+    "page": "137",
     "tags": [
       "thief-feature",
       "rogue-feature"
@@ -78,8 +80,8 @@
     "id": "srd24:thief:second-story-work",
     "kind": "subclass-feature",
     "name": "Second-Story Work",
-    "source": "srd24",
-    "page": "XPHB 137",
+    "source": "xphb",
+    "page": "137",
     "tags": [
       "thief-feature",
       "rogue-feature"
@@ -87,27 +89,11 @@
     "text": "You've trained to get into especially hard-to-reach places, granting you these benefits.\n\n**Climber.** You gain a Climb Speed equal to your Speed.\n\n**Jumper.** You can determine your jump distance using your Dexterity rather than your Strength."
   },
   {
-    "id": "srd24:thief:thief",
-    "kind": "subclass-feature",
-    "name": "Thief",
-    "source": "srd24",
-    "page": "XPHB 137",
-    "tags": [
-      "thief-feature",
-      "rogue-feature"
-    ],
-    "text": "*Hunt for Treasure as a Classic Adventurer*\n\nA mix of burglar, treasure hunter, and explorer, you are the epitome of an adventurer. In addition to improving your agility and stealth, you gain abilities useful for delving into ruins and getting maximum benefit from the magic items you find there.",
-    "grants": [
-      "srd24:thief:fast-hands",
-      "srd24:thief:second-story-work"
-    ]
-  },
-  {
     "id": "srd24:thief:supreme-sneak",
     "kind": "subclass-feature",
     "name": "Supreme Sneak",
-    "source": "srd24",
-    "page": "XPHB 137",
+    "source": "xphb",
+    "page": "137",
     "tags": [
       "thief-feature",
       "rogue-feature"
@@ -118,8 +104,8 @@
     "id": "srd24:thief:use-magic-device",
     "kind": "subclass-feature",
     "name": "Use Magic Device",
-    "source": "srd24",
-    "page": "XPHB 137",
+    "source": "xphb",
+    "page": "137",
     "tags": [
       "thief-feature",
       "rogue-feature"
@@ -130,8 +116,8 @@
     "id": "srd24:thief:thiefs-reflexes",
     "kind": "subclass-feature",
     "name": "Thief's Reflexes",
-    "source": "srd24",
-    "page": "XPHB 137",
+    "source": "xphb",
+    "page": "137",
     "tags": [
       "thief-feature",
       "rogue-feature"

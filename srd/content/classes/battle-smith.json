@@ -3,17 +3,21 @@
     "id": "srd:subclass:battle-smith",
     "kind": "subclass",
     "name": "Battle Smith",
-    "source": "srd",
-    "page": "TCE 18",
+    "source": "tce",
+    "page": "18",
     "class": "srd:class:artificer",
     "tags": [
       "artificer-subclass",
       "srd-subclass"
     ],
+    "text": "Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.\n\nBattle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.",
     "levels": {
       "3": {
         "grants": [
-          "srd:battle-smith:battle-smith",
+          "srd:battle-smith:tool-proficiency",
+          "srd:battle-smith:battle-smith-spells",
+          "srd:battle-smith:battle-ready",
+          "srd:battle-smith:steel-defender",
           "srd:spell:heroism",
           "srd:spell:shield"
         ]
@@ -55,8 +59,8 @@
     "id": "srd:battle-smith:tool-proficiency",
     "kind": "subclass-feature",
     "name": "Tool Proficiency",
-    "source": "srd",
-    "page": "TCE 18",
+    "source": "tce",
+    "page": "18",
     "tags": [
       "battle-smith-feature",
       "artificer-feature"
@@ -80,8 +84,8 @@
     "id": "srd:battle-smith:battle-smith-spells",
     "kind": "subclass-feature",
     "name": "Battle Smith Spells",
-    "source": "srd",
-    "page": "TCE 18",
+    "source": "tce",
+    "page": "18",
     "tags": [
       "battle-smith-feature",
       "artificer-feature"
@@ -92,8 +96,8 @@
     "id": "srd:battle-smith:battle-ready",
     "kind": "subclass-feature",
     "name": "Battle Ready",
-    "source": "srd",
-    "page": "TCE 18",
+    "source": "tce",
+    "page": "18",
     "tags": [
       "battle-smith-feature",
       "artificer-feature"
@@ -117,8 +121,8 @@
     "id": "srd:battle-smith:steel-defender",
     "kind": "subclass-feature",
     "name": "Steel Defender",
-    "source": "srd",
-    "page": "TCE 18",
+    "source": "tce",
+    "page": "18",
     "tags": [
       "battle-smith-feature",
       "artificer-feature"
@@ -126,29 +130,11 @@
     "text": "By 3rd level, your tinkering has borne you a faithful companion, a steel defender. It is friendly to you and your companions, and it obeys your commands. See this creature's game statistics in the steel defender stat block, which uses your proficiency bonus (PB) in several places. You determine the creature's appearance and whether it has two legs or four; your choice has no effect on its game statistics.\n\nIn combat, the defender shares your initiative count, but it takes its turn immediately after yours. It can move and use its reaction on its own, but the only action it takes on its turn is the Dodge action, unless you take a bonus action on your turn to command it to take another action. That action can be one in its stat block or some other action. If you are incapacitated, the defender can take any action of its choice, not just Dodge.\n\nIf the mending spell is cast on it, it regains 2d6 hit points. If it has died within the last hour, you can use your smith's tools as an action to revive it, provided you are within 5 feet of it and you expend a spell slot of 1st level or higher. The steel defender returns to life after 1 minute with all its hit points restored.\n\nAt the end of a long rest, you can create a new steel defender if you have your smith's tools with you. If you already have a steel defender from this feature, the first one immediately perishes. The defender also perishes if you die."
   },
   {
-    "id": "srd:battle-smith:battle-smith",
-    "kind": "subclass-feature",
-    "name": "Battle Smith",
-    "source": "srd",
-    "page": "TCE 18",
-    "tags": [
-      "battle-smith-feature",
-      "artificer-feature"
-    ],
-    "text": "Armies require protection, and someone has to put things back together if defenses fail. A combination of protector and medic, a Battle Smith is an expert at defending others and repairing both material and personnel. To aid in their work, Battle Smiths are usually accompanied by a steel defender, a protective companion of their own creation. Many soldiers tell stories of nearly dying before being saved by a Battle Smith and a steel defender.\n\nBattle Smiths played a key role in House Cannith's work on battle constructs and the original warforged, and after the Last War, these artificers led efforts to aid those who were injured in the war's horrific battles.",
-    "grants": [
-      "srd:battle-smith:tool-proficiency",
-      "srd:battle-smith:battle-smith-spells",
-      "srd:battle-smith:battle-ready",
-      "srd:battle-smith:steel-defender"
-    ]
-  },
-  {
     "id": "srd:battle-smith:extra-attack",
     "kind": "subclass-feature",
     "name": "Extra Attack",
-    "source": "srd",
-    "page": "TCE 18",
+    "source": "tce",
+    "page": "18",
     "tags": [
       "battle-smith-feature",
       "artificer-feature"
@@ -159,8 +145,8 @@
     "id": "srd:battle-smith:arcane-jolt",
     "kind": "subclass-feature",
     "name": "Arcane Jolt",
-    "source": "srd",
-    "page": "TCE 18",
+    "source": "tce",
+    "page": "18",
     "tags": [
       "battle-smith-feature",
       "artificer-feature"
@@ -203,8 +189,8 @@
     "id": "srd:battle-smith:improved-defender",
     "kind": "subclass-feature",
     "name": "Improved Defender",
-    "source": "srd",
-    "page": "TCE 18",
+    "source": "tce",
+    "page": "18",
     "tags": [
       "battle-smith-feature",
       "artificer-feature"

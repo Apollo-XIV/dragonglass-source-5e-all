@@ -3,17 +3,19 @@
     "id": "srd24:subclass:circle-of-the-sea",
     "kind": "subclass",
     "name": "Circle of the Sea",
-    "source": "srd24",
-    "page": "XPHB 87",
+    "source": "xphb",
+    "page": "87",
     "class": "srd24:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "*Become One with Tides and Storms*\n\nDruids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature's wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:sea:circle-of-the-sea",
+          "srd24:sea:circle-of-the-sea-spells",
+          "srd24:sea:wrath-of-the-sea",
           "srd24:spell:fog-cloud",
           "srd24:spell:gust-of-wind",
           "srd24:spell:ray-of-frost",
@@ -60,8 +62,8 @@
     "id": "srd24:sea:circle-of-the-sea-spells",
     "kind": "subclass-feature",
     "name": "Circle of the Sea Spells",
-    "source": "srd24",
-    "page": "XPHB 87",
+    "source": "xphb",
+    "page": "87",
     "tags": [
       "sea-feature",
       "druid-feature"
@@ -72,8 +74,8 @@
     "id": "srd24:sea:wrath-of-the-sea",
     "kind": "subclass-feature",
     "name": "Wrath of the Sea",
-    "source": "srd24",
-    "page": "XPHB 87",
+    "source": "xphb",
+    "page": "87",
     "tags": [
       "sea-feature",
       "druid-feature"
@@ -92,27 +94,11 @@
     ]
   },
   {
-    "id": "srd24:sea:circle-of-the-sea",
-    "kind": "subclass-feature",
-    "name": "Circle of the Sea",
-    "source": "srd24",
-    "page": "XPHB 87",
-    "tags": [
-      "sea-feature",
-      "druid-feature"
-    ],
-    "text": "*Become One with Tides and Storms*\n\nDruids of the Circle of the Sea draw on the tempestuous forces of oceans and storms. Some view themselves as embodiments of nature's wrath, seeking vengeance against those who despoil nature. Others seek mystical unity with nature by attuning themselves to the ebb and flow of the tides, following the rush of currents and waves and listening to the inscrutable whispers and roars of the winds.",
-    "grants": [
-      "srd24:sea:circle-of-the-sea-spells",
-      "srd24:sea:wrath-of-the-sea"
-    ]
-  },
-  {
     "id": "srd24:sea:aquatic-affinity",
     "kind": "subclass-feature",
     "name": "Aquatic Affinity",
-    "source": "srd24",
-    "page": "XPHB 87",
+    "source": "xphb",
+    "page": "87",
     "tags": [
       "sea-feature",
       "druid-feature"
@@ -123,8 +109,8 @@
     "id": "srd24:sea:stormborn",
     "kind": "subclass-feature",
     "name": "Stormborn",
-    "source": "srd24",
-    "page": "XPHB 87",
+    "source": "xphb",
+    "page": "87",
     "tags": [
       "sea-feature",
       "druid-feature"
@@ -153,8 +139,8 @@
     "id": "srd24:sea:oceanic-gift",
     "kind": "subclass-feature",
     "name": "Oceanic Gift",
-    "source": "srd24",
-    "page": "XPHB 88",
+    "source": "xphb",
+    "page": "88",
     "tags": [
       "sea-feature",
       "druid-feature"

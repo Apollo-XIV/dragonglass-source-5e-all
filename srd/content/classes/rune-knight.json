@@ -3,17 +3,20 @@
     "id": "srd:subclass:rune-knight",
     "kind": "subclass",
     "name": "Rune Knight",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "class": "srd:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant's craft and learned how to apply magic runes to empower your equipment.",
     "levels": {
       "3": {
         "grants": [
-          "srd:rune-knight:rune-knight"
+          "srd:rune-knight:bonus-proficiencies",
+          "srd:rune-knight:rune-carver",
+          "srd:rune-knight:giants-might"
         ],
         "choices": [
           {
@@ -97,8 +100,8 @@
     "id": "srd:rune-knight:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -133,8 +136,8 @@
     "id": "srd:rune-knight:rune-carver",
     "kind": "subclass-feature",
     "name": "Rune Carver",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -145,8 +148,8 @@
     "id": "srd:rune-knight:giants-might",
     "kind": "subclass-feature",
     "name": "Giant's Might",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -208,28 +211,11 @@
     ]
   },
   {
-    "id": "srd:rune-knight:rune-knight",
-    "kind": "subclass-feature",
-    "name": "Rune Knight",
-    "source": "srd",
-    "page": "TCE 44",
-    "tags": [
-      "rune-knight-feature",
-      "fighter-feature"
-    ],
-    "text": "Rune Knights enhance their martial prowess using the supernatural power of runes, an ancient practice that originated with giants. Rune cutters can be found among any family of giants, and you likely learned your methods first or second hand from such a mystical artisan. Whether you found the giant's work carved into a hill or cave, learned of the runes from a sage, or met the giant in person, you studied the giant's craft and learned how to apply magic runes to empower your equipment.",
-    "grants": [
-      "srd:rune-knight:bonus-proficiencies",
-      "srd:rune-knight:rune-carver",
-      "srd:rune-knight:giants-might"
-    ]
-  },
-  {
     "id": "srd:rune-knight:runic-shield",
     "kind": "subclass-feature",
     "name": "Runic Shield",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -271,8 +257,8 @@
     "id": "srd:rune-knight:additional-rune-known",
     "kind": "subclass-feature",
     "name": "Additional Rune Known",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -283,8 +269,8 @@
     "id": "srd:rune-knight:great-stature",
     "kind": "subclass-feature",
     "name": "Great Stature",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -295,8 +281,8 @@
     "id": "srd:rune-knight:additional-rune-known-10",
     "kind": "subclass-feature",
     "name": "Additional Rune Known",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -307,8 +293,8 @@
     "id": "srd:rune-knight:master-of-runes",
     "kind": "subclass-feature",
     "name": "Master of Runes",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -319,8 +305,8 @@
     "id": "srd:rune-knight:additional-rune-known-15",
     "kind": "subclass-feature",
     "name": "Additional Rune Known",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"
@@ -331,8 +317,8 @@
     "id": "srd:rune-knight:runic-juggernaut",
     "kind": "subclass-feature",
     "name": "Runic Juggernaut",
-    "source": "srd",
-    "page": "TCE 44",
+    "source": "tce",
+    "page": "44",
     "tags": [
       "rune-knight-feature",
       "fighter-feature"

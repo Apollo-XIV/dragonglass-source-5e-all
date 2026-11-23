@@ -3,17 +3,19 @@
     "id": "srd:subclass:scout",
     "kind": "subclass",
     "name": "Scout",
-    "source": "srd",
-    "page": "XGE 47",
+    "source": "xge",
+    "page": "47",
     "class": "srd:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter—these are just a few of the roles that Scouts assume as they range the world.",
     "levels": {
       "3": {
         "grants": [
-          "srd:scout:scout"
+          "srd:scout:skirmisher",
+          "srd:scout:survivalist"
         ]
       },
       "9": {
@@ -37,8 +39,8 @@
     "id": "srd:scout:skirmisher",
     "kind": "subclass-feature",
     "name": "Skirmisher",
-    "source": "srd",
-    "page": "XGE 47",
+    "source": "xge",
+    "page": "47",
     "tags": [
       "scout-feature",
       "rogue-feature"
@@ -49,8 +51,8 @@
     "id": "srd:scout:survivalist",
     "kind": "subclass-feature",
     "name": "Survivalist",
-    "source": "srd",
-    "page": "XGE 47",
+    "source": "xge",
+    "page": "47",
     "tags": [
       "scout-feature",
       "rogue-feature"
@@ -58,27 +60,11 @@
     "text": "When you choose this archetype at 3rd level, you gain proficiency in the Nature and Survival skills if you don't already have it. Your proficiency bonus is doubled for any ability check you make that uses either of those proficiencies."
   },
   {
-    "id": "srd:scout:scout",
-    "kind": "subclass-feature",
-    "name": "Scout",
-    "source": "srd",
-    "page": "XGE 47",
-    "tags": [
-      "scout-feature",
-      "rogue-feature"
-    ],
-    "text": "You are skilled in stealth and surviving far from the streets of a city, allowing you to scout ahead of your companions during expeditions. Rogues who embrace this archetype are at home in the wilderness and among barbarians and rangers, and many Scouts serve as the eyes and ears of war bands. Ambusher, spy, bounty hunter—these are just a few of the roles that Scouts assume as they range the world.",
-    "grants": [
-      "srd:scout:skirmisher",
-      "srd:scout:survivalist"
-    ]
-  },
-  {
     "id": "srd:scout:superior-mobility",
     "kind": "subclass-feature",
     "name": "Superior Mobility",
-    "source": "srd",
-    "page": "XGE 47",
+    "source": "xge",
+    "page": "47",
     "tags": [
       "scout-feature",
       "rogue-feature"
@@ -100,8 +86,8 @@
     "id": "srd:scout:ambush-master",
     "kind": "subclass-feature",
     "name": "Ambush Master",
-    "source": "srd",
-    "page": "XGE 47",
+    "source": "xge",
+    "page": "47",
     "tags": [
       "scout-feature",
       "rogue-feature"
@@ -122,8 +108,8 @@
     "id": "srd:scout:sudden-strike",
     "kind": "subclass-feature",
     "name": "Sudden Strike",
-    "source": "srd",
-    "page": "XGE 47",
+    "source": "xge",
+    "page": "47",
     "tags": [
       "scout-feature",
       "rogue-feature"

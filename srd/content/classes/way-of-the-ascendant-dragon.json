@@ -3,17 +3,19 @@
     "id": "srd:subclass:way-of-the-ascendant-dragon",
     "kind": "subclass",
     "name": "Way of the Ascendant Dragon",
-    "source": "srd",
-    "page": "FTD 13",
+    "source": "ftd",
+    "page": "13",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "The dragon god Bahamut is known to travel the Material Plane in the guise of a young monk, and legend says that he founded the first monastery of the Way of the Ascendant Dragon in this guise. The fundamental teaching of this tradition holds that by emulating dragons, a monk becomes a more integrated part of the world and its magic. By altering their spirit to resonate with draconic might, monks who follow this tradition augment their prowess in battle, bolster their allies, and can even soar through the air on draconic wings. But all this power is in service of a greater goal: achieving a spiritual unity with the essence of the Material Plane.\n\nAs a follower of the Way of the Ascendant Dragon, you decide how you unlocked the power of dragons within yourself. The Ascendant Dragon Origin table offers a number of possibilities.\n\n**Ascendant Dragon Origin**\n| d6 | Origin |\n| --- | --- |\n| 1 | You honed your abilities by aligning your spirit with a dragon's world-altering power. |\n| 2 | A dragon personally took an active role in shaping your inner energy. |\n| 3 | You studied at a monastery that traces its teachings back centuries or more to a single dragon's instruction, or one that is devoted to a dragon god. |\n| 4 | You spent long stretches meditating in the region around an ancient dragon's lair, absorbing that lair's ambient magic. |\n| 5 | You found a scroll written in Draconic that contained inspiring new techniques. |\n| 6 | After a dream featuring a five-handed dragonborn, you awoke with the mystical breath of dragons. |",
     "levels": {
       "3": {
         "grants": [
-          "srd:ascendant-dragon:way-of-the-ascendant-dragon"
+          "srd:ascendant-dragon:draconic-disciple",
+          "srd:ascendant-dragon:breath-of-the-dragon"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:ascendant-dragon:draconic-disciple",
     "kind": "subclass-feature",
     "name": "Draconic Disciple",
-    "source": "srd",
-    "page": "FTD 13",
+    "source": "ftd",
+    "page": "13",
     "tags": [
       "ascendant-dragon-feature",
       "monk-feature"
@@ -49,8 +51,8 @@
     "id": "srd:ascendant-dragon:breath-of-the-dragon",
     "kind": "subclass-feature",
     "name": "Breath of the Dragon",
-    "source": "srd",
-    "page": "FTD 13",
+    "source": "ftd",
+    "page": "13",
     "tags": [
       "ascendant-dragon-feature",
       "monk-feature"
@@ -89,27 +91,11 @@
     ]
   },
   {
-    "id": "srd:ascendant-dragon:way-of-the-ascendant-dragon",
-    "kind": "subclass-feature",
-    "name": "Way of the Ascendant Dragon",
-    "source": "srd",
-    "page": "FTD 13",
-    "tags": [
-      "ascendant-dragon-feature",
-      "monk-feature"
-    ],
-    "text": "The dragon god Bahamut is known to travel the Material Plane in the guise of a young monk, and legend says that he founded the first monastery of the Way of the Ascendant Dragon in this guise. The fundamental teaching of this tradition holds that by emulating dragons, a monk becomes a more integrated part of the world and its magic. By altering their spirit to resonate with draconic might, monks who follow this tradition augment their prowess in battle, bolster their allies, and can even soar through the air on draconic wings. But all this power is in service of a greater goal: achieving a spiritual unity with the essence of the Material Plane.\n\nAs a follower of the Way of the Ascendant Dragon, you decide how you unlocked the power of dragons within yourself. The Ascendant Dragon Origin table offers a number of possibilities.\n\n**Ascendant Dragon Origin**\n| d6 | Origin |\n| --- | --- |\n| 1 | You honed your abilities by aligning your spirit with a dragon's world-altering power. |\n| 2 | A dragon personally took an active role in shaping your inner energy. |\n| 3 | You studied at a monastery that traces its teachings back centuries or more to a single dragon's instruction, or one that is devoted to a dragon god. |\n| 4 | You spent long stretches meditating in the region around an ancient dragon's lair, absorbing that lair's ambient magic. |\n| 5 | You found a scroll written in Draconic that contained inspiring new techniques. |\n| 6 | After a dream featuring a five-handed dragonborn, you awoke with the mystical breath of dragons. |",
-    "grants": [
-      "srd:ascendant-dragon:draconic-disciple",
-      "srd:ascendant-dragon:breath-of-the-dragon"
-    ]
-  },
-  {
     "id": "srd:ascendant-dragon:wings-unfurled",
     "kind": "subclass-feature",
     "name": "Wings Unfurled",
-    "source": "srd",
-    "page": "FTD 13",
+    "source": "ftd",
+    "page": "13",
     "tags": [
       "ascendant-dragon-feature",
       "monk-feature"
@@ -151,8 +137,8 @@
     "id": "srd:ascendant-dragon:aspect-of-the-wyrm",
     "kind": "subclass-feature",
     "name": "Aspect of the Wyrm",
-    "source": "srd",
-    "page": "FTD 13",
+    "source": "ftd",
+    "page": "13",
     "tags": [
       "ascendant-dragon-feature",
       "monk-feature"
@@ -174,8 +160,8 @@
     "id": "srd:ascendant-dragon:ascendant-aspect",
     "kind": "subclass-feature",
     "name": "Ascendant Aspect",
-    "source": "srd",
-    "page": "FTD 13",
+    "source": "ftd",
+    "page": "13",
     "tags": [
       "ascendant-dragon-feature",
       "monk-feature"

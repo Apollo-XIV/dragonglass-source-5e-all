@@ -3,17 +3,19 @@
     "id": "srd:subclass:samurai",
     "kind": "subclass",
     "name": "Samurai",
-    "source": "srd",
-    "page": "XGE 31",
+    "source": "xge",
+    "page": "31",
     "class": "srd:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's resolve is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.",
     "levels": {
       "3": {
         "grants": [
-          "srd:samurai:samurai"
+          "srd:samurai:bonus-proficiency",
+          "srd:samurai:fighting-spirit"
         ]
       },
       "7": {
@@ -42,8 +44,8 @@
     "id": "srd:samurai:bonus-proficiency",
     "kind": "subclass-feature",
     "name": "Bonus Proficiency",
-    "source": "srd",
-    "page": "XGE 31",
+    "source": "xge",
+    "page": "31",
     "tags": [
       "samurai-feature",
       "fighter-feature"
@@ -54,8 +56,8 @@
     "id": "srd:samurai:fighting-spirit",
     "kind": "subclass-feature",
     "name": "Fighting Spirit",
-    "source": "srd",
-    "page": "XGE 31",
+    "source": "xge",
+    "page": "31",
     "tags": [
       "samurai-feature",
       "fighter-feature"
@@ -94,27 +96,11 @@
     ]
   },
   {
-    "id": "srd:samurai:samurai",
-    "kind": "subclass-feature",
-    "name": "Samurai",
-    "source": "srd",
-    "page": "XGE 31",
-    "tags": [
-      "samurai-feature",
-      "fighter-feature"
-    ],
-    "text": "The Samurai is a fighter who draws on an implacable fighting spirit to overcome enemies. A Samurai's resolve is nearly unbreakable, and the enemies in a Samurai's path have two choices: yield or die fighting.",
-    "grants": [
-      "srd:samurai:bonus-proficiency",
-      "srd:samurai:fighting-spirit"
-    ]
-  },
-  {
     "id": "srd:samurai:elegant-courtier",
     "kind": "subclass-feature",
     "name": "Elegant Courtier",
-    "source": "srd",
-    "page": "XGE 31",
+    "source": "xge",
+    "page": "31",
     "tags": [
       "samurai-feature",
       "fighter-feature"
@@ -125,8 +111,8 @@
     "id": "srd:samurai:tireless-spirit",
     "kind": "subclass-feature",
     "name": "Tireless Spirit",
-    "source": "srd",
-    "page": "XGE 31",
+    "source": "xge",
+    "page": "31",
     "tags": [
       "samurai-feature",
       "fighter-feature"
@@ -137,8 +123,8 @@
     "id": "srd:samurai:rapid-strike",
     "kind": "subclass-feature",
     "name": "Rapid Strike",
-    "source": "srd",
-    "page": "XGE 31",
+    "source": "xge",
+    "page": "31",
     "tags": [
       "samurai-feature",
       "fighter-feature"
@@ -149,8 +135,8 @@
     "id": "srd:samurai:strength-before-death",
     "kind": "subclass-feature",
     "name": "Strength before Death",
-    "source": "srd",
-    "page": "XGE 31",
+    "source": "xge",
+    "page": "31",
     "tags": [
       "samurai-feature",
       "fighter-feature"

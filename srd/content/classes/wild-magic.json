@@ -3,17 +3,19 @@
     "id": "srd:subclass:wild-magic",
     "kind": "subclass",
     "name": "Wild Magic",
-    "source": "srd",
-    "page": "PHB 103",
+    "source": "phb",
+    "page": "103",
     "class": "srd:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
     "levels": {
       "1": {
         "grants": [
-          "srd:wild:wild-magic"
+          "srd:wild:wild-magic-surge",
+          "srd:wild:tides-of-chaos"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:wild:wild-magic-surge",
     "kind": "subclass-feature",
     "name": "Wild Magic Surge",
-    "source": "srd",
-    "page": "PHB 103",
+    "source": "phb",
+    "page": "103",
     "tags": [
       "wild-feature",
       "sorcerer-feature"
@@ -49,8 +51,8 @@
     "id": "srd:wild:tides-of-chaos",
     "kind": "subclass-feature",
     "name": "Tides of Chaos",
-    "source": "srd",
-    "page": "PHB 103",
+    "source": "phb",
+    "page": "103",
     "tags": [
       "wild-feature",
       "sorcerer-feature"
@@ -58,27 +60,11 @@
     "text": "Starting at 1st level, you can manipulate the forces of chance and chaos to gain advantage on one attack roll, ability check, or saving throw. Once you do so, you must finish a long rest before you can use this feature again.\n\nAny time before you regain the use of this feature, the DM can have you roll on the Wild Magic Surge table immediately after you cast a sorcerer spell of 1st level or higher. You then regain the use of this feature."
   },
   {
-    "id": "srd:wild:wild-magic",
-    "kind": "subclass-feature",
-    "name": "Wild Magic",
-    "source": "srd",
-    "page": "PHB 103",
-    "tags": [
-      "wild-feature",
-      "sorcerer-feature"
-    ],
-    "text": "Your innate magic comes from the wild forces of chaos that underlie the order of creation. You might have endured exposure to some form of raw magic, perhaps through a planar portal leading to Limbo, the Elemental Planes, or the mysterious Far Realm. Perhaps you were blessed by a powerful fey creature or marked by a demon. Or your magic could be a fluke of your birth, with no apparent cause or reason. However it came to be, this chaotic magic churns within you, waiting for any outlet.",
-    "grants": [
-      "srd:wild:wild-magic-surge",
-      "srd:wild:tides-of-chaos"
-    ]
-  },
-  {
     "id": "srd:wild:bend-luck",
     "kind": "subclass-feature",
     "name": "Bend Luck",
-    "source": "srd",
-    "page": "PHB 103",
+    "source": "phb",
+    "page": "103",
     "tags": [
       "wild-feature",
       "sorcerer-feature"
@@ -103,8 +89,8 @@
     "id": "srd:wild:controlled-chaos",
     "kind": "subclass-feature",
     "name": "Controlled Chaos",
-    "source": "srd",
-    "page": "PHB 103",
+    "source": "phb",
+    "page": "103",
     "tags": [
       "wild-feature",
       "sorcerer-feature"
@@ -115,8 +101,8 @@
     "id": "srd:wild:spell-bombardment",
     "kind": "subclass-feature",
     "name": "Spell Bombardment",
-    "source": "srd",
-    "page": "PHB 103",
+    "source": "phb",
+    "page": "103",
     "tags": [
       "wild-feature",
       "sorcerer-feature"

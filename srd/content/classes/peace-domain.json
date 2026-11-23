@@ -3,17 +3,19 @@
     "id": "srd:subclass:peace-domain",
     "kind": "subclass",
     "name": "Peace Domain",
-    "source": "srd",
-    "page": "TCE 32",
+    "source": "tce",
+    "page": "32",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "The balm of peace thrives at the heart of healthy communities, between friendly nations, and in the souls of the kindhearted. The gods of peace inspire people of all sorts to resolve conflict and to stand up against those forces that try to prevent peace from flourishing. See the Peace Deities table for a list of some of the gods associated with this domain.\n\nClerics of the Peace Domain preside over the signing of treaties, and they are often asked to arbitrate in disputes. These clerics' blessings draw people together and help them shoulder one another's burdens, and the clerics' magic aids those who are driven to fight for the way of peace.\n\n**Peace Deities**\n| Example Deity | Pantheon |\n| --- | --- |\n| Angharradh | Elven |\n| Berronar Truesilver | Dwarven |\n| Boldrei | Eberron |\n| Cyrrollalee | Halfling |\n| Eldath | Forgotten Realms |\n| Gaerdal Ironhand | Gnomish |\n| Paladine | Dragonlance |\n| Rao | Greyhawk |\n\n**Domain Spells.** *1st-level Peace Domain feature*\n\nYou gain domain spells at the cleric levels listed in the Peace Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\n**Peace Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | heroism, sanctuary |\n| 3rd | aid, warding bond |\n| 5th | beacon of hope, sending |\n| 7th | aura of purity, Otiluke's resilient sphere |\n| 9th | greater restoration, Rary's telepathic bond |",
     "levels": {
       "1": {
         "grants": [
-          "srd:peace:peace-domain",
+          "srd:peace:implement-of-peace",
+          "srd:peace:emboldening-bond",
           "srd:spell:heroism",
           "srd:spell:sanctuary"
         ]
@@ -69,8 +71,8 @@
     "id": "srd:peace:implement-of-peace",
     "kind": "subclass-feature",
     "name": "Implement of Peace",
-    "source": "srd",
-    "page": "TCE 32",
+    "source": "tce",
+    "page": "32",
     "tags": [
       "peace-feature",
       "cleric-feature"
@@ -81,8 +83,8 @@
     "id": "srd:peace:emboldening-bond",
     "kind": "subclass-feature",
     "name": "Emboldening Bond",
-    "source": "srd",
-    "page": "TCE 32",
+    "source": "tce",
+    "page": "32",
     "tags": [
       "peace-feature",
       "cleric-feature"
@@ -121,27 +123,11 @@
     ]
   },
   {
-    "id": "srd:peace:peace-domain",
-    "kind": "subclass-feature",
-    "name": "Peace Domain",
-    "source": "srd",
-    "page": "TCE 32",
-    "tags": [
-      "peace-feature",
-      "cleric-feature"
-    ],
-    "text": "The balm of peace thrives at the heart of healthy communities, between friendly nations, and in the souls of the kindhearted. The gods of peace inspire people of all sorts to resolve conflict and to stand up against those forces that try to prevent peace from flourishing. See the Peace Deities table for a list of some of the gods associated with this domain.\n\nClerics of the Peace Domain preside over the signing of treaties, and they are often asked to arbitrate in disputes. These clerics' blessings draw people together and help them shoulder one another's burdens, and the clerics' magic aids those who are driven to fight for the way of peace.\n\n**Peace Deities**\n| Example Deity | Pantheon |\n| --- | --- |\n| Angharradh | Elven |\n| Berronar Truesilver | Dwarven |\n| Boldrei | Eberron |\n| Cyrrollalee | Halfling |\n| Eldath | Forgotten Realms |\n| Gaerdal Ironhand | Gnomish |\n| Paladine | Dragonlance |\n| Rao | Greyhawk |\n\n**Domain Spells.** *1st-level Peace Domain feature*\n\nYou gain domain spells at the cleric levels listed in the Peace Domain Spells table. See the Divine Domain class feature for how domain spells work.\n\n**Peace Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | heroism, sanctuary |\n| 3rd | aid, warding bond |\n| 5th | beacon of hope, sending |\n| 7th | aura of purity, Otiluke's resilient sphere |\n| 9th | greater restoration, Rary's telepathic bond |",
-    "grants": [
-      "srd:peace:implement-of-peace",
-      "srd:peace:emboldening-bond"
-    ]
-  },
-  {
     "id": "srd:peace:channel-divinity-balm-of-peace",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Balm of Peace",
-    "source": "srd",
-    "page": "TCE 32",
+    "source": "tce",
+    "page": "32",
     "tags": [
       "peace-feature",
       "cleric-feature"
@@ -166,8 +152,8 @@
     "id": "srd:peace:protective-bond",
     "kind": "subclass-feature",
     "name": "Protective Bond",
-    "source": "srd",
-    "page": "TCE 32",
+    "source": "tce",
+    "page": "32",
     "tags": [
       "peace-feature",
       "cleric-feature"
@@ -178,8 +164,8 @@
     "id": "srd:peace:potent-spellcasting",
     "kind": "subclass-feature",
     "name": "Potent Spellcasting",
-    "source": "srd",
-    "page": "TCE 32",
+    "source": "tce",
+    "page": "32",
     "tags": [
       "peace-feature",
       "cleric-feature"
@@ -190,8 +176,8 @@
     "id": "srd:peace:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 32",
+    "source": "tce",
+    "page": "32",
     "tags": [
       "peace-feature",
       "cleric-feature"
@@ -202,8 +188,8 @@
     "id": "srd:peace:expansive-bond",
     "kind": "subclass-feature",
     "name": "Expansive Bond",
-    "source": "srd",
-    "page": "TCE 32",
+    "source": "tce",
+    "page": "32",
     "tags": [
       "peace-feature",
       "cleric-feature"

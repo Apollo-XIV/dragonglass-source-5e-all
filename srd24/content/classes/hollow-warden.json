@@ -3,17 +3,19 @@
     "id": "srd24:subclass:hollow-warden",
     "kind": "subclass",
     "name": "Hollow Warden",
-    "source": "srd24",
-    "page": "RHW 20",
+    "source": "rhw",
+    "page": "20",
     "class": "srd24:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "*Draw on the Might of Ancient Wild Terrors*\n\nLegends tell that the most ancient and bloodthirsty terrors lurk deep within the old places of the earth. Hollow Wardens venerate and draw power from such beings, transforming themselves into merciless and monstrous guardians that stalk jagged coastlines, steep mountain crags, and other dark and wild places.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:hollow-warden:hollow-warden",
+          "srd24:hollow-warden:hollow-warden-spells",
+          "srd24:hollow-warden:wrath-of-the-wild",
           "srd24:spell:wrathful-smite"
         ]
       },
@@ -58,8 +60,8 @@
     "id": "srd24:hollow-warden:hollow-warden-spells",
     "kind": "subclass-feature",
     "name": "Hollow Warden Spells",
-    "source": "srd24",
-    "page": "RHW 20",
+    "source": "rhw",
+    "page": "20",
     "tags": [
       "hollow-warden-feature",
       "ranger-feature"
@@ -70,8 +72,8 @@
     "id": "srd24:hollow-warden:wrath-of-the-wild",
     "kind": "subclass-feature",
     "name": "Wrath of the Wild",
-    "source": "srd24",
-    "page": "RHW 21",
+    "source": "rhw",
+    "page": "21",
     "tags": [
       "hollow-warden-feature",
       "ranger-feature"
@@ -90,27 +92,11 @@
     ]
   },
   {
-    "id": "srd24:hollow-warden:hollow-warden",
-    "kind": "subclass-feature",
-    "name": "Hollow Warden",
-    "source": "srd24",
-    "page": "RHW 20",
-    "tags": [
-      "hollow-warden-feature",
-      "ranger-feature"
-    ],
-    "text": "*Draw on the Might of Ancient Wild Terrors*\n\nLegends tell that the most ancient and bloodthirsty terrors lurk deep within the old places of the earth. Hollow Wardens venerate and draw power from such beings, transforming themselves into merciless and monstrous guardians that stalk jagged coastlines, steep mountain crags, and other dark and wild places.",
-    "grants": [
-      "srd24:hollow-warden:hollow-warden-spells",
-      "srd24:hollow-warden:wrath-of-the-wild"
-    ]
-  },
-  {
     "id": "srd24:hollow-warden:hungering-might",
     "kind": "subclass-feature",
     "name": "Hungering Might",
-    "source": "srd24",
-    "page": "RHW 21",
+    "source": "rhw",
+    "page": "21",
     "tags": [
       "hollow-warden-feature",
       "ranger-feature"
@@ -121,8 +107,8 @@
     "id": "srd24:hollow-warden:rot-and-violence",
     "kind": "subclass-feature",
     "name": "Rot and Violence",
-    "source": "srd24",
-    "page": "RHW 21",
+    "source": "rhw",
+    "page": "21",
     "tags": [
       "hollow-warden-feature",
       "ranger-feature"
@@ -133,8 +119,8 @@
     "id": "srd24:hollow-warden:ancient-might",
     "kind": "subclass-feature",
     "name": "Ancient Might",
-    "source": "srd24",
-    "page": "RHW 21",
+    "source": "rhw",
+    "page": "21",
     "tags": [
       "hollow-warden-feature",
       "ranger-feature"

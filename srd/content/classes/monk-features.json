@@ -3,8 +3,8 @@
     "id": "srd:monk:unarmored-defense",
     "kind": "class-feature",
     "name": "Unarmored Defense",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -26,8 +26,8 @@
     "id": "srd:monk:martial-arts",
     "kind": "class-feature",
     "name": "Martial Arts",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -37,8 +37,8 @@
     "id": "srd:monk:flurry-of-blows",
     "kind": "class-feature",
     "name": "Flurry of Blows",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -62,8 +62,8 @@
     "id": "srd:monk:patient-defense",
     "kind": "class-feature",
     "name": "Patient Defense",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -87,8 +87,8 @@
     "id": "srd:monk:step-of-the-wind",
     "kind": "class-feature",
     "name": "Step of the Wind",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -112,8 +112,8 @@
     "id": "srd:monk:ki",
     "kind": "class-feature",
     "name": "Ki",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -159,8 +159,8 @@
     "id": "srd:monk:dedicated-weapon",
     "kind": "class-feature",
     "name": "Dedicated Weapon",
-    "source": "srd",
-    "page": "TCE 48",
+    "source": "tce",
+    "page": "48",
     "tags": [
       "monk-feature"
     ],
@@ -170,8 +170,8 @@
     "id": "srd:monk:unarmored-movement",
     "kind": "class-feature",
     "name": "Unarmored Movement",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -196,8 +196,8 @@
     "id": "srd:monk:deflect-missiles",
     "kind": "class-feature",
     "name": "Deflect Missiles",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -221,8 +221,8 @@
     "id": "srd:monk:monastic-tradition",
     "kind": "class-feature",
     "name": "Monastic Tradition",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -232,8 +232,8 @@
     "id": "srd:monk:ki-fueled-attack",
     "kind": "class-feature",
     "name": "Ki-Fueled Attack",
-    "source": "srd",
-    "page": "TCE 48",
+    "source": "tce",
+    "page": "48",
     "tags": [
       "monk-feature"
     ],
@@ -243,8 +243,8 @@
     "id": "srd:monk:slow-fall",
     "kind": "class-feature",
     "name": "Slow Fall",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -265,8 +265,8 @@
     "id": "srd:monk:quickened-healing",
     "kind": "class-feature",
     "name": "Quickened Healing",
-    "source": "srd",
-    "page": "TCE 48",
+    "source": "tce",
+    "page": "48",
     "tags": [
       "monk-feature"
     ],
@@ -290,8 +290,8 @@
     "id": "srd:monk:extra-attack",
     "kind": "class-feature",
     "name": "Extra Attack",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -301,8 +301,8 @@
     "id": "srd:monk:stunning-strike",
     "kind": "class-feature",
     "name": "Stunning Strike",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -330,8 +330,8 @@
     "id": "srd:monk:focused-aim",
     "kind": "class-feature",
     "name": "Focused Aim",
-    "source": "srd",
-    "page": "TCE 48",
+    "source": "tce",
+    "page": "48",
     "tags": [
       "monk-feature"
     ],
@@ -341,8 +341,8 @@
     "id": "srd:monk:ki-empowered-strikes",
     "kind": "class-feature",
     "name": "Ki-Empowered Strikes",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -352,8 +352,8 @@
     "id": "srd:monk:evasion",
     "kind": "class-feature",
     "name": "Evasion",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -363,8 +363,8 @@
     "id": "srd:monk:stillness-of-mind",
     "kind": "class-feature",
     "name": "Stillness of Mind",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -385,8 +385,8 @@
     "id": "srd:monk:unarmored-movement-improvement",
     "kind": "class-feature",
     "name": "Unarmored Movement improvement",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -396,8 +396,8 @@
     "id": "srd:monk:purity-of-body",
     "kind": "class-feature",
     "name": "Purity of Body",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -407,8 +407,8 @@
     "id": "srd:monk:tongue-of-the-sun-and-moon",
     "kind": "class-feature",
     "name": "Tongue of the Sun and Moon",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -418,8 +418,8 @@
     "id": "srd:monk:diamond-soul",
     "kind": "class-feature",
     "name": "Diamond Soul",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -450,8 +450,8 @@
     "id": "srd:monk:timeless-body",
     "kind": "class-feature",
     "name": "Timeless Body",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -461,8 +461,8 @@
     "id": "srd:monk:empty-body",
     "kind": "class-feature",
     "name": "Empty Body",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],
@@ -515,8 +515,8 @@
     "id": "srd:monk:perfect-self",
     "kind": "class-feature",
     "name": "Perfect Self",
-    "source": "srd",
-    "page": "PHB 76",
+    "source": "phb",
+    "page": "76",
     "tags": [
       "monk-feature"
     ],

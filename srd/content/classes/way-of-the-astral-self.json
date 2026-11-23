@@ -3,17 +3,19 @@
     "id": "srd:subclass:way-of-the-astral-self",
     "kind": "subclass",
     "name": "Way of the Astral Self",
-    "source": "srd",
-    "page": "TCE 50",
+    "source": "tce",
+    "page": "50",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "A monk who follows the Way of the Astral Self believes their body is an illusion. They see their ki as a representation of their true form, an astral self. This astral self has the capacity to be a force of order or disorder, with some monasteries training students to use their power to protect the weak and other instructing aspirants in how to manifest their true selves in service to the mighty.",
     "levels": {
       "3": {
         "grants": [
-          "srd:astral-self:way-of-the-astral-self"
+          "srd:astral-self:forms-of-your-astral-self",
+          "srd:astral-self:arms-of-the-astral-self"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:astral-self:forms-of-your-astral-self",
     "kind": "subclass-feature",
     "name": "Forms of Your Astral Self",
-    "source": "srd",
-    "page": "TCE 50",
+    "source": "tce",
+    "page": "50",
     "tags": [
       "astral-self-feature",
       "monk-feature"
@@ -49,8 +51,8 @@
     "id": "srd:astral-self:arms-of-the-astral-self",
     "kind": "subclass-feature",
     "name": "Arms of the Astral Self",
-    "source": "srd",
-    "page": "TCE 50",
+    "source": "tce",
+    "page": "50",
     "tags": [
       "astral-self-feature",
       "monk-feature"
@@ -72,27 +74,11 @@
     ]
   },
   {
-    "id": "srd:astral-self:way-of-the-astral-self",
-    "kind": "subclass-feature",
-    "name": "Way of the Astral Self",
-    "source": "srd",
-    "page": "TCE 50",
-    "tags": [
-      "astral-self-feature",
-      "monk-feature"
-    ],
-    "text": "A monk who follows the Way of the Astral Self believes their body is an illusion. They see their ki as a representation of their true form, an astral self. This astral self has the capacity to be a force of order or disorder, with some monasteries training students to use their power to protect the weak and other instructing aspirants in how to manifest their true selves in service to the mighty.",
-    "grants": [
-      "srd:astral-self:forms-of-your-astral-self",
-      "srd:astral-self:arms-of-the-astral-self"
-    ]
-  },
-  {
     "id": "srd:astral-self:visage-of-the-astral-self",
     "kind": "subclass-feature",
     "name": "Visage of the Astral Self",
-    "source": "srd",
-    "page": "TCE 50",
+    "source": "tce",
+    "page": "50",
     "tags": [
       "astral-self-feature",
       "monk-feature"
@@ -117,8 +103,8 @@
     "id": "srd:astral-self:body-of-the-astral-self",
     "kind": "subclass-feature",
     "name": "Body of the Astral Self",
-    "source": "srd",
-    "page": "TCE 50",
+    "source": "tce",
+    "page": "50",
     "tags": [
       "astral-self-feature",
       "monk-feature"
@@ -140,8 +126,8 @@
     "id": "srd:astral-self:awakened-astral-self",
     "kind": "subclass-feature",
     "name": "Awakened Astral Self",
-    "source": "srd",
-    "page": "TCE 50",
+    "source": "tce",
+    "page": "50",
     "tags": [
       "astral-self-feature",
       "monk-feature"

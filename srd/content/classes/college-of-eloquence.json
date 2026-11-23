@@ -3,17 +3,19 @@
     "id": "srd:subclass:college-of-eloquence",
     "kind": "subclass",
     "name": "College of Eloquence",
-    "source": "srd",
-    "page": "TCE 29",
+    "source": "tce",
+    "page": "29",
     "class": "srd:class:bard",
     "tags": [
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.",
     "levels": {
       "3": {
         "grants": [
-          "srd:eloquence:college-of-eloquence"
+          "srd:eloquence:silver-tongue",
+          "srd:eloquence:unsettling-words"
         ]
       },
       "6": {
@@ -33,8 +35,8 @@
     "id": "srd:eloquence:silver-tongue",
     "kind": "subclass-feature",
     "name": "Silver Tongue",
-    "source": "srd",
-    "page": "TCE 29",
+    "source": "tce",
+    "page": "29",
     "tags": [
       "eloquence-feature",
       "bard-feature"
@@ -45,8 +47,8 @@
     "id": "srd:eloquence:unsettling-words",
     "kind": "subclass-feature",
     "name": "Unsettling Words",
-    "source": "srd",
-    "page": "TCE 29",
+    "source": "tce",
+    "page": "29",
     "tags": [
       "eloquence-feature",
       "bard-feature"
@@ -65,27 +67,11 @@
     ]
   },
   {
-    "id": "srd:eloquence:college-of-eloquence",
-    "kind": "subclass-feature",
-    "name": "College of Eloquence",
-    "source": "srd",
-    "page": "TCE 29",
-    "tags": [
-      "eloquence-feature",
-      "bard-feature"
-    ],
-    "text": "Adherents of the College of Eloquence master the art of oratory. Persuasion is regarded as a high art, and a well-reasoned, well-spoken argument often proves more persuasive than facts. These bards wield a blend of logic and theatrical wordplay, winning over skeptics and detractors with logical arguments and plucking at heartstrings to appeal to the emotions of audiences.",
-    "grants": [
-      "srd:eloquence:silver-tongue",
-      "srd:eloquence:unsettling-words"
-    ]
-  },
-  {
     "id": "srd:eloquence:unfailing-inspiration",
     "kind": "subclass-feature",
     "name": "Unfailing Inspiration",
-    "source": "srd",
-    "page": "TCE 29",
+    "source": "tce",
+    "page": "29",
     "tags": [
       "eloquence-feature",
       "bard-feature"
@@ -96,8 +82,8 @@
     "id": "srd:eloquence:universal-speech",
     "kind": "subclass-feature",
     "name": "Universal Speech",
-    "source": "srd",
-    "page": "TCE 29",
+    "source": "tce",
+    "page": "29",
     "tags": [
       "eloquence-feature",
       "bard-feature"
@@ -119,8 +105,8 @@
     "id": "srd:eloquence:infectious-inspiration",
     "kind": "subclass-feature",
     "name": "Infectious Inspiration",
-    "source": "srd",
-    "page": "TCE 29",
+    "source": "tce",
+    "page": "29",
     "tags": [
       "eloquence-feature",
       "bard-feature"

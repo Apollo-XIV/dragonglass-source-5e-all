@@ -3,17 +3,19 @@
     "id": "srd:subclass:solidarity-domain-psa",
     "kind": "subclass",
     "name": "Solidarity Domain (PSA)",
-    "source": "srd",
-    "page": "PSA 24",
+    "source": "psa",
+    "page": "24",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "> The worthy must know and respect all others whom the God-Pharaoh deems worthy, for in the afterlife, all will be united in purpose and action.\n\nOketra is charged with expounding upon this teaching of the God-Pharaoh, instilling in every initiate the virtue of solidarity. She forges each group of children into a crop of acolytes with just one purpose: to be judged worthy of a glorious afterlife. And she instills in each crop the ability to unite in a single action in pursuit of that purpose. She is fond of poetic imagery to communicate her ideals.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Solidarity Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bless, guiding bolt |\n| 3rd | aid, warding bond |\n| 5th | beacon of hope, crusader's mantle |\n| 7th | aura of life, guardian of faith |\n| 9th | circle of power, mass cure wounds |",
     "levels": {
       "1": {
         "grants": [
-          "srd:solidarity-psa:solidarity-domain-psa",
+          "srd:solidarity-psa:bonus-proficiency",
+          "srd:solidarity-psa:solidaritys-action",
           "srd:spell:bless",
           "srd:spell:guiding-bolt"
         ]
@@ -69,8 +71,8 @@
     "id": "srd:solidarity-psa:bonus-proficiency",
     "kind": "subclass-feature",
     "name": "Bonus Proficiency",
-    "source": "srd",
-    "page": "PSA 24",
+    "source": "psa",
+    "page": "24",
     "tags": [
       "solidarity-psa-feature",
       "cleric-feature"
@@ -94,8 +96,8 @@
     "id": "srd:solidarity-psa:solidaritys-action",
     "kind": "subclass-feature",
     "name": "Solidarity's Action",
-    "source": "srd",
-    "page": "PSA 24",
+    "source": "psa",
+    "page": "24",
     "tags": [
       "solidarity-psa-feature",
       "cleric-feature"
@@ -134,27 +136,11 @@
     ]
   },
   {
-    "id": "srd:solidarity-psa:solidarity-domain-psa",
-    "kind": "subclass-feature",
-    "name": "Solidarity Domain (PSA)",
-    "source": "srd",
-    "page": "PSA 24",
-    "tags": [
-      "solidarity-psa-feature",
-      "cleric-feature"
-    ],
-    "text": "> The worthy must know and respect all others whom the God-Pharaoh deems worthy, for in the afterlife, all will be united in purpose and action.\n\nOketra is charged with expounding upon this teaching of the God-Pharaoh, instilling in every initiate the virtue of solidarity. She forges each group of children into a crop of acolytes with just one purpose: to be judged worthy of a glorious afterlife. And she instills in each crop the ability to unite in a single action in pursuit of that purpose. She is fond of poetic imagery to communicate her ideals.\n\nAt each indicated cleric level, add the listed spells to your spells prepared.\n\n**Solidarity Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | bless, guiding bolt |\n| 3rd | aid, warding bond |\n| 5th | beacon of hope, crusader's mantle |\n| 7th | aura of life, guardian of faith |\n| 9th | circle of power, mass cure wounds |",
-    "grants": [
-      "srd:solidarity-psa:bonus-proficiency",
-      "srd:solidarity-psa:solidaritys-action"
-    ]
-  },
-  {
     "id": "srd:solidarity-psa:channel-divinity-preserve-life",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Preserve Life",
-    "source": "srd",
-    "page": "PSA 24",
+    "source": "psa",
+    "page": "24",
     "tags": [
       "solidarity-psa-feature",
       "cleric-feature"
@@ -179,8 +165,8 @@
     "id": "srd:solidarity-psa:oketras-blessing",
     "kind": "subclass-feature",
     "name": "Oketra's Blessing",
-    "source": "srd",
-    "page": "PSA 24",
+    "source": "psa",
+    "page": "24",
     "tags": [
       "solidarity-psa-feature",
       "cleric-feature"
@@ -202,8 +188,8 @@
     "id": "srd:solidarity-psa:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "PSA 24",
+    "source": "psa",
+    "page": "24",
     "tags": [
       "solidarity-psa-feature",
       "cleric-feature"
@@ -214,8 +200,8 @@
     "id": "srd:solidarity-psa:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "solidarity-psa-feature",
       "cleric-feature"
@@ -226,8 +212,8 @@
     "id": "srd:solidarity-psa:supreme-healing",
     "kind": "subclass-feature",
     "name": "Supreme Healing",
-    "source": "srd",
-    "page": "PSA 24",
+    "source": "psa",
+    "page": "24",
     "tags": [
       "solidarity-psa-feature",
       "cleric-feature"

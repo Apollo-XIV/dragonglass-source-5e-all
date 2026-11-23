@@ -3,8 +3,8 @@
     "id": "srd24:wizard:spellcasting",
     "kind": "class-feature",
     "name": "Spellcasting",
-    "source": "srd24",
-    "page": "XPHB 165",
+    "source": "xphb",
+    "page": "165",
     "tags": [
       "wizard-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:wizard:ritual-adept",
     "kind": "class-feature",
     "name": "Ritual Adept",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "wizard-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd24:wizard:arcane-recovery",
     "kind": "class-feature",
     "name": "Arcane Recovery",
-    "source": "srd24",
-    "page": "XPHB 155",
+    "source": "xphb",
+    "page": "155",
     "tags": [
       "wizard-feature"
     ],
@@ -67,8 +67,8 @@
     "id": "srd24:wizard:scholar",
     "kind": "class-feature",
     "name": "Scholar",
-    "source": "srd24",
-    "page": "XPHB 166",
+    "source": "xphb",
+    "page": "166",
     "tags": [
       "wizard-feature"
     ],
@@ -78,8 +78,8 @@
     "id": "srd24:wizard:wizard-subclass",
     "kind": "class-feature",
     "name": "Wizard Subclass",
-    "source": "srd24",
-    "page": "XPHB 167",
+    "source": "xphb",
+    "page": "167",
     "tags": [
       "wizard-feature"
     ],
@@ -89,8 +89,8 @@
     "id": "srd24:wizard:memorize-spell",
     "kind": "class-feature",
     "name": "Memorize Spell",
-    "source": "srd24",
-    "page": "XPHB 167",
+    "source": "xphb",
+    "page": "167",
     "tags": [
       "wizard-feature"
     ],
@@ -100,8 +100,8 @@
     "id": "srd24:wizard:spell-mastery",
     "kind": "class-feature",
     "name": "Spell Mastery",
-    "source": "srd24",
-    "page": "XPHB 167",
+    "source": "xphb",
+    "page": "167",
     "tags": [
       "wizard-feature"
     ],
@@ -111,8 +111,8 @@
     "id": "srd24:wizard:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 167",
+    "source": "xphb",
+    "page": "167",
     "tags": [
       "wizard-feature"
     ],
@@ -122,8 +122,8 @@
     "id": "srd24:wizard:signature-spells",
     "kind": "class-feature",
     "name": "Signature Spells",
-    "source": "srd24",
-    "page": "XPHB 167",
+    "source": "xphb",
+    "page": "167",
     "tags": [
       "wizard-feature"
     ],

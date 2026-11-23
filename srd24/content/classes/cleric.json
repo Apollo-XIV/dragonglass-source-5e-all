@@ -3,8 +3,8 @@
     "id": "srd24:class:cleric",
     "kind": "class",
     "name": "Cleric",
-    "source": "srd24",
-    "page": "XPHB 68",
+    "source": "xphb",
+    "page": "68",
     "key": "cleric",
     "hitDie": "d8",
     "tags": [

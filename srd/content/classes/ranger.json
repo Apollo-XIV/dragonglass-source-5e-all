@@ -3,8 +3,8 @@
     "id": "srd:class:ranger",
     "kind": "class",
     "name": "Ranger",
-    "source": "srd",
-    "page": "PHB 89",
+    "source": "phb",
+    "page": "89",
     "key": "ranger",
     "hitDie": "d10",
     "tags": [

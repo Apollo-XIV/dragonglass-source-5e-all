@@ -3,18 +3,21 @@
     "id": "srd:subclass:oath-of-redemption",
     "kind": "subclass",
     "name": "Oath of Redemption",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "class": "srd:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "The Oath of Redemption sets a paladin on a difficult path, one that requires a holy warrior to use violence only as a last resort. Paladins who dedicate themselves to this oath believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk. These paladins face evil creatures in the hope of turning their foes to the light, and they slay their enemies only when such a deed will clearly save other lives. Paladins who follow this path are known as redeemers.\n\nWhile redeemers are idealists, they are no fools. Redeemers know that undead, demons, devils, and other supernatural threats can be inherently evil. Against such foes, paladins who swear this oath bring the full wrath of their weapons and spells to bear. Yet the redeemers still pray that, one day, even creatures of wickedness will invite their own redemption.",
     "fluff": "> Redemption. So you feel bad about having done something, and then you have to do something to feel better? Why don't you just kill and eat someone? That always makes me feel better.\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:redemption:oath-of-redemption",
+          "srd:redemption:tenets-of-redemption",
+          "srd:redemption:oath-spells",
+          "srd:redemption:channel-divinity",
           "srd:spell:sanctuary",
           "srd:spell:sleep"
         ]
@@ -64,8 +67,8 @@
     "id": "srd:redemption:tenets-of-redemption",
     "kind": "subclass-feature",
     "name": "Tenets of Redemption",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "tags": [
       "redemption-feature",
       "paladin-feature"
@@ -76,8 +79,8 @@
     "id": "srd:redemption:oath-spells",
     "kind": "subclass-feature",
     "name": "Oath Spells",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "tags": [
       "redemption-feature",
       "paladin-feature"
@@ -88,8 +91,8 @@
     "id": "srd:redemption:emissary-of-peace",
     "kind": "subclass-feature",
     "name": "Emissary of Peace",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "tags": [
       "redemption-feature",
       "paladin-feature"
@@ -114,8 +117,8 @@
     "id": "srd:redemption:rebuke-the-violent",
     "kind": "subclass-feature",
     "name": "Rebuke the Violent",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "tags": [
       "redemption-feature",
       "paladin-feature"
@@ -140,8 +143,8 @@
     "id": "srd:redemption:channel-divinity",
     "kind": "subclass-feature",
     "name": "Channel Divinity",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "tags": [
       "redemption-feature",
       "paladin-feature"
@@ -153,28 +156,11 @@
     ]
   },
   {
-    "id": "srd:redemption:oath-of-redemption",
-    "kind": "subclass-feature",
-    "name": "Oath of Redemption",
-    "source": "srd",
-    "page": "XGE 38",
-    "tags": [
-      "redemption-feature",
-      "paladin-feature"
-    ],
-    "text": "The Oath of Redemption sets a paladin on a difficult path, one that requires a holy warrior to use violence only as a last resort. Paladins who dedicate themselves to this oath believe that any person can be redeemed and that the path of benevolence and justice is one that anyone can walk. These paladins face evil creatures in the hope of turning their foes to the light, and they slay their enemies only when such a deed will clearly save other lives. Paladins who follow this path are known as redeemers.\n\nWhile redeemers are idealists, they are no fools. Redeemers know that undead, demons, devils, and other supernatural threats can be inherently evil. Against such foes, paladins who swear this oath bring the full wrath of their weapons and spells to bear. Yet the redeemers still pray that, one day, even creatures of wickedness will invite their own redemption.",
-    "grants": [
-      "srd:redemption:tenets-of-redemption",
-      "srd:redemption:oath-spells",
-      "srd:redemption:channel-divinity"
-    ]
-  },
-  {
     "id": "srd:redemption:aura-of-the-guardian",
     "kind": "subclass-feature",
     "name": "Aura of the Guardian",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "tags": [
       "redemption-feature",
       "paladin-feature"
@@ -196,8 +182,8 @@
     "id": "srd:redemption:protective-spirit",
     "kind": "subclass-feature",
     "name": "Protective Spirit",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "tags": [
       "redemption-feature",
       "paladin-feature"
@@ -208,8 +194,8 @@
     "id": "srd:redemption:emissary-of-redemption",
     "kind": "subclass-feature",
     "name": "Emissary of Redemption",
-    "source": "srd",
-    "page": "XGE 38",
+    "source": "xge",
+    "page": "38",
     "tags": [
       "redemption-feature",
       "paladin-feature"

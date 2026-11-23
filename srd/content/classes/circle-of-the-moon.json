@@ -3,17 +3,19 @@
     "id": "srd:subclass:circle-of-the-moon",
     "kind": "subclass",
     "name": "Circle of the Moon",
-    "source": "srd",
-    "page": "PHB 69",
+    "source": "phb",
+    "page": "69",
     "class": "srd:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.\n\nChangeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.",
     "levels": {
       "2": {
         "grants": [
-          "srd:moon:circle-of-the-moon"
+          "srd:moon:combat-wild-shape",
+          "srd:moon:circle-forms"
         ]
       },
       "6": {
@@ -41,8 +43,8 @@
     "id": "srd:moon:combat-wild-shape",
     "kind": "subclass-feature",
     "name": "Combat Wild Shape",
-    "source": "srd",
-    "page": "PHB 69",
+    "source": "phb",
+    "page": "69",
     "tags": [
       "moon-feature",
       "druid-feature"
@@ -64,8 +66,8 @@
     "id": "srd:moon:circle-forms",
     "kind": "subclass-feature",
     "name": "Circle Forms",
-    "source": "srd",
-    "page": "PHB 69",
+    "source": "phb",
+    "page": "69",
     "tags": [
       "moon-feature",
       "druid-feature"
@@ -73,27 +75,11 @@
     "text": "The rites of your circle grant you the ability to transform into more dangerous animal forms. Starting at 2nd level, you can use your Wild Shape to transform into a beast with a challenge rating as high as 1 (you ignore the Max. CR column of the Beast Shapes table, but must abide by the other limitations there).\n\nStarting at 6th level, you can transform into a beast with a challenge rating as high as your druid level divided by 3, rounded down.\n\n**Circle of the Moon Beast Shapes**\n| Level | Max. CR | Limitations |\n| --- | --- | --- |\n| 2nd | 1 | No flying or swimming speed |\n| 4th | 1 | No flying speed |\n| 6th | 2 | No flying speed |\n| 8th | 2 | — |\n| 9th | 3 | — |\n| 12th | 4 | — |\n| 15th | 5 | — |\n| 18th | 6 | — |"
   },
   {
-    "id": "srd:moon:circle-of-the-moon",
-    "kind": "subclass-feature",
-    "name": "Circle of the Moon",
-    "source": "srd",
-    "page": "PHB 69",
-    "tags": [
-      "moon-feature",
-      "druid-feature"
-    ],
-    "text": "Druids of the Circle of the Moon are fierce guardians of the wilds. Their order gathers under the full moon to share news and trade warnings. They haunt the deepest parts of the wilderness, where they might go for weeks on end before crossing paths with another humanoid creature, let alone another druid.\n\nChangeable as the moon, a druid of this circle might prowl as a great cat one night, soar over the treetops as an eagle the next day, and crash through the undergrowth in bear form to drive off a trespassing monster. The wild is in the druid's blood.",
-    "grants": [
-      "srd:moon:combat-wild-shape",
-      "srd:moon:circle-forms"
-    ]
-  },
-  {
     "id": "srd:moon:primal-strike",
     "kind": "subclass-feature",
     "name": "Primal Strike",
-    "source": "srd",
-    "page": "PHB 69",
+    "source": "phb",
+    "page": "69",
     "tags": [
       "moon-feature",
       "druid-feature"
@@ -104,8 +90,8 @@
     "id": "srd:moon:elemental-wild-shape",
     "kind": "subclass-feature",
     "name": "Elemental Wild Shape",
-    "source": "srd",
-    "page": "PHB 69",
+    "source": "phb",
+    "page": "69",
     "tags": [
       "moon-feature",
       "druid-feature"
@@ -126,8 +112,8 @@
     "id": "srd:moon:thousand-forms",
     "kind": "subclass-feature",
     "name": "Thousand Forms",
-    "source": "srd",
-    "page": "PHB 69",
+    "source": "phb",
+    "page": "69",
     "tags": [
       "moon-feature",
       "druid-feature"

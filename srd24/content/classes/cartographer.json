@@ -3,17 +3,21 @@
     "id": "srd24:subclass:cartographer",
     "kind": "subclass",
     "name": "Cartographer",
-    "source": "srd24",
-    "page": "EFA 20",
+    "source": "efa",
+    "page": "20",
     "class": "srd24:class:artificer",
     "tags": [
       "artificer-subclass",
       "srd-subclass"
     ],
+    "text": "*Chart Advantageous Courses through Turmoil*\n\nCartographers are the premier navigators and reconnaissance agents. Using their creations, Cartographers can highlight threats, safeguard allies, and carve portals to distant locations.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:cartographer:cartographer",
+          "srd24:cartographer:tools-of-the-trade",
+          "srd24:cartographer:cartographer-spells",
+          "srd24:cartographer:adventurers-atlas",
+          "srd24:cartographer:mapping-magic",
           "srd24:spell:faerie-fire",
           "srd24:spell:guiding-bolt",
           "srd24:spell:healing-word"
@@ -56,8 +60,8 @@
     "id": "srd24:cartographer:tools-of-the-trade",
     "kind": "subclass-feature",
     "name": "Tools of the Trade",
-    "source": "srd24",
-    "page": "EFA 20",
+    "source": "efa",
+    "page": "20",
     "tags": [
       "cartographer-feature",
       "artificer-feature"
@@ -82,8 +86,8 @@
     "id": "srd24:cartographer:cartographer-spells",
     "kind": "subclass-feature",
     "name": "Cartographer Spells",
-    "source": "srd24",
-    "page": "EFA 20",
+    "source": "efa",
+    "page": "20",
     "tags": [
       "cartographer-feature",
       "artificer-feature"
@@ -94,8 +98,8 @@
     "id": "srd24:cartographer:adventurers-atlas",
     "kind": "subclass-feature",
     "name": "Adventurer's Atlas",
-    "source": "srd24",
-    "page": "EFA 20",
+    "source": "efa",
+    "page": "20",
     "tags": [
       "cartographer-feature",
       "artificer-feature"
@@ -106,8 +110,8 @@
     "id": "srd24:cartographer:mapping-magic",
     "kind": "subclass-feature",
     "name": "Mapping Magic",
-    "source": "srd24",
-    "page": "EFA 21",
+    "source": "efa",
+    "page": "21",
     "tags": [
       "cartographer-feature",
       "artificer-feature"
@@ -146,29 +150,11 @@
     ]
   },
   {
-    "id": "srd24:cartographer:cartographer",
-    "kind": "subclass-feature",
-    "name": "Cartographer",
-    "source": "srd24",
-    "page": "EFA 20",
-    "tags": [
-      "cartographer-feature",
-      "artificer-feature"
-    ],
-    "text": "*Chart Advantageous Courses through Turmoil*\n\nCartographers are the premier navigators and reconnaissance agents. Using their creations, Cartographers can highlight threats, safeguard allies, and carve portals to distant locations.",
-    "grants": [
-      "srd24:cartographer:tools-of-the-trade",
-      "srd24:cartographer:cartographer-spells",
-      "srd24:cartographer:adventurers-atlas",
-      "srd24:cartographer:mapping-magic"
-    ]
-  },
-  {
     "id": "srd24:cartographer:guided-precision",
     "kind": "subclass-feature",
     "name": "Guided Precision",
-    "source": "srd24",
-    "page": "EFA 21",
+    "source": "efa",
+    "page": "21",
     "tags": [
       "cartographer-feature",
       "artificer-feature"
@@ -179,8 +165,8 @@
     "id": "srd24:cartographer:ingenious-movement",
     "kind": "subclass-feature",
     "name": "Ingenious Movement",
-    "source": "srd24",
-    "page": "EFA 21",
+    "source": "efa",
+    "page": "21",
     "tags": [
       "cartographer-feature",
       "artificer-feature"
@@ -191,8 +177,8 @@
     "id": "srd24:cartographer:superior-atlas",
     "kind": "subclass-feature",
     "name": "Superior Atlas",
-    "source": "srd24",
-    "page": "EFA 21",
+    "source": "efa",
+    "page": "21",
     "tags": [
       "cartographer-feature",
       "artificer-feature"

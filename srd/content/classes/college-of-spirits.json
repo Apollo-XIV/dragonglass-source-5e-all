@@ -3,17 +3,20 @@
     "id": "srd:subclass:college-of-spirits",
     "kind": "subclass",
     "name": "College of Spirits",
-    "source": "srd",
-    "page": "VRGR 28",
+    "source": "vrgr",
+    "page": "28",
     "class": "srd:class:bard",
     "tags": [
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "Bards of the College of Spirits seek tales with inherent power—be they legends, histories, or fictions—and bring their subjects to life. Using occult trappings, these bards conjure spiritual embodiments of powerful forces to change the world once more. Such spirits are capricious, though, and what a bard summons isn't always entirely under their control.",
     "levels": {
       "3": {
         "grants": [
-          "srd:spirits:college-of-spirits",
+          "srd:spirits:guiding-whispers",
+          "srd:spirits:spiritual-focus",
+          "srd:spirits:tales-from-beyond",
           "srd:spell:guidance"
         ]
       },
@@ -33,8 +36,8 @@
     "id": "srd:spirits:guiding-whispers",
     "kind": "subclass-feature",
     "name": "Guiding Whispers",
-    "source": "srd",
-    "page": "VRGR 28",
+    "source": "vrgr",
+    "page": "28",
     "tags": [
       "spirits-feature",
       "bard-feature"
@@ -45,8 +48,8 @@
     "id": "srd:spirits:spiritual-focus",
     "kind": "subclass-feature",
     "name": "Spiritual Focus",
-    "source": "srd",
-    "page": "VRGR 28",
+    "source": "vrgr",
+    "page": "28",
     "tags": [
       "spirits-feature",
       "bard-feature"
@@ -57,8 +60,8 @@
     "id": "srd:spirits:tales-from-beyond",
     "kind": "subclass-feature",
     "name": "Tales from Beyond",
-    "source": "srd",
-    "page": "VRGR 28",
+    "source": "vrgr",
+    "page": "28",
     "tags": [
       "spirits-feature",
       "bard-feature"
@@ -77,28 +80,11 @@
     ]
   },
   {
-    "id": "srd:spirits:college-of-spirits",
-    "kind": "subclass-feature",
-    "name": "College of Spirits",
-    "source": "srd",
-    "page": "VRGR 28",
-    "tags": [
-      "spirits-feature",
-      "bard-feature"
-    ],
-    "text": "Bards of the College of Spirits seek tales with inherent power—be they legends, histories, or fictions—and bring their subjects to life. Using occult trappings, these bards conjure spiritual embodiments of powerful forces to change the world once more. Such spirits are capricious, though, and what a bard summons isn't always entirely under their control.",
-    "grants": [
-      "srd:spirits:guiding-whispers",
-      "srd:spirits:spiritual-focus",
-      "srd:spirits:tales-from-beyond"
-    ]
-  },
-  {
     "id": "srd:spirits:spirit-session",
     "kind": "subclass-feature",
     "name": "Spirit Session",
-    "source": "srd",
-    "page": "VRGR 28",
+    "source": "vrgr",
+    "page": "28",
     "tags": [
       "spirits-feature",
       "bard-feature"
@@ -109,8 +95,8 @@
     "id": "srd:spirits:mystical-connection",
     "kind": "subclass-feature",
     "name": "Mystical Connection",
-    "source": "srd",
-    "page": "VRGR 28",
+    "source": "vrgr",
+    "page": "28",
     "tags": [
       "spirits-feature",
       "bard-feature"

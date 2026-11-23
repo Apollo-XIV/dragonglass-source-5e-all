@@ -3,17 +3,19 @@
     "id": "srd:subclass:circle-of-the-shepherd",
     "kind": "subclass",
     "name": "Circle of the Shepherd",
-    "source": "srd",
-    "page": "XGE 23",
+    "source": "xge",
+    "page": "23",
     "class": "srd:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "Druids of the Circle of the Shepherd commune with the spirits of nature, especially the spirits of beasts and the fey, and call to those spirits for aid. These druids recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves. Shepherds, as they are known, see such creatures as their charges. They ward off monsters that threaten them, rebuke hunters who kill more prey than necessary, and prevent civilization from encroaching on rare animal habitats and on sites sacred to the fey. Many of these druids are happiest far from cities and towns, content to spend their days in the company of animals and the fey creatures of the wilds.\n\nMembers of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.",
     "levels": {
       "2": {
         "grants": [
-          "srd:shepherd:circle-of-the-shepherd"
+          "srd:shepherd:speech-of-the-woods",
+          "srd:shepherd:spirit-totem"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:shepherd:speech-of-the-woods",
     "kind": "subclass-feature",
     "name": "Speech of the Woods",
-    "source": "srd",
-    "page": "XGE 23",
+    "source": "xge",
+    "page": "23",
     "tags": [
       "shepherd-feature",
       "druid-feature"
@@ -49,8 +51,8 @@
     "id": "srd:shepherd:spirit-totem",
     "kind": "subclass-feature",
     "name": "Spirit Totem",
-    "source": "srd",
-    "page": "XGE 23",
+    "source": "xge",
+    "page": "23",
     "tags": [
       "shepherd-feature",
       "druid-feature"
@@ -58,27 +60,11 @@
     "text": "Starting at 2nd level, you can call forth nature spirits to influence the world around you. As a bonus action, you can magically summon an incorporeal spirit to a point you can see within 60 feet of you. The spirit creates an aura in a 30-foot radius around that point. It counts as neither a creature nor an object, though it has the spectral appearance of the creature it represents.\n\nAs a bonus action, you can move the spirit up to 60 feet to a point you can see.\n\nThe spirit persists for 1 minute or until you're incapacitated. Once you use this feature, you can't use it again until you finish a short or long rest.\n\nThe effect of the spirit's aura depends on the type of spirit you summon from the options below.\n\n**Bear Spirit.** The bear spirit grants you and your allies its might and endurance. Each creature of your choice in the aura when the spirit appears gains temporary hit points equal to 5 + your druid level. In addition, you and your allies gain advantage on Strength checks and Strength saving throws while in the aura.\n\n**Hawk Spirit.** The hawk spirit is a consummate hunter, aiding you and your allies with its keen sight. When a creature makes an attack roll against a target in the spirit's aura, you can use your reaction to grant advantage to that attack roll. In addition, you and your allies have advantage on Wisdom (Perception) checks while in the aura.\n\n**Unicorn Spirit.** The unicorn spirit lends its protection to those nearby. You and your allies gain advantage on all ability checks made to detect creatures in the spirit's aura. In addition, if you cast a spell using a spell slot that restores hit points to any creature inside or outside the aura, each creature of your choice in the aura also regains hit points equal to your druid level."
   },
   {
-    "id": "srd:shepherd:circle-of-the-shepherd",
-    "kind": "subclass-feature",
-    "name": "Circle of the Shepherd",
-    "source": "srd",
-    "page": "XGE 23",
-    "tags": [
-      "shepherd-feature",
-      "druid-feature"
-    ],
-    "text": "Druids of the Circle of the Shepherd commune with the spirits of nature, especially the spirits of beasts and the fey, and call to those spirits for aid. These druids recognize that all living things play a role in the natural world, yet they focus on protecting animals and fey creatures that have difficulty defending themselves. Shepherds, as they are known, see such creatures as their charges. They ward off monsters that threaten them, rebuke hunters who kill more prey than necessary, and prevent civilization from encroaching on rare animal habitats and on sites sacred to the fey. Many of these druids are happiest far from cities and towns, content to spend their days in the company of animals and the fey creatures of the wilds.\n\nMembers of this circle become adventurers to oppose forces that threaten their charges or to seek knowledge and power that will help them safeguard their charges better. Wherever these druids go, the spirits of the wilderness are with them.",
-    "grants": [
-      "srd:shepherd:speech-of-the-woods",
-      "srd:shepherd:spirit-totem"
-    ]
-  },
-  {
     "id": "srd:shepherd:mighty-summoner",
     "kind": "subclass-feature",
     "name": "Mighty Summoner",
-    "source": "srd",
-    "page": "XGE 23",
+    "source": "xge",
+    "page": "23",
     "tags": [
       "shepherd-feature",
       "druid-feature"
@@ -89,8 +75,8 @@
     "id": "srd:shepherd:guardian-spirit",
     "kind": "subclass-feature",
     "name": "Guardian Spirit",
-    "source": "srd",
-    "page": "XGE 23",
+    "source": "xge",
+    "page": "23",
     "tags": [
       "shepherd-feature",
       "druid-feature"
@@ -101,8 +87,8 @@
     "id": "srd:shepherd:faithful-summons",
     "kind": "subclass-feature",
     "name": "Faithful Summons",
-    "source": "srd",
-    "page": "XGE 23",
+    "source": "xge",
+    "page": "23",
     "tags": [
       "shepherd-feature",
       "druid-feature"

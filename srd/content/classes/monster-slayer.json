@@ -3,17 +3,20 @@
     "id": "srd:subclass:monster-slayer",
     "kind": "subclass",
     "name": "Monster Slayer",
-    "source": "srd",
-    "page": "XGE 43",
+    "source": "xge",
+    "page": "43",
     "class": "srd:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.",
     "levels": {
       "3": {
         "grants": [
-          "srd:monster-slayer:monster-slayer",
+          "srd:monster-slayer:monster-slayer-magic",
+          "srd:monster-slayer:hunters-sense",
+          "srd:monster-slayer:slayers-prey",
           {
             "id": "srd:spell:protection-from-evil-and-good",
             "mode": "learned"
@@ -73,8 +76,8 @@
     "id": "srd:monster-slayer:monster-slayer-magic",
     "kind": "subclass-feature",
     "name": "Monster Slayer Magic",
-    "source": "srd",
-    "page": "XGE 43",
+    "source": "xge",
+    "page": "43",
     "tags": [
       "monster-slayer-feature",
       "ranger-feature"
@@ -85,8 +88,8 @@
     "id": "srd:monster-slayer:hunters-sense",
     "kind": "subclass-feature",
     "name": "Hunter's Sense",
-    "source": "srd",
-    "page": "XGE 43",
+    "source": "xge",
+    "page": "43",
     "tags": [
       "monster-slayer-feature",
       "ranger-feature"
@@ -128,8 +131,8 @@
     "id": "srd:monster-slayer:slayers-prey",
     "kind": "subclass-feature",
     "name": "Slayer's Prey",
-    "source": "srd",
-    "page": "XGE 43",
+    "source": "xge",
+    "page": "43",
     "tags": [
       "monster-slayer-feature",
       "ranger-feature"
@@ -148,28 +151,11 @@
     ]
   },
   {
-    "id": "srd:monster-slayer:monster-slayer",
-    "kind": "subclass-feature",
-    "name": "Monster Slayer",
-    "source": "srd",
-    "page": "XGE 43",
-    "tags": [
-      "monster-slayer-feature",
-      "ranger-feature"
-    ],
-    "text": "You have dedicated yourself to hunting down creatures of the night and wielders of grim magic. A Monster Slayer seeks out vampires, dragons, evil fey, fiends, and other magical threats. Trained in supernatural techniques to overcome such monsters, slayers are experts at unearthing and defeating mighty, mystical foes.",
-    "grants": [
-      "srd:monster-slayer:monster-slayer-magic",
-      "srd:monster-slayer:hunters-sense",
-      "srd:monster-slayer:slayers-prey"
-    ]
-  },
-  {
     "id": "srd:monster-slayer:supernatural-defense",
     "kind": "subclass-feature",
     "name": "Supernatural Defense",
-    "source": "srd",
-    "page": "XGE 43",
+    "source": "xge",
+    "page": "43",
     "tags": [
       "monster-slayer-feature",
       "ranger-feature"
@@ -180,8 +166,8 @@
     "id": "srd:monster-slayer:magic-users-nemesis",
     "kind": "subclass-feature",
     "name": "Magic-User's Nemesis",
-    "source": "srd",
-    "page": "XGE 43",
+    "source": "xge",
+    "page": "43",
     "tags": [
       "monster-slayer-feature",
       "ranger-feature"
@@ -223,8 +209,8 @@
     "id": "srd:monster-slayer:slayers-counter",
     "kind": "subclass-feature",
     "name": "Slayer's Counter",
-    "source": "srd",
-    "page": "XGE 43",
+    "source": "xge",
+    "page": "43",
     "tags": [
       "monster-slayer-feature",
       "ranger-feature"

@@ -3,17 +3,19 @@
     "id": "srd24:subclass:soulknife",
     "kind": "subclass",
     "name": "Soulknife",
-    "source": "srd24",
-    "page": "XPHB 135",
+    "source": "xphb",
+    "page": "135",
     "class": "srd24:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "*Strike Foes with Psionic Blades*\n\nA Soulknife strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife, your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:soulknife:soulknife"
+          "srd24:soulknife:psionic-power",
+          "srd24:soulknife:psychic-blades"
         ]
       },
       "9": {
@@ -37,8 +39,8 @@
     "id": "srd24:soulknife:psi-bolstered-knack",
     "kind": "subclass-feature",
     "name": "Psi-Bolstered Knack",
-    "source": "srd24",
-    "page": "XPHB 135",
+    "source": "xphb",
+    "page": "135",
     "tags": [
       "soulknife-feature",
       "rogue-feature"
@@ -53,8 +55,8 @@
     "id": "srd24:soulknife:psychic-whispers",
     "kind": "subclass-feature",
     "name": "Psychic Whispers",
-    "source": "srd24",
-    "page": "XPHB 135",
+    "source": "xphb",
+    "page": "135",
     "tags": [
       "soulknife-feature",
       "rogue-feature"
@@ -80,8 +82,8 @@
     "id": "srd24:soulknife:psionic-power",
     "kind": "subclass-feature",
     "name": "Psionic Power",
-    "source": "srd24",
-    "page": "XPHB 135",
+    "source": "xphb",
+    "page": "135",
     "tags": [
       "soulknife-feature",
       "rogue-feature"
@@ -96,8 +98,8 @@
     "id": "srd24:soulknife:psychic-blades",
     "kind": "subclass-feature",
     "name": "Psychic Blades",
-    "source": "srd24",
-    "page": "XPHB 136",
+    "source": "xphb",
+    "page": "136",
     "tags": [
       "soulknife-feature",
       "rogue-feature"
@@ -105,27 +107,11 @@
     "text": "You can manifest shimmering blades of psychic energy. Whenever you take the Attack action or make an Opportunity Attack, you can manifest a Psychic Blade in your free hand and make the attack with that blade. The magic blade has the following traits:\n\n*Psychic Blade: see its own entry.*\n\nThe blade vanishes immediately after it hits or misses its target, and it leaves no mark if it deals damage.\n\nAfter you attack with the blade on your turn, you can make a melee or ranged attack with a second psychic blade as a Bonus Action on the same turn if your other hand is free to create it. The damage die of this bonus attack is 1d4 instead of 1d6."
   },
   {
-    "id": "srd24:soulknife:soulknife",
-    "kind": "subclass-feature",
-    "name": "Soulknife",
-    "source": "srd24",
-    "page": "XPHB 135",
-    "tags": [
-      "soulknife-feature",
-      "rogue-feature"
-    ],
-    "text": "*Strike Foes with Psionic Blades*\n\nA Soulknife strikes with the mind, cutting through barriers both physical and psychic. These Rogues discover psionic power within themselves and channel it to do their roguish work. As a Soulknife, your psionic abilities might have haunted you since childhood, revealing their full potential only as you experienced the stress of adventure. Or you might have sought out an order of psychic adepts and spent years learning how to manifest your power.",
-    "grants": [
-      "srd24:soulknife:psionic-power",
-      "srd24:soulknife:psychic-blades"
-    ]
-  },
-  {
     "id": "srd24:soulknife:homing-strikes",
     "kind": "subclass-feature",
     "name": "Homing Strikes",
-    "source": "srd24",
-    "page": "XPHB 136",
+    "source": "xphb",
+    "page": "136",
     "tags": [
       "soulknife-feature",
       "rogue-feature"
@@ -140,8 +126,8 @@
     "id": "srd24:soulknife:psychic-teleportation",
     "kind": "subclass-feature",
     "name": "Psychic Teleportation",
-    "source": "srd24",
-    "page": "XPHB 136",
+    "source": "xphb",
+    "page": "136",
     "tags": [
       "soulknife-feature",
       "rogue-feature"
@@ -167,8 +153,8 @@
     "id": "srd24:soulknife:soul-blades",
     "kind": "subclass-feature",
     "name": "Soul Blades",
-    "source": "srd24",
-    "page": "XPHB 136",
+    "source": "xphb",
+    "page": "136",
     "tags": [
       "soulknife-feature",
       "rogue-feature"
@@ -183,8 +169,8 @@
     "id": "srd24:soulknife:psychic-veil",
     "kind": "subclass-feature",
     "name": "Psychic Veil",
-    "source": "srd24",
-    "page": "XPHB 136",
+    "source": "xphb",
+    "page": "136",
     "tags": [
       "soulknife-feature",
       "rogue-feature"
@@ -210,8 +196,8 @@
     "id": "srd24:soulknife:rend-mind",
     "kind": "subclass-feature",
     "name": "Rend Mind",
-    "source": "srd24",
-    "page": "XPHB 136",
+    "source": "xphb",
+    "page": "136",
     "tags": [
       "soulknife-feature",
       "rogue-feature"

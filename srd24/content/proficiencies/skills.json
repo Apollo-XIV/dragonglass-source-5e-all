@@ -3,7 +3,7 @@
     "id": "srd24:skill:acrobatics",
     "kind": "skill",
     "name": "Acrobatics",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "dex",
     "tags": [
       "skill"
@@ -16,13 +16,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:animal-handling",
     "kind": "skill",
     "name": "Animal Handling",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -35,13 +35,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:arcana",
     "kind": "skill",
     "name": "Arcana",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "int",
     "tags": [
       "skill"
@@ -54,13 +54,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:athletics",
     "kind": "skill",
     "name": "Athletics",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "str",
     "tags": [
       "skill"
@@ -73,13 +73,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:deception",
     "kind": "skill",
     "name": "Deception",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "cha",
     "tags": [
       "skill"
@@ -92,13 +92,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:history",
     "kind": "skill",
     "name": "History",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "int",
     "tags": [
       "skill"
@@ -111,13 +111,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:insight",
     "kind": "skill",
     "name": "Insight",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -130,13 +130,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:intimidation",
     "kind": "skill",
     "name": "Intimidation",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "cha",
     "tags": [
       "skill"
@@ -149,13 +149,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:investigation",
     "kind": "skill",
     "name": "Investigation",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "int",
     "tags": [
       "skill"
@@ -168,13 +168,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:medicine",
     "kind": "skill",
     "name": "Medicine",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -187,13 +187,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:nature",
     "kind": "skill",
     "name": "Nature",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "int",
     "tags": [
       "skill"
@@ -206,13 +206,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:perception",
     "kind": "skill",
     "name": "Perception",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -225,13 +225,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:performance",
     "kind": "skill",
     "name": "Performance",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "cha",
     "tags": [
       "skill"
@@ -244,13 +244,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:persuasion",
     "kind": "skill",
     "name": "Persuasion",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "cha",
     "tags": [
       "skill"
@@ -263,13 +263,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:religion",
     "kind": "skill",
     "name": "Religion",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "int",
     "tags": [
       "skill"
@@ -282,13 +282,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:sleight-of-hand",
     "kind": "skill",
     "name": "Sleight of Hand",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "dex",
     "tags": [
       "skill"
@@ -301,13 +301,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:stealth",
     "kind": "skill",
     "name": "Stealth",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "dex",
     "tags": [
       "skill"
@@ -320,13 +320,13 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   },
   {
     "id": "srd24:skill:survival",
     "kind": "skill",
     "name": "Survival",
-    "source": "srd24",
+    "source": "xphb",
     "ability": "wis",
     "tags": [
       "skill"
@@ -339,6 +339,6 @@
         "value": "proficient"
       }
     ],
-    "page": "XPHB 14"
+    "page": "14"
   }
 ]

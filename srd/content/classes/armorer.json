@@ -3,17 +3,21 @@
     "id": "srd:subclass:armorer",
     "kind": "subclass",
     "name": "Armorer",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "class": "srd:class:artificer",
     "tags": [
       "artificer-subclass",
       "srd-subclass"
     ],
+    "text": "An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
     "levels": {
       "3": {
         "grants": [
-          "srd:armorer:armorer",
+          "srd:armorer:tools-of-the-trade",
+          "srd:armorer:armorer-spells",
+          "srd:armorer:arcane-armor",
+          "srd:armorer:armor-model",
           "srd:spell:magic-missile",
           "srd:spell:thunderwave"
         ]
@@ -55,8 +59,8 @@
     "id": "srd:armorer:tools-of-the-trade",
     "kind": "subclass-feature",
     "name": "Tools of the Trade",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -91,8 +95,8 @@
     "id": "srd:armorer:armorer-spells",
     "kind": "subclass-feature",
     "name": "Armorer Spells",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -103,8 +107,8 @@
     "id": "srd:armorer:arcane-armor",
     "kind": "subclass-feature",
     "name": "Arcane Armor",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -126,8 +130,8 @@
     "id": "srd:armorer:thunder-gauntlets",
     "kind": "subclass-feature",
     "name": "Thunder Gauntlets",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -138,8 +142,8 @@
     "id": "srd:armorer:defensive-field",
     "kind": "subclass-feature",
     "name": "Defensive Field",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -181,8 +185,8 @@
     "id": "srd:armorer:lightning-launcher",
     "kind": "subclass-feature",
     "name": "Lightning Launcher",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -193,8 +197,8 @@
     "id": "srd:armorer:powered-steps",
     "kind": "subclass-feature",
     "name": "Powered Steps",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -216,8 +220,8 @@
     "id": "srd:armorer:dampening-field",
     "kind": "subclass-feature",
     "name": "Dampening Field",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -228,8 +232,8 @@
     "id": "srd:armorer:armor-model",
     "kind": "subclass-feature",
     "name": "Armor Model",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -244,29 +248,11 @@
     ]
   },
   {
-    "id": "srd:armorer:armorer",
-    "kind": "subclass-feature",
-    "name": "Armorer",
-    "source": "srd",
-    "page": "TCE 15",
-    "tags": [
-      "armorer-feature",
-      "artificer-feature"
-    ],
-    "text": "An artificer who specializes as an Armorer modifies armor to function almost like a second skin. The armor is enhanced to hone the artificer's magic, unleash potent attacks, and generate a formidable defense. The artificer bonds with this armor, becoming one with it even as they experiment with it and refine its magical capabilities.",
-    "grants": [
-      "srd:armorer:tools-of-the-trade",
-      "srd:armorer:armorer-spells",
-      "srd:armorer:arcane-armor",
-      "srd:armorer:armor-model"
-    ]
-  },
-  {
     "id": "srd:armorer:extra-attack",
     "kind": "subclass-feature",
     "name": "Extra Attack",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -277,8 +263,8 @@
     "id": "srd:armorer:armor-modifications",
     "kind": "subclass-feature",
     "name": "Armor Modifications",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -289,8 +275,8 @@
     "id": "srd:armorer:guardian",
     "kind": "subclass-feature",
     "name": "Guardian",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -332,8 +318,8 @@
     "id": "srd:armorer:infiltrator",
     "kind": "subclass-feature",
     "name": "Infiltrator",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"
@@ -344,8 +330,8 @@
     "id": "srd:armorer:perfected-armor",
     "kind": "subclass-feature",
     "name": "Perfected Armor",
-    "source": "srd",
-    "page": "TCE 15",
+    "source": "tce",
+    "page": "15",
     "tags": [
       "armorer-feature",
       "artificer-feature"

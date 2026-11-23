@@ -3,17 +3,19 @@
     "id": "srd:subclass:path-of-the-battlerager",
     "kind": "subclass",
     "name": "Path of the Battlerager",
-    "source": "srd",
-    "page": "SCAG 121",
+    "source": "scag",
+    "page": "121",
     "class": "srd:class:barbarian",
     "tags": [
       "barbarian-subclass",
       "srd-subclass"
     ],
+    "text": "Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
     "levels": {
       "3": {
         "grants": [
-          "srd:battlerager:path-of-the-battlerager"
+          "srd:battlerager:restriction-dwarves-only",
+          "srd:battlerager:battlerager-armor"
         ]
       },
       "6": {
@@ -37,8 +39,8 @@
     "id": "srd:battlerager:restriction-dwarves-only",
     "kind": "subclass-feature",
     "name": "Restriction—Dwarves Only",
-    "source": "srd",
-    "page": "SCAG 121",
+    "source": "scag",
+    "page": "121",
     "tags": [
       "battlerager-feature",
       "barbarian-feature"
@@ -49,8 +51,8 @@
     "id": "srd:battlerager:battlerager-armor",
     "kind": "subclass-feature",
     "name": "Battlerager Armor",
-    "source": "srd",
-    "page": "SCAG 121",
+    "source": "scag",
+    "page": "121",
     "tags": [
       "battlerager-feature",
       "barbarian-feature"
@@ -69,27 +71,11 @@
     ]
   },
   {
-    "id": "srd:battlerager:path-of-the-battlerager",
-    "kind": "subclass-feature",
-    "name": "Path of the Battlerager",
-    "source": "srd",
-    "page": "SCAG 121",
-    "tags": [
-      "battlerager-feature",
-      "barbarian-feature"
-    ],
-    "text": "Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing bulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle.",
-    "grants": [
-      "srd:battlerager:restriction-dwarves-only",
-      "srd:battlerager:battlerager-armor"
-    ]
-  },
-  {
     "id": "srd:battlerager:reckless-abandon",
     "kind": "subclass-feature",
     "name": "Reckless Abandon",
-    "source": "srd",
-    "page": "SCAG 121",
+    "source": "scag",
+    "page": "121",
     "tags": [
       "battlerager-feature",
       "barbarian-feature"
@@ -100,8 +86,8 @@
     "id": "srd:battlerager:battlerager-charge",
     "kind": "subclass-feature",
     "name": "Battlerager Charge",
-    "source": "srd",
-    "page": "SCAG 121",
+    "source": "scag",
+    "page": "121",
     "tags": [
       "battlerager-feature",
       "barbarian-feature"
@@ -112,8 +98,8 @@
     "id": "srd:battlerager:spiked-retribution",
     "kind": "subclass-feature",
     "name": "Spiked Retribution",
-    "source": "srd",
-    "page": "SCAG 121",
+    "source": "scag",
+    "page": "121",
     "tags": [
       "battlerager-feature",
       "barbarian-feature"

@@ -3,18 +3,20 @@
     "id": "srd:subclass:college-of-whispers",
     "kind": "subclass",
     "name": "College of Whispers",
-    "source": "srd",
-    "page": "XGE 16",
+    "source": "xge",
+    "page": "16",
     "class": "srd:class:bard",
     "tags": [
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.\n\nMany other bards hate the College of Whispers, viewing it as a parasite that uses a bard's reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.",
     "fluff": "> Speak up! It's really hard to hear you over the screaming. Nope. It's no use. I'll have to stop the screaming. Disintegrations all around, then.\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:whispers:college-of-whispers"
+          "srd:whispers:psychic-blades",
+          "srd:whispers:words-of-terror"
         ]
       },
       "6": {
@@ -33,8 +35,8 @@
     "id": "srd:whispers:psychic-blades",
     "kind": "subclass-feature",
     "name": "Psychic Blades",
-    "source": "srd",
-    "page": "XGE 16",
+    "source": "xge",
+    "page": "16",
     "tags": [
       "whispers-feature",
       "bard-feature"
@@ -45,8 +47,8 @@
     "id": "srd:whispers:words-of-terror",
     "kind": "subclass-feature",
     "name": "Words of Terror",
-    "source": "srd",
-    "page": "XGE 16",
+    "source": "xge",
+    "page": "16",
     "tags": [
       "whispers-feature",
       "bard-feature"
@@ -85,27 +87,11 @@
     ]
   },
   {
-    "id": "srd:whispers:college-of-whispers",
-    "kind": "subclass-feature",
-    "name": "College of Whispers",
-    "source": "srd",
-    "page": "XGE 16",
-    "tags": [
-      "whispers-feature",
-      "bard-feature"
-    ],
-    "text": "Most folk are happy to welcome a bard into their midst. Bards of the College of Whispers use this to their advantage. They appear to be like other bards, sharing news, singing songs, and telling tales to the audiences they gather. In truth, the College of Whispers teaches its students that they are wolves among sheep. These bards use their knowledge and magic to uncover secrets and turn them against others through extortion and threats.\n\nMany other bards hate the College of Whispers, viewing it as a parasite that uses a bard's reputation to acquire wealth and power. For this reason, members of this college rarely reveal their true nature. They typically claim to follow some other college, or they keep their actual calling secret in order to infiltrate and exploit royal courts and other settings of power.",
-    "grants": [
-      "srd:whispers:psychic-blades",
-      "srd:whispers:words-of-terror"
-    ]
-  },
-  {
     "id": "srd:whispers:mantle-of-whispers",
     "kind": "subclass-feature",
     "name": "Mantle of Whispers",
-    "source": "srd",
-    "page": "XGE 16",
+    "source": "xge",
+    "page": "16",
     "tags": [
       "whispers-feature",
       "bard-feature"
@@ -130,8 +116,8 @@
     "id": "srd:whispers:shadow-lore",
     "kind": "subclass-feature",
     "name": "Shadow Lore",
-    "source": "srd",
-    "page": "XGE 16",
+    "source": "xge",
+    "page": "16",
     "tags": [
       "whispers-feature",
       "bard-feature"

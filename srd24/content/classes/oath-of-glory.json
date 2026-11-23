@@ -3,17 +3,20 @@
     "id": "srd24:subclass:oath-of-glory",
     "kind": "subclass",
     "name": "Oath of Glory",
-    "source": "srd24",
-    "page": "XPHB 114",
+    "source": "xphb",
+    "page": "114",
     "class": "srd24:class:paladin",
     "tags": [
       "paladin-subclass",
       "srd-subclass"
     ],
+    "text": "*Strive for the Heights of Heroism*\n\nPaladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they're all ready when destiny calls.\n\nThese paladins share the following tenets:\n\n- Endeavor to be known by your deeds.\n- Face hardships with courage.\n- Inspire others to strive for glory.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:glory:oath-of-glory",
+          "srd24:glory:oath-of-glory-spells",
+          "srd24:glory:inspiring-smite",
+          "srd24:glory:peerless-athlete",
           "srd24:spell:guiding-bolt",
           "srd24:spell:heroism"
         ]
@@ -63,8 +66,8 @@
     "id": "srd24:glory:oath-of-glory-spells",
     "kind": "subclass-feature",
     "name": "Oath of Glory Spells",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "tags": [
       "glory-feature",
       "paladin-feature"
@@ -75,8 +78,8 @@
     "id": "srd24:glory:inspiring-smite",
     "kind": "subclass-feature",
     "name": "Inspiring Smite",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "tags": [
       "glory-feature",
       "paladin-feature"
@@ -97,8 +100,8 @@
     "id": "srd24:glory:peerless-athlete",
     "kind": "subclass-feature",
     "name": "Peerless Athlete",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "tags": [
       "glory-feature",
       "paladin-feature"
@@ -120,28 +123,11 @@
     ]
   },
   {
-    "id": "srd24:glory:oath-of-glory",
-    "kind": "subclass-feature",
-    "name": "Oath of Glory",
-    "source": "srd24",
-    "page": "XPHB 114",
-    "tags": [
-      "glory-feature",
-      "paladin-feature"
-    ],
-    "text": "*Strive for the Heights of Heroism*\n\nPaladins who take the Oath of Glory believe they and their companions are destined to achieve glory through deeds of heroism. They train diligently and encourage their companions, so they're all ready when destiny calls.\n\nThese paladins share the following tenets:\n\n- Endeavor to be known by your deeds.\n- Face hardships with courage.\n- Inspire others to strive for glory.",
-    "grants": [
-      "srd24:glory:oath-of-glory-spells",
-      "srd24:glory:inspiring-smite",
-      "srd24:glory:peerless-athlete"
-    ]
-  },
-  {
     "id": "srd24:glory:aura-of-alacrity",
     "kind": "subclass-feature",
     "name": "Aura of Alacrity",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "tags": [
       "glory-feature",
       "paladin-feature"
@@ -163,8 +149,8 @@
     "id": "srd24:glory:glorious-defense",
     "kind": "subclass-feature",
     "name": "Glorious Defense",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "tags": [
       "glory-feature",
       "paladin-feature"
@@ -206,8 +192,8 @@
     "id": "srd24:glory:living-legend",
     "kind": "subclass-feature",
     "name": "Living Legend",
-    "source": "srd24",
-    "page": "XPHB 115",
+    "source": "xphb",
+    "page": "115",
     "tags": [
       "glory-feature",
       "paladin-feature"

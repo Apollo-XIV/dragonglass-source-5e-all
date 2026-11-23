@@ -3,17 +3,19 @@
     "id": "srd24:subclass:spellfire-sorcery",
     "kind": "subclass",
     "name": "Spellfire Sorcery",
-    "source": "srd24",
-    "page": "FRHoF 24",
+    "source": "frhof",
+    "page": "24",
     "class": "srd24:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "*Wield Raw Magic*\n\nYour innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.\n\nWielders of spellfire tend to have a penchant for wandering. Many travel between cosmopolitan settlements, such as those along the Sword Coast, and wield their magic in service of the common good. Others realize their own strange powers by roaming equally strange lands, from the magic-blasted wastes of the desert of Anauroch to the god-touched wilds of the Old Empires. Wherever they go in the Realms, spellfire Sorcerers are courted by factions with interests in the arcane arts, such as the Harpers, Cult of the Dragon, and Red Wizards.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:spellfire:spellfire-sorcery",
+          "srd24:spellfire:spellfire-burst",
+          "srd24:spellfire:spellfire-spells",
           "srd24:spell:cure-wounds",
           "srd24:spell:guiding-bolt",
           "srd24:spell:lesser-restoration",
@@ -60,8 +62,8 @@
     "id": "srd24:spellfire:bolstering-flames",
     "kind": "subclass-feature",
     "name": "Bolstering Flames",
-    "source": "srd24",
-    "page": "FRHoF 24",
+    "source": "frhof",
+    "page": "24",
     "tags": [
       "spellfire-feature",
       "sorcerer-feature"
@@ -72,8 +74,8 @@
     "id": "srd24:spellfire:radiant-fire",
     "kind": "subclass-feature",
     "name": "Radiant Fire",
-    "source": "srd24",
-    "page": "FRHoF 24",
+    "source": "frhof",
+    "page": "24",
     "tags": [
       "spellfire-feature",
       "sorcerer-feature"
@@ -84,8 +86,8 @@
     "id": "srd24:spellfire:spellfire-burst",
     "kind": "subclass-feature",
     "name": "Spellfire Burst",
-    "source": "srd24",
-    "page": "FRHoF 24",
+    "source": "frhof",
+    "page": "24",
     "tags": [
       "spellfire-feature",
       "sorcerer-feature"
@@ -100,8 +102,8 @@
     "id": "srd24:spellfire:spellfire-spells",
     "kind": "subclass-feature",
     "name": "Spellfire Spells",
-    "source": "srd24",
-    "page": "FRHoF 24",
+    "source": "frhof",
+    "page": "24",
     "tags": [
       "spellfire-feature",
       "sorcerer-feature"
@@ -109,27 +111,11 @@
     "text": "When you reach a Sorcerer level specified in the Spellfire Spells table, you thereafter always have the listed spells prepared.\n\n| Sorcerer Level | Spells |\n| --- | --- |\n| 3 | Cure Wounds, Guiding Bolt, Lesser Restoration, Scorching Ray |\n| 5 | Aura of Vitality, Dispel Magic |\n| 7 | Fire Shield, Wall of Fire |\n| 9 | Greater Restoration, Flame Strike |"
   },
   {
-    "id": "srd24:spellfire:spellfire-sorcery",
-    "kind": "subclass-feature",
-    "name": "Spellfire Sorcery",
-    "source": "srd24",
-    "page": "FRHoF 24",
-    "tags": [
-      "spellfire-feature",
-      "sorcerer-feature"
-    ],
-    "text": "*Wield Raw Magic*\n\nYour innate power stems from the source of magic itself: the Weave. This connection manifests as a rare ability known as spellfire, and you surge with radiant bursts of this raw magic. Your talent with spellfire allows you to heal allies, sear enemies, and absorb powerful spells.\n\nWielders of spellfire tend to have a penchant for wandering. Many travel between cosmopolitan settlements, such as those along the Sword Coast, and wield their magic in service of the common good. Others realize their own strange powers by roaming equally strange lands, from the magic-blasted wastes of the desert of Anauroch to the god-touched wilds of the Old Empires. Wherever they go in the Realms, spellfire Sorcerers are courted by factions with interests in the arcane arts, such as the Harpers, Cult of the Dragon, and Red Wizards.",
-    "grants": [
-      "srd24:spellfire:spellfire-burst",
-      "srd24:spellfire:spellfire-spells"
-    ]
-  },
-  {
     "id": "srd24:spellfire:absorb-spells",
     "kind": "subclass-feature",
     "name": "Absorb Spells",
-    "source": "srd24",
-    "page": "FRHoF 25",
+    "source": "frhof",
+    "page": "25",
     "tags": [
       "spellfire-feature",
       "sorcerer-feature"
@@ -140,8 +126,8 @@
     "id": "srd24:spellfire:honed-spellfire",
     "kind": "subclass-feature",
     "name": "Honed Spellfire",
-    "source": "srd24",
-    "page": "FRHoF 25",
+    "source": "frhof",
+    "page": "25",
     "tags": [
       "spellfire-feature",
       "sorcerer-feature"
@@ -152,8 +138,8 @@
     "id": "srd24:spellfire:crown-of-spellfire",
     "kind": "subclass-feature",
     "name": "Crown of Spellfire",
-    "source": "srd24",
-    "page": "FRHoF 25",
+    "source": "frhof",
+    "page": "25",
     "tags": [
       "spellfire-feature",
       "sorcerer-feature"

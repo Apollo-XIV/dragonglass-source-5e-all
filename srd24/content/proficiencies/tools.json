@@ -3,7 +3,7 @@
     "id": "srd24:tool:alchemists-supplies",
     "kind": "tool",
     "name": "Alchemist's Supplies",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -16,13 +16,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:bagpipes",
     "kind": "tool",
     "name": "Bagpipes",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -35,13 +35,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:bandore",
     "kind": "tool",
     "name": "Bandore",
-    "source": "srd24",
+    "source": "frhof",
     "tags": [
       "musical-instrument"
     ],
@@ -54,13 +54,13 @@
         ]
       }
     ],
-    "page": "FRHoF 132"
+    "page": "132"
   },
   {
     "id": "srd24:tool:brewers-supplies",
     "kind": "tool",
     "name": "Brewer's Supplies",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -73,13 +73,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:calligraphers-supplies",
     "kind": "tool",
     "name": "Calligrapher's Supplies",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -92,13 +92,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:carpenters-tools",
     "kind": "tool",
     "name": "Carpenter's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -111,13 +111,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:cartographers-tools",
     "kind": "tool",
     "name": "Cartographer's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -130,13 +130,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:cittern",
     "kind": "tool",
     "name": "Cittern",
-    "source": "srd24",
+    "source": "frhof",
     "tags": [
       "musical-instrument"
     ],
@@ -149,13 +149,13 @@
         ]
       }
     ],
-    "page": "FRHoF 132"
+    "page": "132"
   },
   {
     "id": "srd24:tool:cobblers-tools",
     "kind": "tool",
     "name": "Cobbler's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -168,13 +168,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:cooks-utensils",
     "kind": "tool",
     "name": "Cook's Utensils",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -187,13 +187,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:drum",
     "kind": "tool",
     "name": "Drum",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -206,13 +206,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:dulcimer",
     "kind": "tool",
     "name": "Dulcimer",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -225,13 +225,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:flute",
     "kind": "tool",
     "name": "Flute",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -244,13 +244,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:glassblowers-tools",
     "kind": "tool",
     "name": "Glassblower's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -263,13 +263,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:horn",
     "kind": "tool",
     "name": "Horn",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -282,13 +282,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:jewelers-tools",
     "kind": "tool",
     "name": "Jeweler's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -301,13 +301,13 @@
         ]
       }
     ],
-    "page": "XPHB 220"
+    "page": "220"
   },
   {
     "id": "srd24:tool:leatherworkers-tools",
     "kind": "tool",
     "name": "Leatherworker's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -320,13 +320,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:lute",
     "kind": "tool",
     "name": "Lute",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -339,13 +339,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:lyre",
     "kind": "tool",
     "name": "Lyre",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -358,13 +358,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:masons-tools",
     "kind": "tool",
     "name": "Mason's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -377,13 +377,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:painters-supplies",
     "kind": "tool",
     "name": "Painter's Supplies",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -396,13 +396,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:pan-flute",
     "kind": "tool",
     "name": "Pan Flute",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -415,13 +415,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:potters-tools",
     "kind": "tool",
     "name": "Potter's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -434,13 +434,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:shawm",
     "kind": "tool",
     "name": "Shawm",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -453,13 +453,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:smiths-tools",
     "kind": "tool",
     "name": "Smith's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -472,13 +472,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:tinkers-tools",
     "kind": "tool",
     "name": "Tinker's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -491,13 +491,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:viol",
     "kind": "tool",
     "name": "Viol",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "musical-instrument"
     ],
@@ -510,13 +510,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:weavers-tools",
     "kind": "tool",
     "name": "Weaver's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -529,13 +529,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:woodcarvers-tools",
     "kind": "tool",
     "name": "Woodcarver's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "artisans-tools"
     ],
@@ -548,13 +548,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:yarting",
     "kind": "tool",
     "name": "Yarting",
-    "source": "srd24",
+    "source": "frhof",
     "tags": [
       "musical-instrument"
     ],
@@ -567,13 +567,13 @@
         ]
       }
     ],
-    "page": "FRHoF 132"
+    "page": "132"
   },
   {
     "id": "srd24:tool:dice-set",
     "kind": "tool",
     "name": "Dice Set",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gaming-set"
     ],
@@ -586,13 +586,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:disguise-kit",
     "kind": "tool",
     "name": "Disguise Kit",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "kit"
     ],
@@ -605,13 +605,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:dragonchess-set",
     "kind": "tool",
     "name": "Dragonchess Set",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gaming-set"
     ],
@@ -624,13 +624,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:forgery-kit",
     "kind": "tool",
     "name": "Forgery Kit",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "kit"
     ],
@@ -643,13 +643,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:herbalism-kit",
     "kind": "tool",
     "name": "Herbalism Kit",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "kit"
     ],
@@ -662,13 +662,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:horn-of-blasting",
     "kind": "tool",
     "name": "Horn of Blasting",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -681,13 +681,13 @@
         ]
       }
     ],
-    "page": "XDMG 270"
+    "page": "270"
   },
   {
     "id": "srd24:tool:horn-of-silent-alarm",
     "kind": "tool",
     "name": "Horn of Silent Alarm",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -700,13 +700,13 @@
         ]
       }
     ],
-    "page": "XDMG 270"
+    "page": "270"
   },
   {
     "id": "srd24:tool:horn-of-valhalla-brass",
     "kind": "tool",
     "name": "Horn of Valhalla, Brass",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -719,13 +719,13 @@
         ]
       }
     ],
-    "page": "XDMG 270"
+    "page": "270"
   },
   {
     "id": "srd24:tool:horn-of-valhalla-bronze",
     "kind": "tool",
     "name": "Horn of Valhalla, Bronze",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -738,13 +738,13 @@
         ]
       }
     ],
-    "page": "XDMG 270"
+    "page": "270"
   },
   {
     "id": "srd24:tool:horn-of-valhalla-iron",
     "kind": "tool",
     "name": "Horn of Valhalla, Iron",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -757,13 +757,13 @@
         ]
       }
     ],
-    "page": "XDMG 270"
+    "page": "270"
   },
   {
     "id": "srd24:tool:horn-of-valhalla-silver",
     "kind": "tool",
     "name": "Horn of Valhalla, Silver",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -776,13 +776,13 @@
         ]
       }
     ],
-    "page": "XDMG 270"
+    "page": "270"
   },
   {
     "id": "srd24:tool:instrument-of-the-bards-cli-lyre",
     "kind": "tool",
     "name": "Instrument of the Bards, Cli Lyre",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -795,13 +795,13 @@
         ]
       }
     ],
-    "page": "XDMG 272"
+    "page": "272"
   },
   {
     "id": "srd24:tool:instrument-of-the-bards-doss-lute",
     "kind": "tool",
     "name": "Instrument of the Bards, Doss Lute",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -814,13 +814,13 @@
         ]
       }
     ],
-    "page": "XDMG 272"
+    "page": "272"
   },
   {
     "id": "srd24:tool:instrument-of-the-bards-fochlucan-bandore",
     "kind": "tool",
     "name": "Instrument of the Bards, Fochlucan Bandore",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -833,13 +833,13 @@
         ]
       }
     ],
-    "page": "XDMG 272"
+    "page": "272"
   },
   {
     "id": "srd24:tool:instrument-of-the-bards-mac-fuirmidh-cittern",
     "kind": "tool",
     "name": "Instrument of the Bards, Mac-Fuirmidh Cittern",
-    "source": "srd24",
+    "source": "xdmg",
     "tags": [
       "musical-instrument"
     ],
@@ -852,13 +852,13 @@
         ]
       }
     ],
-    "page": "XDMG 272"
+    "page": "272"
   },
   {
     "id": "srd24:tool:navigators-tools",
     "kind": "tool",
     "name": "Navigator's Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "kit"
     ],
@@ -871,13 +871,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:playing-cards",
     "kind": "tool",
     "name": "Playing Cards",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gaming-set"
     ],
@@ -890,13 +890,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:poisoners-kit",
     "kind": "tool",
     "name": "Poisoner's Kit",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "kit"
     ],
@@ -909,13 +909,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:thieves-tools",
     "kind": "tool",
     "name": "Thieves' Tools",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "kit"
     ],
@@ -928,13 +928,13 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   },
   {
     "id": "srd24:tool:three-dragon-ante-set",
     "kind": "tool",
     "name": "Three-Dragon Ante Set",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gaming-set"
     ],
@@ -947,6 +947,6 @@
         ]
       }
     ],
-    "page": "XPHB 221"
+    "page": "221"
   }
 ]

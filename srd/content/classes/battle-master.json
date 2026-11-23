@@ -3,17 +3,21 @@
     "id": "srd:subclass:battle-master",
     "kind": "subclass",
     "name": "Battle Master",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "class": "srd:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.",
     "levels": {
       "3": {
         "grants": [
-          "srd:battle-master:battle-master"
+          "srd:battle-master:student-of-war",
+          "srd:battle-master:combat-superiority",
+          "srd:battle-master:maneuvers",
+          "srd:battle-master:maneuver-options"
         ],
         "choices": [
           {
@@ -99,8 +103,8 @@
     "id": "srd:battle-master:student-of-war",
     "kind": "subclass-feature",
     "name": "Student of War",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -111,8 +115,8 @@
     "id": "srd:battle-master:combat-superiority",
     "kind": "subclass-feature",
     "name": "Combat Superiority",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -123,8 +127,8 @@
     "id": "srd:battle-master:maneuvers",
     "kind": "subclass-feature",
     "name": "Maneuvers",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -135,8 +139,8 @@
     "id": "srd:battle-master:maneuver-options",
     "kind": "subclass-feature",
     "name": "Maneuver Options",
-    "source": "srd",
-    "page": "TCE 41",
+    "source": "tce",
+    "page": "41",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -144,29 +148,11 @@
     "text": "*3rd-level fighter optional feature*\n\nIf you have access to maneuvers, the following maneuvers are added to the list of options available to you. Maneuvers are available to Battle Masters but also to characters who have a special feature like the Superior Technique fighting style or the Martial Adept feat."
   },
   {
-    "id": "srd:battle-master:battle-master",
-    "kind": "subclass-feature",
-    "name": "Battle Master",
-    "source": "srd",
-    "page": "PHB 73",
-    "tags": [
-      "battle-master-feature",
-      "fighter-feature"
-    ],
-    "text": "Those who emulate the archetypal Battle Master employ martial techniques passed down through generations. To a Battle Master, combat is an academic field, sometimes including subjects beyond battle such as weaponsmithing and calligraphy. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Battle Master archetype, but those who do are well-rounded fighters of great skill and knowledge.",
-    "grants": [
-      "srd:battle-master:student-of-war",
-      "srd:battle-master:combat-superiority",
-      "srd:battle-master:maneuvers",
-      "srd:battle-master:maneuver-options"
-    ]
-  },
-  {
     "id": "srd:battle-master:additional-maneuvers",
     "kind": "subclass-feature",
     "name": "Additional Maneuvers",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -177,8 +163,8 @@
     "id": "srd:battle-master:additional-superiority-die",
     "kind": "subclass-feature",
     "name": "Additional Superiority Die",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -189,8 +175,8 @@
     "id": "srd:battle-master:know-your-enemy",
     "kind": "subclass-feature",
     "name": "Know Your Enemy",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -201,8 +187,8 @@
     "id": "srd:battle-master:additional-maneuvers-10",
     "kind": "subclass-feature",
     "name": "Additional Maneuvers",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -213,8 +199,8 @@
     "id": "srd:battle-master:improved-combat-superiority-d10",
     "kind": "subclass-feature",
     "name": "Improved Combat Superiority (d10)",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -225,8 +211,8 @@
     "id": "srd:battle-master:additional-maneuvers-15",
     "kind": "subclass-feature",
     "name": "Additional Maneuvers",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -237,8 +223,8 @@
     "id": "srd:battle-master:additional-superiority-die-15",
     "kind": "subclass-feature",
     "name": "Additional Superiority Die",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -249,8 +235,8 @@
     "id": "srd:battle-master:relentless",
     "kind": "subclass-feature",
     "name": "Relentless",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"
@@ -261,8 +247,8 @@
     "id": "srd:battle-master:improved-combat-superiority-d12",
     "kind": "subclass-feature",
     "name": "Improved Combat Superiority (d12)",
-    "source": "srd",
-    "page": "PHB 73",
+    "source": "phb",
+    "page": "73",
     "tags": [
       "battle-master-feature",
       "fighter-feature"

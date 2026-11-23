@@ -3,17 +3,19 @@
     "id": "srd24:subclass:circle-of-the-stars",
     "kind": "subclass",
     "name": "Circle of the Stars",
-    "source": "srd24",
-    "page": "XPHB 88",
+    "source": "xphb",
+    "page": "88",
     "class": "srd24:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "*Harness Secrets Hidden in Constellations*\n\nThe Circle of the Stars has tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By understanding these secrets, the Druids of this circle seek to harness the powers of the cosmos.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:stars:circle-of-the-stars",
+          "srd24:stars:star-map",
+          "srd24:stars:starry-form",
           "srd24:spell:guidance",
           "srd24:spell:guiding-bolt"
         ]
@@ -39,8 +41,8 @@
     "id": "srd24:stars:star-map",
     "kind": "subclass-feature",
     "name": "Star Map",
-    "source": "srd24",
-    "page": "XPHB 88",
+    "source": "xphb",
+    "page": "88",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -51,8 +53,8 @@
     "id": "srd24:stars:archer",
     "kind": "subclass-feature",
     "name": "Archer",
-    "source": "srd24",
-    "page": "XPHB 88",
+    "source": "xphb",
+    "page": "88",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -63,8 +65,8 @@
     "id": "srd24:stars:chalice",
     "kind": "subclass-feature",
     "name": "Chalice",
-    "source": "srd24",
-    "page": "XPHB 88",
+    "source": "xphb",
+    "page": "88",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -75,8 +77,8 @@
     "id": "srd24:stars:dragon",
     "kind": "subclass-feature",
     "name": "Dragon",
-    "source": "srd24",
-    "page": "XPHB 88",
+    "source": "xphb",
+    "page": "88",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -87,8 +89,8 @@
     "id": "srd24:stars:starry-form",
     "kind": "subclass-feature",
     "name": "Starry Form",
-    "source": "srd24",
-    "page": "XPHB 88",
+    "source": "xphb",
+    "page": "88",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -115,27 +117,11 @@
     ]
   },
   {
-    "id": "srd24:stars:circle-of-the-stars",
-    "kind": "subclass-feature",
-    "name": "Circle of the Stars",
-    "source": "srd24",
-    "page": "XPHB 88",
-    "tags": [
-      "stars-feature",
-      "druid-feature"
-    ],
-    "text": "*Harness Secrets Hidden in Constellations*\n\nThe Circle of the Stars has tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By understanding these secrets, the Druids of this circle seek to harness the powers of the cosmos.",
-    "grants": [
-      "srd24:stars:star-map",
-      "srd24:stars:starry-form"
-    ]
-  },
-  {
     "id": "srd24:stars:cosmic-omen",
     "kind": "subclass-feature",
     "name": "Cosmic Omen",
-    "source": "srd24",
-    "page": "XPHB 89",
+    "source": "xphb",
+    "page": "89",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -146,8 +132,8 @@
     "id": "srd24:stars:twinkling-constellations",
     "kind": "subclass-feature",
     "name": "Twinkling Constellations",
-    "source": "srd24",
-    "page": "XPHB 89",
+    "source": "xphb",
+    "page": "89",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -158,8 +144,8 @@
     "id": "srd24:stars:full-of-stars",
     "kind": "subclass-feature",
     "name": "Full of Stars",
-    "source": "srd24",
-    "page": "XPHB 89",
+    "source": "xphb",
+    "page": "89",
     "tags": [
       "stars-feature",
       "druid-feature"

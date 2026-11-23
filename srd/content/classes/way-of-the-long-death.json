@@ -3,17 +3,18 @@
     "id": "srd:subclass:way-of-the-long-death",
     "kind": "subclass",
     "name": "Way of the Long Death",
-    "source": "srd",
-    "page": "SCAG 130",
+    "source": "scag",
+    "page": "130",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.",
     "levels": {
       "3": {
         "grants": [
-          "srd:long-death:way-of-the-long-death"
+          "srd:long-death:touch-of-death"
         ]
       },
       "6": {
@@ -37,8 +38,8 @@
     "id": "srd:long-death:touch-of-death",
     "kind": "subclass-feature",
     "name": "Touch of Death",
-    "source": "srd",
-    "page": "SCAG 130",
+    "source": "scag",
+    "page": "130",
     "tags": [
       "long-death-feature",
       "monk-feature"
@@ -46,26 +47,11 @@
     "text": "Starting when you choose this tradition at 3rd level, your study of death allows you to extract vitality from another creature as it nears its demise. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1 temporary hit point)."
   },
   {
-    "id": "srd:long-death:way-of-the-long-death",
-    "kind": "subclass-feature",
-    "name": "Way of the Long Death",
-    "source": "srd",
-    "page": "SCAG 130",
-    "tags": [
-      "long-death-feature",
-      "monk-feature"
-    ],
-    "text": "Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style.",
-    "grants": [
-      "srd:long-death:touch-of-death"
-    ]
-  },
-  {
     "id": "srd:long-death:hour-of-reaping",
     "kind": "subclass-feature",
     "name": "Hour of Reaping",
-    "source": "srd",
-    "page": "SCAG 130",
+    "source": "scag",
+    "page": "130",
     "tags": [
       "long-death-feature",
       "monk-feature"
@@ -76,8 +62,8 @@
     "id": "srd:long-death:mastery-of-death",
     "kind": "subclass-feature",
     "name": "Mastery of Death",
-    "source": "srd",
-    "page": "SCAG 130",
+    "source": "scag",
+    "page": "130",
     "tags": [
       "long-death-feature",
       "monk-feature"
@@ -98,8 +84,8 @@
     "id": "srd:long-death:touch-of-the-long-death",
     "kind": "subclass-feature",
     "name": "Touch of the Long Death",
-    "source": "srd",
-    "page": "SCAG 130",
+    "source": "scag",
+    "page": "130",
     "tags": [
       "long-death-feature",
       "monk-feature"

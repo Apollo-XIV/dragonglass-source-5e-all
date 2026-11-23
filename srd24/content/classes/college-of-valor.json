@@ -3,17 +3,19 @@
     "id": "srd24:subclass:college-of-valor",
     "kind": "subclass",
     "name": "College of Valor",
-    "source": "srd24",
-    "page": "XPHB 67",
+    "source": "xphb",
+    "page": "67",
     "class": "srd24:class:bard",
     "tags": [
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "*Sing the Deeds of Ancient Heroes*\n\nBards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn't pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:valor:college-of-valor"
+          "srd24:valor:combat-inspiration",
+          "srd24:valor:martial-training"
         ]
       },
       "6": {
@@ -32,8 +34,8 @@
     "id": "srd24:valor:combat-inspiration",
     "kind": "subclass-feature",
     "name": "Combat Inspiration",
-    "source": "srd24",
-    "page": "XPHB 67",
+    "source": "xphb",
+    "page": "67",
     "tags": [
       "valor-feature",
       "bard-feature"
@@ -44,8 +46,8 @@
     "id": "srd24:valor:martial-training",
     "kind": "subclass-feature",
     "name": "Martial Training",
-    "source": "srd24",
-    "page": "XPHB 67",
+    "source": "xphb",
+    "page": "67",
     "tags": [
       "valor-feature",
       "bard-feature"
@@ -78,27 +80,11 @@
     ]
   },
   {
-    "id": "srd24:valor:college-of-valor",
-    "kind": "subclass-feature",
-    "name": "College of Valor",
-    "source": "srd24",
-    "page": "XPHB 67",
-    "tags": [
-      "valor-feature",
-      "bard-feature"
-    ],
-    "text": "*Sing the Deeds of Ancient Heroes*\n\nBards of the College of Valor are daring storytellers whose tales preserve the memory of the great heroes of the past. These Bards sing the deeds of the mighty in vaulted halls or to crowds gathered around great bonfires. They travel to witness great events firsthand and to ensure that the memory of these events doesn't pass away. With their songs, they inspire new generations to reach the same heights of accomplishment as the heroes of old.",
-    "grants": [
-      "srd24:valor:combat-inspiration",
-      "srd24:valor:martial-training"
-    ]
-  },
-  {
     "id": "srd24:valor:extra-attack",
     "kind": "subclass-feature",
     "name": "Extra Attack",
-    "source": "srd24",
-    "page": "XPHB 67",
+    "source": "xphb",
+    "page": "67",
     "tags": [
       "valor-feature",
       "bard-feature"
@@ -109,8 +95,8 @@
     "id": "srd24:valor:battle-magic",
     "kind": "subclass-feature",
     "name": "Battle Magic",
-    "source": "srd24",
-    "page": "XPHB 67",
+    "source": "xphb",
+    "page": "67",
     "tags": [
       "valor-feature",
       "bard-feature"

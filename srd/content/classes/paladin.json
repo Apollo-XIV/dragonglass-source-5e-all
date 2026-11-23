@@ -3,8 +3,8 @@
     "id": "srd:class:paladin",
     "kind": "class",
     "name": "Paladin",
-    "source": "srd",
-    "page": "PHB 82",
+    "source": "phb",
+    "page": "82",
     "key": "paladin",
     "hitDie": "d10",
     "tags": [

@@ -3,13 +3,14 @@
     "id": "srd:subclass:divine-soul",
     "kind": "subclass",
     "name": "Divine Soul",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "class": "srd:class:sorcerer",
     "tags": [
       "sorcerer-subclass",
       "srd-subclass"
     ],
+    "text": "Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god's name.\n\nOr your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.\n\nA Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.\n\nIn some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
     "fluff": "> Why do so many celestial things have bird wings and infernal things have bat wings? It seems arbitrary. There should be a bat angel!\n>\n> — Xanathar",
     "choices": [
       {
@@ -27,7 +28,8 @@
     "levels": {
       "1": {
         "grants": [
-          "srd:divine-soul:divine-soul"
+          "srd:divine-soul:divine-magic",
+          "srd:divine-soul:favored-by-the-gods"
         ]
       },
       "6": {
@@ -51,7 +53,7 @@
     "id": "srd:terrain:good",
     "kind": "terrain",
     "name": "Good",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "divine-soul-terrain-option"
     ],
@@ -159,7 +161,7 @@
     "id": "srd:terrain:evil",
     "kind": "terrain",
     "name": "Evil",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "divine-soul-terrain-option"
     ],
@@ -267,7 +269,7 @@
     "id": "srd:terrain:law",
     "kind": "terrain",
     "name": "Law",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "divine-soul-terrain-option"
     ],
@@ -375,7 +377,7 @@
     "id": "srd:terrain:chaos",
     "kind": "terrain",
     "name": "Chaos",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "divine-soul-terrain-option"
     ],
@@ -483,7 +485,7 @@
     "id": "srd:terrain:neutrality",
     "kind": "terrain",
     "name": "Neutrality",
-    "source": "srd",
+    "source": "xge",
     "tags": [
       "divine-soul-terrain-option"
     ],
@@ -591,8 +593,8 @@
     "id": "srd:divine-soul:divine-magic",
     "kind": "subclass-feature",
     "name": "Divine Magic",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "divine-soul-feature",
       "sorcerer-feature"
@@ -603,8 +605,8 @@
     "id": "srd:divine-soul:favored-by-the-gods",
     "kind": "subclass-feature",
     "name": "Favored by the Gods",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "divine-soul-feature",
       "sorcerer-feature"
@@ -643,27 +645,11 @@
     ]
   },
   {
-    "id": "srd:divine-soul:divine-soul",
-    "kind": "subclass-feature",
-    "name": "Divine Soul",
-    "source": "srd",
-    "page": "XGE 50",
-    "tags": [
-      "divine-soul-feature",
-      "sorcerer-feature"
-    ],
-    "text": "Sometimes the spark of magic that fuels a sorcerer comes from a divine source that glimmers within the soul. Having such a blessed soul is a sign that your innate magic might come from a distant but powerful familial connection to a divine being. Perhaps your ancestor was an angel, transformed into a mortal and sent to fight in a god's name.\n\nOr your birth might align with an ancient prophecy, marking you as a servant of the gods or a chosen vessel of divine magic.\n\nA Divine Soul, with a natural magnetism, is seen as a threat by some religious hierarchies. As an outsider who commands sacred power, a Divine Soul can undermine an existing order by claiming a direct tie to the divine.\n\nIn some cultures, only those who can claim the power of a Divine Soul may command religious power. In these lands, ecclesiastical positions are dominated by a few bloodlines and preserved over generations.",
-    "grants": [
-      "srd:divine-soul:divine-magic",
-      "srd:divine-soul:favored-by-the-gods"
-    ]
-  },
-  {
     "id": "srd:divine-soul:empowered-healing",
     "kind": "subclass-feature",
     "name": "Empowered Healing",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "divine-soul-feature",
       "sorcerer-feature"
@@ -684,8 +670,8 @@
     "id": "srd:divine-soul:otherworldly-wings",
     "kind": "subclass-feature",
     "name": "Otherworldly Wings",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "divine-soul-feature",
       "sorcerer-feature"
@@ -707,8 +693,8 @@
     "id": "srd:divine-soul:unearthly-recovery",
     "kind": "subclass-feature",
     "name": "Unearthly Recovery",
-    "source": "srd",
-    "page": "XGE 50",
+    "source": "xge",
+    "page": "50",
     "tags": [
       "divine-soul-feature",
       "sorcerer-feature"

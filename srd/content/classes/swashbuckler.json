@@ -3,18 +3,20 @@
     "id": "srd:subclass:swashbuckler",
     "kind": "subclass",
     "name": "Swashbuckler",
-    "source": "srd",
-    "page": "XGE 48",
+    "source": "xge",
+    "page": "48",
     "class": "srd:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.\n\nA Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
     "fluff": "> What's a swashbuckler? Do you swash buckles or buckle swashes? You can't tell me you don't think that word is funny.\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:swashbuckler:swashbuckler"
+          "srd:swashbuckler:fancy-footwork",
+          "srd:swashbuckler:rakish-audacity"
         ]
       },
       "9": {
@@ -38,8 +40,8 @@
     "id": "srd:swashbuckler:fancy-footwork",
     "kind": "subclass-feature",
     "name": "Fancy Footwork",
-    "source": "srd",
-    "page": "XGE 48",
+    "source": "xge",
+    "page": "48",
     "tags": [
       "swashbuckler-feature",
       "rogue-feature"
@@ -50,8 +52,8 @@
     "id": "srd:swashbuckler:rakish-audacity",
     "kind": "subclass-feature",
     "name": "Rakish Audacity",
-    "source": "srd",
-    "page": "XGE 48",
+    "source": "xge",
+    "page": "48",
     "tags": [
       "swashbuckler-feature",
       "rogue-feature"
@@ -59,27 +61,11 @@
     "text": "Starting at 3rd level, your confidence propels you into battle. You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.\n\nYou also gain an additional way to use your Sneak Attack; you don't need advantage on your attack roll to use Sneak Attack against a creature if you are within 5 feet of it, no other creatures are within 5 feet of you, and you don't have disadvantage on the attack roll. All the other rules for Sneak Attack still apply to you."
   },
   {
-    "id": "srd:swashbuckler:swashbuckler",
-    "kind": "subclass-feature",
-    "name": "Swashbuckler",
-    "source": "srd",
-    "page": "XGE 48",
-    "tags": [
-      "swashbuckler-feature",
-      "rogue-feature"
-    ],
-    "text": "You focus your training on the art of the blade, relying on speed, elegance, and charm in equal parts. While some warriors are brutes clad in heavy armor, your method of fighting looks almost like a performance. Duelists and pirates typically belong to this archetype.\n\nA Swashbuckler excels in single combat, and can fight with two weapons while safely darting away from an opponent.",
-    "grants": [
-      "srd:swashbuckler:fancy-footwork",
-      "srd:swashbuckler:rakish-audacity"
-    ]
-  },
-  {
     "id": "srd:swashbuckler:panache",
     "kind": "subclass-feature",
     "name": "Panache",
-    "source": "srd",
-    "page": "XGE 48",
+    "source": "xge",
+    "page": "48",
     "tags": [
       "swashbuckler-feature",
       "rogue-feature"
@@ -101,8 +87,8 @@
     "id": "srd:swashbuckler:elegant-maneuver",
     "kind": "subclass-feature",
     "name": "Elegant Maneuver",
-    "source": "srd",
-    "page": "XGE 48",
+    "source": "xge",
+    "page": "48",
     "tags": [
       "swashbuckler-feature",
       "rogue-feature"
@@ -124,8 +110,8 @@
     "id": "srd:swashbuckler:master-duelist",
     "kind": "subclass-feature",
     "name": "Master Duelist",
-    "source": "srd",
-    "page": "XGE 48",
+    "source": "xge",
+    "page": "48",
     "tags": [
       "swashbuckler-feature",
       "rogue-feature"

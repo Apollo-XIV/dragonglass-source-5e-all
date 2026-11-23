@@ -3,7 +3,7 @@
     "id": "srd:item-property:two-handed",
     "kind": "item-property",
     "name": "Two-Handed",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -14,7 +14,7 @@
     "id": "srd:item-property:ammunition",
     "kind": "item-property",
     "name": "Ammunition",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -25,7 +25,7 @@
     "id": "srd:item-property:ammunition-af",
     "kind": "item-property",
     "name": "Ammunition",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -36,7 +36,7 @@
     "id": "srd:item-property:burst-fire",
     "kind": "item-property",
     "name": "Burst Fire",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -47,7 +47,7 @@
     "id": "srd:item-property:evolving-item",
     "kind": "item-property",
     "name": "Evolving Item",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -58,7 +58,7 @@
     "id": "srd:item-property:finesse",
     "kind": "item-property",
     "name": "Finesse",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -69,7 +69,7 @@
     "id": "srd:item-property:heavy",
     "kind": "item-property",
     "name": "Heavy",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -80,7 +80,7 @@
     "id": "srd:item-property:light",
     "kind": "item-property",
     "name": "Light",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -91,7 +91,7 @@
     "id": "srd:item-property:loading",
     "kind": "item-property",
     "name": "Loading",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -102,7 +102,7 @@
     "id": "srd:item-property:reach",
     "kind": "item-property",
     "name": "Reach",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -113,7 +113,7 @@
     "id": "srd:item-property:reload",
     "kind": "item-property",
     "name": "Reload",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -124,7 +124,7 @@
     "id": "srd:item-property:s",
     "kind": "item-property",
     "name": "S",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -135,7 +135,7 @@
     "id": "srd:item-property:thrown",
     "kind": "item-property",
     "name": "Thrown",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -146,7 +146,7 @@
     "id": "srd:item-property:versatile",
     "kind": "item-property",
     "name": "Versatile",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],
@@ -157,7 +157,7 @@
     "id": "srd:item-property:vestige-of-divergence",
     "kind": "item-property",
     "name": "Vestige of Divergence",
-    "source": "srd",
+    "source": "phb",
     "tags": [
       "item-property"
     ],

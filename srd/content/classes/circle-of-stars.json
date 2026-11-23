@@ -3,17 +3,19 @@
     "id": "srd:subclass:circle-of-stars",
     "kind": "subclass",
     "name": "Circle of Stars",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "class": "srd:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "The Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.\n\nMany druids of this circle keep records of the constellations and the stars' effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples-any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.",
     "levels": {
       "2": {
         "grants": [
-          "srd:stars:circle-of-stars",
+          "srd:stars:star-map",
+          "srd:stars:starry-form",
           "srd:spell:guidance",
           "srd:spell:guiding-bolt"
         ]
@@ -39,8 +41,8 @@
     "id": "srd:stars:star-map",
     "kind": "subclass-feature",
     "name": "Star Map",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -51,8 +53,8 @@
     "id": "srd:stars:archer",
     "kind": "subclass-feature",
     "name": "Archer",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -63,8 +65,8 @@
     "id": "srd:stars:chalice",
     "kind": "subclass-feature",
     "name": "Chalice",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -75,8 +77,8 @@
     "id": "srd:stars:dragon",
     "kind": "subclass-feature",
     "name": "Dragon",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -87,8 +89,8 @@
     "id": "srd:stars:starry-form",
     "kind": "subclass-feature",
     "name": "Starry Form",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -115,27 +117,11 @@
     ]
   },
   {
-    "id": "srd:stars:circle-of-stars",
-    "kind": "subclass-feature",
-    "name": "Circle of Stars",
-    "source": "srd",
-    "page": "TCE 38",
-    "tags": [
-      "stars-feature",
-      "druid-feature"
-    ],
-    "text": "The Circle of Stars allows druids to draw on the power of starlight. These druids have tracked heavenly patterns since time immemorial, discovering secrets hidden amid the constellations. By revealing and understanding these secrets, the Circle of the Stars seeks to harness the powers of the cosmos.\n\nMany druids of this circle keep records of the constellations and the stars' effects on the world. Some groups document these observations at megalithic sites, which serve as enigmatic libraries of lore. These repositories might take the form of stone circles, pyramids, petroglyphs, and underground temples-any construction durable enough to protect the circle's sacred knowledge even against a great cataclysm.",
-    "grants": [
-      "srd:stars:star-map",
-      "srd:stars:starry-form"
-    ]
-  },
-  {
     "id": "srd:stars:cosmic-omen",
     "kind": "subclass-feature",
     "name": "Cosmic Omen",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -146,8 +132,8 @@
     "id": "srd:stars:twinkling-constellations",
     "kind": "subclass-feature",
     "name": "Twinkling Constellations",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "tags": [
       "stars-feature",
       "druid-feature"
@@ -158,8 +144,8 @@
     "id": "srd:stars:full-of-stars",
     "kind": "subclass-feature",
     "name": "Full of Stars",
-    "source": "srd",
-    "page": "TCE 38",
+    "source": "tce",
+    "page": "38",
     "tags": [
       "stars-feature",
       "druid-feature"

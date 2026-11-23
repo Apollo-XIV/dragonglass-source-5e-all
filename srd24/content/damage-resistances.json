@@ -3,7 +3,7 @@
     "id": "srd24:resistance:acid",
     "kind": "damage-resistance",
     "name": "Acid Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -18,7 +18,7 @@
     "id": "srd24:resistance:bludgeoning",
     "kind": "damage-resistance",
     "name": "Bludgeoning Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -33,7 +33,7 @@
     "id": "srd24:resistance:cold",
     "kind": "damage-resistance",
     "name": "Cold Resistance",
-    "source": "srd24",
+    "source": "rhw",
     "modifiers": [
       {
         "target": "resistances",
@@ -48,7 +48,7 @@
     "id": "srd24:resistance:fire",
     "kind": "damage-resistance",
     "name": "Fire Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -63,7 +63,7 @@
     "id": "srd24:resistance:force",
     "kind": "damage-resistance",
     "name": "Force Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -78,7 +78,7 @@
     "id": "srd24:resistance:lightning",
     "kind": "damage-resistance",
     "name": "Lightning Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -93,7 +93,7 @@
     "id": "srd24:resistance:necrotic",
     "kind": "damage-resistance",
     "name": "Necrotic Resistance",
-    "source": "srd24",
+    "source": "rhw",
     "modifiers": [
       {
         "target": "resistances",
@@ -108,7 +108,7 @@
     "id": "srd24:resistance:piercing",
     "kind": "damage-resistance",
     "name": "Piercing Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -123,7 +123,7 @@
     "id": "srd24:resistance:poison",
     "kind": "damage-resistance",
     "name": "Poison Resistance",
-    "source": "srd24",
+    "source": "rhw",
     "modifiers": [
       {
         "target": "resistances",
@@ -138,7 +138,7 @@
     "id": "srd24:resistance:psychic",
     "kind": "damage-resistance",
     "name": "Psychic Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -153,7 +153,7 @@
     "id": "srd24:resistance:radiant",
     "kind": "damage-resistance",
     "name": "Radiant Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -168,7 +168,7 @@
     "id": "srd24:resistance:slashing",
     "kind": "damage-resistance",
     "name": "Slashing Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",
@@ -183,7 +183,7 @@
     "id": "srd24:resistance:thunder",
     "kind": "damage-resistance",
     "name": "Thunder Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "modifiers": [
       {
         "target": "resistances",

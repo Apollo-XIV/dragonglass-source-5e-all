@@ -3,8 +3,8 @@
     "id": "srd24:rogue:expertise",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd24",
-    "page": "XPHB 128",
+    "source": "xphb",
+    "page": "128",
     "tags": [
       "rogue-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd24:rogue:sneak-attack",
     "kind": "class-feature",
     "name": "Sneak Attack",
-    "source": "srd24",
-    "page": "XPHB 128",
+    "source": "xphb",
+    "page": "128",
     "tags": [
       "rogue-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd24:rogue:thieves-cant",
     "kind": "class-feature",
     "name": "Thieves' Cant",
-    "source": "srd24",
-    "page": "XPHB 128",
+    "source": "xphb",
+    "page": "128",
     "tags": [
       "rogue-feature"
     ],
@@ -36,8 +36,8 @@
     "id": "srd24:rogue:weapon-mastery",
     "kind": "class-feature",
     "name": "Weapon Mastery",
-    "source": "srd24",
-    "page": "XPHB 128",
+    "source": "xphb",
+    "page": "128",
     "tags": [
       "rogue-feature"
     ],
@@ -47,8 +47,8 @@
     "id": "srd24:rogue:cunning-action",
     "kind": "class-feature",
     "name": "Cunning Action",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -87,8 +87,8 @@
     "id": "srd24:rogue:rogue-subclass",
     "kind": "class-feature",
     "name": "Rogue Subclass",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -98,8 +98,8 @@
     "id": "srd24:rogue:steady-aim",
     "kind": "class-feature",
     "name": "Steady Aim",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -120,8 +120,8 @@
     "id": "srd24:rogue:poison-cost-1d6",
     "kind": "class-feature",
     "name": "Poison (Cost: 1d6)",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -131,8 +131,8 @@
     "id": "srd24:rogue:trip-cost-1d6",
     "kind": "class-feature",
     "name": "Trip (Cost: 1d6)",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -142,8 +142,8 @@
     "id": "srd24:rogue:withdraw-cost-1d6",
     "kind": "class-feature",
     "name": "Withdraw (Cost: 1d6)",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -153,8 +153,8 @@
     "id": "srd24:rogue:cunning-strike",
     "kind": "class-feature",
     "name": "Cunning Strike",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -169,8 +169,8 @@
     "id": "srd24:rogue:uncanny-dodge",
     "kind": "class-feature",
     "name": "Uncanny Dodge",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -191,8 +191,8 @@
     "id": "srd24:rogue:expertise-6",
     "kind": "class-feature",
     "name": "Expertise",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -202,8 +202,8 @@
     "id": "srd24:rogue:evasion",
     "kind": "class-feature",
     "name": "Evasion",
-    "source": "srd24",
-    "page": "XPHB 129",
+    "source": "xphb",
+    "page": "129",
     "tags": [
       "rogue-feature"
     ],
@@ -213,8 +213,8 @@
     "id": "srd24:rogue:reliable-talent",
     "kind": "class-feature",
     "name": "Reliable Talent",
-    "source": "srd24",
-    "page": "XPHB 130",
+    "source": "xphb",
+    "page": "130",
     "tags": [
       "rogue-feature"
     ],
@@ -224,8 +224,8 @@
     "id": "srd24:rogue:improved-cunning-strike",
     "kind": "class-feature",
     "name": "Improved Cunning Strike",
-    "source": "srd24",
-    "page": "XPHB 130",
+    "source": "xphb",
+    "page": "130",
     "tags": [
       "rogue-feature"
     ],
@@ -235,8 +235,8 @@
     "id": "srd24:rogue:daze-cost-2d6",
     "kind": "class-feature",
     "name": "Daze (Cost: 2d6)",
-    "source": "srd24",
-    "page": "XPHB 131",
+    "source": "xphb",
+    "page": "131",
     "tags": [
       "rogue-feature"
     ],
@@ -246,8 +246,8 @@
     "id": "srd24:rogue:knock-out-cost-6d6",
     "kind": "class-feature",
     "name": "Knock Out (Cost: 6d6)",
-    "source": "srd24",
-    "page": "XPHB 131",
+    "source": "xphb",
+    "page": "131",
     "tags": [
       "rogue-feature"
     ],
@@ -257,8 +257,8 @@
     "id": "srd24:rogue:obscure-cost-3d6",
     "kind": "class-feature",
     "name": "Obscure (Cost: 3d6)",
-    "source": "srd24",
-    "page": "XPHB 131",
+    "source": "xphb",
+    "page": "131",
     "tags": [
       "rogue-feature"
     ],
@@ -268,8 +268,8 @@
     "id": "srd24:rogue:devious-strikes",
     "kind": "class-feature",
     "name": "Devious Strikes",
-    "source": "srd24",
-    "page": "XPHB 131",
+    "source": "xphb",
+    "page": "131",
     "tags": [
       "rogue-feature"
     ],
@@ -284,8 +284,8 @@
     "id": "srd24:rogue:slippery-mind",
     "kind": "class-feature",
     "name": "Slippery Mind",
-    "source": "srd24",
-    "page": "XPHB 131",
+    "source": "xphb",
+    "page": "131",
     "tags": [
       "rogue-feature"
     ],
@@ -295,8 +295,8 @@
     "id": "srd24:rogue:elusive",
     "kind": "class-feature",
     "name": "Elusive",
-    "source": "srd24",
-    "page": "XPHB 131",
+    "source": "xphb",
+    "page": "131",
     "tags": [
       "rogue-feature"
     ],
@@ -306,8 +306,8 @@
     "id": "srd24:rogue:epic-boon",
     "kind": "class-feature",
     "name": "Epic Boon",
-    "source": "srd24",
-    "page": "XPHB 131",
+    "source": "xphb",
+    "page": "131",
     "tags": [
       "rogue-feature"
     ],
@@ -317,8 +317,8 @@
     "id": "srd24:rogue:stroke-of-luck",
     "kind": "class-feature",
     "name": "Stroke of Luck",
-    "source": "srd24",
-    "page": "XPHB 131",
+    "source": "xphb",
+    "page": "131",
     "tags": [
       "rogue-feature"
     ],

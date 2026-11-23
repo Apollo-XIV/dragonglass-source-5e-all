@@ -3,18 +3,19 @@
     "id": "srd:subclass:way-of-the-sun-soul",
     "kind": "subclass",
     "name": "Way of the Sun Soul",
-    "source": "srd",
-    "page": "XGE 35",
+    "source": "xge",
+    "page": "35",
     "class": "srd:class:monk",
     "tags": [
       "monk-subclass",
       "srd-subclass"
     ],
+    "text": "Monks of the Way of the Sun Soul learn to channel their life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.",
     "fluff": "> So you have this soul, but you can't see it or touch it. And when you die, this invisible thing leaves your body and goes to a place you can't see. And you people think I'm crazy?\n>\n> — Xanathar",
     "levels": {
       "3": {
         "grants": [
-          "srd:sun-soul:way-of-the-sun-soul"
+          "srd:sun-soul:radiant-sun-bolt"
         ]
       },
       "6": {
@@ -47,8 +48,8 @@
     "id": "srd:sun-soul:radiant-sun-bolt",
     "kind": "subclass-feature",
     "name": "Radiant Sun Bolt",
-    "source": "srd",
-    "page": "XGE 35",
+    "source": "xge",
+    "page": "35",
     "tags": [
       "sun-soul-feature",
       "monk-feature"
@@ -56,26 +57,11 @@
     "text": "Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.\n\nYou gain a new attack option that you can use with the Attack action. The special attack is a ranged spell attack with a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.\n\nWhen you take the Attack action on your turn and use this special attack as part of it, you can spend 1 ki point to make the special attack twice as a bonus action. When you gain the Extra Attack feature, this special attack can be used for any of the attacks you make as part of the Attack action."
   },
   {
-    "id": "srd:sun-soul:way-of-the-sun-soul",
-    "kind": "subclass-feature",
-    "name": "Way of the Sun Soul",
-    "source": "srd",
-    "page": "XGE 35",
-    "tags": [
-      "sun-soul-feature",
-      "monk-feature"
-    ],
-    "text": "Monks of the Way of the Sun Soul learn to channel their life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature.",
-    "grants": [
-      "srd:sun-soul:radiant-sun-bolt"
-    ]
-  },
-  {
     "id": "srd:sun-soul:searing-arc-strike",
     "kind": "subclass-feature",
     "name": "Searing Arc Strike",
-    "source": "srd",
-    "page": "XGE 35",
+    "source": "xge",
+    "page": "35",
     "tags": [
       "sun-soul-feature",
       "monk-feature"
@@ -96,8 +82,8 @@
     "id": "srd:sun-soul:searing-sunburst",
     "kind": "subclass-feature",
     "name": "Searing Sunburst",
-    "source": "srd",
-    "page": "XGE 35",
+    "source": "xge",
+    "page": "35",
     "tags": [
       "sun-soul-feature",
       "monk-feature"
@@ -119,8 +105,8 @@
     "id": "srd:sun-soul:sun-shield",
     "kind": "subclass-feature",
     "name": "Sun Shield",
-    "source": "srd",
-    "page": "XGE 35",
+    "source": "xge",
+    "page": "35",
     "tags": [
       "sun-soul-feature",
       "monk-feature"

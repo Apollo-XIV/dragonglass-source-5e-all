@@ -3,13 +3,14 @@
     "id": "srd24:subclass:celestial-patron",
     "kind": "subclass",
     "name": "Celestial Patron",
-    "source": "srd24",
-    "page": "XPHB 160",
+    "source": "xphb",
+    "page": "160",
     "class": "srd24:class:warlock",
     "tags": [
       "warlock-subclass",
       "srd-subclass"
     ],
+    "text": "*Call on the Power of the Heavens*\n\nYour pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse.",
     "levels": {
       "1": {
         "grants": [
@@ -19,7 +20,8 @@
       },
       "3": {
         "grants": [
-          "srd24:celestial:celestial-patron",
+          "srd24:celestial:celestial-spells",
+          "srd24:celestial:healing-light",
           "srd24:spell:aid",
           "srd24:spell:cure-wounds",
           "srd24:spell:guiding-bolt",
@@ -65,8 +67,8 @@
     "id": "srd24:celestial:celestial-spells",
     "kind": "subclass-feature",
     "name": "Celestial Spells",
-    "source": "srd24",
-    "page": "XPHB 160",
+    "source": "xphb",
+    "page": "160",
     "tags": [
       "celestial-feature",
       "warlock-feature"
@@ -77,8 +79,8 @@
     "id": "srd24:celestial:healing-light",
     "kind": "subclass-feature",
     "name": "Healing Light",
-    "source": "srd24",
-    "page": "XPHB 160",
+    "source": "xphb",
+    "page": "160",
     "tags": [
       "celestial-feature",
       "warlock-feature"
@@ -97,27 +99,11 @@
     ]
   },
   {
-    "id": "srd24:celestial:celestial-patron",
-    "kind": "subclass-feature",
-    "name": "Celestial Patron",
-    "source": "srd24",
-    "page": "XPHB 160",
-    "tags": [
-      "celestial-feature",
-      "warlock-feature"
-    ],
-    "text": "*Call on the Power of the Heavens*\n\nYour pact draws on the Upper Planes, the realms of everlasting bliss. You might enter an agreement with an empyrean, a couatl, a sphinx, a unicorn, or another heavenly entity. Or you might call on numerous such beings as you pursue goals aligned with theirs. Your pact allows you to experience a hint of the holy light that illuminates the multiverse.",
-    "grants": [
-      "srd24:celestial:celestial-spells",
-      "srd24:celestial:healing-light"
-    ]
-  },
-  {
     "id": "srd24:celestial:radiant-soul",
     "kind": "subclass-feature",
     "name": "Radiant Soul",
-    "source": "srd24",
-    "page": "XPHB 160",
+    "source": "xphb",
+    "page": "160",
     "tags": [
       "celestial-feature",
       "warlock-feature"
@@ -141,8 +127,8 @@
     "id": "srd24:celestial:celestial-resilience",
     "kind": "subclass-feature",
     "name": "Celestial Resilience",
-    "source": "srd24",
-    "page": "XPHB 161",
+    "source": "xphb",
+    "page": "161",
     "tags": [
       "celestial-feature",
       "warlock-feature"
@@ -153,8 +139,8 @@
     "id": "srd24:celestial:searing-vengeance",
     "kind": "subclass-feature",
     "name": "Searing Vengeance",
-    "source": "srd24",
-    "page": "XPHB 161",
+    "source": "xphb",
+    "page": "161",
     "tags": [
       "celestial-feature",
       "warlock-feature"

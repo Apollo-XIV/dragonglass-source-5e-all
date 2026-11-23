@@ -3,34 +3,34 @@
     "id": "srd24:aasimar:celestial-resistance",
     "kind": "species-trait",
     "name": "Celestial Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "aasimar-trait"
     ],
     "text": "You have Resistance to Necrotic damage and Radiant damage.",
-    "page": "XPHB 186"
+    "page": "186"
   },
   {
     "id": "srd24:aasimar:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "aasimar-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "XPHB 186"
+    "page": "186"
   },
   {
     "id": "srd24:aasimar:healing-hands",
     "kind": "species-trait",
     "name": "Healing Hands",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "aasimar-trait"
     ],
     "text": "As a Magic action, you touch a creature and roll a number of d4s equal to your Proficiency Bonus. The creature regains a number of Hit Points equal to the total rolled. Once you use this trait, you can't use it again until you finish a Long Rest.",
-    "page": "XPHB 186",
+    "page": "186",
     "resources": [
       {
         "id": "srd24:aasimar:healing-hands",
@@ -67,35 +67,35 @@
     "id": "srd24:aasimar:light-bearer",
     "kind": "species-trait",
     "name": "Light Bearer",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "aasimar-trait"
     ],
     "text": "You know the Light cantrip. Charisma is your spellcasting ability for it.",
-    "page": "XPHB 186"
+    "page": "186"
   },
   {
     "id": "srd24:aasimar:celestial-revelation",
     "kind": "species-trait",
     "name": "Celestial Revelation",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "aasimar-trait"
     ],
     "text": "When you reach character level 3, you can transform as a Bonus Action using one of the options below (choose the option each time you transform). The transformation lasts for 1 minute or until you end it (no action required). Once you transform, you can't do so again until you finish a Long Rest.\n\nOnce on each of your turns before the transformation ends, you can deal extra damage to one target when you deal damage to it with an attack or a spell. The extra damage equals your Proficiency Bonus, and the extra damage's type is either Necrotic for Necrotic Shroud or Radiant for Heavenly Wings and Inner Radiance.\n\nHere are the transformation options:\n\n- **Heavenly Wings.** Two spectral wings sprout from your back temporarily. Until the transformation ends, you have a Fly Speed equal to your Speed.\n- **Inner Radiance.** Searing light temporarily radiates from your eyes and mouth. For the duration, you shed Bright Light in a 10-foot radius and Dim Light for an additional 10 feet, and at the end of each of your turns, each creature within 10 feet of you takes Radiant damage equal to your Proficiency Bonus.\n- **Necrotic Shroud.** Your eyes briefly become pools of darkness, and flightless wings sprout from your back temporarily. Creatures other than your allies within 10 feet of you must succeed on a Charisma saving throw (DC 8 plus your Charisma modifier and Proficiency Bonus) or have the Frightened condition until the end of your next turn.",
-    "page": "XPHB 186"
+    "page": "186"
   },
   {
     "id": "srd24:species:aasimar",
     "kind": "species",
     "name": "Aasimar",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Aasimar (pronounced AH-sih-mar) are mortals who carry a spark of the Upper Planes within their souls. Whether descended from an angelic being or infused with celestial power, they can fan that spark to bring light, healing, and heavenly fury.\n\nAasimar can arise among any population of mortals. They resemble their parents, but they live for up to 160 years and have features that hint at their celestial heritage, such as metallic freckles, luminous eyes, a halo, or the skin color of an angel (silver, opalescent green, or coppery red). These features start subtle and become obvious when the aasimar learns to reveal their full celestial nature.",
-    "page": "XPHB 186",
+    "page": "186",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:spell:light",
@@ -144,7 +144,7 @@
     "id": "srd24:boggart:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "boggart-trait"
     ],
@@ -154,7 +154,7 @@
     "id": "srd24:boggart:fey-ancestry",
     "kind": "species-trait",
     "name": "Fey Ancestry",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "boggart-trait"
     ],
@@ -164,7 +164,7 @@
     "id": "srd24:boggart:fury-of-the-small",
     "kind": "species-trait",
     "name": "Fury of the Small",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "boggart-trait"
     ],
@@ -200,7 +200,7 @@
     "id": "srd24:boggart:nimble-escape",
     "kind": "species-trait",
     "name": "Nimble Escape",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "boggart-trait"
     ],
@@ -210,7 +210,7 @@
     "id": "srd24:species:boggart",
     "kind": "species",
     "name": "Boggart",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "srd-species"
     ],
@@ -254,23 +254,23 @@
     "id": "srd24:changeling:changeling-instincts",
     "kind": "species-trait",
     "name": "Changeling Instincts",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "changeling-trait"
     ],
     "text": "Thanks to your connection to the fey realm, you gain proficiency in two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion.",
-    "page": "EFA 34"
+    "page": "34"
   },
   {
     "id": "srd24:changeling:shape-shifter",
     "kind": "species-trait",
     "name": "Shape-Shifter",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "changeling-trait"
     ],
     "text": "As an action, you can shape-shift to change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight and can change your size between Medium and Small. You can make yourself appear as a member of another playable species, though none of your game statistics change. You can't duplicate the appearance of an individual you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. This trait doesn't change your clothing and equipment.\n\nWhile shape-shifted with this trait, you have Advantage on Charisma checks.\n\nYou stay in the new form until you take an action to revert to your true form.",
-    "page": "EFA 34",
+    "page": "34",
     "modifiers": [
       {
         "target": "checks.cha",
@@ -300,13 +300,13 @@
     "id": "srd24:species:changeling",
     "kind": "species",
     "name": "Changeling",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "With ever-changing appearances, changelings reside in many societies undetected. Each changeling can supernaturally adopt any face they like. For some changelings, a new face may reveal an aspect of their soul.\n\nThe first changelings in the multiverse appeared in the Feywild, and the wondrous, mutable essence of that plane lingers in changelings today—even in those who have never set foot in the fey realm.\n\nIn their true form, changelings appear faded, their features almost devoid of detail. It is rare to see one in that form, for a typical changeling alters their shape the way others might change clothes. However, many changelings develop identities with more depth, crafting a persona complete with history and beliefs to go with each shape. A changeling adventurer might have personas for many situations, including negotiation, investigation, and combat.\n\nMultiple changelings can share a persona. Personas can even pass down through a family, allowing a younger changeling to take advantage of contacts established by the persona's previous users.",
-    "page": "EFA 34",
+    "page": "34",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -352,45 +352,45 @@
     "id": "srd24:dhampir:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "dhampir-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "RHW 28"
+    "page": "28"
   },
   {
     "id": "srd24:dhampir:spider-climb",
     "kind": "species-trait",
     "name": "Spider Climb",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "dhampir-trait"
     ],
     "text": "You have a Climb Speed equal to your Speed. When you reach character level 3, you can move up, down, and across vertical surfaces and along ceilings while leaving your hands free.",
-    "page": "RHW 28"
+    "page": "28"
   },
   {
     "id": "srd24:dhampir:trace-of-undeath",
     "kind": "species-trait",
     "name": "Trace of Undeath",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "dhampir-trait"
     ],
     "text": "You have Resistance to Necrotic damage.",
-    "page": "RHW 28"
+    "page": "28"
   },
   {
     "id": "srd24:dhampir:vampiric-bite",
     "kind": "species-trait",
     "name": "Vampiric Bite",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "dhampir-trait"
     ],
     "text": "When you use your Unarmed Strike and deal damage, you can choose to bite with your fangs. You deal Piercing damage equal to 1d4 plus your Constitution modifier instead of the normal damage of an Unarmed Strike.\n\nIn addition, when you deal this damage to a creature that isn't a Construct or an Undead, you can empower yourself in one of the following ways:\n\n- **Drain.** You regain Hit Points equal to the Piercing damage dealt.\n- **Strengthen.** You gain a bonus to the next ability check or attack roll you make within the next minute; the bonus is equal to the Piercing damage dealt.\n\nYou can empower yourself with this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "RHW 28",
+    "page": "28",
     "resources": [
       {
         "id": "srd24:dhampir:vampiric-bite",
@@ -428,13 +428,13 @@
     "id": "srd24:species:dhampir",
     "kind": "species",
     "name": "Dhampir",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Dhampirs are living people who possess vampiric prowess but are cursed with macabre hunger. Most dhampirs thirst for blood, but some gain sustenance from dreams, life energy, or other vital sources. Dhampirs must choose whether to fight to control their hunger or give in to predatory urges.\n\nDhampirs often arise from encounters with vampires; some are the descendants of a powerful vampire, while others are partially transformed by a vampire's bite. All manner of macabre bargains and necromantic influences might also give rise to a dhampir. Regardless of their origins, dhampirs exhibit their vampiric nature in various ways, including increased speed and a life-draining bite.",
-    "page": "RHW 28",
+    "page": "28",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -485,23 +485,23 @@
     "id": "srd24:dragonborn:draconic-ancestry",
     "kind": "species-trait",
     "name": "Draconic Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-trait"
     ],
     "text": "Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.\n\n**Draconic Ancestors**\n| Dragon | Damage Type |\n| --- | --- |\n| Black | Acid |\n| Blue | Lightning |\n| Brass | Fire |\n| Bronze | Lightning |\n| Copper | Acid |\n| Gold | Fire |\n| Green | Poison |\n| Red | Fire |\n| Silver | Cold |\n| White | Cold |",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:dragonborn:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 damage of the type determined by your Draconic Ancestry trait. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:dragonborn:breath-weapon",
@@ -560,34 +560,34 @@
     "id": "srd24:dragonborn:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-trait"
     ],
     "text": "You have Resistance to the damage type determined by your Draconic Ancestry trait.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:dragonborn:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:dragonborn:draconic-flight",
     "kind": "species-trait",
     "name": "Draconic Flight",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-trait"
     ],
     "text": "When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:dragonborn:draconic-flight",
@@ -624,13 +624,13 @@
     "id": "srd24:species:dragonborn",
     "kind": "species",
     "name": "Dragonborn",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "The ancestors of dragonborn hatched from the eggs of chromatic and metallic dragons. One story holds that these eggs were blessed by the dragon gods Bahamut and Tiamat, who wanted to populate the multiverse with people created in their image. Another story claims that dragons created the first dragonborn without the gods' blessings. Whatever their origin, dragonborn have made homes for themselves on the Material Plane.\n\nDragonborn look like wingless, bipedal dragons—scaly, bright-eyed, and thick-boned with horns on their heads—and their coloration and other features are reminiscent of their draconic ancestors.",
-    "page": "XPHB 187",
+    "page": "187",
     "x-size": "Medium",
     "grants": [
       "srd24:language:common",
@@ -681,12 +681,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-black:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-black-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Acid damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-black:breath-weapon",
@@ -723,24 +723,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-black:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-black-trait"
     ],
     "text": "You have Resistance to Acid damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-black",
     "kind": "subspecies",
     "name": "Dragonborn (Black)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -759,12 +759,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-blue:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-blue-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Lightning damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-blue:breath-weapon",
@@ -801,24 +801,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-blue:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-blue-trait"
     ],
     "text": "You have Resistance to Lightning damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-blue",
     "kind": "subspecies",
     "name": "Dragonborn (Blue)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -837,12 +837,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-brass:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-brass-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Fire damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-brass:breath-weapon",
@@ -879,24 +879,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-brass:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-brass-trait"
     ],
     "text": "You have Resistance to Fire damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-brass",
     "kind": "subspecies",
     "name": "Dragonborn (Brass)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -915,12 +915,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-bronze:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-bronze-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Lightning damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-bronze:breath-weapon",
@@ -957,24 +957,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-bronze:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-bronze-trait"
     ],
     "text": "You have Resistance to Lightning damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-bronze",
     "kind": "subspecies",
     "name": "Dragonborn (Bronze)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -993,12 +993,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-copper:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-copper-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Acid damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-copper:breath-weapon",
@@ -1035,24 +1035,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-copper:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-copper-trait"
     ],
     "text": "You have Resistance to Acid damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-copper",
     "kind": "subspecies",
     "name": "Dragonborn (Copper)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -1071,12 +1071,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-gold:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-gold-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Fire damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-gold:breath-weapon",
@@ -1113,24 +1113,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-gold:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-gold-trait"
     ],
     "text": "You have Resistance to Fire damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-gold",
     "kind": "subspecies",
     "name": "Dragonborn (Gold)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -1149,12 +1149,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-green:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-green-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Poison damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-green:breath-weapon",
@@ -1191,24 +1191,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-green:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-green-trait"
     ],
     "text": "You have Resistance to Poison damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-green",
     "kind": "subspecies",
     "name": "Dragonborn (Green)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -1227,12 +1227,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-red:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-red-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Fire damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-red:breath-weapon",
@@ -1269,24 +1269,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-red:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-red-trait"
     ],
     "text": "You have Resistance to Fire damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-red",
     "kind": "subspecies",
     "name": "Dragonborn (Red)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -1305,12 +1305,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-silver:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-silver-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Cold damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-silver:breath-weapon",
@@ -1347,24 +1347,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-silver:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-silver-trait"
     ],
     "text": "You have Resistance to Cold damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-silver",
     "kind": "subspecies",
     "name": "Dragonborn (Silver)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -1383,12 +1383,12 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-white:breath-weapon",
     "kind": "species-trait",
     "name": "Breath Weapon",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-white-trait"
     ],
     "text": "When you take the Attack action on your turn, you can replace one of your attacks with an exhalation of magical energy in either a 15-foot Cone or a 30-foot Line that is 5 feet wide (choose the shape each time). Each creature in that area must make a Dexterity saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus). On a failed save, a creature takes 1d10 Cold damage. On a successful save, a creature takes half as much damage. This damage increases by 1d10 when you reach character levels 5 (2d10), 11 (3d10), and 17 (4d10).\n\nYou can use this Breath Weapon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 187",
+    "page": "187",
     "resources": [
       {
         "id": "srd24:subspecies:dragonborn-dragonborn-white:breath-weapon",
@@ -1425,24 +1425,24 @@
     "id": "srd24:subspecies:dragonborn-dragonborn-white:damage-resistance",
     "kind": "species-trait",
     "name": "Damage Resistance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-dragonborn-white-trait"
     ],
     "text": "You have Resistance to Cold damage.",
-    "page": "XPHB 187"
+    "page": "187"
   },
   {
     "id": "srd24:subspecies:dragonborn-dragonborn-white",
     "kind": "subspecies",
     "name": "Dragonborn (White)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dragonborn-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:dragonborn",
-    "page": "XPHB 187",
+    "page": "187",
     "modifiers": [
       {
         "target": "resistances",
@@ -1461,34 +1461,34 @@
     "id": "srd24:dwarf:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dwarf-trait"
     ],
     "text": "You have Darkvision with a range of 120 feet.",
-    "page": "XPHB 188"
+    "page": "188"
   },
   {
     "id": "srd24:dwarf:dwarven-resilience",
     "kind": "species-trait",
     "name": "Dwarven Resilience",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dwarf-trait"
     ],
     "text": "You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.",
-    "page": "XPHB 188"
+    "page": "188"
   },
   {
     "id": "srd24:dwarf:dwarven-toughness",
     "kind": "species-trait",
     "name": "Dwarven Toughness",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dwarf-trait"
     ],
     "text": "Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.",
-    "page": "XPHB 188",
+    "page": "188",
     "modifiers": [
       {
         "target": "hp.max",
@@ -1505,12 +1505,12 @@
     "id": "srd24:dwarf:stonecunning",
     "kind": "species-trait",
     "name": "Stonecunning",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "dwarf-trait"
     ],
     "text": "As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.\n\nYou can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "XPHB 188",
+    "page": "188",
     "resources": [
       {
         "id": "srd24:dwarf:stonecunning",
@@ -1566,13 +1566,13 @@
     "id": "srd24:species:dwarf",
     "kind": "species",
     "name": "Dwarf",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Dwarves were raised from the earth in the elder days by a deity of the forge. Called by various names on different worlds—Moradin, Reorx, and others—that god gave dwarves an affinity for stone and metal and for living underground. The god also made them resilient like the mountains, with a life span of about 350 years.\n\nSquat and often bearded, the original dwarves carved cities and strongholds into mountainsides and under the earth. Their oldest legends tell of conflicts with the monsters of mountaintops and the Underdark, whether those monsters were towering giants or subterranean horrors. Inspired by those tales, dwarves of any culture often sing of valorous deeds—especially of the little overcoming the mighty.\n\nOn some worlds in the multiverse, the first settlements of dwarves were built in hills or mountains, and the families who trace their ancestry to those settlements call themselves hill dwarves or mountain dwarves, respectively. The Greyhawk and Dragonlance settings have such communities.",
-    "page": "XPHB 188",
+    "page": "188",
     "x-size": "Medium",
     "grants": [
       "srd24:language:common",
@@ -1618,68 +1618,68 @@
     "id": "srd24:elf:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "XPHB 189"
+    "page": "189"
   },
   {
     "id": "srd24:elf:elven-lineage",
     "kind": "species-trait",
     "name": "Elven Lineage",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-trait"
     ],
     "text": "You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).\n\n**Elven Lineages**\n| Lineage | Level 1 | Level 3 | Level 5 |\n| --- | --- | --- | --- |\n| Drow | The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip. | Faerie Fire | Darkness |\n| High Elf | You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list. | Detect Magic | Misty Step |\n| Wood Elf | Your Speed increases to 35 feet. You also know the Druidcraft cantrip. | Longstrider | Pass without Trace |",
-    "page": "XPHB 189"
+    "page": "189"
   },
   {
     "id": "srd24:elf:fey-ancestry",
     "kind": "species-trait",
     "name": "Fey Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-trait"
     ],
     "text": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
-    "page": "XPHB 189"
+    "page": "189"
   },
   {
     "id": "srd24:elf:keen-senses",
     "kind": "species-trait",
     "name": "Keen Senses",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-trait"
     ],
     "text": "You have proficiency in the Insight, Perception, or Survival skill.",
-    "page": "XPHB 189"
+    "page": "189"
   },
   {
     "id": "srd24:elf:trance",
     "kind": "species-trait",
     "name": "Trance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-trait"
     ],
     "text": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
-    "page": "XPHB 189"
+    "page": "189"
   },
   {
     "id": "srd24:species:elf",
     "kind": "species",
     "name": "Elf",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Created by the god Corellon, the first elves could change their forms at will. They lost this ability when Corellon cursed them for plotting with the deity Lolth, who tried and failed to usurp Corellon's dominion. When Lolth was cast into the Abyss, most elves renounced her and earned Corellon's forgiveness, but that which Corellon had taken from them was lost forever.\n\nNo longer able to shape-shift at will, the elves retreated to the Feywild, where their sorrow was deepened by that plane's influence. Over time, curiosity led many of them to explore other planes of existence, including worlds in the Material Plane.\n\nElves have pointed ears and lack facial and body hair. They live for around 750 years, and they don't sleep but instead enter a trance when they need to rest. In that state, they remain aware of their surroundings while immersing themselves in memories and meditations.\n\nAn environment subtly transforms elves after they inhabit it for a millennium or more, and it grants them certain kinds of magic. Drow, high elves, and wood elves are examples of elves who have been transformed thus.\n\n**Drow.** Drow typically dwell in the Underdark and have been shaped by it. Some drow individuals and societies avoid the Underdark altogether yet carry its magic. In the Eberron setting, for example, drow dwell in rainforests and cyclopean ruins on the continent of Xen'drik.\n\n**High Elves.** High elves have been infused with the magic of crossings between the Feywild and the Material Plane. On some worlds, high elves refer to themselves by other names. For example, they call themselves sun or moon elves in the Forgotten Realms setting, Silvanesti and Qualinesti in the Dragonlance setting, and Aereni in the Eberron setting.\n\n**Wood Elves.** Wood elves carry the magic of primeval forests within themselves. They are known by many other names, including wild elves, green elves, and forest elves. Grugach are reclusive wood elves of the Greyhawk setting, while the Kagonesti and the Tairnadal are wood elves of the Dragonlance and Eberron settings, respectively.",
-    "page": "XPHB 189",
+    "page": "189",
     "x-size": "Medium",
     "grants": [
       "srd24:language:common",
@@ -1742,36 +1742,36 @@
     "id": "srd24:subspecies:elf-drow-lineage:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-drow-lineage-trait"
     ],
     "text": "You have Darkvision with a range of 120 feet.",
-    "page": "XPHB 189"
+    "page": "189"
   },
   {
     "id": "srd24:subspecies:elf-drow-lineage:elven-lineage-drow",
     "kind": "species-trait",
     "name": "Elven Lineage (Drow)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-drow-lineage-trait"
     ],
     "text": "You are part of a lineage that grants you supernatural abilities. The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.\n\nWhen you reach character level 3, you learn the Faerie Fire spell. When you reach character level 5, you also learn the Darkness spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
-    "page": "XPHB 189",
+    "page": "189",
     "modifiers": []
   },
   {
     "id": "srd24:subspecies:elf-drow-lineage",
     "kind": "subspecies",
     "name": "Drow Lineage",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:elf",
-    "page": "XPHB 189",
+    "page": "189",
     "choices": [
       {
         "id": "srd24:subspecies:elf-drow-lineage:ability",
@@ -1848,24 +1848,24 @@
     "id": "srd24:subspecies:elf-high-elf-lineage:elven-lineage-high-elf",
     "kind": "species-trait",
     "name": "Elven Lineage (High Elf)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-high-elf-lineage-trait"
     ],
     "text": "You are part of a lineage that grants you supernatural abilities. You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.\n\nWhen you reach character level 3, you learn the Detect Magic spell. When you reach character level 5, you also learn the Misty Step spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
-    "page": "XPHB 189"
+    "page": "189"
   },
   {
     "id": "srd24:subspecies:elf-high-elf-lineage",
     "kind": "subspecies",
     "name": "High Elf Lineage",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:elf",
-    "page": "XPHB 189",
+    "page": "189",
     "choices": [
       {
         "id": "srd24:subspecies:elf-high-elf-lineage:known-spells",
@@ -1948,12 +1948,12 @@
     "id": "srd24:subspecies:elf-wood-elf-lineage:elven-lineage-wood-elf",
     "kind": "species-trait",
     "name": "Elven Lineage (Wood Elf)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-wood-elf-lineage-trait"
     ],
     "text": "You are part of a lineage that grants you supernatural abilities. Your Speed increases to 35 feet. You also know the Druidcraft cantrip.\n\nWhen you reach character level 3, you learn the Longstrider spell. When you reach character level 5, you also learn the Pass without Trace spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage).",
-    "page": "XPHB 189",
+    "page": "189",
     "modifiers": [
       {
         "target": "speed.walk",
@@ -1970,13 +1970,13 @@
     "id": "srd24:subspecies:elf-wood-elf-lineage",
     "kind": "subspecies",
     "name": "Wood Elf Lineage",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "elf-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:elf",
-    "page": "XPHB 189",
+    "page": "189",
     "choices": [
       {
         "id": "srd24:subspecies:elf-wood-elf-lineage:ability",
@@ -2052,7 +2052,7 @@
     "id": "srd24:faerie:fairy-magic",
     "kind": "species-trait",
     "name": "Fairy Magic",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "faerie-trait"
     ],
@@ -2062,7 +2062,7 @@
     "id": "srd24:faerie:flight",
     "kind": "species-trait",
     "name": "Flight",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "faerie-trait"
     ],
@@ -2072,7 +2072,7 @@
     "id": "srd24:faerie:faerie-lineage",
     "kind": "species-trait",
     "name": "Faerie Lineage",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "faerie-trait"
     ],
@@ -2082,7 +2082,7 @@
     "id": "srd24:species:faerie",
     "kind": "species",
     "name": "Faerie",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "srd-species"
     ],
@@ -2194,7 +2194,7 @@
     "id": "srd24:subspecies:faerie-lorwyn",
     "kind": "subspecies",
     "name": "Lorwyn",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "faerie-subspecies",
       "srd-subspecies"
@@ -2205,7 +2205,7 @@
     "id": "srd24:subspecies:faerie-shadowmoor:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "faerie-shadowmoor-trait"
     ],
@@ -2215,7 +2215,7 @@
     "id": "srd24:subspecies:faerie-shadowmoor",
     "kind": "subspecies",
     "name": "Shadowmoor",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "faerie-subspecies",
       "srd-subspecies"
@@ -2236,7 +2236,7 @@
     "id": "srd24:flamekin:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "flamekin-trait"
     ],
@@ -2246,7 +2246,7 @@
     "id": "srd24:flamekin:fire-resistance",
     "kind": "species-trait",
     "name": "Fire Resistance",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "flamekin-trait"
     ],
@@ -2256,7 +2256,7 @@
     "id": "srd24:flamekin:reach-to-the-blaze",
     "kind": "species-trait",
     "name": "Reach to the Blaze",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "flamekin-trait"
     ],
@@ -2266,7 +2266,7 @@
     "id": "srd24:species:flamekin",
     "kind": "species",
     "name": "Flamekin",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "srd-species"
     ],
@@ -2374,23 +2374,23 @@
     "id": "srd24:gnome:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gnome-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "XPHB 191"
+    "page": "191"
   },
   {
     "id": "srd24:gnome:gnomish-cunning",
     "kind": "species-trait",
     "name": "Gnomish Cunning",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gnome-trait"
     ],
     "text": "You have Advantage on Intelligence, Wisdom, and Charisma saving throws.",
-    "page": "XPHB 191",
+    "page": "191",
     "modifiers": [
       {
         "target": "saves.int",
@@ -2422,24 +2422,24 @@
     "id": "srd24:gnome:gnomish-lineage",
     "kind": "species-trait",
     "name": "Gnomish Lineage",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gnome-trait"
     ],
     "text": "You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):\n\n- **Forest Gnome.** You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.\n- **Rock Gnome.** You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
-    "page": "XPHB 191"
+    "page": "191"
   },
   {
     "id": "srd24:species:gnome",
     "kind": "species",
     "name": "Gnome",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Gnomes are magical folk created by gods of invention, illusions, and life underground. The earliest gnomes were seldom seen by other folk due to the gnomes' secretive nature and their propensity for living in forests and burrows. What they lacked in size, they made up for in cleverness. They confounded predators with traps and labyrinthine tunnels. They also learned magic from gods like Garl Glittergold, Baervan Wildwanderer, and Baravar Cloakshadow, who visited them in disguise. That magic eventually created the lineages of forest gnomes and rock gnomes.\n\nGnomes are petite folk with big eyes and pointed ears, who live around 425 years. Many gnomes like the feeling of a roof over their head, even if that \"roof\" is nothing more than a hat.",
-    "page": "XPHB 191",
+    "page": "191",
     "x-size": "Small",
     "grants": [
       "srd24:language:common",
@@ -2488,12 +2488,12 @@
     "id": "srd24:subspecies:gnome-forest-gnome-lineage:gnomish-lineage-forest-gnome",
     "kind": "species-trait",
     "name": "Gnomish Lineage (Forest Gnome)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gnome-forest-gnome-lineage-trait"
     ],
     "text": "You know the Minor Illusion cantrip. You also always have the Speak with Animals spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.",
-    "page": "XPHB 191",
+    "page": "191",
     "resources": [
       {
         "id": "srd24:subspecies:gnome-forest-gnome-lineage:speak-with-animals",
@@ -2531,13 +2531,13 @@
     "id": "srd24:subspecies:gnome-forest-gnome-lineage",
     "kind": "subspecies",
     "name": "Forest Gnome Lineage",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gnome-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:gnome",
-    "page": "XPHB 191",
+    "page": "191",
     "choices": [
       {
         "id": "srd24:subspecies:gnome-forest-gnome-lineage:ability",
@@ -2589,24 +2589,24 @@
     "id": "srd24:subspecies:gnome-rock-gnome-lineage:gnomish-lineage-rock-gnome",
     "kind": "species-trait",
     "name": "Gnomish Lineage (Rock Gnome)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gnome-rock-gnome-lineage-trait"
     ],
     "text": "You know the Mending and Prestidigitation cantrips. In addition, you can spend 10 minutes casting Prestidigitation to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from Prestidigitation; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
-    "page": "XPHB 191"
+    "page": "191"
   },
   {
     "id": "srd24:subspecies:gnome-rock-gnome-lineage",
     "kind": "subspecies",
     "name": "Rock Gnome Lineage",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "gnome-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:gnome",
-    "page": "XPHB 191",
+    "page": "191",
     "choices": [
       {
         "id": "srd24:subspecies:gnome-rock-gnome-lineage:ability",
@@ -2644,23 +2644,23 @@
     "id": "srd24:goliath:giant-ancestry",
     "kind": "species-trait",
     "name": "Giant Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-trait"
     ],
     "text": "You are descended from Giants. Choose one of the following benefits—a supernatural boon from your ancestry; you can use the chosen benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Cloud's Jaunt (Cloud Giant).** As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.\n- **Fire's Burn (Fire Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.\n- **Frost's Chill (Frost Giant).** When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.\n- **Hill's Tumble (Hill Giant).** When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.\n- **Stone's Endurance (Stone Giant).** When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.\n- **Storm's Thunder (Storm Giant).** When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.",
-    "page": "XPHB 192"
+    "page": "192"
   },
   {
     "id": "srd24:goliath:large-form",
     "kind": "species-trait",
     "name": "Large Form",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-trait"
     ],
     "text": "Starting at character level 5, you can change your size to Large as a Bonus Action if you're in a big enough space. This transformation lasts for 10 minutes or until you end it (no action required). For that duration, you have Advantage on Strength checks, and your Speed increases by 10 feet. Once you use this trait, you can't use it again until you finish a Long Rest.",
-    "page": "XPHB 192",
+    "page": "192",
     "resources": [
       {
         "id": "srd24:goliath:large-form",
@@ -2720,24 +2720,24 @@
     "id": "srd24:goliath:powerful-build",
     "kind": "species-trait",
     "name": "Powerful Build",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-trait"
     ],
     "text": "You have Advantage on any ability check you make to end the Grappled condition. You also count as one size larger when determining your carrying capacity.",
-    "page": "XPHB 192"
+    "page": "192"
   },
   {
     "id": "srd24:species:goliath",
     "kind": "species",
     "name": "Goliath",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Towering over most folk, goliaths are distant descendants of giants. Each goliath bears the favors of the first giants—favors that manifest in various supernatural boons, including the ability to quickly grow and temporarily approach the height of goliaths' gigantic kin.\n\nGoliaths have physical characteristics that are reminiscent of the giants in their family lines. For example, some goliaths look like stone giants, while others resemble fire giants. Whatever giants they count as kin, goliaths have forged their own path in the multiverse—unencumbered by the internecine conflicts that have ravaged giantkind for ages—and seek heights above those reached by their ancestors.",
-    "page": "XPHB 192",
+    "page": "192",
     "x-size": "Medium",
     "grants": [
       "srd24:language:common",
@@ -2781,12 +2781,12 @@
     "id": "srd24:subspecies:goliath-cloud-giant-ancestry:giant-ancestry-cloud",
     "kind": "species-trait",
     "name": "Giant Ancestry (Cloud)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-cloud-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Cloud's Jaunt.** As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.",
-    "page": "XPHB 192",
+    "page": "192",
     "resources": [
       {
         "id": "srd24:subspecies:goliath-cloud-giant-ancestry:giant-ancestry-cloud",
@@ -2823,13 +2823,13 @@
     "id": "srd24:subspecies:goliath-cloud-giant-ancestry",
     "kind": "subspecies",
     "name": "Cloud Giant Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:goliath",
-    "page": "XPHB 192",
+    "page": "192",
     "grants": [
       "srd24:subspecies:goliath-cloud-giant-ancestry:giant-ancestry-cloud"
     ]
@@ -2838,12 +2838,12 @@
     "id": "srd24:subspecies:goliath-fire-giant-ancestry:giant-ancestry-fire",
     "kind": "species-trait",
     "name": "Giant Ancestry (Fire)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-fire-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Fire's Burn.** When you hit a target with an attack roll and deal damage to it, you can also deal 1d10 Fire damage to that target.",
-    "page": "XPHB 192",
+    "page": "192",
     "resources": [
       {
         "id": "srd24:subspecies:goliath-fire-giant-ancestry:giant-ancestry-fire",
@@ -2880,13 +2880,13 @@
     "id": "srd24:subspecies:goliath-fire-giant-ancestry",
     "kind": "subspecies",
     "name": "Fire Giant Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:goliath",
-    "page": "XPHB 192",
+    "page": "192",
     "grants": [
       "srd24:subspecies:goliath-fire-giant-ancestry:giant-ancestry-fire"
     ]
@@ -2895,12 +2895,12 @@
     "id": "srd24:subspecies:goliath-frost-giant-ancestry:giant-ancestry-frost",
     "kind": "species-trait",
     "name": "Giant Ancestry (Frost)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-frost-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Frost's Chill.** When you hit a target with an attack roll and deal damage to it, you can also deal 1d6 Cold damage to that target and reduce its Speed by 10 feet until the start of your next turn.",
-    "page": "XPHB 192",
+    "page": "192",
     "resources": [
       {
         "id": "srd24:subspecies:goliath-frost-giant-ancestry:giant-ancestry-frost",
@@ -2937,13 +2937,13 @@
     "id": "srd24:subspecies:goliath-frost-giant-ancestry",
     "kind": "subspecies",
     "name": "Frost Giant Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:goliath",
-    "page": "XPHB 192",
+    "page": "192",
     "grants": [
       "srd24:subspecies:goliath-frost-giant-ancestry:giant-ancestry-frost"
     ]
@@ -2952,12 +2952,12 @@
     "id": "srd24:subspecies:goliath-hill-giant-ancestry:giant-ancestry-hill",
     "kind": "species-trait",
     "name": "Giant Ancestry (Hill)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-hill-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Hill's Tumble.** When you hit a Large or smaller creature with an attack roll and deal damage to it, you can give that target the Prone condition.",
-    "page": "XPHB 192",
+    "page": "192",
     "resources": [
       {
         "id": "srd24:subspecies:goliath-hill-giant-ancestry:giant-ancestry-hill",
@@ -2994,13 +2994,13 @@
     "id": "srd24:subspecies:goliath-hill-giant-ancestry",
     "kind": "subspecies",
     "name": "Hill Giant Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:goliath",
-    "page": "XPHB 192",
+    "page": "192",
     "grants": [
       "srd24:subspecies:goliath-hill-giant-ancestry:giant-ancestry-hill"
     ]
@@ -3009,12 +3009,12 @@
     "id": "srd24:subspecies:goliath-stone-giant-ancestry:giant-ancestry-stone",
     "kind": "species-trait",
     "name": "Giant Ancestry (Stone)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-stone-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Stone's Endurance.** When you take damage, you can take a Reaction to roll 1d12. Add your Constitution modifier to the number rolled and reduce the damage by that total.",
-    "page": "XPHB 192",
+    "page": "192",
     "resources": [
       {
         "id": "srd24:subspecies:goliath-stone-giant-ancestry:giant-ancestry-stone",
@@ -3051,13 +3051,13 @@
     "id": "srd24:subspecies:goliath-stone-giant-ancestry",
     "kind": "subspecies",
     "name": "Stone Giant Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:goliath",
-    "page": "XPHB 192",
+    "page": "192",
     "grants": [
       "srd24:subspecies:goliath-stone-giant-ancestry:giant-ancestry-stone"
     ]
@@ -3066,12 +3066,12 @@
     "id": "srd24:subspecies:goliath-storm-giant-ancestry:giant-ancestry-storm",
     "kind": "species-trait",
     "name": "Giant Ancestry (Storm)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-storm-giant-ancestry-trait"
     ],
     "text": "You are descended from Giants, granting you a supernatural boon; you can use this boon a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest:\n\n- **Storm's Thunder.** When you take damage from a creature within 60 feet of you, you can take a Reaction to deal 1d8 Thunder damage to that creature.",
-    "page": "XPHB 192",
+    "page": "192",
     "resources": [
       {
         "id": "srd24:subspecies:goliath-storm-giant-ancestry:giant-ancestry-storm",
@@ -3108,13 +3108,13 @@
     "id": "srd24:subspecies:goliath-storm-giant-ancestry",
     "kind": "subspecies",
     "name": "Storm Giant Ancestry",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "goliath-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:goliath",
-    "page": "XPHB 192",
+    "page": "192",
     "grants": [
       "srd24:subspecies:goliath-storm-giant-ancestry:giant-ancestry-storm"
     ]
@@ -3123,57 +3123,57 @@
     "id": "srd24:halfling:brave",
     "kind": "species-trait",
     "name": "Brave",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "halfling-trait"
     ],
     "text": "You have Advantage on saving throws you make to avoid or end the Frightened condition.",
-    "page": "XPHB 193"
+    "page": "193"
   },
   {
     "id": "srd24:halfling:halfling-nimbleness",
     "kind": "species-trait",
     "name": "Halfling Nimbleness",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "halfling-trait"
     ],
     "text": "You can move through the space of any creature that is a size larger than you, but you can't stop in the same space.",
-    "page": "XPHB 193"
+    "page": "193"
   },
   {
     "id": "srd24:halfling:luck",
     "kind": "species-trait",
     "name": "Luck",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "halfling-trait"
     ],
     "text": "When you roll a 1 on the d20 of a D20 Test, you can reroll the die, and you must use the new roll.",
-    "page": "XPHB 193"
+    "page": "193"
   },
   {
     "id": "srd24:halfling:naturally-stealthy",
     "kind": "species-trait",
     "name": "Naturally Stealthy",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "halfling-trait"
     ],
     "text": "You can take the Hide action even when you are obscured only by a creature that is at least one size larger than you.",
-    "page": "XPHB 193"
+    "page": "193"
   },
   {
     "id": "srd24:species:halfling",
     "kind": "species",
     "name": "Halfling",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Cherished and guided by gods who value life, home, and hearth, halflings gravitate toward bucolic havens where family and community help shape their lives. That said, many halflings possess a brave and adventurous spirit that leads them on journeys of discovery, affording them the chance to explore a bigger world and make new friends along the way. Their size—similar to that of a human child—helps them pass through crowds unnoticed and slip through tight spaces.\n\nAnyone who has spent time around halflings, particularly halfling adventurers, has likely witnessed the storied \"luck of the halflings\" in action. When a halfling is in mortal danger, an unseen force seems to intervene on the halfling's behalf. Many halflings believe in the power of luck, and they attribute their unusual gift to one or more of their benevolent gods, including Yondalla, Brandobaris, and Charmalaine. The same gift might contribute to their robust life spans (about 150 years).\n\nHalfling communities come in all varieties. For every sequestered shire tucked away in an unspoiled part of the world, there's a crime syndicate like the Boromar Clan in the Eberron setting or a territorial mob of halflings like those in the Dark Sun setting.\n\nHalflings who prefer to live underground are sometimes called strongheart halflings or stouts. Nomadic halflings, as well as those who live among humans and other tall folk, are sometimes called lightfoot halflings or tallfellows.",
-    "page": "XPHB 193",
+    "page": "193",
     "x-size": "Small",
     "grants": [
       "srd24:language:common",
@@ -3207,23 +3207,23 @@
     "id": "srd24:hexblood:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "hexblood-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "RHW 29"
+    "page": "29"
   },
   {
     "id": "srd24:hexblood:eerie-token",
     "kind": "species-trait",
     "name": "Eerie Token",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "hexblood-trait"
     ],
     "text": "As a Bonus Action, you can create a magical token by harmlessly removing a lock of hair, detaching a nail, or using some other method. While the token exists, you gain the following benefits:\n\n- **Distant Message.** As a Magic action, you can send a telepathic message of 25 words or fewer to a creature holding or carrying the token, as long as you are within 10 miles of it.\n- **Remote Viewing.** If you are within 10 miles of the token, you can take a Magic action to extend your senses through the token for 1 minute, until you have the Incapacitated condition, or until you end this state (no action required). During this state, you can see and hear from the token as if you were located where it is. When this state ends, the token is harmlessly destroyed.\n\nUnless the token is destroyed early, it lasts until you finish a Long Rest. Once you create a token using this feature, you can't do so again until you finish a Long Rest.\n- **Hex Magic.** You always have the Disguise Self and Hex spells prepared. You can cast each spell once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select this species).",
-    "page": "RHW 29",
+    "page": "29",
     "actions": [
       {
         "id": "eerie-token",
@@ -3240,13 +3240,13 @@
     "id": "srd24:species:hexblood",
     "kind": "species",
     "name": "Hexblood",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Hexbloods are individuals infused with fey magic as a result of eldritch energy or mysterious witchcraft. Many hexbloods are transformed into such beings after making a deal with a powerful hag, but other strange forces can result in the birth of a hexblood. A hexblood's strange fey power manifests as eerie clairvoyance and beguiling magic.",
-    "page": "RHW 29",
+    "page": "29",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -3283,46 +3283,46 @@
     "id": "srd24:human:resourceful",
     "kind": "species-trait",
     "name": "Resourceful",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "human-trait"
     ],
     "text": "You gain Heroic Inspiration whenever you finish a Long Rest.",
-    "page": "XPHB 194"
+    "page": "194"
   },
   {
     "id": "srd24:human:skillful",
     "kind": "species-trait",
     "name": "Skillful",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "human-trait"
     ],
     "text": "You gain proficiency in one skill of your choice.",
-    "page": "XPHB 194"
+    "page": "194"
   },
   {
     "id": "srd24:human:versatile",
     "kind": "species-trait",
     "name": "Versatile",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "human-trait"
     ],
     "text": "You gain an Origin feat of your choice.",
-    "page": "XPHB 194"
+    "page": "194"
   },
   {
     "id": "srd24:species:human",
     "kind": "species",
     "name": "Human",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Found throughout the multiverse, humans are as varied as they are numerous, and they endeavor to achieve as much as they can in the years they are given. Their ambition and resourcefulness are commended, respected, and feared on many worlds.\n\nHumans are as diverse in appearance as the people of Earth, and they have many gods. Scholars dispute the origin of humanity, but one of the earliest known human gatherings is said to have occurred in Sigil, the torus-shaped city at the center of the multiverse and the place where the Common language was born. From there, humans could have spread to every part of the multiverse, bringing the City of Doors' cosmopolitanism with them.",
-    "page": "XPHB 194",
+    "page": "194",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -3374,57 +3374,57 @@
     "id": "srd24:kalashtar:dual-mind",
     "kind": "species-trait",
     "name": "Dual Mind",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "kalashtar-trait"
     ],
     "text": "You have Advantage on Wisdom and Charisma saving throws.",
-    "page": "EFA 35"
+    "page": "35"
   },
   {
     "id": "srd24:kalashtar:mental-discipline",
     "kind": "species-trait",
     "name": "Mental Discipline",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "kalashtar-trait"
     ],
     "text": "You have Resistance to Psychic damage.",
-    "page": "EFA 35"
+    "page": "35"
   },
   {
     "id": "srd24:kalashtar:mind-link",
     "kind": "species-trait",
     "name": "Mind Link",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "kalashtar-trait"
     ],
     "text": "You have telepathy with a range in feet equal to 10 times your level. When you're using this trait to speak telepathically to a creature, you can take a Magic action to give that creature the ability to speak telepathically with you for 1 hour or until you take another Magic action to end this effect.",
-    "page": "EFA 35"
+    "page": "35"
   },
   {
     "id": "srd24:kalashtar:severed-from-dreams",
     "kind": "species-trait",
     "name": "Severed from Dreams",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "kalashtar-trait"
     ],
     "text": "You can't be the target of the Dream spell. In addition, when you finish a Long Rest, you gain proficiency in one skill of your choice. This proficiency lasts until you finish another Long Rest.",
-    "page": "EFA 35"
+    "page": "35"
   },
   {
     "id": "srd24:species:kalashtar",
     "kind": "species",
     "name": "Kalashtar",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Kalashtar (pronounced kal-ASH-tar) are created from the union of humanity and renegade spirits called quori from the plane of dreams. Kalashtar appear human, but their spiritual connection affects them in a variety of ways. They have symmetrical, slightly angular features, and their eyes often glow when they are concentrating or expressing strong emotions.\n\nKalashtar can't communicate directly with their quori spirits. Rather, kalashtar might experience them as a source of instinct and inspiration, drawing on the spirits' memories when the kalashtar sleep. This connection grants kalashtar minor psionic abilities, as well as protection from psionic attacks.",
-    "page": "EFA 35",
+    "page": "35",
     "x-size": "Medium",
     "grants": [
       "srd24:language:common",
@@ -3465,68 +3465,68 @@
     "id": "srd24:khoravar:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "khoravar-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "EFA 36"
+    "page": "36"
   },
   {
     "id": "srd24:khoravar:fey-ancestry",
     "kind": "species-trait",
     "name": "Fey Ancestry",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "khoravar-trait"
     ],
     "text": "You have Advantage on saving throws you make to avoid or end the Charmed condition.",
-    "page": "EFA 36"
+    "page": "36"
   },
   {
     "id": "srd24:khoravar:fey-gift",
     "kind": "species-trait",
     "name": "Fey Gift",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "khoravar-trait"
     ],
     "text": "You know the Friends cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for it (choose the ability when you select this species).",
-    "page": "EFA 36"
+    "page": "36"
   },
   {
     "id": "srd24:khoravar:lethargy-resilience",
     "kind": "species-trait",
     "name": "Lethargy Resilience",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "khoravar-trait"
     ],
     "text": "When you fail a saving throw to avoid or end the Unconscious condition, you can succeed instead. Once you use this trait, you can't do so again until you finish 1d4 Long Rests.",
-    "page": "EFA 36"
+    "page": "36"
   },
   {
     "id": "srd24:khoravar:skill-versatility",
     "kind": "species-trait",
     "name": "Skill Versatility",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "khoravar-trait"
     ],
     "text": "You gain proficiency in one skill or with one tool of your choice. Whenever you finish a Long Rest, you can replace it with another skill or tool proficiency.",
-    "page": "EFA 36"
+    "page": "36"
   },
   {
     "id": "srd24:species:khoravar",
     "kind": "species",
     "name": "Khoravar",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Over the course of centuries, those descended from both humans and elves have developed their own communities and traditions in Khorvaire. The rise of House Lyrandar and House Medani has strengthened this identity. Members of these communities call themselves Khoravar, an Elvish term meaning \"children of Khorvaire,\" as they dislike the term \"half-elf.\"\n\nMany Khoravar espouse the idea of being \"the bridge between,\" believing they are called to facilitate communication and cooperation between members of different cultures or species. Khoravar who follow this philosophy often become bards, diplomats, mediators, or translators. Others, fascinated by their distant connection to the Fey, seek to build bridges between the Material Plane and the Feywild of Thelanis. These Khoravar often become druids or warlocks with archfey patrons.",
-    "page": "EFA 36",
+    "page": "36",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -3605,7 +3605,7 @@
     "id": "srd24:kithkin:brave",
     "kind": "species-trait",
     "name": "Brave",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "kithkin-trait"
     ],
@@ -3615,7 +3615,7 @@
     "id": "srd24:kithkin:halfling-nimbleness",
     "kind": "species-trait",
     "name": "Halfling Nimbleness",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "kithkin-trait"
     ],
@@ -3625,7 +3625,7 @@
     "id": "srd24:kithkin:luck",
     "kind": "species-trait",
     "name": "Luck",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "kithkin-trait"
     ],
@@ -3635,7 +3635,7 @@
     "id": "srd24:kithkin:naturally-stealthy",
     "kind": "species-trait",
     "name": "Naturally Stealthy",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "kithkin-trait"
     ],
@@ -3645,7 +3645,7 @@
     "id": "srd24:kithkin:kithkin-lineage",
     "kind": "species-trait",
     "name": "Kithkin Lineage",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "kithkin-trait"
     ],
@@ -3655,7 +3655,7 @@
     "id": "srd24:species:kithkin",
     "kind": "species",
     "name": "Kithkin",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "srd-species"
     ],
@@ -3711,7 +3711,7 @@
     "id": "srd24:subspecies:kithkin-lorwyn",
     "kind": "subspecies",
     "name": "Lorwyn",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "kithkin-subspecies",
       "srd-subspecies"
@@ -3722,7 +3722,7 @@
     "id": "srd24:subspecies:kithkin-shadowmoor:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "kithkin-shadowmoor-trait"
     ],
@@ -3732,7 +3732,7 @@
     "id": "srd24:subspecies:kithkin-shadowmoor",
     "kind": "subspecies",
     "name": "Shadowmoor",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "kithkin-subspecies",
       "srd-subspecies"
@@ -3753,7 +3753,7 @@
     "id": "srd24:lorwyn-changeling:shape-self",
     "kind": "species-trait",
     "name": "Shape Self",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "lorwyn-changeling-trait"
     ],
@@ -3774,7 +3774,7 @@
     "id": "srd24:lorwyn-changeling:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "lorwyn-changeling-trait"
     ],
@@ -3784,7 +3784,7 @@
     "id": "srd24:lorwyn-changeling:delightful-imitator",
     "kind": "species-trait",
     "name": "Delightful Imitator",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "lorwyn-changeling-trait"
     ],
@@ -3794,7 +3794,7 @@
     "id": "srd24:lorwyn-changeling:unpredictable-movement",
     "kind": "species-trait",
     "name": "Unpredictable Movement",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "lorwyn-changeling-trait"
     ],
@@ -3804,7 +3804,7 @@
     "id": "srd24:species:lorwyn-changeling",
     "kind": "species",
     "name": "Lorwyn Changeling",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "srd-species"
     ],
@@ -3859,34 +3859,34 @@
     "id": "srd24:lupin:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "lupin-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "RHW 30"
+    "page": "30"
   },
   {
     "id": "srd24:lupin:feral-pounce",
     "kind": "species-trait",
     "name": "Feral Pounce",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "lupin-trait"
     ],
     "text": "Your Unarmed Strikes deal Slashing damage instead of Bludgeoning damage. In addition, when you hit a creature with an Unarmed Strike as part of the Attack action on your turn, you can use both the Damage and the Shove options. You can use this benefit only once per turn.",
-    "page": "RHW 30"
+    "page": "30"
   },
   {
     "id": "srd24:lupin:howl",
     "kind": "species-trait",
     "name": "Howl",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "lupin-trait"
     ],
     "text": "As a Bonus Action, you let out an unearthly howl. Each creature of your choice within 15 feet of you must succeed on a Wisdom saving throw (DC 8 plus your Constitution modifier and Proficiency Bonus) or have Disadvantage on attack rolls and saving throws until the start of your next turn.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "RHW 30",
+    "page": "30",
     "resources": [
       {
         "id": "srd24:lupin:howl",
@@ -3923,24 +3923,24 @@
     "id": "srd24:lupin:werewolf-instincts",
     "kind": "species-trait",
     "name": "Werewolf Instincts",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "lupin-trait"
     ],
     "text": "You have proficiency in the Perception, Stealth, or Survival skill.",
-    "page": "RHW 30"
+    "page": "30"
   },
   {
     "id": "srd24:species:lupin",
     "kind": "species",
     "name": "Lupin",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "With their bristling fur and snarling muzzles, lupins cast imposing shadows in the Mists. Lupins often arise from encounters with werewolves in which the curse of lycanthropy didn't fully take hold. Unlike true werewolves, lupins can't shift between wolf and humanoid form but are instead stuck as a hybrid transformation. This cursed wolflike physiology affords lupins bestial might, enhanced instincts, and a dread-inducing howl.",
-    "page": "RHW 30",
+    "page": "30",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -3991,12 +3991,12 @@
     "id": "srd24:orc:adrenaline-rush",
     "kind": "species-trait",
     "name": "Adrenaline Rush",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "orc-trait"
     ],
     "text": "You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.\n\nYou can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.",
-    "page": "XPHB 195",
+    "page": "195",
     "resources": [
       {
         "id": "srd24:orc:adrenaline-rush",
@@ -4033,23 +4033,23 @@
     "id": "srd24:orc:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "orc-trait"
     ],
     "text": "You have Darkvision with a range of 120 feet.",
-    "page": "XPHB 195"
+    "page": "195"
   },
   {
     "id": "srd24:orc:relentless-endurance",
     "kind": "species-trait",
     "name": "Relentless Endurance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "orc-trait"
     ],
     "text": "When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.",
-    "page": "XPHB 195",
+    "page": "195",
     "resources": [
       {
         "id": "srd24:orc:relentless-endurance",
@@ -4086,13 +4086,13 @@
     "id": "srd24:species:orc",
     "kind": "species",
     "name": "Orc",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Orcs trace their creation to Gruumsh, a powerful god who roamed the wide open spaces of the Material Plane. Gruumsh equipped his children with gifts to help them wander great plains, vast caverns, and churning seas and to face the monsters that lurk there. Even when they turn their devotion to other gods, orcs retain Gruumsh's gifts: endurance, determination, and the ability to see in darkness.\n\nOrcs are, on average, tall and broad. They have gray skin, ears that are sharply pointed, and prominent lower canines that resemble small tusks. Orc youths on some worlds are told about their ancestors' great travels and travails. Inspired by those tales, many of those orcs wonder when Gruumsh will call on them to match the heroic deeds of old and if they will prove worthy of his favor. Other orcs are happy to leave old tales in the past and find their own way.",
-    "page": "XPHB 195",
+    "page": "195",
     "x-size": "Medium",
     "grants": [
       "srd24:language:common",
@@ -4130,34 +4130,34 @@
     "id": "srd24:reborn:escaped-death",
     "kind": "species-trait",
     "name": "Escaped Death",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "reborn-trait"
     ],
     "text": "You have Advantage on Death Saving Throws.",
-    "page": "RHW 31"
+    "page": "31"
   },
   {
     "id": "srd24:reborn:everlasting",
     "kind": "species-trait",
     "name": "Everlasting",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "reborn-trait"
     ],
     "text": "You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation. You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in an inactive, motionless state, during which you retain consciousness.",
-    "page": "RHW 31"
+    "page": "31"
   },
   {
     "id": "srd24:reborn:knowledge-from-a-past-life",
     "kind": "species-trait",
     "name": "Knowledge from a Past Life",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "reborn-trait"
     ],
     "text": "You gain proficiency in one skill of your choice.\n\nIn addition, you can temporarily peer into the past to aid you in the present. When you fail an ability check, you can roll 1d6 and add the number rolled to the d20, potentially turning the failure into a success. You can do this a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-    "page": "RHW 31",
+    "page": "31",
     "resources": [
       {
         "id": "srd24:reborn:knowledge-from-a-past-life",
@@ -4194,24 +4194,24 @@
     "id": "srd24:reborn:strange-endurance",
     "kind": "species-trait",
     "name": "Strange Endurance",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "reborn-trait"
     ],
     "text": "You have Resistance to one of the following damage types of your choice: Cold, Necrotic, or Poison.",
-    "page": "RHW 31"
+    "page": "31"
   },
   {
     "id": "srd24:species:reborn",
     "kind": "species",
     "name": "Reborn",
-    "source": "srd24",
+    "source": "rhw",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Reborn are individuals who have died yet inexplicably still live. Some reborn exhibit the scars of fatal ends, their ashen flesh or bloodless veins making it clear that they've escaped death. Other reborn are marvels of magic or science, being stitched together from disparate beings or bearing mysterious minds in manufactured bodies. Whatever their origins, reborn know a new life and seek experiences and answers all their own.",
-    "page": "RHW 31",
+    "page": "31",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -4265,7 +4265,7 @@
     "id": "srd24:rimekin:cold-fire-magic",
     "kind": "species-trait",
     "name": "Cold Fire Magic",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "rimekin-trait"
     ],
@@ -4275,7 +4275,7 @@
     "id": "srd24:rimekin:cold-resistance",
     "kind": "species-trait",
     "name": "Cold Resistance",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "rimekin-trait"
     ],
@@ -4285,7 +4285,7 @@
     "id": "srd24:rimekin:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "rimekin-trait"
     ],
@@ -4295,7 +4295,7 @@
     "id": "srd24:species:rimekin",
     "kind": "species",
     "name": "Rimekin",
-    "source": "srd24",
+    "source": "lfl",
     "tags": [
       "srd-species"
     ],
@@ -4403,34 +4403,34 @@
     "id": "srd24:shifter:bestial-instincts",
     "kind": "species-trait",
     "name": "Bestial Instincts",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-trait"
     ],
     "text": "Channeling the beast within, you gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.",
-    "page": "EFA 37"
+    "page": "37"
   },
   {
     "id": "srd24:shifter:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "EFA 37"
+    "page": "37"
   },
   {
     "id": "srd24:shifter:shifting",
     "kind": "species-trait",
     "name": "Shifting",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-trait"
     ],
     "text": "As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action. When you shift, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus. You can shift a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\nWhenever you shift, you gain the benefit of one of the following options (choose when you select this species)\n\n- **Beasthide.** You gain 1d6 additional Temporary Hit Points. While shifted, you have a +1 bonus to your Armor Class.\n- **Longtooth.** When you shift and as a Bonus Action on your other turns while shifted, you can use your elongated fangs to make an Unarmed Strike. If you hit with this Unarmed Strike and deal damage, you can deal Piercing damage equal to 1d6 plus your Strength modifier, instead of the normal damage of an Unarmed Strike.\n- **Swiftstride.** While you are shifted, your Speed increases by 10 feet. Additionally, you can move up to 10 feet as a Reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke Opportunity Attack.\n- **Wildhunt.** While shifted, you have Advantage on Wisdom checks. Additionally, no creature within 30 feet of you can have Advantage on an attack roll against you unless you have the Incapacitated condition.",
-    "page": "EFA 37",
+    "page": "37",
     "resources": [
       {
         "id": "srd24:shifter:shifting",
@@ -4467,13 +4467,13 @@
     "id": "srd24:species:shifter",
     "kind": "species",
     "name": "Shifter",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Shifters—sometimes called \"weretouched\"—descend from people who contracted full or partial lycanthropy. Humanoids with a bestial aspect, shifters can't change shape fully, but they can enhance their animalistic features temporarily in a process they call \"shifting.\"\n\nShifters resemble humans in height and build but are typically more lithe and flexible. Their facial features have a bestial cast, often with large eyes and pointed ears; most shifters also possess prominent canine teeth. They grow fur-like hair on nearly every part of their bodies. While a shifter's appearance might remind an onlooker of an animal, the shifter remains clearly identifiable as a Humanoid even when at their most feral.",
-    "page": "EFA 37",
+    "page": "37",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -4535,12 +4535,12 @@
     "id": "srd24:subspecies:shifter-beasthide:shifting-beasthide",
     "kind": "species-trait",
     "name": "Shifting (Beasthide)",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-beasthide-trait"
     ],
     "text": "As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action. When you shift, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus. You can shift a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\nWhenever you shift, you gain 1d6 additional Temporary Hit Points. While shifted, you have a +1 bonus to your Armor Class.",
-    "page": "EFA 37",
+    "page": "37",
     "resources": [
       {
         "id": "srd24:subspecies:shifter-beasthide:shifting-beasthide",
@@ -4577,13 +4577,13 @@
     "id": "srd24:subspecies:shifter-beasthide",
     "kind": "subspecies",
     "name": "Beasthide",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:shifter",
-    "page": "EFA 37",
+    "page": "37",
     "grants": [
       "srd24:subspecies:shifter-beasthide:shifting-beasthide"
     ]
@@ -4592,12 +4592,12 @@
     "id": "srd24:subspecies:shifter-longtooth:shifting-longtooth",
     "kind": "species-trait",
     "name": "Shifting (Longtooth)",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-longtooth-trait"
     ],
     "text": "As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action. When you shift, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus. You can shift a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\nWhen you shift and as a Bonus Action on your other turns while shifted, you can use your elongated fangs to make an Unarmed Strike. If you hit with this Unarmed Strike and deal damage, you can deal Piercing damage equal to 1d6 plus your Strength modifier, instead of the normal damage of an Unarmed Strike.",
-    "page": "EFA 37",
+    "page": "37",
     "resources": [
       {
         "id": "srd24:subspecies:shifter-longtooth:shifting-longtooth",
@@ -4634,13 +4634,13 @@
     "id": "srd24:subspecies:shifter-longtooth",
     "kind": "subspecies",
     "name": "Longtooth",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:shifter",
-    "page": "EFA 37",
+    "page": "37",
     "grants": [
       "srd24:subspecies:shifter-longtooth:shifting-longtooth"
     ]
@@ -4649,12 +4649,12 @@
     "id": "srd24:subspecies:shifter-swiftstride:shifting-swiftstride",
     "kind": "species-trait",
     "name": "Shifting (Swiftstride)",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-swiftstride-trait"
     ],
     "text": "As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action. When you shift, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus. You can shift a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\nWhile you are shifted, your Speed increases by 10 feet. Additionally, you can move up to 10 feet as a Reaction when a creature ends its turn within 5 feet of you. This reactive movement doesn't provoke Opportunity Attack.",
-    "page": "EFA 37",
+    "page": "37",
     "modifiers": [
       {
         "target": "speed.walk",
@@ -4705,13 +4705,13 @@
     "id": "srd24:subspecies:shifter-swiftstride",
     "kind": "subspecies",
     "name": "Swiftstride",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:shifter",
-    "page": "EFA 37",
+    "page": "37",
     "grants": [
       "srd24:subspecies:shifter-swiftstride:shifting-swiftstride"
     ]
@@ -4720,12 +4720,12 @@
     "id": "srd24:subspecies:shifter-wildhunt:shifting-wildhunt",
     "kind": "species-trait",
     "name": "Shifting (Wildhunt)",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-wildhunt-trait"
     ],
     "text": "As a Bonus Action, you can shape-shift to assume a more bestial appearance. This transformation lasts for 1 minute or until you revert to your normal appearance as a Bonus Action. When you shift, you gain Temporary Hit Points equal to 2 times your Proficiency Bonus. You can shift a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.\n\nWhile shifted, you have Advantage on Wisdom checks. Additionally, no creature within 30 feet of you can have Advantage on an attack roll against you unless you have the Incapacitated condition.",
-    "page": "EFA 37",
+    "page": "37",
     "modifiers": [
       {
         "target": "checks.wis",
@@ -4775,13 +4775,13 @@
     "id": "srd24:subspecies:shifter-wildhunt",
     "kind": "subspecies",
     "name": "Wildhunt",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "shifter-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:shifter",
-    "page": "EFA 37",
+    "page": "37",
     "grants": [
       "srd24:subspecies:shifter-wildhunt:shifting-wildhunt"
     ]
@@ -4790,46 +4790,46 @@
     "id": "srd24:tiefling:darkvision",
     "kind": "species-trait",
     "name": "Darkvision",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-trait"
     ],
     "text": "You have Darkvision with a range of 60 feet.",
-    "page": "XPHB 197"
+    "page": "197"
   },
   {
     "id": "srd24:tiefling:fiendish-legacy",
     "kind": "species-trait",
     "name": "Fiendish Legacy",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-trait"
     ],
     "text": "You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.\n\nWhen you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level. Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).\n\n**Fiendish Legacies**\n| Legacy | Level 1 | Level 3 | Level 5 |\n| --- | --- | --- | --- |\n| Abyssal | You have Resistance to Poison damage. You also know the Poison Spray cantrip. | Ray of Sickness | Hold Person |\n| Chthonic | You have Resistance to Necrotic damage. You also know the Chill Touch cantrip. | False Life | Ray of Enfeeblement |\n| Infernal | You have Resistance to Fire damage. You also know the Fire Bolt cantrip. | Hellish Rebuke | Darkness |",
-    "page": "XPHB 197"
+    "page": "197"
   },
   {
     "id": "srd24:tiefling:otherworldly-presence",
     "kind": "species-trait",
     "name": "Otherworldly Presence",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-trait"
     ],
     "text": "You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy Trait.",
-    "page": "XPHB 197"
+    "page": "197"
   },
   {
     "id": "srd24:species:tiefling",
     "kind": "species",
     "name": "Tiefling",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Tieflings are either born in the Lower Planes or have fiendish ancestors who originated there. A tiefling (pronounced TEE-fling) is linked by blood to a devil, a demon, or some other Fiend. This connection to the Lower Planes is the tiefling's fiendish legacy, which comes with the promise of power yet has no effect on the tiefling's moral outlook.\n\nA tiefling chooses whether to embrace or lament their fiendish legacy. The three legacies are described below.\n\n**Abyssal.** The entropy of the Abyss, the chaos of Pandemonium, and the despair of Carceri call to tieflings who have the abyssal legacy. Horns, fur, tusks, and peculiar scents are common physical features of such tieflings, most of whom have the blood of demons coursing through their veins.\n\n**Chthonic.** Tieflings who have the chthonic legacy feel not only the tug of Carceri but also the greed of Gehenna and the gloom of Hades. Some of these tieflings look cadaverous. Others possess the unearthly beauty of a succubus, or they have physical features in common with a night hag, a yugoloth, or some other Neutral Evil fiendish ancestor.\n\n**Infernal.** The infernal legacy connects tieflings not only to Gehenna but also the Nine Hells and the raging battlefields of Acheron. Horns, spines, tails, golden eyes, and a faint odor of sulfur or smoke are common physical features of such tieflings, most of whom trace their ancestry to devils.",
-    "page": "XPHB 197",
+    "page": "197",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",
@@ -4878,25 +4878,25 @@
     "id": "srd24:subspecies:tiefling-abyssal-legacy:fiendish-legacy-abyssal",
     "kind": "species-trait",
     "name": "Fiendish Legacy (Abyssal)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-abyssal-legacy-trait"
     ],
     "text": "You are the recipient of a legacy that grants you supernatural abilities. You have Resistance to Poison damage. You also know the Poison Spray cantrip.\n\nWhen you reach character level 3, you learn the Ray of Sickness spell. When you reach character level 5, you also learn the Hold Person spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
-    "page": "XPHB 197",
+    "page": "197",
     "modifiers": []
   },
   {
     "id": "srd24:subspecies:tiefling-abyssal-legacy",
     "kind": "subspecies",
     "name": "Abyssal Legacy",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:tiefling",
-    "page": "XPHB 197",
+    "page": "197",
     "choices": [
       {
         "id": "srd24:subspecies:tiefling-abyssal-legacy:ability",
@@ -4985,25 +4985,25 @@
     "id": "srd24:subspecies:tiefling-chthonic-legacy:fiendish-legacy-chthonic",
     "kind": "species-trait",
     "name": "Fiendish Legacy (Chthonic)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-chthonic-legacy-trait"
     ],
     "text": "You are the recipient of a legacy that grants you supernatural abilities. You have Resistance to Necrotic damage. You also know the Chill Touch cantrip.\n\nWhen you reach character level 3, you learn the False Life spell. When you reach character level 5, you also learn the Ray of Enfeeblement spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
-    "page": "XPHB 197",
+    "page": "197",
     "modifiers": []
   },
   {
     "id": "srd24:subspecies:tiefling-chthonic-legacy",
     "kind": "subspecies",
     "name": "Chthonic Legacy",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:tiefling",
-    "page": "XPHB 197",
+    "page": "197",
     "choices": [
       {
         "id": "srd24:subspecies:tiefling-chthonic-legacy:ability",
@@ -5087,25 +5087,25 @@
     "id": "srd24:subspecies:tiefling-infernal-legacy:fiendish-legacy-infernal",
     "kind": "species-trait",
     "name": "Fiendish Legacy (Infernal)",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-infernal-legacy-trait"
     ],
     "text": "You are the recipient of a legacy that grants you supernatural abilities. You have Resistance to Fire damage. You also know the Fire Bolt cantrip.\n\nWhen you reach character level 3, you learn the Hellish Rebuke spell. When you reach character level 5, you also learn the Darkness spell. You always have these spells prepared, and you can cast each spell once without a spell slot. Once you cast either of these spells with this trait, you can't cast that spell with it again until you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.\n\nIntelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the legacy).",
-    "page": "XPHB 197",
+    "page": "197",
     "modifiers": []
   },
   {
     "id": "srd24:subspecies:tiefling-infernal-legacy",
     "kind": "subspecies",
     "name": "Infernal Legacy",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "tiefling-subspecies",
       "srd-subspecies"
     ],
     "species": "srd24:species:tiefling",
-    "page": "XPHB 197",
+    "page": "197",
     "choices": [
       {
         "id": "srd24:subspecies:tiefling-infernal-legacy:ability",
@@ -5189,23 +5189,23 @@
     "id": "srd24:warforged:construct-resilience",
     "kind": "species-trait",
     "name": "Construct Resilience",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "warforged-trait"
     ],
     "text": "You have Resistance to Poison damage. You also have Advantage on saving throws to avoid or end the Poisoned condition.",
-    "page": "EFA 38"
+    "page": "38"
   },
   {
     "id": "srd24:warforged:integrated-protection",
     "kind": "species-trait",
     "name": "Integrated Protection",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "warforged-trait"
     ],
     "text": "You gain a +1 bonus to your Armor Class. In addition, armor you have donned can't be removed against your will while you're alive.",
-    "page": "EFA 38",
+    "page": "38",
     "modifiers": [
       {
         "target": "ac",
@@ -5222,46 +5222,46 @@
     "id": "srd24:warforged:sentrys-rest",
     "kind": "species-trait",
     "name": "Sentry's Rest",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "warforged-trait"
     ],
     "text": "You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 6 hours if you spend those hours in an inactive, motionless state. During this time, you appear inert but remain conscious.",
-    "page": "EFA 38"
+    "page": "38"
   },
   {
     "id": "srd24:warforged:specialized-design",
     "kind": "species-trait",
     "name": "Specialized Design",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "warforged-trait"
     ],
     "text": "You gain one skill proficiency and one tool proficiency of your choice.",
-    "page": "EFA 38"
+    "page": "38"
   },
   {
     "id": "srd24:warforged:tireless",
     "kind": "species-trait",
     "name": "Tireless",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "warforged-trait"
     ],
     "text": "You don't gain Exhaustion levels from dehydration, malnutrition, or suffocation.",
-    "page": "EFA 38"
+    "page": "38"
   },
   {
     "id": "srd24:species:warforged",
     "kind": "species",
     "name": "Warforged",
-    "source": "srd24",
+    "source": "efa",
     "tags": [
       "srd-species"
     ],
     "text": "",
     "fluff": "Warforged are mechanical beings built as weapons to fight in the Last War. An unexpected breakthrough produced sentient beings made from wood and metal that nevertheless can feel pain and emotion.\n\nWarforged comprise a blend of organic and inorganic materials. Rootlike cords infused with alchemical fluids serve as their muscles, wrapped around a framework of steel, darkwood, or stone. Armored plates form a protective outer shell and reinforce joints. The more a warforged cultivates their individuality, the more likely they are to modify their body, seeking out an artificer to customize the look of their face, limbs, and plating.",
-    "page": "EFA 38",
+    "page": "38",
     "x-size": "Small or Medium",
     "grants": [
       "srd24:language:common",

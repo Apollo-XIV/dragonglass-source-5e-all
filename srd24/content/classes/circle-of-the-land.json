@@ -3,13 +3,14 @@
     "id": "srd24:subclass:circle-of-the-land",
     "kind": "subclass",
     "name": "Circle of the Land",
-    "source": "srd24",
-    "page": "XPHB 84",
+    "source": "xphb",
+    "page": "84",
     "class": "srd24:class:druid",
     "tags": [
       "druid-subclass",
       "srd-subclass"
     ],
+    "text": "*Celebrate Connection to the Natural World*\n\nThe Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities.",
     "choices": [
       {
         "id": "srd24:subclass:circle-of-the-land:terrain",
@@ -26,7 +27,8 @@
     "levels": {
       "3": {
         "grants": [
-          "srd24:land:circle-of-the-land"
+          "srd24:land:circle-of-the-land-spells",
+          "srd24:land:lands-aid"
         ]
       },
       "6": {
@@ -50,7 +52,7 @@
     "id": "srd24:terrain:arid-land",
     "kind": "terrain",
     "name": "Arid Land",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "circle-of-the-land-terrain-option"
     ],
@@ -84,7 +86,7 @@
     "id": "srd24:terrain:polar-land",
     "kind": "terrain",
     "name": "Polar Land",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "circle-of-the-land-terrain-option"
     ],
@@ -118,7 +120,7 @@
     "id": "srd24:terrain:temperate-land",
     "kind": "terrain",
     "name": "Temperate Land",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "circle-of-the-land-terrain-option"
     ],
@@ -152,7 +154,7 @@
     "id": "srd24:terrain:tropical-land",
     "kind": "terrain",
     "name": "Tropical Land",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "circle-of-the-land-terrain-option"
     ],
@@ -186,8 +188,8 @@
     "id": "srd24:land:circle-of-the-land-spells",
     "kind": "subclass-feature",
     "name": "Circle of the Land Spells",
-    "source": "srd24",
-    "page": "XPHB 84",
+    "source": "xphb",
+    "page": "84",
     "tags": [
       "land-feature",
       "druid-feature"
@@ -198,8 +200,8 @@
     "id": "srd24:land:lands-aid",
     "kind": "subclass-feature",
     "name": "Land's Aid",
-    "source": "srd24",
-    "page": "XPHB 85",
+    "source": "xphb",
+    "page": "85",
     "tags": [
       "land-feature",
       "druid-feature"
@@ -226,27 +228,11 @@
     ]
   },
   {
-    "id": "srd24:land:circle-of-the-land",
-    "kind": "subclass-feature",
-    "name": "Circle of the Land",
-    "source": "srd24",
-    "page": "XPHB 84",
-    "tags": [
-      "land-feature",
-      "druid-feature"
-    ],
-    "text": "*Celebrate Connection to the Natural World*\n\nThe Circle of the Land comprises mystics and sages who safeguard ancient knowledge and rites. These Druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of their communities.",
-    "grants": [
-      "srd24:land:circle-of-the-land-spells",
-      "srd24:land:lands-aid"
-    ]
-  },
-  {
     "id": "srd24:land:natural-recovery",
     "kind": "subclass-feature",
     "name": "Natural Recovery",
-    "source": "srd24",
-    "page": "XPHB 85",
+    "source": "xphb",
+    "page": "85",
     "tags": [
       "land-feature",
       "druid-feature"
@@ -257,8 +243,8 @@
     "id": "srd24:land:natures-ward",
     "kind": "subclass-feature",
     "name": "Nature's Ward",
-    "source": "srd24",
-    "page": "XPHB 85",
+    "source": "xphb",
+    "page": "85",
     "tags": [
       "land-feature",
       "druid-feature"
@@ -282,8 +268,8 @@
     "id": "srd24:land:natures-sanctuary",
     "kind": "subclass-feature",
     "name": "Nature's Sanctuary",
-    "source": "srd24",
-    "page": "XPHB 86",
+    "source": "xphb",
+    "page": "86",
     "tags": [
       "land-feature",
       "druid-feature"

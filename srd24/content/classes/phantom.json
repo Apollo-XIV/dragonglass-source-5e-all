@@ -3,17 +3,19 @@
     "id": "srd24:subclass:phantom",
     "kind": "subclass",
     "name": "Phantom",
-    "source": "srd24",
-    "page": "RHW 21",
+    "source": "rhw",
+    "page": "21",
     "class": "srd24:class:rogue",
     "tags": [
       "rogue-subclass",
       "srd-subclass"
     ],
+    "text": "*Embrace Death and Wield Ghostly Power*\n\nSome Rogues traverse the veil between life and death, shepherding opponents to the grave and slipping through the world as undetectable as a spirit. In these pursuits, a Rogue might discover a mystical connection to death itself. Such an individual becomes immersed in negative energy, infusing their strikes with deathly energy and stealing knowledge from souls who have passed on. Thieves' guilds value Rogues of this persuasion as highly effective information gatherers and spies.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:phantom:phantom"
+          "srd24:phantom:wails-from-the-grave",
+          "srd24:phantom:whispers-of-the-dead"
         ]
       },
       "9": {
@@ -55,8 +57,8 @@
     "id": "srd24:phantom:wails-from-the-grave",
     "kind": "subclass-feature",
     "name": "Wails from the Grave",
-    "source": "srd24",
-    "page": "RHW 21",
+    "source": "rhw",
+    "page": "21",
     "tags": [
       "phantom-feature",
       "rogue-feature"
@@ -98,8 +100,8 @@
     "id": "srd24:phantom:whispers-of-the-dead",
     "kind": "subclass-feature",
     "name": "Whispers of the Dead",
-    "source": "srd24",
-    "page": "RHW 21",
+    "source": "rhw",
+    "page": "21",
     "tags": [
       "phantom-feature",
       "rogue-feature"
@@ -107,27 +109,11 @@
     "text": "Whenever you finish a Short or Long Rest, you can choose one skill or tool proficiency that you lack and gain it, as a ghostly presence shares its knowledge with you. You lose this proficiency when you use this benefit again to choose a different proficiency."
   },
   {
-    "id": "srd24:phantom:phantom",
-    "kind": "subclass-feature",
-    "name": "Phantom",
-    "source": "srd24",
-    "page": "RHW 21",
-    "tags": [
-      "phantom-feature",
-      "rogue-feature"
-    ],
-    "text": "*Embrace Death and Wield Ghostly Power*\n\nSome Rogues traverse the veil between life and death, shepherding opponents to the grave and slipping through the world as undetectable as a spirit. In these pursuits, a Rogue might discover a mystical connection to death itself. Such an individual becomes immersed in negative energy, infusing their strikes with deathly energy and stealing knowledge from souls who have passed on. Thieves' guilds value Rogues of this persuasion as highly effective information gatherers and spies.",
-    "grants": [
-      "srd24:phantom:wails-from-the-grave",
-      "srd24:phantom:whispers-of-the-dead"
-    ]
-  },
-  {
     "id": "srd24:phantom:tokens-of-the-departed",
     "kind": "subclass-feature",
     "name": "Tokens of the Departed",
-    "source": "srd24",
-    "page": "RHW 22",
+    "source": "rhw",
+    "page": "22",
     "tags": [
       "phantom-feature",
       "rogue-feature"
@@ -149,8 +135,8 @@
     "id": "srd24:phantom:voice-of-death",
     "kind": "subclass-feature",
     "name": "Voice of Death",
-    "source": "srd24",
-    "page": "RHW 22",
+    "source": "rhw",
+    "page": "22",
     "tags": [
       "phantom-feature",
       "rogue-feature"
@@ -161,8 +147,8 @@
     "id": "srd24:phantom:ghost-walk",
     "kind": "subclass-feature",
     "name": "Ghost Walk",
-    "source": "srd24",
-    "page": "RHW 23",
+    "source": "rhw",
+    "page": "23",
     "tags": [
       "phantom-feature",
       "rogue-feature"
@@ -184,8 +170,8 @@
     "id": "srd24:phantom:deaths-friend",
     "kind": "subclass-feature",
     "name": "Death's Friend",
-    "source": "srd24",
-    "page": "RHW 23",
+    "source": "rhw",
+    "page": "23",
     "tags": [
       "phantom-feature",
       "rogue-feature"

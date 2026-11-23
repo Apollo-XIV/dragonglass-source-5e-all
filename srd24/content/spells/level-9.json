@@ -3,7 +3,7 @@
     "id": "srd24:spell:astral-projection",
     "kind": "spell",
     "name": "Astral Projection",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "warlock-spell",
@@ -13,7 +13,7 @@
       "school:necromancy"
     ],
     "spellLevel": 9,
-    "page": "XPHB 243",
+    "page": "243",
     "school": "necromancy",
     "castingTime": "1 hour",
     "range": "10 feet",
@@ -25,7 +25,7 @@
     "id": "srd24:spell:blade-of-disaster",
     "kind": "spell",
     "name": "Blade of Disaster",
-    "source": "srd24",
+    "source": "frhof",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -35,7 +35,7 @@
       "school:conjuration"
     ],
     "spellLevel": 9,
-    "page": "FRHoF 143",
+    "page": "143",
     "school": "conjuration",
     "castingTime": "1 bonus action",
     "range": "60 feet",
@@ -59,7 +59,7 @@
     "id": "srd24:spell:detonate",
     "kind": "spell",
     "name": "Detonate",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -69,7 +69,7 @@
       "school:evocation"
     ],
     "spellLevel": 9,
-    "page": "AU 38",
+    "page": "38",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "500 feet",
@@ -95,7 +95,7 @@
     "id": "srd24:spell:foresight",
     "kind": "spell",
     "name": "Foresight",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "druid-spell",
@@ -106,7 +106,7 @@
       "school:divination"
     ],
     "spellLevel": 9,
-    "page": "XPHB 276",
+    "page": "276",
     "school": "divination",
     "castingTime": "1 minute",
     "range": "Touch",
@@ -118,7 +118,7 @@
     "id": "srd24:spell:gate",
     "kind": "spell",
     "name": "Gate",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "sorcerer-spell",
@@ -129,7 +129,7 @@
       "school:conjuration"
     ],
     "spellLevel": 9,
-    "page": "XPHB 277",
+    "page": "277",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -142,7 +142,7 @@
     "id": "srd24:spell:hindsight",
     "kind": "spell",
     "name": "Hindsight",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "wizard-spell",
       "spell-level:9",
@@ -150,7 +150,7 @@
       "school:divination"
     ],
     "spellLevel": 9,
-    "page": "AU 40",
+    "page": "40",
     "school": "divination",
     "castingTime": "10 minutes",
     "range": "500 feet",
@@ -163,7 +163,7 @@
     "id": "srd24:spell:imprisonment",
     "kind": "spell",
     "name": "Imprisonment",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "warlock-spell",
       "wizard-spell",
@@ -172,7 +172,7 @@
       "school:abjuration"
     ],
     "spellLevel": 9,
-    "page": "XPHB 288",
+    "page": "288",
     "school": "abjuration",
     "castingTime": "1 minute",
     "range": "30 feet",
@@ -195,7 +195,7 @@
     "id": "srd24:spell:invulnerability",
     "kind": "spell",
     "name": "Invulnerability",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "wizard-spell",
       "spell-level:9",
@@ -203,7 +203,7 @@
       "school:abjuration"
     ],
     "spellLevel": 9,
-    "page": "AU 41",
+    "page": "41",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "Self",
@@ -216,7 +216,7 @@
     "id": "srd24:spell:mass-heal",
     "kind": "spell",
     "name": "Mass Heal",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "spell-level:9",
@@ -224,7 +224,7 @@
       "school:abjuration"
     ],
     "spellLevel": 9,
-    "page": "XPHB 296",
+    "page": "296",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -236,7 +236,7 @@
     "id": "srd24:spell:meteor-swarm",
     "kind": "spell",
     "name": "Meteor Swarm",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -245,7 +245,7 @@
       "school:evocation"
     ],
     "spellLevel": 9,
-    "page": "XPHB 298",
+    "page": "298",
     "school": "evocation",
     "castingTime": "1 action",
     "range": "1 mile",
@@ -281,7 +281,7 @@
     "id": "srd24:spell:power-word-heal",
     "kind": "spell",
     "name": "Power Word Heal",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "cleric-spell",
@@ -290,7 +290,7 @@
       "school:enchantment"
     ],
     "spellLevel": 9,
-    "page": "XPHB 306",
+    "page": "306",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -302,7 +302,7 @@
     "id": "srd24:spell:power-word-kill",
     "kind": "spell",
     "name": "Power Word Kill",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -313,7 +313,7 @@
       "school:enchantment"
     ],
     "spellLevel": 9,
-    "page": "XPHB 306",
+    "page": "306",
     "school": "enchantment",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -335,7 +335,7 @@
     "id": "srd24:spell:prismatic-wall",
     "kind": "spell",
     "name": "Prismatic Wall",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "wizard-spell",
@@ -344,7 +344,7 @@
       "school:abjuration"
     ],
     "spellLevel": 9,
-    "page": "XPHB 308",
+    "page": "308",
     "school": "abjuration",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -418,7 +418,7 @@
     "id": "srd24:spell:shapechange",
     "kind": "spell",
     "name": "Shapechange",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "wizard-spell",
@@ -427,7 +427,7 @@
       "school:transmutation"
     ],
     "spellLevel": 9,
-    "page": "XPHB 315",
+    "page": "315",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -440,7 +440,7 @@
     "id": "srd24:spell:storm-of-vengeance",
     "kind": "spell",
     "name": "Storm of Vengeance",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "druid-spell",
       "spell-level:9",
@@ -448,7 +448,7 @@
       "school:conjuration"
     ],
     "spellLevel": 9,
-    "page": "XPHB 321",
+    "page": "321",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "1 mile",
@@ -523,7 +523,7 @@
     "id": "srd24:spell:time-stop",
     "kind": "spell",
     "name": "Time Stop",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -532,7 +532,7 @@
       "school:transmutation"
     ],
     "spellLevel": 9,
-    "page": "XPHB 334",
+    "page": "334",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "Self",
@@ -544,7 +544,7 @@
     "id": "srd24:spell:true-polymorph",
     "kind": "spell",
     "name": "True Polymorph",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "bard-spell",
       "warlock-spell",
@@ -554,7 +554,7 @@
       "school:transmutation"
     ],
     "spellLevel": 9,
-    "page": "XPHB 335",
+    "page": "335",
     "school": "transmutation",
     "castingTime": "1 action",
     "range": "30 feet",
@@ -578,7 +578,7 @@
     "id": "srd24:spell:true-resurrection",
     "kind": "spell",
     "name": "True Resurrection",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "cleric-spell",
       "druid-spell",
@@ -587,7 +587,7 @@
       "school:necromancy"
     ],
     "spellLevel": 9,
-    "page": "XPHB 336",
+    "page": "336",
     "school": "necromancy",
     "castingTime": "1 hour",
     "range": "Touch",
@@ -599,7 +599,7 @@
     "id": "srd24:spell:vision-of-elapsing-eons",
     "kind": "spell",
     "name": "Vision of Elapsing Eons",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "bard-spell",
       "sorcerer-spell",
@@ -610,7 +610,7 @@
       "school:illusion"
     ],
     "spellLevel": 9,
-    "page": "AU 45",
+    "page": "45",
     "school": "illusion",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -635,7 +635,7 @@
     "id": "srd24:spell:wail-of-the-banshee",
     "kind": "spell",
     "name": "Wail of the Banshee",
-    "source": "srd24",
+    "source": "au",
     "tags": [
       "sorcerer-spell",
       "warlock-spell",
@@ -645,7 +645,7 @@
       "school:necromancy"
     ],
     "spellLevel": 9,
-    "page": "AU 45",
+    "page": "45",
     "school": "necromancy",
     "castingTime": "1 action",
     "range": "60 feet",
@@ -670,7 +670,7 @@
     "id": "srd24:spell:weird",
     "kind": "spell",
     "name": "Weird",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "warlock-spell",
       "wizard-spell",
@@ -679,7 +679,7 @@
       "school:illusion"
     ],
     "spellLevel": 9,
-    "page": "XPHB 341",
+    "page": "341",
     "school": "illusion",
     "castingTime": "1 action",
     "range": "120 feet",
@@ -716,7 +716,7 @@
     "id": "srd24:spell:wish",
     "kind": "spell",
     "name": "Wish",
-    "source": "srd24",
+    "source": "xphb",
     "tags": [
       "sorcerer-spell",
       "wizard-spell",
@@ -725,7 +725,7 @@
       "school:conjuration"
     ],
     "spellLevel": 9,
-    "page": "XPHB 341",
+    "page": "341",
     "school": "conjuration",
     "castingTime": "1 action",
     "range": "Self",

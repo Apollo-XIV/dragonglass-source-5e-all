@@ -3,17 +3,20 @@
     "id": "srd24:subclass:grave-domain",
     "kind": "subclass",
     "name": "Grave Domain",
-    "source": "srd24",
-    "page": "RHW 19",
+    "source": "rhw",
+    "page": "19",
     "class": "srd24:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "*Embody Deific Forces of Death*\n\nThe Grave Domain concerns itself with the boundary between life and death. To those who tap into this domain's power, death is a natural and inevitable part of the multiverse. Such Clerics seek to destroy undead and shepherd spirits.\n\nThe magic of this domain also allows these Clerics to stave off death for a time. But this is merely a delay of death, not a denial of it, for the grave will always claim its due.",
     "levels": {
       "3": {
         "grants": [
-          "srd24:grave:grave-domain",
+          "srd24:grave:grave-domain-spells",
+          "srd24:grave:circle-of-mortality",
+          "srd24:grave:path-to-the-grave",
           "srd24:spell:detect-evil-and-good",
           "srd24:spell:false-life",
           "srd24:spell:gentle-repose",
@@ -55,8 +58,8 @@
     "id": "srd24:grave:grave-domain-spells",
     "kind": "subclass-feature",
     "name": "Grave Domain Spells",
-    "source": "srd24",
-    "page": "RHW 19",
+    "source": "rhw",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -67,8 +70,8 @@
     "id": "srd24:grave:circle-of-mortality",
     "kind": "subclass-feature",
     "name": "Circle of Mortality",
-    "source": "srd24",
-    "page": "RHW 19",
+    "source": "rhw",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -79,8 +82,8 @@
     "id": "srd24:grave:path-to-the-grave",
     "kind": "subclass-feature",
     "name": "Path to the Grave",
-    "source": "srd24",
-    "page": "RHW 19",
+    "source": "rhw",
+    "page": "19",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -102,28 +105,11 @@
     ]
   },
   {
-    "id": "srd24:grave:grave-domain",
-    "kind": "subclass-feature",
-    "name": "Grave Domain",
-    "source": "srd24",
-    "page": "RHW 19",
-    "tags": [
-      "grave-feature",
-      "cleric-feature"
-    ],
-    "text": "*Embody Deific Forces of Death*\n\nThe Grave Domain concerns itself with the boundary between life and death. To those who tap into this domain's power, death is a natural and inevitable part of the multiverse. Such Clerics seek to destroy undead and shepherd spirits.\n\nThe magic of this domain also allows these Clerics to stave off death for a time. But this is merely a delay of death, not a denial of it, for the grave will always claim its due.",
-    "grants": [
-      "srd24:grave:grave-domain-spells",
-      "srd24:grave:circle-of-mortality",
-      "srd24:grave:path-to-the-grave"
-    ]
-  },
-  {
     "id": "srd24:grave:sentinel-at-deaths-door",
     "kind": "subclass-feature",
     "name": "Sentinel at Death's Door",
-    "source": "srd24",
-    "page": "RHW 20",
+    "source": "rhw",
+    "page": "20",
     "tags": [
       "grave-feature",
       "cleric-feature"
@@ -165,8 +151,8 @@
     "id": "srd24:grave:divine-reaper",
     "kind": "subclass-feature",
     "name": "Divine Reaper",
-    "source": "srd24",
-    "page": "RHW 20",
+    "source": "rhw",
+    "page": "20",
     "tags": [
       "grave-feature",
       "cleric-feature"

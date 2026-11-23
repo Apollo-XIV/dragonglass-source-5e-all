@@ -3,8 +3,8 @@
     "id": "srd:warlock:pact-magic",
     "kind": "class-feature",
     "name": "Pact Magic",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],
@@ -14,8 +14,8 @@
     "id": "srd:warlock:otherworldly-patron",
     "kind": "class-feature",
     "name": "Otherworldly Patron",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],
@@ -25,8 +25,8 @@
     "id": "srd:warlock:eldritch-invocations",
     "kind": "class-feature",
     "name": "Eldritch Invocations",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],
@@ -36,8 +36,8 @@
     "id": "srd:warlock:pact-boon",
     "kind": "class-feature",
     "name": "Pact Boon",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],
@@ -47,8 +47,8 @@
     "id": "srd:warlock:eldritch-versatility",
     "kind": "class-feature",
     "name": "Eldritch Versatility",
-    "source": "srd",
-    "page": "TCE 70",
+    "source": "tce",
+    "page": "70",
     "tags": [
       "warlock-feature"
     ],
@@ -58,8 +58,8 @@
     "id": "srd:warlock:mystic-arcanum-6th-level",
     "kind": "class-feature",
     "name": "Mystic Arcanum (6th level)",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],
@@ -101,8 +101,8 @@
     "id": "srd:warlock:mystic-arcanum-7th-level",
     "kind": "class-feature",
     "name": "Mystic Arcanum (7th level)",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],
@@ -143,8 +143,8 @@
     "id": "srd:warlock:mystic-arcanum-8th-level",
     "kind": "class-feature",
     "name": "Mystic Arcanum (8th level)",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],
@@ -185,8 +185,8 @@
     "id": "srd:warlock:mystic-arcanum-9th-level",
     "kind": "class-feature",
     "name": "Mystic Arcanum (9th level)",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],
@@ -227,8 +227,8 @@
     "id": "srd:warlock:eldritch-master",
     "kind": "class-feature",
     "name": "Eldritch Master",
-    "source": "srd",
-    "page": "PHB 105",
+    "source": "phb",
+    "page": "105",
     "tags": [
       "warlock-feature"
     ],

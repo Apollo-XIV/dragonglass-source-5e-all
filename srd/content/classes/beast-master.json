@@ -3,17 +3,19 @@
     "id": "srd:subclass:beast-master",
     "kind": "subclass",
     "name": "Beast Master",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "class": "srd:class:ranger",
     "tags": [
       "ranger-subclass",
       "srd-subclass"
     ],
+    "text": "The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
     "levels": {
       "3": {
         "grants": [
-          "srd:beast-master:beast-master"
+          "srd:beast-master:rangers-companion",
+          "srd:beast-master:primal-companion"
         ]
       },
       "7": {
@@ -37,8 +39,8 @@
     "id": "srd:beast-master:rangers-companion",
     "kind": "subclass-feature",
     "name": "Ranger's Companion",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "beast-master-feature",
       "ranger-feature"
@@ -60,8 +62,8 @@
     "id": "srd:beast-master:primal-companion",
     "kind": "subclass-feature",
     "name": "Primal Companion",
-    "source": "srd",
-    "page": "TCE 61",
+    "source": "tce",
+    "page": "61",
     "tags": [
       "beast-master-feature",
       "ranger-feature"
@@ -80,27 +82,11 @@
     ]
   },
   {
-    "id": "srd:beast-master:beast-master",
-    "kind": "subclass-feature",
-    "name": "Beast Master",
-    "source": "srd",
-    "page": "PHB 93",
-    "tags": [
-      "beast-master-feature",
-      "ranger-feature"
-    ],
-    "text": "The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.",
-    "grants": [
-      "srd:beast-master:rangers-companion",
-      "srd:beast-master:primal-companion"
-    ]
-  },
-  {
     "id": "srd:beast-master:exceptional-training",
     "kind": "subclass-feature",
     "name": "Exceptional Training",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "beast-master-feature",
       "ranger-feature"
@@ -122,8 +108,8 @@
     "id": "srd:beast-master:bestial-fury",
     "kind": "subclass-feature",
     "name": "Bestial Fury",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "beast-master-feature",
       "ranger-feature"
@@ -134,8 +120,8 @@
     "id": "srd:beast-master:share-spells",
     "kind": "subclass-feature",
     "name": "Share Spells",
-    "source": "srd",
-    "page": "PHB 93",
+    "source": "phb",
+    "page": "93",
     "tags": [
       "beast-master-feature",
       "ranger-feature"

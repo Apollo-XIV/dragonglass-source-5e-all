@@ -3,17 +3,19 @@
     "id": "srd:subclass:nature-domain",
     "kind": "subclass",
     "name": "Nature Domain",
-    "source": "srd",
-    "page": "PHB 61",
+    "source": "phb",
+    "page": "61",
     "class": "srd:class:cleric",
     "tags": [
       "cleric-subclass",
       "srd-subclass"
     ],
+    "text": "Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Nature Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | animal friendship, speak with animals |\n| 3rd | barkskin, spike growth |\n| 5th | plant growth, wind wall |\n| 7th | dominate beast, grasping vine |\n| 9th | insect plague, tree stride |",
     "levels": {
       "1": {
         "grants": [
-          "srd:nature:nature-domain",
+          "srd:nature:acolyte-of-nature",
+          "srd:nature:bonus-proficiency",
           "srd:spell:animal-friendship",
           "srd:spell:speak-with-animals"
         ],
@@ -83,8 +85,8 @@
     "id": "srd:nature:acolyte-of-nature",
     "kind": "subclass-feature",
     "name": "Acolyte of Nature",
-    "source": "srd",
-    "page": "PHB 61",
+    "source": "phb",
+    "page": "61",
     "tags": [
       "nature-feature",
       "cleric-feature"
@@ -95,8 +97,8 @@
     "id": "srd:nature:bonus-proficiency",
     "kind": "subclass-feature",
     "name": "Bonus Proficiency",
-    "source": "srd",
-    "page": "PHB 61",
+    "source": "phb",
+    "page": "61",
     "tags": [
       "nature-feature",
       "cleric-feature"
@@ -117,27 +119,11 @@
     ]
   },
   {
-    "id": "srd:nature:nature-domain",
-    "kind": "subclass-feature",
-    "name": "Nature Domain",
-    "source": "srd",
-    "page": "PHB 61",
-    "tags": [
-      "nature-feature",
-      "cleric-feature"
-    ],
-    "text": "Gods of nature are as varied as the natural world itself, from inscrutable gods of the deep forests (such as Silvanus, Obad-Hai, Chislev, Balinor, and Pan) to friendly deities associated with particular springs and groves (such as Eldath). Druids revere nature as a whole and might serve one of these deities, practicing mysterious rites and reciting all-but-forgotten prayers in their own secret tongue. But many of these gods have clerics as well, champions who take a more active role in advancing the interests of a particular nature god. These clerics might hunt the evil monstrosities that despoil the woodlands, bless the harvest of the faithful, or wither the crops of those who anger their gods.\n\nAt each indicated cleric level, you add the listed spells to your spells prepared.\n\n**Nature Domain Spells**\n| Cleric Level | Spells |\n| --- | --- |\n| 1st | animal friendship, speak with animals |\n| 3rd | barkskin, spike growth |\n| 5th | plant growth, wind wall |\n| 7th | dominate beast, grasping vine |\n| 9th | insect plague, tree stride |",
-    "grants": [
-      "srd:nature:acolyte-of-nature",
-      "srd:nature:bonus-proficiency"
-    ]
-  },
-  {
     "id": "srd:nature:channel-divinity-charm-animals-and-plants",
     "kind": "subclass-feature",
     "name": "Channel Divinity: Charm Animals and Plants",
-    "source": "srd",
-    "page": "PHB 61",
+    "source": "phb",
+    "page": "61",
     "tags": [
       "nature-feature",
       "cleric-feature"
@@ -162,8 +148,8 @@
     "id": "srd:nature:dampen-elements",
     "kind": "subclass-feature",
     "name": "Dampen Elements",
-    "source": "srd",
-    "page": "PHB 61",
+    "source": "phb",
+    "page": "61",
     "tags": [
       "nature-feature",
       "cleric-feature"
@@ -185,8 +171,8 @@
     "id": "srd:nature:divine-strike",
     "kind": "subclass-feature",
     "name": "Divine Strike",
-    "source": "srd",
-    "page": "PHB 61",
+    "source": "phb",
+    "page": "61",
     "tags": [
       "nature-feature",
       "cleric-feature"
@@ -197,8 +183,8 @@
     "id": "srd:nature:blessed-strikes",
     "kind": "subclass-feature",
     "name": "Blessed Strikes",
-    "source": "srd",
-    "page": "TCE 30",
+    "source": "tce",
+    "page": "30",
     "tags": [
       "nature-feature",
       "cleric-feature"
@@ -209,8 +195,8 @@
     "id": "srd:nature:master-of-nature",
     "kind": "subclass-feature",
     "name": "Master of Nature",
-    "source": "srd",
-    "page": "PHB 61",
+    "source": "phb",
+    "page": "61",
     "tags": [
       "nature-feature",
       "cleric-feature"

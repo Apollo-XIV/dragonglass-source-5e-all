@@ -3,17 +3,20 @@
     "id": "srd:subclass:college-of-swords",
     "kind": "subclass",
     "name": "College of Swords",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "class": "srd:class:bard",
     "tags": [
       "bard-subclass",
       "srd-subclass"
     ],
+    "text": "Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. Though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.\n\nTheir talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust a blade in their ranks.\n\nBlades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
     "levels": {
       "3": {
         "grants": [
-          "srd:swords:college-of-swords"
+          "srd:swords:bonus-proficiencies",
+          "srd:swords:fighting-style",
+          "srd:swords:blade-flourish"
         ],
         "choices": [
           {
@@ -45,8 +48,8 @@
     "id": "srd:swords:bonus-proficiencies",
     "kind": "subclass-feature",
     "name": "Bonus Proficiencies",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "tags": [
       "swords-feature",
       "bard-feature"
@@ -81,8 +84,8 @@
     "id": "srd:swords:fighting-style",
     "kind": "subclass-feature",
     "name": "Fighting Style",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "tags": [
       "swords-feature",
       "bard-feature"
@@ -93,8 +96,8 @@
     "id": "srd:swords:defensive-flourish",
     "kind": "subclass-feature",
     "name": "Defensive Flourish",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "tags": [
       "swords-feature",
       "bard-feature",
@@ -106,8 +109,8 @@
     "id": "srd:swords:slashing-flourish",
     "kind": "subclass-feature",
     "name": "Slashing Flourish",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "tags": [
       "swords-feature",
       "bard-feature",
@@ -119,8 +122,8 @@
     "id": "srd:swords:mobile-flourish",
     "kind": "subclass-feature",
     "name": "Mobile Flourish",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "tags": [
       "swords-feature",
       "bard-feature",
@@ -132,8 +135,8 @@
     "id": "srd:swords:blade-flourish",
     "kind": "subclass-feature",
     "name": "Blade Flourish",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "tags": [
       "swords-feature",
       "bard-feature"
@@ -168,28 +171,11 @@
     ]
   },
   {
-    "id": "srd:swords:college-of-swords",
-    "kind": "subclass-feature",
-    "name": "College of Swords",
-    "source": "srd",
-    "page": "XGE 15",
-    "tags": [
-      "swords-feature",
-      "bard-feature"
-    ],
-    "text": "Bards of the College of Swords are called blades, and they entertain through daring feats of weapon prowess. Blades perform stunts such as sword swallowing, knife throwing and juggling, and mock combats. Though they use their weapons to entertain, they are also highly trained and skilled warriors in their own right.\n\nTheir talent with weapons inspires many blades to lead double lives. One blade might use a circus troupe as cover for nefarious deeds such as assassination, robbery, and blackmail. Other blades strike at the wicked, bringing justice to bear against the cruel and powerful. Most troupes are happy to accept a blade's talent for the excitement it adds to a performance, but few entertainers fully trust a blade in their ranks.\n\nBlades who abandon their lives as entertainers have often run into trouble that makes maintaining their secret activities impossible. A blade caught stealing or engaging in vigilante justice is too great a liability for most troupes. With their weapon skills and magic, these blades either take up work as enforcers for thieves' guilds or strike out on their own as adventurers.",
-    "grants": [
-      "srd:swords:bonus-proficiencies",
-      "srd:swords:fighting-style",
-      "srd:swords:blade-flourish"
-    ]
-  },
-  {
     "id": "srd:swords:extra-attack",
     "kind": "subclass-feature",
     "name": "Extra Attack",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "tags": [
       "swords-feature",
       "bard-feature"
@@ -200,8 +186,8 @@
     "id": "srd:swords:masters-flourish",
     "kind": "subclass-feature",
     "name": "Master's Flourish",
-    "source": "srd",
-    "page": "XGE 15",
+    "source": "xge",
+    "page": "15",
     "tags": [
       "swords-feature",
       "bard-feature"

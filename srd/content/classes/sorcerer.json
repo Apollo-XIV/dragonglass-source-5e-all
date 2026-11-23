@@ -3,8 +3,8 @@
     "id": "srd:class:sorcerer",
     "kind": "class",
     "name": "Sorcerer",
-    "source": "srd",
-    "page": "PHB 99",
+    "source": "phb",
+    "page": "99",
     "key": "sorcerer",
     "hitDie": "d6",
     "tags": [

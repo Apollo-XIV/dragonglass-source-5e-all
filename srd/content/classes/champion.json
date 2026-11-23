@@ -3,17 +3,18 @@
     "id": "srd:subclass:champion",
     "kind": "subclass",
     "name": "Champion",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "class": "srd:class:fighter",
     "tags": [
       "fighter-subclass",
       "srd-subclass"
     ],
+    "text": "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
     "levels": {
       "3": {
         "grants": [
-          "srd:champion:champion"
+          "srd:champion:improved-critical"
         ]
       },
       "7": {
@@ -55,8 +56,8 @@
     "id": "srd:champion:improved-critical",
     "kind": "subclass-feature",
     "name": "Improved Critical",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -64,26 +65,11 @@
     "text": "Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20."
   },
   {
-    "id": "srd:champion:champion",
-    "kind": "subclass-feature",
-    "name": "Champion",
-    "source": "srd",
-    "page": "PHB 72",
-    "tags": [
-      "champion-feature",
-      "fighter-feature"
-    ],
-    "text": "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows.",
-    "grants": [
-      "srd:champion:improved-critical"
-    ]
-  },
-  {
     "id": "srd:champion:remarkable-athlete",
     "kind": "subclass-feature",
     "name": "Remarkable Athlete",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -94,8 +80,8 @@
     "id": "srd:champion:additional-fighting-style",
     "kind": "subclass-feature",
     "name": "Additional Fighting Style",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -106,8 +92,8 @@
     "id": "srd:champion:superior-critical",
     "kind": "subclass-feature",
     "name": "Superior Critical",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "champion-feature",
       "fighter-feature"
@@ -118,8 +104,8 @@
     "id": "srd:champion:survivor",
     "kind": "subclass-feature",
     "name": "Survivor",
-    "source": "srd",
-    "page": "PHB 72",
+    "source": "phb",
+    "page": "72",
     "tags": [
       "champion-feature",
       "fighter-feature"
