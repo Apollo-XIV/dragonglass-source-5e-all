@@ -150,7 +150,16 @@
     "components": "V",
     "duration": "Concentration, up to 1 minute",
     "concentration": true,
-    "text": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points."
+    "text": "Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Aura of Vitality",
+        "activation": "action",
+        "range": "Self (30-foot radius)",
+        "heal": "2d6"
+      }
+    ]
   },
   {
     "id": "srd:spell:beacon-of-hope",
@@ -634,7 +643,17 @@
     "duration": "Concentration, up to 1 hour",
     "concentration": true,
     "text": "A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.",
-    "higherLevels": "When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4."
+    "higherLevels": "When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Elemental Weapon",
+        "activation": "action",
+        "range": "Touch",
+        "damage": "1d4",
+        "notes": "The damage type is chosen when the spell is cast."
+      }
+    ]
   },
   {
     "id": "srd:spell:enemies-abound",
@@ -1472,7 +1491,16 @@
     "components": "V",
     "duration": "Instantaneous",
     "text": "As you call out words of restoration, up to six creatures of your choice that you can see within range regain hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-    "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd."
+    "higherLevels": "When you cast this spell using a spell slot of 4th level or higher, the healing increases by 1d4 for each slot level above 3rd.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Mass Healing Word",
+        "activation": "bonus-action",
+        "range": "60 feet",
+        "heal": "1d4 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd:spell:meld-into-stone",
@@ -2377,9 +2405,11 @@
         "name": "Vampiric Touch",
         "activation": "action",
         "range": "Self",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "3d6",
-        "damageType": "necrotic",
-        "notes": "Melee spell attack."
+        "damageType": "necrotic"
       }
     ]
   },

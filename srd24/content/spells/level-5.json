@@ -25,7 +25,16 @@
     "components": "V, S, M (a moonstone worth 50+ GP)",
     "duration": "Concentration, up to 1 minute",
     "concentration": true,
-    "text": "For the duration, moonlight fills a 20-foot Emanation originating from you with Dim Light. While in that area, you and your allies have Half Cover and Resistance to Cold, Lightning, and Radiant damage.\n\nWhile the spell lasts, you can use one of the following options, ending the spell immediately:\n\n- **Liberation.** When you fail a saving throw to avoid or end the Frightened, Grappled, or Restrained condition, you can take a Reaction to succeed on the save instead.\n- **Respite.** As a Magic action, you or an ally within the area regains Hit Points equal to 4d10 plus your spellcasting ability modifier."
+    "text": "For the duration, moonlight fills a 20-foot Emanation originating from you with Dim Light. While in that area, you and your allies have Half Cover and Resistance to Cold, Lightning, and Radiant damage.\n\nWhile the spell lasts, you can use one of the following options, ending the spell immediately:\n\n- **Liberation.** When you fail a saving throw to avoid or end the Frightened, Grappled, or Restrained condition, you can take a Reaction to succeed on the save instead.\n- **Respite.** As a Magic action, you or an ally within the area regains Hit Points equal to 4d10 plus your spellcasting ability modifier.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Alustriel's Mooncloak",
+        "activation": "action",
+        "range": "Self (20-foot emanation)",
+        "heal": "4d10 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd24:spell:animate-objects",
@@ -115,9 +124,12 @@
         "save": {
           "ability": "dex"
         },
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "5d8",
         "damageType": "force",
-        "notes": "Melee spell attack. The spell also calls for a Strength saving throw. Also deals bludgeoning damage; see the description."
+        "notes": "The spell also calls for a Strength saving throw. Also deals bludgeoning damage; see the description."
       }
     ]
   },
@@ -1092,7 +1104,16 @@
     "components": "V, S",
     "duration": "Instantaneous",
     "text": "A wave of healing energy washes out from a point you can see within range. Choose up to six creatures in a 30-foot-radius Sphere centered on that point. Each target regains Hit Points equal to 5d8 plus your spellcasting ability modifier.",
-    "higherLevels": "The healing increases by 1d8 for each spell slot level above 5."
+    "higherLevels": "The healing increases by 1d8 for each spell slot level above 5.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Mass Cure Wounds",
+        "activation": "action",
+        "range": "60 feet",
+        "heal": "5d8 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd24:spell:mislead",
@@ -1485,7 +1506,8 @@
         "range": "Self",
         "save": {
           "ability": "con"
-        }
+        },
+        "heal": "4d8 + @spellcasting.mod"
       }
     ]
   },
@@ -1519,9 +1541,11 @@
         "name": "Steel Wind Strike",
         "activation": "action",
         "range": "30 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "6d10",
-        "damageType": "force",
-        "notes": "Melee spell attack."
+        "damageType": "force"
       }
     ]
   },

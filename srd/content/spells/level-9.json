@@ -46,27 +46,33 @@
         "name": "Blade of Disaster (force, 4d12)",
         "activation": "bonus-action",
         "range": "60 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "4d12",
-        "damageType": "force",
-        "notes": "Melee spell attack."
+        "damageType": "force"
       },
       {
         "id": "cast-force-8d12",
         "name": "Blade of Disaster (force, 8d12)",
         "activation": "bonus-action",
         "range": "60 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "8d12",
-        "damageType": "force",
-        "notes": "Melee spell attack."
+        "damageType": "force"
       },
       {
         "id": "cast-force-12d12",
         "name": "Blade of Disaster (force, 12d12)",
         "activation": "bonus-action",
         "range": "60 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "12d12",
-        "damageType": "force",
-        "notes": "Melee spell attack."
+        "damageType": "force"
       }
     ]
   },

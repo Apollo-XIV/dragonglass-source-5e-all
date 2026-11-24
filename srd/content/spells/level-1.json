@@ -468,7 +468,9 @@
         "name": "Chaos Bolt",
         "activation": "action",
         "range": "120 feet",
-        "notes": "Ranged spell attack."
+        "attack": {
+          "type": "ranged-spell"
+        }
       }
     ]
   },
@@ -551,7 +553,9 @@
         "name": "Chromatic Orb",
         "activation": "action",
         "range": "90 feet",
-        "notes": "Ranged spell attack."
+        "attack": {
+          "type": "ranged-spell"
+        }
       }
     ]
   },
@@ -760,7 +764,16 @@
     "components": "V, S",
     "duration": "Instantaneous",
     "text": "A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-    "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st."
+    "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Cure Wounds",
+        "activation": "action",
+        "range": "Touch",
+        "heal": "1d8 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd:spell:detect-evil-and-good",
@@ -1526,9 +1539,11 @@
         "name": "Guiding Bolt",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "4d6",
-        "damageType": "radiant",
-        "notes": "Ranged spell attack."
+        "damageType": "radiant"
       }
     ]
   },
@@ -1604,7 +1619,16 @@
     "components": "V",
     "duration": "Instantaneous",
     "text": "A creature of your choice that you can see within range regains hit points equal to 1d4 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-    "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st."
+    "higherLevels": "When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d4 for each slot level above 1st.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Healing Word",
+        "activation": "bonus-action",
+        "range": "60 feet",
+        "heal": "1d4 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd:spell:hellish-rebuke",
@@ -1860,9 +1884,11 @@
         "save": {
           "ability": "dex"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d10",
-        "damageType": "piercing",
-        "notes": "Ranged spell attack."
+        "damageType": "piercing"
       },
       {
         "id": "cast-cold",
@@ -1872,9 +1898,11 @@
         "save": {
           "ability": "dex"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d6",
-        "damageType": "cold",
-        "notes": "Ranged spell attack."
+        "damageType": "cold"
       }
     ]
   },
@@ -1975,9 +2003,11 @@
         "name": "Inflict Wounds",
         "activation": "action",
         "range": "Touch",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "3d10",
-        "damageType": "necrotic",
-        "notes": "Melee spell attack."
+        "damageType": "necrotic"
       }
     ]
   },
@@ -2015,18 +2045,22 @@
         "name": "Jim's Magic Missile (force, 2d4)",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d4",
-        "damageType": "force",
-        "notes": "Ranged spell attack."
+        "damageType": "force"
       },
       {
         "id": "cast-force-5d4",
         "name": "Jim's Magic Missile (force, 5d4)",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "5d4",
-        "damageType": "force",
-        "notes": "Ranged spell attack."
+        "damageType": "force"
       }
     ]
   },
@@ -2305,9 +2339,11 @@
         "save": {
           "ability": "con"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d8",
-        "damageType": "poison",
-        "notes": "Ranged spell attack."
+        "damageType": "poison"
       }
     ]
   },
@@ -2812,9 +2848,11 @@
         "name": "Witch Bolt",
         "activation": "action",
         "range": "30 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d12",
-        "damageType": "lightning",
-        "notes": "Ranged spell attack."
+        "damageType": "lightning"
       }
     ]
   },

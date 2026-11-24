@@ -1560,9 +1560,11 @@
         "save": {
           "ability": "str"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d6",
-        "damageType": "bludgeoning",
-        "notes": "Ranged spell attack."
+        "damageType": "bludgeoning"
       },
       {
         "id": "cast-lightning",
@@ -1572,9 +1574,11 @@
         "save": {
           "ability": "str"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "4d6",
-        "damageType": "lightning",
-        "notes": "Ranged spell attack."
+        "damageType": "lightning"
       }
     ]
   },

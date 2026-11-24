@@ -83,9 +83,12 @@
         "name": "Arcane Hand",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "4d8",
         "damageType": "force",
-        "notes": "Melee spell attack. Also deals bludgeoning damage; see the description."
+        "notes": "Also deals bludgeoning damage; see the description."
       }
     ]
   },
@@ -441,7 +444,9 @@
         "save": {
           "ability": "con"
         },
-        "notes": "Melee spell attack."
+        "attack": {
+          "type": "melee-spell"
+        }
       }
     ]
   },
@@ -664,7 +669,9 @@
         "save": {
           "ability": "cha"
         },
-        "notes": "Melee spell attack."
+        "attack": {
+          "type": "melee-spell"
+        }
       }
     ]
   },
@@ -1261,7 +1268,16 @@
     "components": "V, S",
     "duration": "Instantaneous",
     "text": "A wave of healing energy washes out from a point of your choice within range. Choose up to six creatures in a 30-foot-radius sphere centered on that point. Each target regains hit points equal to 3d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-    "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th."
+    "higherLevels": "When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Mass Cure Wounds",
+        "activation": "action",
+        "range": "60 feet",
+        "heal": "3d8 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd:spell:mislead",
@@ -1605,9 +1621,11 @@
         "name": "Steel Wind Strike",
         "activation": "action",
         "range": "30 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "6d10",
-        "damageType": "force",
-        "notes": "Melee spell attack."
+        "damageType": "force"
       }
     ]
   },
@@ -1968,9 +1986,11 @@
         "save": {
           "ability": "con"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "4d8",
-        "damageType": "radiant",
-        "notes": "Ranged spell attack."
+        "damageType": "radiant"
       }
     ]
   },
@@ -2044,9 +2064,12 @@
         "save": {
           "ability": "dex"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "4d6",
         "damageType": "slashing",
-        "notes": "Ranged spell attack. The spell also calls for a Strength saving throw. Also deals bludgeoning damage; see the description."
+        "notes": "The spell also calls for a Strength saving throw. Also deals bludgeoning damage; see the description."
       }
     ]
   }

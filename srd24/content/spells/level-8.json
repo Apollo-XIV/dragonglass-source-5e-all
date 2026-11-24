@@ -378,7 +378,9 @@
         "name": "Holy Star of Mystra",
         "activation": "bonus-action",
         "range": "Self",
-        "notes": "Ranged spell attack."
+        "attack": {
+          "type": "ranged-spell"
+        }
       }
     ]
   },

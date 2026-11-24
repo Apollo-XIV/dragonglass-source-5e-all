@@ -32,18 +32,22 @@
         "name": "Acid Arrow (acid, 4d4)",
         "activation": "action",
         "range": "90 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "4d4",
-        "damageType": "acid",
-        "notes": "Ranged spell attack."
+        "damageType": "acid"
       },
       {
         "id": "cast-acid-2d4",
         "name": "Acid Arrow (acid, 2d4)",
         "activation": "action",
         "range": "90 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d4",
-        "damageType": "acid",
-        "notes": "Ranged spell attack."
+        "damageType": "acid"
       }
     ]
   },
@@ -820,7 +824,9 @@
         "range": "Touch",
         "save": {
           "ability": "dex"
-        }
+        },
+        "damage": "3d6",
+        "notes": "The damage type is chosen when the spell is cast."
       }
     ]
   },
@@ -965,26 +971,13 @@
     "text": "You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.\n\nIf the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.\n\n**Enlarge.** The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.\n\n**Reduce.** The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).",
     "actions": [
       {
-        "id": "cast-extra",
-        "name": "Enlarge/Reduce (extra)",
+        "id": "cast",
+        "name": "Enlarge/Reduce",
         "activation": "action",
         "range": "30 feet",
         "save": {
           "ability": "con"
-        },
-        "damage": "1d4",
-        "damageType": "extra"
-      },
-      {
-        "id": "cast-less",
-        "name": "Enlarge/Reduce (less)",
-        "activation": "action",
-        "range": "30 feet",
-        "save": {
-          "ability": "con"
-        },
-        "damage": "1d4",
-        "damageType": "less"
+        }
       }
     ]
   },
@@ -1117,9 +1110,11 @@
         "name": "Flame Blade",
         "activation": "bonus-action",
         "range": "Self",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "3d6",
-        "damageType": "fire",
-        "notes": "Melee spell attack."
+        "damageType": "fire"
       }
     ]
   },
@@ -2139,7 +2134,16 @@
     "components": "V",
     "duration": "Instantaneous",
     "text": "Up to six creatures of your choice that you can see within range each regain hit points equal to 2d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.",
-    "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd."
+    "higherLevels": "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d8 for each slot level above 2nd.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Prayer of Healing",
+        "activation": "minute",
+        "range": "30 feet",
+        "heal": "2d8 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd:spell:protection-from-poison",
@@ -2245,7 +2249,9 @@
         "save": {
           "ability": "con"
         },
-        "notes": "Ranged spell attack."
+        "attack": {
+          "type": "ranged-spell"
+        }
       }
     ]
   },
@@ -2350,9 +2356,11 @@
         "name": "Scorching Ray",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d6",
-        "damageType": "fire",
-        "notes": "Ranged spell attack."
+        "damageType": "fire"
       }
     ]
   },
@@ -2670,7 +2678,9 @@
         "name": "Spiritual Weapon",
         "activation": "bonus-action",
         "range": "60 feet",
-        "notes": "Melee spell attack."
+        "attack": {
+          "type": "melee-spell"
+        }
       }
     ]
   },

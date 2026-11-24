@@ -1030,9 +1030,11 @@
         "name": "Grasping Vine",
         "activation": "bonus-action",
         "range": "60 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "4d8",
-        "damageType": "bludgeoning",
-        "notes": "Melee spell attack."
+        "damageType": "bludgeoning"
       }
     ]
   },

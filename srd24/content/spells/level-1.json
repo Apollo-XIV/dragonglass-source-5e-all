@@ -349,7 +349,11 @@
         "name": "Chromatic Orb",
         "activation": "action",
         "range": "90 feet",
-        "notes": "Ranged spell attack."
+        "attack": {
+          "type": "ranged-spell"
+        },
+        "damage": "3d8",
+        "notes": "The damage type is chosen when the spell is cast."
       }
     ]
   },
@@ -570,7 +574,16 @@
     "components": "V, S",
     "duration": "Instantaneous",
     "text": "A creature you touch regains a number of Hit Points equal to 2d8 plus your spellcasting ability modifier.",
-    "higherLevels": "The healing increases by 2d8 for each spell slot level above 1."
+    "higherLevels": "The healing increases by 2d8 for each spell slot level above 1.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Cure Wounds",
+        "activation": "action",
+        "range": "Touch",
+        "heal": "2d8 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd24:spell:detect-evil-and-good",
@@ -1235,9 +1248,11 @@
         "name": "Guiding Bolt",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "4d6",
-        "damageType": "radiant",
-        "notes": "Ranged spell attack."
+        "damageType": "radiant"
       }
     ]
   },
@@ -1312,7 +1327,16 @@
     "components": "V",
     "duration": "Instantaneous",
     "text": "A creature of your choice that you can see within range regains Hit Points equal to 2d4 plus your spellcasting ability modifier.",
-    "higherLevels": "The healing increases by 2d4 for each spell slot level above 1."
+    "higherLevels": "The healing increases by 2d4 for each spell slot level above 1.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Healing Word",
+        "activation": "bonus-action",
+        "range": "60 feet",
+        "heal": "2d4 + @spellcasting.mod"
+      }
+    ]
   },
   {
     "id": "srd24:spell:hellish-rebuke",
@@ -1549,9 +1573,11 @@
         "save": {
           "ability": "dex"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d10",
-        "damageType": "piercing",
-        "notes": "Ranged spell attack."
+        "damageType": "piercing"
       },
       {
         "id": "cast-cold",
@@ -1561,9 +1587,11 @@
         "save": {
           "ability": "dex"
         },
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d6",
-        "damageType": "cold",
-        "notes": "Ranged spell attack."
+        "damageType": "cold"
       }
     ]
   },
@@ -1905,9 +1933,11 @@
         "name": "Ray of Sickness",
         "activation": "action",
         "range": "60 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d8",
-        "damageType": "poison",
-        "notes": "Ranged spell attack."
+        "damageType": "poison"
       }
     ]
   },
@@ -2192,9 +2222,11 @@
         "name": "Spellfire Flare",
         "activation": "action",
         "range": "60 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d10",
-        "damageType": "radiant",
-        "notes": "Ranged spell attack."
+        "damageType": "radiant"
       }
     ]
   },
@@ -2399,18 +2431,22 @@
         "name": "Witch Bolt (lightning, 2d12)",
         "activation": "action",
         "range": "60 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "2d12",
-        "damageType": "lightning",
-        "notes": "Ranged spell attack."
+        "damageType": "lightning"
       },
       {
         "id": "cast-lightning-1d12",
         "name": "Witch Bolt (lightning, 1d12)",
         "activation": "action",
         "range": "60 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d12",
-        "damageType": "lightning",
-        "notes": "Ranged spell attack."
+        "damageType": "lightning"
       }
     ]
   },

@@ -49,9 +49,11 @@
         "name": "Blade of Disaster",
         "activation": "bonus-action",
         "range": "60 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "10d6",
-        "damageType": "force",
-        "notes": "Melee spell attack."
+        "damageType": "force"
       }
     ]
   },

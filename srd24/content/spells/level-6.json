@@ -320,7 +320,9 @@
         "name": "Elminster's Effulgent Spheres",
         "activation": "action",
         "range": "Self",
-        "notes": "Ranged spell attack."
+        "attack": {
+          "type": "ranged-spell"
+        }
       }
     ]
   },

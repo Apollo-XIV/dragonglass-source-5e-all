@@ -135,9 +135,11 @@
         "name": "Booming Blade",
         "activation": "action",
         "range": "Self (5-foot radius)",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "1d8",
-        "damageType": "thunder",
-        "notes": "Melee spell attack."
+        "damageType": "thunder"
       }
     ]
   },
@@ -177,9 +179,11 @@
         "name": "Chill Touch",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d8",
-        "damageType": "necrotic",
-        "notes": "Ranged spell attack."
+        "damageType": "necrotic"
       }
     ]
   },
@@ -348,9 +352,11 @@
         "name": "Eldritch Blast",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d10",
-        "damageType": "force",
-        "notes": "Ranged spell attack."
+        "damageType": "force"
       }
     ]
   },
@@ -417,9 +423,11 @@
         "name": "Fire Bolt",
         "activation": "action",
         "range": "120 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d10",
-        "damageType": "fire",
-        "notes": "Ranged spell attack."
+        "damageType": "fire"
       }
     ]
   },
@@ -552,9 +560,11 @@
         "name": "Green-Flame Blade",
         "activation": "action",
         "range": "Self (5-foot radius)",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "{{spellcasting_mod}}",
-        "damageType": "fire",
-        "notes": "Melee spell attack."
+        "damageType": "fire"
       }
     ]
   },
@@ -821,7 +831,9 @@
         "name": "Magic Stone",
         "activation": "bonus-action",
         "range": "Touch",
-        "notes": "Ranged spell attack."
+        "attack": {
+          "type": "ranged-spell"
+        }
       }
     ]
   },
@@ -1100,9 +1112,11 @@
         "name": "Primal Savagery",
         "activation": "action",
         "range": "Self",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "1d10",
-        "damageType": "acid",
-        "notes": "Melee spell attack."
+        "damageType": "acid"
       }
     ]
   },
@@ -1140,9 +1154,11 @@
         "name": "Produce Flame",
         "activation": "action",
         "range": "Self",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d8",
-        "damageType": "fire",
-        "notes": "Ranged spell attack."
+        "damageType": "fire"
       }
     ]
   },
@@ -1181,9 +1197,11 @@
         "name": "Ray of Frost",
         "activation": "action",
         "range": "60 feet",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "1d8",
-        "damageType": "cold",
-        "notes": "Ranged spell attack."
+        "damageType": "cold"
       }
     ]
   },
@@ -1393,9 +1411,11 @@
         "name": "Shocking Grasp",
         "activation": "action",
         "range": "Touch",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "1d8",
-        "damageType": "lightning",
-        "notes": "Melee spell attack."
+        "damageType": "lightning"
       }
     ]
   },
@@ -1535,9 +1555,11 @@
         "name": "Thorn Whip",
         "activation": "action",
         "range": "30 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "1d6",
-        "damageType": "piercing",
-        "notes": "Melee spell attack."
+        "damageType": "piercing"
       }
     ]
   },

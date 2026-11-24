@@ -28,9 +28,11 @@
         "name": "Arcane Sword",
         "activation": "action",
         "range": "60 feet",
+        "attack": {
+          "type": "melee-spell"
+        },
         "damage": "3d10",
-        "damageType": "force",
-        "notes": "Melee spell attack."
+        "damageType": "force"
       }
     ]
   },
@@ -107,9 +109,11 @@
         "name": "Crown of Stars",
         "activation": "action",
         "range": "Self",
+        "attack": {
+          "type": "ranged-spell"
+        },
         "damage": "4d12",
-        "damageType": "radiant",
-        "notes": "Ranged spell attack."
+        "damageType": "radiant"
       }
     ]
   },
@@ -145,7 +149,9 @@
         "range": "150 feet",
         "save": {
           "ability": "dex"
-        }
+        },
+        "damage": "12d6",
+        "damageType": "fire"
       }
     ]
   },
@@ -482,7 +488,9 @@
         "save": {
           "ability": "cha"
         },
-        "notes": "Melee spell attack."
+        "attack": {
+          "type": "melee-spell"
+        }
       }
     ]
   },
@@ -649,7 +657,16 @@
     "range": "Touch",
     "components": "V, S, M (a prayer wheel and holy water)",
     "duration": "1 hour",
-    "text": "You touch a creature and stimulate its natural healing ability. The target regains 4d8 + 15 hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each minute).\n\nThe target's severed body members (fingers, legs, tails, and so on), if any, are restored after 2 minutes. If you have the severed part and hold it to the stump, the spell instantaneously causes the limb to knit to the stump."
+    "text": "You touch a creature and stimulate its natural healing ability. The target regains 4d8 + 15 hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each minute).\n\nThe target's severed body members (fingers, legs, tails, and so on), if any, are restored after 2 minutes. If you have the severed part and hold it to the stump, the spell instantaneously causes the limb to knit to the stump.",
+    "actions": [
+      {
+        "id": "cast",
+        "name": "Regenerate",
+        "activation": "minute",
+        "range": "Touch",
+        "heal": "4d8 + 15"
+      }
+    ]
   },
   {
     "id": "srd:spell:resurrection",
