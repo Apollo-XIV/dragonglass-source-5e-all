@@ -1,0 +1,197 @@
+[
+  {
+    "id": "srd:ancestry:dragonborn:black",
+    "kind": "ancestry",
+    "name": "Black Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Acid\n\n**Breath Weapon.** 5 by 30 ft. line (Dex. save)",
+    "grants": [
+      "srd:resistance:acid"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn-chromatic:black",
+    "kind": "ancestry",
+    "name": "Black Dragon",
+    "source": "ftd",
+    "tags": [
+      "dragonborn-chromatic-ancestry"
+    ],
+    "text": "**Damage Type.** Acid",
+    "grants": [
+      "srd:resistance:acid"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:blue",
+    "kind": "ancestry",
+    "name": "Blue Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Lightning\n\n**Breath Weapon.** 5 by 30 ft. line (Dex. save)",
+    "grants": [
+      "srd:resistance:lightning"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn-chromatic:blue",
+    "kind": "ancestry",
+    "name": "Blue Dragon",
+    "source": "ftd",
+    "tags": [
+      "dragonborn-chromatic-ancestry"
+    ],
+    "text": "**Damage Type.** Lightning",
+    "grants": [
+      "srd:resistance:lightning"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:brass",
+    "kind": "ancestry",
+    "name": "Brass Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Fire\n\n**Breath Weapon.** 5 by 30 ft. line (Dex. save)",
+    "grants": [
+      "srd:resistance:fire"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:bronze",
+    "kind": "ancestry",
+    "name": "Bronze Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Lightning\n\n**Breath Weapon.** 5 by 30 ft. line (Dex. save)",
+    "grants": [
+      "srd:resistance:lightning"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:copper",
+    "kind": "ancestry",
+    "name": "Copper Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Acid\n\n**Breath Weapon.** 5 by 30 ft. line (Dex. save)",
+    "grants": [
+      "srd:resistance:acid"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:gold",
+    "kind": "ancestry",
+    "name": "Gold Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Fire\n\n**Breath Weapon.** 15 ft. cone (Dex. save)",
+    "grants": [
+      "srd:resistance:fire"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:green",
+    "kind": "ancestry",
+    "name": "Green Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Poison\n\n**Breath Weapon.** 15 ft. cone (Con. save)",
+    "grants": [
+      "srd:resistance:poison"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn-chromatic:green",
+    "kind": "ancestry",
+    "name": "Green Dragon",
+    "source": "ftd",
+    "tags": [
+      "dragonborn-chromatic-ancestry"
+    ],
+    "text": "**Damage Type.** Poison",
+    "grants": [
+      "srd:resistance:poison"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:red",
+    "kind": "ancestry",
+    "name": "Red Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Fire\n\n**Breath Weapon.** 15 ft. cone (Dex. save)",
+    "grants": [
+      "srd:resistance:fire"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn-chromatic:red",
+    "kind": "ancestry",
+    "name": "Red Dragon",
+    "source": "ftd",
+    "tags": [
+      "dragonborn-chromatic-ancestry"
+    ],
+    "text": "**Damage Type.** Fire",
+    "grants": [
+      "srd:resistance:fire"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:silver",
+    "kind": "ancestry",
+    "name": "Silver Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Cold\n\n**Breath Weapon.** 15 ft. cone (Con. save)",
+    "grants": [
+      "srd:resistance:cold"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn:white",
+    "kind": "ancestry",
+    "name": "White Dragon",
+    "source": "phb",
+    "tags": [
+      "dragonborn-ancestry"
+    ],
+    "text": "**Damage Type.** Cold\n\n**Breath Weapon.** 15 ft. cone (Con. save)",
+    "grants": [
+      "srd:resistance:cold"
+    ]
+  },
+  {
+    "id": "srd:ancestry:dragonborn-chromatic:white",
+    "kind": "ancestry",
+    "name": "White Dragon",
+    "source": "ftd",
+    "tags": [
+      "dragonborn-chromatic-ancestry"
+    ],
+    "text": "**Damage Type.** Cold",
+    "grants": [
+      "srd:resistance:cold"
+    ]
+  }
+]

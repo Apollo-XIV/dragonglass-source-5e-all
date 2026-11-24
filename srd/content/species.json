@@ -837,7 +837,17 @@
       "autognome-trait"
     ],
     "text": "You gain two tool proficiencies of your choice, selected from the Player's Handbook.",
-    "page": "11"
+    "page": "11",
+    "choices": [
+      {
+        "id": "srd:species:autognome:tool",
+        "name": "Tool Proficiency",
+        "count": 2,
+        "from": {
+          "kind": "tool"
+        }
+      }
+    ]
   },
   {
     "id": "srd:species:autognome",
@@ -851,16 +861,6 @@
     "fluff": "Autognomes are mechanical beings built by rock gnomes. Sometimes, because of a malfunction or a unique circumstance, an autognome becomes separated from its creator and strikes out on its own.\n\nAn autognome bears a resemblance to its creator, and most autognomes are programmed to speak and understand Gnomish. The internal components used in an autognome's manufacture can vary wildly; one autognome might have an actual beating heart in its chest cavity, while another might be powered by stardust or intricate clockwork gears.\n\nRoll on the Autognome History table or choose an entry that you like to identify what event set you on the path to adventure. If nothing on the table appeals to you, work with your DM to create an origin story for your character.\n\nLike gnomes, autognomes can live for centuries, typically up to 500 years.\n\n**Autognome History**\n| d6 | Story |\n| --- | --- |\n| 1 | Your creator gave you autonomy and urged you to follow your dreams. |\n| 2 | Your creator died, leaving you to fend for yourself. |\n| 3 | A glitch caused you to forget your original programming. You don't remember who made you or where you came from. |\n| 4 | You didn't like how you were being treated by your creator, so you ran away from home. |\n| 5 | You were built to complete a special mission. |\n| 6 | You felt trapped in the role for which you were built and abandoned your creator, determined to find a greater purpose. |",
     "page": "11",
     "x-size": "Small",
-    "choices": [
-      {
-        "id": "srd:species:autognome:tool",
-        "name": "Tool Proficiency",
-        "count": 2,
-        "from": {
-          "kind": "tool"
-        }
-      }
-    ],
     "modifiers": [
       {
         "target": "speed.walk",
@@ -1254,7 +1254,22 @@
       "centaur-trait"
     ],
     "text": "You have proficiency in one of the following skills of your choice: Animal Handling, Medicine, Nature, or Survival.",
-    "page": "15"
+    "page": "15",
+    "choices": [
+      {
+        "id": "srd:species:centaur:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd:skill:animal-handling",
+            "srd:skill:medicine",
+            "srd:skill:nature",
+            "srd:skill:survival"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:species:centaur",
@@ -1276,21 +1291,6 @@
       "srd:centaur:hooves",
       "srd:centaur:equine-build",
       "srd:centaur:survivor"
-    ],
-    "choices": [
-      {
-        "id": "srd:species:centaur:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd:skill:animal-handling",
-            "srd:skill:medicine",
-            "srd:skill:nature",
-            "srd:skill:survival"
-          ]
-        }
-      }
     ],
     "modifiers": [
       {
@@ -1341,7 +1341,22 @@
       "changeling-trait"
     ],
     "text": "You gain proficiency with two of the following skills of your choice: Deception, Insight, Intimidation, and Persuasion.",
-    "page": "17"
+    "page": "17",
+    "choices": [
+      {
+        "id": "srd:species:changeling:skill",
+        "name": "Skill Proficiency",
+        "count": 2,
+        "from": {
+          "ids": [
+            "srd:skill:deception",
+            "srd:skill:insight",
+            "srd:skill:intimidation",
+            "srd:skill:persuasion"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:species:changeling",
@@ -1373,19 +1388,6 @@
             "srd:ability-point:con",
             "srd:ability-point:int",
             "srd:ability-point:wis"
-          ]
-        }
-      },
-      {
-        "id": "srd:species:changeling:skill",
-        "name": "Skill Proficiency",
-        "count": 2,
-        "from": {
-          "ids": [
-            "srd:skill:deception",
-            "srd:skill:insight",
-            "srd:skill:intimidation",
-            "srd:skill:persuasion"
           ]
         }
       },
@@ -1434,7 +1436,17 @@
       "custom-lineage-trait"
     ],
     "text": "You gain one of the following options of your choice: (a) darkvision with a range of 60 feet or (b) proficiency in one skill of your choice.",
-    "page": "8"
+    "page": "8",
+    "choices": [
+      {
+        "id": "srd:species:custom-lineage:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd:species:custom-lineage",
@@ -1468,14 +1480,6 @@
             "srd:ability-point:wis",
             "srd:ability-point:cha"
           ]
-        }
-      },
-      {
-        "id": "srd:species:custom-lineage:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
         }
       },
       {
@@ -1870,7 +1874,28 @@
       "dragonborn-trait"
     ],
     "text": "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.\n\n**Draconic Ancestry**\n| Dragon | Damage Type | Breath Weapon |\n| --- | --- | --- |\n| Black | Acid | 5 by 30 ft. line (Dex. save) |\n| Blue | Lightning | 5 by 30 ft. line (Dex. save) |\n| Brass | Fire | 5 by 30 ft. line (Dex. save) |\n| Bronze | Lightning | 5 by 30 ft. line (Dex. save) |\n| Copper | Acid | 5 by 30 ft. line (Dex. save) |\n| Gold | Fire | 15 ft. cone (Dex. save) |\n| Green | Poison | 15 ft. cone (Con. save) |\n| Red | Fire | 15 ft. cone (Dex. save) |\n| Silver | Cold | 15 ft. cone (Con. save) |\n| White | Cold | 15 ft. cone (Con. save) |",
-    "page": "32"
+    "page": "32",
+    "choices": [
+      {
+        "id": "srd:species:dragonborn:ancestry",
+        "name": "Draconic Ancestry",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd:ancestry:dragonborn:black",
+            "srd:ancestry:dragonborn:blue",
+            "srd:ancestry:dragonborn:brass",
+            "srd:ancestry:dragonborn:bronze",
+            "srd:ancestry:dragonborn:copper",
+            "srd:ancestry:dragonborn:gold",
+            "srd:ancestry:dragonborn:green",
+            "srd:ancestry:dragonborn:red",
+            "srd:ancestry:dragonborn:silver",
+            "srd:ancestry:dragonborn:white"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:dragonborn:breath-weapon",
@@ -1945,33 +1970,6 @@
       "srd:dragonborn:breath-weapon",
       "srd:dragonborn:damage-resistance"
     ],
-    "choices": [
-      {
-        "id": "srd:species:dragonborn:resistance",
-        "name": "Damage Resistance",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd:resistance:acid",
-            "srd:resistance:cold",
-            "srd:resistance:fire",
-            "srd:resistance:lightning",
-            "srd:resistance:poison"
-          ]
-        }
-      },
-      {
-        "id": "srd:species:dragonborn:subspecies",
-        "name": "Subrace",
-        "count": 1,
-        "from": {
-          "kind": "subspecies",
-          "tags": [
-            "dragonborn-subspecies"
-          ]
-        }
-      }
-    ],
     "modifiers": [
       {
         "target": "abilities.str.score",
@@ -1987,6 +1985,19 @@
         "target": "speed.walk",
         "op": "base",
         "value": 30
+      }
+    ],
+    "choices": [
+      {
+        "id": "srd:species:dragonborn:subspecies",
+        "name": "Subrace",
+        "count": 1,
+        "from": {
+          "kind": "subspecies",
+          "tags": [
+            "dragonborn-subspecies"
+          ]
+        }
       }
     ]
   },
@@ -2197,7 +2208,23 @@
       "dragonborn-chromatic-trait"
     ],
     "text": "You have a chromatic dragon ancestor, granting you a special magical affinity. Choose one kind of dragon from the Chromatic Ancestry table. This determines the damage type for your other traits, as shown in the table.\n\n**Chromatic Ancestry**\n| Dragon | Damage Type |\n| --- | --- |\n| Black | Acid |\n| Blue | Lightning |\n| Green | Poison |\n| Red | Fire |\n| White | Cold |",
-    "page": "10"
+    "page": "10",
+    "choices": [
+      {
+        "id": "srd:species:dragonborn-chromatic:ancestry",
+        "name": "Chromatic Ancestry",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd:ancestry:dragonborn-chromatic:black",
+            "srd:ancestry:dragonborn-chromatic:blue",
+            "srd:ancestry:dragonborn-chromatic:green",
+            "srd:ancestry:dragonborn-chromatic:red",
+            "srd:ancestry:dragonborn-chromatic:white"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:dragonborn-chromatic:breath-weapon",
@@ -2306,33 +2333,6 @@
     "fluff": "Dragonborn with chromatic ancestry claim the raw elemental power of chromatic dragons. The vibrant colors of black, blue, green, red, and white dragons gleam in those dragonborn's scaled skin and in the deadly energy of their breath weapons. Theirs is the raw elemental fury of the volcano, of biting arctic winds, and of raging lightning storms, as well as the subtle whisper of swamp and forest, toxic and corrosive.",
     "page": "10",
     "x-size": "Medium",
-    "choices": [
-      {
-        "id": "srd:species:dragonborn-chromatic:resistance",
-        "name": "Damage Resistance",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd:resistance:acid",
-            "srd:resistance:lightning",
-            "srd:resistance:poison",
-            "srd:resistance:fire",
-            "srd:resistance:cold"
-          ]
-        }
-      },
-      {
-        "id": "srd:species:dragonborn-chromatic:subspecies",
-        "name": "Lineage",
-        "count": 1,
-        "from": {
-          "kind": "subspecies",
-          "tags": [
-            "dragonborn-chromatic-subspecies"
-          ]
-        }
-      }
-    ],
     "modifiers": [
       {
         "target": "speed.walk",
@@ -2345,6 +2345,19 @@
       "srd:dragonborn-chromatic:breath-weapon",
       "srd:dragonborn-chromatic:draconic-resistance",
       "srd:dragonborn-chromatic:chromatic-warding"
+    ],
+    "choices": [
+      {
+        "id": "srd:species:dragonborn-chromatic:subspecies",
+        "name": "Lineage",
+        "count": 1,
+        "from": {
+          "kind": "subspecies",
+          "tags": [
+            "dragonborn-chromatic-subspecies"
+          ]
+        }
+      }
     ]
   },
   {
@@ -3998,7 +4011,21 @@
       "dwarf-trait"
     ],
     "text": "You gain proficiency with the artisan's tools of your choice: Smith's tools, brewer's supplies, or mason's tools.",
-    "page": "18"
+    "page": "18",
+    "choices": [
+      {
+        "id": "srd:species:dwarf:tool",
+        "name": "Tool Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd:tool:smiths-tools",
+            "srd:tool:brewers-supplies",
+            "srd:tool:masons-tools"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:dwarf:stonecunning",
@@ -4046,31 +4073,6 @@
       "srd:dwarf:tool-proficiency",
       "srd:dwarf:stonecunning"
     ],
-    "choices": [
-      {
-        "id": "srd:species:dwarf:tool",
-        "name": "Tool Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd:tool:smiths-tools",
-            "srd:tool:brewers-supplies",
-            "srd:tool:masons-tools"
-          ]
-        }
-      },
-      {
-        "id": "srd:species:dwarf:subspecies",
-        "name": "Subrace",
-        "count": 1,
-        "from": {
-          "kind": "subspecies",
-          "tags": [
-            "dwarf-subspecies"
-          ]
-        }
-      }
-    ],
     "modifiers": [
       {
         "target": "abilities.con.score",
@@ -4103,6 +4105,19 @@
         "value": [
           "poison"
         ]
+      }
+    ],
+    "choices": [
+      {
+        "id": "srd:species:dwarf:subspecies",
+        "name": "Subrace",
+        "count": 1,
+        "from": {
+          "kind": "subspecies",
+          "tags": [
+            "dwarf-subspecies"
+          ]
+        }
       }
     ]
   },
@@ -4503,6 +4518,19 @@
     ],
     "text": "You gain proficiency with two kinds of artisan's tools of your choice. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. In addition, whenever you make an Intelligence (History) check related to the origin of any architectural construction (including buildings, public works such as canals and aqueducts, and the massive cogwork that underlies much of the construction of Ghirapur), you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.",
     "page": "19",
+    "choices": [
+      {
+        "id": "srd:species:dwarf-kaladesh:tool",
+        "name": "Tool Proficiency",
+        "count": 2,
+        "from": {
+          "kind": "tool",
+          "tags": [
+            "artisans-tools"
+          ]
+        }
+      }
+    ],
     "modifiers": [
       {
         "target": "skills.history",
@@ -4537,19 +4565,6 @@
       "srd:dwarf-kaladesh:dwarven-resilience",
       "srd:dwarf-kaladesh:dwarven-toughness",
       "srd:dwarf-kaladesh:artisans-expertise"
-    ],
-    "choices": [
-      {
-        "id": "srd:species:dwarf-kaladesh:tool",
-        "name": "Tool Proficiency",
-        "count": 2,
-        "from": {
-          "kind": "tool",
-          "tags": [
-            "artisans-tools"
-          ]
-        }
-      }
     ],
     "modifiers": [
       {
@@ -5063,7 +5078,21 @@
       "elf-high-trait"
     ],
     "text": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
-    "page": "23"
+    "page": "23",
+    "choices": [
+      {
+        "id": "srd:subspecies:elf-high:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "wizard-spell"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:elf-high:extra-language",
@@ -5074,7 +5103,20 @@
       "elf-high-trait"
     ],
     "text": "You can speak, read, and write one extra language of your choosing.",
-    "page": "23"
+    "page": "23",
+    "choices": [
+      {
+        "id": "srd:subspecies:elf-high:language",
+        "name": "Language",
+        "count": 1,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:elf-high",
@@ -5094,31 +5136,6 @@
       "srd:subspecies:elf-high:elf-weapon-training",
       "srd:subspecies:elf-high:cantrip",
       "srd:subspecies:elf-high:extra-language"
-    ],
-    "choices": [
-      {
-        "id": "srd:subspecies:elf-high:language",
-        "name": "Language",
-        "count": 1,
-        "from": {
-          "kind": "language",
-          "tags": [
-            "standard-language"
-          ]
-        }
-      },
-      {
-        "id": "srd:subspecies:elf-high:known-spells",
-        "name": "Cantrip",
-        "count": 1,
-        "from": {
-          "kind": "spell",
-          "allTags": [
-            "spell-level:0",
-            "wizard-spell"
-          ]
-        }
-      }
     ],
     "modifiers": [
       {
@@ -5770,7 +5787,21 @@
       "elf-kaladesh-vahadar-trait"
     ],
     "text": "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.",
-    "page": "21"
+    "page": "21",
+    "choices": [
+      {
+        "id": "srd:subspecies:elf-kaladesh-vahadar:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "druid-spell"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:elf-kaladesh-vahadar:extra-language",
@@ -5795,20 +5826,6 @@
     "species": "srd:species:elf-kaladesh",
     "text": "",
     "page": "21",
-    "choices": [
-      {
-        "id": "srd:subspecies:elf-kaladesh-vahadar:known-spells",
-        "name": "Cantrip",
-        "count": 1,
-        "from": {
-          "kind": "spell",
-          "allTags": [
-            "spell-level:0",
-            "druid-spell"
-          ]
-        }
-      }
-    ],
     "grants": [
       "srd:subspecies:elf-kaladesh-vahadar:cantrip",
       "srd:subspecies:elf-kaladesh-vahadar:extra-language"
@@ -7230,7 +7247,25 @@
       "githyanki-trait"
     ],
     "text": "You can mystically access a reservoir of experiences of entities connected to the Astral Plane. Whenever you finish a long rest, you gain proficiency in one skill of your choice and with one weapon or tool of your choice, selected from the Player's Handbook, as you momentarily project your consciousness into the Astral Plane. These proficiencies last until the end of your next long rest.",
-    "page": "18"
+    "page": "18",
+    "choices": [
+      {
+        "id": "srd:species:githyanki:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      },
+      {
+        "id": "srd:species:githyanki:tool",
+        "name": "Tool Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "tool"
+        }
+      }
+    ]
   },
   {
     "id": "srd:githyanki:githyanki-psionics",
@@ -7267,22 +7302,6 @@
     "page": "18",
     "x-size": "Medium",
     "choices": [
-      {
-        "id": "srd:species:githyanki:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
-        }
-      },
-      {
-        "id": "srd:species:githyanki:tool",
-        "name": "Tool Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "tool"
-        }
-      },
       {
         "id": "srd:species:githyanki:ability",
         "name": "Spellcasting ability",
@@ -8800,7 +8819,17 @@
       "half-elf-trait"
     ],
     "text": "You gain proficiency in two skills of your choice.",
-    "page": "38"
+    "page": "38",
+    "choices": [
+      {
+        "id": "srd:species:half-elf:skill",
+        "name": "Skill Proficiency",
+        "count": 2,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd:species:half-elf",
@@ -8835,14 +8864,6 @@
             "srd:ability-point:int",
             "srd:ability-point:wis"
           ]
-        }
-      },
-      {
-        "id": "srd:species:half-elf:skill",
-        "name": "Skill Proficiency",
-        "count": 2,
-        "from": {
-          "kind": "skill"
         }
       },
       {
@@ -8929,7 +8950,17 @@
       "half-elf-variant-drow-descent-trait"
     ],
     "text": "**Skill Versatility.** You gain proficiency in two skills of your choice.\n\n**Drow Magic.** You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.",
-    "page": "116"
+    "page": "116",
+    "choices": [
+      {
+        "id": "srd:subspecies:half-elf-variant-drow-descent:skill",
+        "name": "Skill Proficiency",
+        "count": 2,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:half-elf-variant-drow-descent",
@@ -8946,16 +8977,6 @@
     "grants": [
       "srd:spell:dancing-lights",
       "srd:subspecies:half-elf-variant-drow-descent:variant-feature-choose-1"
-    ],
-    "choices": [
-      {
-        "id": "srd:subspecies:half-elf-variant-drow-descent:skill",
-        "name": "Skill Proficiency",
-        "count": 2,
-        "from": {
-          "kind": "skill"
-        }
-      }
     ],
     "levels": {
       "3": {
@@ -9218,19 +9239,6 @@
       "half-elf-variant-moon-elf-or-sun-elf-descent-trait"
     ],
     "text": "**Skill Versatility.** You gain proficiency in two skills of your choice.\n\n**Elf Weapon Training.** You have proficiency with the longsword, shortsword, shortbow, and longbow.\n\n**Cantrip.** You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
-    "page": "116"
-  },
-  {
-    "id": "srd:subspecies:half-elf-variant-moon-elf-or-sun-elf-descent",
-    "kind": "subspecies",
-    "name": "Variant; Moon Elf or Sun Elf Descent Half-Elf",
-    "source": "scag",
-    "tags": [
-      "half-elf-subspecies",
-      "srd-subspecies"
-    ],
-    "species": "srd:species:half-elf",
-    "text": "",
     "page": "116",
     "choices": [
       {
@@ -9253,7 +9261,20 @@
           ]
         }
       }
+    ]
+  },
+  {
+    "id": "srd:subspecies:half-elf-variant-moon-elf-or-sun-elf-descent",
+    "kind": "subspecies",
+    "name": "Variant; Moon Elf or Sun Elf Descent Half-Elf",
+    "source": "scag",
+    "tags": [
+      "half-elf-subspecies",
+      "srd-subspecies"
     ],
+    "species": "srd:species:half-elf",
+    "text": "",
+    "page": "116",
     "modifiers": [
       {
         "target": "proficiencies.weapon",
@@ -9279,7 +9300,17 @@
       "half-elf-variant-wood-elf-descent-trait"
     ],
     "text": "**Skill Versatility.** You gain proficiency in two skills of your choice.\n\n**Elf Weapon Training.** You have proficiency with the longsword, shortsword, shortbow, and longbow.\n\n**Fleet of Foot.** Your base walking speed increases to 35 feet.\n\n**Mask of the Wild.** You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.",
-    "page": "116"
+    "page": "116",
+    "choices": [
+      {
+        "id": "srd:subspecies:half-elf-variant-wood-elf-descent:skill",
+        "name": "Skill Proficiency",
+        "count": 2,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:half-elf-variant-wood-elf-descent",
@@ -9293,16 +9324,6 @@
     "species": "srd:species:half-elf",
     "text": "",
     "page": "116",
-    "choices": [
-      {
-        "id": "srd:subspecies:half-elf-variant-wood-elf-descent:skill",
-        "name": "Skill Proficiency",
-        "count": 2,
-        "from": {
-          "kind": "skill"
-        }
-      }
-    ],
     "modifiers": [
       {
         "target": "proficiencies.weapon",
@@ -10154,7 +10175,17 @@
       "hexblood-trait"
     ],
     "text": "If you replace a race with this lineage, you can keep the following elements of that race: any skill proficiencies you gained from it and any climbing, flying, or swimming speed you gained from it.\n\nIf you don't keep any of those elements or you choose this lineage at character creation, you gain proficiency in two skills of your choice.",
-    "page": "18"
+    "page": "18",
+    "choices": [
+      {
+        "id": "srd:species:hexblood:skill",
+        "name": "Skill Proficiency",
+        "count": 2,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd:hexblood:darkvision",
@@ -10225,16 +10256,6 @@
       "srd:hexblood:darkvision",
       "srd:hexblood:eerie-token",
       "srd:hexblood:hex-magic"
-    ],
-    "choices": [
-      {
-        "id": "srd:species:hexblood:skill",
-        "name": "Skill Proficiency",
-        "count": 2,
-        "from": {
-          "kind": "skill"
-        }
-      }
     ],
     "modifiers": [
       {
@@ -10387,7 +10408,17 @@
       "human-amonkhet-trait"
     ],
     "text": "You gain proficiency in one skill of your choice.",
-    "page": "14"
+    "page": "14",
+    "choices": [
+      {
+        "id": "srd:subspecies:human-amonkhet:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:human-amonkhet:feat",
@@ -10427,14 +10458,6 @@
             "srd:ability-point:wis",
             "srd:ability-point:cha"
           ]
-        }
-      },
-      {
-        "id": "srd:subspecies:human-amonkhet:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
         }
       }
     ],
@@ -10631,7 +10654,20 @@
       "human-mark-of-making-trait"
     ],
     "text": "You gain proficiency with one type of artisan's tools of your choice.",
-    "page": "45"
+    "page": "45",
+    "choices": [
+      {
+        "id": "srd:subspecies:human-mark-of-making:tool",
+        "name": "Tool Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "tool",
+          "tags": [
+            "artisans-tools"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:human-mark-of-making:spellsmith",
@@ -10691,17 +10727,6 @@
             "srd:ability-point:con",
             "srd:ability-point:wis",
             "srd:ability-point:cha"
-          ]
-        }
-      },
-      {
-        "id": "srd:subspecies:human-mark-of-making:tool",
-        "name": "Tool Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "tool",
-          "tags": [
-            "artisans-tools"
           ]
         }
       }
@@ -10977,7 +11002,17 @@
       "human-variant-trait"
     ],
     "text": "You gain proficiency in one skill of your choice.",
-    "page": "31"
+    "page": "31",
+    "choices": [
+      {
+        "id": "srd:subspecies:human-variant:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:human-variant:feat",
@@ -11017,14 +11052,6 @@
             "srd:ability-point:wis",
             "srd:ability-point:cha"
           ]
-        }
-      },
-      {
-        "id": "srd:subspecies:human-variant:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
         }
       }
     ],
@@ -11773,7 +11800,23 @@
       "kender-trait"
     ],
     "text": "Thanks to the mystical origin of your people, you gain proficiency with one of the following skills of your choice: Insight, Investigation, Sleight of Hand, Stealth, or Survival.",
-    "page": "27"
+    "page": "27",
+    "choices": [
+      {
+        "id": "srd:species:kender:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd:skill:insight",
+            "srd:skill:investigation",
+            "srd:skill:sleight-of-hand",
+            "srd:skill:stealth",
+            "srd:skill:survival"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:kender:taunt",
@@ -11829,22 +11872,6 @@
     "fluff": "During the mythical origins of Krynn, Reorx, god of craft, indulged in an age of unfettered creation. Many peoples sprang from his divine forge, but not all among them remained as the god created them. Altered by unbridled magic, a group of gnomes were transformed and given almost supernatural curiosity and fearlessness. These were the first kender.\n\nOriginating on the world of Krynn, kender are diminutive Humanoids who look like humans with pointed ears and diverse appearances. Kender have a supernatural curiosity that drives them to adventure. Due to this inquisitiveness, many kender find themselves falling through portals to other planes and worlds.\n\nKender sometimes amass impressive collections of curiosities. Some might collect mundane knickknacks or relics from magical sites, while others might become professional thieves.",
     "page": "27",
     "x-size": "Small",
-    "choices": [
-      {
-        "id": "srd:species:kender:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd:skill:insight",
-            "srd:skill:investigation",
-            "srd:skill:sleight-of-hand",
-            "srd:skill:stealth",
-            "srd:skill:survival"
-          ]
-        }
-      }
-    ],
     "modifiers": [
       {
         "target": "speed.walk",
@@ -12365,7 +12392,22 @@
       "leonin-trait"
     ],
     "text": "You have proficiency in one of the following skills of your choice: Athletics, Intimidation, Perception, or Survival.",
-    "page": "20"
+    "page": "20",
+    "choices": [
+      {
+        "id": "srd:species:leonin:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd:skill:athletics",
+            "srd:skill:intimidation",
+            "srd:skill:perception",
+            "srd:skill:survival"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:leonin:daunting-roar",
@@ -12427,21 +12469,6 @@
       "srd:leonin:claws",
       "srd:leonin:hunters-instincts",
       "srd:leonin:daunting-roar"
-    ],
-    "choices": [
-      {
-        "id": "srd:species:leonin:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd:skill:athletics",
-            "srd:skill:intimidation",
-            "srd:skill:perception",
-            "srd:skill:survival"
-          ]
-        }
-      }
     ],
     "modifiers": [
       {
@@ -12797,7 +12824,21 @@
       "merfolk-ixalan-blue-trait"
     ],
     "text": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
-    "page": "12"
+    "page": "12",
+    "choices": [
+      {
+        "id": "srd:subspecies:merfolk-ixalan-blue:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "wizard-spell"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:merfolk-ixalan-blue:lore-of-the-waters",
@@ -12840,18 +12881,6 @@
             "standard-language"
           ]
         }
-      },
-      {
-        "id": "srd:subspecies:merfolk-ixalan-blue:known-spells",
-        "name": "Cantrip",
-        "count": 1,
-        "from": {
-          "kind": "spell",
-          "allTags": [
-            "spell-level:0",
-            "wizard-spell"
-          ]
-        }
       }
     ],
     "modifiers": [
@@ -12871,7 +12900,21 @@
       "merfolk-ixalan-green-trait"
     ],
     "text": "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.",
-    "page": "12"
+    "page": "12",
+    "choices": [
+      {
+        "id": "srd:subspecies:merfolk-ixalan-green:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "druid-spell"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:merfolk-ixalan-green:mask-of-the-wild",
@@ -12912,18 +12955,6 @@
             "standard-language"
           ]
         }
-      },
-      {
-        "id": "srd:subspecies:merfolk-ixalan-green:known-spells",
-        "name": "Cantrip",
-        "count": 1,
-        "from": {
-          "kind": "spell",
-          "allTags": [
-            "spell-level:0",
-            "druid-spell"
-          ]
-        }
       }
     ],
     "modifiers": [
@@ -12943,7 +12974,21 @@
       "merfolk-zendikar-cosi-creed-trait"
     ],
     "text": "You know one cantrip of your choice from the bard spell list. Charisma is your spellcasting ability for it.",
-    "page": "13"
+    "page": "13",
+    "choices": [
+      {
+        "id": "srd:subspecies:merfolk-zendikar-cosi-creed:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "bard-spell"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:merfolk-zendikar-cosi-creed:creed-of-the-trickster",
@@ -12974,20 +13019,6 @@
       "srd:subspecies:merfolk-zendikar-cosi-creed:cantrip",
       "srd:subspecies:merfolk-zendikar-cosi-creed:creed-of-the-trickster"
     ],
-    "choices": [
-      {
-        "id": "srd:subspecies:merfolk-zendikar-cosi-creed:known-spells",
-        "name": "Cantrip",
-        "count": 1,
-        "from": {
-          "kind": "spell",
-          "allTags": [
-            "spell-level:0",
-            "bard-spell"
-          ]
-        }
-      }
-    ],
     "modifiers": [
       {
         "target": "abilities.int.score",
@@ -13010,7 +13041,21 @@
       "merfolk-zendikar-emeria-creed-trait"
     ],
     "text": "You know one cantrip of your choice from the druid spell list. Wisdom is your spellcasting ability for it.",
-    "page": "13"
+    "page": "13",
+    "choices": [
+      {
+        "id": "srd:subspecies:merfolk-zendikar-emeria-creed:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "druid-spell"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:merfolk-zendikar-emeria-creed:wind-creed-manipulation",
@@ -13041,20 +13086,6 @@
       "srd:subspecies:merfolk-zendikar-emeria-creed:cantrip",
       "srd:subspecies:merfolk-zendikar-emeria-creed:wind-creed-manipulation"
     ],
-    "choices": [
-      {
-        "id": "srd:subspecies:merfolk-zendikar-emeria-creed:known-spells",
-        "name": "Cantrip",
-        "count": 1,
-        "from": {
-          "kind": "spell",
-          "allTags": [
-            "spell-level:0",
-            "druid-spell"
-          ]
-        }
-      }
-    ],
     "modifiers": [
       {
         "target": "abilities.wis.score",
@@ -13072,7 +13103,21 @@
       "merfolk-zendikar-ula-creed-trait"
     ],
     "text": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
-    "page": "13"
+    "page": "13",
+    "choices": [
+      {
+        "id": "srd:subspecies:merfolk-zendikar-ula-creed:known-spells",
+        "name": "Cantrip",
+        "count": 1,
+        "from": {
+          "kind": "spell",
+          "allTags": [
+            "spell-level:0",
+            "wizard-spell"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:subspecies:merfolk-zendikar-ula-creed:water-creed-navigation",
@@ -13102,20 +13147,6 @@
       "srd:tool:navigators-tools",
       "srd:subspecies:merfolk-zendikar-ula-creed:cantrip",
       "srd:subspecies:merfolk-zendikar-ula-creed:water-creed-navigation"
-    ],
-    "choices": [
-      {
-        "id": "srd:subspecies:merfolk-zendikar-ula-creed:known-spells",
-        "name": "Cantrip",
-        "count": 1,
-        "from": {
-          "kind": "spell",
-          "allTags": [
-            "spell-level:0",
-            "wizard-spell"
-          ]
-        }
-      }
     ],
     "modifiers": [
       {
@@ -13178,7 +13209,20 @@
       "minotaur-trait"
     ],
     "text": "You have proficiency in one of the following skills of your choice: Intimidation or Persuasion.",
-    "page": "18"
+    "page": "18",
+    "choices": [
+      {
+        "id": "srd:species:minotaur:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd:skill:intimidation",
+            "srd:skill:persuasion"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:species:minotaur",
@@ -13198,19 +13242,6 @@
       "srd:minotaur:goring-rush",
       "srd:minotaur:hammering-horns",
       "srd:minotaur:imposing-presence"
-    ],
-    "choices": [
-      {
-        "id": "srd:species:minotaur:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd:skill:intimidation",
-            "srd:skill:persuasion"
-          ]
-        }
-      }
     ],
     "modifiers": [
       {
@@ -13976,6 +14007,19 @@
     ],
     "text": "You have proficiency in the Performance and Persuasion skills, and you have proficiency with one musical instrument of your choice.",
     "page": "24",
+    "choices": [
+      {
+        "id": "srd:species:satyr:tool",
+        "name": "Tool Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "tool",
+          "tags": [
+            "musical-instrument"
+          ]
+        }
+      }
+    ],
     "modifiers": [
       {
         "target": "skills.performance",
@@ -14019,19 +14063,6 @@
       "srd:satyr:magic-resistance",
       "srd:satyr:mirthful-leaps",
       "srd:satyr:reveler"
-    ],
-    "choices": [
-      {
-        "id": "srd:species:satyr:tool",
-        "name": "Tool Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "tool",
-          "tags": [
-            "musical-instrument"
-          ]
-        }
-      }
     ],
     "modifiers": [
       {
@@ -16898,7 +16929,20 @@
       "verdan-trait"
     ],
     "text": "You speak, read, and write Common, Goblin, and one additional language of your choice. This language typically has some connection to one of the areas or cultures that has been part of your life.",
-    "page": "72"
+    "page": "72",
+    "choices": [
+      {
+        "id": "srd:species:verdan:language",
+        "name": "Language",
+        "count": 1,
+        "from": {
+          "kind": "language",
+          "tags": [
+            "standard-language"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd:species:verdan",
@@ -16921,19 +16965,6 @@
       "srd:verdan:persuasive",
       "srd:verdan:telepathic-insight",
       "srd:verdan:language"
-    ],
-    "choices": [
-      {
-        "id": "srd:species:verdan:language",
-        "name": "Language",
-        "count": 1,
-        "from": {
-          "kind": "language",
-          "tags": [
-            "standard-language"
-          ]
-        }
-      }
     ],
     "modifiers": [
       {
@@ -17020,7 +17051,25 @@
       "warforged-trait"
     ],
     "text": "You gain one skill proficiency and one tool proficiency of your choice.",
-    "page": "35"
+    "page": "35",
+    "choices": [
+      {
+        "id": "srd:species:warforged:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      },
+      {
+        "id": "srd:species:warforged:tool",
+        "name": "Tool Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "tool"
+        }
+      }
+    ]
   },
   {
     "id": "srd:species:warforged",
@@ -17058,14 +17107,6 @@
         }
       },
       {
-        "id": "srd:species:warforged:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
-        }
-      },
-      {
         "id": "srd:species:warforged:language",
         "name": "Language",
         "count": 1,
@@ -17074,14 +17115,6 @@
           "tags": [
             "standard-language"
           ]
-        }
-      },
-      {
-        "id": "srd:species:warforged:tool",
-        "name": "Tool Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "tool"
         }
       }
     ],

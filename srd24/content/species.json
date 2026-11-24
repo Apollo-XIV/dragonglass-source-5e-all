@@ -259,7 +259,23 @@
       "changeling-trait"
     ],
     "text": "Thanks to your connection to the fey realm, you gain proficiency in two of the following skills of your choice: Deception, Insight, Intimidation, Performance, or Persuasion.",
-    "page": "34"
+    "page": "34",
+    "choices": [
+      {
+        "id": "srd24:species:changeling:skill",
+        "name": "Skill Proficiency",
+        "count": 2,
+        "from": {
+          "ids": [
+            "srd24:skill:deception",
+            "srd24:skill:insight",
+            "srd24:skill:intimidation",
+            "srd24:skill:performance",
+            "srd24:skill:persuasion"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd24:changeling:shape-shifter",
@@ -314,20 +330,6 @@
       "srd24:changeling:shape-shifter"
     ],
     "choices": [
-      {
-        "id": "srd24:species:changeling:skill",
-        "name": "Skill Proficiency",
-        "count": 2,
-        "from": {
-          "ids": [
-            "srd24:skill:deception",
-            "srd24:skill:insight",
-            "srd24:skill:intimidation",
-            "srd24:skill:performance",
-            "srd24:skill:persuasion"
-          ]
-        }
-      },
       {
         "id": "srd24:species:changeling:language",
         "name": "Language",
@@ -1656,7 +1658,21 @@
       "elf-trait"
     ],
     "text": "You have proficiency in the Insight, Perception, or Survival skill.",
-    "page": "189"
+    "page": "189",
+    "choices": [
+      {
+        "id": "srd24:species:elf:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd24:skill:insight",
+            "srd24:skill:perception",
+            "srd24:skill:survival"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd24:elf:trance",
@@ -1690,18 +1706,6 @@
       "srd24:elf:trance"
     ],
     "choices": [
-      {
-        "id": "srd24:species:elf:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd24:skill:insight",
-            "srd24:skill:perception",
-            "srd24:skill:survival"
-          ]
-        }
-      },
       {
         "id": "srd24:species:elf:language",
         "name": "Language",
@@ -3299,7 +3303,17 @@
       "human-trait"
     ],
     "text": "You gain proficiency in one skill of your choice.",
-    "page": "194"
+    "page": "194",
+    "choices": [
+      {
+        "id": "srd24:species:human:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:human:versatile",
@@ -3310,7 +3324,20 @@
       "human-trait"
     ],
     "text": "You gain an Origin feat of your choice.",
-    "page": "194"
+    "page": "194",
+    "choices": [
+      {
+        "id": "srd24:species:human:feat",
+        "name": "Feat",
+        "count": 1,
+        "from": {
+          "kind": "feat",
+          "tags": [
+            "origin-feat"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd24:species:human",
@@ -3331,25 +3358,6 @@
       "srd24:human:versatile"
     ],
     "choices": [
-      {
-        "id": "srd24:species:human:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
-        }
-      },
-      {
-        "id": "srd24:species:human:feat",
-        "name": "Feat",
-        "count": 1,
-        "from": {
-          "kind": "feat",
-          "tags": [
-            "origin-feat"
-          ]
-        }
-      },
       {
         "id": "srd24:species:human:language",
         "name": "Language",
@@ -3788,7 +3796,20 @@
     "tags": [
       "lorwyn-changeling-trait"
     ],
-    "text": "You have proficiency in the Deception or Performance skill."
+    "text": "You have proficiency in the Deception or Performance skill.",
+    "choices": [
+      {
+        "id": "srd24:species:lorwyn-changeling:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd24:skill:deception",
+            "srd24:skill:performance"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd24:lorwyn-changeling:unpredictable-movement",
@@ -3819,17 +3840,6 @@
       "srd24:lorwyn-changeling:unpredictable-movement"
     ],
     "choices": [
-      {
-        "id": "srd24:species:lorwyn-changeling:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd24:skill:deception",
-            "srd24:skill:performance"
-          ]
-        }
-      },
       {
         "id": "srd24:species:lorwyn-changeling:language",
         "name": "Language",
@@ -3928,7 +3938,21 @@
       "lupin-trait"
     ],
     "text": "You have proficiency in the Perception, Stealth, or Survival skill.",
-    "page": "30"
+    "page": "30",
+    "choices": [
+      {
+        "id": "srd24:species:lupin:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd24:skill:perception",
+            "srd24:skill:stealth",
+            "srd24:skill:survival"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd24:species:lupin",
@@ -3950,18 +3974,6 @@
       "srd24:lupin:werewolf-instincts"
     ],
     "choices": [
-      {
-        "id": "srd24:species:lupin:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd24:skill:perception",
-            "srd24:skill:stealth",
-            "srd24:skill:survival"
-          ]
-        }
-      },
       {
         "id": "srd24:species:lupin:language",
         "name": "Language",
@@ -4158,6 +4170,16 @@
     ],
     "text": "You gain proficiency in one skill of your choice.\n\nIn addition, you can temporarily peer into the past to aid you in the present. When you fail an ability check, you can roll 1d6 and add the number rolled to the d20, potentially turning the failure into a success. You can do this a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
     "page": "31",
+    "choices": [
+      {
+        "id": "srd24:species:reborn:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      }
+    ],
     "resources": [
       {
         "id": "srd24:reborn:knowledge-from-a-past-life",
@@ -4221,14 +4243,6 @@
       "srd24:reborn:strange-endurance"
     ],
     "choices": [
-      {
-        "id": "srd24:species:reborn:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
-        }
-      },
       {
         "id": "srd24:species:reborn:resistance",
         "name": "Damage Resistance",
@@ -4408,7 +4422,22 @@
       "shifter-trait"
     ],
     "text": "Channeling the beast within, you gain proficiency in one of the following skills of your choice: Acrobatics, Athletics, Intimidation, or Survival.",
-    "page": "37"
+    "page": "37",
+    "choices": [
+      {
+        "id": "srd24:species:shifter:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "ids": [
+            "srd24:skill:acrobatics",
+            "srd24:skill:athletics",
+            "srd24:skill:intimidation",
+            "srd24:skill:survival"
+          ]
+        }
+      }
+    ]
   },
   {
     "id": "srd24:shifter:darkvision",
@@ -4482,19 +4511,6 @@
       "srd24:shifter:shifting"
     ],
     "choices": [
-      {
-        "id": "srd24:species:shifter:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "ids": [
-            "srd24:skill:acrobatics",
-            "srd24:skill:athletics",
-            "srd24:skill:intimidation",
-            "srd24:skill:survival"
-          ]
-        }
-      },
       {
         "id": "srd24:species:shifter:language",
         "name": "Language",
@@ -5238,7 +5254,25 @@
       "warforged-trait"
     ],
     "text": "You gain one skill proficiency and one tool proficiency of your choice.",
-    "page": "38"
+    "page": "38",
+    "choices": [
+      {
+        "id": "srd24:species:warforged:skill",
+        "name": "Skill Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "skill"
+        }
+      },
+      {
+        "id": "srd24:species:warforged:tool",
+        "name": "Tool Proficiency",
+        "count": 1,
+        "from": {
+          "kind": "tool"
+        }
+      }
+    ]
   },
   {
     "id": "srd24:warforged:tireless",
@@ -5272,22 +5306,6 @@
       "srd24:warforged:tireless"
     ],
     "choices": [
-      {
-        "id": "srd24:species:warforged:skill",
-        "name": "Skill Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "skill"
-        }
-      },
-      {
-        "id": "srd24:species:warforged:tool",
-        "name": "Tool Proficiency",
-        "count": 1,
-        "from": {
-          "kind": "tool"
-        }
-      },
       {
         "id": "srd24:species:warforged:language",
         "name": "Language",

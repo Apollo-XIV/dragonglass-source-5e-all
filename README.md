@@ -11,7 +11,7 @@ CC-BY; keep it to local use.
 
 Two sources, one directory each, each with its own `source.json` and `content/`:
 
-- `srd/` — the 2014 ruleset (source id `srd`), 5277 elements in 70 books
+- `srd/` — the 2014 ruleset (source id `srd`), 5293 elements in 70 books
 - `srd24/` — the 2024 ruleset (source id `srd24`), 3231 elements in 16 books
 
 Each element's `source` is the book that printed it (`xge`, `tce`, `lfl`...), one `sourcebook`

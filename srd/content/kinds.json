@@ -159,6 +159,19 @@
     "order": 123
   },
   {
+    "id": "srd:kind:ancestry",
+    "kind": "kind",
+    "name": "Ancestry",
+    "source": "phb",
+    "key": "ancestry",
+    "label": "Ancestry",
+    "plural": "Ancestries",
+    "tab": null,
+    "display": "list",
+    "browsable": true,
+    "order": 131
+  },
+  {
     "id": "srd:kind:arcane-shot",
     "kind": "kind",
     "name": "Arcane Shot",
